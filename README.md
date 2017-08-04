@@ -11,8 +11,8 @@ Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i
 [httpd](modules/httpd) module:
   * [httpd.csv](modules/httpd/httpd.csv) - List of top-level packages with rationale.
   * [x86_64](modules/httpd/x86_64) - More level of details for a specific architecture.
-  * * `complete-*` - Complete runtime dependencies. Not very usable output.
-  * * `standalone-*` - All dependencies needed to be able to run on Platform. Basically `complete - platform = standalone`.
+    * `complete-*` - Complete runtime dependencies. Not very usable output.
+    * `standalone-*` - All dependencies needed to be able to run on Platform. Basically `complete - platform = standalone`.
 
 ## Scripts
 
