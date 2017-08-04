@@ -12,5 +12,6 @@ done
 
 # Hardcoding module dependencies here.
 # FIXME: This needs to get figured out in a better way.
-echo httpd >> modules/freeipa/modular-deps.txt
+echo httpd > modules/freeipa/modular-deps.txt
+echo perl >> modules/freeipa/modular-deps.txt
 
