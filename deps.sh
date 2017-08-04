@@ -35,8 +35,16 @@ while [ -n "$modules_queue" ]; do
                     for i in $(cat modules/$module/modular-deps.txt); do
                         cat modules/$i/$arch/runtime-binary-packages-full.txt
                     done | sort | uniq -u | comm -13 - $modulearchroot/standalone-runtime-binary-packages-full.txt > $modulearchroot/runtime-binary-packages-full.txt
+
+
+                    mkdir -p $modulearchroot/deps
+                    for i in $(cat modules/$module/modular-deps.txt); do
+                        cat modules/$i/$arch/runtime-source-packages-short.txt > $modulearchroot/deps/$i-runtime-source-short.txt
+                        cat modules/$i/$arch/runtime-source-packages-full.txt > $modulearchroot/deps/$i-runtime-source-full.txt
+                        cat modules/$i/$arch/runtime-binary-packages-short.txt > $modulearchroot/deps/$i-runtime-binary-short.txt
+                        cat modules/$i/$arch/runtime-binary-packages-full.txt > $modulearchroot/deps/$i-runtime-binary-full.txt
+                    done
                 fi
-                mkdir -p $modulearchroot/deps
             done
             delete=($module)
             modules_queue=( "${modules_queue[@]/$delete}" )
