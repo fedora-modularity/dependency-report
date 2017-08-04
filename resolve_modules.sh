@@ -1,5 +1,26 @@
 #!/bin/sh
 
+
+echo "Visualizing dependencies between modules..."
+
+mkdir -p img
+> img/module-deps.dot
+echo "strict digraph G {" >> img/module-deps.dot
+echo "  node [fontname=monospace];" >> img/module-deps.dot
+
+# This part might get a bit more automated
+# and actually functional - so I'll be able to
+# define that 'freeipa' requires 'httpd' and the
+# dependency output + this graph will match that.
+echo '  "httpd" -> "hp";' >> img/module-deps.dot
+echo '  "nginx" -> "hp";' >> img/module-deps.dot
+echo '  "freeipa" -> "hp";' >> img/module-deps.dot
+
+echo "}" >> img/module-deps.dot
+
+dot -Tpng img/module-deps.dot > img/module-deps.png
+
+
 for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
     echo "Resolving $arch dependencies:"
     for module in $(ls modules); do
@@ -72,7 +93,6 @@ for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
 
     done
 done
-
 
 
 echo "Success!"

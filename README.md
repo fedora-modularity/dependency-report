@@ -14,7 +14,11 @@ Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i
     * [**standalone-runtime-source-packages-full.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform. Package names and versions.
     * [**standalone-runtime-binary-packages-short.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform. Only package names.
     * [**standalone-runtime-binary-packages-full.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform. Package names and versions.
-    * **complete-\*** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
+    * **complete-** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
+
+### Included modules
+
+![module-deps](img/module-deps.png)
 
 ## Scripts
 
