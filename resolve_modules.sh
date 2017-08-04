@@ -47,10 +47,28 @@ for module in $(ls modules); do
         sort -o hp/$arch/runtime-source-packages-short.txt hp/$arch/runtime-source-packages-short.txt
         sort -o hp/$arch/runtime-binary-packages-short.txt hp/$arch/runtime-binary-packages-short.txt
 
-        comm -12 hp/$arch/runtime-binary-packages-full.txt $modulearchroot/complete-runtime-binary-packages-full.txt > $modulearchroot/standalone-runtime-binary-packages-full.txt
-        comm -12 hp/$arch/runtime-source-packages-full.txt $modulearchroot/complete-runtime-source-packages-full.txt > $modulearchroot/standalone-runtime-source-packages-full.txt
-        comm -12 hp/$arch/runtime-binary-packages-short.txt $modulearchroot/complete-runtime-binary-packages-short.txt > $modulearchroot/standalone-runtime-binary-packages-short.txt
-        comm -12 hp/$arch/runtime-source-packages-short.txt $modulearchroot/complete-runtime-source-packages-short.txt > $modulearchroot/standalone-runtime-source-packages-short.txt
+        comm -13 hp/$arch/runtime-binary-packages-full.txt $modulearchroot/complete-runtime-binary-packages-full.txt > $modulearchroot/standalone-runtime-binary-packages-full.txt
+        comm -13 hp/$arch/runtime-source-packages-full.txt $modulearchroot/complete-runtime-source-packages-full.txt > $modulearchroot/standalone-runtime-source-packages-full.txt
+        comm -13 hp/$arch/runtime-binary-packages-short.txt $modulearchroot/complete-runtime-binary-packages-short.txt > $modulearchroot/standalone-runtime-binary-packages-short.txt
+        comm -13 hp/$arch/runtime-source-packages-short.txt $modulearchroot/complete-runtime-source-packages-short.txt > $modulearchroot/standalone-runtime-source-packages-short.txt
+
+        awk 'NR==FNR{x++} END{ if(x!=FNR){exit 1} }' $modulearchroot/standalone-runtime-binary-packages-full.txt $modulearchroot/standalone-runtime-binary-packages-short.txt
+        RC=$?
+        if [ $RC -ne 0 ]; then
+            echo "    WARNING! Different number of packages between full and short."
+            echo "      $(wc -l $modulearchroot/standalone-runtime-binary-packages-short.txt)"
+            echo "      $(wc -l $modulearchroot/standalone-runtime-binary-packages-full.txt)"
+        fi
+
+        awk 'NR==FNR{x++} END{ if(x!=FNR){exit 1} }' $modulearchroot/standalone-runtime-source-packages-full.txt $modulearchroot/standalone-runtime-source-packages-short.txt
+        RC=$?
+        if [ $RC -ne 0 ]; then
+            echo "    WARNING! Different number of packages between full and short."
+            echo "      $(wc -l $modulearchroot/standalone-runtime-source-packages-short.txt)"
+            echo "      $(wc -l $modulearchroot/standalone-runtime-source-packages-full.txt)"
+        fi
+
+        
 
     done
 done
