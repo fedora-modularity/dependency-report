@@ -2,16 +2,30 @@
 
 This repository contains scripts to generate dependencies of the initial set of modules in F27.
 
-## `clone_repos.pl`
+## Scripts
 
-TBD
+### `clone_repos.sh`
 
-## `mklists.pl`
+Clones all repos defined in `repos/repolist.txt`.
 
-Generates machine-readable lists of the top-level packages for each module on all architectures.
+```
+$ ./clone_repos.sh
+```
+
+### `generate_lists.sh`
+
+Generates machine-readable top-level package lists for modules from all repositorires.
+
+```
+$ ./generate_lists.sh
+```
+
+### `mklists.pl`
+
+Generates machine-readable top-level package lists for modules from a given repository.
 
 For example, to process modules in the `nginx` repository, run:
 
 ```
-perl mklists.pl -r repos/nginx
+$ perl mklists.pl -r repos/nginx
 ```
