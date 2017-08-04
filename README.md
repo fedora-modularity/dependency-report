@@ -10,10 +10,10 @@ Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i
 
   * [**httpd.csv**](modules/httpd/httpd.csv) - List of top-level packages with rationale. All architectures combined.
   * [**x86_64**](modules/httpd/x86_64) - More level of details for a specific architecture.
-    * [**standalone-runtime-source-packages-short.txt**](modules/httpd/86_64/standalone-runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform. Only package names.
-    * [**standalone-runtime-source-packages-full.txt**](modules/httpd/86_64/standalone-runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform. Package names and versions.
-    * [**standalone-runtime-binary-packages-short.txt**](modules/httpd/86_64/standalone-runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform. Only package names.
-    * [**standalone-runtime-binary-packages-full.txt**](modules/httpd/86_64/standalone-runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform. Package names and versions.
+    * [**standalone-runtime-source-packages-short.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform. Only package names.
+    * [**standalone-runtime-source-packages-full.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform. Package names and versions.
+    * [**standalone-runtime-binary-packages-short.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform. Only package names.
+    * [**standalone-runtime-binary-packages-full.txt**](modules/httpd/x86_64/standalone-runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform. Package names and versions.
     * **complete-\*** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
 
 ## Scripts
