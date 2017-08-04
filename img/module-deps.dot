@@ -2,8 +2,7 @@ strict digraph G {
   node [fontname=monospace];
   "freeipa" -> "hp";
   "freeipa" -> "httpd";
-  "freeipa" -> "httpd";
-  "freeipa" -> "httpd";
+  "freeipa" -> "perl";
   "httpd" -> "hp";
   "nginx" -> "hp";
   "perl" -> "hp";
