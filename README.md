@@ -2,6 +2,8 @@
 
 This repository contains scripts to generate dependencies of the initial set of modules in F27.
 
+Modules are defined in the [modularity-modules](https://github.com/modularity-modules) space. The input is taken from the respective README.md files.
+
 ## Format
 
 Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i686`, `ppc64`, `ppc64le`, `s390x`, `x86_64`. There are many files with different levels of detail. Please see the example below for more info.
