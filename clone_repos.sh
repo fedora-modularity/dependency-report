@@ -1,5 +1,6 @@
 #!/bin/sh
 
-for repo in $(cat repos/repolist.txt); do
+mkdir -p repos
+for repo in $(cat module-repolist.txt); do
   git clone https://github.com/modularity-modules/$repo.git repos/$repo
 done
