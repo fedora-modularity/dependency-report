@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo "Resolving dependencies:"
-for module in $(ls modules); do
-    for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
+for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
+    echo "Resolving $arch dependencies:"
+    for module in $(ls modules); do
 
         modulearchroot="modules/$module/$arch"
 
@@ -12,7 +12,7 @@ for module in $(ls modules); do
         > $modulearchroot/complete-runtime-binary-packages-short.txt
         > $modulearchroot/complete-runtime-source-packages-short.txt
 
-        echo "  Processing $module module for $arch..."
+        echo "  Processing $module..."
         cat $modulearchroot/toplevel-binary-packages.txt |
         xargs depchase -a $arch -c repos.cfg resolve > $modulearchroot/depchase-runtime-failures.txt
         RC=$?
