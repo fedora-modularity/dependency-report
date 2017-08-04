@@ -1,17 +1,18 @@
 #!/bin/sh
 
+echo "Resolving dependencies:"
 for module in $(ls modules); do
     for arch in x86_64 i686; do
 
         modulearchroot="modules/$module/$arch"
 
         # clear existing files
-        > $modulearchroot/runtime-binary-packages-full.txt
-        > $modulearchroot/runtime-source-packages-full.txt
-        > $modulearchroot/runtime-binary-packages-short.txt
-        > $modulearchroot/runtime-source-packages-short.txt
+        > $modulearchroot/complete-runtime-binary-packages-full.txt
+        > $modulearchroot/complete-runtime-source-packages-full.txt
+        > $modulearchroot/complete-runtime-binary-packages-short.txt
+        > $modulearchroot/complete-runtime-source-packages-short.txt
 
-        echo "Processing $module module for $arch..."
+        echo "  Processing $module module for $arch..."
         cat $modulearchroot/toplevel-binary-packages.txt |
         xargs depchase -a $arch -c repos.cfg resolve > $modulearchroot/depchase-runtime-failures.txt
         RC=$?
@@ -25,11 +26,36 @@ for module in $(ls modules); do
         while IFS= read -r nevra; do
               [[ "$nevra" == *.src || "$nevra" == *.nosrc ]] && type_="source" || type_="binary"
             name=${nevra%-*-*}
-            echo "$nevra" >> $modulearchroot/runtime-$type_-packages-full.txt
-            echo "$name" >> $modulearchroot/runtime-$type_-packages-short.txt
+            echo "$nevra" >> $modulearchroot/complete-runtime-$type_-packages-full.txt
+            echo "$name" >> $modulearchroot/complete-runtime-$type_-packages-short.txt
         done
         rm -f $modulearchroot/depchase-runtime-failures.txt
+
+        sort -o $modulearchroot/complete-runtime-binary-packages-full.txt $modulearchroot/complete-runtime-binary-packages-full.txt
+        sort -o $modulearchroot/complete-runtime-source-packages-full.txt $modulearchroot/complete-runtime-source-packages-full.txt
+        sort -o $modulearchroot/complete-runtime-binary-packages-short.txt $modulearchroot/complete-runtime-binary-packages-short.txt
+        sort -o $modulearchroot/complete-runtime-source-packages-short.txt $modulearchroot/complete-runtime-source-packages-short.txt
+
+        # clear existing files
+        > $modulearchroot/standalone-runtime-binary-packages-full.txt
+        > $modulearchroot/standalone-runtime-source-packages-full.txt
+        > $modulearchroot/standalone-runtime-binary-packages-short.txt
+        > $modulearchroot/standalone-runtime-source-packages-short.txt
+
+        sort -o hp/$arch/runtime-source-packages-full.txt hp/$arch/runtime-source-packages-full.txt
+        sort -o hp/$arch/runtime-binary-packages-full.txt hp/$arch/runtime-binary-packages-full.txt
+        sort -o hp/$arch/runtime-source-packages-short.txt hp/$arch/runtime-source-packages-short.txt
+        sort -o hp/$arch/runtime-binary-packages-short.txt hp/$arch/runtime-binary-packages-short.txt
+
+        comm -12 hp/$arch/runtime-binary-packages-full.txt $modulearchroot/complete-runtime-binary-packages-full.txt > $modulearchroot/standalone-runtime-binary-packages-full.txt
+        comm -12 hp/$arch/runtime-source-packages-full.txt $modulearchroot/complete-runtime-source-packages-full.txt > $modulearchroot/standalone-runtime-source-packages-full.txt
+        comm -12 hp/$arch/runtime-binary-packages-short.txt $modulearchroot/complete-runtime-binary-packages-short.txt > $modulearchroot/standalone-runtime-binary-packages-short.txt
+        comm -12 hp/$arch/runtime-source-packages-short.txt $modulearchroot/complete-runtime-source-packages-short.txt > $modulearchroot/standalone-runtime-source-packages-short.txt
+
     done
 done
+
+
+
 echo "Success!"
 
