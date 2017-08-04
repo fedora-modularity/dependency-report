@@ -14,6 +14,7 @@ Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i
     * [**runtime-source-packages-full.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform and modular dependencies. Full package names and versions in the NEVRA format.
     * [**runtime-binary-packages-short.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform and modular dependencies. Only package names.
     * [**runtime-binary-packages-full.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform and modular dependencies. Full package names and versions in the NEVRA format.
+    * **standalone-** - All binary RPM dependencies excluding Platform only.
     * **complete-** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
 
 ### Covered modules and their dependencies
