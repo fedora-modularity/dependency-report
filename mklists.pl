@@ -23,17 +23,17 @@ my %arches = map { $_ => 1 }
     qw/aarch64 armv7hl i686 ppc64 ppc64le x86_64 s390x/;
 
 sub HELP_MESSAGE {
-    print "Usage: mklists.pl -m MODULE_NAME\n";
+    print "Usage: mklists.pl -r REPO_NAME\n";
     print "Select what module lists should be generated.\n";
     exit;
 }
 
 my %opts;
-getopts('m:', \%opts);
-my $repo = $opts{m} or HELP_MESSAGE;
+getopts('r:', \%opts);
+my $repo = $opts{r} or HELP_MESSAGE;
 
 
-open my $fh, '<', '$repo/README.md';
+open my $fh, '<', "${repo}/README.md";
 while (<$fh>) {
     chomp;
     if (/^#{3}\s\`(?<module>[^`]+)\`$/) {
@@ -91,11 +91,13 @@ while (<$fh>) {
 }
 close $fh;
 
+mkdir "modules" unless -d "modules";
+
 for my $module (keys %modules) {
-    mkdir $module unless -d $module;
+    mkdir "modules/${module}" unless -d "modules/${module}";
     for my $arch (keys %arches) {
-        mkdir "${module}/${arch}" unless -d "${module}/${arch}";
-        open $fh, '>', "${module}/${arch}/toplevel-binary-packages.txt";
+        mkdir "modules/${module}/${arch}" unless -d "modules/${module}/${arch}";
+        open $fh, '>', "modules/${module}/${arch}/toplevel-binary-packages.txt";
         for my $pkg (keys %{ $modules{$module} } ) {
             next if @{ $modules{$module}->{$pkg}->{arches} } and
                     not ($arch ~~ $modules{$module}->{$pkg}->{arches});
@@ -111,5 +113,5 @@ for $module (keys %modules) {
             { [ $_, $modules{$module}->{$_}->{rationale} ] }
             sort keys %{ $modules{$module} }
         ],
-        out => "${module}/${module}.csv";
+        out => "modules/${module}/${module}.csv";
 }
