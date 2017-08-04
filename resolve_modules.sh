@@ -2,7 +2,7 @@
 
 echo "Resolving dependencies:"
 for module in $(ls modules); do
-    for arch in x86_64 i686; do
+    for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
 
         modulearchroot="modules/$module/$arch"
 
