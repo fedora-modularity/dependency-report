@@ -44,7 +44,7 @@ $ cd depchase
 $ python3 setup.py install --user
 ```
 
-Download the right repodata locally to do the depchasing:
+Download the right **repodata locally** to do the depchasing:
 
 ```
 $ git clone https://github.com/fedora-modularity/baseruntime-package-lists
