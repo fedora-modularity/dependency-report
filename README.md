@@ -4,7 +4,9 @@ This repository contains scripts to generate dependencies of the initial set of 
 
 ## Input
 
-**Modules are defined in [modularity-modules](https://github.com/modularity-modules) repositories** in the `README.md` files. The **[module-repolist.txt](module-repolist.txt) file defines which repositories** get processed.
+Modules are **defined in [modularity-modules](https://github.com/modularity-modules) repositories** in the `README.md` files. 
+
+The [module-repolist.txt](module-repolist.txt) file defines which repositories get processed.
 
 ## Output
 
