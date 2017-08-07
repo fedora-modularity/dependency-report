@@ -10,7 +10,7 @@ The [module-repolist.txt](module-repolist.txt) file defines which repositories g
 
 ## Output
 
-**Output is stored in the [modules directory](modules).**
+**Output is stored in the [modules](modules) directory.**
 
 Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i686`, `ppc64`, `ppc64le`, `s390x`, `x86_64`. There are many files with different levels of detail. Please see the example below for more info.
 
