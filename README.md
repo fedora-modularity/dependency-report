@@ -14,16 +14,23 @@ Right now, the **following modules are included**. This image is automatically g
 
 ![module-deps](img/module-deps.png)
 
-### Example: [httpd](modules/httpd) module
+### Structure
 
-  * [**httpd.csv**](modules/httpd/httpd.csv) - List of top-level packages with rationale. All architectures combined.
-  * [**x86_64**](modules/httpd/x86_64) - More level of details for a specific architecture.
-    * [**runtime-source-packages-short.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform and modular dependencies. Only package names.
-    * [**runtime-source-packages-full.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform and modular dependencies. Full package names and versions in the NEVRA format.
-    * [**runtime-binary-packages-short.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform and modular dependencies. Only package names.
-    * [**runtime-binary-packages-full.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform and modular dependencies. Full package names and versions in the NEVRA format.
-    * **standalone-runtime-** - All binary RPM dependencies excluding Platform only.
-    * **complete-runtime-** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
+#### Three major groups
+
+* module/arch/**runtime**-...txt - All source SRPM dependencies excluding Platform and modular dependencies.
+* module/arch/**standalone-runtime**-...txt - All binary RPM dependencies excluding Platform only.
+* module/arch/**complete-runtime**-...txt - Complete runtime dependencies. Not very usable output.
+
+#### Binary RPM vs. source SRPM
+
+* module/arch/...-**source**-...txt** - Source SRPM packages.
+* module/arch/...-**binary**-...txt** - Binary RPM packages.
+
+#### Names only vs. NEVRA
+
+* module/arch/...-**full**.txt - Full package names and versions in the NEVRA format.
+* module/arch/...-**short**.txt - Only package names.
 
 ## Scripts
 
