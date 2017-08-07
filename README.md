@@ -18,19 +18,19 @@ Right now, the **following modules are included**. This image is automatically g
 
 #### Three major groups
 
-* *module/arch/**runtime**-...txt* - All source SRPM dependencies excluding Platform and modular dependencies.
-* *module/arch/**standalone-runtime**-...txt* - All binary RPM dependencies excluding Platform only.
-* *module/arch/**complete-runtime**-...txt* - Complete runtime dependencies. Not very usable output.
+* module/arch/**runtime-...txt** - All source SRPM dependencies excluding Platform and modular dependencies.
+* module/arch/**standalone-runtime-...txt** - All binary RPM dependencies excluding Platform only.
+* module/arch/**complete-runtime-...txt** - Complete runtime dependencies. Not very usable output.
 
 #### Binary RPM vs. source SRPM
 
-* *module/arch/...-**source**-...txt*** - Source SRPM packages.
-* *module/arch/...-**binary**-...txt*** - Binary RPM packages.
+* module/arch/**...-source-...txt** - Source SRPM packages.
+* module/arch/**...-binary-...txt** - Binary RPM packages.
 
 #### Names only vs. NEVRA
 
-* *module/arch/...-**full**.txt* - Full package names and versions in the NEVRA format.
-* *module/arch/...-**short**.txt* - Only package names.
+* module/arch/**...-full.txt** - Full package names and versions in the NEVRA format.
+* module/arch/**...-short.txt** - Only package names.
 
 ## Scripts
 
