@@ -34,6 +34,34 @@ Right now, the **following modules are included**. This image is automatically g
 
 ## Scripts
 
+### 0. Get dependencies 
+
+These scripts require you to have **depchase** installed:
+
+```
+$ git clone https://github.com/fedora-modularity/depchase.git
+$ cd depchase
+$ python3 setup.py install --user
+```
+
+Download the right repodata locally to do the depchasing:
+
+```
+$ git clone https://github.com/fedora-modularity/baseruntime-package-lists
+$ cd baseruntime-package-lists
+$ make repo/devel
+```
+
+Add a `repos.cfg` to this `dependency-report` repository. You can find it in the `baseruntime-package-lists` repo:
+
+```
+$ ls 
+baseruntime-package-lists    dependency-report
+$ cp baseruntime-package-lists/repo/Fedora-devel-GA-repos.cfg dependency-report/repos.cfg
+```
+
+Now you can run all the scripts in this repo.
+
 ### 1. Get the module definitions
 
 Clones all [modularity-modules](https://github.com/modularity-modules) repos listed in `repos/repolist.txt`. These repositories define the top-level package sets and are owned by the module maintainers.
