@@ -20,7 +20,7 @@ Right now, the **following modules are included**. This image is automatically g
 
 * module/arch/**runtime-...txt** - All runtime dependencies excluding Platform and modular dependencies.
 * module/arch/**standalone-runtime-...txt** - All runtime dependencies excluding Platform only.
-* module/arch/**complete-runtime-...txt** - Complete runtime dependencies. Not very usable output.
+* module/arch/**complete-runtime-...txt** - All runtime dependencies. Not very usable output.
 
 #### Binary RPM vs. source SRPM
 
