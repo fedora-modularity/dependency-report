@@ -2,7 +2,9 @@
 
 This repository contains scripts to generate dependencies of the initial set of modules in F27.
 
-Modules are defined in the [modularity-modules](https://github.com/modularity-modules) space. The input is taken from the respective README.md files.
+## Input
+
+**Modules are defined in [modularity-modules](https://github.com/modularity-modules) repositories** in the `README.md` files. The **[module-repolist.txt](module-repolist.txt) file defines which repositories** get processed.
 
 ## Output
 
