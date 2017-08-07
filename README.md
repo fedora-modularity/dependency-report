@@ -4,9 +4,15 @@ This repository contains scripts to generate dependencies of the initial set of 
 
 Modules are defined in the [modularity-modules](https://github.com/modularity-modules) space. The input is taken from the respective README.md files.
 
-## Format
+## Output
+
+Output is stored in the [modules directory](modules).
 
 Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i686`, `ppc64`, `ppc64le`, `s390x`, `x86_64`. There are many files with different levels of detail. Please see the example below for more info.
+
+Right now, the **following modules are included**. This image is automatically generated each time the scripts are run.
+
+![module-deps](img/module-deps.png)
 
 ### Example: [httpd](modules/httpd) module
 
@@ -16,12 +22,8 @@ Module dependencies are resolved for all architectures: `aarch64`, `armv7hl`, `i
     * [**runtime-source-packages-full.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All source SRPM dependencies excluding Platform and modular dependencies. Full package names and versions in the NEVRA format.
     * [**runtime-binary-packages-short.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform and modular dependencies. Only package names.
     * [**runtime-binary-packages-full.txt**](modules/httpd/x86_64/runtime-source-packages-short.txt) - All binary RPM dependencies excluding Platform and modular dependencies. Full package names and versions in the NEVRA format.
-    * **standalone-** - All binary RPM dependencies excluding Platform only.
-    * **complete-** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
-
-### Covered modules and their dependencies
-
-![module-deps](img/module-deps.png)
+    * **standalone-runtime-** - All binary RPM dependencies excluding Platform only.
+    * **complete-runtime-** - Complete runtime dependencies. Not very usable output. Substracting the Platform packages from this results in the standalone sets.
 
 ## Scripts
 
@@ -51,8 +53,16 @@ $ ./get_hp.sh
 
 ### 4. Generate deps for all modules
 
-Generate the `complete-*` and `standalone-*` package lists for all modules on all architectures. 
+Generate the `complete-runtime-*` and `standalone-runtime-*` package lists for all modules on all architectures. 
 
 ```
 $ ./resolve_modules.sh
+```
+
+### 5. Figure out dependencies
+
+Generate the `rumtime-*` package lists for all modules on all architectures.
+
+```
+$ ./deps.sh
 ```
