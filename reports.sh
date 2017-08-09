@@ -10,7 +10,7 @@ for module in $(ls modules); do
         done
         echo "## Binary packages (all arches combined)"
         for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
-            echo "* [$pkg]"
+            echo "* \`$pkg\`"
         done
     } > modules/$module/README.md
 done
