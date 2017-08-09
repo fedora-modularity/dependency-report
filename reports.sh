@@ -51,7 +51,7 @@ EOF
     components:
     rpms:
 EOF
-        for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
+        for pkg in $(cat modules/$module/all/runtime-source-packages-short.txt); do
             echo "            $pkg:"
             echo "                rationale: Generated."
             echo "                ref: master."
