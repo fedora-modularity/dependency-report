@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cp -r hp modules/platform
+echo "" > modules/platform/modular-deps.txt
 
 for module in $(ls modules); do
     for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
