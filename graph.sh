@@ -12,8 +12,6 @@ for module in $(ls modules); do
             > modules/$module/$arch/relations-runtime.txt
 
         {
-            echo "strict digraph G {"
-            echo "node [fontname=monospace];"
             pkg=NONE
             while read line; do
                 if [[ $line == ├─* ]] || [[ $line == └─* ]] ; then
@@ -23,8 +21,11 @@ for module in $(ls modules); do
                     pkg=$line
                 fi
             done < modules/$module/$arch/relations-runtime.txt
-            echo "}"
-        } > modules/$module/$arch/graph.dot
+        } | sort -u > modules/$module/$arch/graph.txt
+        echo "strict digraph G {" > modules/$module/$arch/graph.dot
+        echo "node [fontname=monospace];" >> modules/$module/$arch/graph.dot
+        cat modules/$module/$arch/graph.txt >> modules/$module/$arch/graph.dot
+        echo "}" >> modules/$module/$arch/graph.dot
         START=7; cat modules/$module/$arch/graph.dot \
             | sfdp -Gstart=$START -Goverlap=prism \
             | gvmap -e -d $START \

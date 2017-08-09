@@ -1,24 +1,20 @@
 strict digraph G {
 node [fontname=monospace];
-  "rubygem-bundler" -> "rubypick";
   "rubygem-bundler" -> "rubygem-io-console";
   "rubygem-bundler" -> "rubygems";
-  "ruby" -> "rubypick";
-  "ruby" -> "ruby-libs";
-  "ruby" -> "ruby-libs";
-  "rubygem-io-console" -> "ruby-libs";
-  "rubygem-io-console" -> "ruby-libs";
+  "rubygem-bundler" -> "rubypick";
   "rubygem-io-console" -> "rubygems";
-  "rubypick" -> "ruby";
-  "rubygems" -> "ruby-libs";
-  "rubygems" -> "rubypick";
-  "rubygems" -> "rubygem-openssl";
-  "rubygems" -> "rubygem-psych";
-  "rubygem-openssl" -> "ruby-libs";
-  "rubygem-openssl" -> "ruby-libs";
+  "rubygem-io-console" -> "ruby-libs";
   "rubygem-openssl" -> "rubygems";
-  "rubygem-psych" -> "ruby-libs";
-  "rubygem-psych" -> "ruby-libs";
+  "rubygem-openssl" -> "ruby-libs";
   "rubygem-psych" -> "libyaml";
   "rubygem-psych" -> "rubygems";
+  "rubygem-psych" -> "ruby-libs";
+  "rubygems" -> "rubygem-openssl";
+  "rubygems" -> "rubygem-psych";
+  "rubygems" -> "ruby-libs";
+  "rubygems" -> "rubypick";
+  "rubypick" -> "ruby";
+  "ruby" -> "ruby-libs";
+  "ruby" -> "rubypick";
 }
