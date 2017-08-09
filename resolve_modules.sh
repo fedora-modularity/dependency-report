@@ -1,6 +1,8 @@
 #!/bin/sh
 
 
+rm -rf modules/platform
+
 echo "Visualizing dependencies between modules..."
 
 mkdir -p img
@@ -19,6 +21,7 @@ echo "}" >> img/module-deps.dot
 
 dot -Tpng img/module-deps.dot > img/module-deps.png
 
+
 # Resolving complete dependencies using depchase
 for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
     echo "Resolving $arch dependencies:"
@@ -33,8 +36,14 @@ for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
         > $modulearchroot/complete-runtime-source-packages-short.txt
 
         echo "  Processing $module..."
+        hintsfile="hp/$arch/hints.txt"
+        hints=""
+        while read hint; do
+            hints+="--hint $hint "
+        done < $hintsfile
+
         cat $modulearchroot/toplevel-binary-packages.txt |
-        xargs depchase -a $arch -c repos.cfg resolve > $modulearchroot/depchase-runtime-failures.txt
+        xargs depchase -a $arch -c repos.cfg resolve $hints > $modulearchroot/depchase-runtime-failures.txt
         RC=$?
         if [ $RC -ne 0 ]; then
             echo "Depchase failures encountered on $arch runtime:"
