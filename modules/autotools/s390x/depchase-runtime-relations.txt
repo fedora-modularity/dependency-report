@@ -1,0 +1,727 @@
+INFO:depchase:DEPENDENCY INFORMATION                                                          
+INFO                                           MATCH
+autoconf-2.69-24.fc26.noarch                   
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─/usr/bin/perl                                perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(Getopt::Long)                           perl-Getopt-Long-1:2.50-2.fc27.noarch
+├─perl(File::Spec)                             perl-PathTools-3.67-393.fc27.s390x
+├─perl(POSIX)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Data::Dumper)                           perl-Data-Dumper-2.167-394.fc27.s390x
+├─perl(Cwd)                                    perl-PathTools-3.67-393.fc27.s390x
+├─perl(DynaLoader)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Path)                             perl-File-Path-2.14-1.fc27.noarch
+├─perl(IO::File)                               perl-IO-1.38-395.fc27.s390x
+├─perl(File::Copy)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Find)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Errno)                                  perl-Errno-1.28-395.fc27.s390x
+├─perl(Text::ParseWords)                       perl-Text-ParseWords-3.30-393.fc27.noarch
+├─perl(File::stat)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─emacs-filesystem                             emacs-filesystem-1:25.2-2.fc27.noarch
+├─perl(Class::Struct)                          perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Compare)                          perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+└─m4 >= 1.4.14                                 m4-1.4.18-3.fc26.s390x
+libtool-2.4.6-18.fc27.s390x                    
+├─sed                                          sed-4.4-1.fc26.s390x
+├─tar                                          tar-2:1.29-4.fc26.s390x
+├─findutils                                    findutils-1:4.6.0-12.fc27.s390x
+├─automake                                     automake-1.15-9.fc26.noarch
+├─autoconf                                     autoconf-2.69-24.fc26.noarch
+└─gcc(major) = 7                               gcc-7.1.1-6.fc27.s390x
+automake-1.15-9.fc26.noarch                    
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─/usr/bin/perl                                perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(Getopt::Long)                           perl-Getopt-Long-1:2.50-2.fc27.noarch
+├─perl(File::Spec)                             perl-PathTools-3.67-393.fc27.s390x
+├─perl(POSIX)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(DynaLoader)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Path)                             perl-File-Path-2.14-1.fc27.noarch
+├─perl(IO::File)                               perl-IO-1.38-395.fc27.s390x
+├─perl(File::Copy)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Errno)                                  perl-Errno-1.28-395.fc27.s390x
+├─perl(File::stat)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(threads)                                perl-threads-1:2.16-2.fc27.s390x
+├─perl(Class::Struct)                          perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Compare)                          perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Thread::Queue)                          perl-Thread-Queue-3.12-393.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+└─autoconf >= 2.65                             autoconf-2.69-24.fc26.noarch
+bash-4.4.12-6.fc27.s390x                       
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.15)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libtinfo.so.6()(64bit)                       ncurses-libs-6.0-10.20170520.fc27.s390x
+└─filesystem >= 3                              filesystem-3.3-1.fc27.s390x
+emacs-filesystem-1:25.2-2.fc27.noarch          
+info-6.4-3.fc27.s390x                          
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libz.so.1()(64bit)                           zlib-1.2.11-2.fc26.s390x
+├─libc.so.6(GLIBC_2.15)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─libtinfo.so.6()(64bit)                       ncurses-libs-6.0-10.20170520.fc27.s390x
+m4-1.4.18-3.fc26.s390x                         
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.25.90-27.fc27.s390x
+perl-Carp-1.42-393.fc27.noarch                 
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+perl-Data-Dumper-2.167-394.fc27.s390x          
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(Scalar::Util)                           perl-Scalar-List-Utils-3:1.48-1.fc27.s390x
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(bytes)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(B::Deparse)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-Errno-1.28-395.fc27.s390x                 
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+└─perl-libs(s390-64) = 4:5.26.0-395.fc27       perl-libs-4:5.26.0-395.fc27.s390x
+perl-Exporter-5.72-394.fc27.noarch             
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(Carp) >= 1.05                           perl-Carp-1.42-393.fc27.noarch
+perl-File-Path-2.14-1.fc27.noarch              
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Spec)                             perl-PathTools-3.67-393.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Cwd)                                    perl-PathTools-3.67-393.fc27.s390x
+└─perl(:VERSION) >= 5.5.0                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-Getopt-Long-1:2.50-2.fc27.noarch          
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(overload)                               perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Text::ParseWords)                       perl-Text-ParseWords-3.30-393.fc27.noarch
+├─perl(:VERSION) >= 5.4.0                      perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(Pod::Usage) >= 1.14                     perl-Pod-Usage-4:1.69-393.fc27.noarch
+perl-IO-1.38-395.fc27.s390x                    
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(File::Spec)                             perl-PathTools-3.67-393.fc27.s390x
+├─perl(Fcntl)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Symbol)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Errno)                                  perl-Errno-1.28-395.fc27.s390x
+├─perl(File::stat)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(warnings::register)                     perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Tie::Hash)                              perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(SelectSaver)                            perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(Socket) >= 1.3                          perl-Socket-4:2.024-3.fc27.s390x
+perl-PathTools-3.67-393.fc27.s390x             
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(Scalar::Util)                           perl-Scalar-List-Utils-3:1.48-1.fc27.s390x
+└─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+perl-Text-ParseWords-3.30-393.fc27.noarch      
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+└─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-constant-1.33-394.fc27.noarch             
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(warnings::register)                     perl-interpreter-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.8.0                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-interpreter-4:5.26.0-395.fc27.s390x       
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0()(64bit)                     glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─libutil.so.1()(64bit)                        glibc-2.25.90-27.fc27.s390x
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(File::Spec)                             perl-PathTools-3.67-393.fc27.s390x
+├─libcrypt.so.1()(64bit)                       libcrypt-2.25.90-27.fc27.s390x
+├─libresolv.so.2()(64bit)                      glibc-2.25.90-27.fc27.s390x
+├─perl(Cwd)                                    perl-PathTools-3.67-393.fc27.s390x
+├─libnsl.so.1()(64bit)                         glibc-2.25.90-27.fc27.s390x
+├─perl(File::Path)                             perl-File-Path-2.14-1.fc27.noarch
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(IO::File)                               perl-IO-1.38-395.fc27.s390x
+├─perl(parent)                                 perl-parent-1:0.236-393.fc27.noarch
+├─perl(utf8)                                   perl-libs-4:5.26.0-395.fc27.s390x
+├─libm.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(File::Spec::Functions)                  perl-PathTools-3.67-393.fc27.s390x
+├─perl(integer)                                perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Text::Wrap)                             perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch
+├─libm.so.6(GLIBC_2.23)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libgdbm.so.4()(64bit)                        gdbm-1.13-1.fc27.s390x
+├─perl(re)                                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(threads)                                perl-threads-1:2.16-2.fc27.s390x
+├─perl(threads::shared)                        perl-threads-shared-1.57-2.fc27.s390x
+├─perl(Text::Tabs)                             perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch
+├─perl(Unicode::Normalize)                     perl-Unicode-Normalize-1.25-393.fc27.s390x
+├─libgdbm_compat.so.4()(64bit)                 gdbm-1.13-1.fc27.s390x
+├─perl(unicore::Name)                          perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.8.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.5.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.0.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.10.1                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.3.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.7.3                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Scalar::Util) >= 1.10                   perl-Scalar-List-Utils-3:1.48-1.fc27.s390x
+├─perl(:VERSION) >= 5.7.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl-libs(s390-64) = 4:5.26.0-395.fc27       perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.24.0                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.9.1                      perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.9.4                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-libs-4:5.26.0-395.fc27.s390x              
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0()(64bit)                     glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)            glibc-2.25.90-27.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.11)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libutil.so.1()(64bit)                        glibc-2.25.90-27.fc27.s390x
+├─libcrypt.so.1()(64bit)                       libcrypt-2.25.90-27.fc27.s390x
+├─libresolv.so.2()(64bit)                      glibc-2.25.90-27.fc27.s390x
+├─libnsl.so.1()(64bit)                         glibc-2.25.90-27.fc27.s390x
+├─libcrypt.so.1(GLIBC_2.2)(64bit)              libcrypt-2.25.90-27.fc27.s390x
+└─libm.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+findutils-1:4.6.0-12.fc27.s390x                
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─libselinux.so.1()(64bit)                     libselinux-2.6-6.fc27.s390x
+sed-4.4-1.fc26.s390x                           
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.7)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libselinux.so.1()(64bit)                     libselinux-2.6-6.fc27.s390x
+├─libacl.so.1()(64bit)                         libacl-2.2.52-16.fc27.s390x
+└─libacl.so.1(ACL_1.0)(64bit)                  libacl-2.2.52-16.fc27.s390x
+tar-2:1.29-4.fc26.s390x                        
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libselinux.so.1()(64bit)                     libselinux-2.6-6.fc27.s390x
+├─libacl.so.1()(64bit)                         libacl-2.2.52-16.fc27.s390x
+└─libacl.so.1(ACL_1.0)(64bit)                  libacl-2.2.52-16.fc27.s390x
+perl-Thread-Queue-3.12-393.fc27.noarch         
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Scalar::Util) >= 1.10                   perl-Scalar-List-Utils-3:1.48-1.fc27.s390x
+└─perl(threads::shared) >= 1.21                perl-threads-shared-1.57-2.fc27.s390x
+perl-threads-1:2.16-2.fc27.s390x               
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0()(64bit)                     glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)            glibc-2.25.90-27.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(overload)                               perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.8.0                      perl-libs-4:5.26.0-395.fc27.s390x
+filesystem-3.3-1.fc27.s390x                    
+└─/bin/sh                                      bash-4.4.12-6.fc27.s390x
+ncurses-libs-6.0-10.20170520.fc27.s390x        
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.16)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─ncurses-base = 6.0-10.20170520.fc27          ncurses-base-6.0-10.20170520.fc27.noarch
+zlib-1.2.11-2.fc26.s390x                       
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+perl-Scalar-List-Utils-3:1.48-1.fc27.s390x     
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+perl-Pod-Usage-4:1.69-393.fc27.noarch          
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─/usr/bin/perl                                perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Getopt::Long)                           perl-Getopt-Long-1:2.50-2.fc27.noarch
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl-Pod-Perldoc                             perl-Pod-Perldoc-3.28-394.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(File::Spec) >= 0.82                     perl-PathTools-3.67-393.fc27.s390x
+└─perl(Pod::Text) >= 4                         perl-podlators-4.09-393.fc27.noarch
+perl-Socket-4:2.024-3.fc27.s390x               
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(warnings::register)                     perl-interpreter-4:5.26.0-395.fc27.s390x
+gdbm-1.13-1.fc27.s390x                         
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.7)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libtinfo.so.6()(64bit)                       ncurses-libs-6.0-10.20170520.fc27.s390x
+├─libncurses.so.6()(64bit)                     ncurses-libs-6.0-10.20170520.fc27.s390x
+└─libreadline.so.7()(64bit)                    readline-7.0-5.fc26.s390x
+perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch  
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(warnings::register)                     perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(re)                                     perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.10.0                     perl-libs-4:5.26.0-395.fc27.s390x
+perl-Unicode-Normalize-1.25-393.fc27.s390x     
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(DynaLoader)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-macros-4:5.26.0-395.fc27.s390x            
+└─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+perl-parent-1:0.236-393.fc27.noarch            
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+perl-threads-shared-1.57-2.fc27.s390x          
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0()(64bit)                     glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)            glibc-2.25.90-27.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)          glibc-2.25.90-27.fc27.s390x
+├─perl(Scalar::Util)                           perl-Scalar-List-Utils-3:1.48-1.fc27.s390x
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.8.0                      perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(threads) >= 1.73                        perl-threads-1:2.16-2.fc27.s390x
+libselinux-2.6-6.fc27.s390x                    
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.8)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1(GLIBC_2.3)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libpcre.so.1()(64bit)                        pcre-8.41-1.fc27.s390x
+├─libsepol.so.1()(64bit)                       libsepol-2.6-1.fc26.s390x
+├─pcre                                         pcre-8.41-1.fc27.s390x
+├─libsepol.so.1(LIBSEPOL_1.0)(64bit)           libsepol-2.6-1.fc26.s390x
+└─libsepol(s390-64) >= 2.6-0                   libsepol-2.6-1.fc26.s390x
+setup-2.10.5-2.fc26.noarch                     
+└─system-release                               fedora-release-27-0.2.noarch
+ncurses-base-6.0-10.20170520.fc27.noarch       
+perl-Pod-Perldoc-3.28-394.fc27.noarch          
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─/usr/bin/perl                                perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Encode)                                 perl-Encode-4:2.91-11.fc27.s390x
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Fcntl)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(parent)                                 perl-parent-1:0.236-393.fc27.noarch
+├─perl(IO::Handle)                             perl-IO-1.38-395.fc27.s390x
+├─perl(Symbol)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Spec::Functions)                  perl-PathTools-3.67-393.fc27.s390x
+├─perl(IO::Select)                             perl-IO-1.38-395.fc27.s390x
+├─perl(Text::ParseWords)                       perl-Text-ParseWords-3.30-393.fc27.noarch
+├─perl(IPC::Open3)                             perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(HTTP::Tiny)                             perl-HTTP-Tiny-0.070-393.fc27.noarch
+├─groff-base                                   groff-base-1.22.3-9.fc26.s390x
+├─perl(Pod::Text)                              perl-podlators-4.09-393.fc27.noarch
+├─perl(Pod::Simple::Checker)                   perl-Pod-Simple-1:3.35-393.fc27.noarch
+├─perl(Pod::Text::Color)                       perl-podlators-4.09-393.fc27.noarch
+├─perl(Pod::Text::Termcap)                     perl-podlators-4.09-393.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.0.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(File::Temp) >= 0.22                     perl-File-Temp-0.230.400-393.fc27.noarch
+├─perl(Pod::Man) >= 2.18                       perl-podlators-4.09-393.fc27.noarch
+├─perl(Pod::Simple::RTF) >= 3.16               perl-Pod-Simple-1:3.35-393.fc27.noarch
+└─perl(Pod::Simple::XMLOutStream) >= 3.16      perl-Pod-Simple-1:3.35-393.fc27.noarch
+perl-podlators-4.09-393.fc27.noarch            
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─/usr/bin/perl                                perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Getopt::Long)                           perl-Getopt-Long-1:2.50-2.fc27.noarch
+├─perl(POSIX)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Encode)                                 perl-Encode-4:2.91-11.fc27.s390x
+├─perl(Pod::Usage)                             perl-Pod-Usage-4:1.69-393.fc27.noarch
+├─perl(Term::ANSIColor)                        perl-Term-ANSIColor-4.06-394.fc27.noarch
+├─perl(subs)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Term::Cap)                              perl-Term-Cap-1.17-393.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(File::Spec) >= 0.8                      perl-PathTools-3.67-393.fc27.s390x
+└─perl(Pod::Simple) >= 3.06                    perl-Pod-Simple-1:3.35-393.fc27.noarch
+readline-7.0-5.fc26.s390x                      
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─/sbin/ldconfig                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.15)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─libtinfo.so.6()(64bit)                       ncurses-libs-6.0-10.20170520.fc27.s390x
+libsepol-2.6-1.fc26.s390x                      
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─/sbin/ldconfig                               glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.8)(64bit)                  glibc-2.25.90-27.fc27.s390x
+pcre-8.41-1.fc27.s390x                         
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+groff-base-1.22.3-9.fc26.s390x                 
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─/bin/sh                                      bash-4.4.12-6.fc27.s390x
+├─libgcc_s.so.1()(64bit)                       libgcc-7.1.1-6.fc27.s390x
+├─libstdc++.so.6()(64bit)                      libstdc++-7.1.1-6.fc27.s390x
+├─libstdc++.so.6(CXXABI_1.3)(64bit)            libstdc++-7.1.1-6.fc27.s390x
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)           libstdc++-7.1.1-6.fc27.s390x
+├─libgcc_s.so.1(GCC_3.0)(64bit)                libgcc-7.1.1-6.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libstdc++.so.6(CXXABI_1.3.9)(64bit)          libstdc++-7.1.1-6.fc27.s390x
+├─libstdc++.so.6(CXXABI_1.3.8)(64bit)          libstdc++-7.1.1-6.fc27.s390x
+└─/usr/bin/sed                                 sed-4.4-1.fc26.s390x
+perl-Encode-4:2.91-11.fc27.s390x               
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─/usr/bin/perl                                perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(Getopt::Long)                           perl-Getopt-Long-1:2.50-2.fc27.noarch
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(overload)                               perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(utf8)                                   perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(MIME::Base64)                           perl-MIME-Base64-3.15-393.fc27.s390x
+├─perl(Storable)                               perl-Storable-1:2.62-393.fc27.s390x
+├─perl(Getopt::Std)                            perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(bytes)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(re)                                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.8.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.8.1                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter) >= 5.57                       perl-Exporter-5.72-394.fc27.noarch
+└─perl(parent) >= 0.221                        perl-parent-1:0.236-393.fc27.noarch
+perl-File-Temp-0.230.400-393.fc27.noarch       
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+├─perl(Scalar::Util)                           perl-Scalar-List-Utils-3:1.48-1.fc27.s390x
+├─perl(POSIX)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(overload)                               perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Cwd)                                    perl-PathTools-3.67-393.fc27.s390x
+├─perl(IO::Handle)                             perl-IO-1.38-395.fc27.s390x
+├─perl(Errno)                                  perl-Errno-1.28-395.fc27.s390x
+├─perl(IO::Seekable)                           perl-IO-1.38-395.fc27.s390x
+├─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter) >= 5.57                       perl-Exporter-5.72-394.fc27.noarch
+├─perl(File::Spec) >= 0.8                      perl-PathTools-3.67-393.fc27.s390x
+├─perl(parent) >= 0.221                        perl-parent-1:0.236-393.fc27.noarch
+├─perl(File::Path) >= 2.06                     perl-File-Path-2.14-1.fc27.noarch
+└─perl(Fcntl) >= 1.03                          perl-interpreter-4:5.26.0-395.fc27.s390x
+perl-HTTP-Tiny-0.070-393.fc27.noarch           
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Fcntl)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Socket)                                 perl-Socket-4:2.024-3.fc27.s390x
+├─perl(MIME::Base64)                           perl-MIME-Base64-3.15-393.fc27.s390x
+├─perl(IO::Socket)                             perl-IO-1.38-395.fc27.s390x
+├─perl(bytes)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Time::Local)                            perl-Time-Local-1:1.250-393.fc27.noarch
+└─perl(Errno)                                  perl-Errno-1.28-395.fc27.s390x
+perl-Pod-Simple-1:3.35-393.fc27.noarch         
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Getopt::Long)                           perl-Getopt-Long-1:2.50-2.fc27.noarch
+├─perl(File::Spec)                             perl-PathTools-3.67-393.fc27.s390x
+├─perl(File::Basename)                         perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(overload)                               perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Cwd)                                    perl-PathTools-3.67-393.fc27.s390x
+├─perl(Encode)                                 perl-Encode-4:2.91-11.fc27.s390x
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Symbol)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(integer)                                perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.8.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.5.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:VERSION) >= 5.0.0                      perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Text::Wrap) >= 98.112902                perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch
+└─perl(Pod::Escapes) >= 1.04                   perl-Pod-Escapes-1:1.07-393.fc27.noarch
+perl-Term-ANSIColor-4.06-394.fc27.noarch       
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+└─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+perl-Term-Cap-1.17-393.fc27.noarch             
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+└─ncurses                                      ncurses-6.0-10.20170520.fc27.s390x
+perl-MIME-Base64-3.15-393.fc27.s390x           
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+perl-Storable-1:2.62-393.fc27.s390x            
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+├─libperl.so.5.26()(64bit)                     perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Config)                                 perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(Fcntl)                                  perl-interpreter-4:5.26.0-395.fc27.s390x
+├─perl(XSLoader)                               perl-libs-4:5.26.0-395.fc27.s390x
+└─perl(IO::File)                               perl-IO-1.38-395.fc27.s390x
+perl-Time-Local-1:1.250-393.fc27.noarch        
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Carp)                                   perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(constant)                               perl-constant-1.33-394.fc27.noarch
+└─perl(parent)                                 perl-parent-1:0.236-393.fc27.noarch
+perl-Pod-Escapes-1:1.07-393.fc27.noarch        
+├─perl(strict)                                 perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(:MODULE_COMPAT_5.26.0)                  perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(warnings)                               perl-libs-4:5.26.0-395.fc27.s390x
+├─perl(Exporter)                               perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                   perl-interpreter-4:5.26.0-395.fc27.s390x
+└─perl(:VERSION) >= 5.6.0                      perl-libs-4:5.26.0-395.fc27.s390x
+ncurses-6.0-10.20170520.fc27.s390x             
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libtinfo.so.6()(64bit)                       ncurses-libs-6.0-10.20170520.fc27.s390x
+├─libtic.so.6()(64bit)                         ncurses-libs-6.0-10.20170520.fc27.s390x
+└─ncurses-libs(s390-64) = 6.0-10.20170520.fc27 ncurses-libs-6.0-10.20170520.fc27.s390x
+glibc-2.25.90-27.fc27.s390x                    
+├─glibc-common = 2.25.90-27.fc27               glibc-common-2.25.90-27.fc27.s390x
+└─glibc-langpack = 2.25.90-27.fc27             glibc-minimal-langpack-2.25.90-27.fc27.s390x
+basesystem-11-3.fc26.noarch                    
+glibc-common-2.25.90-27.fc27.s390x             
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─/bin/sh                                      bash-4.4.12-6.fc27.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libselinux.so.1()(64bit)                     libselinux-2.6-6.fc27.s390x
+├─libc.so.6(GLIBC_2.15)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─/usr/bin/bash                                bash-4.4.12-6.fc27.s390x
+├─glibc = 2.25.90-27.fc27                      glibc-2.25.90-27.fc27.s390x
+└─tzdata >= 2003a                              tzdata-2017b-1.fc27.noarch
+tzdata-2017b-1.fc27.noarch                     
+libacl-2.2.52-16.fc27.s390x                    
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libattr.so.1()(64bit)                        libattr-2.4.47-19.fc27.s390x
+└─libattr.so.1(ATTR_1.0)(64bit)                libattr-2.4.47-19.fc27.s390x
+gcc-7.1.1-6.fc27.s390x                         
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libz.so.1()(64bit)                           zlib-1.2.11-2.fc26.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libgcc_s.so.1()(64bit)                       libgcc-7.1.1-6.fc27.s390x
+├─ld64.so.1()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1(GLIBC_2.3)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.11)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libgmp.so.10()(64bit)                        gmp-1:6.1.2-4.fc27.s390x
+├─libmpc.so.3()(64bit)                         libmpc-1.0.2-6.fc26.s390x
+├─libmpfr.so.4()(64bit)                        mpfr-3.1.5-3.fc27.s390x
+├─libgomp.so.1()(64bit)                        libgomp-7.1.1-6.fc27.s390x
+├─libisl.so.15()(64bit)                        isl-0.16.1-1.fc26.s390x
+├─cpp = 7.1.1-6.fc27                           cpp-7.1.1-6.fc27.s390x
+├─libgomp = 7.1.1-6.fc27                       libgomp-7.1.1-6.fc27.s390x
+├─glibc-devel >= 2.2.90-12                     glibc-devel-2.25.90-27.fc27.s390x
+├─binutils >= 2.24                             binutils-2.28-9.fc27.s390x
+├─glibc >= 2.3.90-35                           glibc-2.25.90-27.fc27.s390x
+└─libgcc >= 7.1.1-6.fc27                       libgcc-7.1.1-6.fc27.s390x
+binutils-2.28-9.fc27.s390x                     
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libz.so.1()(64bit)                           zlib-1.2.11-2.fc26.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.11)(64bit)                 glibc-2.25.90-27.fc27.s390x
+glibc-devel-2.25.90-27.fc27.s390x              
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─librt.so.1()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libnsl.so.1()(64bit)                         glibc-2.25.90-27.fc27.s390x
+├─libutil.so.1()(64bit)                        glibc-2.25.90-27.fc27.s390x
+├─libresolv.so.2()(64bit)                      glibc-2.25.90-27.fc27.s390x
+├─libcrypt(s390-64)                            libcrypt-2.25.90-27.fc27.s390x
+├─libBrokenLocale.so.1()(64bit)                glibc-2.25.90-27.fc27.s390x
+├─libanl.so.1()(64bit)                         glibc-2.25.90-27.fc27.s390x
+├─libcidn.so.1()(64bit)                        glibc-2.25.90-27.fc27.s390x
+├─libgcc(s390-64)                              libgcc-7.1.1-6.fc27.s390x
+├─libthread_db.so.1()(64bit)                   glibc-2.25.90-27.fc27.s390x
+├─glibc = 2.25.90-27.fc27                      glibc-2.25.90-27.fc27.s390x
+└─glibc-headers = 2.25.90-27.fc27              glibc-headers-2.25.90-27.fc27.s390x
+gmp-1:6.1.2-4.fc27.s390x                       
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.7)(64bit)                  glibc-2.25.90-27.fc27.s390x
+isl-0.16.1-1.fc26.s390x                        
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+└─libgmp.so.10()(64bit)                        gmp-1:6.1.2-4.fc27.s390x
+libmpc-1.0.2-6.fc26.s390x                      
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libgmp.so.10()(64bit)                        gmp-1:6.1.2-4.fc27.s390x
+└─libmpfr.so.4()(64bit)                        mpfr-3.1.5-3.fc27.s390x
+mpfr-3.1.5-3.fc27.s390x                        
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libgmp.so.10()(64bit)                        gmp-1:6.1.2-4.fc27.s390x
+├─ld64.so.1()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1(GLIBC_2.3)(64bit)                  glibc-2.25.90-27.fc27.s390x
+└─gmp >= 4.2.1                                 gmp-1:6.1.2-4.fc27.s390x
+cpp-7.1.1-6.fc27.s390x                         
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libz.so.1()(64bit)                           zlib-1.2.11-2.fc26.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1(GLIBC_2.3)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.11)(64bit)                 glibc-2.25.90-27.fc27.s390x
+├─libgmp.so.10()(64bit)                        gmp-1:6.1.2-4.fc27.s390x
+├─libmpc.so.3()(64bit)                         libmpc-1.0.2-6.fc26.s390x
+├─libmpfr.so.4()(64bit)                        mpfr-3.1.5-3.fc27.s390x
+└─filesystem >= 3                              filesystem-3.3-1.fc27.s390x
+libgcc-7.1.1-6.fc27.s390x                      
+libgomp-7.1.1-6.fc27.s390x                     
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0()(64bit)                     glibc-2.25.90-27.fc27.s390x
+├─libdl.so.2()(64bit)                          glibc-2.25.90-27.fc27.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)            glibc-2.25.90-27.fc27.s390x
+├─/sbin/ldconfig                               glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─libpthread.so.0(GLIBC_2.3.4)(64bit)          glibc-2.25.90-27.fc27.s390x
+glibc-headers-2.25.90-27.fc27.s390x            
+├─glibc = 2.25.90-27.fc27                      glibc-2.25.90-27.fc27.s390x
+└─kernel-headers >= 2.2.1                      kernel-headers-4.13.0-0.rc1.git1.1.fc27.s390x
+kernel-headers-4.13.0-0.rc1.git1.1.fc27.s390x  
+libstdc++-7.1.1-6.fc27.s390x                   
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+├─libm.so.6()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libgcc_s.so.1()(64bit)                       libgcc-7.1.1-6.fc27.s390x
+├─ld64.so.1()(64bit)                           glibc-2.25.90-27.fc27.s390x
+├─ld64.so.1(GLIBC_2.3)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libgcc_s.so.1(GCC_3.0)(64bit)                libgcc-7.1.1-6.fc27.s390x
+├─libgcc_s.so.1(GCC_3.3)(64bit)                libgcc-7.1.1-6.fc27.s390x
+├─libgcc_s.so.1(GCC_4.2.0)(64bit)              libgcc-7.1.1-6.fc27.s390x
+├─libm.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+├─libc.so.6(GLIBC_2.18)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─glibc >= 2.10.90-7                           glibc-2.25.90-27.fc27.s390x
+libattr-2.4.47-19.fc27.s390x                   
+├─rtld(GNU_HASH)                               glibc-2.25.90-27.fc27.s390x
+└─libc.so.6(GLIBC_2.4)(64bit)                  glibc-2.25.90-27.fc27.s390x
+fedora-release-27-0.2.noarch                   
+└─fedora-repos(27)                             fedora-repos-27-0.2.noarch
+fedora-repos-27-0.2.noarch                     
+├─system-release(27)                           fedora-release-27-0.2.noarch
+└─fedora-repos-rawhide = 27-0.2                fedora-repos-rawhide-27-0.2.noarch
+fedora-repos-rawhide-27-0.2.noarch             
+└─fedora-repos = 27-0.2                        fedora-repos-27-0.2.noarch
+libcrypt-2.25.90-27.fc27.s390x                 
+├─libc.so.6(GLIBC_2.25)(64bit)                 glibc-2.25.90-27.fc27.s390x
+└─glibc(s390-64) = 2.25.90-27.fc27             glibc-2.25.90-27.fc27.s390x
+glibc-minimal-langpack-2.25.90-27.fc27.s390x   
+├─glibc = 2.25.90-27.fc27                      glibc-2.25.90-27.fc27.s390x
+└─glibc-common = 2.25.90-27.fc27               glibc-common-2.25.90-27.fc27.s390x

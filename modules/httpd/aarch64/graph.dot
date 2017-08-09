@@ -1,0 +1,14 @@
+strict digraph G {
+node [fontname=monospace];
+  "httpd" -> "apr";
+  "httpd" -> "apr-util";
+  "httpd" -> "mod_http2";
+  "httpd" -> "fedora-logos-httpd";
+  "httpd" -> "mailcap";
+  "httpd" -> "httpd-filesystem";
+  "httpd" -> "httpd-tools";
+  "apr-util" -> "apr";
+  "httpd-tools" -> "apr";
+  "httpd-tools" -> "apr-util";
+  "mod_http2" -> "httpd";
+}

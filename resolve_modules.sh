@@ -43,7 +43,7 @@ for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
         done < $hintsfile
 
         cat $modulearchroot/toplevel-binary-packages.txt |
-        xargs depchase -a $arch -c repos.cfg resolve $hints > $modulearchroot/depchase-runtime-failures.txt
+        xargs depchase -v -a $arch -c repos.cfg resolve $hints > $modulearchroot/depchase-runtime-failures.txt 2> $modulearchroot/depchase-runtime-relations.txt
         RC=$?
         if [ $RC -ne 0 ]; then
             echo "Depchase failures encountered on $arch runtime:"

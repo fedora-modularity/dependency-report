@@ -1,0 +1,8 @@
+strict digraph G {
+node [fontname=monospace];
+  "nginx" -> "gperftools-libs";
+  "nginx" -> "nginx-mimetypes";
+  "nginx" -> "nginx-filesystem";
+  "gperftools-libs" -> "libunwind";
+  "nginx-mimetypes" -> "nginx-filesystem";
+}

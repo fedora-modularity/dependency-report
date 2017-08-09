@@ -1,0 +1,6 @@
+strict digraph G {
+node [fontname=monospace];
+  "libtool" -> "automake";
+  "libtool" -> "autoconf";
+  "automake" -> "autoconf";
+}
