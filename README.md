@@ -26,9 +26,9 @@ Right now, the **following modules are included**. This image is automatically g
 * module/arch/**standalone-runtime-...txt** - All runtime dependencies excluding Platform only.
 * module/arch/**complete-runtime-...txt** - All runtime dependencies. Not very usable output.
 
-#### Binary RPM vs. source SRPM
+#### Binary RPM vs. source RPM
 
-* module/arch/**...-source-...txt** - Source SRPM packages.
+* module/arch/**...-source-...txt** - Source RPM packages.
 * module/arch/**...-binary-...txt** - Binary RPM packages.
 
 #### Names only vs. NEVRA
