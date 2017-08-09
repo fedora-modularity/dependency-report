@@ -10,15 +10,11 @@ An initial [modulemd file](systemtap.yaml) has been generated. It is experimenta
 * `boost-date-time`
 * `boost-system`
 * `boost-thread`
+* `curl-minimal`
 * `dyninst`
-* `glibc-all-langpacks`
 * `json-c`
 * `kernel-devel`
-* `libcrypt-nss`
-* `libcurl`
 * `libdwarf`
-* `libpsl`
-* `libssh2`
 * `perl-Carp`
 * `perl-constant`
 * `perl-Errno`
@@ -36,7 +32,6 @@ An initial [modulemd file](systemtap.yaml) has been generated. It is experimenta
 * `perl-threads`
 * `perl-threads-shared`
 * `perl-Unicode-Normalize`
-* `publicsuffix-list-dafsa`
 * `systemtap`
 * `systemtap-client`
 * `systemtap-devel`

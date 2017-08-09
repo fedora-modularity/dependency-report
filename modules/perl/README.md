@@ -5,9 +5,7 @@ An initial [modulemd file](perl.yaml) has been generated. It is experimental and
 ## Dependencies
 ## Binary RPM packages (all arches combined)
 * `gdbm-devel`
-* `glibc-all-langpacks`
 * `groff-base`
-* `libcrypt-nss`
 * `libdb-devel`
 * `perl`
 * `perl-Algorithm-Diff`

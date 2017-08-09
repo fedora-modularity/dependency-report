@@ -6,10 +6,8 @@ An initial [modulemd file](java.yaml) has been generated. It is experimental and
 ## Binary RPM packages (all arches combined)
 * `copy-jdk-configs`
 * `freetype`
-* `glibc-all-langpacks`
 * `java-1.8.0-openjdk-headless`
 * `javapackages-tools`
-* `libcrypt-nss`
 * `libjpeg-turbo`
 * `libpng`
 * `lksctp-tools`
