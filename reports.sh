@@ -49,7 +49,7 @@ EOF
         documentation: https://github.com/modularity-modules/$module
         tracker: https://github.com/modularity-modules/$module
     components:
-    rpms:
+        rpms:
 EOF
         for pkg in $(cat modules/$module/all/runtime-source-packages-short.txt); do
             echo "            $pkg:"
