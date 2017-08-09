@@ -13,10 +13,10 @@ base=modules
 for file in $files; do
     for arch in $arches; do
         for dep in $deps; do
-            comm -23 \
-                $base/$target/$arch/complete-$file \
-                $base/$dep/$arch/complete-$file \
-                > $base/$target/$arch/$file
-        done
+            cat $base/$dep/$arch/complete-$file
+        done \
+            | sort -u \
+            | comm -23 $base/$target/$arch/complete-$file - \
+            > $base/$target/$arch/$file
     done
 done
