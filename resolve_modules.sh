@@ -11,7 +11,7 @@ echo "strict digraph G {" >> img/module-deps.dot
 echo "  node [fontname=monospace];" >> img/module-deps.dot
 
 for module in $(ls modules); do
-    echo "  \"$module\" -> \"hp\";" >> img/module-deps.dot
+    echo "  \"$module\" -> \"platform\";" >> img/module-deps.dot
     for dep in $(cat modules/$module/modular-deps.txt); do
         echo "  \"$module\" -> \"$dep\";" >> img/module-deps.dot
     done 
