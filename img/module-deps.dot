@@ -1,10 +1,15 @@
 strict digraph G {
   node [fontname=monospace];
+  "389-ds" -> "hp";
   "autotools" -> "hp";
+  "autotools" -> "perl";
   "freeipa" -> "hp";
   "freeipa" -> "httpd";
   "freeipa" -> "perl";
+  "freeipa" -> "389-ds";
+  "freeipa" -> "java";
   "httpd" -> "hp";
+  "java" -> "hp";
   "nginx" -> "hp";
   "perl" -> "hp";
   "ruby" -> "hp";
