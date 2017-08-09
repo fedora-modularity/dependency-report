@@ -1,0 +1,29 @@
+document: modulemd
+version: 1
+data:
+    summary: autotools module
+    description: This autotools has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            perl: master
+        requires:
+            platform: master
+            perl: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/autotools
+        tracker: https://github.com/modularity-modules/autotools
+    components:
+    rpms:
+            autoconf:
+                rationale: Generated.
+                ref: master.
+            automake:
+                rationale: Generated.
+                ref: master.
+            libtool:
+                rationale: Generated.
+                ref: master.

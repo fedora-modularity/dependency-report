@@ -1,0 +1,282 @@
+document: modulemd
+version: 1
+data:
+    summary: 389-ds module
+    description: This 389-ds has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/389-ds
+        tracker: https://github.com/modularity-modules/389-ds
+    components:
+    rpms:
+            389-ds-base:
+                rationale: Generated.
+                ref: master.
+            389-ds-base-libs:
+                rationale: Generated.
+                ref: master.
+            audit:
+                rationale: Generated.
+                ref: master.
+            audit-libs-python3:
+                rationale: Generated.
+                ref: master.
+            bind-libs:
+                rationale: Generated.
+                ref: master.
+            bind-libs-lite:
+                rationale: Generated.
+                ref: master.
+            bind-license:
+                rationale: Generated.
+                ref: master.
+            bind-utils:
+                rationale: Generated.
+                ref: master.
+            checkpolicy:
+                rationale: Generated.
+                ref: master.
+            cyrus-sasl-gssapi:
+                rationale: Generated.
+                ref: master.
+            cyrus-sasl-md5:
+                rationale: Generated.
+                ref: master.
+            GeoIP:
+                rationale: Generated.
+                ref: master.
+            GeoIP-GeoLite-data:
+                rationale: Generated.
+                ref: master.
+            glibc-all-langpacks:
+                rationale: Generated.
+                ref: master.
+            gperftools-libs:
+                rationale: Generated.
+                ref: master.
+            groff-base:
+                rationale: Generated.
+                ref: master.
+            libcgroup:
+                rationale: Generated.
+                ref: master.
+            libcrypt-nss:
+                rationale: Generated.
+                ref: master.
+            libcurl:
+                rationale: Generated.
+                ref: master.
+            libicu:
+                rationale: Generated.
+                ref: master.
+            libpsl:
+                rationale: Generated.
+                ref: master.
+            libselinux-python3:
+                rationale: Generated.
+                ref: master.
+            libselinux-utils:
+                rationale: Generated.
+                ref: master.
+            libsemanage-python:
+                rationale: Generated.
+                ref: master.
+            libsemanage-python3:
+                rationale: Generated.
+                ref: master.
+            libssh2:
+                rationale: Generated.
+                ref: master.
+            libunwind:
+                rationale: Generated.
+                ref: master.
+            nss-tools:
+                rationale: Generated.
+                ref: master.
+            openldap-clients:
+                rationale: Generated.
+                ref: master.
+            perl-Algorithm-Diff:
+                rationale: Generated.
+                ref: master.
+            perl-Archive-Tar:
+                rationale: Generated.
+                ref: master.
+            perl-Carp:
+                rationale: Generated.
+                ref: master.
+            perl-Compress-Raw-Bzip2:
+                rationale: Generated.
+                ref: master.
+            perl-Compress-Raw-Zlib:
+                rationale: Generated.
+                ref: master.
+            perl-constant:
+                rationale: Generated.
+                ref: master.
+            perl-Data-Dumper:
+                rationale: Generated.
+                ref: master.
+            perl-DB_File:
+                rationale: Generated.
+                ref: master.
+            perl-Encode:
+                rationale: Generated.
+                ref: master.
+            perl-Errno:
+                rationale: Generated.
+                ref: master.
+            perl-Exporter:
+                rationale: Generated.
+                ref: master.
+            perl-File-Path:
+                rationale: Generated.
+                ref: master.
+            perl-File-Temp:
+                rationale: Generated.
+                ref: master.
+            perl-Getopt-Long:
+                rationale: Generated.
+                ref: master.
+            perl-HTTP-Tiny:
+                rationale: Generated.
+                ref: master.
+            perl-interpreter:
+                rationale: Generated.
+                ref: master.
+            perl-IO:
+                rationale: Generated.
+                ref: master.
+            perl-IO-Compress:
+                rationale: Generated.
+                ref: master.
+            perl-IO-Zlib:
+                rationale: Generated.
+                ref: master.
+            perl-libs:
+                rationale: Generated.
+                ref: master.
+            perl-macros:
+                rationale: Generated.
+                ref: master.
+            perl-Math-BigInt:
+                rationale: Generated.
+                ref: master.
+            perl-Math-Complex:
+                rationale: Generated.
+                ref: master.
+            perl-MIME-Base64:
+                rationale: Generated.
+                ref: master.
+            perl-Mozilla-LDAP:
+                rationale: Generated.
+                ref: master.
+            perl-NetAddr-IP:
+                rationale: Generated.
+                ref: master.
+            perl-parent:
+                rationale: Generated.
+                ref: master.
+            perl-PathTools:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Escapes:
+                rationale: Generated.
+                ref: master.
+            perl-podlators:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Perldoc:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Simple:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Usage:
+                rationale: Generated.
+                ref: master.
+            perl-Scalar-List-Utils:
+                rationale: Generated.
+                ref: master.
+            perl-Socket:
+                rationale: Generated.
+                ref: master.
+            perl-Socket6:
+                rationale: Generated.
+                ref: master.
+            perl-Storable:
+                rationale: Generated.
+                ref: master.
+            perl-Term-ANSIColor:
+                rationale: Generated.
+                ref: master.
+            perl-Term-Cap:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Diff:
+                rationale: Generated.
+                ref: master.
+            perl-Text-ParseWords:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Tabs+Wrap:
+                rationale: Generated.
+                ref: master.
+            perl-threads:
+                rationale: Generated.
+                ref: master.
+            perl-threads-shared:
+                rationale: Generated.
+                ref: master.
+            perl-Time-Local:
+                rationale: Generated.
+                ref: master.
+            perl-Unicode-Normalize:
+                rationale: Generated.
+                ref: master.
+            policycoreutils:
+                rationale: Generated.
+                ref: master.
+            policycoreutils-python3:
+                rationale: Generated.
+                ref: master.
+            policycoreutils-python-utils:
+                rationale: Generated.
+                ref: master.
+            publicsuffix-list-dafsa:
+                rationale: Generated.
+                ref: master.
+            python2:
+                rationale: Generated.
+                ref: master.
+            python2-libs:
+                rationale: Generated.
+                ref: master.
+            python2-pip:
+                rationale: Generated.
+                ref: master.
+            python2-setuptools:
+                rationale: Generated.
+                ref: master.
+            python3-bind:
+                rationale: Generated.
+                ref: master.
+            python3-IPy:
+                rationale: Generated.
+                ref: master.
+            python3-ply:
+                rationale: Generated.
+                ref: master.
+            setools-python3:
+                rationale: Generated.
+                ref: master.
+            svrcore:
+                rationale: Generated.
+                ref: master.

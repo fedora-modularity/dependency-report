@@ -1,0 +1,51 @@
+document: modulemd
+version: 1
+data:
+    summary: ruby module
+    description: This ruby has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/ruby
+        tracker: https://github.com/modularity-modules/ruby
+    components:
+    rpms:
+            glibc-all-langpacks:
+                rationale: Generated.
+                ref: master.
+            libcrypt-nss:
+                rationale: Generated.
+                ref: master.
+            libyaml:
+                rationale: Generated.
+                ref: master.
+            ruby:
+                rationale: Generated.
+                ref: master.
+            rubygem-bundler:
+                rationale: Generated.
+                ref: master.
+            rubygem-io-console:
+                rationale: Generated.
+                ref: master.
+            rubygem-openssl:
+                rationale: Generated.
+                ref: master.
+            rubygem-psych:
+                rationale: Generated.
+                ref: master.
+            rubygems:
+                rationale: Generated.
+                ref: master.
+            ruby-libs:
+                rationale: Generated.
+                ref: master.
+            rubypick:
+                rationale: Generated.
+                ref: master.

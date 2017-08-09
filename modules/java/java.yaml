@@ -1,0 +1,57 @@
+document: modulemd
+version: 1
+data:
+    summary: java module
+    description: This java has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/java
+        tracker: https://github.com/modularity-modules/java
+    components:
+    rpms:
+            copy-jdk-configs:
+                rationale: Generated.
+                ref: master.
+            freetype:
+                rationale: Generated.
+                ref: master.
+            glibc-all-langpacks:
+                rationale: Generated.
+                ref: master.
+            java-1.8.0-openjdk-headless:
+                rationale: Generated.
+                ref: master.
+            javapackages-tools:
+                rationale: Generated.
+                ref: master.
+            libcrypt-nss:
+                rationale: Generated.
+                ref: master.
+            libjpeg-turbo:
+                rationale: Generated.
+                ref: master.
+            libpng:
+                rationale: Generated.
+                ref: master.
+            lksctp-tools:
+                rationale: Generated.
+                ref: master.
+            lua:
+                rationale: Generated.
+                ref: master.
+            lua-posix:
+                rationale: Generated.
+                ref: master.
+            tzdata-java:
+                rationale: Generated.
+                ref: master.
+            which:
+                rationale: Generated.
+                ref: master.

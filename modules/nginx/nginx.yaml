@@ -1,0 +1,39 @@
+document: modulemd
+version: 1
+data:
+    summary: nginx module
+    description: This nginx has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/nginx
+        tracker: https://github.com/modularity-modules/nginx
+    components:
+    rpms:
+            glibc-all-langpacks:
+                rationale: Generated.
+                ref: master.
+            gperftools-libs:
+                rationale: Generated.
+                ref: master.
+            libcrypt-nss:
+                rationale: Generated.
+                ref: master.
+            libunwind:
+                rationale: Generated.
+                ref: master.
+            nginx:
+                rationale: Generated.
+                ref: master.
+            nginx-filesystem:
+                rationale: Generated.
+                ref: master.
+            nginx-mimetypes:
+                rationale: Generated.
+                ref: master.

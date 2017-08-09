@@ -1,5 +1,7 @@
 # perl
 This is a dependency report for the perl module.
+
+An initial [modulemd file](perl.yaml) has been generated. It is experimental and probably unusable at this point.
 ## Dependencies
 ## Binary packages (all arches combined)
 * `gdbm-devel`

@@ -1,0 +1,48 @@
+document: modulemd
+version: 1
+data:
+    summary: httpd module
+    description: This httpd has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/httpd
+        tracker: https://github.com/modularity-modules/httpd
+    components:
+    rpms:
+            apr:
+                rationale: Generated.
+                ref: master.
+            apr-util:
+                rationale: Generated.
+                ref: master.
+            fedora-logos-httpd:
+                rationale: Generated.
+                ref: master.
+            glibc-all-langpacks:
+                rationale: Generated.
+                ref: master.
+            httpd:
+                rationale: Generated.
+                ref: master.
+            httpd-filesystem:
+                rationale: Generated.
+                ref: master.
+            httpd-tools:
+                rationale: Generated.
+                ref: master.
+            libcrypt-nss:
+                rationale: Generated.
+                ref: master.
+            mailcap:
+                rationale: Generated.
+                ref: master.
+            mod_http2:
+                rationale: Generated.
+                ref: master.

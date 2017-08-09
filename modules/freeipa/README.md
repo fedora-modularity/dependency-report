@@ -1,5 +1,7 @@
 # freeipa
 This is a dependency report for the freeipa module.
+
+An initial [modulemd file](freeipa.yaml) has been generated. It is experimental and probably unusable at this point.
 ## Dependencies
 * [httpd](../httpd)
 * [perl](../perl)
