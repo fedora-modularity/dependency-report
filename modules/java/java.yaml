@@ -15,23 +15,17 @@ data:
         documentation: https://github.com/modularity-modules/java
         tracker: https://github.com/modularity-modules/java
     components:
-    rpms:
+        rpms:
             copy-jdk-configs:
                 rationale: Generated.
                 ref: master.
             freetype:
                 rationale: Generated.
                 ref: master.
-            glibc-all-langpacks:
-                rationale: Generated.
-                ref: master.
-            java-1.8.0-openjdk-headless:
+            java-1.8.0-openjdk:
                 rationale: Generated.
                 ref: master.
             javapackages-tools:
-                rationale: Generated.
-                ref: master.
-            libcrypt-nss:
                 rationale: Generated.
                 ref: master.
             libjpeg-turbo:
@@ -43,13 +37,7 @@ data:
             lksctp-tools:
                 rationale: Generated.
                 ref: master.
-            lua:
-                rationale: Generated.
-                ref: master.
             lua-posix:
-                rationale: Generated.
-                ref: master.
-            tzdata-java:
                 rationale: Generated.
                 ref: master.
             which:

@@ -15,11 +15,17 @@ data:
         documentation: https://github.com/modularity-modules/platform
         tracker: https://github.com/modularity-modules/platform
     components:
-    rpms:
+        rpms:
             acl:
                 rationale: Generated.
                 ref: master.
-            audit-libs:
+            attr:
+                rationale: Generated.
+                ref: master.
+            audit:
+                rationale: Generated.
+                ref: master.
+            babeltrace:
                 rationale: Generated.
                 ref: master.
             basesystem:
@@ -28,10 +34,7 @@ data:
             bash:
                 rationale: Generated.
                 ref: master.
-            bind99-libs:
-                rationale: Generated.
-                ref: master.
-            bind99-license:
+            bind99:
                 rationale: Generated.
                 ref: master.
             binutils:
@@ -46,9 +49,6 @@ data:
             bzip2:
                 rationale: Generated.
                 ref: master.
-            bzip2-libs:
-                rationale: Generated.
-                ref: master.
             ca-certificates:
                 rationale: Generated.
                 ref: master.
@@ -61,13 +61,7 @@ data:
             coreutils:
                 rationale: Generated.
                 ref: master.
-            coreutils-common:
-                rationale: Generated.
-                ref: master.
             cpio:
-                rationale: Generated.
-                ref: master.
-            cpp:
                 rationale: Generated.
                 ref: master.
             cracklib:
@@ -76,46 +70,28 @@ data:
             crypto-policies:
                 rationale: Generated.
                 ref: master.
-            cryptsetup-libs:
+            cryptsetup:
                 rationale: Generated.
                 ref: master.
             curl:
                 rationale: Generated.
                 ref: master.
-            cyrus-sasl-lib:
+            cyrus-sasl:
                 rationale: Generated.
                 ref: master.
             dbus:
                 rationale: Generated.
                 ref: master.
-            dbus-libs:
-                rationale: Generated.
-                ref: master.
             deltarpm:
                 rationale: Generated.
                 ref: master.
-            device-mapper:
-                rationale: Generated.
-                ref: master.
-            device-mapper-libs:
-                rationale: Generated.
-                ref: master.
-            dhcp-client:
-                rationale: Generated.
-                ref: master.
-            dhcp-common:
-                rationale: Generated.
-                ref: master.
-            dhcp-libs:
+            dhcp:
                 rationale: Generated.
                 ref: master.
             diffutils:
                 rationale: Generated.
                 ref: master.
             dnf:
-                rationale: Generated.
-                ref: master.
-            dnf-conf:
                 rationale: Generated.
                 ref: master.
             dracut:
@@ -130,31 +106,16 @@ data:
             e2fsprogs:
                 rationale: Generated.
                 ref: master.
-            e2fsprogs-libs:
-                rationale: Generated.
-                ref: master.
             efibootmgr:
                 rationale: Generated.
                 ref: master.
             efivar:
                 rationale: Generated.
                 ref: master.
-            efivar-libs:
-                rationale: Generated.
-                ref: master.
             elfutils:
                 rationale: Generated.
                 ref: master.
-            elfutils-default-yama-scope:
-                rationale: Generated.
-                ref: master.
-            elfutils-libelf:
-                rationale: Generated.
-                ref: master.
-            elfutils-libs:
-                rationale: Generated.
-                ref: master.
-            emacs-filesystem:
+            emacs:
                 rationale: Generated.
                 ref: master.
             expat:
@@ -172,9 +133,6 @@ data:
             fedora-repos:
                 rationale: Generated.
                 ref: master.
-            fedora-repos-rawhide:
-                rationale: Generated.
-                ref: master.
             fedora-rpm-macros:
                 rationale: Generated.
                 ref: master.
@@ -182,9 +140,6 @@ data:
                 rationale: Generated.
                 ref: master.
             file:
-                rationale: Generated.
-                ref: master.
-            file-libs:
                 rationale: Generated.
                 ref: master.
             filesystem:
@@ -196,9 +151,6 @@ data:
             fipscheck:
                 rationale: Generated.
                 ref: master.
-            fipscheck-lib:
-                rationale: Generated.
-                ref: master.
             flex:
                 rationale: Generated.
                 ref: master.
@@ -208,7 +160,7 @@ data:
             freetype:
                 rationale: Generated.
                 ref: master.
-            fuse-libs:
+            fuse:
                 rationale: Generated.
                 ref: master.
             gawk:
@@ -220,19 +172,13 @@ data:
             gcc:
                 rationale: Generated.
                 ref: master.
-            gcc-c++:
-                rationale: Generated.
-                ref: master.
-            gdb-headless:
+            gdb:
                 rationale: Generated.
                 ref: master.
             gdbm:
                 rationale: Generated.
                 ref: master.
             gettext:
-                rationale: Generated.
-                ref: master.
-            gettext-libs:
                 rationale: Generated.
                 ref: master.
             ghc-srpm-macros:
@@ -242,18 +188,6 @@ data:
                 rationale: Generated.
                 ref: master.
             glibc:
-                rationale: Generated.
-                ref: master.
-            glibc-common:
-                rationale: Generated.
-                ref: master.
-            glibc-devel:
-                rationale: Generated.
-                ref: master.
-            glibc-headers:
-                rationale: Generated.
-                ref: master.
-            glibc-minimal-langpack:
                 rationale: Generated.
                 ref: master.
             gmp:
@@ -286,15 +220,6 @@ data:
             grub2:
                 rationale: Generated.
                 ref: master.
-            grub2-efi:
-                rationale: Generated.
-                ref: master.
-            grub2-efi-modules:
-                rationale: Generated.
-                ref: master.
-            grub2-tools:
-                rationale: Generated.
-                ref: master.
             grubby:
                 rationale: Generated.
                 ref: master.
@@ -307,9 +232,6 @@ data:
             hfsutils:
                 rationale: Generated.
                 ref: master.
-            info:
-                rationale: Generated.
-                ref: master.
             ipcalc:
                 rationale: Generated.
                 ref: master.
@@ -319,88 +241,31 @@ data:
             iptables:
                 rationale: Generated.
                 ref: master.
-            iptables-libs:
-                rationale: Generated.
-                ref: master.
             iputils:
                 rationale: Generated.
                 ref: master.
             isl:
                 rationale: Generated.
                 ref: master.
-            kernel-bootwrapper:
+            kernel:
                 rationale: Generated.
                 ref: master.
-            kernel-core:
-                rationale: Generated.
-                ref: master.
-            kernel-cross-headers:
-                rationale: Generated.
-                ref: master.
-            kernel-headers:
-                rationale: Generated.
-                ref: master.
-            kernel-lpae:
-                rationale: Generated.
-                ref: master.
-            kernel-lpae-core:
-                rationale: Generated.
-                ref: master.
-            kernel-lpae-modules:
-                rationale: Generated.
-                ref: master.
-            kernel-modules:
-                rationale: Generated.
-                ref: master.
-            kernel-modules-extra:
-                rationale: Generated.
-                ref: master.
-            kernel-PAE:
-                rationale: Generated.
-                ref: master.
-            kernel-PAE-core:
-                rationale: Generated.
-                ref: master.
-            kernel-PAE-modules:
-                rationale: Generated.
-                ref: master.
-            keyutils-libs:
+            keyutils:
                 rationale: Generated.
                 ref: master.
             kmod:
                 rationale: Generated.
                 ref: master.
-            kmod-libs:
-                rationale: Generated.
-                ref: master.
-            krb5-libs:
-                rationale: Generated.
-                ref: master.
-            libacl:
+            krb5:
                 rationale: Generated.
                 ref: master.
             libarchive:
                 rationale: Generated.
                 ref: master.
-            libasan:
-                rationale: Generated.
-                ref: master.
             libassuan:
                 rationale: Generated.
                 ref: master.
-            libatomic:
-                rationale: Generated.
-                ref: master.
             libatomic_ops:
-                rationale: Generated.
-                ref: master.
-            libattr:
-                rationale: Generated.
-                ref: master.
-            libbabeltrace:
-                rationale: Generated.
-                ref: master.
-            libblkid:
                 rationale: Generated.
                 ref: master.
             libcap:
@@ -409,28 +274,13 @@ data:
             libcap-ng:
                 rationale: Generated.
                 ref: master.
-            libcilkrts:
-                rationale: Generated.
-                ref: master.
-            libcom_err:
-                rationale: Generated.
-                ref: master.
             libcomps:
                 rationale: Generated.
                 ref: master.
             libcroco:
                 rationale: Generated.
                 ref: master.
-            libcrypt:
-                rationale: Generated.
-                ref: master.
-            libcurl-minimal:
-                rationale: Generated.
-                ref: master.
             libdb:
-                rationale: Generated.
-                ref: master.
-            libdb-utils:
                 rationale: Generated.
                 ref: master.
             libdnf:
@@ -451,19 +301,10 @@ data:
             libfastjson:
                 rationale: Generated.
                 ref: master.
-            libfdisk:
-                rationale: Generated.
-                ref: master.
             libffi:
                 rationale: Generated.
                 ref: master.
-            libgcc:
-                rationale: Generated.
-                ref: master.
             libgcrypt:
-                rationale: Generated.
-                ref: master.
-            libgomp:
                 rationale: Generated.
                 ref: master.
             libgpg-error:
@@ -481,7 +322,7 @@ data:
             libksba:
                 rationale: Generated.
                 ref: master.
-            liblogging-stdlog:
+            liblogging:
                 rationale: Generated.
                 ref: master.
             libmetalink:
@@ -490,13 +331,7 @@ data:
             libmnl:
                 rationale: Generated.
                 ref: master.
-            libmount:
-                rationale: Generated.
-                ref: master.
             libmpc:
-                rationale: Generated.
-                ref: master.
-            libmpx:
                 rationale: Generated.
                 ref: master.
             libnetfilter_conntrack:
@@ -505,16 +340,10 @@ data:
             libnfnetlink:
                 rationale: Generated.
                 ref: master.
-            libnghttp2:
-                rationale: Generated.
-                ref: master.
             libpcap:
                 rationale: Generated.
                 ref: master.
             libpeas:
-                rationale: Generated.
-                ref: master.
-            libpkgconf:
                 rationale: Generated.
                 ref: master.
             libpng:
@@ -526,7 +355,7 @@ data:
             librepo:
                 rationale: Generated.
                 ref: master.
-            libreport-filesystem:
+            libreport:
                 rationale: Generated.
                 ref: master.
             libseccomp:
@@ -544,28 +373,13 @@ data:
             libsigsegv:
                 rationale: Generated.
                 ref: master.
-            libsmartcols:
-                rationale: Generated.
-                ref: master.
             libsolv:
-                rationale: Generated.
-                ref: master.
-            libss:
-                rationale: Generated.
-                ref: master.
-            libstdc++:
-                rationale: Generated.
-                ref: master.
-            libstdc++-devel:
                 rationale: Generated.
                 ref: master.
             libtasn1:
                 rationale: Generated.
                 ref: master.
-            libtool-ltdl:
-                rationale: Generated.
-                ref: master.
-            libubsan:
+            libtool:
                 rationale: Generated.
                 ref: master.
             libunistring:
@@ -575,9 +389,6 @@ data:
                 rationale: Generated.
                 ref: master.
             libutempter:
-                rationale: Generated.
-                ref: master.
-            libuuid:
                 rationale: Generated.
                 ref: master.
             libverto:
@@ -595,10 +406,13 @@ data:
             lsscsi:
                 rationale: Generated.
                 ref: master.
-            lua-libs:
+            lua:
                 rationale: Generated.
                 ref: master.
-            lz4-libs:
+            lvm2:
+                rationale: Generated.
+                ref: master.
+            lz4:
                 rationale: Generated.
                 ref: master.
             lzo:
@@ -634,13 +448,10 @@ data:
             ncurses:
                 rationale: Generated.
                 ref: master.
-            ncurses-base:
-                rationale: Generated.
-                ref: master.
-            ncurses-libs:
-                rationale: Generated.
-                ref: master.
             nettle:
+                rationale: Generated.
+                ref: master.
+            nghttp2:
                 rationale: Generated.
                 ref: master.
             npth:
@@ -658,12 +469,6 @@ data:
             nss-softokn:
                 rationale: Generated.
                 ref: master.
-            nss-softokn-freebl:
-                rationale: Generated.
-                ref: master.
-            nss-sysinit:
-                rationale: Generated.
-                ref: master.
             nss-util:
                 rationale: Generated.
                 ref: master.
@@ -679,25 +484,13 @@ data:
             openssh:
                 rationale: Generated.
                 ref: master.
-            openssh-clients:
-                rationale: Generated.
-                ref: master.
-            openssh-server:
-                rationale: Generated.
-                ref: master.
             openssl:
-                rationale: Generated.
-                ref: master.
-            openssl-libs:
                 rationale: Generated.
                 ref: master.
             os-prober:
                 rationale: Generated.
                 ref: master.
             p11-kit:
-                rationale: Generated.
-                ref: master.
-            p11-kit-trust:
                 rationale: Generated.
                 ref: master.
             pam:
@@ -715,12 +508,6 @@ data:
             pkgconf:
                 rationale: Generated.
                 ref: master.
-            pkgconf-m4:
-                rationale: Generated.
-                ref: master.
-            pkgconf-pkg-config:
-                rationale: Generated.
-                ref: master.
             popt:
                 rationale: Generated.
                 ref: master.
@@ -736,46 +523,25 @@ data:
             python3:
                 rationale: Generated.
                 ref: master.
-            python3-dnf:
+            python-iniparse:
                 rationale: Generated.
                 ref: master.
-            python3-gpg:
+            python-pip:
                 rationale: Generated.
                 ref: master.
-            python3-hawkey:
+            python-rpm-macros:
                 rationale: Generated.
                 ref: master.
-            python3-iniparse:
+            python-setuptools:
                 rationale: Generated.
                 ref: master.
-            python3-libcomps:
+            python-six:
                 rationale: Generated.
                 ref: master.
-            python3-librepo:
+            qrencode:
                 rationale: Generated.
                 ref: master.
-            python3-libs:
-                rationale: Generated.
-                ref: master.
-            python3-pip:
-                rationale: Generated.
-                ref: master.
-            python3-rpm:
-                rationale: Generated.
-                ref: master.
-            python3-setuptools:
-                rationale: Generated.
-                ref: master.
-            python3-six:
-                rationale: Generated.
-                ref: master.
-            python-srpm-macros:
-                rationale: Generated.
-                ref: master.
-            qrencode-libs:
-                rationale: Generated.
-                ref: master.
-            qt5-srpm-macros:
+            qt5:
                 rationale: Generated.
                 ref: master.
             readline:
@@ -785,21 +551,6 @@ data:
                 rationale: Generated.
                 ref: master.
             rpm:
-                rationale: Generated.
-                ref: master.
-            rpm-build:
-                rationale: Generated.
-                ref: master.
-            rpm-build-libs:
-                rationale: Generated.
-                ref: master.
-            rpm-libs:
-                rationale: Generated.
-                ref: master.
-            rpm-plugin-selinux:
-                rationale: Generated.
-                ref: master.
-            rpm-plugin-systemd-inhibit:
                 rationale: Generated.
                 ref: master.
             rsyslog:
@@ -826,10 +577,13 @@ data:
             shim:
                 rationale: Generated.
                 ref: master.
-            shim-unsigned:
+            shim-signed:
                 rationale: Generated.
                 ref: master.
-            sqlite-libs:
+            shim-unsigned-aarch64:
+                rationale: Generated.
+                ref: master.
+            sqlite:
                 rationale: Generated.
                 ref: master.
             sudo:
@@ -838,37 +592,16 @@ data:
             syslinux:
                 rationale: Generated.
                 ref: master.
-            syslinux-extlinux:
-                rationale: Generated.
-                ref: master.
-            syslinux-extlinux-nonlinux:
-                rationale: Generated.
-                ref: master.
-            syslinux-nonlinux:
-                rationale: Generated.
-                ref: master.
             systemd:
-                rationale: Generated.
-                ref: master.
-            systemd-libs:
-                rationale: Generated.
-                ref: master.
-            systemd-pam:
-                rationale: Generated.
-                ref: master.
-            systemd-udev:
-                rationale: Generated.
-                ref: master.
-            system-python:
-                rationale: Generated.
-                ref: master.
-            system-python-libs:
                 rationale: Generated.
                 ref: master.
             tar:
                 rationale: Generated.
                 ref: master.
-            tcp_wrappers-libs:
+            tcp_wrappers:
+                rationale: Generated.
+                ref: master.
+            texinfo:
                 rationale: Generated.
                 ref: master.
             tmux:
@@ -889,7 +622,7 @@ data:
             util-linux:
                 rationale: Generated.
                 ref: master.
-            vim-minimal:
+            vim:
                 rationale: Generated.
                 ref: master.
             which:
@@ -898,13 +631,7 @@ data:
             xfsprogs:
                 rationale: Generated.
                 ref: master.
-            xml-common:
-                rationale: Generated.
-                ref: master.
             xz:
-                rationale: Generated.
-                ref: master.
-            xz-libs:
                 rationale: Generated.
                 ref: master.
             zip:

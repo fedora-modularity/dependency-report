@@ -15,38 +15,14 @@ data:
         documentation: https://github.com/modularity-modules/389-ds
         tracker: https://github.com/modularity-modules/389-ds
     components:
-    rpms:
+        rpms:
             389-ds-base:
                 rationale: Generated.
                 ref: master.
-            389-ds-base-libs:
-                rationale: Generated.
-                ref: master.
-            audit:
-                rationale: Generated.
-                ref: master.
-            audit-libs-python3:
-                rationale: Generated.
-                ref: master.
-            bind-libs:
-                rationale: Generated.
-                ref: master.
-            bind-libs-lite:
-                rationale: Generated.
-                ref: master.
-            bind-license:
-                rationale: Generated.
-                ref: master.
-            bind-utils:
+            bind:
                 rationale: Generated.
                 ref: master.
             checkpolicy:
-                rationale: Generated.
-                ref: master.
-            cyrus-sasl-gssapi:
-                rationale: Generated.
-                ref: master.
-            cyrus-sasl-md5:
                 rationale: Generated.
                 ref: master.
             GeoIP:
@@ -55,40 +31,19 @@ data:
             GeoIP-GeoLite-data:
                 rationale: Generated.
                 ref: master.
-            glibc-all-langpacks:
+            gperftools:
                 rationale: Generated.
                 ref: master.
-            gperftools-libs:
+            groff:
                 rationale: Generated.
                 ref: master.
-            groff-base:
+            icu:
                 rationale: Generated.
                 ref: master.
             libcgroup:
                 rationale: Generated.
                 ref: master.
-            libcrypt-nss:
-                rationale: Generated.
-                ref: master.
-            libcurl:
-                rationale: Generated.
-                ref: master.
-            libicu:
-                rationale: Generated.
-                ref: master.
             libpsl:
-                rationale: Generated.
-                ref: master.
-            libselinux-python3:
-                rationale: Generated.
-                ref: master.
-            libselinux-utils:
-                rationale: Generated.
-                ref: master.
-            libsemanage-python:
-                rationale: Generated.
-                ref: master.
-            libsemanage-python3:
                 rationale: Generated.
                 ref: master.
             libssh2:
@@ -97,10 +52,7 @@ data:
             libunwind:
                 rationale: Generated.
                 ref: master.
-            nss-tools:
-                rationale: Generated.
-                ref: master.
-            openldap-clients:
+            perl:
                 rationale: Generated.
                 ref: master.
             perl-Algorithm-Diff:
@@ -130,9 +82,6 @@ data:
             perl-Encode:
                 rationale: Generated.
                 ref: master.
-            perl-Errno:
-                rationale: Generated.
-                ref: master.
             perl-Exporter:
                 rationale: Generated.
                 ref: master.
@@ -148,28 +97,10 @@ data:
             perl-HTTP-Tiny:
                 rationale: Generated.
                 ref: master.
-            perl-interpreter:
-                rationale: Generated.
-                ref: master.
-            perl-IO:
-                rationale: Generated.
-                ref: master.
             perl-IO-Compress:
                 rationale: Generated.
                 ref: master.
-            perl-IO-Zlib:
-                rationale: Generated.
-                ref: master.
-            perl-libs:
-                rationale: Generated.
-                ref: master.
-            perl-macros:
-                rationale: Generated.
-                ref: master.
             perl-Math-BigInt:
-                rationale: Generated.
-                ref: master.
-            perl-Math-Complex:
                 rationale: Generated.
                 ref: master.
             perl-MIME-Base64:
@@ -244,37 +175,19 @@ data:
             policycoreutils:
                 rationale: Generated.
                 ref: master.
-            policycoreutils-python3:
-                rationale: Generated.
-                ref: master.
-            policycoreutils-python-utils:
-                rationale: Generated.
-                ref: master.
-            publicsuffix-list-dafsa:
+            publicsuffix-list:
                 rationale: Generated.
                 ref: master.
             python2:
                 rationale: Generated.
                 ref: master.
-            python2-libs:
+            python-IPy:
                 rationale: Generated.
                 ref: master.
-            python2-pip:
+            python-ply:
                 rationale: Generated.
                 ref: master.
-            python2-setuptools:
-                rationale: Generated.
-                ref: master.
-            python3-bind:
-                rationale: Generated.
-                ref: master.
-            python3-IPy:
-                rationale: Generated.
-                ref: master.
-            python3-ply:
-                rationale: Generated.
-                ref: master.
-            setools-python3:
+            setools:
                 rationale: Generated.
                 ref: master.
             svrcore:

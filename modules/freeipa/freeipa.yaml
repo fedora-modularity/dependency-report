@@ -23,7 +23,7 @@ data:
         documentation: https://github.com/modularity-modules/freeipa
         tracker: https://github.com/modularity-modules/freeipa
     components:
-    rpms:
+        rpms:
             apache-commons-cli:
                 rationale: Generated.
                 ref: master.
@@ -51,10 +51,7 @@ data:
             apache-commons-pool:
                 rationale: Generated.
                 ref: master.
-            audit-libs-python:
-                rationale: Generated.
-                ref: master.
-            augeas-libs:
+            augeas:
                 rationale: Generated.
                 ref: master.
             authconfig:
@@ -63,28 +60,19 @@ data:
             autofs:
                 rationale: Generated.
                 ref: master.
-            autogen-libopts:
+            autogen:
                 rationale: Generated.
                 ref: master.
-            avahi-libs:
+            avahi:
                 rationale: Generated.
                 ref: master.
-            bea-stax-api:
+            babel:
                 rationale: Generated.
                 ref: master.
-            bind:
+            bea-stax:
                 rationale: Generated.
                 ref: master.
             bind-dyndb-ldap:
-                rationale: Generated.
-                ref: master.
-            bind-pkcs11:
-                rationale: Generated.
-                ref: master.
-            bind-pkcs11-libs:
-                rationale: Generated.
-                ref: master.
-            bind-pkcs11-utils:
                 rationale: Generated.
                 ref: master.
             certmonger:
@@ -93,7 +81,7 @@ data:
             compat-openssl10:
                 rationale: Generated.
                 ref: master.
-            cups-libs:
+            cups:
                 rationale: Generated.
                 ref: master.
             custodia:
@@ -105,55 +93,31 @@ data:
             dbus-python:
                 rationale: Generated.
                 ref: master.
+            ding-libs:
+                rationale: Generated.
+                ref: master.
             ecj:
                 rationale: Generated.
                 ref: master.
             fontawesome-fonts:
                 rationale: Generated.
                 ref: master.
-            fontpackages-filesystem:
+            fontpackages:
                 rationale: Generated.
                 ref: master.
-            freeipa-client:
-                rationale: Generated.
-                ref: master.
-            freeipa-client-common:
-                rationale: Generated.
-                ref: master.
-            freeipa-common:
+            freeipa:
                 rationale: Generated.
                 ref: master.
             freeipa-desktop-profile:
                 rationale: Generated.
                 ref: master.
-            freeipa-python-compat:
-                rationale: Generated.
-                ref: master.
-            freeipa-server:
-                rationale: Generated.
-                ref: master.
-            freeipa-server-common:
-                rationale: Generated.
-                ref: master.
-            freeipa-server-dns:
-                rationale: Generated.
-                ref: master.
-            freeipa-server-trust-ad:
-                rationale: Generated.
-                ref: master.
             glassfish-fastinfoset:
                 rationale: Generated.
                 ref: master.
+            glassfish-jaxb:
+                rationale: Generated.
+                ref: master.
             glassfish-jaxb-api:
-                rationale: Generated.
-                ref: master.
-            glassfish-jaxb-core:
-                rationale: Generated.
-                ref: master.
-            glassfish-jaxb-runtime:
-                rationale: Generated.
-                ref: master.
-            glassfish-jaxb-txw2:
                 rationale: Generated.
                 ref: master.
             gnupg:
@@ -180,7 +144,7 @@ data:
             initscripts:
                 rationale: Generated.
                 ref: master.
-            istack-commons-runtime:
+            istack-commons:
                 rationale: Generated.
                 ref: master.
             jackson:
@@ -216,18 +180,6 @@ data:
             jss:
                 rationale: Generated.
                 ref: master.
-            keyutils:
-                rationale: Generated.
-                ref: master.
-            krb5-pkinit:
-                rationale: Generated.
-                ref: master.
-            krb5-server:
-                rationale: Generated.
-                ref: master.
-            krb5-workstation:
-                rationale: Generated.
-                ref: master.
             ldapjdk:
                 rationale: Generated.
                 ref: master.
@@ -237,27 +189,6 @@ data:
             libaio:
                 rationale: Generated.
                 ref: master.
-            libbasicobjects:
-                rationale: Generated.
-                ref: master.
-            libcollection:
-                rationale: Generated.
-                ref: master.
-            libdhash:
-                rationale: Generated.
-                ref: master.
-            libini_config:
-                rationale: Generated.
-                ref: master.
-            libipa_hbac:
-                rationale: Generated.
-                ref: master.
-            libitm:
-                rationale: Generated.
-                ref: master.
-            libkadm5:
-                rationale: Generated.
-                ref: master.
             libldb:
                 rationale: Generated.
                 ref: master.
@@ -265,30 +196,6 @@ data:
                 rationale: Generated.
                 ref: master.
             libnl3:
-                rationale: Generated.
-                ref: master.
-            libpath_utils:
-                rationale: Generated.
-                ref: master.
-            libref_array:
-                rationale: Generated.
-                ref: master.
-            libselinux-python:
-                rationale: Generated.
-                ref: master.
-            libsmbclient:
-                rationale: Generated.
-                ref: master.
-            libsss_autofs:
-                rationale: Generated.
-                ref: master.
-            libsss_certmap:
-                rationale: Generated.
-                ref: master.
-            libsss_idmap:
-                rationale: Generated.
-                ref: master.
-            libsss_nss_idmap:
                 rationale: Generated.
                 ref: master.
             libtalloc:
@@ -312,12 +219,6 @@ data:
             libusb:
                 rationale: Generated.
                 ref: master.
-            libverto-libev:
-                rationale: Generated.
-                ref: master.
-            libwbclient:
-                rationale: Generated.
-                ref: master.
             libxslt:
                 rationale: Generated.
                 ref: master.
@@ -331,9 +232,6 @@ data:
                 rationale: Generated.
                 ref: master.
             mod_nss:
-                rationale: Generated.
-                ref: master.
-            mod_session:
                 rationale: Generated.
                 ref: master.
             mod_wsgi:
@@ -351,28 +249,13 @@ data:
             nuxwdog:
                 rationale: Generated.
                 ref: master.
-            nuxwdog-client-java:
-                rationale: Generated.
-                ref: master.
             objectweb-asm3:
                 rationale: Generated.
                 ref: master.
             oddjob:
                 rationale: Generated.
                 ref: master.
-            oddjob-mkhomedir:
-                rationale: Generated.
-                ref: master.
             opencryptoki:
-                rationale: Generated.
-                ref: master.
-            opencryptoki-ccatok:
-                rationale: Generated.
-                ref: master.
-            opencryptoki-icsftok:
-                rationale: Generated.
-                ref: master.
-            opencryptoki-libs:
                 rationale: Generated.
                 ref: master.
             opendnssec:
@@ -381,202 +264,19 @@ data:
             open-sans-fonts:
                 rationale: Generated.
                 ref: master.
-            pki-base:
+            pki-core:
                 rationale: Generated.
                 ref: master.
-            pki-base-java:
-                rationale: Generated.
-                ref: master.
-            pki-ca:
-                rationale: Generated.
-                ref: master.
-            pki-kra:
-                rationale: Generated.
-                ref: master.
-            pki-server:
-                rationale: Generated.
-                ref: master.
-            pki-tools:
-                rationale: Generated.
-                ref: master.
-            policycoreutils-python:
-                rationale: Generated.
-                ref: master.
-            publicsuffix-list:
-                rationale: Generated.
-                ref: master.
-            python2-asn1crypto:
-                rationale: Generated.
-                ref: master.
-            python2-augeas:
-                rationale: Generated.
-                ref: master.
-            python2-babel:
-                rationale: Generated.
-                ref: master.
-            python2-cffi:
-                rationale: Generated.
-                ref: master.
-            python2-configparser:
-                rationale: Generated.
-                ref: master.
-            python2-crypto:
-                rationale: Generated.
-                ref: master.
-            python2-cryptography:
-                rationale: Generated.
-                ref: master.
-            python2-cssselect:
-                rationale: Generated.
-                ref: master.
-            python2-custodia:
-                rationale: Generated.
-                ref: master.
-            python2-dateutil:
-                rationale: Generated.
-                ref: master.
-            python2-decorator:
-                rationale: Generated.
-                ref: master.
-            python2-dns:
-                rationale: Generated.
-                ref: master.
-            python2-html5lib:
-                rationale: Generated.
-                ref: master.
-            python2-idna:
-                rationale: Generated.
-                ref: master.
-            python2-ipaclient:
-                rationale: Generated.
-                ref: master.
-            python2-ipalib:
-                rationale: Generated.
-                ref: master.
-            python2-ipaserver:
-                rationale: Generated.
-                ref: master.
-            python2-IPy:
-                rationale: Generated.
-                ref: master.
-            python2-jinja2:
-                rationale: Generated.
-                ref: master.
-            python2-kdcproxy:
-                rationale: Generated.
-                ref: master.
-            python2-ldb:
-                rationale: Generated.
-                ref: master.
-            python2-libipa_hbac:
-                rationale: Generated.
-                ref: master.
-            python2-libsss_nss_idmap:
-                rationale: Generated.
-                ref: master.
-            python2-lxml:
-                rationale: Generated.
-                ref: master.
-            python2-markupsafe:
-                rationale: Generated.
-                ref: master.
-            python2-netifaces:
-                rationale: Generated.
-                ref: master.
-            python2-ply:
-                rationale: Generated.
-                ref: master.
-            python2-pyasn1:
-                rationale: Generated.
-                ref: master.
-            python2-pyasn1-modules:
-                rationale: Generated.
-                ref: master.
-            python2-pycparser:
-                rationale: Generated.
-                ref: master.
-            python2-pyOpenSSL:
-                rationale: Generated.
-                ref: master.
-            python2-pysocks:
-                rationale: Generated.
-                ref: master.
-            python2-requests:
-                rationale: Generated.
-                ref: master.
-            python2-six:
-                rationale: Generated.
-                ref: master.
-            python2-sss:
-                rationale: Generated.
-                ref: master.
-            python2-sssdconfig:
-                rationale: Generated.
-                ref: master.
-            python2-sss-murmur:
-                rationale: Generated.
-                ref: master.
-            python2-systemd:
-                rationale: Generated.
-                ref: master.
-            python2-talloc:
-                rationale: Generated.
-                ref: master.
-            python2-tdb:
-                rationale: Generated.
-                ref: master.
-            python2-tevent:
+            pyOpenSSL:
                 rationale: Generated.
                 ref: master.
             python2-typing:
                 rationale: Generated.
                 ref: master.
-            python2-urllib3:
+            python-asn1crypto:
                 rationale: Generated.
                 ref: master.
-            python2-yubico:
-                rationale: Generated.
-                ref: master.
-            python3-asn1crypto:
-                rationale: Generated.
-                ref: master.
-            python3-cffi:
-                rationale: Generated.
-                ref: master.
-            python3-chardet:
-                rationale: Generated.
-                ref: master.
-            python3-cryptography:
-                rationale: Generated.
-                ref: master.
-            python3-custodia:
-                rationale: Generated.
-                ref: master.
-            python3-idna:
-                rationale: Generated.
-                ref: master.
-            python3-jwcrypto:
-                rationale: Generated.
-                ref: master.
-            python3-pycparser:
-                rationale: Generated.
-                ref: master.
-            python3-pyOpenSSL:
-                rationale: Generated.
-                ref: master.
-            python3-pysocks:
-                rationale: Generated.
-                ref: master.
-            python3-requests:
-                rationale: Generated.
-                ref: master.
-            python3-sssdconfig:
-                rationale: Generated.
-                ref: master.
-            python3-systemd:
-                rationale: Generated.
-                ref: master.
-            python3-urllib3:
+            python-augeas:
                 rationale: Generated.
                 ref: master.
             python-backports:
@@ -588,7 +288,31 @@ data:
             python-beautifulsoup4:
                 rationale: Generated.
                 ref: master.
+            python-cffi:
+                rationale: Generated.
+                ref: master.
             python-chardet:
+                rationale: Generated.
+                ref: master.
+            python-configparser:
+                rationale: Generated.
+                ref: master.
+            python-crypto:
+                rationale: Generated.
+                ref: master.
+            python-cryptography:
+                rationale: Generated.
+                ref: master.
+            python-cssselect:
+                rationale: Generated.
+                ref: master.
+            python-dateutil:
+                rationale: Generated.
+                ref: master.
+            python-decorator:
+                rationale: Generated.
+                ref: master.
+            python-dns:
                 rationale: Generated.
                 ref: master.
             python-enum34:
@@ -597,22 +321,64 @@ data:
             python-gssapi:
                 rationale: Generated.
                 ref: master.
+            python-html5lib:
+                rationale: Generated.
+                ref: master.
+            python-idna:
+                rationale: Generated.
+                ref: master.
             python-ipaddress:
+                rationale: Generated.
+                ref: master.
+            python-jinja2:
                 rationale: Generated.
                 ref: master.
             python-jwcrypto:
                 rationale: Generated.
                 ref: master.
+            python-kdcproxy:
+                rationale: Generated.
+                ref: master.
             python-ldap:
+                rationale: Generated.
+                ref: master.
+            python-lxml:
+                rationale: Generated.
+                ref: master.
+            python-markupsafe:
                 rationale: Generated.
                 ref: master.
             python-netaddr:
                 rationale: Generated.
                 ref: master.
+            python-netifaces:
+                rationale: Generated.
+                ref: master.
             python-nss:
                 rationale: Generated.
                 ref: master.
-            python-qrcode-core:
+            python-pyasn1:
+                rationale: Generated.
+                ref: master.
+            python-pycparser:
+                rationale: Generated.
+                ref: master.
+            python-pysocks:
+                rationale: Generated.
+                ref: master.
+            python-qrcode:
+                rationale: Generated.
+                ref: master.
+            python-requests:
+                rationale: Generated.
+                ref: master.
+            python-systemd:
+                rationale: Generated.
+                ref: master.
+            python-urllib3:
+                rationale: Generated.
+                ref: master.
+            python-yubico:
                 rationale: Generated.
                 ref: master.
             pytz:
@@ -624,25 +390,10 @@ data:
             quota:
                 rationale: Generated.
                 ref: master.
-            quota-nls:
-                rationale: Generated.
-                ref: master.
             relaxngDatatype:
                 rationale: Generated.
                 ref: master.
-            resteasy-atom-provider:
-                rationale: Generated.
-                ref: master.
-            resteasy-client:
-                rationale: Generated.
-                ref: master.
-            resteasy-core:
-                rationale: Generated.
-                ref: master.
-            resteasy-jackson-provider:
-                rationale: Generated.
-                ref: master.
-            resteasy-jaxb-provider:
+            resteasy:
                 rationale: Generated.
                 ref: master.
             rpcbind:
@@ -651,40 +402,7 @@ data:
             samba:
                 rationale: Generated.
                 ref: master.
-            samba-client-libs:
-                rationale: Generated.
-                ref: master.
-            samba-common:
-                rationale: Generated.
-                ref: master.
-            samba-common-libs:
-                rationale: Generated.
-                ref: master.
-            samba-common-tools:
-                rationale: Generated.
-                ref: master.
-            samba-dc-libs:
-                rationale: Generated.
-                ref: master.
-            samba-libs:
-                rationale: Generated.
-                ref: master.
-            samba-python:
-                rationale: Generated.
-                ref: master.
-            samba-winbind:
-                rationale: Generated.
-                ref: master.
-            samba-winbind-modules:
-                rationale: Generated.
-                ref: master.
             selinux-policy:
-                rationale: Generated.
-                ref: master.
-            selinux-policy-targeted:
-                rationale: Generated.
-                ref: master.
-            setools-python:
                 rationale: Generated.
                 ref: master.
             slapi-nis:
@@ -693,43 +411,10 @@ data:
             slf4j:
                 rationale: Generated.
                 ref: master.
-            slf4j-jdk14:
-                rationale: Generated.
-                ref: master.
             softhsm:
                 rationale: Generated.
                 ref: master.
-            sqlite:
-                rationale: Generated.
-                ref: master.
             sssd:
-                rationale: Generated.
-                ref: master.
-            sssd-ad:
-                rationale: Generated.
-                ref: master.
-            sssd-client:
-                rationale: Generated.
-                ref: master.
-            sssd-common:
-                rationale: Generated.
-                ref: master.
-            sssd-common-pac:
-                rationale: Generated.
-                ref: master.
-            sssd-dbus:
-                rationale: Generated.
-                ref: master.
-            sssd-ipa:
-                rationale: Generated.
-                ref: master.
-            sssd-krb5:
-                rationale: Generated.
-                ref: master.
-            sssd-krb5-common:
-                rationale: Generated.
-                ref: master.
-            sssd-ldap:
                 rationale: Generated.
                 ref: master.
             stax2-api:
@@ -738,25 +423,10 @@ data:
             stax-ex:
                 rationale: Generated.
                 ref: master.
-            tcp_wrappers:
-                rationale: Generated.
-                ref: master.
             tomcat:
                 rationale: Generated.
                 ref: master.
-            tomcat-el-3.0-api:
-                rationale: Generated.
-                ref: master.
-            tomcat-jsp-2.3-api:
-                rationale: Generated.
-                ref: master.
             tomcatjss:
-                rationale: Generated.
-                ref: master.
-            tomcat-lib:
-                rationale: Generated.
-                ref: master.
-            tomcat-servlet-3.1-api:
                 rationale: Generated.
                 ref: master.
             velocity:
@@ -778,9 +448,6 @@ data:
                 rationale: Generated.
                 ref: master.
             xmlrpc-c:
-                rationale: Generated.
-                ref: master.
-            xmlrpc-c-client:
                 rationale: Generated.
                 ref: master.
             xmlstreambuffer:

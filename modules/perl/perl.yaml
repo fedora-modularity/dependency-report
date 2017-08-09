@@ -15,20 +15,8 @@ data:
         documentation: https://github.com/modularity-modules/perl
         tracker: https://github.com/modularity-modules/perl
     components:
-    rpms:
-            gdbm-devel:
-                rationale: Generated.
-                ref: master.
-            glibc-all-langpacks:
-                rationale: Generated.
-                ref: master.
-            groff-base:
-                rationale: Generated.
-                ref: master.
-            libcrypt-nss:
-                rationale: Generated.
-                ref: master.
-            libdb-devel:
+        rpms:
+            groff:
                 rationale: Generated.
                 ref: master.
             perl:
@@ -41,9 +29,6 @@ data:
                 rationale: Generated.
                 ref: master.
             perl-Archive-Zip:
-                rationale: Generated.
-                ref: master.
-            perl-Attribute-Handlers:
                 rationale: Generated.
                 ref: master.
             perl-autodie:
@@ -97,16 +82,7 @@ data:
             perl-DB_File:
                 rationale: Generated.
                 ref: master.
-            perl-devel:
-                rationale: Generated.
-                ref: master.
-            perl-Devel-Peek:
-                rationale: Generated.
-                ref: master.
             perl-Devel-PPPort:
-                rationale: Generated.
-                ref: master.
-            perl-Devel-SelfStubber:
                 rationale: Generated.
                 ref: master.
             perl-Devel-Size:
@@ -124,13 +100,7 @@ data:
             perl-Encode:
                 rationale: Generated.
                 ref: master.
-            perl-encoding:
-                rationale: Generated.
-                ref: master.
             perl-Env:
-                rationale: Generated.
-                ref: master.
-            perl-Errno:
                 rationale: Generated.
                 ref: master.
             perl-experimental:
@@ -142,12 +112,6 @@ data:
             perl-ExtUtils-CBuilder:
                 rationale: Generated.
                 ref: master.
-            perl-ExtUtils-Command:
-                rationale: Generated.
-                ref: master.
-            perl-ExtUtils-Embed:
-                rationale: Generated.
-                ref: master.
             perl-ExtUtils-Install:
                 rationale: Generated.
                 ref: master.
@@ -155,12 +119,6 @@ data:
                 rationale: Generated.
                 ref: master.
             perl-ExtUtils-Manifest:
-                rationale: Generated.
-                ref: master.
-            perl-ExtUtils-Miniperl:
-                rationale: Generated.
-                ref: master.
-            perl-ExtUtils-MM-Utils:
                 rationale: Generated.
                 ref: master.
             perl-ExtUtils-ParseXS:
@@ -202,19 +160,10 @@ data:
             perl-inc-latest:
                 rationale: Generated.
                 ref: master.
-            perl-interpreter:
-                rationale: Generated.
-                ref: master.
-            perl-IO:
-                rationale: Generated.
-                ref: master.
             perl-IO-Compress:
                 rationale: Generated.
                 ref: master.
             perl-IO-Socket-IP:
-                rationale: Generated.
-                ref: master.
-            perl-IO-Zlib:
                 rationale: Generated.
                 ref: master.
             perl-IPC-Cmd:
@@ -232,25 +181,13 @@ data:
             perl-libnet:
                 rationale: Generated.
                 ref: master.
-            perl-libnetcfg:
-                rationale: Generated.
-                ref: master.
-            perl-libs:
-                rationale: Generated.
-                ref: master.
             perl-Locale-Codes:
                 rationale: Generated.
                 ref: master.
             perl-Locale-Maketext:
                 rationale: Generated.
                 ref: master.
-            perl-Locale-Maketext-Simple:
-                rationale: Generated.
-                ref: master.
             perl-local-lib:
-                rationale: Generated.
-                ref: master.
-            perl-macros:
                 rationale: Generated.
                 ref: master.
             perl-Math-BigInt:
@@ -262,12 +199,6 @@ data:
             perl-Math-BigRat:
                 rationale: Generated.
                 ref: master.
-            perl-Math-Complex:
-                rationale: Generated.
-                ref: master.
-            perl-Memoize:
-                rationale: Generated.
-                ref: master.
             perl-MIME-Base64:
                 rationale: Generated.
                 ref: master.
@@ -277,28 +208,16 @@ data:
             perl-Module-CoreList:
                 rationale: Generated.
                 ref: master.
-            perl-Module-CoreList-tools:
-                rationale: Generated.
-                ref: master.
             perl-Module-Load:
                 rationale: Generated.
                 ref: master.
             perl-Module-Load-Conditional:
                 rationale: Generated.
                 ref: master.
-            perl-Module-Loaded:
-                rationale: Generated.
-                ref: master.
             perl-Module-Metadata:
                 rationale: Generated.
                 ref: master.
             perl-MRO-Compat:
-                rationale: Generated.
-                ref: master.
-            perl-Net-Ping:
-                rationale: Generated.
-                ref: master.
-            perl-open:
                 rationale: Generated.
                 ref: master.
             perl-Package-Generator:
@@ -331,9 +250,6 @@ data:
             perl-Pod-Escapes:
                 rationale: Generated.
                 ref: master.
-            perl-Pod-Html:
-                rationale: Generated.
-                ref: master.
             perl-podlators:
                 rationale: Generated.
                 ref: master.
@@ -350,9 +266,6 @@ data:
                 rationale: Generated.
                 ref: master.
             perl-Scalar-List-Utils:
-                rationale: Generated.
-                ref: master.
-            perl-SelfLoader:
                 rationale: Generated.
                 ref: master.
             perl-Socket:
@@ -377,9 +290,6 @@ data:
                 rationale: Generated.
                 ref: master.
             perl-Term-Cap:
-                rationale: Generated.
-                ref: master.
-            perl-Test:
                 rationale: Generated.
                 ref: master.
             perl-Test-Harness:
@@ -421,9 +331,6 @@ data:
             perl-Time-Local:
                 rationale: Generated.
                 ref: master.
-            perl-Time-Piece:
-                rationale: Generated.
-                ref: master.
             perl-Unicode-Collate:
                 rationale: Generated.
                 ref: master.
@@ -433,15 +340,12 @@ data:
             perl-URI:
                 rationale: Generated.
                 ref: master.
-            perl-utils:
-                rationale: Generated.
-                ref: master.
             perl-version:
                 rationale: Generated.
                 ref: master.
-            python3-pyparsing:
+            pyparsing:
                 rationale: Generated.
                 ref: master.
-            systemtap-sdt-devel:
+            systemtap:
                 rationale: Generated.
                 ref: master.
