@@ -8,10 +8,16 @@ strict digraph G {
   "freeipa" -> "perl";
   "freeipa" -> "389-ds";
   "freeipa" -> "java";
+  "freeipa" -> "python3";
   "httpd" -> "platform";
+  "installer" -> "platform";
   "java" -> "platform";
   "nginx" -> "platform";
   "perl" -> "platform";
+  "python3" -> "platform";
+  "python3-bootstrap" -> "platform";
+  "python3-ecosystem" -> "platform";
+  "python3-ecosystem-bootstrap" -> "platform";
   "ruby" -> "platform";
   "systemtap" -> "platform";
 }

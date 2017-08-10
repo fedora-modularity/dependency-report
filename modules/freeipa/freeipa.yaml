@@ -12,12 +12,14 @@ data:
             perl: master
             389-ds: master
             java: master
+            python3: master
         requires:
             platform: master
             httpd: master
             perl: master
             389-ds: master
             java: master
+            python3: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/freeipa
@@ -100,9 +102,6 @@ data:
                 rationale: Generated.
                 ref: master.
             fontawesome-fonts:
-                rationale: Generated.
-                ref: master.
-            fontpackages:
                 rationale: Generated.
                 ref: master.
             freeipa:

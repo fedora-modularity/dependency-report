@@ -12,7 +12,7 @@ platform:
 
 autotools: platform perl
 
-freeipa: platform 389-ds java httpd perl
+freeipa: platform 389-ds java httpd perl python3
 
 java: platform
 
@@ -25,3 +25,7 @@ perl: platform
 ruby: platform
 
 systemtap: platform
+
+python3: platform
+
+installer: platform

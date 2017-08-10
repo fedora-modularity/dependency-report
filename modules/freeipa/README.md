@@ -7,6 +7,7 @@ An initial [modulemd file](freeipa.yaml) has been generated. It is experimental 
 * [perl](../perl)
 * [389-ds](../389-ds)
 * [java](../java)
+* [python3](../python3)
 ## Binary RPM packages (all arches combined)
 * `apache-commons-cli`
 * `apache-commons-codec`
@@ -37,7 +38,6 @@ An initial [modulemd file](freeipa.yaml) has been generated. It is experimental 
 * `dbus-python`
 * `ecj`
 * `fontawesome-fonts`
-* `fontpackages-filesystem`
 * `freeipa-client`
 * `freeipa-client-common`
 * `freeipa-common`
