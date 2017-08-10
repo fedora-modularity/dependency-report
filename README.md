@@ -102,6 +102,8 @@ $ ./resolve_modules.sh
 
 Generate the `rumtime-*` package lists for all modules on all architectures.
 
+It is currently implemented with make as make can easily figure out dependencies of tasks.
+
 ```
-$ ./deps.sh
+$ make
 ```
