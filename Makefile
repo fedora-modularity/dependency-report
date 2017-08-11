@@ -28,4 +28,4 @@ systemtap: platform
 
 python3: platform
 
-installer: platform
+installer: platform perl python3

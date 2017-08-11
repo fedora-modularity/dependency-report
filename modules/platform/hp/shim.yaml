@@ -1,0 +1,30 @@
+document: modulemd
+version: 1
+data:
+    summary: First-stage UEFI bootloader
+    description: >-
+        Providing the unsigned shim binaries, this module is a building block
+        for secure boot-enabled systems.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: master
+    references:
+        community: https://fedoraproject.org/wiki/Host_and_Platform
+        documentation: https://github.com/fedora-modularity/hp
+        tracker: https://github.com/fedora-modularity/hp/issues
+    components:
+        rpms:
+            # shim-0.8-1.fc22
+            shim:
+                rationale: >-
+                    Provides the unsigned binaries; this package is produced by different source
+                    packages on different architectures.
+                ref: 72c0daf8e4db63bd5b8125167e23164e515198c4
+            # shim-unsigned-aarch64-0.9-1.fc24
+            shim-unsigned-aarch64:
+                rationale: >-
+                    Provides the unsigned binaries; this package is produced by different source
+                    packages on different architectures.
+                ref: ae09b5fe2bac419ce2b49bded0487d133bd53919
