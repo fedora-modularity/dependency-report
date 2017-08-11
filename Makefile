@@ -1,4 +1,5 @@
 all: $(notdir $(wildcard modules/*)) ;
+	@./reports.sh
 
 platform:
 	@echo Configuring platform.

@@ -7,6 +7,25 @@ files="
     runtime-source-packages-short.txt"
 base=modules
 
+echo "Visualizing dependencies between modules..."
+
+mkdir -p img
+> img/module-deps.dot
+echo "strict digraph G {" >> img/module-deps.dot
+echo "  node [fontname=monospace];" >> img/module-deps.dot
+
+for module in $(ls modules); do
+    echo "  \"$module\" -> \"platform\";" >> img/module-deps.dot
+    for dep in $(cat modules/$module/modular-deps.txt); do
+        echo "  \"$module\" -> \"$dep\";" >> img/module-deps.dot
+    done 
+done
+
+echo "}" >> img/module-deps.dot
+
+dot -Tpng img/module-deps.dot > img/module-deps.png
+
+
 echo "Generating combined arch lists"
 for file in $files; do
     for module in $(ls modules); do

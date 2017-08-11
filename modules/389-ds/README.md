@@ -3,6 +3,7 @@ This is a dependency report for the 389-ds module.
 
 An initial [modulemd file](389-ds.yaml) has been generated. It is experimental and probably unusable at this point.
 ## Dependencies
+* [platform](../platform)
 ## Binary RPM packages (all arches combined)
 * `389-ds-base`
 * `389-ds-base-libs`

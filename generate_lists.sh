@@ -20,3 +20,6 @@ echo python3 >> modules/freeipa/modular-deps.txt
 
 echo perl > modules/autotools/modular-deps.txt
 
+echo perl > modules/installer/modular-deps.txt
+echo python3 > modules/installer/modular-deps.txt
+

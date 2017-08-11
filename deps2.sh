@@ -20,3 +20,5 @@ for file in $files; do
             > $base/$target/$arch/$file
     done
 done
+
+echo $deps | sed -e "s/ /\n/g" > $base/$target/modular-deps.txt

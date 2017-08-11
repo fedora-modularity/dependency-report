@@ -3,10 +3,11 @@ This is a dependency report for the freeipa module.
 
 An initial [modulemd file](freeipa.yaml) has been generated. It is experimental and probably unusable at this point.
 ## Dependencies
-* [httpd](../httpd)
-* [perl](../perl)
+* [platform](../platform)
 * [389-ds](../389-ds)
 * [java](../java)
+* [httpd](../httpd)
+* [perl](../perl)
 * [python3](../python3)
 ## Binary RPM packages (all arches combined)
 * `apache-commons-cli`
