@@ -1,9 +1,11 @@
 digraph G {
   node [fontname=monospace];
+  "autotools" -> "platform" [color="#009900"];
   "autotools" -> "platform" [color="#aa0000"];
   "installer" -> "platform" [color="#009900"];
   "installer" -> "platform" [color="#aa0000"];
   "installer" -> "systemtap" [color="#aa0000"];
   "installer" -> "autotools" [color="#aa0000"];
+  "systemtap" -> "platform" [color="#009900"];
   "systemtap" -> "platform" [color="#aa0000"];
 }

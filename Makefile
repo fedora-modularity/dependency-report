@@ -10,3 +10,7 @@ platform:
 
 
 installer: platform 
+
+autotools: platform
+
+systemtap: platform

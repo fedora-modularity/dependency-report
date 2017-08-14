@@ -8,7 +8,9 @@ data:
     dependencies:
         buildrequires:
             platform: master
+            platform: master
         requires:
+            platform: master
             platform: master
     references:
         community: https://docs.pagure.org/modularity/
@@ -16,244 +18,19 @@ data:
         tracker: https://github.com/modularity-modules/systemtap
     components:
         rpms:
-            acl:
-                rationale: Generated.
-                ref: master.
-            attr:
-                rationale: Generated.
-                ref: master.
-            audit:
-                rationale: Generated.
-                ref: master.
             avahi:
-                rationale: Generated.
-                ref: master.
-            basesystem:
-                rationale: Generated.
-                ref: master.
-            bash:
-                rationale: Generated.
-                ref: master.
-            binutils:
                 rationale: Generated.
                 ref: master.
             boost:
                 rationale: Generated.
                 ref: master.
-            bzip2:
-                rationale: Generated.
-                ref: master.
-            ca-certificates:
-                rationale: Generated.
-                ref: master.
-            chkconfig:
-                rationale: Generated.
-                ref: master.
-            coreutils:
-                rationale: Generated.
-                ref: master.
-            cracklib:
-                rationale: Generated.
-                ref: master.
-            crypto-policies:
-                rationale: Generated.
-                ref: master.
-            curl:
-                rationale: Generated.
-                ref: master.
-            cyrus-sasl:
-                rationale: Generated.
-                ref: master.
-            dbus:
-                rationale: Generated.
-                ref: master.
             dyninst:
-                rationale: Generated.
-                ref: master.
-            e2fsprogs:
-                rationale: Generated.
-                ref: master.
-            efivar:
-                rationale: Generated.
-                ref: master.
-            elfutils:
-                rationale: Generated.
-                ref: master.
-            fedora-release:
-                rationale: Generated.
-                ref: master.
-            fedora-repos:
-                rationale: Generated.
-                ref: master.
-            filesystem:
-                rationale: Generated.
-                ref: master.
-            findutils:
-                rationale: Generated.
-                ref: master.
-            fipscheck:
-                rationale: Generated.
-                ref: master.
-            gawk:
-                rationale: Generated.
-                ref: master.
-            gc:
-                rationale: Generated.
-                ref: master.
-            gcc:
-                rationale: Generated.
-                ref: master.
-            gdbm:
-                rationale: Generated.
-                ref: master.
-            glibc:
-                rationale: Generated.
-                ref: master.
-            gmp:
-                rationale: Generated.
-                ref: master.
-            grep:
-                rationale: Generated.
-                ref: master.
-            guile:
-                rationale: Generated.
-                ref: master.
-            gzip:
-                rationale: Generated.
-                ref: master.
-            isl:
                 rationale: Generated.
                 ref: master.
             json-c:
                 rationale: Generated.
                 ref: master.
-            kernel:
-                rationale: Generated.
-                ref: master.
-            keyutils:
-                rationale: Generated.
-                ref: master.
-            krb5:
-                rationale: Generated.
-                ref: master.
-            libarchive:
-                rationale: Generated.
-                ref: master.
-            libatomic_ops:
-                rationale: Generated.
-                ref: master.
-            libcap:
-                rationale: Generated.
-                ref: master.
-            libcap-ng:
-                rationale: Generated.
-                ref: master.
-            libdb:
-                rationale: Generated.
-                ref: master.
             libdwarf:
-                rationale: Generated.
-                ref: master.
-            libedit:
-                rationale: Generated.
-                ref: master.
-            libffi:
-                rationale: Generated.
-                ref: master.
-            libgcrypt:
-                rationale: Generated.
-                ref: master.
-            libgpg-error:
-                rationale: Generated.
-                ref: master.
-            libmpc:
-                rationale: Generated.
-                ref: master.
-            libpwquality:
-                rationale: Generated.
-                ref: master.
-            libselinux:
-                rationale: Generated.
-                ref: master.
-            libsemanage:
-                rationale: Generated.
-                ref: master.
-            libsepol:
-                rationale: Generated.
-                ref: master.
-            libsigsegv:
-                rationale: Generated.
-                ref: master.
-            libtasn1:
-                rationale: Generated.
-                ref: master.
-            libtool:
-                rationale: Generated.
-                ref: master.
-            libunistring:
-                rationale: Generated.
-                ref: master.
-            libutempter:
-                rationale: Generated.
-                ref: master.
-            libverto:
-                rationale: Generated.
-                ref: master.
-            libxml2:
-                rationale: Generated.
-                ref: master.
-            lua:
-                rationale: Generated.
-                ref: master.
-            lz4:
-                rationale: Generated.
-                ref: master.
-            make:
-                rationale: Generated.
-                ref: master.
-            mokutil:
-                rationale: Generated.
-                ref: master.
-            mpfr:
-                rationale: Generated.
-                ref: master.
-            ncurses:
-                rationale: Generated.
-                ref: master.
-            nghttp2:
-                rationale: Generated.
-                ref: master.
-            nspr:
-                rationale: Generated.
-                ref: master.
-            nss:
-                rationale: Generated.
-                ref: master.
-            nss-pem:
-                rationale: Generated.
-                ref: master.
-            nss-softokn:
-                rationale: Generated.
-                ref: master.
-            nss-util:
-                rationale: Generated.
-                ref: master.
-            openldap:
-                rationale: Generated.
-                ref: master.
-            openssh:
-                rationale: Generated.
-                ref: master.
-            openssl:
-                rationale: Generated.
-                ref: master.
-            p11-kit:
-                rationale: Generated.
-                ref: master.
-            pam:
-                rationale: Generated.
-                ref: master.
-            pcre:
                 rationale: Generated.
                 ref: master.
             perl:
@@ -295,54 +72,6 @@ data:
             perl-Unicode-Normalize:
                 rationale: Generated.
                 ref: master.
-            popt:
-                rationale: Generated.
-                ref: master.
-            readline:
-                rationale: Generated.
-                ref: master.
-            rpm:
-                rationale: Generated.
-                ref: master.
-            sed:
-                rationale: Generated.
-                ref: master.
-            setup:
-                rationale: Generated.
-                ref: master.
-            shadow-utils:
-                rationale: Generated.
-                ref: master.
-            sqlite:
-                rationale: Generated.
-                ref: master.
-            systemd:
-                rationale: Generated.
-                ref: master.
             systemtap:
-                rationale: Generated.
-                ref: master.
-            texinfo:
-                rationale: Generated.
-                ref: master.
-            tzdata:
-                rationale: Generated.
-                ref: master.
-            unzip:
-                rationale: Generated.
-                ref: master.
-            ustr:
-                rationale: Generated.
-                ref: master.
-            util-linux:
-                rationale: Generated.
-                ref: master.
-            xz:
-                rationale: Generated.
-                ref: master.
-            zip:
-                rationale: Generated.
-                ref: master.
-            zlib:
                 rationale: Generated.
                 ref: master.
