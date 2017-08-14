@@ -13,7 +13,7 @@ base=modules
 for file in $files; do
     for arch in $arches; do
         for dep in $deps; do
-            cat $base/$dep/$arch/runtime-complete-$file
+            cat $base/$dep/$arch/complete-runtime-$file
         done \
             | sort -u \
             | comm -23 $base/$target/$arch/complete-buildtime-$file - \
