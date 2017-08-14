@@ -1,10 +1,5 @@
 #!/bin/sh
-arches="aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64"
-files="
-    runtime-binary-packages-full.txt
-    runtime-binary-packages-short.txt
-    runtime-source-packages-full.txt
-    runtime-source-packages-short.txt"
+arches=$(cat arches.txt)
 base=modules
 
 echo "Visualizing dependencies between modules..."
@@ -29,6 +24,14 @@ dot -Tpng img/module-deps.dot > img/module-deps.png
 
 
 echo "Generating combined arch lists"
+files="
+    runtime-binary-packages-short.txt
+    runtime-source-packages-short.txt
+    buildtime-binary-packages-short.txt
+    buildtime-source-packages-short.txt
+    missing-buildtime-binary-packages-short.txt
+    missing-buildtime-source-packages-short.txt"
+
 for file in $files; do
     for module in $(ls modules); do
         mkdir -p $base/$module/all
@@ -48,15 +51,21 @@ for module in $(ls modules); do
         echo ""
         echo "An initial [modulemd file]($module.yaml) has been generated. It is experimental and probably unusable at this point."
         echo "## Dependencies"
+        echo "These are modules identified as dependencies."
         echo "### Runtime"
+        echo "This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules."
         for dep in $(cat modules/$module/modular-deps.txt); do
             echo "* [$dep](../$dep)"
         done
         echo "### Build"
+        echo "This list might not be complete. Please see the missing RPM build dependencies ([source](missing-buildtime-source-packages-short.txt) or [binary](missing-buildtime-binary-packages-short.txt)) lists for more information."
         for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "* [$dep](../$dep)"
         done
         echo "## Binary RPM packages (all arches combined)"
+        echo "These are RPM dependencies of the [$module top-level package set]($module.csv). They should be either:"
+        echo "* split into other modules and be used as modular dependncies"
+        echo "* included in this $module module"
         for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
             echo "* \`$pkg\`"
         done

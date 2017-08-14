@@ -3,7 +3,7 @@
 cp -r hp modules/platform
 echo "" > modules/platform/modular-deps.txt
 
-for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
+for arch in $(cat arches.txt); do
     modulearchroot="modules/platform/$arch"
 
     cp $modulearchroot/runtime-binary-packages-full.txt   $modulearchroot/complete-runtime-binary-packages-full.txt 

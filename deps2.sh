@@ -1,5 +1,5 @@
 #!/bin/sh
-arches="aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64"
+arches=$(cat arches.txt)
 files="
     runtime-binary-packages-full.txt
     runtime-binary-packages-short.txt

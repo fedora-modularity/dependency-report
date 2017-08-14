@@ -1,6 +1,0 @@
-strict digraph G {
-node [fontname=monospace];
-  "nginx-mimetypes" -> "nginx-filesystem";
-  "nginx" -> "nginx-filesystem";
-  "nginx" -> "nginx-mimetypes";
-}

@@ -1,6 +1,4 @@
 all: $(notdir $(wildcard modules/*)) ;
-	@./build_deps_definitions.sh
-	@./reports.sh
 
 platform:
 	@echo Configuring platform.

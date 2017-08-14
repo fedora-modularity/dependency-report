@@ -1,5 +1,8 @@
 #!/bin/sh
 
+./add_platform.sh
+
+
 ./build_deps.sh 389-ds      platform
 ./build_deps.sh autotools   platform
 ./build_deps.sh freeipa     platform

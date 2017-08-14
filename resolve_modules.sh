@@ -4,7 +4,7 @@
 rm -rf modules/platform
 
 # Resolving complete dependencies using depchase
-for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
+for arch in $(cat arches.txt); do
     echo "Resolving $arch dependencies:"
     for module in $(ls modules); do
 
@@ -49,7 +49,7 @@ for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
 done
 
 # Figuring out the standalone dependencies 
-for arch in aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64; do
+for arch in $(cat arches.txt); do
     for module in $(ls modules); do
 
         modulearchroot="modules/$module/$arch"

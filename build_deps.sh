@@ -1,5 +1,5 @@
 #!/bin/sh
-arches="aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64"
+arches=$(cat arches.txt)
 files="
     binary-packages-full.txt
     binary-packages-short.txt
@@ -18,6 +18,10 @@ for file in $files; do
             | sort -u \
             | comm -23 $base/$target/$arch/complete-buildtime-$file - \
             > $base/$target/$arch/buildtime-$file
+        comm -23 \
+            $base/$target/$arch/buildtime-$file \
+            $base/$target/$arch/runtime-$file \
+            > $base/$target/$arch/missing-buildtime-$file
     done
 done
 

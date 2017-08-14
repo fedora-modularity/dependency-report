@@ -1,6 +1,6 @@
 #!/bin/sh
 
-arches="aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64"
+arches=$(cat arches.txt)
 
 echo "Drawing graphs:"
 for module in $(ls modules); do
