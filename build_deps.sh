@@ -12,16 +12,12 @@ base=modules
 
 for file in $files; do
     for arch in $arches; do
-        for dep in $deps; do
+        for dep in $deps $target; do
             cat $base/$dep/$arch/complete-runtime-$file
         done \
             | sort -u \
             | comm -23 $base/$target/$arch/complete-buildtime-$file - \
             > $base/$target/$arch/buildtime-$file
-        comm -23 \
-            $base/$target/$arch/buildtime-$file \
-            $base/$target/$arch/runtime-$file \
-            > $base/$target/$arch/missing-buildtime-$file
     done
 done
 

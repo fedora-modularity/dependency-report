@@ -29,8 +29,8 @@ files="
     runtime-source-packages-short.txt
     buildtime-binary-packages-short.txt
     buildtime-source-packages-short.txt
-    missing-buildtime-binary-packages-short.txt
-    missing-buildtime-source-packages-short.txt"
+    buildtime-binary-packages-short.txt
+    buildtime-source-packages-short.txt"
 
 for file in $files; do
     for module in $(ls modules); do
@@ -59,7 +59,7 @@ for module in $(ls modules); do
         done
         echo "### Build"
         echo "This list might not be complete."
-        echo "Please see the **missing RPM build dependencies ([source](all/missing-buildtime-source-packages-short.txt) or [binary](all/missing-buildtime-binary-packages-short.txt)) lists** for more information."
+        echo "Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information."
         for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "* [$dep](../$dep)"
         done
