@@ -3,9 +3,12 @@ This is a dependency report for the installer module.
 
 An initial [modulemd file](installer.yaml) has been generated. It is experimental and probably unusable at this point.
 ## Dependencies
+### Runtime
 * [platform](../platform)
 * [perl](../perl)
 * [python3](../python3)
+### Build
+* [platform](../platform)
 ## Binary RPM packages (all arches combined)
 * `anaconda-core`
 * `anaconda-tui`

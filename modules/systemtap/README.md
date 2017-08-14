@@ -3,6 +3,9 @@ This is a dependency report for the systemtap module.
 
 An initial [modulemd file](systemtap.yaml) has been generated. It is experimental and probably unusable at this point.
 ## Dependencies
+### Runtime
+* [platform](../platform)
+### Build
 * [platform](../platform)
 ## Binary RPM packages (all arches combined)
 * `avahi-libs`

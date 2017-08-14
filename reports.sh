@@ -11,13 +11,15 @@ echo "Visualizing dependencies between modules..."
 
 mkdir -p img
 > img/module-deps.dot
-echo "strict digraph G {" >> img/module-deps.dot
+echo "digraph G {" >> img/module-deps.dot
 echo "  node [fontname=monospace];" >> img/module-deps.dot
 
 for module in $(ls modules); do
-    echo "  \"$module\" -> \"platform\" [color=blue];" >> img/module-deps.dot
     for dep in $(cat modules/$module/modular-deps.txt); do
-        echo "  \"$module\" -> \"$dep\" [color=blue];" >> img/module-deps.dot
+        echo "  \"$module\" -> \"$dep\" [color=\"#009900\"];" >> img/module-deps.dot
+    done 
+    for dep in $(cat modules/$module/modular-build-deps.txt); do
+        echo "  \"$module\" -> \"$dep\" [color=\"#aa0000\"];" >> img/module-deps.dot
     done 
 done
 
@@ -46,7 +48,12 @@ for module in $(ls modules); do
         echo ""
         echo "An initial [modulemd file]($module.yaml) has been generated. It is experimental and probably unusable at this point."
         echo "## Dependencies"
+        echo "### Runtime"
         for dep in $(cat modules/$module/modular-deps.txt); do
+            echo "* [$dep](../$dep)"
+        done
+        echo "### Build"
+        for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "* [$dep](../$dep)"
         done
         echo "## Binary RPM packages (all arches combined)"
