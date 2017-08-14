@@ -9,7 +9,7 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform](../platform)
 * [perl](../perl)
 ### Build
-This list might not be complete. Please see the missing RPM build dependencies ([source](missing-buildtime-source-packages-short.txt) or [binary](missing-buildtime-binary-packages-short.txt)) lists for more information.
+This list might not be complete. Please see the missing RPM build dependencies ([source](all/missing-buildtime-source-packages-short.txt) or [binary](all/missing-buildtime-binary-packages-short.txt)) lists for more information.
 * [platform](../platform)
 ## Binary RPM packages (all arches combined)
 These are RPM dependencies of the [autotools top-level package set](autotools.csv). They should be either:

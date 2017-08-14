@@ -58,7 +58,7 @@ for module in $(ls modules); do
             echo "* [$dep](../$dep)"
         done
         echo "### Build"
-        echo "This list might not be complete. Please see the missing RPM build dependencies ([source](missing-buildtime-source-packages-short.txt) or [binary](missing-buildtime-binary-packages-short.txt)) lists for more information."
+        echo "This list might not be complete. Please see the missing RPM build dependencies ([source](all/missing-buildtime-source-packages-short.txt) or [binary](all/missing-buildtime-binary-packages-short.txt)) lists for more information."
         for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "* [$dep](../$dep)"
         done
