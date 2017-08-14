@@ -58,7 +58,8 @@ for module in $(ls modules); do
             echo "* [$dep](../$dep)"
         done
         echo "### Build"
-        echo "This list might not be complete. Please see the missing RPM build dependencies ([source](all/missing-buildtime-source-packages-short.txt) or [binary](all/missing-buildtime-binary-packages-short.txt)) lists for more information."
+        echo "This list might not be complete."
+        echo "Please see the **missing RPM build dependencies ([source](all/missing-buildtime-source-packages-short.txt) or [binary](all/missing-buildtime-binary-packages-short.txt)) lists** for more information."
         for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "* [$dep](../$dep)"
         done
@@ -66,6 +67,7 @@ for module in $(ls modules); do
         echo "These are RPM dependencies of the [$module top-level package set]($module.csv). They should be either:"
         echo "* split into other modules and be used as modular dependncies"
         echo "* included in this $module module"
+        echo "------"
         for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
             echo "* \`$pkg\`"
         done
