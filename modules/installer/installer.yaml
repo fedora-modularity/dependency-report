@@ -9,13 +9,9 @@ data:
         buildrequires:
             platform: master
             platform: master
-            perl: master
-            python3: master
         requires:
             platform: master
             platform: master
-            perl: master
-            python3: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/installer
@@ -86,6 +82,9 @@ data:
                 rationale: Generated.
                 ref: master.
             gnupg:
+                rationale: Generated.
+                ref: master.
+            groff:
                 rationale: Generated.
                 ref: master.
             hfsplus-tools:
@@ -199,6 +198,324 @@ data:
             passwd:
                 rationale: Generated.
                 ref: master.
+            perl:
+                rationale: Generated.
+                ref: master.
+            perl-Algorithm-Diff:
+                rationale: Generated.
+                ref: master.
+            perl-Archive-Tar:
+                rationale: Generated.
+                ref: master.
+            perl-Archive-Zip:
+                rationale: Generated.
+                ref: master.
+            perl-autodie:
+                rationale: Generated.
+                ref: master.
+            perl-B-Debug:
+                rationale: Generated.
+                ref: master.
+            perl-bignum:
+                rationale: Generated.
+                ref: master.
+            perl-Carp:
+                rationale: Generated.
+                ref: master.
+            perl-Compress-Bzip2:
+                rationale: Generated.
+                ref: master.
+            perl-Compress-Raw-Bzip2:
+                rationale: Generated.
+                ref: master.
+            perl-Compress-Raw-Zlib:
+                rationale: Generated.
+                ref: master.
+            perl-Config-Perl-V:
+                rationale: Generated.
+                ref: master.
+            perl-constant:
+                rationale: Generated.
+                ref: master.
+            perl-CPAN:
+                rationale: Generated.
+                ref: master.
+            perl-CPAN-Meta:
+                rationale: Generated.
+                ref: master.
+            perl-CPAN-Meta-Requirements:
+                rationale: Generated.
+                ref: master.
+            perl-CPAN-Meta-YAML:
+                rationale: Generated.
+                ref: master.
+            perl-Data-Dumper:
+                rationale: Generated.
+                ref: master.
+            perl-Data-OptList:
+                rationale: Generated.
+                ref: master.
+            perl-Data-Section:
+                rationale: Generated.
+                ref: master.
+            perl-DB_File:
+                rationale: Generated.
+                ref: master.
+            perl-Devel-PPPort:
+                rationale: Generated.
+                ref: master.
+            perl-Devel-Size:
+                rationale: Generated.
+                ref: master.
+            perl-Digest:
+                rationale: Generated.
+                ref: master.
+            perl-Digest-MD5:
+                rationale: Generated.
+                ref: master.
+            perl-Digest-SHA:
+                rationale: Generated.
+                ref: master.
+            perl-Encode:
+                rationale: Generated.
+                ref: master.
+            perl-Env:
+                rationale: Generated.
+                ref: master.
+            perl-experimental:
+                rationale: Generated.
+                ref: master.
+            perl-Exporter:
+                rationale: Generated.
+                ref: master.
+            perl-ExtUtils-CBuilder:
+                rationale: Generated.
+                ref: master.
+            perl-ExtUtils-Install:
+                rationale: Generated.
+                ref: master.
+            perl-ExtUtils-MakeMaker:
+                rationale: Generated.
+                ref: master.
+            perl-ExtUtils-Manifest:
+                rationale: Generated.
+                ref: master.
+            perl-ExtUtils-ParseXS:
+                rationale: Generated.
+                ref: master.
+            perl-File-Fetch:
+                rationale: Generated.
+                ref: master.
+            perl-File-HomeDir:
+                rationale: Generated.
+                ref: master.
+            perl-File-Path:
+                rationale: Generated.
+                ref: master.
+            perl-File-Temp:
+                rationale: Generated.
+                ref: master.
+            perl-File-Which:
+                rationale: Generated.
+                ref: master.
+            perl-Filter:
+                rationale: Generated.
+                ref: master.
+            perl-Filter-Simple:
+                rationale: Generated.
+                ref: master.
+            perl-Getopt-Long:
+                rationale: Generated.
+                ref: master.
+            perl-HTTP-Tiny:
+                rationale: Generated.
+                ref: master.
+            perl-inc-latest:
+                rationale: Generated.
+                ref: master.
+            perl-IO-Compress:
+                rationale: Generated.
+                ref: master.
+            perl-IO-Socket-IP:
+                rationale: Generated.
+                ref: master.
+            perl-IPC-Cmd:
+                rationale: Generated.
+                ref: master.
+            perl-IPC-System-Simple:
+                rationale: Generated.
+                ref: master.
+            perl-IPC-SysV:
+                rationale: Generated.
+                ref: master.
+            perl-JSON-PP:
+                rationale: Generated.
+                ref: master.
+            perl-libnet:
+                rationale: Generated.
+                ref: master.
+            perl-Locale-Codes:
+                rationale: Generated.
+                ref: master.
+            perl-Locale-Maketext:
+                rationale: Generated.
+                ref: master.
+            perl-local-lib:
+                rationale: Generated.
+                ref: master.
+            perl-Math-BigInt:
+                rationale: Generated.
+                ref: master.
+            perl-Math-BigInt-FastCalc:
+                rationale: Generated.
+                ref: master.
+            perl-Math-BigRat:
+                rationale: Generated.
+                ref: master.
+            perl-MIME-Base64:
+                rationale: Generated.
+                ref: master.
+            perl-Module-Build:
+                rationale: Generated.
+                ref: master.
+            perl-Module-CoreList:
+                rationale: Generated.
+                ref: master.
+            perl-Module-Load:
+                rationale: Generated.
+                ref: master.
+            perl-Module-Load-Conditional:
+                rationale: Generated.
+                ref: master.
+            perl-Module-Metadata:
+                rationale: Generated.
+                ref: master.
+            perl-MRO-Compat:
+                rationale: Generated.
+                ref: master.
+            perl-Package-Generator:
+                rationale: Generated.
+                ref: master.
+            perl-Params-Check:
+                rationale: Generated.
+                ref: master.
+            perl-Params-Util:
+                rationale: Generated.
+                ref: master.
+            perl-parent:
+                rationale: Generated.
+                ref: master.
+            perl-PathTools:
+                rationale: Generated.
+                ref: master.
+            perl-perlfaq:
+                rationale: Generated.
+                ref: master.
+            perl-PerlIO-via-QuotedPrint:
+                rationale: Generated.
+                ref: master.
+            perl-Perl-OSType:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Checker:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Escapes:
+                rationale: Generated.
+                ref: master.
+            perl-podlators:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Parser:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Perldoc:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Simple:
+                rationale: Generated.
+                ref: master.
+            perl-Pod-Usage:
+                rationale: Generated.
+                ref: master.
+            perl-Scalar-List-Utils:
+                rationale: Generated.
+                ref: master.
+            perl-Socket:
+                rationale: Generated.
+                ref: master.
+            perl-Software-License:
+                rationale: Generated.
+                ref: master.
+            perl-Storable:
+                rationale: Generated.
+                ref: master.
+            perl-Sub-Exporter:
+                rationale: Generated.
+                ref: master.
+            perl-Sub-Install:
+                rationale: Generated.
+                ref: master.
+            perl-Sys-Syslog:
+                rationale: Generated.
+                ref: master.
+            perl-Term-ANSIColor:
+                rationale: Generated.
+                ref: master.
+            perl-Term-Cap:
+                rationale: Generated.
+                ref: master.
+            perl-Test-Harness:
+                rationale: Generated.
+                ref: master.
+            perl-Test-Simple:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Balanced:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Diff:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Glob:
+                rationale: Generated.
+                ref: master.
+            perl-Text-ParseWords:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Tabs+Wrap:
+                rationale: Generated.
+                ref: master.
+            perl-Text-Template:
+                rationale: Generated.
+                ref: master.
+            perl-Thread-Queue:
+                rationale: Generated.
+                ref: master.
+            perl-threads:
+                rationale: Generated.
+                ref: master.
+            perl-threads-shared:
+                rationale: Generated.
+                ref: master.
+            perl-Time-HiRes:
+                rationale: Generated.
+                ref: master.
+            perl-Time-Local:
+                rationale: Generated.
+                ref: master.
+            perl-Unicode-Collate:
+                rationale: Generated.
+                ref: master.
+            perl-Unicode-Normalize:
+                rationale: Generated.
+                ref: master.
+            perl-URI:
+                rationale: Generated.
+                ref: master.
+            perl-version:
+                rationale: Generated.
+                ref: master.
             policycoreutils:
                 rationale: Generated.
                 ref: master.
@@ -215,6 +532,9 @@ data:
                 rationale: Generated.
                 ref: master.
             pyOpenSSL:
+                rationale: Generated.
+                ref: master.
+            pyparsing:
                 rationale: Generated.
                 ref: master.
             pyparted:
@@ -317,6 +637,9 @@ data:
                 rationale: Generated.
                 ref: master.
             sysfsutils:
+                rationale: Generated.
+                ref: master.
+            systemtap:
                 rationale: Generated.
                 ref: master.
             usermode:
