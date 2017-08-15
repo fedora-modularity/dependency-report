@@ -73,6 +73,12 @@ for module in $(ls modules); do
         done
         printf "\n"
 
+        printf "%s" "|---|"
+        for arch in $(cat arches.txt); do
+            printf "%s" "---|"
+        done
+        printf "\n"
+
         for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
             printf "| $pkg |"
             for arch in $(cat arches.txt); do

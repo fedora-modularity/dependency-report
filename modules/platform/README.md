@@ -15,6 +15,7 @@ These are RPM dependencies of the [platform top-level package set](platform.csv)
 * included in this platform module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
+|---|---|---|---|---|---|---|---|
 | acl | X | X | X | X | X | X | X |
 | audit-libs | X | X | X | X | X | X | X |
 | basesystem | X | X | X | X | X | X | X |

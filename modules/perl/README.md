@@ -17,6 +17,7 @@ These are RPM dependencies of the [perl top-level package set](perl.csv). They s
 * included in this perl module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
+|---|---|---|---|---|---|---|---|
 | gdbm-devel | X | X | X | X | X | - | X |
 | groff-base | X | X | X | X | X | - | X |
 | libdb-devel | X | X | X | X | X | - | X |

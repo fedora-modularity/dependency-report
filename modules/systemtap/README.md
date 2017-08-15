@@ -18,6 +18,7 @@ These are RPM dependencies of the [systemtap top-level package set](systemtap.cs
 * included in this systemtap module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
+|---|---|---|---|---|---|---|---|
 | avahi-libs | X | X | X | X | X | X | X |
 | boost-atomic | - | - | X | X | - | - | X |
 | boost-chrono | - | - | X | X | - | - | X |

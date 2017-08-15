@@ -19,6 +19,7 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 * included in this installer module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
+|---|---|---|---|---|---|---|---|
 | anaconda-core | X | X | X | X | X | X | X |
 | anaconda-tui | X | X | X | X | X | X | X |
 | augeas-libs | X | X | X | X | X | X | X |
