@@ -82,7 +82,7 @@ These are RPM dependencies of the [platform top-level package set](platform.csv)
 | `flex` | X | X | X | X | X | X | X |
 | `fpc-srpm-macros` | X | X | X | X | X | X | X |
 | `freetype` | X | - | X | X | X | - | X |
-| `fuse` | - | - | - | - | - | X | - |
+| `fuse` | - | - | - | - | - | - | - |
 | `fuse-common` | - | - | - | - | - | X | - |
 | `fuse-libs` | X | X | X | X | X | X | X |
 | `gawk` | X | X | X | X | X | X | X |

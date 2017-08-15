@@ -6,6 +6,7 @@ digraph G {
   "installer" -> "platform" [color="#009900"];
   "installer" -> "networking-base" [color="#009900"];
   "installer" -> "storage-devices" [color="#009900"];
+  "installer" -> "platform-placeholder" [color="#009900"];
   "installer" -> "platform" [color="#aa0000"];
   "installer" -> "systemtap" [color="#aa0000"];
   "installer" -> "autotools" [color="#aa0000"];
@@ -13,6 +14,8 @@ digraph G {
   "networking-base" -> "platform" [color="#aa0000"];
   "perl" -> "platform" [color="#009900"];
   "perl" -> "platform" [color="#aa0000"];
+  "platform-placeholder" -> "platform" [color="#009900"];
+  "platform-placeholder" -> "platform" [color="#aa0000"];
   "storage-devices" -> "platform" [color="#009900"];
   "storage-devices" -> "platform" [color="#aa0000"];
   "systemtap" -> "platform" [color="#009900"];

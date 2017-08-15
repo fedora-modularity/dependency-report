@@ -14,6 +14,7 @@ data:
             platform: master
             networking-base: master
             storage-devices: master
+            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/installer
@@ -38,22 +39,7 @@ data:
             drpm:
                 rationale: Generated.
                 ref: master.
-            ethtool:
-                rationale: Generated.
-                ref: master.
-            fcoe-utils:
-                rationale: Generated.
-                ref: master.
             gnupg:
-                rationale: Generated.
-                ref: master.
-            hwdata:
-                rationale: Generated.
-                ref: master.
-            iscsi-initiator-utils:
-                rationale: Generated.
-                ref: master.
-            isns-utils:
                 rationale: Generated.
                 ref: master.
             isomd5sum:
@@ -62,37 +48,16 @@ data:
             json-c:
                 rationale: Generated.
                 ref: master.
-            kbd:
-                rationale: Generated.
-                ref: master.
-            kexec-tools:
-                rationale: Generated.
-                ref: master.
             langtable:
                 rationale: Generated.
                 ref: master.
-            libblockdev:
-                rationale: Generated.
-                ref: master.
             libbytesize:
-                rationale: Generated.
-                ref: master.
-            libconfig:
-                rationale: Generated.
-                ref: master.
-            libpciaccess:
                 rationale: Generated.
                 ref: master.
             libtar:
                 rationale: Generated.
                 ref: master.
             libusb:
-                rationale: Generated.
-                ref: master.
-            lldpad:
-                rationale: Generated.
-                ref: master.
-            lsof:
                 rationale: Generated.
                 ref: master.
             pykickstart:
@@ -131,13 +96,7 @@ data:
             python-wrapt:
                 rationale: Generated.
                 ref: master.
-            rsync:
-                rationale: Generated.
-                ref: master.
             satyr:
-                rationale: Generated.
-                ref: master.
-            usermode:
                 rationale: Generated.
                 ref: master.
             volume_key:

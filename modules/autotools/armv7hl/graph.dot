@@ -1,8 +1,8 @@
 strict digraph G {
 node [fontname=monospace];
   "autoconf" -> "emacs-filesystem";
+  "autoconf" -> "libgcc";
   "automake" -> "autoconf";
-  "automake" -> "libgcc";
   "binutils" -> "libgcc";
   "cpp" -> "libmpc";
   "cpp" -> "mpfr";

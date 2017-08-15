@@ -466,8 +466,6 @@
   "kpartx" -> "device-mapper-libs";
   "kpartx" -> "glibc";
   "kpartx" -> "libgcc";
-  "kpartx" -> "ncurses-libs";
-  "kpartx" -> "zlib";
   "krb5-libs" -> "bash";
   "krb5-libs" -> "coreutils";
   "krb5-libs" -> "crypto-policies";
@@ -1138,6 +1136,7 @@
   "systemd-libs" -> "lz4-libs";
   "systemd-libs" -> "xz-libs";
   "systemd" -> "lz4-libs";
+  "systemd" -> "ncurses-libs";
   "systemd" -> "pam";
   "systemd-pam" -> "glibc";
   "systemd-pam" -> "libgcc";

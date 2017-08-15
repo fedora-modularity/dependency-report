@@ -1,25 +1,229 @@
-perl-ExtUtils-ParseXS-1:3.34-393.fc27.noarch                 
+perl-Devel-PPPort-3.36-2.fc27.ppc64                          
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─libc.so.6(GLIBC_2.11)(64bit)                               glibc-2.26-1.fc27.1.ppc64
+└─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+perl-ExtUtils-Manifest-1.70-393.fc27.noarch                  
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(File::Spec) >= 0.8                                    perl-PathTools-3.67-395.fc27.ppc64
+perl-autodie-2.29-394.fc27.noarch                            
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(parent)                                               perl-parent-1:0.236-394.fc27.noarch
+├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Tie::RefHash)                                         perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
+└─perl(IPC::System::Simple) >= 0.12                          perl-IPC-System-Simple-1.25-14.fc27.noarch
+perl-Fedora-VSP-0.001-7.fc27.noarch                          
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+perl-DB_File-1.840-394.fc27.ppc64                            
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─libdb-5.3.so()(64bit)                                      libdb-5.3.28-26.fc27.ppc64
+├─perl(Tie::Hash)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.8.3                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Data-Section-0.200007-1.fc27.noarch                     
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
+├─perl(MRO::Compat) >= 0.09                                  perl-MRO-Compat-0.13-2.fc27.noarch
+└─perl(Sub::Exporter) >= 0.979                               perl-Sub-Exporter-0.987-12.fc27.noarch
+perl-IO-Compress-2.074-394.fc27.noarch                       
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
+├─perl(IO::Handle)                                           perl-IO-1.38-398.fc27.ppc64
+├─perl(utf8)                                                 perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Symbol)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Glob)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Compress::Raw::Bzip2) >= 2.074                        perl-Compress-Raw-Bzip2-2.074-394.fc27.ppc64
+└─perl(Compress::Raw::Zlib) >= 2.074                         perl-Compress-Raw-Zlib-2.074-394.fc27.ppc64
+perl-B-Debug-1.24-394.fc27.noarch                            
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-bignum-0.47-393.fc27.noarch                             
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Math::BigFloat)                                       perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Math::BigInt) >= 1.999718                             perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
+└─perl(Math::BigRat) >= 0.12                                 perl-Math-BigRat-0.2613-1.fc27.noarch
+perl-File-Fetch-0.52-393.fc27.noarch                         
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Temp)                                           perl-File-Temp-0.230.400-394.fc27.noarch
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(FileHandle)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Spec::Unix)                                     perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Locale::Maketext::Simple)                             perl-Locale-Maketext-Simple-1:0.21-398.fc27.noarch
+├─perl(File::Spec) >= 0.82                                   perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Module::Load::Conditional) >= 0.66                    perl-Module-Load-Conditional-0.68-393.fc27.noarch
+├─perl(Params::Check) >= 0.07                                perl-Params-Check-1:0.38-393.fc27.noarch
+└─perl(IPC::Cmd) >= 0.42                                     perl-IPC-Cmd-2:0.98-3.fc27.noarch
+perl-Archive-Zip-1.59-4.fc27.noarch                          
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Temp)                                           perl-File-Temp-0.230.400-394.fc27.noarch
+├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
+├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(lib)                                                  perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(FileHandle)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Time::Local)                                          perl-Time-Local-1:1.250-394.fc27.noarch
+├─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Compress::Raw::Zlib)                                  perl-Compress-Raw-Zlib-2.074-394.fc27.ppc64
+├─perl(IO::Seekable)                                         perl-IO-1.38-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(File::Spec) >= 0.80                                   perl-PathTools-3.67-395.fc27.ppc64
+perl-Digest-SHA-1:5.96-394.fc27.ppc64                        
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Digest::base)                                         perl-Digest-1.17-394.fc27.noarch
+└─perl(:VERSION) >= 5.3.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Devel-Size-0.80-7.fc27.ppc64                            
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─libc.so.6(GLIBC_2.3)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Compress-Raw-Bzip2-2.074-394.fc27.ppc64                 
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─libbz2.so.1()(64bit)                                       bzip2-libs-1.0.6-24.fc27.ppc64
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Archive-Tar-2.26-3.fc27.noarch                          
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
 ├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
 ├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
 ├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
 ├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
 ├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Symbol)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(re)                                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
-└─perl(:VERSION) >= 5.6.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-File-Which-1.21-4.fc27.noarch                           
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
+├─perl(Pod::Usage)                                           perl-Pod-Usage-4:1.69-394.fc27.noarch
+├─perl(IO::Handle)                                           perl-IO-1.38-398.fc27.ppc64
+├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Getopt::Std)                                          perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Spec::Unix)                                     perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Text::Diff)                                           perl-Text-Diff-1.44-4.fc27.noarch
+├─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(IO::Compress::Bzip2) >= 2.015                         perl-IO-Compress-2.074-394.fc27.noarch
+├─perl(IO::Uncompress::Bunzip2) >= 2.015                     perl-IO-Compress-2.074-394.fc27.noarch
+└─perl(IO::Zlib) >= 1.01                                     perl-IO-Zlib-1:1.10-398.fc27.noarch
+perl-CPAN-Meta-2.150010-393.fc27.noarch                      
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-└─perl(File::Spec) >= 0.60                                   perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.8.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(CPAN::Meta::Requirements) >= 2.121                    perl-CPAN-Meta-Requirements-2.140-394.fc27.noarch
+├─perl(version) >= 0.88                                      perl-version-6:0.99.18-3.fc27.ppc64
+├─perl(JSON::PP) >= 2.27300                                  perl-JSON-PP-1:2.94-3.fc27.noarch
+└─perl(CPAN::Meta::YAML) >= 0.011                            perl-CPAN-Meta-YAML-0.018-394.fc27.noarch
 perl-CPAN-2.18-394.fc27.noarch                               
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -81,150 +285,6 @@ perl-CPAN-2.18-394.fc27.noarch
 ├─perl(CPAN::Meta) >= 2.110350                               perl-CPAN-Meta-2.150010-393.fc27.noarch
 ├─perl(File::HomeDir) >= 0.65                                perl-File-HomeDir-1.002-2.fc27.noarch
 └─perl(HTTP::Tiny) >= 0.005                                  perl-HTTP-Tiny-0.070-394.fc27.noarch
-perl-Devel-PPPort-3.36-2.fc27.ppc64                          
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─libc.so.6(GLIBC_2.11)(64bit)                               glibc-2.26-1.fc27.1.ppc64
-└─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Compress-Raw-Bzip2-2.074-394.fc27.ppc64                 
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─libbz2.so.1()(64bit)                                       bzip2-libs-1.0.6-24.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-ExtUtils-Manifest-1.70-393.fc27.noarch                  
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(File::Spec) >= 0.8                                    perl-PathTools-3.67-395.fc27.ppc64
-perl-Config-Perl-V-0.28-394.fc27.noarch                      
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-perl-CPAN-Meta-YAML-0.018-394.fc27.noarch                    
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.8.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Digest-SHA-1:5.96-394.fc27.ppc64                        
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Digest::base)                                         perl-Digest-1.17-394.fc27.noarch
-└─perl(:VERSION) >= 5.3.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-ExtUtils-Install-2.14-2.fc27.noarch                     
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(ExtUtils::MakeMaker)                                  perl-ExtUtils-MakeMaker-1:7.30-1.fc27.noarch
-├─perl(File::Compare)                                        perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(AutoSplit)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.5.30                                   perl-libs-4:5.26.0-398.fc27.ppc64
-perl-bignum-0.47-393.fc27.noarch                             
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Math::BigFloat)                                       perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Math::BigInt) >= 1.999718                             perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
-└─perl(Math::BigRat) >= 0.12                                 perl-Math-BigRat-0.2613-1.fc27.noarch
-perl-File-Fetch-0.52-393.fc27.noarch                         
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Temp)                                           perl-File-Temp-0.230.400-394.fc27.noarch
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(FileHandle)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Spec::Unix)                                     perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Locale::Maketext::Simple)                             perl-Locale-Maketext-Simple-1:0.21-398.fc27.noarch
-├─perl(File::Spec) >= 0.82                                   perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Module::Load::Conditional) >= 0.66                    perl-Module-Load-Conditional-0.68-393.fc27.noarch
-├─perl(Params::Check) >= 0.07                                perl-Params-Check-1:0.38-393.fc27.noarch
-└─perl(IPC::Cmd) >= 0.42                                     perl-IPC-Cmd-2:0.98-3.fc27.noarch
-perl-Devel-Size-0.80-7.fc27.ppc64                            
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─libc.so.6(GLIBC_2.3)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Algorithm-Diff-1.1903-7.fc27.noarch                     
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
-perl-CPAN-Meta-2.150010-393.fc27.noarch                      
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.8.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(CPAN::Meta::Requirements) >= 2.121                    perl-CPAN-Meta-Requirements-2.140-394.fc27.noarch
-├─perl(version) >= 0.88                                      perl-version-6:0.99.18-3.fc27.ppc64
-├─perl(JSON::PP) >= 2.27300                                  perl-JSON-PP-1:2.94-3.fc27.noarch
-└─perl(CPAN::Meta::YAML) >= 0.011                            perl-CPAN-Meta-YAML-0.018-394.fc27.noarch
 perl-File-HomeDir-1.002-2.fc27.noarch                        
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -238,10 +298,108 @@ perl-File-HomeDir-1.002-2.fc27.noarch
 ├─perl(Cwd) >= 3.12                                          perl-PathTools-3.67-395.fc27.ppc64
 ├─perl(File::Path) >= 2.01                                   perl-File-Path-2.15-1.fc27.noarch
 └─perl(File::Spec) >= 3.12                                   perl-PathTools-3.67-395.fc27.ppc64
-perl-Fedora-VSP-0.001-7.fc27.noarch                          
+perl-generators-1.10-5.fc27.noarch                           
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl-macros                                                perl-macros-4:5.26.0-398.fc27.ppc64
+├─perl(Fedora::VSP)                                          perl-Fedora-VSP-0.001-7.fc27.noarch
+└─perl-interpreter >= 4:5.22.0-351                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+perl-Data-OptList-0.110-4.fc27.noarch                        
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Params::Util)                                         perl-Params-Util-1.07-18.fc27.ppc64
+└─perl(Sub::Install) >= 0.921                                perl-Sub-Install-0.928-12.fc27.noarch
+perl-IO-Socket-IP-0.39-3.fc27.noarch                         
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(base)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(IO::Socket)                                           perl-IO-1.38-398.fc27.ppc64
+├─perl(Errno)                                                perl-Errno-1.28-398.fc27.ppc64
+└─perl(Socket) >= 1.97                                       perl-Socket-4:2.024-5.fc27.ppc64
+perl-Compress-Raw-Zlib-2.074-394.fc27.ppc64                  
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─libz.so.1()(64bit)                                         zlib-1.2.11-4.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─libz.so.1(ZLIB_1.2.2)(64bit)                               zlib-1.2.11-4.fc27.ppc64
+├─libz.so.1(ZLIB_1.2.2.3)(64bit)                             zlib-1.2.11-4.fc27.ppc64
+├─libz.so.1(ZLIB_1.2.0.2)(64bit)                             zlib-1.2.11-4.fc27.ppc64
+├─libz.so.1(ZLIB_1.2.0.8)(64bit)                             zlib-1.2.11-4.fc27.ppc64
+└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-CPAN-Meta-Requirements-2.140-394.fc27.noarch            
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(version) >= 0.88                                      perl-version-6:0.99.18-3.fc27.ppc64
+perl-inc-latest-2:0.500-7.fc27.noarch                        
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
+├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(ExtUtils::Installed)                                  perl-ExtUtils-Install-2.14-2.fc27.noarch
+perl-ExtUtils-ParseXS-1:3.34-393.fc27.noarch                 
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Symbol)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(re)                                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
+└─perl(:VERSION) >= 5.6.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Env-1.04-393.fc27.noarch                                
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(Tie::Array)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+perl-Compress-Bzip2-2.26-3.fc27.ppc64                        
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─libbz2.so.1()(64bit)                                       bzip2-libs-1.0.6-24.fc27.ppc64
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Getopt::Std)                                          perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(AutoLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(constant) >= 1.04                                     perl-constant-1.33-395.fc27.noarch
+perl-Filter-Simple-0.93-393.fc27.noarch                      
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Filter::Util::Call)                                   perl-Filter-2:1.57-6.fc27.ppc64
+└─perl(Text::Balanced) >= 1.97                               perl-Text-Balanced-2.03-393.fc27.noarch
 perl-ExtUtils-MakeMaker-1:7.30-1.fc27.noarch                 
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -275,24 +433,73 @@ perl-ExtUtils-MakeMaker-1:7.30-1.fc27.noarch
 ├─perl(ExtUtils::Command) >= 1.19                            perl-ExtUtils-Command-1:7.30-1.fc27.noarch
 ├─perl(ExtUtils::Install) >= 1.54                            perl-ExtUtils-Install-2.14-2.fc27.noarch
 └─perl(ExtUtils::Manifest) >= 1.70                           perl-ExtUtils-Manifest-1.70-393.fc27.noarch
-perl-inc-latest-2:0.500-7.fc27.noarch                        
+perl-ExtUtils-Install-2.14-2.fc27.noarch                     
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(ExtUtils::MakeMaker)                                  perl-ExtUtils-MakeMaker-1:7.30-1.fc27.noarch
+├─perl(File::Compare)                                        perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(AutoSplit)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.5.30                                   perl-libs-4:5.26.0-398.fc27.ppc64
+perl-File-Which-1.21-4.fc27.noarch                           
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+└─perl(File::Spec) >= 0.60                                   perl-PathTools-3.67-395.fc27.ppc64
+perl-Algorithm-Diff-1.1903-7.fc27.noarch                     
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
+perl-ExtUtils-CBuilder-1:0.280226-1.fc27.noarch              
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Temp)                                           perl-File-Temp-0.230.400-394.fc27.noarch
+├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
+├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
+├─perl(File::Spec::Functions)                                perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Text::ParseWords)                                     perl-Text-ParseWords-3.30-394.fc27.noarch
+├─perl(IPC::Cmd)                                             perl-IPC-Cmd-2:0.98-3.fc27.noarch
+├─perl-devel                                                 perl-devel-4:5.26.0-398.fc27.ppc64
+├─perl(Perl::OSType) >= 1                                    perl-Perl-OSType-1.010-394.fc27.noarch
+├─perl(ExtUtils::Mksymlists) >= 6.30                         perl-ExtUtils-MakeMaker-1:7.30-1.fc27.noarch
+└─perl(File::Spec) >= 3.13                                   perl-PathTools-3.67-395.fc27.ppc64
+perl-CPAN-Meta-YAML-0.018-394.fc27.noarch                    
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
-├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(ExtUtils::Installed)                                  perl-ExtUtils-Install-2.14-2.fc27.noarch
-perl-Filter-Simple-0.93-393.fc27.noarch                      
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.8.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-experimental-0.016-393.fc27.noarch                      
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Filter::Util::Call)                                   perl-Filter-2:1.57-6.fc27.ppc64
-└─perl(Text::Balanced) >= 1.97                               perl-Text-Balanced-2.03-393.fc27.noarch
+├─perl(version)                                              perl-version-6:0.99.18-3.fc27.ppc64
+└─perl(feature)                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
 perl-IPC-Cmd-2:0.98-3.fc27.noarch                            
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -314,220 +521,128 @@ perl-IPC-Cmd-2:0.98-3.fc27.noarch
 ├─perl(ExtUtils::MM::Utils)                                  perl-ExtUtils-MM-Utils-1:7.30-1.fc27.noarch
 ├─perl(Module::Load::Conditional) >= 0.66                    perl-Module-Load-Conditional-0.68-393.fc27.noarch
 └─perl(Params::Check) >= 0.20                                perl-Params-Check-1:0.38-393.fc27.noarch
-perl-Archive-Tar-2.26-3.fc27.noarch                          
+perl-Config-Perl-V-0.28-394.fc27.noarch                      
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+perl-IPC-System-Simple-1.25-14.fc27.noarch                   
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(re)                                                   perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-MRO-Compat-0.13-2.fc27.noarch                           
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Sub-Exporter-0.987-12.fc27.noarch                       
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Package::Generator)                                   perl-Package-Generator-1.106-9.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Data::OptList) >= 0.100                               perl-Data-OptList-0.110-4.fc27.noarch
+├─perl(Params::Util) >= 0.14                                 perl-Params-Util-1.07-18.fc27.ppc64
+└─perl(Sub::Install) >= 0.92                                 perl-Sub-Install-0.928-12.fc27.noarch
+perl-Math-BigInt-1:1.9998.11-3.fc27.noarch                   
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(Math::Complex) >= 1.39                                perl-Math-Complex-1.59-398.fc27.noarch
+perl-Math-BigRat-0.2613-1.fc27.noarch                        
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Math::BigInt) >= 1.999718                             perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
+└─perl(Math::BigFloat) >= 1.999718                           perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
+perl-Module-Load-Conditional-0.68-393.fc27.noarch            
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(FileHandle)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Locale::Maketext::Simple)                             perl-Locale-Maketext-Simple-1:0.21-398.fc27.noarch
+├─perl(Params::Check)                                        perl-Params-Check-1:0.38-393.fc27.noarch
+├─perl(Module::CoreList) >= 2.22                             perl-Module-CoreList-1:5.20170715-1.fc27.noarch
+├─perl(Module::Metadata) >= 1.000005                         perl-Module-Metadata-1.000033-393.fc27.noarch
+├─perl(Module::Load) >= 0.28                                 perl-Module-Load-1:0.32-393.fc27.noarch
+└─perl(version) >= 0.69                                      perl-version-6:0.99.18-3.fc27.ppc64
+perl-Params-Check-1:0.38-393.fc27.noarch                     
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(Locale::Maketext::Simple)                             perl-Locale-Maketext-Simple-1:0.21-398.fc27.noarch
+perl-Text-Diff-1.44-4.fc27.noarch                            
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(Algorithm::Diff) >= 1.19                              perl-Algorithm-Diff-1.1903-7.fc27.noarch
+perl-JSON-PP-1:2.94-3.fc27.noarch                            
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
 ├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
-├─perl(Pod::Usage)                                           perl-Pod-Usage-4:1.69-394.fc27.noarch
-├─perl(IO::Handle)                                           perl-IO-1.38-398.fc27.ppc64
-├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Getopt::Std)                                          perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Spec::Unix)                                     perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Text::Diff)                                           perl-Text-Diff-1.44-4.fc27.noarch
-├─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(IO::Compress::Bzip2) >= 2.015                         perl-IO-Compress-2.074-394.fc27.noarch
-├─perl(IO::Uncompress::Bunzip2) >= 2.015                     perl-IO-Compress-2.074-394.fc27.noarch
-└─perl(IO::Zlib) >= 1.01                                     perl-IO-Zlib-1:1.10-398.fc27.noarch
-perl-IO-Compress-2.074-394.fc27.noarch                       
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
-├─perl(IO::Handle)                                           perl-IO-1.38-398.fc27.ppc64
 ├─perl(utf8)                                                 perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Symbol)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Glob)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Compress::Raw::Bzip2) >= 2.074                        perl-Compress-Raw-Bzip2-2.074-394.fc27.ppc64
-└─perl(Compress::Raw::Zlib) >= 2.074                         perl-Compress-Raw-Zlib-2.074-394.fc27.ppc64
-perl-CPAN-Meta-Requirements-2.140-394.fc27.noarch            
+├─perl(Math::BigInt)                                         perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
+├─perl(Math::BigFloat)                                       perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
+├─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-version-6:0.99.18-3.fc27.ppc64                          
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(version) >= 0.88                                      perl-version-6:0.99.18-3.fc27.ppc64
-perl-B-Debug-1.24-394.fc27.noarch                            
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Env-1.04-393.fc27.noarch                                
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(Tie::Array)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-perl-IO-Socket-IP-0.39-3.fc27.noarch                         
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(base)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(IO::Socket)                                           perl-IO-1.38-398.fc27.ppc64
-├─perl(Errno)                                                perl-Errno-1.28-398.fc27.ppc64
-└─perl(Socket) >= 1.97                                       perl-Socket-4:2.024-5.fc27.ppc64
-perl-Archive-Zip-1.59-4.fc27.noarch                          
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Temp)                                           perl-File-Temp-0.230.400-394.fc27.noarch
-├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
-├─perl(File::Copy)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Find)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(lib)                                                  perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(FileHandle)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Time::Local)                                          perl-Time-Local-1:1.250-394.fc27.noarch
-├─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Compress::Raw::Zlib)                                  perl-Compress-Raw-Zlib-2.074-394.fc27.ppc64
-├─perl(IO::Seekable)                                         perl-IO-1.38-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(File::Spec) >= 0.80                                   perl-PathTools-3.67-395.fc27.ppc64
-perl-Compress-Bzip2-2.26-3.fc27.ppc64                        
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─libbz2.so.1()(64bit)                                       bzip2-libs-1.0.6-24.fc27.ppc64
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Getopt::Std)                                          perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(AutoLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(constant) >= 1.04                                     perl-constant-1.33-395.fc27.noarch
-perl-ExtUtils-CBuilder-1:0.280226-1.fc27.noarch              
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Temp)                                           perl-File-Temp-0.230.400-394.fc27.noarch
-├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Path)                                           perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                             perl-IO-1.38-398.fc27.ppc64
-├─perl(File::Spec::Functions)                                perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Text::ParseWords)                                     perl-Text-ParseWords-3.30-394.fc27.noarch
-├─perl(IPC::Cmd)                                             perl-IPC-Cmd-2:0.98-3.fc27.noarch
-├─perl-devel                                                 perl-devel-4:5.26.0-398.fc27.ppc64
-├─perl(Perl::OSType) >= 1                                    perl-Perl-OSType-1.010-394.fc27.noarch
-├─perl(ExtUtils::Mksymlists) >= 6.30                         perl-ExtUtils-MakeMaker-1:7.30-1.fc27.noarch
-└─perl(File::Spec) >= 3.13                                   perl-PathTools-3.67-395.fc27.ppc64
-perl-generators-1.10-5.fc27.noarch                           
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl-macros                                                perl-macros-4:5.26.0-398.fc27.ppc64
-├─perl(Fedora::VSP)                                          perl-Fedora-VSP-0.001-7.fc27.noarch
-└─perl-interpreter >= 4:5.22.0-351                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-perl-Compress-Raw-Zlib-2.074-394.fc27.ppc64                  
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─libz.so.1()(64bit)                                         zlib-1.2.11-4.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
 ├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─libz.so.1(ZLIB_1.2.2)(64bit)                               zlib-1.2.11-4.fc27.ppc64
-├─libz.so.1(ZLIB_1.2.2.3)(64bit)                             zlib-1.2.11-4.fc27.ppc64
-├─libz.so.1(ZLIB_1.2.0.2)(64bit)                             zlib-1.2.11-4.fc27.ppc64
-├─libz.so.1(ZLIB_1.2.0.8)(64bit)                             zlib-1.2.11-4.fc27.ppc64
-└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-DB_File-1.840-394.fc27.ppc64                            
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─libdb-5.3.so()(64bit)                                      libdb-5.3.28-26.fc27.ppc64
-├─perl(Tie::Hash)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.8.3                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Data-OptList-0.110-4.fc27.noarch                        
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Params::Util)                                         perl-Params-Util-1.07-18.fc27.ppc64
-└─perl(Sub::Install) >= 0.921                                perl-Sub-Install-0.928-12.fc27.noarch
-perl-Data-Section-0.200007-1.fc27.noarch                     
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
-├─perl(MRO::Compat) >= 0.09                                  perl-MRO-Compat-0.13-2.fc27.noarch
-└─perl(Sub::Exporter) >= 0.979                               perl-Sub-Exporter-0.987-12.fc27.noarch
-perl-experimental-0.016-393.fc27.noarch                      
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(version)                                              perl-version-6:0.99.18-3.fc27.ppc64
-└─perl(feature)                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-perl-autodie-2.29-394.fc27.noarch                            
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
 ├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(parent)                                               perl-parent-1:0.236-394.fc27.noarch
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Tie::RefHash)                                         perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
-└─perl(IPC::System::Simple) >= 0.12                          perl-IPC-System-Simple-1.25-14.fc27.noarch
+├─perl(if)                                                   perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(warnings::register)                                   perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(locale)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(UNIVERSAL)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.10.0                                   perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.6.2                                    perl-libs-4:5.26.0-398.fc27.ppc64
 perl-Module-Build-2:0.42.24-3.fc27.noarch                    
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -616,86 +731,32 @@ perl-local-lib-2.000023-1.fc27.noarch
 ├─perl(File::Glob)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp::Heavy)                                          perl-Carp-1.42-394.fc27.noarch
 └─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Math-BigInt-1:1.9998.11-3.fc27.noarch                   
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(integer)                                              perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(Math::Complex) >= 1.39                                perl-Math-Complex-1.59-398.fc27.noarch
-perl-Math-BigRat-0.2613-1.fc27.noarch                        
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Math::BigInt) >= 1.999718                             perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
-└─perl(Math::BigFloat) >= 1.999718                           perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
-perl-Module-Load-Conditional-0.68-393.fc27.noarch            
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(FileHandle)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Locale::Maketext::Simple)                             perl-Locale-Maketext-Simple-1:0.21-398.fc27.noarch
-├─perl(Params::Check)                                        perl-Params-Check-1:0.38-393.fc27.noarch
-├─perl(Module::CoreList) >= 2.22                             perl-Module-CoreList-1:5.20170715-1.fc27.noarch
-├─perl(Module::Metadata) >= 1.000005                         perl-Module-Metadata-1.000033-393.fc27.noarch
-├─perl(Module::Load) >= 0.28                                 perl-Module-Load-1:0.32-393.fc27.noarch
-└─perl(version) >= 0.69                                      perl-version-6:0.99.18-3.fc27.ppc64
-perl-Params-Check-1:0.38-393.fc27.noarch                     
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(Locale::Maketext::Simple)                             perl-Locale-Maketext-Simple-1:0.21-398.fc27.noarch
-perl-JSON-PP-1:2.94-3.fc27.noarch                            
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(Data::Dumper)                                         perl-Data-Dumper-2.167-396.fc27.ppc64
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Encode)                                               perl-Encode-4:2.92-14.fc27.ppc64
-├─perl(utf8)                                                 perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Math::BigInt)                                         perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
-├─perl(Math::BigFloat)                                       perl-Math-BigInt-1:1.9998.11-3.fc27.noarch
-├─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-version-6:0.99.18-3.fc27.ppc64                          
+perl-Params-Util-1.07-18.fc27.ppc64                          
 ├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.5.30                                   perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Sub-Install-0.928-12.fc27.noarch                        
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+└─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
+perl-Text-Balanced-2.03-393.fc27.noarch                      
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(if)                                                   perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(warnings::register)                                   perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(locale)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(UNIVERSAL)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.10.0                                   perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.6.2                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(SelfLoader)                                           perl-SelfLoader-1.23-398.fc27.noarch
+└─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
 perl-ExtUtils-Command-1:7.30-1.fc27.noarch                   
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -727,15 +788,11 @@ perl-Test-Harness-1:3.39-3.fc27.noarch
 ├─perl(Text::ParseWords)                                     perl-Text-ParseWords-3.30-394.fc27.noarch
 ├─perl(Benchmark)                                            perl-interpreter-4:5.26.0-398.fc27.ppc64
 └─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Text-Balanced-2.03-393.fc27.noarch                      
+perl-Perl-OSType-1.010-394.fc27.noarch                       
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(SelfLoader)                                           perl-SelfLoader-1.23-398.fc27.noarch
-└─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 perl-ExtUtils-MM-Utils-1:7.30-1.fc27.noarch                  
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -752,63 +809,24 @@ perl-Time-HiRes-1.9742-2.fc27.ppc64
 ├─librt.so.1(GLIBC_2.3)(64bit)                               glibc-2.26-1.fc27.1.ppc64
 ├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
 └─libc.so.6(GLIBC_2.6)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-perl-Text-Diff-1.44-4.fc27.noarch                            
+perl-Package-Generator-1.106-9.fc27.noarch                   
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(Algorithm::Diff) >= 1.19                              perl-Algorithm-Diff-1.1903-7.fc27.noarch
-perl-Perl-OSType-1.010-394.fc27.noarch                       
+├─perl(Symbol)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Module-CoreList-1:5.20170715-1.fc27.noarch              
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-perl-Params-Util-1.07-18.fc27.ppc64                          
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.5.30                                   perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Sub-Install-0.928-12.fc27.noarch                        
+└─perl(version) >= 0.88                                      perl-version-6:0.99.18-3.fc27.ppc64
+perl-Module-Load-1:0.32-393.fc27.noarch                      
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-└─perl(B)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64
-perl-MRO-Compat-0.13-2.fc27.noarch                           
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Sub-Exporter-0.987-12.fc27.noarch                       
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Package::Generator)                                   perl-Package-Generator-1.106-9.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Data::OptList) >= 0.100                               perl-Data-OptList-0.110-4.fc27.noarch
-├─perl(Params::Util) >= 0.14                                 perl-Params-Util-1.07-18.fc27.ppc64
-└─perl(Sub::Install) >= 0.92                                 perl-Sub-Install-0.928-12.fc27.noarch
-perl-IPC-System-Simple-1.25-14.fc27.noarch                   
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(re)                                                   perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
 perl-Module-Metadata-1.000033-393.fc27.noarch                
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -830,24 +848,6 @@ perl-Software-License-0.103012-6.fc27.noarch
 ├─perl(Text::Template)                                       perl-Text-Template-1.47-2.fc27.noarch
 ├─perl(Data::Section)                                        perl-Data-Section-0.200007-1.fc27.noarch
 └─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Module-CoreList-1:5.20170715-1.fc27.noarch              
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(version) >= 0.88                                      perl-version-6:0.99.18-3.fc27.ppc64
-perl-Module-Load-1:0.32-393.fc27.noarch                      
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-perl-Package-Generator-1.106-9.fc27.noarch                   
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Symbol)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
 perl-Text-Template-1.47-2.fc27.noarch                        
 ├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
@@ -855,111 +855,18 @@ perl-Text-Template-1.47-2.fc27.noarch
 ├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
 └─perl(:VERSION) >= 5.4.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Digest-1.17-394.fc27.noarch                             
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(MIME::Base64)                                         perl-MIME-Base64-3.15-395.fc27.ppc64
-perl-Exporter-5.72-395.fc27.noarch                           
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(Carp) >= 1.05                                         perl-Carp-1.42-394.fc27.noarch
-perl-Encode-4:2.92-14.fc27.ppc64                             
+perl-Data-Dumper-2.167-396.fc27.ppc64                        
 ├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(Getopt::Std)                                          perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(utf8)                                                 perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(re)                                                   perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(MIME::Base64)                                         perl-MIME-Base64-3.15-395.fc27.ppc64
-├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Storable)                                             perl-Storable-1:2.62-395.fc27.ppc64
-├─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
-├─perl(:VERSION) >= 5.8.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(parent) >= 0.221                                      perl-parent-1:0.236-394.fc27.noarch
-perl-Digest-MD5-2.55-395.fc27.ppc64                          
-├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(Digest::base) >= 1.00                                 perl-Digest-1.17-394.fc27.noarch
-perl-constant-1.33-395.fc27.noarch                           
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(warnings::register)                                   perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Getopt-Long-1:2.50-3.fc27.noarch                        
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Text::ParseWords)                                     perl-Text-ParseWords-3.30-394.fc27.noarch
-├─perl(:VERSION) >= 5.4.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-└─perl(Pod::Usage) >= 1.14                                   perl-Pod-Usage-4:1.69-394.fc27.noarch
-perl-File-Temp-0.230.400-394.fc27.noarch                     
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
-├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(IO::Handle)                                           perl-IO-1.38-398.fc27.ppc64
-├─perl(Errno)                                                perl-Errno-1.28-398.fc27.ppc64
-├─perl(IO::Seekable)                                         perl-IO-1.38-398.fc27.ppc64
-├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
-├─perl(File::Spec) >= 0.8                                    perl-PathTools-3.67-395.fc27.ppc64
-├─perl(parent) >= 0.221                                      perl-parent-1:0.236-394.fc27.noarch
-├─perl(File::Path) >= 2.06                                   perl-File-Path-2.15-1.fc27.noarch
-└─perl(Fcntl) >= 1.03                                        perl-interpreter-4:5.26.0-398.fc27.ppc64
-perl-File-Path-2.15-1.fc27.noarch                            
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
-├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
-└─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
-perl-HTTP-Tiny-0.070-394.fc27.noarch                         
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
-├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Errno)                                                perl-Errno-1.28-398.fc27.ppc64
-├─perl(MIME::Base64)                                         perl-MIME-Base64-3.15-395.fc27.ppc64
-├─perl(Socket)                                               perl-Socket-4:2.024-5.fc27.ppc64
 ├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(Time::Local)                                          perl-Time-Local-1:1.250-394.fc27.noarch
-└─perl(IO::Socket)                                           perl-IO-1.38-398.fc27.ppc64
+├─perl(B::Deparse)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
 perl-Filter-2:1.57-6.fc27.ppc64                              
 ├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
@@ -974,6 +881,41 @@ perl-Filter-2:1.57-6.fc27.ppc64
 ├─perl(DynaLoader)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
 └─perl(:VERSION) >= 5.2.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-HTTP-Tiny-0.070-394.fc27.noarch                         
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Fcntl)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Errno)                                                perl-Errno-1.28-398.fc27.ppc64
+├─perl(MIME::Base64)                                         perl-MIME-Base64-3.15-395.fc27.ppc64
+├─perl(Socket)                                               perl-Socket-4:2.024-5.fc27.ppc64
+├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Time::Local)                                          perl-Time-Local-1:1.250-394.fc27.noarch
+└─perl(IO::Socket)                                           perl-IO-1.38-398.fc27.ppc64
+perl-Carp-1.42-394.fc27.noarch                               
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+└─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Digest-1.17-394.fc27.noarch                             
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(MIME::Base64)                                         perl-MIME-Base64-3.15-395.fc27.ppc64
+perl-Getopt-Long-1:2.50-3.fc27.noarch                        
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Text::ParseWords)                                     perl-Text-ParseWords-3.30-394.fc27.noarch
+├─perl(:VERSION) >= 5.4.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(Pod::Usage) >= 1.14                                   perl-Pod-Usage-4:1.69-394.fc27.noarch
 perl-4:5.26.0-398.fc27.ppc64                                 
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl-Encode                                                perl-Encode-4:2.92-14.fc27.ppc64
@@ -1344,23 +1286,81 @@ perl-Errno-1.28-398.fc27.ppc64
 ├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
 ├─perl(Config)                                               perl-interpreter-4:5.26.0-398.fc27.ppc64
 └─perl-libs(ppc-64) = 4:5.26.0-398.fc27                      perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Carp-1.42-394.fc27.noarch                               
-├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
-└─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
-perl-Data-Dumper-2.167-396.fc27.ppc64                        
+perl-Digest-MD5-2.55-395.fc27.ppc64                          
 ├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
 ├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
-├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
 ├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(Digest::base) >= 1.00                                 perl-Digest-1.17-394.fc27.noarch
+perl-constant-1.33-395.fc27.noarch                           
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(warnings::register)                                   perl-interpreter-4:5.26.0-398.fc27.ppc64
+└─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+perl-Encode-4:2.92-14.fc27.ppc64                             
+├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─libperl.so.5.26()(64bit)                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─/usr/bin/perl                                              perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(XSLoader)                                             perl-libs-4:5.26.0-398.fc27.ppc64
 ├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Getopt::Long)                                         perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─perl(Getopt::Std)                                          perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(utf8)                                                 perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(re)                                                   perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(MIME::Base64)                                         perl-MIME-Base64-3.15-395.fc27.ppc64
 ├─perl(bytes)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
-├─perl(B::Deparse)                                           perl-interpreter-4:5.26.0-398.fc27.ppc64
-└─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Storable)                                             perl-Storable-1:2.62-395.fc27.ppc64
+├─perl(:VERSION) >= 5.8.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
+├─perl(:VERSION) >= 5.8.1                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(parent) >= 0.221                                      perl-parent-1:0.236-394.fc27.noarch
+perl-Exporter-5.72-395.fc27.noarch                           
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(warnings)                                             perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+└─perl(Carp) >= 1.05                                         perl-Carp-1.42-394.fc27.noarch
+perl-File-Temp-0.230.400-394.fc27.noarch                     
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(constant)                                             perl-constant-1.33-395.fc27.noarch
+├─perl(overload)                                             perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+├─perl(POSIX)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(IO::Handle)                                           perl-IO-1.38-398.fc27.ppc64
+├─perl(Errno)                                                perl-Errno-1.28-398.fc27.ppc64
+├─perl(IO::Seekable)                                         perl-IO-1.38-398.fc27.ppc64
+├─perl(:VERSION) >= 5.6.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Exporter) >= 5.57                                     perl-Exporter-5.72-395.fc27.noarch
+├─perl(File::Spec) >= 0.8                                    perl-PathTools-3.67-395.fc27.ppc64
+├─perl(parent) >= 0.221                                      perl-parent-1:0.236-394.fc27.noarch
+├─perl(File::Path) >= 2.06                                   perl-File-Path-2.15-1.fc27.noarch
+└─perl(Fcntl) >= 1.03                                        perl-interpreter-4:5.26.0-398.fc27.ppc64
+perl-File-Path-2.15-1.fc27.noarch                            
+├─perl(:MODULE_COMPAT_5.26.0)                                perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(strict)                                               perl-libs-4:5.26.0-398.fc27.ppc64
+├─perl(Carp)                                                 perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                             perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(File::Spec)                                           perl-PathTools-3.67-395.fc27.ppc64
+├─perl(File::Basename)                                       perl-interpreter-4:5.26.0-398.fc27.ppc64
+├─perl(Cwd)                                                  perl-PathTools-3.67-395.fc27.ppc64
+└─perl(:VERSION) >= 5.5.0                                    perl-libs-4:5.26.0-398.fc27.ppc64
 perl-PathTools-3.67-395.fc27.ppc64                           
 ├─rtld(GNU_HASH)                                             glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.4)(64bit)                                glibc-2.26-1.fc27.1.ppc64

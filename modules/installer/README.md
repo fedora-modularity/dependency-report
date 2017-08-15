@@ -9,6 +9,7 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform](../platform)
 * [networking-base](../networking-base)
 * [storage-devices](../storage-devices)
+* [platform-placeholder](../platform-placeholder)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -29,29 +30,15 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `cracklib-dicts` | X | X | X | X | X | - | X |
 | `createrepo_c` | X | X | X | X | X | - | X |
 | `createrepo_c-libs` | X | X | X | X | X | - | X |
-| `device-mapper-multipath` | X | X | X | X | X | - | X |
-| `device-mapper-multipath-libs` | X | X | X | X | X | - | X |
 | `device-mapper-persistent-data` | X | X | X | X | X | - | X |
-| `dracut-network` | X | X | X | X | X | - | X |
 | `drpm` | X | X | X | X | X | - | X |
-| `ethtool` | X | X | X | X | X | - | X |
-| `fcoe-utils` | - | - | X | - | - | - | X |
 | `glibc-langpack-en` | X | X | X | X | X | - | X |
 | `gnupg` | X | X | X | X | X | - | X |
-| `hwdata` | - | - | X | - | - | - | X |
-| `iscsi-initiator-utils` | X | X | X | X | X | - | X |
-| `iscsi-initiator-utils-iscsiuio` | X | X | X | X | X | - | X |
-| `isns-utils-libs` | X | X | X | X | X | - | X |
 | `isomd5sum` | X | X | X | X | X | - | X |
 | `json-c` | X | X | X | X | X | - | X |
-| `kbd` | X | X | X | X | X | - | X |
-| `kbd-legacy` | X | X | X | X | X | - | X |
-| `kbd-misc` | X | X | X | X | X | - | X |
-| `kexec-tools` | X | X | X | X | X | - | X |
 | `langtable` | X | X | X | X | X | - | X |
 | `langtable-data` | X | X | X | X | X | - | X |
 | `langtable-python3` | X | X | X | X | X | - | X |
-| `libblockdev` | X | X | X | X | X | - | X |
 | `libblockdev-btrfs` | X | X | X | X | X | - | X |
 | `libblockdev-crypto` | X | X | X | X | X | - | X |
 | `libblockdev-dm` | X | X | X | X | X | - | X |
@@ -64,10 +51,7 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `libblockdev-part` | X | X | X | X | X | - | X |
 | `libblockdev-plugins-all` | X | X | X | X | X | - | X |
 | `libblockdev-swap` | X | X | X | X | X | - | X |
-| `libblockdev-utils` | X | X | X | X | X | - | X |
 | `libbytesize` | X | X | X | X | X | - | X |
-| `libconfig` | - | - | X | - | - | - | X |
-| `libpciaccess` | - | - | X | - | - | - | X |
 | `libreport` | X | X | X | X | X | - | X |
 | `libreport-anaconda` | X | X | X | X | X | - | X |
 | `libreport-cli` | X | X | X | X | X | - | X |
@@ -77,8 +61,6 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `libreport-web` | X | X | X | X | X | - | X |
 | `libtar` | X | X | X | X | X | - | X |
 | `libusb` | X | X | X | X | X | - | X |
-| `lldpad` | - | - | X | - | - | - | X |
-| `lsof` | X | X | X | X | X | - | X |
 | `lvm2` | X | X | X | X | X | - | X |
 | `lvm2-libs` | X | X | X | X | X | - | X |
 | `lz4` | X | X | X | X | X | - | X |
@@ -110,7 +92,5 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `python3-requests-ftp` | X | X | X | X | X | - | X |
 | `python3-urllib3` | X | X | X | X | X | - | X |
 | `python3-wrapt` | X | X | X | X | X | - | X |
-| `rsync` | X | X | X | X | X | - | X |
 | `satyr` | X | X | X | X | X | - | X |
-| `usermode` | - | - | X | X | X | - | X |
 | `volume_key-libs` | X | X | X | X | X | - | X |
