@@ -9,9 +9,11 @@ data:
         buildrequires:
             platform: master
             platform: master
+            perl: master
         requires:
             platform: master
             platform: master
+            perl: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/systemtap
@@ -31,47 +33,5 @@ data:
                 rationale: Generated.
                 ref: master.
             libdwarf:
-                rationale: Generated.
-                ref: master.
-            perl:
-                rationale: Generated.
-                ref: master.
-            perl-Carp:
-                rationale: Generated.
-                ref: master.
-            perl-constant:
-                rationale: Generated.
-                ref: master.
-            perl-Exporter:
-                rationale: Generated.
-                ref: master.
-            perl-File-Path:
-                rationale: Generated.
-                ref: master.
-            perl-parent:
-                rationale: Generated.
-                ref: master.
-            perl-PathTools:
-                rationale: Generated.
-                ref: master.
-            perl-Scalar-List-Utils:
-                rationale: Generated.
-                ref: master.
-            perl-Socket:
-                rationale: Generated.
-                ref: master.
-            perl-Text-Tabs+Wrap:
-                rationale: Generated.
-                ref: master.
-            perl-threads:
-                rationale: Generated.
-                ref: master.
-            perl-threads-shared:
-                rationale: Generated.
-                ref: master.
-            perl-Unicode-Normalize:
-                rationale: Generated.
-                ref: master.
-            systemtap:
                 rationale: Generated.
                 ref: master.

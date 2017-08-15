@@ -538,13 +538,6 @@ pcre-8.41-1.fc27.ppc64
 ├─libc.so.6(GLIBC_2.4)(64bit)                 glibc-2.25.90-27.fc27.ppc64
 ├─libpthread.so.0()(64bit)                    glibc-2.25.90-27.fc27.ppc64
 └─libpthread.so.0(GLIBC_2.3)(64bit)           glibc-2.25.90-27.fc27.ppc64
-libtool-2.4.6-18.fc27.ppc64                   
-├─sed                                         sed-4.4-1.fc26.ppc64
-├─tar                                         tar-2:1.29-4.fc26.ppc64
-├─findutils                                   findutils-1:4.6.0-12.fc27.ppc64
-├─automake                                    automake-1.15-9.fc26.noarch
-├─autoconf                                    autoconf-2.69-24.fc26.noarch
-└─gcc(major) = 7                              gcc-7.1.1-6.fc27.ppc64
 automake-1.15-9.fc26.noarch                   
 ├─perl(strict)                                perl-libs-4:5.26.0-395.fc27.ppc64
 ├─perl(warnings)                              perl-libs-4:5.26.0-395.fc27.ppc64
@@ -570,6 +563,20 @@ automake-1.15-9.fc26.noarch
 ├─perl(Thread::Queue)                         perl-Thread-Queue-3.12-393.fc27.noarch
 ├─perl(:VERSION) >= 5.6.0                     perl-libs-4:5.26.0-395.fc27.ppc64
 └─autoconf >= 2.65                            autoconf-2.69-24.fc26.noarch
+perl-Thread-Queue-3.12-393.fc27.noarch        
+├─perl(strict)                                perl-libs-4:5.26.0-395.fc27.ppc64
+├─perl(:MODULE_COMPAT_5.26.0)                 perl-libs-4:5.26.0-395.fc27.ppc64
+├─perl(warnings)                              perl-libs-4:5.26.0-395.fc27.ppc64
+├─perl(Carp)                                  perl-Carp-1.42-393.fc27.noarch
+├─perl(Scalar::Util) >= 1.10                  perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64
+└─perl(threads::shared) >= 1.21               perl-threads-shared-1.57-2.fc27.ppc64
+libtool-2.4.6-18.fc27.ppc64                   
+├─sed                                         sed-4.4-1.fc26.ppc64
+├─tar                                         tar-2:1.29-4.fc26.ppc64
+├─findutils                                   findutils-1:4.6.0-12.fc27.ppc64
+├─automake                                    automake-1.15-9.fc26.noarch
+├─autoconf                                    autoconf-2.69-24.fc26.noarch
+└─gcc(major) = 7                              gcc-7.1.1-6.fc27.ppc64
 findutils-1:4.6.0-12.fc27.ppc64               
 ├─rtld(GNU_HASH)                              glibc-2.25.90-27.fc27.ppc64
 ├─libm.so.6()(64bit)                          glibc-2.25.90-27.fc27.ppc64
@@ -582,13 +589,6 @@ tar-2:1.29-4.fc26.ppc64
 ├─libselinux.so.1()(64bit)                    libselinux-2.6-6.fc27.ppc64
 ├─libacl.so.1()(64bit)                        libacl-2.2.52-16.fc27.ppc64
 └─libacl.so.1(ACL_1.0)(64bit)                 libacl-2.2.52-16.fc27.ppc64
-perl-Thread-Queue-3.12-393.fc27.noarch        
-├─perl(strict)                                perl-libs-4:5.26.0-395.fc27.ppc64
-├─perl(:MODULE_COMPAT_5.26.0)                 perl-libs-4:5.26.0-395.fc27.ppc64
-├─perl(warnings)                              perl-libs-4:5.26.0-395.fc27.ppc64
-├─perl(Carp)                                  perl-Carp-1.42-393.fc27.noarch
-├─perl(Scalar::Util) >= 1.10                  perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64
-└─perl(threads::shared) >= 1.21               perl-threads-shared-1.57-2.fc27.ppc64
 glibc-2.25.90-27.fc27.ppc64                   
 ├─glibc-common = 2.25.90-27.fc27              glibc-common-2.25.90-27.fc27.ppc64
 └─glibc-langpack = 2.25.90-27.fc27            glibc-minimal-langpack-2.25.90-27.fc27.ppc64

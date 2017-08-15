@@ -11,6 +11,8 @@ platform:
 
 installer: platform 
 
-autotools: platform
+autotools: platform perl
 
-systemtap: platform
+systemtap: platform perl
+
+perl: platform

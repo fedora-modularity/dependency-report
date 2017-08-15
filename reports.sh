@@ -28,8 +28,6 @@ files="
     runtime-binary-packages-short.txt
     runtime-source-packages-short.txt
     buildtime-binary-packages-short.txt
-    buildtime-source-packages-short.txt
-    buildtime-binary-packages-short.txt
     buildtime-source-packages-short.txt"
 
 for file in $files; do
