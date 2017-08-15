@@ -61,13 +61,29 @@ for module in $(ls modules); do
         for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "* [$dep](../$dep)"
         done
-        echo "## Binary RPM packages (all arches combined)"
+        echo "## Binary RPM packages"
         echo "These are RPM dependencies of the [$module top-level package set]($module.csv). They should be either:"
         echo "* split into other modules and be used as modular dependncies"
         echo "* included in this $module module"
-        echo "------"
+        echo "### Packages"
+
+        printf "| |"
+        for arch in $(cat arches.txt); do
+            printf "$arch |"
+        done
+        printf "\n"
+
         for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
-            echo "* \`$pkg\`"
+            printf "| $pkg |"
+            for arch in $(cat arches.txt); do
+                cat modules/$module/$arch/runtime-binary-packages-short.txt | grep "^$pkg$" > /dev/null
+                if [ $? -eq 0 ]; then
+                    printf " X |"
+                else
+                    printf " - |"
+                fi
+            done
+            printf "\n"
         done
     } > modules/$module/README.md
 done
