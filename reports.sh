@@ -80,7 +80,7 @@ for module in $(ls modules); do
         printf "\n"
 
         for pkg in $(cat modules/$module/all/runtime-binary-packages-short.txt); do
-            printf "| $pkg |"
+            printf "| \`$pkg\` |"
             for arch in $(cat arches.txt); do
                 cat modules/$module/$arch/runtime-binary-packages-short.txt | grep "^$pkg$" > /dev/null
                 if [ $? -eq 0 ]; then
