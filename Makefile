@@ -16,3 +16,5 @@ autotools: platform perl
 systemtap: platform perl
 
 perl: platform
+
+networking-base: platform
