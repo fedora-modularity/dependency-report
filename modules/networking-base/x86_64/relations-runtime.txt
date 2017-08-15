@@ -1,5 +1,29 @@
+teamd-1.27-1.fc27.x86_64                          
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
+├─libdaemon.so.0()(64bit)                         libdaemon-0.14-11.fc26.x86_64
+├─libteam.so.5()(64bit)                           libteam-1.27-1.fc27.x86_64
+├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.x86_64
+└─libteam = 1.27-1.fc27                           libteam-1.27-1.fc27.x86_64
+xmlrpc-c-client-1.48.0-5.fc27.x86_64              
+├─libcurl.so.4()(64bit)                           libcurl-minimal-7.54.1-2.fc27.x86_64
+├─libxmlrpc.so.3()(64bit)                         xmlrpc-c-1.48.0-5.fc27.x86_64
+├─libxmlrpc_util.so.4()(64bit)                    xmlrpc-c-1.48.0-5.fc27.x86_64
+└─xmlrpc-c(x86-64) = 1.48.0-5.fc27                xmlrpc-c-1.48.0-5.fc27.x86_64
+NetworkManager-libnm-1:1.8.0-6.fc27.x86_64        
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
+NetworkManager-team-1:1.8.0-6.fc27.x86_64         
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
+├─libteamdctl.so.0()(64bit)                       teamd-1.27-1.fc27.x86_64
+└─NetworkManager(x86-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.x86_64
+jansson-2.10-2.fc27.x86_64                        
+libdaemon-0.14-11.fc26.x86_64                     
+libnl3-cli-3.3.0-1.fc27.x86_64                    
+libteam-1.27-1.fc27.x86_64                        
+├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.x86_64
+└─libnl-cli-3.so.200(libnl_3)(64bit)              libnl3-cli-3.3.0-1.fc27.x86_64
+xmlrpc-c-1.48.0-5.fc27.x86_64                     
 NetworkManager-1:1.8.0-6.fc27.x86_64              
-├─libcurl.so.4()(64bit)                           libcurl-minimal-7.55.0-1.fc27.x86_64
+├─libcurl.so.4()(64bit)                           libcurl-minimal-7.54.1-2.fc27.x86_64
 ├─libpolkit-gobject-1.so.0()(64bit)               polkit-libs-0.113-13.fc27.x86_64
 ├─libnm.so.0()(64bit)                             NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
 ├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
@@ -7,365 +31,255 @@ NetworkManager-1:1.8.0-6.fc27.x86_64
 ├─libnm.so.0(libnm_1_2_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
 ├─libpolkit-agent-1.so.0()(64bit)                 polkit-libs-0.113-13.fc27.x86_64
 ├─libnm.so.0(libnm_1_6_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libpsl.so.5()(64bit)                            libpsl-0.17.0-4.fc27.x86_64
+├─libpsl.so.5()(64bit)                            libpsl-0.17.0-2.fc26.x86_64
 ├─libnm.so.0(libnm_1_8_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
 ├─libnm.so.0(libnm_1_4_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
 ├─libndp.so.0()(64bit)                            libndp-1.6-2.fc26.x86_64
 ├─NetworkManager-libnm(x86-64) = 1:1.8.0-6.fc27   NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-libproxy-0.4.15-2.fc27.x86_64                     
-└─libmodman.so.1()(64bit)                         libmodman-2.0.1-14.fc27.x86_64
-NetworkManager-team-1:1.8.0-6.fc27.x86_64         
-├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
-├─libteamdctl.so.0()(64bit)                       teamd-1.27-1.fc27.x86_64
-└─NetworkManager(x86-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.x86_64
 libndp-1.6-2.fc26.x86_64                          
+libpsl-0.17.0-2.fc26.x86_64                       
+└─publicsuffix-list-dafsa                         publicsuffix-list-dafsa-20170424-1.fc27.noarch
+polkit-libs-0.113-13.fc27.x86_64                  
+publicsuffix-list-dafsa-20170424-1.fc27.noarch    
 realmd-0.16.3-5.fc27.x86_64                       
 ├─libpolkit-gobject-1.so.0()(64bit)               polkit-libs-0.113-13.fc27.x86_64
 └─authconfig                                      authconfig-7.0.1-1.fc27.x86_64
-teamd-1.27-1.fc27.x86_64                          
-├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
-├─libdaemon.so.0()(64bit)                         libdaemon-0.14-11.fc26.x86_64
-├─libteam.so.5()(64bit)                           libteam-1.27-1.fc27.x86_64
-├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.x86_64
-└─libteam = 1.27-1.fc27                           libteam-1.27-1.fc27.x86_64
-net-snmp-agent-libs-1:5.7.3-16.fc27.x86_64        
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─librpm.so.7()(64bit)                            rpm-libs-4.13.0.1-41.fc27.x86_64
-├─libwrap.so.0()(64bit)                           tcp_wrappers-libs-7.6-87.fc27.x86_64
-├─librpmio.so.7()(64bit)                          rpm-libs-4.13.0.1-41.fc27.x86_64
-├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-16.fc27.x86_64
-├─libsensors.so.4()(64bit)                        lm_sensors-libs-3.4.0-6.fc26.x86_64
-└─net-snmp-libs(x86-64) = 1:5.7.3-16.fc27         net-snmp-libs-1:5.7.3-16.fc27.x86_64
-net-snmp-1:5.7.3-16.fc27.x86_64                   
-├─/usr/bin/perl                                   perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Data::Dumper)                              perl-Data-Dumper-2.167-396.fc27.x86_64
-├─perl(IO::File)                                  perl-IO-1.38-398.fc27.x86_64
-├─perl(File::Copy)                                perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(Getopt::Std)                               perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─libmysqlclient.so.18()(64bit)                   mariadb-libs-3:10.2.7-2.fc27.x86_64
-├─librpm.so.7()(64bit)                            rpm-libs-4.13.0.1-41.fc27.x86_64
-├─libwrap.so.0()(64bit)                           tcp_wrappers-libs-7.6-87.fc27.x86_64
-├─librpmio.so.7()(64bit)                          rpm-libs-4.13.0.1-41.fc27.x86_64
-├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-16.fc27.x86_64
-├─perl(Term::ReadLine)                            perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─libsensors.so.4()(64bit)                        lm_sensors-libs-3.4.0-6.fc26.x86_64
-├─libnetsnmpagent.so.30()(64bit)                  net-snmp-agent-libs-1:5.7.3-16.fc27.x86_64
-├─libnetsnmpmibs.so.30()(64bit)                   net-snmp-agent-libs-1:5.7.3-16.fc27.x86_64
-├─libnetsnmptrapd.so.30()(64bit)                  net-snmp-agent-libs-1:5.7.3-16.fc27.x86_64
-├─net-snmp-libs(x86-64) = 1:5.7.3-16.fc27         net-snmp-libs-1:5.7.3-16.fc27.x86_64
-└─net-snmp-agent-libs(x86-64) = 1:5.7.3-16.fc27   net-snmp-agent-libs-1:5.7.3-16.fc27.x86_64
-NetworkManager-libnm-1:1.8.0-6.fc27.x86_64        
-├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.x86_64
-firewalld-0.4.4.5-1.fc27.noarch                   
-├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
-├─iptables                                        iptables-1.6.1-4.fc27.x86_64
-├─firewalld-filesystem = 0.4.4.5-1.fc27           firewalld-filesystem-0.4.4.5-1.fc27.noarch
-└─python3-firewall = 0.4.4.5-1.fc27               python3-firewall-0.4.4.5-1.fc27.noarch
-firewalld-filesystem-0.4.4.5-1.fc27.noarch        
-libteam-1.27-1.fc27.x86_64                        
-├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.x86_64
-└─libnl-cli-3.so.200(libnl_3)(64bit)              libnl3-cli-3.3.0-1.fc27.x86_64
-net-snmp-libs-1:5.7.3-16.fc27.x86_64              
-xmlrpc-c-1.48.0-5.fc27.x86_64                     
-xmlrpc-c-client-1.48.0-5.fc27.x86_64              
-├─libcurl.so.4()(64bit)                           libcurl-minimal-7.55.0-1.fc27.x86_64
-├─libxmlrpc.so.3()(64bit)                         xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_util.so.4()(64bit)                    xmlrpc-c-1.48.0-5.fc27.x86_64
-└─xmlrpc-c(x86-64) = 1.48.0-5.fc27                xmlrpc-c-1.48.0-5.fc27.x86_64
-jansson-2.10-2.fc27.x86_64                        
-polkit-libs-0.113-13.fc27.x86_64                  
-libmodman-2.0.1-14.fc27.x86_64                    
 authconfig-7.0.1-1.fc27.x86_64                    
-├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
-├─python3                                         python3-3.6.2-6.fc27.x86_64
 ├─policycoreutils                                 policycoreutils-2.6-5.fc27.x86_64
 ├─python3-sssdconfig                              python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
-├─/usr/bin/openssl                                openssl-1:1.1.0f-9.fc27.x86_64
-├─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-libdaemon-0.14-11.fc26.x86_64                     
-libnl3-cli-3.3.0-1.fc27.x86_64                    
-lm_sensors-libs-3.4.0-6.fc26.x86_64               
-mariadb-libs-3:10.2.7-2.fc27.x86_64               
-└─mariadb-common(x86-64) = 3:10.2.7-2.fc27        mariadb-common-3:10.2.7-2.fc27.x86_64
-python3-firewall-0.4.4.5-1.fc27.noarch            
+policycoreutils-2.6-5.fc27.x86_64                 
+├─libselinux-utils >= 2.6-5                       libselinux-utils-2.6-6.fc27.x86_64
+python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch    
+libselinux-utils-2.6-6.fc27.x86_64                
+firewalld-filesystem-0.4.4.5-3.fc27.noarch        
+firewalld-0.4.4.5-3.fc27.noarch                   
+├─firewalld-filesystem = 0.4.4.5-3.fc27           firewalld-filesystem-0.4.4.5-3.fc27.noarch
+└─python3-firewall = 0.4.4.5-3.fc27               python3-firewall-0.4.4.5-3.fc27.noarch
+python3-firewall-0.4.4.5-3.fc27.noarch            
 ├─python3-dbus                                    python3-dbus-1.2.4-6.fc26.x86_64
 ├─python3-decorator                               python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-gobject-base                            python3-gobject-base-3.24.1-1.fc27.x86_64
 ├─python3-slip-dbus                               python3-slip-dbus-0.6.4-6.fc26.noarch
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-policycoreutils-2.6-5.fc27.x86_64                 
-├─rpm                                             rpm-4.13.0.1-41.fc27.x86_64
-├─diffutils                                       diffutils-3.6-3.fc27.x86_64
-├─libselinux-utils >= 2.6-5                       libselinux-utils-2.7-1.fc27.x86_64
-python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch    
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-mariadb-common-3:10.2.7-2.fc27.x86_64             
-└─/etc/my.cnf                                     mariadb-config-3:10.2.7-2.fc27.x86_64
 python3-dbus-1.2.4-6.fc26.x86_64                  
 ├─libdbus-glib-1.so.2()(64bit)                    dbus-glib-0.108-2.fc26.x86_64
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
 python3-decorator-4.0.11-2.fc26.noarch            
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
 python3-gobject-base-3.24.1-1.fc27.x86_64         
-├─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
 python3-slip-dbus-0.6.4-6.fc26.noarch             
 ├─python3-decorator                               python3-decorator-4.0.11-2.fc26.noarch
-├─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
 ├─python3-slip = 0.6.4-6.fc26                     python3-slip-0.6.4-6.fc26.noarch
 └─python3-dbus >= 0.80                            python3-dbus-1.2.4-6.fc26.x86_64
-mariadb-config-3:10.2.7-2.fc27.x86_64             
 dbus-glib-0.108-2.fc26.x86_64                     
-└─system-python(abi) = 3.6                        system-python-3.6.2-6.fc27.x86_64
 python3-slip-0.6.4-6.fc26.noarch                  
-├─libselinux-python3                              libselinux-python3-2.7-1.fc27.x86_64
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-libpsl-0.17.0-4.fc27.x86_64                       
-├─libunistring.so.2()(64bit)                      libunistring-0.9.7-3.fc27.x86_64
-├─libidn2.so.0()(64bit)                           libidn2-2.0.3-1.fc27.x86_64
-├─libidn2.so.0(IDN2_0.0.0)(64bit)                 libidn2-2.0.3-1.fc27.x86_64
-└─publicsuffix-list-dafsa                         publicsuffix-list-dafsa-20170424-2.fc27.noarch
-libidn2-2.0.3-1.fc27.x86_64                       
-└─libunistring.so.2()(64bit)                      libunistring-0.9.7-3.fc27.x86_64
-libunistring-0.9.7-3.fc27.x86_64                  
-publicsuffix-list-dafsa-20170424-2.fc27.noarch    
-libselinux-utils-2.7-1.fc27.x86_64                
-libselinux-python3-2.7-1.fc27.x86_64              
-├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
-├─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-openssl-1:1.1.0f-9.fc27.x86_64                    
-├─make                                            make-1:4.2.1-4.fc27.x86_64
-iptables-1.6.1-4.fc27.x86_64                      
-python3-3.6.2-6.fc27.x86_64                       
-├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
-├─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
-├─python3-pip                                     python3-pip-9.0.1-11.fc27.noarch
-└─python3-libs(x86-64) = 3.6.2-6.fc27             python3-libs-3.6.2-6.fc27.x86_64
-python3-libs-3.6.2-6.fc27.x86_64                  
-├─system-python-libs(x86-64) = 3.6.2-6.fc27       system-python-libs-3.6.2-6.fc27.x86_64
-system-python-libs-3.6.2-6.fc27.x86_64            
-├─libgdbm.so.4()(64bit)                           gdbm-1.13-3.fc27.x86_64
-├─libgdbm_compat.so.4()(64bit)                    gdbm-1.13-3.fc27.x86_64
-system-python-3.6.2-6.fc27.x86_64                 
-├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
-└─system-python-libs(x86-64) = 3.6.2-6.fc27       system-python-libs-3.6.2-6.fc27.x86_64
-diffutils-3.6-3.fc27.x86_64                       
-rpm-4.13.0.1-41.fc27.x86_64                       
-├─liblua-5.3.so()(64bit)                          lua-libs-5.3.4-5.fc27.x86_64
-├─librpm.so.7()(64bit)                            rpm-libs-4.13.0.1-41.fc27.x86_64
-├─librpmio.so.7()(64bit)                          rpm-libs-4.13.0.1-41.fc27.x86_64
-├─curl                                            curl-minimal-7.55.0-1.fc27.x86_64
-├─libarchive.so.13()(64bit)                       libarchive-3.3.1-3.fc27.x86_64
-├─/usr/bin/db_stat                                libdb-utils-5.3.28-26.fc27.x86_64
-rpm-libs-4.13.0.1-41.fc27.x86_64                  
-├─liblua-5.3.so()(64bit)                          lua-libs-5.3.4-5.fc27.x86_64
-├─rpm = 4.13.0.1-41.fc27                          rpm-4.13.0.1-41.fc27.x86_64
-├─rpm-plugin-selinux(x86-64) = 4.13.0.1-41.fc27   rpm-plugin-selinux-4.13.0.1-41.fc27.x86_64
-rpm-plugin-selinux-4.13.0.1-41.fc27.x86_64        
-├─liblua-5.3.so()(64bit)                          lua-libs-5.3.4-5.fc27.x86_64
-├─librpm.so.7()(64bit)                            rpm-libs-4.13.0.1-41.fc27.x86_64
-├─librpmio.so.7()(64bit)                          rpm-libs-4.13.0.1-41.fc27.x86_64
-└─rpm-libs(x86-64) = 4.13.0.1-41.fc27             rpm-libs-4.13.0.1-41.fc27.x86_64
-perl-libs-4:5.26.0-398.fc27.x86_64                
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-perl-interpreter-4:5.26.0-398.fc27.x86_64         
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.x86_64
-├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
-├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.x86_64
-├─perl(parent)                                    perl-parent-1:0.236-394.fc27.noarch
-├─perl(utf8)                                      perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(File::Path)                                perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                  perl-IO-1.38-398.fc27.x86_64
-├─perl(integer)                                   perl-libs-4:5.26.0-398.fc27.x86_64
-├─libgdbm.so.4()(64bit)                           gdbm-1.13-3.fc27.x86_64
-├─libgdbm_compat.so.4()(64bit)                    gdbm-1.13-3.fc27.x86_64
-├─perl(re)                                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Text::Wrap)                                perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch
-├─perl(File::Spec::Functions)                     perl-PathTools-3.67-395.fc27.x86_64
-├─perl(Text::Tabs)                                perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch
-├─perl(threads)                                   perl-threads-1:2.16-4.fc27.x86_64
-├─perl(Unicode::Normalize)                        perl-Unicode-Normalize-1.25-395.fc27.x86_64
-├─perl(threads::shared)                           perl-threads-shared-1.57-4.fc27.x86_64
-├─perl(unicore::Name)                             perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.5.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl-libs(x86-64) = 4:5.26.0-398.fc27           perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.0.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.9.1                         perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.7.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.24.0                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.10.1                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.3.0                         perl-libs-4:5.26.0-398.fc27.x86_64
+├─libselinux-python3                              libselinux-python3-2.6-6.fc27.x86_64
+libselinux-python3-2.6-6.fc27.x86_64              
+net-snmp-libs-1:5.7.3-20.fc27.x86_64              
+net-snmp-agent-libs-1:5.7.3-20.fc27.x86_64        
+├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-20.fc27.x86_64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─libmariadb.so.3()(64bit)                        mariadb-libs-3:10.2.7-2.fc27.x86_64
+├─libsensors.so.4()(64bit)                        lm_sensors-libs-3.4.0-6.fc26.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─libmariadb.so.3(libmysqlclient_18)(64bit)       mariadb-libs-3:10.2.7-2.fc27.x86_64
+└─net-snmp-libs(x86-64) = 1:5.7.3-20.fc27         net-snmp-libs-1:5.7.3-20.fc27.x86_64
+lm_sensors-libs-3.4.0-6.fc26.x86_64               
+mariadb-libs-3:10.2.7-2.fc27.x86_64               
+└─mariadb-common(x86-64) = 3:10.2.7-2.fc27        mariadb-common-3:10.2.7-2.fc27.x86_64
+perl-libs-4:5.26.0-395.fc27.x86_64                
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+mariadb-common-3:10.2.7-2.fc27.x86_64             
+└─/etc/my.cnf                                     mariadb-config-3:10.2.7-2.fc27.x86_64
+perl-Carp-1.42-393.fc27.noarch                    
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+perl-Exporter-5.72-394.fc27.noarch                
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(Carp) >= 1.05                              perl-Carp-1.42-393.fc27.noarch
+mariadb-config-3:10.2.7-2.fc27.x86_64             
+net-snmp-1:5.7.3-20.fc27.x86_64                   
+├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-20.fc27.x86_64
+├─/usr/bin/perl                                   perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─libnetsnmpagent.so.30()(64bit)                  net-snmp-agent-libs-1:5.7.3-20.fc27.x86_64
+├─libnetsnmpmibs.so.30()(64bit)                   net-snmp-agent-libs-1:5.7.3-20.fc27.x86_64
+├─libnetsnmptrapd.so.30()(64bit)                  net-snmp-agent-libs-1:5.7.3-20.fc27.x86_64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Data::Dumper)                              perl-Data-Dumper-2.167-394.fc27.x86_64
+├─perl(Getopt::Std)                               perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─libmariadb.so.3()(64bit)                        mariadb-libs-3:10.2.7-2.fc27.x86_64
+├─libsensors.so.4()(64bit)                        lm_sensors-libs-3.4.0-6.fc26.x86_64
+├─perl(File::Copy)                                perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(IO::File)                                  perl-IO-1.38-395.fc27.x86_64
+├─perl(Term::ReadLine)                            perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─net-snmp-libs(x86-64) = 1:5.7.3-20.fc27         net-snmp-libs-1:5.7.3-20.fc27.x86_64
+└─net-snmp-agent-libs(x86-64) = 1:5.7.3-20.fc27   net-snmp-agent-libs-1:5.7.3-20.fc27.x86_64
+perl-Data-Dumper-2.167-394.fc27.x86_64            
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(constant)                                  perl-constant-1.33-394.fc27.noarch
+├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(bytes)                                     perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(B::Deparse)                                perl-interpreter-4:5.26.0-395.fc27.x86_64
+└─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+perl-IO-1.38-395.fc27.x86_64                      
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                      perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(File::Spec)                                perl-PathTools-3.67-393.fc27.x86_64
+├─perl(Fcntl)                                     perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Symbol)                                    perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(Errno)                                     perl-Errno-1.28-395.fc27.x86_64
+├─perl(File::stat)                                perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(warnings::register)                        perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(Tie::Hash)                                 perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(SelectSaver)                               perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(Socket) >= 1.3                             perl-Socket-4:2.024-3.fc27.x86_64
+perl-interpreter-4:5.26.0-395.fc27.x86_64         
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(constant)                                  perl-constant-1.33-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(File::Spec)                                perl-PathTools-3.67-393.fc27.x86_64
+├─perl(Cwd)                                       perl-PathTools-3.67-393.fc27.x86_64
+├─perl(File::Path)                                perl-File-Path-2.14-1.fc27.noarch
+├─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(IO::File)                                  perl-IO-1.38-395.fc27.x86_64
+├─perl(parent)                                    perl-parent-1:0.236-393.fc27.noarch
+├─perl(utf8)                                      perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(File::Spec::Functions)                     perl-PathTools-3.67-393.fc27.x86_64
+├─perl(integer)                                   perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Text::Wrap)                                perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch
+├─perl(re)                                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(threads)                                   perl-threads-1:2.16-2.fc27.x86_64
+├─perl(threads::shared)                           perl-threads-shared-1.57-2.fc27.x86_64
+├─perl(Text::Tabs)                                perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch
+├─perl(Unicode::Normalize)                        perl-Unicode-Normalize-1.25-393.fc27.x86_64
+├─perl(unicore::Name)                             perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.5.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.0.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.10.1                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.3.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.7.3                         perl-libs-4:5.26.0-395.fc27.x86_64
 ├─perl(Scalar::Util) >= 1.10                      perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
-├─perl(:VERSION) >= 5.7.3                         perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(:VERSION) >= 5.9.4                         perl-libs-4:5.26.0-398.fc27.x86_64
-tcp_wrappers-libs-7.6-87.fc27.x86_64              
-perl-Data-Dumper-2.167-396.fc27.x86_64            
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
-├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
-├─perl(bytes)                                     perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(B::Deparse)                                perl-interpreter-4:5.26.0-398.fc27.x86_64
-└─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-perl-IO-1.38-398.fc27.x86_64                      
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.x86_64
-├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Fcntl)                                     perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(Symbol)                                    perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(warnings::register)                        perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(Errno)                                     perl-Errno-1.28-398.fc27.x86_64
-├─perl(Tie::Hash)                                 perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(File::stat)                                perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(SelectSaver)                               perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(Socket) >= 1.3                             perl-Socket-4:2.024-5.fc27.x86_64
-perl-Errno-1.28-398.fc27.x86_64                   
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(Config)                                    perl-interpreter-4:5.26.0-398.fc27.x86_64
-└─perl-libs(x86-64) = 4:5.26.0-398.fc27           perl-libs-4:5.26.0-398.fc27.x86_64
-libdb-utils-5.3.28-26.fc27.x86_64                 
-gdbm-1.13-3.fc27.x86_64                           
-lua-libs-5.3.4-5.fc27.x86_64                      
-libarchive-3.3.1-3.fc27.x86_64                    
-python3-pip-9.0.1-11.fc27.noarch                  
-├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
-├─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-python3-setuptools-36.2.0-3.fc27.noarch           
-├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-perl-Carp-1.42-394.fc27.noarch                    
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-└─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-perl-Exporter-5.72-395.fc27.noarch                
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(Carp) >= 1.05                              perl-Carp-1.42-394.fc27.noarch
-perl-File-Path-2.15-1.fc27.noarch                 
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.x86_64
-├─perl(File::Basename)                            perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.x86_64
-└─perl(:VERSION) >= 5.5.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-perl-PathTools-3.67-395.fc27.x86_64               
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
-└─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
+├─perl(:VERSION) >= 5.7.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl-libs(x86-64) = 4:5.26.0-395.fc27           perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.24.0                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.9.1                         perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(:VERSION) >= 5.9.4                         perl-libs-4:5.26.0-395.fc27.x86_64
 perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64       
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch     
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(re)                                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(warnings::register)                        perl-interpreter-4:5.26.0-398.fc27.x86_64
-└─perl(:VERSION) >= 5.10.0                        perl-libs-4:5.26.0-398.fc27.x86_64
-perl-Unicode-Normalize-1.25-395.fc27.x86_64       
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(DynaLoader)                                perl-interpreter-4:5.26.0-398.fc27.x86_64
-└─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-perl-constant-1.33-395.fc27.noarch                
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(warnings::register)                        perl-interpreter-4:5.26.0-398.fc27.x86_64
-└─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-perl-macros-4:5.26.0-398.fc27.x86_64              
-└─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-perl-parent-1:0.236-394.fc27.noarch               
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.x86_64
-perl-threads-1:2.16-4.fc27.x86_64                 
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Config)                                    perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(overload)                                  perl-interpreter-4:5.26.0-398.fc27.x86_64
-└─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-perl-threads-shared-1.57-4.fc27.x86_64            
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+perl-constant-1.33-394.fc27.noarch                
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(warnings::register)                        perl-interpreter-4:5.26.0-395.fc27.x86_64
+└─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+perl-Errno-1.28-395.fc27.x86_64                   
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(Config)                                    perl-interpreter-4:5.26.0-395.fc27.x86_64
+└─perl-libs(x86-64) = 4:5.26.0-395.fc27           perl-libs-4:5.26.0-395.fc27.x86_64
+perl-PathTools-3.67-393.fc27.x86_64               
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                      perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(constant)                                  perl-constant-1.33-394.fc27.noarch
 ├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
-├─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(threads) >= 1.73                           perl-threads-1:2.16-4.fc27.x86_64
-perl-Socket-4:2.024-5.fc27.x86_64                 
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
-└─perl(warnings::register)                        perl-interpreter-4:5.26.0-398.fc27.x86_64
-make-1:4.2.1-4.fc27.x86_64                        
-├─libgc.so.1()(64bit)                             gc-7.6.0-7.fc27.x86_64
-├─libguile-2.0.so.22()(64bit)                     guile-5:2.0.14-3.fc27.x86_64
-└─libguile-2.0.so.22(GUILE_2.0)(64bit)            guile-5:2.0.14-3.fc27.x86_64
-gc-7.6.0-7.fc27.x86_64                            
-guile-5:2.0.14-3.fc27.x86_64                      
-├─libunistring.so.2()(64bit)                      libunistring-0.9.7-3.fc27.x86_64
-├─libgc.so.1()(64bit)                             gc-7.6.0-7.fc27.x86_64
-└─libltdl.so.7()(64bit)                           libtool-ltdl-2.4.6-20.fc27.x86_64
-libtool-ltdl-2.4.6-20.fc27.x86_64                 
-libcurl-minimal-7.55.0-1.fc27.x86_64              
-├─libnghttp2.so.14()(64bit)                       libnghttp2-1.24.0-4.fc27.x86_64
-curl-minimal-7.55.0-1.fc27.x86_64                 
-├─libcurl.so.4()(64bit)                           libcurl-minimal-7.55.0-1.fc27.x86_64
-└─libcurl(x86-64) >= 7.55.0-1.fc27                libcurl-minimal-7.55.0-1.fc27.x86_64
-libnghttp2-1.24.0-4.fc27.x86_64                   
+└─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+perl-Socket-4:2.024-3.fc27.x86_64                 
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(warnings::register)                        perl-interpreter-4:5.26.0-395.fc27.x86_64
+perl-File-Path-2.14-1.fc27.noarch                 
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                      perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(File::Spec)                                perl-PathTools-3.67-393.fc27.x86_64
+├─perl(File::Basename)                            perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(Cwd)                                       perl-PathTools-3.67-393.fc27.x86_64
+└─perl(:VERSION) >= 5.5.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+perl-Text-Tabs+Wrap-2013.0523-393.fc27.noarch     
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─perl(vars)                                      perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(warnings::register)                        perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(re)                                        perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(:VERSION) >= 5.10.0                        perl-libs-4:5.26.0-395.fc27.x86_64
+perl-Unicode-Normalize-1.25-393.fc27.x86_64       
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-394.fc27.noarch
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(DynaLoader)                                perl-interpreter-4:5.26.0-395.fc27.x86_64
+└─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+perl-macros-4:5.26.0-395.fc27.x86_64              
+└─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+perl-parent-1:0.236-393.fc27.noarch               
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(vars)                                      perl-interpreter-4:5.26.0-395.fc27.x86_64
+perl-threads-1:2.16-2.fc27.x86_64                 
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(overload)                                  perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(Config)                                    perl-interpreter-4:5.26.0-395.fc27.x86_64
+├─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+perl-threads-shared-1.57-2.fc27.x86_64            
+├─perl(strict)                                    perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(Carp)                                      perl-Carp-1.42-393.fc27.noarch
+├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(XSLoader)                                  perl-libs-4:5.26.0-395.fc27.x86_64
+├─perl(:VERSION) >= 5.8.0                         perl-libs-4:5.26.0-395.fc27.x86_64
+└─perl(threads) >= 1.73                           perl-threads-1:2.16-2.fc27.x86_64
+libproxy-0.4.15-2.fc27.x86_64                     
+└─libmodman.so.1()(64bit)                         libmodman-2.0.1-14.fc27.x86_64
+libmodman-2.0.1-14.fc27.x86_64                    
+├─curl                                            curl-minimal-7.54.1-2.fc27.x86_64
+libcurl-minimal-7.54.1-2.fc27.x86_64              
+curl-minimal-7.54.1-2.fc27.x86_64                 
+├─libcurl.so.4()(64bit)                           libcurl-minimal-7.54.1-2.fc27.x86_64
+└─libcurl(x86-64) >= 7.54.1-2.fc27                libcurl-minimal-7.54.1-2.fc27.x86_64

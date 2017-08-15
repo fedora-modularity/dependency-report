@@ -1,24 +1,6 @@
 strict digraph G {
 node [fontname=monospace];
   "automake" -> "autoconf";
-  "cpp" -> "libmpc";
-  "gcc" -> "binutils";
-  "gcc" -> "cpp";
-  "gcc" -> "isl";
-  "gcc" -> "libasan";
-  "gcc" -> "libatomic";
-  "gcc" -> "libcilkrts";
-  "gcc" -> "libgcc";
-  "gcc" -> "libgomp";
-  "gcc" -> "libmpc";
-  "gcc" -> "libmpx";
-  "gcc" -> "libubsan";
-  "libasan" -> "libgcc";
-  "libcilkrts" -> "libgcc";
   "libtool" -> "autoconf";
   "libtool" -> "automake";
-  "libtool" -> "gcc";
-  "libtool" -> "tar";
-  "libubsan" -> "libgcc";
-  "tar" -> "libgcc";
 }

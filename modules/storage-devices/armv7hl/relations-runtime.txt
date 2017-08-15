@@ -1,15 +1,24 @@
+bcache-tools-1.0.8-8.fc26.armv7hl                         
+mdadm-4.0-3.fc27.armv7hl                                  
+dmraid-1.0.0.rc16-31.fc26.armv7hl                         
+├─libdevmapper-event.so.1.02                              device-mapper-event-libs-1.02.141-1.fc27.armv7hl
+├─libdevmapper-event.so.1.02(Base)                        device-mapper-event-libs-1.02.141-1.fc27.armv7hl
+├─dmraid-events                                           dmraid-events-1.0.0.rc16-31.fc26.armv7hl
+device-mapper-event-libs-1.02.141-1.fc27.armv7hl          
+dmraid-events-1.0.0.rc16-31.fc26.armv7hl                  
+├─libdevmapper-event.so.1.02                              device-mapper-event-libs-1.02.141-1.fc27.armv7hl
+├─device-mapper-event                                     device-mapper-event-1.02.141-1.fc27.armv7hl
+├─libdmraid.so.1                                          dmraid-1.0.0.rc16-31.fc26.armv7hl
+├─libdmraid.so.1(Base)                                    dmraid-1.0.0.rc16-31.fc26.armv7hl
+└─dmraid = 1.0.0.rc16-31.fc26                             dmraid-1.0.0.rc16-31.fc26.armv7hl
+device-mapper-event-1.02.141-1.fc27.armv7hl               
+├─libdevmapper-event.so.1.02                              device-mapper-event-libs-1.02.141-1.fc27.armv7hl
+├─libdevmapper-event.so.1.02(Base)                        device-mapper-event-libs-1.02.141-1.fc27.armv7hl
+└─device-mapper-event-libs = 1.02.141-1.fc27              device-mapper-event-libs-1.02.141-1.fc27.armv7hl
 ceph-1:10.2.7-2.fc27.armv7hl                              
 ├─ceph-mds = 1:10.2.7-2.fc27                              ceph-mds-1:10.2.7-2.fc27.armv7hl
 ├─ceph-mon = 1:10.2.7-2.fc27                              ceph-mon-1:10.2.7-2.fc27.armv7hl
 └─ceph-osd = 1:10.2.7-2.fc27                              ceph-osd-1:10.2.7-2.fc27.armv7hl
-mdadm-4.0-3.fc27.armv7hl                                  
-dmraid-1.0.0.rc16-31.fc26.armv7hl                         
-├─libdevmapper-event.so.1.02                              device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-├─libdevmapper-event.so.1.02(Base)                        device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-├─dmraid-events                                           dmraid-events-1.0.0.rc16-31.fc26.armv7hl
-dosfstools-4.1-2.fc26.armv7hl                             
-bcache-tools-1.0.8-8.fc26.armv7hl                         
-├─python3                                                 python3-3.6.2-6.fc27.armv7hl
 ceph-mds-1:10.2.7-2.fc27.armv7hl                          
 ├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
 ├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.armv7hl
@@ -34,12 +43,6 @@ ceph-osd-1:10.2.7-2.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
 ├─libleveldb.so.1                                         leveldb-1.18-1.fc26.armv7hl
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.armv7hl
-dmraid-events-1.0.0.rc16-31.fc26.armv7hl                  
-├─libdevmapper-event.so.1.02                              device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-├─device-mapper-event                                     device-mapper-event-1.02.142-4.fc27.armv7hl
-├─libdmraid.so.1                                          dmraid-1.0.0.rc16-31.fc26.armv7hl
-├─libdmraid.so.1(Base)                                    dmraid-1.0.0.rc16-31.fc26.armv7hl
-└─dmraid = 1.0.0.rc16-31.fc26                             dmraid-1.0.0.rc16-31.fc26.armv7hl
 boost-iostreams-1.63.0-9.fc27.armv7hl                     
 boost-system-1.63.0-9.fc27.armv7hl                        
 boost-thread-1.63.0-9.fc27.armv7hl                        
@@ -48,13 +51,11 @@ boost-thread-1.63.0-9.fc27.armv7hl
 ceph-base-1:10.2.7-2.fc27.armv7hl                         
 ├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
 ├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.armv7hl
-├─python-setuptools                                       python2-setuptools-36.2.0-3.fc27.noarch
 ├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
 ├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
-├─which                                                   which-2.21-4.fc27.armv7hl
-├─cryptsetup                                              cryptsetup-1.7.5-3.fc27.armv7hl
-├─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
+├─which                                                   which-2.21-2.fc26.armv7hl
+├─cryptsetup                                              cryptsetup-1.7.5-1.fc27.armv7hl
 ├─libcephfs.so.1                                          libcephfs1-1:10.2.7-2.fc27.armv7hl
 ├─hdparm                                                  hdparm-9.51-1.fc27.armv7hl
 ├─redhat-lsb-core                                         redhat-lsb-core-4.1-34.fc26.armv7hl
@@ -70,8 +71,6 @@ gperftools-libs-2.6.1-1.fc27.armv7hl
 boost-random-1.63.0-9.fc27.armv7hl                        
 └─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
 leveldb-1.18-1.fc26.armv7hl                               
-├─python2-setuptools                                      python2-setuptools-36.2.0-3.fc27.noarch
-├─python2-pip                                             python2-pip-9.0.1-11.fc27.noarch
 python2-flask-1:0.11.1-5.fc26.noarch                      
 ├─python-jinja2                                           python2-jinja2-2.9.6-1.fc27.noarch
 ├─python-click                                            python2-click-6.7-3.fc26.noarch
@@ -88,8 +87,6 @@ ceph-common-1:10.2.7-2.fc27.armv7hl
 ├─libtcmalloc.so.4                                        gperftools-libs-2.6.1-1.fc27.armv7hl
 ├─librados.so.2                                           librados2-1:10.2.7-2.fc27.armv7hl
 ├─librbd.so.1                                             librbd1-1:10.2.7-2.fc27.armv7hl
-├─libbabeltrace-ctf.so.1                                  libbabeltrace-1.5.3-1.fc27.armv7hl
-├─libbabeltrace.so.1                                      libbabeltrace-1.5.3-1.fc27.armv7hl
 ├─libradosstriper.so.1                                    libradosstriper1-1:10.2.7-2.fc27.armv7hl
 ├─librgw.so.2                                             librgw2-1:10.2.7-2.fc27.armv7hl
 ├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.armv7hl
@@ -99,21 +96,20 @@ ceph-common-1:10.2.7-2.fc27.armv7hl
 ├─python-cephfs = 1:10.2.7-2.fc27                         python-cephfs-1:10.2.7-2.fc27.armv7hl
 └─python-rbd = 1:10.2.7-2.fc27                            python-rbd-1:10.2.7-2.fc27.armv7hl
 ceph-selinux-1:10.2.7-2.fc27.armv7hl                      
-├─libselinux-utils                                        libselinux-utils-2.7-1.fc27.armv7hl
+├─libselinux-utils                                        libselinux-utils-2.6-6.fc27.armv7hl
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.armv7hl
+cryptsetup-1.7.5-1.fc27.armv7hl                           
 hdparm-9.51-1.fc27.armv7hl                                
 libcephfs1-1:10.2.7-2.fc27.armv7hl                        
 ├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
 ├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.armv7hl
 ├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
-└─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
 librados2-1:10.2.7-2.fc27.armv7hl                         
 ├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
 ├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.armv7hl
 ├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
-├─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
 └─liblttng-ust.so.0                                       lttng-ust-2.9.1-2.fc27.armv7hl
 librbd1-1:10.2.7-2.fc27.armv7hl                           
 ├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
@@ -121,17 +117,15 @@ librbd1-1:10.2.7-2.fc27.armv7hl
 ├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
 ├─librados.so.2                                           librados2-1:10.2.7-2.fc27.armv7hl
-├─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
 ├─liblttng-ust.so.0                                       lttng-ust-2.9.1-2.fc27.armv7hl
 └─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.armv7hl
 librgw2-1:10.2.7-2.fc27.armv7hl                           
-├─libcurl.so.4                                            libcurl-minimal-7.55.0-1.fc27.armv7hl
+├─libcurl.so.4                                            libcurl-minimal-7.54.1-2.fc27.armv7hl
 ├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.armv7hl
 ├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.armv7hl
 ├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
 ├─librados.so.2                                           librados2-1:10.2.7-2.fc27.armv7hl
-├─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
 ├─libfcgi.so.0                                            fcgi-2.4.0-30.fc26.armv7hl
 └─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.armv7hl
 lttng-ust-2.9.1-2.fc27.armv7hl                            
@@ -141,40 +135,29 @@ python2-requests-2.18.1-2.fc27.noarch
 ├─python2-urllib3                                         python2-urllib3-1.21.1-1.fc27.noarch
 redhat-lsb-core-4.1-34.fc26.armv7hl                       
 ├─/usr/sbin/sendmail                                      sendmail-8.15.2-15.fc27.armv7hl
-├─/usr/bin/make                                           make-1:4.2.1-4.fc27.armv7hl
 ├─/usr/bin/crontab                                        cronie-1.5.1-6.fc27.armv7hl
 ├─/usr/bin/man                                            man-db-2.7.6.1-2.fc26.armv7hl
 ├─/usr/bin/time                                           time-1.7-52.fc26.armv7hl
 ├─spax                                                    spax-1.5.3-8.fc26.armv7hl
-├─/bin/tar                                                tar-2:1.29-7.fc27.armv7hl
 ├─/usr/bin/bc                                             bc-1.07.1-1.fc27.armv7hl
-├─/usr/bin/diff                                           diffutils-3.6-3.fc27.armv7hl
 ├─/usr/bin/lp                                             cups-client-1:2.2.4-1.fc27.armv7hl
 ├─/usr/bin/lpr                                            cups-client-1:2.2.4-1.fc27.armv7hl
-├─/usr/bin/patch                                          patch-2.7.5-6.fc27.armv7hl
-├─/usr/bin/strip                                          binutils-2.29-6.fc27.armv7hl
-├─ncurses-compat-libs(armv7hl-32)                         ncurses-compat-libs-6.0-13.20170722.fc27.armv7hl
+├─ncurses-compat-libs(armv7hl-32)                         ncurses-compat-libs-6.0-10.20170520.fc27.armv7hl
 ├─/bin/ed                                                 ed-1.14.1-2.fc26.armv7hl
 ├─/bin/mailx                                              mailx-12.5-20.fc26.armv7hl
-├─/usr/bin/ar                                             binutils-2.29-6.fc27.armv7hl
 ├─/usr/bin/at                                             at-3.1.20-4.fc27.armv7hl
 ├─/usr/bin/batch                                          at-3.1.20-4.fc27.armv7hl
-├─/usr/bin/chfn                                           util-linux-user-2.30.1-1.fc27.armv7hl
-├─/usr/bin/chsh                                           util-linux-user-2.30.1-1.fc27.armv7hl
-├─/usr/bin/cmp                                            diffutils-3.6-3.fc27.armv7hl
-├─/usr/bin/file                                           file-5.31-7.fc27.armv7hl
+├─/usr/bin/chfn                                           util-linux-user-2.30-1.fc27.armv7hl
+├─/usr/bin/chsh                                           util-linux-user-2.30-1.fc27.armv7hl
 ├─/usr/bin/gettext                                        gettext-0.19.8.1-9.fc27.armv7hl
 ├─/usr/bin/msgfmt                                         gettext-0.19.8.1-9.fc27.armv7hl
-├─/usr/bin/strings                                        binutils-2.29-6.fc27.armv7hl
 └─redhat-lsb-submod-security(armv7hl-32) = 4.1-34.fc26    redhat-lsb-submod-security-4.1-34.fc26.armv7hl
+which-2.21-2.fc26.armv7hl                                 
 libunwind-1.2-1.fc27.armv7hl                              
-├─libgdbm.so.4                                            gdbm-1.13-3.fc27.armv7hl
-├─libgdbm_compat.so.4                                     gdbm-1.13-3.fc27.armv7hl
 python-werkzeug-0.11.10-5.fc26.noarch                     
 python2-click-6.7-3.fc26.noarch                           
 python2-itsdangerous-0.24-10.fc27.noarch                  
 python2-jinja2-2.9.6-1.fc27.noarch                        
-├─python2-setuptools                                      python2-setuptools-36.2.0-3.fc27.noarch
 ├─python-markupsafe                                       python2-markupsafe-0.23-13.fc26.armv7hl
 └─python2-babel >= 0.8                                    python2-babel-2.3.4-5.fc26.noarch
 boost-regex-1.63.0-9.fc27.armv7hl                         
@@ -187,7 +170,6 @@ libradosstriper1-1:10.2.7-2.fc27.armv7hl
 ├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.armv7hl
 ├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.armv7hl
 ├─librados.so.2                                           librados2-1:10.2.7-2.fc27.armv7hl
-├─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
 └─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.armv7hl
 python-cephfs-1:10.2.7-2.fc27.armv7hl                     
 ├─libcephfs.so.1                                          libcephfs1-1:10.2.7-2.fc27.armv7hl
@@ -200,10 +182,9 @@ python-rbd-1:10.2.7-2.fc27.armv7hl
 ├─librbd.so.1                                             librbd1-1:10.2.7-2.fc27.armv7hl
 ├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.armv7hl
 └─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.armv7hl
+libselinux-utils-2.6-6.fc27.armv7hl                       
 policycoreutils-2.6-5.fc27.armv7hl                        
-├─rpm                                                     rpm-4.13.0.1-41.fc27.armv7hl
-├─diffutils                                               diffutils-3.6-3.fc27.armv7hl
-├─libselinux-utils >= 2.6-5                               libselinux-utils-2.7-1.fc27.armv7hl
+├─libselinux-utils >= 2.6-5                               libselinux-utils-2.6-6.fc27.armv7hl
 fcgi-2.4.0-30.fc26.armv7hl                                
 python-chardet-3.0.4-1.fc27.noarch                        
 python2-idna-2.5-1.fc27.noarch                            
@@ -220,39 +201,34 @@ bc-1.07.1-1.fc27.armv7hl
 cronie-1.5.1-6.fc27.armv7hl                               
 ├─dailyjobs                                               cronie-noanacron-1.5.1-6.fc27.armv7hl
 cups-client-1:2.2.4-1.fc27.armv7hl                        
-├─libgnutls.so.30                                         gnutls-3.5.14-3.fc27.armv7hl
 ├─libavahi-common.so.3                                    avahi-libs-0.7-1.fc27.armv7hl
 ├─libavahi-client.so.3                                    avahi-libs-0.7-1.fc27.armv7hl
 ├─libcups.so.2                                            cups-libs-1:2.2.4-1.fc27.armv7hl
 └─cups-libs(armv7hl-32) = 1:2.2.4-1.fc27                  cups-libs-1:2.2.4-1.fc27.armv7hl
 ed-1.14.1-2.fc26.armv7hl                                  
 gettext-0.19.8.1-9.fc27.armv7hl                           
-├─libgomp.so.1                                            libgomp-7.1.1-7.fc27.1.armv7hl
-├─libgomp.so.1(GOMP_4.0)                                  libgomp-7.1.1-7.fc27.1.armv7hl
-├─libgomp.so.1(GOMP_1.0)                                  libgomp-7.1.1-7.fc27.1.armv7hl
-├─libunistring.so.2                                       libunistring-0.9.7-3.fc27.armv7hl
 ├─libcroco-0.6.so.3                                       libcroco-0.6.12-1.fc27.armv7hl
 ├─libgettextlib-0.19.8.1.so                               gettext-libs-0.19.8.1-9.fc27.armv7hl
 ├─libgettextsrc-0.19.8.1.so                               gettext-libs-0.19.8.1-9.fc27.armv7hl
 └─gettext-libs(armv7hl-32) = 0.19.8.1-9.fc27              gettext-libs-0.19.8.1-9.fc27.armv7hl
 mailx-12.5-20.fc26.armv7hl                                
 man-db-2.7.6.1-2.fc26.armv7hl                             
-├─libgdbm.so.4                                            gdbm-1.13-3.fc27.armv7hl
 ├─less                                                    less-487-3.fc27.armv7hl
-├─groff-base                                              groff-base-1.22.3-11.fc27.armv7hl
+├─groff-base                                              groff-base-1.22.3-9.fc26.armv7hl
 └─libpipeline.so.1                                        libpipeline-1.4.2-1.fc27.armv7hl
+ncurses-compat-libs-6.0-10.20170520.fc27.armv7hl          
 redhat-lsb-submod-security-4.1-34.fc26.armv7hl            
 spax-1.5.3-8.fc26.armv7hl                                 
 time-1.7-52.fc26.armv7hl                                  
+util-linux-user-2.30-1.fc27.armv7hl                       
 python2-babel-2.3.4-5.fc26.noarch                         
-├─python-setuptools                                       python2-setuptools-36.2.0-3.fc27.noarch
 ├─pytz                                                    pytz-2017.2-1.fc27.noarch
 python2-markupsafe-0.23-13.fc26.armv7hl                   
+libicu-57.1-4.fc26.armv7hl                                
 python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch 
 ├─python-backports                                        python-backports-1.0-9.fc26.armv7hl
 python-ipaddress-1.0.18-1.fc27.noarch                     
 python2-cryptography-1.9-1.fc27.armv7hl                   
-├─openssl                                                 openssl-1:1.1.0f-9.fc27.armv7hl
 ├─python-enum34                                           python-enum34-1.1.6-1.fc27.noarch
 ├─python-ipaddress                                        python-ipaddress-1.0.18-1.fc27.noarch
 ├─python-cffi >= 1.7                                      python2-cffi-1.10.0-1.fc27.armv7hl
@@ -265,15 +241,12 @@ python2-pysocks-1.5.7-4.fc26.noarch
 python2-six-1.10.0-9.fc27.noarch                          
 avahi-libs-0.7-1.fc27.armv7hl                             
 cups-libs-1:2.2.4-1.fc27.armv7hl                          
-├─libgnutls.so.30                                         gnutls-3.5.14-3.fc27.armv7hl
-├─libgnutls.so.30(GNUTLS_3_4)                             gnutls-3.5.14-3.fc27.armv7hl
 ├─libavahi-common.so.3                                    avahi-libs-0.7-1.fc27.armv7hl
 └─libavahi-client.so.3                                    avahi-libs-0.7-1.fc27.armv7hl
 gettext-libs-0.19.8.1-9.fc27.armv7hl                      
-├─libgomp.so.1                                            libgomp-7.1.1-7.fc27.1.armv7hl
-├─libunistring.so.2                                       libunistring-0.9.7-3.fc27.armv7hl
 ├─libcroco-0.6.so.3                                       libcroco-0.6.12-1.fc27.armv7hl
 libcroco-0.6.12-1.fc27.armv7hl                            
+groff-base-1.22.3-9.fc26.armv7hl                          
 less-487-3.fc27.armv7hl                                   
 libpipeline-1.4.2-1.fc27.armv7hl                          
 pytz-2017.2-1.fc27.noarch                                 
@@ -285,146 +258,43 @@ python2-cffi-1.10.0-1.fc27.armv7hl
 python2-pycparser-2.14-10.fc26.noarch                     
 └─python-ply >= 3.6                                       python2-ply-3.9-3.fc27.noarch
 python2-ply-3.9-3.fc27.noarch                             
-util-linux-user-2.30.1-1.fc27.armv7hl                     
-libselinux-utils-2.7-1.fc27.armv7hl                       
-cryptsetup-1.7.5-3.fc27.armv7hl                           
-binutils-2.29-6.fc27.armv7hl                              
-diffutils-3.6-3.fc27.armv7hl                              
-file-5.31-7.fc27.armv7hl                                  
-├─libmagic.so.1                                           file-libs-5.31-7.fc27.armv7hl
-└─file-libs = 5.31-7.fc27                                 file-libs-5.31-7.fc27.armv7hl
-file-libs-5.31-7.fc27.armv7hl                             
-make-1:4.2.1-4.fc27.armv7hl                               
-├─libgc.so.1                                              gc-7.6.0-7.fc27.armv7hl
-├─libguile-2.0.so.22                                      guile-5:2.0.14-3.fc27.armv7hl
-└─libguile-2.0.so.22(GUILE_2.0)                           guile-5:2.0.14-3.fc27.armv7hl
-ncurses-compat-libs-6.0-13.20170722.fc27.armv7hl          
-patch-2.7.5-6.fc27.armv7hl                                
-tar-2:1.29-7.fc27.armv7hl                                 
-gdbm-1.13-3.fc27.armv7hl                                  
-openssl-1:1.1.0f-9.fc27.armv7hl                           
-├─make                                                    make-1:4.2.1-4.fc27.armv7hl
-python2-setuptools-36.2.0-3.fc27.noarch                   
-python2-pip-9.0.1-11.fc27.noarch                          
-├─python-setuptools                                       python2-setuptools-36.2.0-3.fc27.noarch
-rpm-4.13.0.1-41.fc27.armv7hl                              
-├─liblua-5.3.so                                           lua-libs-5.3.4-5.fc27.armv7hl
-├─librpm.so.7                                             rpm-libs-4.13.0.1-41.fc27.armv7hl
-├─librpmio.so.7                                           rpm-libs-4.13.0.1-41.fc27.armv7hl
-├─curl                                                    curl-minimal-7.55.0-1.fc27.armv7hl
-├─libarchive.so.13                                        libarchive-3.3.1-3.fc27.armv7hl
-├─/usr/bin/db_stat                                        libdb-utils-5.3.28-26.fc27.armv7hl
-libdb-utils-5.3.28-26.fc27.armv7hl                        
-rpm-libs-4.13.0.1-41.fc27.armv7hl                         
-├─liblua-5.3.so                                           lua-libs-5.3.4-5.fc27.armv7hl
-├─rpm = 4.13.0.1-41.fc27                                  rpm-4.13.0.1-41.fc27.armv7hl
-├─rpm-plugin-selinux(armv7hl-32) = 4.13.0.1-41.fc27       rpm-plugin-selinux-4.13.0.1-41.fc27.armv7hl
-rpm-plugin-selinux-4.13.0.1-41.fc27.armv7hl               
-├─liblua-5.3.so                                           lua-libs-5.3.4-5.fc27.armv7hl
-├─librpm.so.7                                             rpm-libs-4.13.0.1-41.fc27.armv7hl
-├─librpmio.so.7                                           rpm-libs-4.13.0.1-41.fc27.armv7hl
-└─rpm-libs(armv7hl-32) = 4.13.0.1-41.fc27                 rpm-libs-4.13.0.1-41.fc27.armv7hl
-device-mapper-event-1.02.142-4.fc27.armv7hl               
-├─libdevmapper-event.so.1.02                              device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-├─libdevmapper-event.so.1.02(Base)                        device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-└─device-mapper-event-libs = 1.02.142-4.fc27              device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-device-mapper-event-libs-1.02.142-4.fc27.armv7hl          
-groff-base-1.22.3-11.fc27.armv7hl                         
-libatomic_ops-7.4.6-3.fc27.armv7hl                        
-libgomp-7.1.1-7.fc27.1.armv7hl                            
-libunistring-0.9.7-3.fc27.armv7hl                         
-gnutls-3.5.14-3.fc27.armv7hl                              
-├─libunistring.so.2                                       libunistring-0.9.7-3.fc27.armv7hl
-├─libidn2.so.0                                            libidn2-2.0.3-1.fc27.armv7hl
-├─libhogweed.so.4                                         nettle-3.3-5.fc27.armv7hl
-├─libidn2.so.0(IDN2_0.0.0)                                libidn2-2.0.3-1.fc27.armv7hl
-├─libnettle.so.6                                          nettle-3.3-5.fc27.armv7hl
-├─libhogweed.so.4(HOGWEED_4)                              nettle-3.3-5.fc27.armv7hl
-├─libnettle.so.6(NETTLE_6)                                nettle-3.3-5.fc27.armv7hl
-libbabeltrace-1.5.3-1.fc27.armv7hl                        
-which-2.21-4.fc27.armv7hl                                 
-libicu-57.1-4.fc26.armv7hl                                
-python3-3.6.2-6.fc27.armv7hl                              
-├─libpython3.6m.so.1.0                                    system-python-libs-3.6.2-6.fc27.armv7hl
-├─python3-setuptools                                      python3-setuptools-36.2.0-3.fc27.noarch
-├─python3-pip                                             python3-pip-9.0.1-11.fc27.noarch
-└─python3-libs(armv7hl-32) = 3.6.2-6.fc27                 python3-libs-3.6.2-6.fc27.armv7hl
-python3-libs-3.6.2-6.fc27.armv7hl                         
-├─system-python-libs(armv7hl-32) = 3.6.2-6.fc27           system-python-libs-3.6.2-6.fc27.armv7hl
-system-python-libs-3.6.2-6.fc27.armv7hl                   
-├─libgdbm.so.4                                            gdbm-1.13-3.fc27.armv7hl
-├─libgdbm_compat.so.4                                     gdbm-1.13-3.fc27.armv7hl
-lua-libs-5.3.4-5.fc27.armv7hl                             
-libarchive-3.3.1-3.fc27.armv7hl                           
-python3-pip-9.0.1-11.fc27.noarch                          
-├─/usr/bin/python3                                        python3-3.6.2-6.fc27.armv7hl
-├─python3-setuptools                                      python3-setuptools-36.2.0-3.fc27.noarch
-└─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
-python3-setuptools-36.2.0-3.fc27.noarch                   
-├─/usr/bin/python3                                        python3-3.6.2-6.fc27.armv7hl
-└─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
-gc-7.6.0-7.fc27.armv7hl                                   
-└─libatomic_ops.so.1                                      libatomic_ops-7.4.6-3.fc27.armv7hl
-guile-5:2.0.14-3.fc27.armv7hl                             
-├─libunistring.so.2                                       libunistring-0.9.7-3.fc27.armv7hl
-├─libgc.so.1                                              gc-7.6.0-7.fc27.armv7hl
-└─libltdl.so.7                                            libtool-ltdl-2.4.6-20.fc27.armv7hl
-libtool-ltdl-2.4.6-20.fc27.armv7hl                        
-libidn2-2.0.3-1.fc27.armv7hl                              
-└─libunistring.so.2                                       libunistring-0.9.7-3.fc27.armv7hl
-nettle-3.3-5.fc27.armv7hl                                 
+dosfstools-4.1-2.fc26.armv7hl                             
+├─curl                                                    curl-minimal-7.54.1-2.fc27.armv7hl
 sendmail-8.15.2-15.fc27.armv7hl                           
-├─libwrap.so.0                                            tcp_wrappers-libs-7.6-87.fc27.armv7hl
 ├─procmail                                                procmail-3.22-41.fc27.armv7hl
 ├─libhesiod.so.0                                          hesiod-3.2.1-7.fc26.armv7hl
-├─/usr/sbin/saslauthd                                     cyrus-sasl-2.1.26-34.fc27.armv7hl
-cyrus-sasl-2.1.26-34.fc27.armv7hl                         
+├─/usr/sbin/saslauthd                                     cyrus-sasl-2.1.26-32.fc27.armv7hl
+cyrus-sasl-2.1.26-32.fc27.armv7hl                         
 hesiod-3.2.1-7.fc26.armv7hl                               
 procmail-3.22-41.fc27.armv7hl                             
-libcurl-minimal-7.55.0-1.fc27.armv7hl                     
-├─libnghttp2.so.14                                        libnghttp2-1.24.0-4.fc27.armv7hl
+libcurl-minimal-7.54.1-2.fc27.armv7hl                     
 cronie-noanacron-1.5.1-6.fc27.armv7hl                     
 ├─crontabs                                                crontabs-1.11-14.20150630git.fc26.noarch
 └─cronie = 1.5.1-6.fc27                                   cronie-1.5.1-6.fc27.armv7hl
 crontabs-1.11-14.20150630git.fc26.noarch                  
 selinux-policy-minimum-3.13.1-264.fc27.noarch             
 policycoreutils-python-utils-2.6-5.fc27.armv7hl           
-├─/usr/bin/python3                                        python3-3.6.2-6.fc27.armv7hl
 └─policycoreutils-python3 = 2.6-5.fc27                    policycoreutils-python3-2.6-5.fc27.armv7hl
 selinux-policy-3.13.1-264.fc27.noarch                     
 policycoreutils-python3-2.6-5.fc27.armv7hl                
-├─/usr/bin/python3                                        python3-3.6.2-6.fc27.armv7hl
-├─libselinux-python3                                      libselinux-python3-2.7-1.fc27.armv7hl
+├─libselinux-python3                                      libselinux-python3-2.6-6.fc27.armv7hl
 ├─libcgroup                                               libcgroup-0.41-11.fc26.armv7hl
 ├─setools-python3                                         setools-python3-4.1.0-3.fc27.armv7hl
 ├─checkpolicy                                             checkpolicy-2.6-1.fc26.armv7hl
 ├─python-IPy-python3                                      python3-IPy-0.81-19.fc27.noarch
-├─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
 ├─policycoreutils = 2.6-5.fc27                            policycoreutils-2.6-5.fc27.armv7hl
-├─audit-libs-python3 >= 2.1.3-4                           audit-libs-python3-2.7.7-5.fc27.armv7hl
-└─libsemanage-python3 >= 2.6-0                            libsemanage-python3-2.7-1.fc27.armv7hl
-audit-libs-python3-2.7.7-5.fc27.armv7hl                   
-├─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
-└─audit(armv7hl-32) = 2.7.7-5.fc27                        audit-2.7.7-5.fc27.armv7hl
+├─audit-libs-python3 >= 2.1.3-4                           audit-libs-python3-2.7.7-3.fc27.armv7hl
+└─libsemanage-python3 >= 2.6-0                            libsemanage-python3-2.6-4.fc27.armv7hl
+audit-libs-python3-2.7.7-3.fc27.armv7hl                   
+└─audit(armv7hl-32) = 2.7.7-3.fc27                        audit-2.7.7-3.fc27.armv7hl
 checkpolicy-2.6-1.fc26.armv7hl                            
 libcgroup-0.41-11.fc26.armv7hl                            
-libselinux-python3-2.7-1.fc27.armv7hl                     
-├─libpython3.6m.so.1.0                                    system-python-libs-3.6.2-6.fc27.armv7hl
-├─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
-libsemanage-python3-2.7-1.fc27.armv7hl                    
-├─libpython3.6m.so.1.0                                    system-python-libs-3.6.2-6.fc27.armv7hl
-├─/usr/bin/python3                                        python3-3.6.2-6.fc27.armv7hl
-├─libselinux-python3                                      libselinux-python3-2.7-1.fc27.armv7hl
-├─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
+libselinux-python3-2.6-6.fc27.armv7hl                     
+libsemanage-python3-2.6-4.fc27.armv7hl                    
+├─libselinux-python3                                      libselinux-python3-2.6-6.fc27.armv7hl
 python3-IPy-0.81-19.fc27.noarch                           
-└─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
 setools-python3-4.1.0-3.fc27.armv7hl                      
-├─libpython3.6m.so.1.0                                    system-python-libs-3.6.2-6.fc27.armv7hl
-└─python(abi) = 3.6                                       python3-3.6.2-6.fc27.armv7hl
-audit-2.7.7-5.fc27.armv7hl                                
-├─libwrap.so.0                                            tcp_wrappers-libs-7.6-87.fc27.armv7hl
-curl-minimal-7.55.0-1.fc27.armv7hl                        
-├─libcurl.so.4                                            libcurl-minimal-7.55.0-1.fc27.armv7hl
-└─libcurl(armv7hl-32) >= 7.55.0-1.fc27                    libcurl-minimal-7.55.0-1.fc27.armv7hl
-libnghttp2-1.24.0-4.fc27.armv7hl                          
-tcp_wrappers-libs-7.6-87.fc27.armv7hl                     
+audit-2.7.7-3.fc27.armv7hl                                
+curl-minimal-7.54.1-2.fc27.armv7hl                        
+├─libcurl.so.4                                            libcurl-minimal-7.54.1-2.fc27.armv7hl
+└─libcurl(armv7hl-32) >= 7.54.1-2.fc27                    libcurl-minimal-7.54.1-2.fc27.armv7hl

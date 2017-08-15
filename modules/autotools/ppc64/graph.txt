@@ -1,14 +1,3 @@
   "automake" -> "autoconf";
-  "cpp" -> "libmpc";
-  "gcc" -> "binutils";
-  "gcc" -> "cpp";
-  "gcc" -> "isl";
-  "gcc" -> "libgcc";
-  "gcc" -> "libgomp";
-  "gcc" -> "libmpc";
-  "libmpc" -> "libgcc";
   "libtool" -> "autoconf";
   "libtool" -> "automake";
-  "libtool" -> "gcc";
-  "libtool" -> "tar";
-  "tar" -> "libgcc";
