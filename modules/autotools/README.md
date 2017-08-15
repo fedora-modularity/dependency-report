@@ -19,6 +19,6 @@ These are RPM dependencies of the [autotools top-level package set](autotools.cs
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
-| `autoconf` | X | X | X | X | X | X | X |
-| `automake` | X | X | X | X | X | X | X |
-| `libtool` | X | X | X | X | X | X | X |
+| `autoconf` | X | X | X | X | X | - | X |
+| `automake` | X | X | X | X | X | - | X |
+| `libtool` | X | X | X | X | X | - | X |

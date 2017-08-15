@@ -1,12 +1,3 @@
 strict digraph G {
 node [fontname=monospace];
-  "curl-minimal" -> "libcurl-minimal";
-  "json-c" -> "curl-minimal";
-  "systemtap-client" -> "avahi-libs";
-  "systemtap-client" -> "systemtap-runtime";
-  "systemtap-devel" -> "avahi-libs";
-  "systemtap-devel" -> "kernel-devel";
-  "systemtap-runtime" -> "json-c";
-  "systemtap" -> "systemtap-client";
-  "systemtap" -> "systemtap-devel";
 }

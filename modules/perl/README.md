@@ -21,6 +21,7 @@ These are RPM dependencies of the [perl top-level package set](perl.csv). They s
 | `gdbm-devel` | X | X | X | X | X | - | X |
 | `groff-base` | X | X | X | X | X | - | X |
 | `libdb-devel` | X | X | X | X | X | - | X |
+| `pcre2` | X | X | X | X | X | - | X |
 | `perl` | X | X | X | X | X | - | X |
 | `perl-Algorithm-Diff` | X | X | X | X | X | - | X |
 | `perl-Archive-Tar` | X | X | X | X | X | - | X |
@@ -66,7 +67,7 @@ These are RPM dependencies of the [perl top-level package set](perl.csv). They s
 | `perl-ExtUtils-Miniperl` | X | X | X | X | X | - | X |
 | `perl-ExtUtils-MM-Utils` | X | X | X | X | X | - | X |
 | `perl-ExtUtils-ParseXS` | X | X | X | X | X | - | X |
-| `perl-Fedora-VSP` | X | X | X | X | X | X | X |
+| `perl-Fedora-VSP` | X | X | X | X | X | - | X |
 | `perl-File-Fetch` | X | X | X | X | X | - | X |
 | `perl-File-HomeDir` | X | X | X | X | X | - | X |
 | `perl-File-Path` | X | X | X | - | - | - | X |
@@ -74,7 +75,7 @@ These are RPM dependencies of the [perl top-level package set](perl.csv). They s
 | `perl-File-Which` | X | X | X | X | X | - | X |
 | `perl-Filter` | X | X | X | X | X | - | X |
 | `perl-Filter-Simple` | X | X | X | X | X | - | X |
-| `perl-generators` | X | X | X | X | X | X | X |
+| `perl-generators` | X | X | X | X | X | - | X |
 | `perl-Getopt-Long` | X | X | X | X | X | - | X |
 | `perl-HTTP-Tiny` | X | X | X | X | X | - | X |
 | `perl-inc-latest` | X | X | X | X | X | - | X |

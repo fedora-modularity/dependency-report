@@ -1,6 +1,30 @@
 strict digraph G {
 node [fontname=monospace];
+  "autoconf" -> "emacs-filesystem";
   "automake" -> "autoconf";
+  "cpp" -> "libmpc";
+  "cpp" -> "mpfr";
+  "emacs-filesystem" -> "libgcc";
+  "gcc" -> "binutils";
+  "gcc" -> "cpp";
+  "gcc" -> "isl";
+  "gcc" -> "libasan";
+  "gcc" -> "libatomic";
+  "gcc" -> "libcilkrts";
+  "gcc" -> "libgcc";
+  "gcc" -> "libgomp";
+  "gcc" -> "libmpc";
+  "gcc" -> "libmpx";
+  "gcc" -> "libubsan";
+  "gcc" -> "mpfr";
+  "libasan" -> "libgcc";
+  "libcilkrts" -> "libgcc";
+  "libmpc" -> "mpfr";
   "libtool" -> "autoconf";
   "libtool" -> "automake";
+  "libtool" -> "findutils";
+  "libtool" -> "gcc";
+  "libtool" -> "tar";
+  "libubsan" -> "libgcc";
+  "tar" -> "libgcc";
 }

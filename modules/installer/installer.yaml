@@ -13,6 +13,7 @@ data:
         requires:
             platform: master
             networking-base: master
+            storage-devices: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/installer
@@ -25,12 +26,6 @@ data:
             augeas:
                 rationale: Generated.
                 ref: master.
-            bcache-tools:
-                rationale: Generated.
-                ref: master.
-            blktrace:
-                rationale: Generated.
-                ref: master.
             chrony:
                 rationale: Generated.
                 ref: master.
@@ -40,22 +35,25 @@ data:
             device-mapper-persistent-data:
                 rationale: Generated.
                 ref: master.
-            dmraid:
-                rationale: Generated.
-                ref: master.
-            dosfstools:
-                rationale: Generated.
-                ref: master.
             drpm:
                 rationale: Generated.
                 ref: master.
-            gdisk:
+            ethtool:
+                rationale: Generated.
+                ref: master.
+            fcoe-utils:
                 rationale: Generated.
                 ref: master.
             gnupg:
                 rationale: Generated.
                 ref: master.
-            hfsplus-tools:
+            hwdata:
+                rationale: Generated.
+                ref: master.
+            iscsi-initiator-utils:
+                rationale: Generated.
+                ref: master.
+            isns-utils:
                 rationale: Generated.
                 ref: master.
             isomd5sum:
@@ -79,58 +77,34 @@ data:
             libbytesize:
                 rationale: Generated.
                 ref: master.
+            libconfig:
+                rationale: Generated.
+                ref: master.
+            libpciaccess:
+                rationale: Generated.
+                ref: master.
             libtar:
                 rationale: Generated.
                 ref: master.
             libusb:
                 rationale: Generated.
                 ref: master.
-            libuser:
+            lldpad:
                 rationale: Generated.
                 ref: master.
             lsof:
                 rationale: Generated.
                 ref: master.
-            mdadm:
-                rationale: Generated.
-                ref: master.
-            parted:
-                rationale: Generated.
-                ref: master.
-            passwd:
-                rationale: Generated.
-                ref: master.
             pykickstart:
-                rationale: Generated.
-                ref: master.
-            pyOpenSSL:
                 rationale: Generated.
                 ref: master.
             pyparted:
                 rationale: Generated.
                 ref: master.
-            python2:
-                rationale: Generated.
-                ref: master.
-            python-asn1crypto:
-                rationale: Generated.
-                ref: master.
             python-blivet:
                 rationale: Generated.
                 ref: master.
-            python-cffi:
-                rationale: Generated.
-                ref: master.
-            python-chardet:
-                rationale: Generated.
-                ref: master.
             python-coverage:
-                rationale: Generated.
-                ref: master.
-            python-cryptography:
-                rationale: Generated.
-                ref: master.
-            python-idna:
                 rationale: Generated.
                 ref: master.
             python-meh:
@@ -145,19 +119,7 @@ data:
             python-pid:
                 rationale: Generated.
                 ref: master.
-            python-ply:
-                rationale: Generated.
-                ref: master.
-            python-pycparser:
-                rationale: Generated.
-                ref: master.
-            python-pysocks:
-                rationale: Generated.
-                ref: master.
             python-pyudev:
-                rationale: Generated.
-                ref: master.
-            python-requests:
                 rationale: Generated.
                 ref: master.
             python-requests-file:
@@ -166,22 +128,13 @@ data:
             python-requests-ftp:
                 rationale: Generated.
                 ref: master.
-            python-urllib3:
-                rationale: Generated.
-                ref: master.
             python-wrapt:
                 rationale: Generated.
                 ref: master.
-            pytz:
+            rsync:
                 rationale: Generated.
                 ref: master.
             satyr:
-                rationale: Generated.
-                ref: master.
-            sgpio:
-                rationale: Generated.
-                ref: master.
-            snappy:
                 rationale: Generated.
                 ref: master.
             usermode:
