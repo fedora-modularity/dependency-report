@@ -1,23 +1,5 @@
 INFO:depchase:DEPENDENCY INFORMATION                                                          
 INFO                                              MATCH
-teamd-1.27-1.fc27.aarch64                         
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                         bash-4.4.12-9.fc27.aarch64
-├─/bin/bash                                       bash-4.4.12-9.fc27.aarch64
-├─libdbus-1.so.3()(64bit)                         dbus-libs-1:1.11.16-4.fc27.aarch64
-├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)              dbus-libs-1:1.11.16-4.fc27.aarch64
-├─libnl-3.so.200()(64bit)                         libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
-├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.aarch64
-├─libnl-genl-3.so.200()(64bit)                    libnl3-3.3.0-1.fc27.aarch64
-├─libdaemon.so.0()(64bit)                         libdaemon-0.14-11.fc26.aarch64
-├─libnl-nf-3.so.200()(64bit)                      libnl3-3.3.0-1.fc27.aarch64
-├─libteam.so.5()(64bit)                           libteam-1.27-1.fc27.aarch64
-├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.aarch64
-└─libteam = 1.27-1.fc27                           libteam-1.27-1.fc27.aarch64
 NetworkManager-1:1.8.0-6.fc27.aarch64             
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -70,23 +52,6 @@ NetworkManager-1:1.8.0-6.fc27.aarch64
 ├─NetworkManager-libnm(aarch-64) = 1:1.8.0-6.fc27 NetworkManager-libnm-1:1.8.0-6.fc27.aarch64
 ├─dbus >= 1.9.18                                  dbus-1:1.11.16-4.fc27.aarch64
 └─glib2 >= 2.53.2                                 glib2-2.53.5-1.fc27.aarch64
-NetworkManager-team-1:1.8.0-6.fc27.aarch64        
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
-├─libgcc_s.so.1()(64bit)                          libgcc-7.1.1-7.fc27.1.aarch64
-├─libgcc_s.so.1(GCC_3.0)(64bit)                   libgcc-7.1.1-7.fc27.1.aarch64
-├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libglib-2.0.so.0()(64bit)                       glib2-2.53.5-1.fc27.aarch64
-├─libgobject-2.0.so.0()(64bit)                    glib2-2.53.5-1.fc27.aarch64
-├─libgio-2.0.so.0()(64bit)                        glib2-2.53.5-1.fc27.aarch64
-├─libgmodule-2.0.so.0()(64bit)                    glib2-2.53.5-1.fc27.aarch64
-├─libgcc_s.so.1(GCC_3.3.1)(64bit)                 libgcc-7.1.1-7.fc27.1.aarch64
-├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.aarch64
-├─libteamdctl.so.0()(64bit)                       teamd-1.27-1.fc27.aarch64
-└─NetworkManager(aarch-64) = 1:1.8.0-6.fc27       NetworkManager-1:1.8.0-6.fc27.aarch64
 libproxy-0.4.15-2.fc27.aarch64                    
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -108,54 +73,23 @@ libproxy-0.4.15-2.fc27.aarch64
 ├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)           libstdc++-7.1.1-7.fc27.1.aarch64
 ├─libstdc++.so.6(CXXABI_1.3.1)(64bit)             libstdc++-7.1.1-7.fc27.1.aarch64
 └─libmodman.so.1()(64bit)                         libmodman-2.0.1-14.fc27.aarch64
-net-snmp-agent-libs-1:5.7.3-16.fc27.aarch64       
+NetworkManager-team-1:1.8.0-6.fc27.aarch64        
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)              glibc-2.26-1.fc27.1.aarch64
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.aarch64
+├─libgcc_s.so.1()(64bit)                          libgcc-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                   libgcc-7.1.1-7.fc27.1.aarch64
 ├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2(GLIBC_2.17)(64bit)                   glibc-2.26-1.fc27.1.aarch64
-├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.aarch64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.aarch64
-├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.aarch64
-├─libresolv.so.2()(64bit)                         glibc-2.26-1.fc27.1.aarch64
-├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.aarch64
-├─librpm.so.7()(64bit)                            rpm-libs-4.13.0.1-41.fc27.aarch64
-├─libwrap.so.0()(64bit)                           tcp_wrappers-libs-7.6-87.fc27.aarch64
-├─librpmio.so.7()(64bit)                          rpm-libs-4.13.0.1-41.fc27.aarch64
-├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-16.fc27.aarch64
-├─libsensors.so.4()(64bit)                        lm_sensors-libs-3.4.0-6.fc26.aarch64
-└─net-snmp-libs(aarch-64) = 1:5.7.3-16.fc27       net-snmp-libs-1:5.7.3-16.fc27.aarch64
-net-snmp-libs-1:5.7.3-16.fc27.aarch64             
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.aarch64
-└─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.aarch64
-libteam-1.27-1.fc27.aarch64                       
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─libnl-3.so.200()(64bit)                         libnl3-3.3.0-1.fc27.aarch64
-├─libnl-3.so.200(libnl_3)(64bit)                  libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
-├─libnl-genl-3.so.200()(64bit)                    libnl3-3.3.0-1.fc27.aarch64
-├─libnl-genl-3.so.200(libnl_3)(64bit)             libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200(libnl_3)(64bit)            libnl3-3.3.0-1.fc27.aarch64
-├─libnl-nf-3.so.200()(64bit)                      libnl3-3.3.0-1.fc27.aarch64
-├─libnl-3.so.200(libnl_3_2_27)(64bit)             libnl3-3.3.0-1.fc27.aarch64
-├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.aarch64
-└─libnl-cli-3.so.200(libnl_3)(64bit)              libnl3-cli-3.3.0-1.fc27.aarch64
+├─libglib-2.0.so.0()(64bit)                       glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                    glib2-2.53.5-1.fc27.aarch64
+├─libgio-2.0.so.0()(64bit)                        glib2-2.53.5-1.fc27.aarch64
+├─libgmodule-2.0.so.0()(64bit)                    glib2-2.53.5-1.fc27.aarch64
+├─libgcc_s.so.1(GCC_3.3.1)(64bit)                 libgcc-7.1.1-7.fc27.1.aarch64
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.aarch64
+├─libteamdctl.so.0()(64bit)                       teamd-1.27-1.fc27.aarch64
+└─NetworkManager(aarch-64) = 1:1.8.0-6.fc27       NetworkManager-1:1.8.0-6.fc27.aarch64
 libndp-1.6-2.fc26.aarch64                         
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -183,21 +117,48 @@ realmd-0.16.3-5.fc27.aarch64
 ├─libkrb5.so.3(krb5_3_MIT)(64bit)                 krb5-libs-1.15.1-21.fc27.aarch64
 ├─libpolkit-gobject-1.so.0()(64bit)               polkit-libs-0.113-13.fc27.aarch64
 └─authconfig                                      authconfig-7.0.1-1.fc27.aarch64
-xmlrpc-c-1.48.0-5.fc27.aarch64                    
+teamd-1.27-1.fc27.aarch64                         
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                         bash-4.4.12-9.fc27.aarch64
+├─/bin/bash                                       bash-4.4.12-9.fc27.aarch64
+├─libdbus-1.so.3()(64bit)                         dbus-libs-1:1.11.16-4.fc27.aarch64
+├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)              dbus-libs-1:1.11.16-4.fc27.aarch64
+├─libnl-3.so.200()(64bit)                         libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.aarch64
+├─libnl-genl-3.so.200()(64bit)                    libnl3-3.3.0-1.fc27.aarch64
+├─libdaemon.so.0()(64bit)                         libdaemon-0.14-11.fc26.aarch64
+├─libnl-nf-3.so.200()(64bit)                      libnl3-3.3.0-1.fc27.aarch64
+├─libteam.so.5()(64bit)                           libteam-1.27-1.fc27.aarch64
+├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.aarch64
+└─libteam = 1.27-1.fc27                           libteam-1.27-1.fc27.aarch64
+net-snmp-agent-libs-1:5.7.3-16.fc27.aarch64       
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
-├─libgcc_s.so.1()(64bit)                          libgcc-7.1.1-7.fc27.1.aarch64
-├─libgcc_s.so.1(GCC_3.0)(64bit)                   libgcc-7.1.1-7.fc27.1.aarch64
 ├─libpthread.so.0(GLIBC_2.17)(64bit)              glibc-2.26-1.fc27.1.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.aarch64
+├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                   glibc-2.26-1.fc27.1.aarch64
 ├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.aarch64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.aarch64
 ├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libgcc_s.so.1(GCC_3.3.1)(64bit)                 libgcc-7.1.1-7.fc27.1.aarch64
-└─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.aarch64
-firewalld-filesystem-0.4.4.5-1.fc27.noarch        
+├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.aarch64
+├─libresolv.so.2()(64bit)                         glibc-2.26-1.fc27.1.aarch64
+├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.aarch64
+├─librpm.so.7()(64bit)                            rpm-libs-4.13.0.1-41.fc27.aarch64
+├─libwrap.so.0()(64bit)                           tcp_wrappers-libs-7.6-87.fc27.aarch64
+├─librpmio.so.7()(64bit)                          rpm-libs-4.13.0.1-41.fc27.aarch64
+├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-16.fc27.aarch64
+├─libsensors.so.4()(64bit)                        lm_sensors-libs-3.4.0-6.fc26.aarch64
+└─net-snmp-libs(aarch-64) = 1:5.7.3-16.fc27       net-snmp-libs-1:5.7.3-16.fc27.aarch64
 net-snmp-1:5.7.3-16.fc27.aarch64                  
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -265,6 +226,53 @@ NetworkManager-libnm-1:1.8.0-6.fc27.aarch64
 ├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.aarch64
 ├─libsmime3.so(NSS_3.2)(64bit)                    nss-3.32.0-2.fc27.aarch64
 └─libsmime3.so(NSS_3.4)(64bit)                    nss-3.32.0-2.fc27.aarch64
+firewalld-0.4.4.5-1.fc27.noarch                   
+├─/bin/bash                                       bash-4.4.12-9.fc27.aarch64
+├─/usr/bin/python3                                python3-3.6.2-6.fc27.aarch64
+├─iptables                                        iptables-1.6.1-4.fc27.aarch64
+├─ipset                                           ipset-6.29-3.fc27.aarch64
+├─ebtables                                        ebtables-2.0.10-22.fc26.aarch64
+├─firewalld-filesystem = 0.4.4.5-1.fc27           firewalld-filesystem-0.4.4.5-1.fc27.noarch
+└─python3-firewall = 0.4.4.5-1.fc27               python3-firewall-0.4.4.5-1.fc27.noarch
+firewalld-filesystem-0.4.4.5-1.fc27.noarch        
+libteam-1.27-1.fc27.aarch64                       
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─libnl-3.so.200()(64bit)                         libnl3-3.3.0-1.fc27.aarch64
+├─libnl-3.so.200(libnl_3)(64bit)                  libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
+├─libnl-genl-3.so.200()(64bit)                    libnl3-3.3.0-1.fc27.aarch64
+├─libnl-genl-3.so.200(libnl_3)(64bit)             libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200(libnl_3)(64bit)            libnl3-3.3.0-1.fc27.aarch64
+├─libnl-nf-3.so.200()(64bit)                      libnl3-3.3.0-1.fc27.aarch64
+├─libnl-3.so.200(libnl_3_2_27)(64bit)             libnl3-3.3.0-1.fc27.aarch64
+├─libnl-cli-3.so.200()(64bit)                     libnl3-cli-3.3.0-1.fc27.aarch64
+└─libnl-cli-3.so.200(libnl_3)(64bit)              libnl3-cli-3.3.0-1.fc27.aarch64
+net-snmp-libs-1:5.7.3-16.fc27.aarch64             
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.aarch64
+└─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.aarch64
+xmlrpc-c-1.48.0-5.fc27.aarch64                    
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
+├─libgcc_s.so.1()(64bit)                          libgcc-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                   libgcc-7.1.1-7.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)              glibc-2.26-1.fc27.1.aarch64
+├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libgcc_s.so.1(GCC_3.3.1)(64bit)                 libgcc-7.1.1-7.fc27.1.aarch64
+└─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.aarch64
 xmlrpc-c-client-1.48.0-5.fc27.aarch64             
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -274,20 +282,7 @@ xmlrpc-c-client-1.48.0-5.fc27.aarch64
 ├─libxmlrpc.so.3()(64bit)                         xmlrpc-c-1.48.0-5.fc27.aarch64
 ├─libxmlrpc_util.so.4()(64bit)                    xmlrpc-c-1.48.0-5.fc27.aarch64
 └─xmlrpc-c(aarch-64) = 1.48.0-5.fc27              xmlrpc-c-1.48.0-5.fc27.aarch64
-firewalld-0.4.4.5-1.fc27.noarch                   
-├─/bin/bash                                       bash-4.4.12-9.fc27.aarch64
-├─/usr/bin/python3                                python3-3.6.2-6.fc27.aarch64
-├─iptables                                        iptables-1.6.1-4.fc27.aarch64
-├─ipset                                           ipset-6.29-3.fc27.aarch64
-├─ebtables                                        ebtables-2.0.10-22.fc26.aarch64
-├─firewalld-filesystem = 0.4.4.5-1.fc27           firewalld-filesystem-0.4.4.5-1.fc27.noarch
-└─python3-firewall = 0.4.4.5-1.fc27               python3-firewall-0.4.4.5-1.fc27.noarch
 jansson-2.10-2.fc27.aarch64                       
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-libdaemon-0.14-11.fc26.aarch64                    
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
@@ -299,26 +294,6 @@ libnl3-3.3.0-1.fc27.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
 └─libpthread.so.0(GLIBC_2.17)(64bit)              glibc-2.26-1.fc27.1.aarch64
-libnl3-cli-3.3.0-1.fc27.aarch64                   
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2(GLIBC_2.17)(64bit)                   glibc-2.26-1.fc27.1.aarch64
-├─libnl-3.so.200()(64bit)                         libnl3-3.3.0-1.fc27.aarch64
-├─libnl-3.so.200(libnl_3)(64bit)                  libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
-├─libnl-genl-3.so.200()(64bit)                    libnl3-3.3.0-1.fc27.aarch64
-├─libnl-genl-3.so.200(libnl_3)(64bit)             libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200(libnl_3)(64bit)            libnl3-3.3.0-1.fc27.aarch64
-├─libnl-nf-3.so.200()(64bit)                      libnl3-3.3.0-1.fc27.aarch64
-├─libnl-idiag-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200(libnl_3_2_28)(64bit)       libnl3-3.3.0-1.fc27.aarch64
-├─libnl-idiag-3.so.200(libnl_3)(64bit)            libnl3-3.3.0-1.fc27.aarch64
-├─libnl-nf-3.so.200(libnl_3)(64bit)               libnl3-3.3.0-1.fc27.aarch64
-└─libnl3 = 3.3.0-1.fc27                           libnl3-3.3.0-1.fc27.aarch64
 polkit-libs-0.113-13.fc27.aarch64                 
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -430,13 +405,6 @@ libmodman-2.0.1-14.fc27.aarch64
 ├─libstdc++.so.6(GLIBCXX_3.4.9)(64bit)            libstdc++-7.1.1-7.fc27.1.aarch64
 ├─libstdc++.so.6(GLIBCXX_3.4.11)(64bit)           libstdc++-7.1.1-7.fc27.1.aarch64
 └─libdl.so.2(GLIBC_2.17)(64bit)                   glibc-2.26-1.fc27.1.aarch64
-lm_sensors-libs-3.4.0-6.fc26.aarch64              
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.aarch64
-└─libm.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
 authconfig-7.0.1-1.fc27.aarch64                   
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
@@ -453,6 +421,38 @@ authconfig-7.0.1-1.fc27.aarch64
 ├─python(abi) = 3.6                               python3-3.6.2-6.fc27.aarch64
 ├─libpwquality > 0.9                              libpwquality-1.4.0-3.fc27.aarch64
 └─pam >= 0.99.10.0                                pam-1.3.0-5.fc27.aarch64
+libdaemon-0.14-11.fc26.aarch64                    
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+libnl3-cli-3.3.0-1.fc27.aarch64                   
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                   glibc-2.26-1.fc27.1.aarch64
+├─libnl-3.so.200()(64bit)                         libnl3-3.3.0-1.fc27.aarch64
+├─libnl-3.so.200(libnl_3)(64bit)                  libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
+├─libnl-genl-3.so.200()(64bit)                    libnl3-3.3.0-1.fc27.aarch64
+├─libnl-genl-3.so.200(libnl_3)(64bit)             libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200(libnl_3)(64bit)            libnl3-3.3.0-1.fc27.aarch64
+├─libnl-nf-3.so.200()(64bit)                      libnl3-3.3.0-1.fc27.aarch64
+├─libnl-idiag-3.so.200()(64bit)                   libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200(libnl_3_2_28)(64bit)       libnl3-3.3.0-1.fc27.aarch64
+├─libnl-idiag-3.so.200(libnl_3)(64bit)            libnl3-3.3.0-1.fc27.aarch64
+├─libnl-nf-3.so.200(libnl_3)(64bit)               libnl3-3.3.0-1.fc27.aarch64
+└─libnl3 = 3.3.0-1.fc27                           libnl3-3.3.0-1.fc27.aarch64
+lm_sensors-libs-3.4.0-6.fc26.aarch64              
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                  glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)        glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.aarch64
+└─libm.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64
 initscripts-9.72-1.fc27.aarch64                   
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.aarch64

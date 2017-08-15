@@ -1,8 +1,5 @@
-  "autoconf" -> "emacs-filesystem";
   "automake" -> "autoconf";
   "cpp" -> "libmpc";
-  "cpp" -> "mpfr";
-  "emacs-filesystem" -> "libgcc";
   "gcc" -> "binutils";
   "gcc" -> "cpp";
   "gcc" -> "isl";
@@ -12,12 +9,9 @@
   "gcc" -> "libgomp";
   "gcc" -> "libmpc";
   "gcc" -> "libubsan";
-  "gcc" -> "mpfr";
   "libasan" -> "libgcc";
-  "libmpc" -> "mpfr";
   "libtool" -> "autoconf";
   "libtool" -> "automake";
-  "libtool" -> "findutils";
   "libtool" -> "gcc";
   "libtool" -> "tar";
   "libubsan" -> "libgcc";

@@ -8054,76 +8054,6 @@ fipscheck-1.5.0-1.fc26.ppc64le
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                                   openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libfipscheck.so.1()(64bit)                                               fipscheck-lib-1.5.0-1.fc26.ppc64le
 └─fipscheck-lib(ppc-64) = 1.5.0-1.fc26                                     fipscheck-lib-1.5.0-1.fc26.ppc64le
-pcre2-10.30-0.6.RC1.fc27.src                                               
-├─libtool                                                                  libtool-2.4.6-20.fc27.ppc64le
-├─autoconf                                                                 autoconf-2.69-24.fc26.noarch
-├─automake                                                                 automake-1.15-9.fc26.noarch
-├─make                                                                     make-1:4.2.1-4.fc27.ppc64le
-├─coreutils                                                                coreutils-8.27-14.fc27.ppc64le
-├─gcc                                                                      gcc-7.1.1-7.fc27.1.ppc64le
-└─readline-devel                                                           readline-devel-7.0-7.fc27.ppc64le
-autoconf-2.69-24.fc26.noarch                                               
-├─perl(strict)                                                             perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(warnings)                                                           perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(Carp)                                                               perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                                           perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                               perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─/usr/bin/perl                                                            perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(constant)                                                           perl-constant-1.33-395.fc27.noarch
-├─perl(Getopt::Long)                                                       perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(File::Spec)                                                         perl-PathTools-3.67-395.fc27.ppc64le
-├─perl(POSIX)                                                              perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Basename)                                                     perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Data::Dumper)                                                       perl-Data-Dumper-2.167-396.fc27.ppc64le
-├─perl(Cwd)                                                                perl-PathTools-3.67-395.fc27.ppc64le
-├─perl(DynaLoader)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Path)                                                         perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                                           perl-IO-1.38-398.fc27.ppc64le
-├─perl(File::Copy)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Find)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Errno)                                                              perl-Errno-1.28-398.fc27.ppc64le
-├─perl(Text::ParseWords)                                                   perl-Text-ParseWords-3.30-394.fc27.noarch
-├─perl(File::stat)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─emacs-filesystem                                                         emacs-filesystem-1:25.2-2.fc27.noarch
-├─perl(Class::Struct)                                                      perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Compare)                                                      perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(:VERSION) >= 5.6.0                                                  perl-libs-4:5.26.0-398.fc27.ppc64le
-└─m4 >= 1.4.14                                                             m4-1.4.18-3.fc26.ppc64le
-automake-1.15-9.fc26.noarch                                                
-├─perl(strict)                                                             perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(warnings)                                                           perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(Carp)                                                               perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                                           perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                               perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─/usr/bin/perl                                                            perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(constant)                                                           perl-constant-1.33-395.fc27.noarch
-├─perl(Getopt::Long)                                                       perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(File::Spec)                                                         perl-PathTools-3.67-395.fc27.ppc64le
-├─perl(POSIX)                                                              perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Basename)                                                     perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(DynaLoader)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Config)                                                             perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Path)                                                         perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                                           perl-IO-1.38-398.fc27.ppc64le
-├─perl(File::Copy)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Errno)                                                              perl-Errno-1.28-398.fc27.ppc64le
-├─perl(File::stat)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(threads)                                                            perl-threads-1:2.16-4.fc27.ppc64le
-├─perl(Class::Struct)                                                      perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(File::Compare)                                                      perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Thread::Queue)                                                      perl-Thread-Queue-3.12-393.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                                                  perl-libs-4:5.26.0-398.fc27.ppc64le
-└─autoconf >= 2.65                                                         autoconf-2.69-24.fc26.noarch
-m4-1.4.18-3.fc26.ppc64le                                                   
-├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
-└─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
-perl-Thread-Queue-3.12-393.fc27.noarch                                     
-├─perl(strict)                                                             perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(:MODULE_COMPAT_5.26.0)                                              perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(warnings)                                                           perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(Carp)                                                               perl-Carp-1.42-394.fc27.noarch
-├─perl(Scalar::Util) >= 1.10                                               perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64le
-└─perl(threads::shared) >= 1.21                                            perl-threads-shared-1.57-4.fc27.ppc64le
 perl-Digest-1.17-394.fc27.src                                              
 ├─perl-interpreter                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl-generators                                                          perl-generators-1.10-5.fc27.noarch
@@ -9034,6 +8964,13 @@ perl-Sys-Syslog-0.35-394.fc27.ppc64le
 ├─perl(Socket)                                                             perl-Socket-4:2.024-5.fc27.ppc64le
 ├─perl(warnings::register)                                                 perl-interpreter-4:5.26.0-398.fc27.ppc64le
 └─perl(:VERSION) >= 5.5.0                                                  perl-libs-4:5.26.0-398.fc27.ppc64le
+perl-Thread-Queue-3.12-393.fc27.noarch                                     
+├─perl(strict)                                                             perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(:MODULE_COMPAT_5.26.0)                                              perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(warnings)                                                           perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(Carp)                                                               perl-Carp-1.42-394.fc27.noarch
+├─perl(Scalar::Util) >= 1.10                                               perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64le
+└─perl(threads::shared) >= 1.21                                            perl-threads-shared-1.57-4.fc27.ppc64le
 perl-Unicode-Collate-1.19-393.fc27.ppc64le                                 
 ├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
@@ -9515,23 +9452,6 @@ perl-Digest-1.17-394.fc27.noarch
 ├─perl(Exporter)                                                           perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                               perl-interpreter-4:5.26.0-398.fc27.ppc64le
 └─perl(MIME::Base64)                                                       perl-MIME-Base64-3.15-395.fc27.ppc64le
-libtool-2.4.6-20.fc27.ppc64le                                              
-├─sed                                                                      sed-4.4-3.fc27.ppc64le
-├─findutils                                                                findutils-1:4.6.0-14.fc27.ppc64le
-├─tar                                                                      tar-2:1.29-7.fc27.ppc64le
-├─autoconf                                                                 autoconf-2.69-24.fc26.noarch
-├─automake                                                                 automake-1.15-9.fc26.noarch
-└─gcc(major) = 7                                                           gcc-7.1.1-7.fc27.1.ppc64le
-readline-devel-7.0-7.fc27.ppc64le                                          
-├─libreadline.so.7()(64bit)                                                readline-7.0-7.fc27.ppc64le
-├─ncurses-devel(ppc-64)                                                    ncurses-devel-6.0-13.20170722.fc27.ppc64le
-├─libhistory.so.7()(64bit)                                                 readline-7.0-7.fc27.ppc64le
-└─readline(ppc-64) = 7.0-7.fc27                                            readline-7.0-7.fc27.ppc64le
-readline-7.0-7.fc27.ppc64le                                                
-├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
-├─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                           glibc-2.26-1.fc27.1.ppc64le
-└─libtinfo.so.6()(64bit)                                                   ncurses-libs-6.0-13.20170722.fc27.ppc64le
 libXaw-devel-1.0.13-7.fc27.ppc64le                                         
 ├─/usr/bin/pkg-config                                                      pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
 ├─pkgconfig                                                                pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
@@ -9795,6 +9715,16 @@ system-python-libs-3.6.2-6.fc27.ppc64le
 python3-setuptools-36.2.0-3.fc27.noarch                                    
 ├─/usr/bin/python3                                                         python3-3.6.2-6.fc27.ppc64le
 └─python(abi) = 3.6                                                        python3-3.6.2-6.fc27.ppc64le
+readline-devel-7.0-7.fc27.ppc64le                                          
+├─libreadline.so.7()(64bit)                                                readline-7.0-7.fc27.ppc64le
+├─ncurses-devel(ppc-64)                                                    ncurses-devel-6.0-13.20170722.fc27.ppc64le
+├─libhistory.so.7()(64bit)                                                 readline-7.0-7.fc27.ppc64le
+└─readline(ppc-64) = 7.0-7.fc27                                            readline-7.0-7.fc27.ppc64le
+readline-7.0-7.fc27.ppc64le                                                
+├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
+├─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                           glibc-2.26-1.fc27.1.ppc64le
+└─libtinfo.so.6()(64bit)                                                   ncurses-libs-6.0-13.20170722.fc27.ppc64le
 rpm-devel-4.13.0.1-41.fc27.ppc64le                                         
 ├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
@@ -11301,12 +11231,6 @@ libXau-devel-1.0.8-9.fc27.ppc64le
 libXau-1.0.8-9.fc27.ppc64le                                                
 ├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
 └─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
-tar-2:1.29-7.fc27.ppc64le                                                  
-├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
-├─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
-├─libselinux.so.1()(64bit)                                                 libselinux-2.7-1.fc27.ppc64le
-├─libacl.so.1()(64bit)                                                     libacl-2.2.52-18.fc27.ppc64le
-└─libacl.so.1(ACL_1.0)(64bit)                                              libacl-2.2.52-18.fc27.ppc64le
 pcre2-10.30-0.6.RC1.fc27.ppc64le                                           
 ├─rtld(GNU_HASH)                                                           glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                             glibc-2.26-1.fc27.1.ppc64le

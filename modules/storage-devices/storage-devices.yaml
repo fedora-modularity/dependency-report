@@ -8,8 +8,10 @@ data:
     dependencies:
         buildrequires:
             platform: master
+            platform-placeholder: master
         requires:
             platform: master
+            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/storage-devices
@@ -49,9 +51,6 @@ data:
             cups:
                 rationale: Generated.
                 ref: master.
-            device-mapper-multipath:
-                rationale: Generated.
-                ref: master.
             dmraid:
                 rationale: Generated.
                 ref: master.
@@ -62,9 +61,6 @@ data:
                 rationale: Generated.
                 ref: master.
             fcgi:
-                rationale: Generated.
-                ref: master.
-            gdisk:
                 rationale: Generated.
                 ref: master.
             gettext:
@@ -82,12 +78,6 @@ data:
             hesiod:
                 rationale: Generated.
                 ref: master.
-            hfsplus-tools:
-                rationale: Generated.
-                ref: master.
-            hostname:
-                rationale: Generated.
-                ref: master.
             icu:
                 rationale: Generated.
                 ref: master.
@@ -95,9 +85,6 @@ data:
                 rationale: Generated.
                 ref: master.
             leveldb:
-                rationale: Generated.
-                ref: master.
-            libaio:
                 rationale: Generated.
                 ref: master.
             libcgroup:
@@ -112,9 +99,6 @@ data:
             libunwind:
                 rationale: Generated.
                 ref: master.
-            libuser:
-                rationale: Generated.
-                ref: master.
             lttng-ust:
                 rationale: Generated.
                 ref: master.
@@ -125,15 +109,6 @@ data:
                 rationale: Generated.
                 ref: master.
             mdadm:
-                rationale: Generated.
-                ref: master.
-            parted:
-                rationale: Generated.
-                ref: master.
-            passwd:
-                rationale: Generated.
-                ref: master.
-            pcre2:
                 rationale: Generated.
                 ref: master.
             policycoreutils:
@@ -223,19 +198,10 @@ data:
             setools:
                 rationale: Generated.
                 ref: master.
-            sgpio:
-                rationale: Generated.
-                ref: master.
-            snappy:
-                rationale: Generated.
-                ref: master.
             star:
                 rationale: Generated.
                 ref: master.
             time:
-                rationale: Generated.
-                ref: master.
-            userspace-rcu:
                 rationale: Generated.
                 ref: master.
             which:

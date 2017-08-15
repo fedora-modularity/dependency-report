@@ -8,8 +8,10 @@ data:
     dependencies:
         buildrequires:
             platform: master
+            platform-placeholder: master
         requires:
             platform: master
+            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/networking-base
@@ -25,19 +27,7 @@ data:
             dbus-python:
                 rationale: Generated.
                 ref: master.
-            ebtables:
-                rationale: Generated.
-                ref: master.
             firewalld:
-                rationale: Generated.
-                ref: master.
-            hostname:
-                rationale: Generated.
-                ref: master.
-            initscripts:
-                rationale: Generated.
-                ref: master.
-            ipset:
                 rationale: Generated.
                 ref: master.
             jansson:
@@ -50,9 +40,6 @@ data:
                 rationale: Generated.
                 ref: master.
             libndp:
-                rationale: Generated.
-                ref: master.
-            libnl3:
                 rationale: Generated.
                 ref: master.
             libproxy:
@@ -74,9 +61,6 @@ data:
                 rationale: Generated.
                 ref: master.
             NetworkManager:
-                rationale: Generated.
-                ref: master.
-            pcre2:
                 rationale: Generated.
                 ref: master.
             perl:
@@ -125,9 +109,6 @@ data:
                 rationale: Generated.
                 ref: master.
             polkit:
-                rationale: Generated.
-                ref: master.
-            publicsuffix-list:
                 rationale: Generated.
                 ref: master.
             pygobject3:

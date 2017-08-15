@@ -1,30 +1,5 @@
 INFO:depchase:DEPENDENCY INFORMATION                                                          
 INFO                                              MATCH
-automake-1.15-9.fc26.noarch                       
-├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.i686
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.i686
-├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.i686
-├─/usr/bin/perl                                   perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
-├─perl(Getopt::Long)                              perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.i686
-├─perl(POSIX)                                     perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(File::Basename)                            perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(DynaLoader)                                perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(Config)                                    perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(File::Path)                                perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                  perl-IO-1.38-398.fc27.i686
-├─perl(File::Copy)                                perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(Errno)                                     perl-Errno-1.28-398.fc27.i686
-├─perl(File::stat)                                perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(threads)                                   perl-threads-1:2.16-4.fc27.i686
-├─perl(Class::Struct)                             perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(File::Compare)                             perl-interpreter-4:5.26.0-398.fc27.i686
-├─perl(Thread::Queue)                             perl-Thread-Queue-3.12-393.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.i686
-└─autoconf >= 2.65                                autoconf-2.69-24.fc26.noarch
 autoconf-2.69-24.fc26.noarch                      
 ├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.i686
 ├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.i686
@@ -52,11 +27,39 @@ autoconf-2.69-24.fc26.noarch
 ├─perl(File::Compare)                             perl-interpreter-4:5.26.0-398.fc27.i686
 ├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.i686
 └─m4 >= 1.4.14                                    m4-1.4.18-3.fc26.i686
+automake-1.15-9.fc26.noarch                       
+├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.i686
+├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.i686
+├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.i686
+├─/usr/bin/perl                                   perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
+├─perl(Getopt::Long)                              perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.i686
+├─perl(POSIX)                                     perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(File::Basename)                            perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(DynaLoader)                                perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(Config)                                    perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(File::Path)                                perl-File-Path-2.15-1.fc27.noarch
+├─perl(IO::File)                                  perl-IO-1.38-398.fc27.i686
+├─perl(File::Copy)                                perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(Errno)                                     perl-Errno-1.28-398.fc27.i686
+├─perl(File::stat)                                perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(threads)                                   perl-threads-1:2.16-4.fc27.i686
+├─perl(Class::Struct)                             perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(File::Compare)                             perl-interpreter-4:5.26.0-398.fc27.i686
+├─perl(Thread::Queue)                             perl-Thread-Queue-3.12-393.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                         perl-libs-4:5.26.0-398.fc27.i686
+└─autoconf >= 2.65                                autoconf-2.69-24.fc26.noarch
 info-6.4-3.fc27.i686                              
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.i686
 ├─libz.so.1                                       zlib-1.2.11-4.fc27.i686
 ├─libc.so.6(GLIBC_2.15)                           glibc-2.26-1.fc27.1.i686
 └─libtinfo.so.6                                   ncurses-libs-6.0-13.20170722.fc27.i686
+m4-1.4.18-3.fc26.i686                             
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.i686
+└─libc.so.6(GLIBC_2.17)                           glibc-2.26-1.fc27.1.i686
 perl-Thread-Queue-3.12-393.fc27.noarch            
 ├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.i686
 ├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.i686
@@ -64,9 +67,6 @@ perl-Thread-Queue-3.12-393.fc27.noarch
 ├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
 ├─perl(Scalar::Util) >= 1.10                      perl-Scalar-List-Utils-3:1.48-1.fc27.i686
 └─perl(threads::shared) >= 1.21                   perl-threads-shared-1.57-4.fc27.i686
-m4-1.4.18-3.fc26.i686                             
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.i686
-└─libc.so.6(GLIBC_2.17)                           glibc-2.26-1.fc27.1.i686
 libtool-2.4.6-20.fc27.i686                        
 ├─sed                                             sed-4.4-3.fc27.i686
 ├─findutils                                       findutils-1:4.6.0-14.fc27.i686

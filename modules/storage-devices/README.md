@@ -7,10 +7,12 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
+* [platform-placeholder](../platform-placeholder)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
 * [platform](../platform)
+* [platform-placeholder](../platform-placeholder)
 ## Binary RPM packages
 These are RPM dependencies of the [storage-devices top-level package set](storage-devices.csv). They should be either:
 * split into other modules and be used as modular dependncies
@@ -24,12 +26,12 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `avahi-libs` | X | X | X | X | X | - | X |
 | `bc` | X | X | X | - | - | - | X |
 | `bcache-tools` | X | X | X | X | X | - | X |
-| `boost-iostreams` | X | X | X | X | X | - | X |
+| `boost-iostreams` | X | X | X | X | X | - | - |
 | `boost-program-options` | X | X | X | X | X | - | X |
-| `boost-random` | X | X | X | X | X | - | X |
+| `boost-random` | X | X | X | X | X | - | - |
 | `boost-regex` | X | X | X | X | X | - | X |
-| `boost-system` | X | X | X | X | X | - | X |
-| `boost-thread` | X | X | X | X | X | - | X |
+| `boost-system` | X | X | X | X | X | - | - |
+| `boost-thread` | X | X | X | X | X | - | - |
 | `ceph` | X | X | X | X | X | - | X |
 | `ceph-base` | X | X | X | X | X | - | X |
 | `ceph-common` | X | X | X | X | X | - | X |
@@ -53,25 +55,20 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `dosfstools` | X | X | X | X | X | - | X |
 | `ed` | X | X | X | X | X | - | X |
 | `fcgi` | X | X | X | X | X | - | X |
-| `gdisk` | X | X | X | X | X | - | X |
 | `gettext` | - | X | - | - | - | - | - |
 | `gettext-libs` | - | X | - | - | - | - | - |
 | `gperftools-libs` | X | X | X | X | X | - | X |
 | `groff-base` | X | X | X | X | X | - | X |
 | `hdparm` | X | X | X | X | X | - | X |
 | `hesiod` | X | X | X | X | X | - | X |
-| `hfsplus-tools` | X | X | X | X | X | - | X |
-| `hostname` | X | X | X | X | X | - | X |
-| `kpartx` | X | X | X | X | X | - | X |
 | `less` | X | X | X | X | X | - | X |
 | `leveldb` | X | X | X | X | X | - | X |
-| `libaio` | X | X | X | X | X | - | X |
 | `libcephfs1` | X | X | X | X | X | - | X |
 | `libcgroup` | X | X | X | X | X | - | X |
 | `libcroco` | - | X | - | - | - | - | - |
 | `libicu` | X | X | X | X | X | - | X |
 | `libpipeline` | X | X | X | X | X | - | X |
-| `librados2` | X | X | X | X | X | - | X |
+| `librados2` | X | X | X | X | X | - | - |
 | `libradosstriper1` | X | X | X | X | X | - | X |
 | `librbd1` | X | X | X | X | X | - | X |
 | `librgw2` | X | X | X | X | X | - | X |
@@ -79,15 +76,11 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `libselinux-utils` | X | X | X | X | X | - | X |
 | `libsemanage-python3` | X | X | X | X | X | - | X |
 | `libunwind` | X | X | X | - | - | - | X |
-| `libuser` | X | X | X | X | X | - | X |
-| `lttng-ust` | X | X | X | X | X | - | X |
+| `lttng-ust` | X | X | X | X | X | - | - |
 | `mailx` | X | X | X | X | X | - | X |
 | `man-db` | X | X | X | X | X | - | X |
 | `mdadm` | X | X | X | X | X | - | X |
 | `ncurses-compat-libs` | X | X | X | X | X | - | X |
-| `parted` | X | X | X | X | X | - | X |
-| `passwd` | X | X | X | X | X | - | X |
-| `pcre2` | X | X | X | X | X | - | X |
 | `policycoreutils` | X | X | X | X | X | - | X |
 | `policycoreutils-python3` | X | X | X | X | X | - | X |
 | `policycoreutils-python-utils` | X | X | X | X | X | - | X |
@@ -126,10 +119,7 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `selinux-policy-minimum` | X | X | X | X | X | - | X |
 | `sendmail` | X | X | X | X | X | - | X |
 | `setools-python3` | X | X | X | X | X | - | X |
-| `sgpio` | X | X | X | X | X | - | X |
-| `snappy` | X | X | X | X | X | - | X |
 | `spax` | X | X | X | X | X | - | X |
 | `time` | X | X | X | X | X | - | X |
-| `userspace-rcu` | X | X | X | X | X | - | X |
 | `util-linux-user` | X | X | X | X | X | - | X |
 | `which` | - | X | - | - | - | - | - |

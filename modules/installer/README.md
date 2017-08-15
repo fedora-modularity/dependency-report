@@ -16,6 +16,7 @@ Please see the **missing RPM build dependencies ([source](all/buildtime-source-p
 * [platform](../platform)
 * [systemtap](../systemtap)
 * [autotools](../autotools)
+* [platform-placeholder](../platform-placeholder)
 ## Binary RPM packages
 These are RPM dependencies of the [installer top-level package set](installer.csv). They should be either:
 * split into other modules and be used as modular dependncies

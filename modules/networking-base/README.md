@@ -7,10 +7,12 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
+* [platform-placeholder](../platform-placeholder)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
 * [platform](../platform)
+* [platform-placeholder](../platform-placeholder)
 ## Binary RPM packages
 These are RPM dependencies of the [networking-base top-level package set](networking-base.csv). They should be either:
 * split into other modules and be used as modular dependncies
@@ -21,18 +23,12 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `authconfig` | X | X | X | X | X | - | X |
 | `curl-minimal` | X | X | X | X | X | - | X |
 | `dbus-glib` | X | X | X | X | X | - | X |
-| `ebtables` | X | X | X | X | X | - | X |
 | `firewalld` | X | X | X | X | X | - | X |
 | `firewalld-filesystem` | X | X | X | X | X | - | X |
-| `hostname` | X | X | X | X | X | - | X |
-| `initscripts` | X | X | X | X | X | - | X |
-| `ipset` | X | X | X | X | X | - | X |
-| `ipset-libs` | X | X | X | X | X | - | X |
 | `jansson` | X | X | X | X | X | - | X |
 | `libdaemon` | X | X | X | X | X | - | X |
 | `libmodman` | X | X | X | X | X | - | X |
 | `libndp` | X | X | X | X | X | - | X |
-| `libnl3` | X | X | X | X | X | - | X |
 | `libnl3-cli` | X | X | X | X | X | - | X |
 | `libproxy` | X | X | X | X | X | - | X |
 | `libpsl` | X | X | X | X | X | - | X |
@@ -49,7 +45,6 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `NetworkManager` | X | X | X | X | X | - | X |
 | `NetworkManager-libnm` | X | X | X | X | X | - | X |
 | `NetworkManager-team` | X | X | X | X | X | - | X |
-| `pcre2` | X | X | X | X | X | - | X |
 | `perl-Carp` | X | X | X | - | - | - | X |
 | `perl-constant` | X | X | X | - | - | - | X |
 | `perl-Data-Dumper` | X | X | X | - | - | - | X |

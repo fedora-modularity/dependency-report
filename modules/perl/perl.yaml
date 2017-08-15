@@ -8,8 +8,10 @@ data:
     dependencies:
         buildrequires:
             platform: master
+            platform-placeholder: master
         requires:
             platform: master
+            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/perl
@@ -17,9 +19,6 @@ data:
     components:
         rpms:
             groff:
-                rationale: Generated.
-                ref: master.
-            pcre2:
                 rationale: Generated.
                 ref: master.
             perl:
