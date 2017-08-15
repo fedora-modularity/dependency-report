@@ -14,7 +14,7 @@ echo "Generating machine-readable top-lvl  package lists..."
 
 echo "\n========================================="
 echo "Resolving runtime package dependencies using depchase..."
-./resolve_modules.sh
+./resolve.sh runtime
 
 echo "\n========================================="
 echo "Resolving runtime module dependencies..."
@@ -22,7 +22,7 @@ make
 
 echo "\n========================================="
 echo "Resolving build package dependencies using depchase..."
-./resolve_build.sh
+./resolve.sh buildtime
 
 echo "\n========================================="
 echo "Resolving build module dependencies..."
