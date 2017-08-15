@@ -107,14 +107,12 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
 EOF
-        for dep in $(cat modules/$module/modular-deps.txt); do
+        for dep in $(cat modules/$module/modular-build-deps.txt); do
             echo "            $dep: master"
         done
         cat << EOF
         requires:
-            platform: master
 EOF
         for dep in $(cat modules/$module/modular-deps.txt); do
             echo "            $dep: master"
