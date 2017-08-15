@@ -7,6 +7,8 @@ digraph G {
   "installer" -> "platform" [color="#aa0000"];
   "installer" -> "systemtap" [color="#aa0000"];
   "installer" -> "autotools" [color="#aa0000"];
+  "networking-base" -> "platform" [color="#009900"];
+  "networking-base" -> "platform" [color="#aa0000"];
   "perl" -> "platform" [color="#009900"];
   "perl" -> "platform" [color="#aa0000"];
   "systemtap" -> "platform" [color="#009900"];

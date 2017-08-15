@@ -2,7 +2,7 @@
 
 echo "\n========================================="
 echo "Removing old data..."
-rm -rf modules
+rm -rf modules repos
 
 echo "\n========================================="
 echo "Cloning 'modularity-modules' repositories..."
