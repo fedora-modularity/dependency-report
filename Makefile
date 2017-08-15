@@ -20,3 +20,5 @@ perl: platform
 networking-base: platform
 
 storage-devices: platform
+
+platform-placeholder: platform
