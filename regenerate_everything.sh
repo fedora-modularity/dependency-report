@@ -1,6 +1,10 @@
 #!/bin/sh
 
 echo "\n========================================="
+echo "Removing old data..."
+rm -rf modules
+
+echo "\n========================================="
 echo "Cloning 'modularity-modules' repositories..."
 ./clone_repos.sh
 
