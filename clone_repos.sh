@@ -2,5 +2,9 @@
 
 mkdir -p repos
 for repo in $(cat module-repolist.txt); do
-  git clone https://github.com/modularity-modules/$repo.git repos/$repo
+  if [ ! -d repos/$repo ]; then
+    git clone https://github.com/modularity-modules/$repo.git repos/$repo
+  else
+    (cd repos/$repo && git pull)
+  fi
 done
