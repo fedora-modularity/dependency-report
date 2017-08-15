@@ -13,6 +13,7 @@
   "firewalld" -> "firewalld-filesystem";
   "firewalld" -> "ipset";
   "firewalld" -> "python3-firewall";
+  "hwdata" -> "curl-minimal";
   "ipset" -> "ipset-libs";
   "iscsi-initiator-utils" -> "iscsi-initiator-utils-iscsiuio";
   "iscsi-initiator-utils-iscsiuio" -> "iscsi-initiator-utils";
@@ -26,7 +27,6 @@
   "lldpad" -> "libconfig";
   "lldpad" -> "libnl3";
   "mariadb-common" -> "mariadb-config";
-  "mariadb-config" -> "curl-minimal";
   "mariadb-libs" -> "mariadb-common";
   "net-snmp-agent-libs" -> "mariadb-libs";
   "net-snmp-agent-libs" -> "net-snmp-libs";
@@ -41,6 +41,9 @@
   "NetworkManager" -> "libpsl";
   "NetworkManager" -> "NetworkManager-libnm";
   "NetworkManager" -> "polkit-libs";
+  "NetworkManager-team" -> "jansson";
+  "NetworkManager-team" -> "NetworkManager";
+  "NetworkManager-team" -> "teamd";
   "policycoreutils" -> "libselinux-utils";
   "python3-dbus" -> "dbus-glib";
   "python3-firewall" -> "python3-dbus";
@@ -58,3 +61,5 @@
   "teamd" -> "libnl3";
   "teamd" -> "libnl3-cli";
   "teamd" -> "libteam";
+  "xmlrpc-c-client" -> "libcurl-minimal";
+  "xmlrpc-c-client" -> "xmlrpc-c";

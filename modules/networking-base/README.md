@@ -67,6 +67,7 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `net-snmp-libs` | X | X | X | X | X | X | X |
 | `NetworkManager` | X | X | X | X | X | X | X |
 | `NetworkManager-libnm` | X | X | X | X | X | X | X |
+| `NetworkManager-team` | X | X | X | X | X | X | X |
 | `perl-Carp` | X | X | X | - | - | - | X |
 | `perl-constant` | X | X | X | - | - | - | X |
 | `perl-Data-Dumper` | X | X | X | - | - | - | X |
@@ -100,3 +101,4 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `teamd` | X | X | X | X | X | X | X |
 | `userspace-rcu` | X | X | X | X | X | X | X |
 | `xmlrpc-c` | X | X | X | X | X | X | X |
+| `xmlrpc-c-client` | X | X | X | X | X | X | X |

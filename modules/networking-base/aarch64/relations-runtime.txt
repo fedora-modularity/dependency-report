@@ -1,3 +1,23 @@
+NetworkManager-team-1:1.8.0-6.fc27.aarch64                         
+├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.aarch64
+├─libteamdctl.so.0()(64bit)                                        teamd-1.27-1.fc27.aarch64
+└─NetworkManager(aarch-64) = 1:1.8.0-6.fc27                        NetworkManager-1:1.8.0-6.fc27.aarch64
+xmlrpc-c-client-1.48.0-5.fc27.aarch64                              
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.54.1-2.fc27.aarch64
+├─libxmlrpc.so.3()(64bit)                                          xmlrpc-c-1.48.0-5.fc27.aarch64
+├─libxmlrpc_util.so.4()(64bit)                                     xmlrpc-c-1.48.0-5.fc27.aarch64
+└─xmlrpc-c(aarch-64) = 1.48.0-5.fc27                               xmlrpc-c-1.48.0-5.fc27.aarch64
+teamd-1.27-1.fc27.aarch64                                          
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.aarch64
+├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.aarch64
+├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.aarch64
+├─libdaemon.so.0()(64bit)                                          libdaemon-0.14-11.fc26.aarch64
+├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.aarch64
+├─libteam.so.5()(64bit)                                            libteam-1.27-1.fc27.aarch64
+├─libnl-cli-3.so.200()(64bit)                                      libnl3-cli-3.3.0-1.fc27.aarch64
+└─libteam = 1.27-1.fc27                                            libteam-1.27-1.fc27.aarch64
+ipset-libs-6.29-3.fc27.aarch64                                     
 libnl3-cli-3.3.0-1.fc27.aarch64                                    
 ├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
 ├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.aarch64
@@ -11,80 +31,10 @@ libnl3-cli-3.3.0-1.fc27.aarch64
 ├─libnl-idiag-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.aarch64
 ├─libnl-nf-3.so.200(libnl_3)(64bit)                                libnl3-3.3.0-1.fc27.aarch64
 └─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.aarch64
-teamd-1.27-1.fc27.aarch64                                          
-├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.aarch64
+NetworkManager-libnm-1:1.8.0-6.fc27.aarch64                        
 ├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.aarch64
-├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.aarch64
-├─libdaemon.so.0()(64bit)                                          libdaemon-0.14-11.fc26.aarch64
-├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.aarch64
-├─libteam.so.5()(64bit)                                            libteam-1.27-1.fc27.aarch64
-├─libnl-cli-3.so.200()(64bit)                                      libnl3-cli-3.3.0-1.fc27.aarch64
-└─libteam = 1.27-1.fc27                                            libteam-1.27-1.fc27.aarch64
-libnl3-3.3.0-1.fc27.aarch64                                        
-jansson-2.10-2.fc27.aarch64                                        
-libdaemon-0.14-11.fc26.aarch64                                     
-libteam-1.27-1.fc27.aarch64                                        
-├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
-├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.aarch64
-├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.aarch64
-├─libnl-genl-3.so.200(libnl_3)(64bit)                              libnl3-3.3.0-1.fc27.aarch64
-├─libnl-route-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.aarch64
-├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.aarch64
-├─libnl-3.so.200(libnl_3_2_27)(64bit)                              libnl3-3.3.0-1.fc27.aarch64
-├─libnl-cli-3.so.200()(64bit)                                      libnl3-cli-3.3.0-1.fc27.aarch64
-└─libnl-cli-3.so.200(libnl_3)(64bit)                               libnl3-cli-3.3.0-1.fc27.aarch64
-ebtables-2.0.10-22.fc26.aarch64                                    
-xmlrpc-c-1.48.0-5.fc27.aarch64                                     
-libpsl-0.17.0-2.fc26.aarch64                                       
-└─publicsuffix-list-dafsa                                          publicsuffix-list-dafsa-20170424-1.fc27.noarch
-publicsuffix-list-dafsa-20170424-1.fc27.noarch                     
-ethtool-2:4.8-2.fc26.aarch64                                       
-realmd-0.16.3-5.fc27.aarch64                                       
-├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.aarch64
-└─authconfig                                                       authconfig-7.0.1-1.fc27.aarch64
-authconfig-7.0.1-1.fc27.aarch64                                    
-├─policycoreutils                                                  policycoreutils-2.6-5.fc27.aarch64
-├─python3-sssdconfig                                               python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
-polkit-libs-0.113-13.fc27.aarch64                                  
-policycoreutils-2.6-5.fc27.aarch64                                 
-├─libselinux-utils >= 2.6-5                                        libselinux-utils-2.6-6.fc27.aarch64
-python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                     
-libselinux-utils-2.6-6.fc27.aarch64                                
-libproxy-0.4.15-2.fc27.aarch64                                     
-└─libmodman.so.1()(64bit)                                          libmodman-2.0.1-14.fc27.aarch64
-libmodman-2.0.1-14.fc27.aarch64                                    
-ipset-6.29-3.fc27.aarch64                                          
-├─libipset.so.3()(64bit)                                           ipset-libs-6.29-3.fc27.aarch64
-├─libipset.so.3(LIBIPSET_1.0)(64bit)                               ipset-libs-6.29-3.fc27.aarch64
-├─libipset.so.3(LIBIPSET_2.0)(64bit)                               ipset-libs-6.29-3.fc27.aarch64
-├─libipset.so.3(LIBIPSET_3.0)(64bit)                               ipset-libs-6.29-3.fc27.aarch64
-└─ipset-libs(aarch-64) = 6.29-3.fc27                               ipset-libs-6.29-3.fc27.aarch64
-ipset-libs-6.29-3.fc27.aarch64                                     
-fcoe-utils-1.0.32-1.fc26.aarch64                                   
-├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.aarch64
-├─libpciaccess.so.0()(64bit)                                       libpciaccess-0.13.4-4.fc26.aarch64
-└─lldpad >= 0.9.43                                                 lldpad-1.0.1-6.git036e314.fc26.aarch64
-libpciaccess-0.13.4-4.fc26.aarch64                                 
-└─hwdata                                                           hwdata-0.302-1.fc27.noarch
-lldpad-1.0.1-6.git036e314.fc26.aarch64                             
-├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
-├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.aarch64
-├─libconfig.so.9()(64bit)                                          libconfig-1.5-5.fc26.aarch64
-hwdata-0.302-1.fc27.noarch                                         
-libconfig-1.5-5.fc26.aarch64                                       
-rsync-3.1.2-5.fc27.aarch64                                         
-libndp-1.6-2.fc26.aarch64                                          
-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.aarch64          
-├─libisns.so.0()(64bit)                                            isns-utils-libs-0.97-3.fc27.aarch64
-├─libisns.so.0(LIBISNS_0.96)(64bit)                                isns-utils-libs-0.97-3.fc27.aarch64
-└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27    iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.aarch64
 iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.aarch64 
 └─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27              iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.aarch64
-isns-utils-libs-0.97-3.fc27.aarch64                                
-hostname-3.18-2.fc26.aarch64                                       
-userspace-rcu-0.10.0-1.fc27.aarch64                                
 NetworkManager-1:1.8.0-6.fc27.aarch64                              
 ├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.54.1-2.fc27.aarch64
 ├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.aarch64
@@ -101,14 +51,87 @@ NetworkManager-1:1.8.0-6.fc27.aarch64
 ├─libnm.so.0(libnm_1_4_0)(64bit)                                   NetworkManager-libnm-1:1.8.0-6.fc27.aarch64
 ├─libndp.so.0()(64bit)                                             libndp-1.6-2.fc26.aarch64
 ├─NetworkManager-libnm(aarch-64) = 1:1.8.0-6.fc27                  NetworkManager-libnm-1:1.8.0-6.fc27.aarch64
-NetworkManager-libnm-1:1.8.0-6.fc27.aarch64                        
-├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.aarch64
+jansson-2.10-2.fc27.aarch64                                        
+xmlrpc-c-1.48.0-5.fc27.aarch64                                     
+libdaemon-0.14-11.fc26.aarch64                                     
+libnl3-3.3.0-1.fc27.aarch64                                        
+libteam-1.27-1.fc27.aarch64                                        
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
+├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.aarch64
+├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.aarch64
+├─libnl-genl-3.so.200(libnl_3)(64bit)                              libnl3-3.3.0-1.fc27.aarch64
+├─libnl-route-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.aarch64
+├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.aarch64
+├─libnl-3.so.200(libnl_3_2_27)(64bit)                              libnl3-3.3.0-1.fc27.aarch64
+├─libnl-cli-3.so.200()(64bit)                                      libnl3-cli-3.3.0-1.fc27.aarch64
+└─libnl-cli-3.so.200(libnl_3)(64bit)                               libnl3-cli-3.3.0-1.fc27.aarch64
+iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.aarch64          
+├─libisns.so.0()(64bit)                                            isns-utils-libs-0.97-3.fc27.aarch64
+├─libisns.so.0(LIBISNS_0.96)(64bit)                                isns-utils-libs-0.97-3.fc27.aarch64
+└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27    iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.aarch64
+libndp-1.6-2.fc26.aarch64                                          
+libpsl-0.17.0-2.fc26.aarch64                                       
+└─publicsuffix-list-dafsa                                          publicsuffix-list-dafsa-20170424-1.fc27.noarch
+polkit-libs-0.113-13.fc27.aarch64                                  
+isns-utils-libs-0.97-3.fc27.aarch64                                
+publicsuffix-list-dafsa-20170424-1.fc27.noarch                     
+net-snmp-libs-1:5.7.3-20.fc27.aarch64                              
+net-snmp-agent-libs-1:5.7.3-20.fc27.aarch64                        
+├─libnetsnmp.so.30()(64bit)                                        net-snmp-libs-1:5.7.3-20.fc27.aarch64
+├─libperl.so.5.26()(64bit)                                         perl-libs-4:5.26.0-395.fc27.aarch64
+├─libmariadb.so.3()(64bit)                                         mariadb-libs-3:10.2.7-2.fc27.aarch64
+├─libsensors.so.4()(64bit)                                         lm_sensors-libs-3.4.0-6.fc26.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
+├─libmariadb.so.3(libmysqlclient_18)(64bit)                        mariadb-libs-3:10.2.7-2.fc27.aarch64
+└─net-snmp-libs(aarch-64) = 1:5.7.3-20.fc27                        net-snmp-libs-1:5.7.3-20.fc27.aarch64
+lm_sensors-libs-3.4.0-6.fc26.aarch64                               
+mariadb-libs-3:10.2.7-2.fc27.aarch64                               
+└─mariadb-common(aarch-64) = 3:10.2.7-2.fc27                       mariadb-common-3:10.2.7-2.fc27.aarch64
+perl-libs-4:5.26.0-395.fc27.aarch64                                
+├─perl(Carp)                                                       perl-Carp-1.42-393.fc27.noarch
+├─perl(Exporter)                                                   perl-Exporter-5.72-394.fc27.noarch
+mariadb-common-3:10.2.7-2.fc27.aarch64                             
+└─/etc/my.cnf                                                      mariadb-config-3:10.2.7-2.fc27.aarch64
+perl-Carp-1.42-393.fc27.noarch                                     
+├─perl(strict)                                                     perl-libs-4:5.26.0-395.fc27.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
+├─perl(warnings)                                                   perl-libs-4:5.26.0-395.fc27.aarch64
+└─perl(Exporter)                                                   perl-Exporter-5.72-394.fc27.noarch
+perl-Exporter-5.72-394.fc27.noarch                                 
+├─perl(strict)                                                     perl-libs-4:5.26.0-395.fc27.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
+├─perl(warnings)                                                   perl-libs-4:5.26.0-395.fc27.aarch64
+├─perl(:VERSION) >= 5.6.0                                          perl-libs-4:5.26.0-395.fc27.aarch64
+└─perl(Carp) >= 1.05                                               perl-Carp-1.42-393.fc27.noarch
+mariadb-config-3:10.2.7-2.fc27.aarch64                             
+libproxy-0.4.15-2.fc27.aarch64                                     
+└─libmodman.so.1()(64bit)                                          libmodman-2.0.1-14.fc27.aarch64
+libmodman-2.0.1-14.fc27.aarch64                                    
+realmd-0.16.3-5.fc27.aarch64                                       
+├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.aarch64
+└─authconfig                                                       authconfig-7.0.1-1.fc27.aarch64
+authconfig-7.0.1-1.fc27.aarch64                                    
+├─policycoreutils                                                  policycoreutils-2.6-5.fc27.aarch64
+├─python3-sssdconfig                                               python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
+policycoreutils-2.6-5.fc27.aarch64                                 
+├─libselinux-utils >= 2.6-5                                        libselinux-utils-2.6-6.fc27.aarch64
+python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                     
+libselinux-utils-2.6-6.fc27.aarch64                                
+ipset-6.29-3.fc27.aarch64                                          
+├─libipset.so.3()(64bit)                                           ipset-libs-6.29-3.fc27.aarch64
+├─libipset.so.3(LIBIPSET_1.0)(64bit)                               ipset-libs-6.29-3.fc27.aarch64
+├─libipset.so.3(LIBIPSET_2.0)(64bit)                               ipset-libs-6.29-3.fc27.aarch64
+├─libipset.so.3(LIBIPSET_3.0)(64bit)                               ipset-libs-6.29-3.fc27.aarch64
+└─ipset-libs(aarch-64) = 6.29-3.fc27                               ipset-libs-6.29-3.fc27.aarch64
+firewalld-filesystem-0.4.4.5-3.fc27.noarch                         
+hostname-3.18-2.fc26.aarch64                                       
 firewalld-0.4.4.5-3.fc27.noarch                                    
 ├─ebtables                                                         ebtables-2.0.10-22.fc26.aarch64
 ├─ipset                                                            ipset-6.29-3.fc27.aarch64
 ├─firewalld-filesystem = 0.4.4.5-3.fc27                            firewalld-filesystem-0.4.4.5-3.fc27.noarch
 └─python3-firewall = 0.4.4.5-3.fc27                                python3-firewall-0.4.4.5-3.fc27.noarch
-firewalld-filesystem-0.4.4.5-3.fc27.noarch                         
+ebtables-2.0.10-22.fc26.aarch64                                    
 python3-firewall-0.4.4.5-3.fc27.noarch                             
 ├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.aarch64
 ├─python3-decorator                                                python3-decorator-4.0.11-2.fc26.noarch
@@ -126,6 +149,7 @@ dbus-glib-0.108-2.fc26.aarch64
 python3-slip-0.6.4-6.fc26.noarch                                   
 ├─libselinux-python3                                               libselinux-python3-2.6-6.fc27.aarch64
 libselinux-python3-2.6-6.fc27.aarch64                              
+ethtool-2:4.8-2.fc26.aarch64                                       
 net-snmp-1:5.7.3-20.fc27.aarch64                                   
 ├─libnetsnmp.so.30()(64bit)                                        net-snmp-libs-1:5.7.3-20.fc27.aarch64
 ├─/usr/bin/perl                                                    perl-interpreter-4:5.26.0-395.fc27.aarch64
@@ -145,9 +169,6 @@ net-snmp-1:5.7.3-20.fc27.aarch64
 └─net-snmp-agent-libs(aarch-64) = 1:5.7.3-20.fc27                  net-snmp-agent-libs-1:5.7.3-20.fc27.aarch64
 initscripts-9.72-1.fc27.aarch64                                    
 ├─hostname                                                         hostname-3.18-2.fc26.aarch64
-lm_sensors-libs-3.4.0-6.fc26.aarch64                               
-mariadb-libs-3:10.2.7-2.fc27.aarch64                               
-└─mariadb-common(aarch-64) = 3:10.2.7-2.fc27                       mariadb-common-3:10.2.7-2.fc27.aarch64
 perl-Data-Dumper-2.167-394.fc27.aarch64                            
 ├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
 ├─perl(Carp)                                                       perl-Carp-1.42-393.fc27.noarch
@@ -215,31 +236,6 @@ perl-interpreter-4:5.26.0-395.fc27.aarch64
 ├─perl(:VERSION) >= 5.24.0                                         perl-libs-4:5.26.0-395.fc27.aarch64
 ├─perl(:VERSION) >= 5.9.1                                          perl-libs-4:5.26.0-395.fc27.aarch64
 └─perl(:VERSION) >= 5.9.4                                          perl-libs-4:5.26.0-395.fc27.aarch64
-perl-libs-4:5.26.0-395.fc27.aarch64                                
-├─perl(Carp)                                                       perl-Carp-1.42-393.fc27.noarch
-├─perl(Exporter)                                                   perl-Exporter-5.72-394.fc27.noarch
-net-snmp-agent-libs-1:5.7.3-20.fc27.aarch64                        
-├─libnetsnmp.so.30()(64bit)                                        net-snmp-libs-1:5.7.3-20.fc27.aarch64
-├─libperl.so.5.26()(64bit)                                         perl-libs-4:5.26.0-395.fc27.aarch64
-├─libmariadb.so.3()(64bit)                                         mariadb-libs-3:10.2.7-2.fc27.aarch64
-├─libsensors.so.4()(64bit)                                         lm_sensors-libs-3.4.0-6.fc26.aarch64
-├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
-├─libmariadb.so.3(libmysqlclient_18)(64bit)                        mariadb-libs-3:10.2.7-2.fc27.aarch64
-└─net-snmp-libs(aarch-64) = 1:5.7.3-20.fc27                        net-snmp-libs-1:5.7.3-20.fc27.aarch64
-net-snmp-libs-1:5.7.3-20.fc27.aarch64                              
-mariadb-common-3:10.2.7-2.fc27.aarch64                             
-└─/etc/my.cnf                                                      mariadb-config-3:10.2.7-2.fc27.aarch64
-perl-Carp-1.42-393.fc27.noarch                                     
-├─perl(strict)                                                     perl-libs-4:5.26.0-395.fc27.aarch64
-├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
-├─perl(warnings)                                                   perl-libs-4:5.26.0-395.fc27.aarch64
-└─perl(Exporter)                                                   perl-Exporter-5.72-394.fc27.noarch
-perl-Exporter-5.72-394.fc27.noarch                                 
-├─perl(strict)                                                     perl-libs-4:5.26.0-395.fc27.aarch64
-├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
-├─perl(warnings)                                                   perl-libs-4:5.26.0-395.fc27.aarch64
-├─perl(:VERSION) >= 5.6.0                                          perl-libs-4:5.26.0-395.fc27.aarch64
-└─perl(Carp) >= 1.05                                               perl-Carp-1.42-393.fc27.noarch
 perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64                       
 ├─perl(strict)                                                     perl-libs-4:5.26.0-395.fc27.aarch64
 ├─perl(:MODULE_COMPAT_5.26.0)                                      perl-libs-4:5.26.0-395.fc27.aarch64
@@ -331,7 +327,19 @@ perl-threads-shared-1.57-2.fc27.aarch64
 ├─perl(XSLoader)                                                   perl-libs-4:5.26.0-395.fc27.aarch64
 ├─perl(:VERSION) >= 5.8.0                                          perl-libs-4:5.26.0-395.fc27.aarch64
 └─perl(threads) >= 1.73                                            perl-threads-1:2.16-2.fc27.aarch64
-mariadb-config-3:10.2.7-2.fc27.aarch64                             
+rsync-3.1.2-5.fc27.aarch64                                         
+lldpad-1.0.1-6.git036e314.fc26.aarch64                             
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.aarch64
+├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.aarch64
+├─libconfig.so.9()(64bit)                                          libconfig-1.5-5.fc26.aarch64
+libconfig-1.5-5.fc26.aarch64                                       
+fcoe-utils-1.0.32-1.fc26.aarch64                                   
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.aarch64
+├─libpciaccess.so.0()(64bit)                                       libpciaccess-0.13.4-4.fc26.aarch64
+└─lldpad >= 0.9.43                                                 lldpad-1.0.1-6.git036e314.fc26.aarch64
+libpciaccess-0.13.4-4.fc26.aarch64                                 
+└─hwdata                                                           hwdata-0.302-1.fc27.noarch
+hwdata-0.302-1.fc27.noarch                                         
 ├─curl                                                             curl-minimal-7.54.1-2.fc27.aarch64
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.aarch64            
 ├─libmpathcmd.so.0()(64bit)                                        device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.aarch64
@@ -341,6 +349,7 @@ device-mapper-multipath-0.7.1-6.git847cc43.fc27.aarch64
 ├─liburcu.so.6()(64bit)                                            userspace-rcu-0.10.0-1.fc27.aarch64
 ├─device-mapper-multipath-libs = 0.7.1-6.git847cc43.fc27           device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.aarch64
 ├─kpartx = 0.7.1-6.git847cc43.fc27                                 kpartx-0.7.1-6.git847cc43.fc27.aarch64
+userspace-rcu-0.10.0-1.fc27.aarch64                                
 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.aarch64       
 ├─liburcu.so.6()(64bit)                                            userspace-rcu-0.10.0-1.fc27.aarch64
 ├─libaio.so.1()(64bit)                                             libaio-0.3.110-7.fc26.aarch64

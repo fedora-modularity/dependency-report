@@ -1,21 +1,28 @@
-NetworkManager,
-ebtables,xxx
-ethtool,xxx
-fcoe-utils,xxx
-firewalld,xxx
-hostname,xxx
-ipset,xxx
-iscsi-initiator-utils,xxx
-libndp,xxx
-libnl3,xxx
-libnl3-cli,xxx
-libproxy,xxx
-libpsl,xxx
-libteam,xxx
-lldpad,xxx
-net-snmp,xxx
-realmd,
-rsync,
-teamd,
-userspace-rcu,
-xmlrpc-c,
+NetworkManager,"system service that manages network interfaces and connections"
+NetworkManager-libnm,"NetworkManager API"
+NetworkManager-team,"NetworkManager support for team devices"
+ebtables,"bridge firewalling tools"
+ethtool,"used to query and change settings on Ethernet devices"
+fcoe-utils,"utilities for Fibre cChannel over Ethernet"
+firewalld,"firewall daemon"
+firewalld-filesystem,"provides directory structure for firewalld"
+hostname,"used to set and query the hostname"
+ipset,"utility to maintain IP sets, mostly used by iptables"
+ipset-libs,"required by ipset"
+iscsi-initiator-utils,"utilities for SCSI over Internet "
+iscsi-initiator-utils-iscsiuio,"iscsi configuration helper daemon"
+libndp,"used for IPv6 Neighbor Discovery Protocol"
+libnl3,"library for netlink sockes in the kernel"
+libnl3-cli,"utilities for libnl3"
+libproxy,"library to handle proxy configuration"
+libpsl,"library for the public suffix list"
+libteam,"provides API for team network devices"
+lldpad,"user space daemon and configuration tool for Intel LLDP Agent"
+net-snmp,"Simple Network Management Protocol"
+net-snmp-agent-libs,"libraries for the Simple Network Management Protocol"
+net-snmp-libs,"libraries for the Simple Network Management Protocol"
+realmd,"discovery and enrollment in realms and domains like Active Directory or IPA"
+rsync,"tools to bring remote and host files into sync"
+teamd,"team network device control daemon"
+xmlrpc-c,"quick-and-easy way to make procedure calls over the Internet"
+xmlrpc-c-client,"client for xmlrpc-c"

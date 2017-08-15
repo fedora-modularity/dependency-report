@@ -17,6 +17,7 @@
   "firewalld" -> "firewalld-filesystem";
   "firewalld" -> "ipset";
   "firewalld" -> "python3-firewall";
+  "hwdata" -> "curl-minimal";
   "initscripts" -> "hostname";
   "ipset" -> "ipset-libs";
   "iscsi-initiator-utils" -> "iscsi-initiator-utils-iscsiuio";
@@ -37,7 +38,6 @@
   "lldpad" -> "libnl3";
   "lttng-ust" -> "userspace-rcu";
   "mariadb-common" -> "mariadb-config";
-  "mariadb-config" -> "curl-minimal";
   "mariadb-libs" -> "mariadb-common";
   "net-snmp-agent-libs" -> "lm_sensors-libs";
   "net-snmp-agent-libs" -> "mariadb-libs";
@@ -60,6 +60,9 @@
   "NetworkManager" -> "libpsl";
   "NetworkManager" -> "NetworkManager-libnm";
   "NetworkManager" -> "polkit-libs";
+  "NetworkManager-team" -> "jansson";
+  "NetworkManager-team" -> "NetworkManager";
+  "NetworkManager-team" -> "teamd";
   "perl-Carp" -> "perl-Exporter";
   "perl-Carp" -> "perl-libs";
   "perl-constant" -> "perl-Carp";
@@ -151,3 +154,5 @@
   "teamd" -> "libnl3";
   "teamd" -> "libnl3-cli";
   "teamd" -> "libteam";
+  "xmlrpc-c-client" -> "libcurl-minimal";
+  "xmlrpc-c-client" -> "xmlrpc-c";

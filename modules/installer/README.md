@@ -82,7 +82,6 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `lvm2-libs` | X | X | X | X | X | X | X |
 | `lz4` | X | X | X | X | X | X | X |
 | `mdadm` | X | X | X | X | X | X | X |
-| `NetworkManager-team` | X | X | X | X | X | X | X |
 | `parted` | X | X | X | X | X | X | X |
 | `passwd` | - | - | X | X | X | - | X |
 | `python2` | - | - | - | - | - | X | - |
@@ -129,4 +128,3 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `snappy` | X | - | X | X | X | X | X |
 | `usermode` | - | - | X | X | X | - | X |
 | `volume_key-libs` | X | X | X | X | X | X | X |
-| `xmlrpc-c-client` | X | X | X | X | X | X | X |
