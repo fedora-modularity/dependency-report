@@ -95,7 +95,7 @@ $ ./get_hp.sh
 Generate the `complete-runtime-*` and `standalone-runtime-*` package lists for all modules on all architectures. 
 
 ```
-$ ./resolve_modules.sh
+$ ./resolve.sh runtime
 ```
 
 ### 5. Figure out dependencies
