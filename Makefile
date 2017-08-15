@@ -11,14 +11,16 @@ platform:
 
 installer: platform networking-base storage-devices platform-placeholder
 
-autotools: platform perl
+autotools: platform perl platform-placeholder
 
-systemtap: platform perl
+systemtap: platform perl platform-placeholder
 
-perl: platform
+perl: platform platform-placeholder
 
-networking-base: platform
+networking-base: platform platform-placeholder
 
-storage-devices: platform
+storage-devices: platform platform-placeholder
 
 platform-placeholder: platform
+
+freeipa: platform platform-placeholder
