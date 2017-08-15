@@ -18,37 +18,13 @@ data:
         tracker: https://github.com/modularity-modules/networking-base
     components:
         rpms:
-            authconfig:
+            bluez:
                 rationale: Generated.
                 ref: master.
-            dbus-glib:
+            libmbim:
                 rationale: Generated.
                 ref: master.
-            dbus-python:
-                rationale: Generated.
-                ref: master.
-            firewalld:
-                rationale: Generated.
-                ref: master.
-            jansson:
-                rationale: Generated.
-                ref: master.
-            libdaemon:
-                rationale: Generated.
-                ref: master.
-            libmodman:
-                rationale: Generated.
-                ref: master.
-            libndp:
-                rationale: Generated.
-                ref: master.
-            libproxy:
-                rationale: Generated.
-                ref: master.
-            libpsl:
-                rationale: Generated.
-                ref: master.
-            libteam:
+            libqmi:
                 rationale: Generated.
                 ref: master.
             lm_sensors:
@@ -60,7 +36,7 @@ data:
             net-snmp:
                 rationale: Generated.
                 ref: master.
-            NetworkManager:
+            newt:
                 rationale: Generated.
                 ref: master.
             perl:
@@ -105,27 +81,9 @@ data:
             perl-Unicode-Normalize:
                 rationale: Generated.
                 ref: master.
-            policycoreutils:
+            slang:
                 rationale: Generated.
                 ref: master.
-            polkit:
-                rationale: Generated.
-                ref: master.
-            pygobject3:
-                rationale: Generated.
-                ref: master.
-            python-decorator:
-                rationale: Generated.
-                ref: master.
-            python-slip:
-                rationale: Generated.
-                ref: master.
-            realmd:
-                rationale: Generated.
-                ref: master.
-            sssd:
-                rationale: Generated.
-                ref: master.
-            xmlrpc-c:
+            wpa_supplicant:
                 rationale: Generated.
                 ref: master.
