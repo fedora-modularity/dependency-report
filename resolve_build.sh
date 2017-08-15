@@ -3,9 +3,10 @@
 
 rm -rf modules/platform
 
-# Resolving complete dependencies using depchase
-for arch in $(cat arches.txt); do
-    echo "Resolving $arch dependencies:"
+# Resolve complete dependencies using depchase
+resolve_arch() {
+    local arch="$1"
+
     for module in $(ls modules); do
 
         modulearchroot="modules/$module/$arch"
@@ -16,7 +17,7 @@ for arch in $(cat arches.txt); do
         > $modulearchroot/complete-buildtime-binary-packages-short.txt
         > $modulearchroot/complete-buildtime-source-packages-short.txt
 
-        echo "  Processing $module..."
+        echo "  Processing $module for $arch..."
         hintsfile="hp/$arch/hints.txt"
         hints=""
         while read hint; do
@@ -27,7 +28,7 @@ for arch in $(cat arches.txt); do
         xargs depchase -v -a $arch -c repos.cfg resolve $hints > $modulearchroot/depchase-buildtime-failures.txt 2> $modulearchroot/depchase-buildtime-relations.txt
         RC=$?
         if [ $RC -ne 0 ]; then
-            echo "Depchase failures encountered on $arch buildtime:"
+            echo "Depchase failures encountered for $module on $arch buildtime:"
             cat $modulearchroot/depchase-buildtime-failures.txt
             continue
         fi
@@ -46,7 +47,16 @@ for arch in $(cat arches.txt); do
         sort -o $modulearchroot/complete-buildtime-binary-packages-short.txt $modulearchroot/complete-buildtime-binary-packages-short.txt
         sort -o $modulearchroot/complete-buildtime-source-packages-short.txt $modulearchroot/complete-buildtime-source-packages-short.txt
     done
+}
+
+for arch in $(cat arches.txt); do
+    echo "Starting the resolution of $arch dependencies."
+    resolve_arch "$arch" &
 done
+
+echo "Waiting for jobs to finish..."
+wait
+echo "Done. Sorting out Platform module dependencies."
 
 # Figuring out the standalone dependencies 
 for arch in $(cat arches.txt); do
