@@ -8,3 +8,4 @@
 ./build_deps.sh autotools   platform
 ./build_deps.sh perl        platform
 ./build_deps.sh networking-base platform
+./build_deps.sh storage-devices platform
