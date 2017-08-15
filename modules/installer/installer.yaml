@@ -9,9 +9,11 @@ data:
         buildrequires:
             platform: master
             platform: master
+            networking-base: master
         requires:
             platform: master
             platform: master
+            networking-base: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/installer
@@ -24,34 +26,16 @@ data:
             augeas:
                 rationale: Generated.
                 ref: master.
-            authconfig:
-                rationale: Generated.
-                ref: master.
             bcache-tools:
                 rationale: Generated.
                 ref: master.
             blktrace:
                 rationale: Generated.
                 ref: master.
-            boost:
-                rationale: Generated.
-                ref: master.
-            ceph:
-                rationale: Generated.
-                ref: master.
             chrony:
                 rationale: Generated.
                 ref: master.
             createrepo_c:
-                rationale: Generated.
-                ref: master.
-            dbus-glib:
-                rationale: Generated.
-                ref: master.
-            dbus-python:
-                rationale: Generated.
-                ref: master.
-            device-mapper-multipath:
                 rationale: Generated.
                 ref: master.
             device-mapper-persistent-data:
@@ -66,18 +50,6 @@ data:
             drpm:
                 rationale: Generated.
                 ref: master.
-            ebtables:
-                rationale: Generated.
-                ref: master.
-            ethtool:
-                rationale: Generated.
-                ref: master.
-            fcoe-utils:
-                rationale: Generated.
-                ref: master.
-            firewalld:
-                rationale: Generated.
-                ref: master.
             gdisk:
                 rationale: Generated.
                 ref: master.
@@ -87,28 +59,7 @@ data:
             hfsplus-tools:
                 rationale: Generated.
                 ref: master.
-            hostname:
-                rationale: Generated.
-                ref: master.
-            hwdata:
-                rationale: Generated.
-                ref: master.
-            initscripts:
-                rationale: Generated.
-                ref: master.
-            ipset:
-                rationale: Generated.
-                ref: master.
-            iscsi-initiator-utils:
-                rationale: Generated.
-                ref: master.
-            isns-utils:
-                rationale: Generated.
-                ref: master.
             isomd5sum:
-                rationale: Generated.
-                ref: master.
-            jansson:
                 rationale: Generated.
                 ref: master.
             json-c:
@@ -123,43 +74,13 @@ data:
             langtable:
                 rationale: Generated.
                 ref: master.
-            libaio:
-                rationale: Generated.
-                ref: master.
             libblockdev:
                 rationale: Generated.
                 ref: master.
             libbytesize:
                 rationale: Generated.
                 ref: master.
-            libconfig:
-                rationale: Generated.
-                ref: master.
-            libdaemon:
-                rationale: Generated.
-                ref: master.
-            libmodman:
-                rationale: Generated.
-                ref: master.
-            libndp:
-                rationale: Generated.
-                ref: master.
-            libnl3:
-                rationale: Generated.
-                ref: master.
-            libpciaccess:
-                rationale: Generated.
-                ref: master.
-            libproxy:
-                rationale: Generated.
-                ref: master.
-            libpsl:
-                rationale: Generated.
-                ref: master.
             libtar:
-                rationale: Generated.
-                ref: master.
-            libteam:
                 rationale: Generated.
                 ref: master.
             libusb:
@@ -168,43 +89,16 @@ data:
             libuser:
                 rationale: Generated.
                 ref: master.
-            lldpad:
-                rationale: Generated.
-                ref: master.
             lsof:
                 rationale: Generated.
                 ref: master.
-            lttng-ust:
-                rationale: Generated.
-                ref: master.
-            mariadb:
-                rationale: Generated.
-                ref: master.
             mdadm:
-                rationale: Generated.
-                ref: master.
-            net-snmp:
-                rationale: Generated.
-                ref: master.
-            NetworkManager:
                 rationale: Generated.
                 ref: master.
             parted:
                 rationale: Generated.
                 ref: master.
             passwd:
-                rationale: Generated.
-                ref: master.
-            policycoreutils:
-                rationale: Generated.
-                ref: master.
-            polkit:
-                rationale: Generated.
-                ref: master.
-            publicsuffix-list:
-                rationale: Generated.
-                ref: master.
-            pygobject3:
                 rationale: Generated.
                 ref: master.
             pykickstart:
@@ -235,9 +129,6 @@ data:
                 rationale: Generated.
                 ref: master.
             python-cryptography:
-                rationale: Generated.
-                ref: master.
-            python-decorator:
                 rationale: Generated.
                 ref: master.
             python-idna:
@@ -276,9 +167,6 @@ data:
             python-requests-ftp:
                 rationale: Generated.
                 ref: master.
-            python-slip:
-                rationale: Generated.
-                ref: master.
             python-urllib3:
                 rationale: Generated.
                 ref: master.
@@ -286,12 +174,6 @@ data:
                 rationale: Generated.
                 ref: master.
             pytz:
-                rationale: Generated.
-                ref: master.
-            realmd:
-                rationale: Generated.
-                ref: master.
-            rsync:
                 rationale: Generated.
                 ref: master.
             satyr:
@@ -303,18 +185,9 @@ data:
             snappy:
                 rationale: Generated.
                 ref: master.
-            sssd:
-                rationale: Generated.
-                ref: master.
             usermode:
                 rationale: Generated.
                 ref: master.
-            userspace-rcu:
-                rationale: Generated.
-                ref: master.
             volume_key:
-                rationale: Generated.
-                ref: master.
-            xmlrpc-c:
                 rationale: Generated.
                 ref: master.
