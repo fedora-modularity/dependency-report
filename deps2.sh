@@ -18,7 +18,15 @@ for file in $files; do
             | sort -u \
             | comm -23 $base/$target/$arch/complete-$file - \
             > $base/$target/$arch/$file
+
     done
 done
 
 echo $deps | sed -e "s/ /\n/g" > $base/$target/modular-deps.txt
+
+for arch in $arches; do
+    comm -23 \
+        $base/$target/$arch/toplevel-binary-packages.txt \
+        $base/$target/$arch/runtime-binary-packages-short.txt \
+        > $base/$target/$arch/pulled-out-toplevel-binary-packages.txt
+done
