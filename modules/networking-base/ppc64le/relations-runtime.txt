@@ -1,42 +1,124 @@
-psl-0.17.0-2.fc26.ppc64le                         
-└─libpsl.so.5()(64bit)                            libpsl-0.17.0-2.fc26.ppc64le
-NetworkManager-wwan-1:1.8.0-6.fc27.ppc64le        
-├─ModemManager                                    ModemManager-1.6.4-2.fc26.ppc64le
+libndp-1.6-2.fc26.ppc64le                         
+libproxy-0.4.15-2.fc27.ppc64le                    
+└─libmodman.so.1()(64bit)                         libmodman-2.0.1-14.fc27.ppc64le
+libteam-1.27-1.fc27.ppc64le                       
+NetworkManager-1:1.8.0-6.fc27.ppc64le             
+├─libcurl.so.4()(64bit)                           libcurl-minimal-7.55.0-1.fc27.ppc64le
+├─libpolkit-gobject-1.so.0()(64bit)               polkit-libs-0.113-13.fc27.ppc64le
+├─libnm.so.0()(64bit)                             NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.ppc64le
+├─libnm.so.0(libnm_1_0_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libnm.so.0(libnm_1_2_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libpolkit-agent-1.so.0()(64bit)                 polkit-libs-0.113-13.fc27.ppc64le
+├─libnm.so.0(libnm_1_6_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libpsl.so.5()(64bit)                            libpsl-0.17.0-4.fc27.ppc64le
+├─libnm.so.0(libnm_1_8_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libnm.so.0(libnm_1_4_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libndp.so.0()(64bit)                            libndp-1.6-2.fc26.ppc64le
+├─NetworkManager-libnm(ppc-64) = 1:1.8.0-6.fc27   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
 NetworkManager-adsl-1:1.8.0-6.fc27.ppc64le        
+└─NetworkManager(ppc-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.ppc64le
 NetworkManager-bluetooth-1:1.8.0-6.fc27.ppc64le   
 ├─libbluetooth.so.3()(64bit)                      bluez-libs-5.45-1.fc27.ppc64le
+├─libmm-glib.so.0()(64bit)                        ModemManager-glib-1.6.4-2.fc26.ppc64le
 ├─libnm-wwan.so()(64bit)                          NetworkManager-wwan-1:1.8.0-6.fc27.ppc64le
+├─NetworkManager(ppc-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.ppc64le
 ├─NetworkManager-wwan = 1:1.8.0-6.fc27            NetworkManager-wwan-1:1.8.0-6.fc27.ppc64le
 └─bluez >= 4.101-5                                bluez-5.45-1.fc27.ppc64le
+NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le       
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.ppc64le
+NetworkManager-team-1:1.8.0-6.fc27.ppc64le        
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.ppc64le
+├─libteamdctl.so.0()(64bit)                       teamd-1.27-1.fc27.ppc64le
+└─NetworkManager(ppc-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.ppc64le
 NetworkManager-tui-1:1.8.0-6.fc27.ppc64le         
+├─libnm.so.0()(64bit)                             NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.ppc64le
+├─libnm.so.0(libnm_1_0_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libnm.so.0(libnm_1_2_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
 ├─libnewt.so.0.52()(64bit)                        newt-0.52.20-1.fc27.ppc64le
 ├─libnewt.so.0.52(NEWT_0.52)(64bit)               newt-0.52.20-1.fc27.ppc64le
+├─libnm.so.0(libnm_1_6_0)(64bit)                  NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
 ├─libnewt.so.0.52(NEWT_0.52.6)(64bit)             newt-0.52.20-1.fc27.ppc64le
 ├─libnewt.so.0.52(NEWT_0.52.13)(64bit)            newt-0.52.20-1.fc27.ppc64le
 ├─libnewt.so.0.52(NEWT_0.52.9)(64bit)             newt-0.52.20-1.fc27.ppc64le
-├─libpsl.so.5()(64bit)                            libpsl-0.17.0-2.fc26.ppc64le
-libpsl-0.17.0-2.fc26.ppc64le                      
-ModemManager-1.6.4-2.fc26.ppc64le                 
-├─libmbim-glib.so.4()(64bit)                      libmbim-1.14.0-2.fc26.ppc64le
-├─libqmi-glib.so.5()(64bit)                       libqmi-1.18.0-0.fc27.ppc64le
-├─libmbim-utils                                   libmbim-utils-1.14.0-2.fc26.ppc64le
-├─libqmi-utils                                    libqmi-utils-1.18.0-0.fc27.ppc64le
+├─NetworkManager-libnm(ppc-64) = 1:1.8.0-6.fc27   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+└─NetworkManager = 1:1.8.0-6.fc27                 NetworkManager-1:1.8.0-6.fc27.ppc64le
+NetworkManager-wifi-1:1.8.0-6.fc27.ppc64le        
+├─NetworkManager(ppc-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.ppc64le
+└─wpa_supplicant >= 1:1.1                         wpa_supplicant-1:2.6-7.fc27.ppc64le
+NetworkManager-wwan-1:1.8.0-6.fc27.ppc64le        
+├─ModemManager                                    ModemManager-1.6.4-2.fc26.ppc64le
+├─libmm-glib.so.0()(64bit)                        ModemManager-glib-1.6.4-2.fc26.ppc64le
+└─NetworkManager(ppc-64) = 1:1.8.0-6.fc27         NetworkManager-1:1.8.0-6.fc27.ppc64le
+realmd-0.16.3-5.fc27.ppc64le                      
+├─libpolkit-gobject-1.so.0()(64bit)               polkit-libs-0.113-13.fc27.ppc64le
+└─authconfig                                      authconfig-7.0.1-1.fc27.ppc64le
+teamd-1.27-1.fc27.ppc64le                         
+├─libjansson.so.4()(64bit)                        jansson-2.10-2.fc27.ppc64le
+├─libdaemon.so.0()(64bit)                         libdaemon-0.14-11.fc26.ppc64le
+├─libteam.so.5()(64bit)                           libteam-1.27-1.fc27.ppc64le
+└─libteam = 1.27-1.fc27                           libteam-1.27-1.fc27.ppc64le
+xmlrpc-c-1.48.0-5.fc27.ppc64le                    
+xmlrpc-c-client-1.48.0-5.fc27.ppc64le             
+├─libcurl.so.4()(64bit)                           libcurl-minimal-7.55.0-1.fc27.ppc64le
+├─libxmlrpc.so.3()(64bit)                         xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_util.so.4()(64bit)                    xmlrpc-c-1.48.0-5.fc27.ppc64le
+└─xmlrpc-c(ppc-64) = 1.48.0-5.fc27                xmlrpc-c-1.48.0-5.fc27.ppc64le
+libmodman-2.0.1-14.fc27.ppc64le                   
+jansson-2.10-2.fc27.ppc64le                       
+polkit-libs-0.113-13.fc27.ppc64le                 
+ModemManager-glib-1.6.4-2.fc26.ppc64le            
 bluez-5.45-1.fc27.ppc64le                         
 bluez-libs-5.45-1.fc27.ppc64le                    
 newt-0.52.20-1.fc27.ppc64le                       
 ├─libslang.so.2()(64bit)                          slang-2.3.1a-2.fc26.ppc64le
 └─libslang.so.2(SLANG2)(64bit)                    slang-2.3.1a-2.fc26.ppc64le
+wpa_supplicant-1:2.6-7.fc27.ppc64le               
+ModemManager-1.6.4-2.fc26.ppc64le                 
+├─libgudev-1.0.so.0()(64bit)                      libgudev-230-4.fc26.ppc64le
+├─libmm-glib.so.0()(64bit)                        ModemManager-glib-1.6.4-2.fc26.ppc64le
+├─libmbim-glib.so.4()(64bit)                      libmbim-1.14.0-2.fc26.ppc64le
+├─libqmi-glib.so.5()(64bit)                       libqmi-1.18.0-0.fc27.ppc64le
+├─libmbim-utils                                   libmbim-utils-1.14.0-2.fc26.ppc64le
+├─libqmi-utils                                    libqmi-utils-1.18.0-0.fc27.ppc64le
+├─ModemManager-glib(ppc-64) = 1.6.4-2.fc26        ModemManager-glib-1.6.4-2.fc26.ppc64le
+authconfig-7.0.1-1.fc27.ppc64le                   
+├─policycoreutils                                 policycoreutils-2.6-5.fc27.ppc64le
+├─python3-sssdconfig                              python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
+libdaemon-0.14-11.fc26.ppc64le                    
+slang-2.3.1a-2.fc26.ppc64le                       
+libgudev-230-4.fc26.ppc64le                       
 libmbim-1.14.0-2.fc26.ppc64le                     
+└─libgudev-1.0.so.0()(64bit)                      libgudev-230-4.fc26.ppc64le
 libmbim-utils-1.14.0-2.fc26.ppc64le               
+├─libgudev-1.0.so.0()(64bit)                      libgudev-230-4.fc26.ppc64le
 ├─libmbim-glib.so.4()(64bit)                      libmbim-1.14.0-2.fc26.ppc64le
 └─libmbim(ppc-64) = 1.14.0-2.fc26                 libmbim-1.14.0-2.fc26.ppc64le
 libqmi-1.18.0-0.fc27.ppc64le                      
 └─libmbim-glib.so.4()(64bit)                      libmbim-1.14.0-2.fc26.ppc64le
 libqmi-utils-1.18.0-0.fc27.ppc64le                
+├─libgudev-1.0.so.0()(64bit)                      libgudev-230-4.fc26.ppc64le
 ├─libmbim-glib.so.4()(64bit)                      libmbim-1.14.0-2.fc26.ppc64le
 ├─libqmi-glib.so.5()(64bit)                       libqmi-1.18.0-0.fc27.ppc64le
 └─libqmi(ppc-64) = 1.18.0-0.fc27                  libqmi-1.18.0-0.fc27.ppc64le
-slang-2.3.1a-2.fc26.ppc64le                       
+policycoreutils-2.6-5.fc27.ppc64le                
+├─libselinux-utils >= 2.6-5                       libselinux-utils-2.7-1.fc27.ppc64le
+python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch    
+firewalld-0.4.4.5-3.fc27.noarch                   
+├─firewalld-filesystem = 0.4.4.5-3.fc27           firewalld-filesystem-0.4.4.5-3.fc27.noarch
+└─python3-firewall = 0.4.4.5-3.fc27               python3-firewall-0.4.4.5-3.fc27.noarch
+firewalld-filesystem-0.4.4.5-3.fc27.noarch        
+python3-firewall-0.4.4.5-3.fc27.noarch            
+├─python3-decorator                               python3-decorator-4.0.11-2.fc26.noarch
+├─python3-slip-dbus                               python3-slip-dbus-0.6.4-6.fc26.noarch
+python3-decorator-4.0.11-2.fc26.noarch            
+python3-slip-dbus-0.6.4-6.fc26.noarch             
+├─python3-decorator                               python3-decorator-4.0.11-2.fc26.noarch
+├─python3-slip = 0.6.4-6.fc26                     python3-slip-0.6.4-6.fc26.noarch
+python3-slip-0.6.4-6.fc26.noarch                  
+├─libselinux-python3                              libselinux-python3-2.7-1.fc27.ppc64le
+libpsl-0.17.0-4.fc27.ppc64le                      
 net-snmp-1:5.7.3-20.fc27.ppc64le                  
 ├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-20.fc27.ppc64le
 ├─libnetsnmpagent.so.30()(64bit)                  net-snmp-agent-libs-1:5.7.3-20.fc27.ppc64le
@@ -59,3 +141,12 @@ mariadb-config-3:10.2.7-2.fc27.ppc64le
 net-snmp-utils-1:5.7.3-20.fc27.ppc64le            
 ├─libnetsnmp.so.30()(64bit)                       net-snmp-libs-1:5.7.3-20.fc27.ppc64le
 └─net-snmp-libs(ppc-64) = 1:5.7.3-20.fc27         net-snmp-libs-1:5.7.3-20.fc27.ppc64le
+psl-0.17.0-4.fc27.ppc64le                         
+└─libpsl.so.5()(64bit)                            libpsl-0.17.0-4.fc27.ppc64le
+├─curl                                            curl-minimal-7.55.0-1.fc27.ppc64le
+libselinux-utils-2.7-1.fc27.ppc64le               
+libselinux-python3-2.7-1.fc27.ppc64le             
+libcurl-minimal-7.55.0-1.fc27.ppc64le             
+curl-minimal-7.55.0-1.fc27.ppc64le                
+├─libcurl.so.4()(64bit)                           libcurl-minimal-7.55.0-1.fc27.ppc64le
+└─libcurl(ppc-64) >= 7.55.0-1.fc27                libcurl-minimal-7.55.0-1.fc27.ppc64le

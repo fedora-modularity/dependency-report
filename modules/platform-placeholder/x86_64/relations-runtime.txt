@@ -1,94 +1,169 @@
-libblockdev-loop-devel-2.10-1.fc27.x86_64                         
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_loop.so.2()(64bit)                                        libblockdev-loop-2.10-1.fc27.x86_64
-└─libblockdev-loop(x86-64) = 2.10-1.fc27                          libblockdev-loop-2.10-1.fc27.x86_64
-libblockdev-kbd-devel-2.10-1.fc27.x86_64                          
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_kbd.so.2()(64bit)                                         libblockdev-kbd-2.10-1.fc27.x86_64
-└─libblockdev-kbd(x86-64) = 2.10-1.fc27                           libblockdev-kbd-2.10-1.fc27.x86_64
-python3-libnl3-3.3.0-1.fc27.x86_64                                
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
-└─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
-libpciaccess-devel-0.13.4-4.fc26.x86_64                           
+debugmode-9.72-1.fc27.x86_64                                      
+└─initscripts                                                     initscripts-9.72-1.fc27.x86_64
+ebtables-2.0.10-22.fc26.x86_64                                    
+ethtool-2:4.8-2.fc26.x86_64                                       
+fcoe-utils-1.0.32-1.fc26.x86_64                                   
+├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
 ├─libpciaccess.so.0()(64bit)                                      libpciaccess-0.13.4-4.fc26.x86_64
-└─libpciaccess = 0.13.4-4.fc26                                    libpciaccess-0.13.4-4.fc26.x86_64
-snappy-devel-1.1.4-3.fc26.x86_64                                  
+└─lldpad >= 0.9.43                                                lldpad-1.0.1-6.git036e314.fc26.x86_64
+gdisk-1.0.1-3.fc26.x86_64                                         
+hfsplus-tools-540.1.linux3-12.fc26.x86_64                         
+hostname-3.18-2.fc26.x86_64                                       
+hwdata-0.302-1.fc27.noarch                                        
+initscripts-9.72-1.fc27.x86_64                                    
+├─hostname                                                        hostname-3.18-2.fc26.x86_64
+ipset-6.29-3.fc27.x86_64                                          
+├─libipset.so.3()(64bit)                                          ipset-libs-6.29-3.fc27.x86_64
+├─libipset.so.3(LIBIPSET_1.0)(64bit)                              ipset-libs-6.29-3.fc27.x86_64
+├─libipset.so.3(LIBIPSET_2.0)(64bit)                              ipset-libs-6.29-3.fc27.x86_64
+├─libipset.so.3(LIBIPSET_3.0)(64bit)                              ipset-libs-6.29-3.fc27.x86_64
+└─ipset-libs(x86-64) = 6.29-3.fc27                                ipset-libs-6.29-3.fc27.x86_64
+ipset-devel-6.29-3.fc27.x86_64                                    
+├─libipset.so.3()(64bit)                                          ipset-libs-6.29-3.fc27.x86_64
+├─ipset-libs(x86-64) = 6.29-3.fc27                                ipset-libs-6.29-3.fc27.x86_64
+└─pkgconfig(libmnl) >= 1                                          libmnl-devel-1.0.4-2.fc26.x86_64
+ipset-libs-6.29-3.fc27.x86_64                                     
+iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64          
+├─libisns.so.0()(64bit)                                           isns-utils-libs-0.97-3.fc27.x86_64
+├─libisns.so.0(LIBISNS_0.96)(64bit)                               isns-utils-libs-0.97-3.fc27.x86_64
+└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27   iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.x86_64
+iscsi-initiator-utils-devel-6.2.0.874-4.git86e8892.fc27.x86_64    
+├─libiscsi.so.0()(64bit)                                          iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
+└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27             iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
+iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.x86_64 
+└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27             iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
+kbd-2.0.4-2.fc26.x86_64                                           
+├─kbd-legacy = 2.0.4-2.fc26                                       kbd-legacy-2.0.4-2.fc26.noarch
+├─kbd-misc = 2.0.4-2.fc26                                         kbd-misc-2.0.4-2.fc26.noarch
+└─initscripts >= 5.86-1                                           initscripts-9.72-1.fc27.x86_64
+kexec-tools-2.0.15-4.fc27.x86_64                                  
 ├─libsnappy.so.1()(64bit)                                         snappy-1.1.4-3.fc26.x86_64
-└─snappy(x86-64) = 1.1.4-3.fc26                                   snappy-1.1.4-3.fc26.x86_64
-libblockdev-devel-2.10-1.fc27.x86_64                              
-├─pkgconfig(glib-2.0)                                             glib2-devel-2.53.4-1.fc27.x86_64
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev.so.2()(64bit)                                       libblockdev-2.10-1.fc27.x86_64
-└─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
+├─ethtool                                                         ethtool-2:4.8-2.fc26.x86_64
+└─dracut-network >= 044-117                                       dracut-network-045-18.git20170515.fc27.x86_64
+libaio-0.3.110-7.fc26.x86_64                                      
 libaio-devel-0.3.110-7.fc26.x86_64                                
 ├─libaio.so.1()(64bit)                                            libaio-0.3.110-7.fc26.x86_64
 └─libaio                                                          libaio-0.3.110-7.fc26.x86_64
-libnl3-cli-3.3.0-1.fc27.x86_64                                    
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
-├─libnl-nf-3.so.200()(64bit)                                      libnl3-3.3.0-1.fc27.x86_64
-├─libnl-idiag-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200(libnl_3_2_28)(64bit)                       libnl3-3.3.0-1.fc27.x86_64
-├─libnl-idiag-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
-├─libnl-nf-3.so.200(libnl_3)(64bit)                               libnl3-3.3.0-1.fc27.x86_64
-└─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
+libblockdev-2.10-1.fc27.x86_64                                    
+└─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+libblockdev-btrfs-2.10-1.fc27.x86_64                              
+├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+├─libbytesize.so.1()(64bit)                                       libbytesize-0.11-1.fc27.x86_64
+└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+libblockdev-btrfs-devel-2.10-1.fc27.x86_64                        
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_btrfs.so.2()(64bit)                                       libblockdev-btrfs-2.10-1.fc27.x86_64
+└─libblockdev-btrfs(x86-64) = 2.10-1.fc27                         libblockdev-btrfs-2.10-1.fc27.x86_64
+libblockdev-crypto-2.10-1.fc27.x86_64                             
+├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+└─libvolume_key.so.1()(64bit)                                     volume_key-libs-0.3.9-13.fc27.x86_64
+libblockdev-crypto-devel-2.10-1.fc27.x86_64                       
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libbd_crypto.so.2()(64bit)                                      libblockdev-crypto-2.10-1.fc27.x86_64
+└─libblockdev-crypto(x86-64) = 2.10-1.fc27                        libblockdev-crypto-2.10-1.fc27.x86_64
+libblockdev-devel-2.10-1.fc27.x86_64                              
+├─pkgconfig(glib-2.0)                                             glib2-devel-2.53.5-1.fc27.x86_64
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev.so.2()(64bit)                                       libblockdev-2.10-1.fc27.x86_64
+└─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
 libblockdev-dm-2.10-1.fc27.x86_64                                 
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
 ├─dmraid                                                          dmraid-1.0.0.rc16-31.fc26.x86_64
 ├─libdmraid.so.1()(64bit)                                         dmraid-1.0.0.rc16-31.fc26.x86_64
 ├─libdmraid.so.1(Base)(64bit)                                     dmraid-1.0.0.rc16-31.fc26.x86_64
 └─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-libblockdev-utils-devel-2.10-1.fc27.x86_64                        
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
+libblockdev-dm-devel-2.10-1.fc27.x86_64                           
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─device-mapper-devel                                             device-mapper-devel-1.02.142-4.fc27.x86_64
+├─systemd-devel                                                   systemd-devel-234-5.fc27.x86_64
+├─dmraid-devel                                                    dmraid-devel-1.0.0.rc16-31.fc26.x86_64
+├─libbd_dm.so.2()(64bit)                                          libblockdev-dm-2.10-1.fc27.x86_64
+└─libblockdev-dm(x86-64) = 2.10-1.fc27                            libblockdev-dm-2.10-1.fc27.x86_64
+libblockdev-fs-2.10-1.fc27.x86_64                                 
+├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+├─libparted.so.2()(64bit)                                         parted-3.2-26.fc27.x86_64
+├─libparted-fs-resize.so.0()(64bit)                               parted-3.2-26.fc27.x86_64
+├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit)      parted-3.2-26.fc27.x86_64
 ├─libbd_part_err.so.2()(64bit)                                    libblockdev-utils-2.10-1.fc27.x86_64
-└─libblockdev-utils(x86-64) = 2.10-1.fc27                         libblockdev-utils-2.10-1.fc27.x86_64
+└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+libblockdev-fs-devel-2.10-1.fc27.x86_64                           
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─dosfstools                                                      dosfstools-4.1-2.fc26.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_fs.so.2()(64bit)                                          libblockdev-fs-2.10-1.fc27.x86_64
+└─libblockdev-fs(x86-64) = 2.10-1.fc27                            libblockdev-fs-2.10-1.fc27.x86_64
+libblockdev-kbd-2.10-1.fc27.x86_64                                
+├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+├─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+└─bcache-tools >= 1.0.8                                           bcache-tools-1.0.8-8.fc26.x86_64
+libblockdev-kbd-devel-2.10-1.fc27.x86_64                          
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_kbd.so.2()(64bit)                                         libblockdev-kbd-2.10-1.fc27.x86_64
+└─libblockdev-kbd(x86-64) = 2.10-1.fc27                           libblockdev-kbd-2.10-1.fc27.x86_64
 libblockdev-loop-2.10-1.fc27.x86_64                               
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
 └─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-libblockdev-mpath-devel-2.10-1.fc27.x86_64                        
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
+libblockdev-loop-devel-2.10-1.fc27.x86_64                         
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
 ├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_mpath.so.2()(64bit)                                       libblockdev-mpath-2.10-1.fc27.x86_64
-└─libblockdev-mpath(x86-64) = 2.10-1.fc27                         libblockdev-mpath-2.10-1.fc27.x86_64
-libblockdev-swap-2.10-1.fc27.x86_64                               
+├─libbd_loop.so.2()(64bit)                                        libblockdev-loop-2.10-1.fc27.x86_64
+└─libblockdev-loop(x86-64) = 2.10-1.fc27                          libblockdev-loop-2.10-1.fc27.x86_64
+libblockdev-lvm-2.10-1.fc27.x86_64                                
+├─lvm2                                                            lvm2-2.02.173-4.fc27.x86_64
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+├─device-mapper-persistent-data                                   device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64
 └─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-python2-blockdev-2.10-1.fc27.x86_64                               
-├─pygobject3-base                                                 python-gobject-base-3.24.1-1.fc27.x86_64
-└─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
-iscsi-initiator-utils-devel-6.2.0.874-4.git86e8892.fc27.x86_64    
-├─libiscsi.so.0()(64bit)                                          iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
-└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27             iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
 libblockdev-lvm-dbus-2.10-1.fc27.x86_64                           
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
 ├─device-mapper-persistent-data                                   device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64
 ├─libblockdev-utils(x86-64) >= 1.4                                libblockdev-utils-2.10-1.fc27.x86_64
-└─lvm2-dbusd >= 2.02.156                                          lvm2-dbusd-2.02.172-1.fc27.x86_64
-python-libnl3-3.3.0-1.fc27.x86_64                                 
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
-└─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
+└─lvm2-dbusd >= 2.02.156                                          lvm2-dbusd-2.02.173-4.fc27.x86_64
 libblockdev-lvm-dbus-devel-2.10-1.fc27.x86_64                     
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
 ├─libbd_lvm-dbus.so.2()(64bit)                                    libblockdev-lvm-dbus-2.10-1.fc27.x86_64
 ├─libblockdev-lvm-dbus(x86-64) = 2.10-1.fc27                      libblockdev-lvm-dbus-2.10-1.fc27.x86_64
 └─libblockdev-utils-devel(x86-64) >= 1.4                          libblockdev-utils-devel-2.10-1.fc27.x86_64
+libblockdev-lvm-devel-2.10-1.fc27.x86_64                          
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_lvm.so.2()(64bit)                                         libblockdev-lvm-2.10-1.fc27.x86_64
+└─libblockdev-lvm(x86-64) = 2.10-1.fc27                           libblockdev-lvm-2.10-1.fc27.x86_64
+libblockdev-mdraid-2.10-1.fc27.x86_64                             
+├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+├─mdadm                                                           mdadm-4.0-3.fc27.x86_64
+├─libbytesize.so.1()(64bit)                                       libbytesize-0.11-1.fc27.x86_64
+└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+libblockdev-mdraid-devel-2.10-1.fc27.x86_64                       
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_mdraid.so.2()(64bit)                                      libblockdev-mdraid-2.10-1.fc27.x86_64
+└─libblockdev-mdraid(x86-64) = 2.10-1.fc27                        libblockdev-mdraid-2.10-1.fc27.x86_64
+libblockdev-mpath-2.10-1.fc27.x86_64                              
+├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
+├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+libblockdev-mpath-devel-2.10-1.fc27.x86_64                        
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_mpath.so.2()(64bit)                                       libblockdev-mpath-2.10-1.fc27.x86_64
+└─libblockdev-mpath(x86-64) = 2.10-1.fc27                         libblockdev-mpath-2.10-1.fc27.x86_64
+libblockdev-part-2.10-1.fc27.x86_64                               
+├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
+├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
+├─libparted.so.2()(64bit)                                         parted-3.2-26.fc27.x86_64
+├─libparted-fs-resize.so.0()(64bit)                               parted-3.2-26.fc27.x86_64
+├─gdisk                                                           gdisk-1.0.1-3.fc26.x86_64
+├─libbd_part_err.so.2()(64bit)                                    libblockdev-utils-2.10-1.fc27.x86_64
+└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+libblockdev-part-devel-2.10-1.fc27.x86_64                         
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
+├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
+├─libbd_part.so.2()(64bit)                                        libblockdev-part-2.10-1.fc27.x86_64
+└─libblockdev-part(x86-64) = 2.10-1.fc27                          libblockdev-part-2.10-1.fc27.x86_64
 libblockdev-plugins-all-2.10-1.fc27.x86_64                        
 ├─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
 ├─libblockdev-btrfs(x86-64) = 2.10-1.fc27                         libblockdev-btrfs-2.10-1.fc27.x86_64
@@ -102,107 +177,41 @@ libblockdev-plugins-all-2.10-1.fc27.x86_64
 ├─libblockdev-mpath(x86-64) = 2.10-1.fc27                         libblockdev-mpath-2.10-1.fc27.x86_64
 ├─libblockdev-part(x86-64) = 2.10-1.fc27                          libblockdev-part-2.10-1.fc27.x86_64
 └─libblockdev-swap(x86-64) = 2.10-1.fc27                          libblockdev-swap-2.10-1.fc27.x86_64
-libblockdev-mpath-2.10-1.fc27.x86_64                              
-├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
+libblockdev-swap-2.10-1.fc27.x86_64                               
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
 └─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-libblockdev-lvm-devel-2.10-1.fc27.x86_64                          
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_lvm.so.2()(64bit)                                         libblockdev-lvm-2.10-1.fc27.x86_64
-└─libblockdev-lvm(x86-64) = 2.10-1.fc27                           libblockdev-lvm-2.10-1.fc27.x86_64
-python-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64   
-├─libiscsi.so.0()(64bit)                                          iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
-kexec-tools-anaconda-addon-2.0.15-4.fc27.x86_64                   
-└─anaconda >= 21.33                                               anaconda-27.18-1.fc27.x86_64
 libblockdev-swap-devel-2.10-1.fc27.x86_64                         
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
 ├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
 ├─libbd_swap.so.2()(64bit)                                        libblockdev-swap-2.10-1.fc27.x86_64
 └─libblockdev-swap(x86-64) = 2.10-1.fc27                          libblockdev-swap-2.10-1.fc27.x86_64
-libblockdev-lvm-2.10-1.fc27.x86_64                                
-├─lvm2                                                            lvm2-2.02.172-1.fc27.x86_64
+libblockdev-utils-2.10-1.fc27.x86_64                              
+├─libparted.so.2()(64bit)                                         parted-3.2-26.fc27.x86_64
+└─libparted-fs-resize.so.0()(64bit)                               parted-3.2-26.fc27.x86_64
+libblockdev-utils-devel-2.10-1.fc27.x86_64                        
+├─glib2-devel                                                     glib2-devel-2.53.5-1.fc27.x86_64
 ├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-├─device-mapper-persistent-data                                   device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64
-└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-python3-blockdev-2.10-1.fc27.x86_64                               
-├─python3-gobject-base                                            python3-gobject-base-3.24.1-1.fc27.x86_64
-└─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
-libblockdev-crypto-2.10-1.fc27.x86_64                             
-├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-└─libvolume_key.so.1()(64bit)                                     volume_key-libs-0.3.9-13.fc27.x86_64
-publicsuffix-list-dafsa-20170424-1.fc27.noarch                    
-libblockdev-btrfs-devel-2.10-1.fc27.x86_64                        
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_btrfs.so.2()(64bit)                                       libblockdev-btrfs-2.10-1.fc27.x86_64
-└─libblockdev-btrfs(x86-64) = 2.10-1.fc27                         libblockdev-btrfs-2.10-1.fc27.x86_64
-libblockdev-fs-2.10-1.fc27.x86_64                                 
-├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
-├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-├─libparted.so.2()(64bit)                                         parted-3.2-28.fc27.x86_64
-├─libparted-fs-resize.so.0()(64bit)                               parted-3.2-28.fc27.x86_64
-├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit)      parted-3.2-28.fc27.x86_64
 ├─libbd_part_err.so.2()(64bit)                                    libblockdev-utils-2.10-1.fc27.x86_64
-└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-libblockdev-mdraid-devel-2.10-1.fc27.x86_64                       
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_mdraid.so.2()(64bit)                                      libblockdev-mdraid-2.10-1.fc27.x86_64
-└─libblockdev-mdraid(x86-64) = 2.10-1.fc27                        libblockdev-mdraid-2.10-1.fc27.x86_64
-libblockdev-dm-devel-2.10-1.fc27.x86_64                           
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─device-mapper-devel                                             device-mapper-devel-1.02.141-1.fc27.x86_64
-├─systemd-devel                                                   systemd-devel-234-5.fc27.x86_64
-├─dmraid-devel                                                    dmraid-devel-1.0.0.rc16-31.fc26.x86_64
-├─libbd_dm.so.2()(64bit)                                          libblockdev-dm-2.10-1.fc27.x86_64
-└─libblockdev-dm(x86-64) = 2.10-1.fc27                            libblockdev-dm-2.10-1.fc27.x86_64
-python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64  
-├─libiscsi.so.0()(64bit)                                          iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
-libblockdev-btrfs-2.10-1.fc27.x86_64                              
-├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-├─libbytesize.so.1()(64bit)                                       libbytesize-0.11-1.fc27.x86_64
-└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
+└─libblockdev-utils(x86-64) = 2.10-1.fc27                         libblockdev-utils-2.10-1.fc27.x86_64
+libconfig-1.5-5.fc26.x86_64                                       
 libconfig-devel-1.5-5.fc26.x86_64                                 
 ├─libconfig.so.9()(64bit)                                         libconfig-1.5-5.fc26.x86_64
 ├─libconfig++.so.9()(64bit)                                       libconfig-1.5-5.fc26.x86_64
 └─libconfig = 1.5-5.fc26                                          libconfig-1.5-5.fc26.x86_64
-ipset-devel-6.29-3.fc27.x86_64                                    
-├─libipset.so.3()(64bit)                                          ipset-libs-6.29-3.fc27.x86_64
-├─ipset-libs(x86-64) = 6.29-3.fc27                                ipset-libs-6.29-3.fc27.x86_64
-└─pkgconfig(libmnl) >= 1                                          libmnl-devel-1.0.4-2.fc26.x86_64
-iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.x86_64 
-└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27             iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
-libblockdev-fs-devel-2.10-1.fc27.x86_64                           
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─dosfstools                                                      dosfstools-4.1-2.fc26.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_fs.so.2()(64bit)                                          libblockdev-fs-2.10-1.fc27.x86_64
-└─libblockdev-fs(x86-64) = 2.10-1.fc27                            libblockdev-fs-2.10-1.fc27.x86_64
-libblockdev-kbd-2.10-1.fc27.x86_64                                
-├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-├─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-└─bcache-tools >= 1.0.8                                           bcache-tools-1.0.8-8.fc26.x86_64
-libblockdev-mdraid-2.10-1.fc27.x86_64                             
-├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-├─mdadm                                                           mdadm-4.0-3.fc27.x86_64
-├─libbytesize.so.1()(64bit)                                       libbytesize-0.11-1.fc27.x86_64
-└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-libblockdev-part-2.10-1.fc27.x86_64                               
-├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
-├─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-├─libparted.so.2()(64bit)                                         parted-3.2-28.fc27.x86_64
-├─libparted-fs-resize.so.0()(64bit)                               parted-3.2-28.fc27.x86_64
-├─gdisk                                                           gdisk-1.0.1-3.fc26.x86_64
-├─libbd_part_err.so.2()(64bit)                                    libblockdev-utils-2.10-1.fc27.x86_64
-└─libblockdev-utils(x86-64) >= 0.11                               libblockdev-utils-2.10-1.fc27.x86_64
-libblockdev-crypto-devel-2.10-1.fc27.x86_64                       
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libbd_crypto.so.2()(64bit)                                      libblockdev-crypto-2.10-1.fc27.x86_64
-└─libblockdev-crypto(x86-64) = 2.10-1.fc27                        libblockdev-crypto-2.10-1.fc27.x86_64
-debugmode-9.72-1.fc27.x86_64                                      
-└─initscripts                                                     initscripts-9.72-1.fc27.x86_64
+libnl3-3.3.0-1.fc27.x86_64                                        
+libnl3-cli-3.3.0-1.fc27.x86_64                                    
+├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
+├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
+├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
+├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
+├─libnl-nf-3.so.200()(64bit)                                      libnl3-3.3.0-1.fc27.x86_64
+├─libnl-idiag-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200(libnl_3_2_28)(64bit)                       libnl3-3.3.0-1.fc27.x86_64
+├─libnl-idiag-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
+├─libnl-nf-3.so.200(libnl_3)(64bit)                               libnl3-3.3.0-1.fc27.x86_64
+└─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
 libnl3-devel-3.3.0-1.fc27.x86_64                                  
 ├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
 ├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
@@ -213,1106 +222,112 @@ libnl3-devel-3.3.0-1.fc27.x86_64
 ├─libnl-xfrm-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
 ├─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
 └─libnl3-cli = 3.3.0-1.fc27                                       libnl3-cli-3.3.0-1.fc27.x86_64
-libblockdev-utils-2.10-1.fc27.x86_64                              
-├─libparted.so.2()(64bit)                                         parted-3.2-28.fc27.x86_64
-└─libparted-fs-resize.so.0()(64bit)                               parted-3.2-28.fc27.x86_64
-libblockdev-part-devel-2.10-1.fc27.x86_64                         
-├─glib2-devel                                                     glib2-devel-2.53.4-1.fc27.x86_64
-├─libblockdev-utils-devel(x86-64)                                 libblockdev-utils-devel-2.10-1.fc27.x86_64
-├─libbd_part.so.2()(64bit)                                        libblockdev-part-2.10-1.fc27.x86_64
-└─libblockdev-part(x86-64) = 2.10-1.fc27                          libblockdev-part-2.10-1.fc27.x86_64
-lldpad-devel-1.0.1-6.git036e314.fc26.x86_64                       
-├─liblldp_clif.so.1()(64bit)                                      lldpad-1.0.1-6.git036e314.fc26.x86_64
-└─lldpad(x86-64) = 1.0.1-6.git036e314.fc26                        lldpad-1.0.1-6.git036e314.fc26.x86_64
-ipset-libs-6.29-3.fc27.x86_64                                     
-glib2-devel-2.53.4-1.fc27.x86_64                                  
-├─pkgconfig(libpcre)                                              pcre-devel-8.41-1.fc27.x86_64
-libnl3-3.3.0-1.fc27.x86_64                                        
 libpciaccess-0.13.4-4.fc26.x86_64                                 
 └─hwdata                                                          hwdata-0.302-1.fc27.noarch
-snappy-1.1.4-3.fc26.x86_64                                        
-libblockdev-2.10-1.fc27.x86_64                                    
-└─libbd_utils.so.2()(64bit)                                       libblockdev-utils-2.10-1.fc27.x86_64
-libaio-0.3.110-7.fc26.x86_64                                      
-dmraid-1.0.0.rc16-31.fc26.x86_64                                  
-├─kpartx                                                          kpartx-0.7.1-6.git847cc43.fc27.x86_64
-├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─dmraid-events                                                   dmraid-events-1.0.0.rc16-31.fc26.x86_64
-python-gobject-base-3.24.1-1.fc27.x86_64                          
-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64          
-├─libisns.so.0()(64bit)                                           isns-utils-libs-0.97-3.fc27.x86_64
-├─libisns.so.0(LIBISNS_0.96)(64bit)                               isns-utils-libs-0.97-3.fc27.x86_64
-└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27   iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.x86_64
-device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64           
-├─libaio.so.1()(64bit)                                            libaio-0.3.110-7.fc26.x86_64
-├─libaio.so.1(LIBAIO_0.1)(64bit)                                  libaio-0.3.110-7.fc26.x86_64
-├─libaio.so.1(LIBAIO_0.4)(64bit)                                  libaio-0.3.110-7.fc26.x86_64
-lvm2-dbusd-2.02.172-1.fc27.x86_64                                 
-├─python3-dbus                                                    python3-dbus-1.2.4-6.fc26.x86_64
-├─python3-gobject-base                                            python3-gobject-base-3.24.1-1.fc27.x86_64
-├─python3-pyudev                                                  python3-pyudev-0.21.0-3.fc26.noarch
-└─lvm2 >= 2.02.172-1.fc27                                         lvm2-2.02.172-1.fc27.x86_64
-anaconda-27.18-1.fc27.x86_64                                      
-├─anaconda-core = 27.18-1.fc27                                    anaconda-core-27.18-1.fc27.x86_64
-├─anaconda-tui = 27.18-1.fc27                                     anaconda-tui-27.18-1.fc27.x86_64
-└─anaconda-gui = 27.18-1.fc27                                     anaconda-gui-27.18-1.fc27.x86_64
-lvm2-2.02.172-1.fc27.x86_64                                       
-├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─liblvm2app.so.2.2()(64bit)                                      lvm2-libs-2.02.172-1.fc27.x86_64
-├─liblvm2app.so.2.2(Base)(64bit)                                  lvm2-libs-2.02.172-1.fc27.x86_64
-├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─lvm2-libs = 2.02.172-1.fc27                                     lvm2-libs-2.02.172-1.fc27.x86_64
-├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                  device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64
-python3-gobject-base-3.24.1-1.fc27.x86_64                         
-volume_key-libs-0.3.9-13.fc27.x86_64                              
-└─/usr/bin/gpg                                                    gnupg-1.4.21-4.fc27.x86_64
-device-mapper-devel-1.02.141-1.fc27.x86_64                        
-├─pkgconfig(libudev)                                              systemd-devel-234-5.fc27.x86_64
-├─pkgconfig(libselinux)                                           libselinux-devel-2.6-6.fc27.x86_64
-dmraid-devel-1.0.0.rc16-31.fc26.x86_64                            
-├─sgpio                                                           sgpio-1.2.0.10-17.fc26.x86_64
-└─dmraid = 1.0.0.rc16-31.fc26                                     dmraid-1.0.0.rc16-31.fc26.x86_64
-libbytesize-0.11-1.fc27.x86_64                                    
-libconfig-1.5-5.fc26.x86_64                                       
-libmnl-devel-1.0.4-2.fc26.x86_64                                  
-dosfstools-4.1-2.fc26.x86_64                                      
-bcache-tools-1.0.8-8.fc26.x86_64                                  
-mdadm-4.0-3.fc27.x86_64                                           
-gdisk-1.0.1-3.fc26.x86_64                                         
-initscripts-9.72-1.fc27.x86_64                                    
-├─hostname                                                        hostname-3.18-2.fc26.x86_64
+libpciaccess-devel-0.13.4-4.fc26.x86_64                           
+├─libpciaccess.so.0()(64bit)                                      libpciaccess-0.13.4-4.fc26.x86_64
+└─libpciaccess = 0.13.4-4.fc26                                    libpciaccess-0.13.4-4.fc26.x86_64
 lldpad-1.0.1-6.git036e314.fc26.x86_64                             
 ├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
 ├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
 ├─libconfig.so.9()(64bit)                                         libconfig-1.5-5.fc26.x86_64
-pcre-devel-8.41-1.fc27.x86_64                                     
-├─libpcrecpp.so.0()(64bit)                                        pcre-cpp-8.41-1.fc27.x86_64
-├─libpcre16.so.0()(64bit)                                         pcre-utf16-8.41-1.fc27.x86_64
-├─libpcre32.so.0()(64bit)                                         pcre-utf32-8.41-1.fc27.x86_64
-├─pcre-cpp(x86-64) = 8.41-1.fc27                                  pcre-cpp-8.41-1.fc27.x86_64
-├─pcre-utf16(x86-64) = 8.41-1.fc27                                pcre-utf16-8.41-1.fc27.x86_64
-└─pcre-utf32(x86-64) = 8.41-1.fc27                                pcre-utf32-8.41-1.fc27.x86_64
-hwdata-0.302-1.fc27.noarch                                        
-device-mapper-event-libs-1.02.141-1.fc27.x86_64                   
+lldpad-devel-1.0.1-6.git036e314.fc26.x86_64                       
+├─liblldp_clif.so.1()(64bit)                                      lldpad-1.0.1-6.git036e314.fc26.x86_64
+└─lldpad(x86-64) = 1.0.1-6.git036e314.fc26                        lldpad-1.0.1-6.git036e314.fc26.x86_64
+lsof-4.89-5.fc26.x86_64                                           
+passwd-0.79-9.fc26.x86_64                                         
+├─libuser.so.1()(64bit)                                           libuser-0.62-9.fc27.x86_64
+python2-blockdev-2.10-1.fc27.x86_64                               
+├─pygobject3-base                                                 python-gobject-base-3.24.1-1.fc27.x86_64
+└─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
+python3-blockdev-2.10-1.fc27.x86_64                               
+├─python3-gobject-base                                            python3-gobject-base-3.24.1-1.fc27.x86_64
+└─libblockdev(x86-64) = 2.10-1.fc27                               libblockdev-2.10-1.fc27.x86_64
+python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64  
+├─libiscsi.so.0()(64bit)                                          iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
+python3-libnl3-3.3.0-1.fc27.x86_64                                
+├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
+├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
+├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
+├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
+└─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
+python-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64   
+├─libiscsi.so.0()(64bit)                                          iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
+python-libnl3-3.3.0-1.fc27.x86_64                                 
+├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
+├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
+├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
+├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
+├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
+└─libnl3 = 3.3.0-1.fc27                                           libnl3-3.3.0-1.fc27.x86_64
+rsync-3.1.2-5.fc27.x86_64                                         
+sgpio-1.2.0.10-17.fc26.x86_64                                     
+snappy-1.1.4-3.fc26.x86_64                                        
+snappy-devel-1.1.4-3.fc26.x86_64                                  
+├─libsnappy.so.1()(64bit)                                         snappy-1.1.4-3.fc26.x86_64
+└─snappy(x86-64) = 1.1.4-3.fc26                                   snappy-1.1.4-3.fc26.x86_64
+usermode-1.111-10.fc27.x86_64                                     
+├─libuser.so.1()(64bit)                                           libuser-0.62-9.fc27.x86_64
+└─passwd                                                          passwd-0.79-9.fc26.x86_64
+libmnl-devel-1.0.4-2.fc26.x86_64                                  
+isns-utils-libs-0.97-3.fc27.x86_64                                
+kbd-legacy-2.0.4-2.fc26.noarch                                    
+kbd-misc-2.0.4-2.fc26.noarch                                      
+dracut-network-045-18.git20170515.fc27.x86_64                     
+libbytesize-0.11-1.fc27.x86_64                                    
+volume_key-libs-0.3.9-13.fc27.x86_64                              
+└─/usr/bin/gpg                                                    gnupg-1.4.21-4.fc27.x86_64
+dmraid-1.0.0.rc16-31.fc26.x86_64                                  
+├─kpartx                                                          kpartx-0.7.1-6.git847cc43.fc27.x86_64
+├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─dmraid-events                                                   dmraid-events-1.0.0.rc16-31.fc26.x86_64
+dmraid-devel-1.0.0.rc16-31.fc26.x86_64                            
+├─sgpio                                                           sgpio-1.2.0.10-17.fc26.x86_64
+└─dmraid = 1.0.0.rc16-31.fc26                                     dmraid-1.0.0.rc16-31.fc26.x86_64
+dosfstools-4.1-2.fc26.x86_64                                      
+bcache-tools-1.0.8-8.fc26.x86_64                                  
+device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64           
+├─libaio.so.1()(64bit)                                            libaio-0.3.110-7.fc26.x86_64
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                  libaio-0.3.110-7.fc26.x86_64
+├─libaio.so.1(LIBAIO_0.4)(64bit)                                  libaio-0.3.110-7.fc26.x86_64
+mdadm-4.0-3.fc27.x86_64                                           
+python-gobject-base-3.24.1-1.fc27.x86_64                          
+python3-gobject-base-3.24.1-1.fc27.x86_64                         
+gnupg-1.4.21-4.fc27.x86_64                                        
+└─libusb-0.1.so.4()(64bit)                                        libusb-1:0.1.5-8.fc26.x86_64
 dmraid-events-1.0.0.rc16-31.fc26.x86_64                           
-├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─device-mapper-event                                             device-mapper-event-1.02.141-1.fc27.x86_64
+├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─device-mapper-event                                             device-mapper-event-1.02.142-4.fc27.x86_64
 ├─libdmraid.so.1()(64bit)                                         dmraid-1.0.0.rc16-31.fc26.x86_64
 ├─libdmraid.so.1(Base)(64bit)                                     dmraid-1.0.0.rc16-31.fc26.x86_64
 ├─sgpio                                                           sgpio-1.2.0.10-17.fc26.x86_64
 └─dmraid = 1.0.0.rc16-31.fc26                                     dmraid-1.0.0.rc16-31.fc26.x86_64
-isns-utils-libs-0.97-3.fc27.x86_64                                
-python3-dbus-1.2.4-6.fc26.x86_64                                  
-├─libdbus-glib-1.so.2()(64bit)                                    dbus-glib-0.108-2.fc26.x86_64
-python3-pyudev-0.21.0-3.fc26.noarch                               
-anaconda-core-27.18-1.fc27.x86_64                                 
-├─python3-requests                                                python3-requests-2.18.1-2.fc27.noarch
-├─python3-dbus                                                    python3-dbus-1.2.4-6.fc26.x86_64
-├─python3-pytz                                                    python3-pytz-2017.2-1.fc27.noarch
-├─rsync                                                           rsync-3.1.2-5.fc27.x86_64
-├─usermode                                                        usermode-1.111-10.fc27.x86_64
-├─createrepo_c                                                    createrepo_c-0.10.0-9.fc26.x86_64
-├─libselinux-python3                                              libselinux-python3-2.6-6.fc27.x86_64
-├─kbd                                                             kbd-2.0.4-2.fc26.x86_64
-├─cracklib-dicts                                                  cracklib-dicts-2.9.6-5.fc26.x86_64
-├─kexec-tools                                                     kexec-tools-2.0.15-4.fc27.x86_64
-├─python3-wrapt                                                   python3-wrapt-1.10.10-1.fc27.x86_64
-├─hfsplus-tools                                                   hfsplus-tools-540.1.linux3-12.fc26.x86_64
-├─authconfig                                                      authconfig-7.0.1-1.fc27.x86_64
-├─realmd                                                          realmd-0.16.3-5.fc27.x86_64
-├─NetworkManager-team                                             NetworkManager-team-1:1.8.0-6.fc27.x86_64
-├─python3-pid                                                     python3-pid-2.1.1-3.fc26.noarch
-├─python3-requests-file                                           python3-requests-file-1.4-6.fc26.noarch
-├─teamd                                                           teamd-1.27-1.fc27.x86_64
-├─chrony                                                          chrony-3.1-5.fc27.x86_64
-├─glibc-langpack-en                                               glibc-langpack-en-2.25.90-27.fc27.x86_64
-├─python3-ntplib                                                  python3-ntplib-0.3.3-6.fc26.noarch
-├─python3-pwquality                                               python3-pwquality-1.4.0-1.fc27.x86_64
-├─python3-requests-ftp                                            python3-requests-ftp-0.3.1-6.fc26.noarch
-├─anaconda-tui = 27.18-1.fc27                                     anaconda-tui-27.18-1.fc27.x86_64
-├─parted >= 1.8.1                                                 parted-3.2-28.fc27.x86_64
-├─NetworkManager >= 1.0                                           NetworkManager-1:1.8.0-6.fc27.x86_64
-├─NetworkManager-libnm >= 1.0                                     NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─fcoe-utils >= 1.0.12-3.20100323git                              fcoe-utils-1.0.32-1.fc26.x86_64
-├─firewalld >= 0.3.5-1                                            firewalld-0.4.4.5-3.fc27.noarch
-├─isomd5sum >= 1.0.10                                             isomd5sum-1:1.2.1-1.fc27.x86_64
-├─langtable-data >= 0.0.34                                        langtable-data-0.0.37-1.fc26.noarch
-├─langtable-python3 >= 0.0.34                                     langtable-python3-0.0.37-1.fc26.noarch
-├─libblockdev-plugins-all >= 2.1                                  libblockdev-plugins-all-2.10-1.fc27.x86_64
-├─libreport-anaconda >= 2.0.21-1                                  libreport-anaconda-2.9.1-2.fc27.x86_64
-├─python3-blivet >= 1:2.1.9-1                                     python3-blivet-1:2.1.9-2.fc27.noarch
-├─python3-blockdev >= 2.1                                         python3-blockdev-2.10-1.fc27.x86_64
-├─python3-coverage >= 4.0-0.12.b3                                 python3-coverage-4.4.1-2.fc27.x86_64
-├─python3-iscsi-initiator-utils >= 6.2.0.873-26                   python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.x86_64
-├─python3-kickstart >= 2.35-1                                     python3-kickstart-2.37-1.fc27.noarch
-├─python3-meh >= 0.23-1                                           python3-meh-0.44-4.fc26.noarch
-├─python3-ordered-set >= 2.0.0                                    python3-ordered-set-2.0.0-6.fc26.noarch
-├─python3-pyparted >= 2.5-2                                       python3-pyparted-1:3.11.0-2.fc27.x86_64
-anaconda-gui-27.18-1.fc27.x86_64                                  
-├─yelp                                                            yelp-2:3.25.3-1.fc27.x86_64
-├─zenity                                                          zenity-3.24.0-1.fc27.x86_64
-├─python3-gobject-base                                            python3-gobject-base-3.24.1-1.fc27.x86_64
-├─adwaita-icon-theme                                              adwaita-icon-theme-3.24.0-2.fc27.noarch
-├─nm-connection-editor                                            nm-connection-editor-1.8.2-2.fc27.x86_64
-├─keybinder3                                                      keybinder3-0.3.2-1.fc27.x86_64
-├─libgnomekbd                                                     libgnomekbd-3.22.0.1-2.fc26.x86_64
-├─tigervnc-server-minimal                                         tigervnc-server-minimal-1.8.0-2.fc27.x86_64
-├─NetworkManager-wifi                                             NetworkManager-wifi-1:1.8.0-6.fc27.x86_64
-├─anaconda-core = 27.18-1.fc27                                    anaconda-core-27.18-1.fc27.x86_64
-├─anaconda-widgets = 27.18-1.fc27                                 anaconda-widgets-27.18-1.fc27.x86_64
-├─anaconda-user-help >= 22.1-1                                    anaconda-user-help-26.1-4.fc27.noarch
-├─blivet-gui-runtime >= 2.1.5-2                                   blivet-gui-runtime-2.1.5-2.fc27.noarch
-├─libtimezonemap >= 0.4.1-2                                       libtimezonemap-0.4.5-6.fc26.x86_64
-├─libxklavier >= 5.4                                              libxklavier-5.4-7.fc26.x86_64
-└─python3-meh-gui >= 0.23-1                                       python3-meh-gui-0.44-4.fc26.noarch
-anaconda-tui-27.18-1.fc27.x86_64                                  
-└─anaconda-core = 27.18-1.fc27                                    anaconda-core-27.18-1.fc27.x86_64
-lvm2-libs-2.02.172-1.fc27.x86_64                                  
-├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.141-1.fc27.x86_64
-└─device-mapper-event = 1.02.141-1.fc27                           device-mapper-event-1.02.141-1.fc27.x86_64
-gnupg-1.4.21-4.fc27.x86_64                                        
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-└─libusb-0.1.so.4()(64bit)                                        libusb-1:0.1.5-8.fc26.x86_64
-libselinux-devel-2.6-6.fc27.x86_64                                
-├─pkgconfig(libpcre)                                              pcre-devel-8.41-1.fc27.x86_64
-├─pkgconfig(libsepol)                                             libsepol-devel-2.6-1.fc26.x86_64
-└─libsepol-devel(x86-64) >= 2.6-0                                 libsepol-devel-2.6-1.fc26.x86_64
-sgpio-1.2.0.10-17.fc26.x86_64                                     
-hostname-3.18-2.fc26.x86_64                                       
-pcre-cpp-8.41-1.fc27.x86_64                                       
-pcre-utf16-8.41-1.fc27.x86_64                                     
-pcre-utf32-8.41-1.fc27.x86_64                                     
-device-mapper-event-1.02.141-1.fc27.x86_64                        
-├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.141-1.fc27.x86_64
-├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.141-1.fc27.x86_64
-└─device-mapper-event-libs = 1.02.141-1.fc27                      device-mapper-event-libs-1.02.141-1.fc27.x86_64
-dbus-glib-0.108-2.fc26.x86_64                                     
-NetworkManager-libnm-1:1.8.0-6.fc27.x86_64                        
-├─libjansson.so.4()(64bit)                                        jansson-2.10-2.fc27.x86_64
-NetworkManager-team-1:1.8.0-6.fc27.x86_64                         
-├─libjansson.so.4()(64bit)                                        jansson-2.10-2.fc27.x86_64
-├─libteamdctl.so.0()(64bit)                                       teamd-1.27-1.fc27.x86_64
-└─NetworkManager(x86-64) = 1:1.8.0-6.fc27                         NetworkManager-1:1.8.0-6.fc27.x86_64
-authconfig-7.0.1-1.fc27.x86_64                                    
-├─policycoreutils                                                 policycoreutils-2.6-5.fc27.x86_64
-├─python3-sssdconfig                                              python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
-chrony-3.1-5.fc27.x86_64                                          
-cracklib-dicts-2.9.6-5.fc26.x86_64                                
-createrepo_c-0.10.0-9.fc26.x86_64                                 
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-├─libdrpm.so.0()(64bit)                                           drpm-0.3.0-6.fc27.x86_64
-├─libcreaterepo_c.so.0()(64bit)                                   createrepo_c-libs-0.10.0-9.fc26.x86_64
-├─createrepo_c-libs = 0.10.0-9.fc26                               createrepo_c-libs-0.10.0-9.fc26.x86_64
-fcoe-utils-1.0.32-1.fc26.x86_64                                   
-├─device-mapper-multipath                                         device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
-├─libpciaccess.so.0()(64bit)                                      libpciaccess-0.13.4-4.fc26.x86_64
-└─lldpad >= 0.9.43                                                lldpad-1.0.1-6.git036e314.fc26.x86_64
-hfsplus-tools-540.1.linux3-12.fc26.x86_64                         
-isomd5sum-1:1.2.1-1.fc27.x86_64                                   
-kbd-2.0.4-2.fc26.x86_64                                           
-├─kbd-legacy = 2.0.4-2.fc26                                       kbd-legacy-2.0.4-2.fc26.noarch
-├─kbd-misc = 2.0.4-2.fc26                                         kbd-misc-2.0.4-2.fc26.noarch
-└─initscripts >= 5.86-1                                           initscripts-9.72-1.fc27.x86_64
-kexec-tools-2.0.15-4.fc27.x86_64                                  
-├─libsnappy.so.1()(64bit)                                         snappy-1.1.4-3.fc26.x86_64
-├─ethtool                                                         ethtool-2:4.8-2.fc26.x86_64
-└─dracut-network >= 044-117                                       dracut-network-045-18.git20170515.fc27.x86_64
-langtable-data-0.0.37-1.fc26.noarch                               
-└─langtable = 0.0.37-1.fc26                                       langtable-0.0.37-1.fc26.noarch
-langtable-python3-0.0.37-1.fc26.noarch                            
-├─langtable = 0.0.37-1.fc26                                       langtable-0.0.37-1.fc26.noarch
-└─langtable-data = 0.0.37-1.fc26                                  langtable-data-0.0.37-1.fc26.noarch
-libreport-anaconda-2.9.1-2.fc27.x86_64                            
-├─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-├─libreport-plugin-bugzilla = 2.9.1-2.fc27                        libreport-plugin-bugzilla-2.9.1-2.fc27.x86_64
-└─libreport-plugin-reportuploader = 2.9.1-2.fc27                  libreport-plugin-reportuploader-2.9.1-2.fc27.x86_64
-libselinux-python3-2.6-6.fc27.x86_64                              
-python3-blivet-1:2.1.9-2.fc27.noarch                              
-├─python3-gobject-base                                            python3-gobject-base-3.24.1-1.fc27.x86_64
-├─dosfstools                                                      dosfstools-4.1-2.fc26.x86_64
-├─libselinux-python3                                              libselinux-python3-2.6-6.fc27.x86_64
-├─lsof                                                            lsof-4.89-5.fc26.x86_64
-├─python3-kickstart                                               python3-kickstart-2.37-1.fc27.noarch
-├─parted >= 1.8.1                                                 parted-3.2-28.fc27.x86_64
-├─libblockdev-plugins-all >= 2.6                                  libblockdev-plugins-all-2.10-1.fc27.x86_64
-├─python3-blockdev >= 2.6                                         python3-blockdev-2.10-1.fc27.x86_64
-├─python3-bytesize >= 0.3                                         python3-bytesize-0.11-1.fc27.x86_64
-├─python3-pyparted >= 3.10.4                                      python3-pyparted-1:3.11.0-2.fc27.x86_64
-└─python3-pyudev >= 0.18                                          python3-pyudev-0.21.0-3.fc26.noarch
-python3-meh-0.44-4.fc26.noarch                                    
-├─python3-dbus                                                    python3-dbus-1.2.4-6.fc26.x86_64
-├─libreport-cli >= 2.0.18-1                                       libreport-cli-2.9.1-2.fc27.x86_64
-└─libreport-python3 >= 2.0.18-1                                   libreport-python3-2.9.1-2.fc27.x86_64
-python3-ntplib-0.3.3-6.fc26.noarch                                
-python3-ordered-set-2.0.0-6.fc26.noarch                           
-python3-pid-2.1.1-3.fc26.noarch                                   
-python3-pwquality-1.4.0-1.fc27.x86_64                             
-python3-pyparted-1:3.11.0-2.fc27.x86_64                           
-├─libparted.so.2()(64bit)                                         parted-3.2-28.fc27.x86_64
-python3-pytz-2017.2-1.fc27.noarch                                 
-python3-requests-2.18.1-2.fc27.noarch                             
-├─python3-chardet                                                 python3-chardet-3.0.4-1.fc27.noarch
-├─python3-urllib3                                                 python3-urllib3-1.21.1-1.fc27.noarch
-├─python3-idna                                                    python3-idna-2.5-1.fc27.noarch
-python3-requests-file-1.4-6.fc26.noarch                           
-├─python3-requests                                                python3-requests-2.18.1-2.fc27.noarch
-python3-requests-ftp-0.3.1-6.fc26.noarch                          
-├─python3-requests                                                python3-requests-2.18.1-2.fc27.noarch
-python3-wrapt-1.10.10-1.fc27.x86_64                               
-realmd-0.16.3-5.fc27.x86_64                                       
-├─libpolkit-gobject-1.so.0()(64bit)                               polkit-libs-0.113-13.fc27.x86_64
-└─authconfig                                                      authconfig-7.0.1-1.fc27.x86_64
-rsync-3.1.2-5.fc27.x86_64                                         
-teamd-1.27-1.fc27.x86_64                                          
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libjansson.so.4()(64bit)                                        jansson-2.10-2.fc27.x86_64
-├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
-├─libdaemon.so.0()(64bit)                                         libdaemon-0.14-11.fc26.x86_64
-├─libnl-nf-3.so.200()(64bit)                                      libnl3-3.3.0-1.fc27.x86_64
-├─libteam.so.5()(64bit)                                           libteam-1.27-1.fc27.x86_64
-├─libnl-cli-3.so.200()(64bit)                                     libnl3-cli-3.3.0-1.fc27.x86_64
-└─libteam = 1.27-1.fc27                                           libteam-1.27-1.fc27.x86_64
-usermode-1.111-10.fc27.x86_64                                     
-├─libuser.so.1()(64bit)                                           libuser-0.62-7.fc27.x86_64
-└─passwd                                                          passwd-0.79-9.fc26.x86_64
-NetworkManager-wifi-1:1.8.0-6.fc27.x86_64                         
-├─NetworkManager(x86-64) = 1:1.8.0-6.fc27                         NetworkManager-1:1.8.0-6.fc27.x86_64
-└─wpa_supplicant >= 1:1.1                                         wpa_supplicant-1:2.6-7.fc27.x86_64
-adwaita-icon-theme-3.24.0-2.fc27.noarch                           
-└─adwaita-cursor-theme = 3.24.0-2.fc27                            adwaita-cursor-theme-3.24.0-2.fc27.noarch
-anaconda-user-help-26.1-4.fc27.noarch                             
-anaconda-widgets-27.18-1.fc27.x86_64                              
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libxklavier.so.16()(64bit)                                      libxklavier-5.4-7.fc26.x86_64
-├─libgladeui-2.so.6()(64bit)                                      glade-libs-3.20.0-3.fc26.x86_64
-blivet-gui-runtime-2.1.5-2.fc27.noarch                            
-├─python3-gobject                                                 python3-gobject-3.24.1-1.fc27.x86_64
-├─gtk3                                                            gtk3-3.22.17-1.fc27.x86_64
-├─libreport                                                       libreport-2.9.1-2.fc27.x86_64
-├─adwaita-icon-theme                                              adwaita-icon-theme-3.24.0-2.fc27.noarch
-├─PolicyKit-authentication-agent                                  lxpolkit-0.5.3-2.fc26.1.x86_64
-├─python3-pid                                                     python3-pid-2.1.1-3.fc26.noarch
-└─python3-blivet >= 1:2.1                                         python3-blivet-1:2.1.9-2.fc27.noarch
-keybinder3-0.3.2-1.fc27.x86_64                                    
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-└─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-libgnomekbd-3.22.0.1-2.fc26.x86_64                                
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-└─libxklavier.so.16()(64bit)                                      libxklavier-5.4-7.fc26.x86_64
-libtimezonemap-0.4.5-6.fc26.x86_64                                
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libsoup-2.4.so.1()(64bit)                                       libsoup-2.58.1-2.fc27.x86_64
-├─libjson-glib-1.0.so.0()(64bit)                                  json-glib-1.3.2-1.fc27.x86_64
-└─librsvg-2.so.2()(64bit)                                         librsvg2-2.40.17-1.fc27.x86_64
-libxklavier-5.4-7.fc26.x86_64                                     
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXi.so.6()(64bit)                                             libXi-1.7.9-2.fc26.x86_64
-├─iso-codes                                                       iso-codes-3.75-1.fc27.noarch
-└─libxkbfile.so.1()(64bit)                                        libxkbfile-1.0.9-4.fc26.x86_64
-nm-connection-editor-1.8.2-2.fc27.x86_64                          
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libgudev-1.0.so.0()(64bit)                                      libgudev-230-4.fc26.x86_64
-├─libnm.so.0()(64bit)                                             NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libgcr-base-3.so.1()(64bit)                                     gcr-3.20.0-4.fc26.x86_64
-├─libjansson.so.4()(64bit)                                        jansson-2.10-2.fc27.x86_64
-├─libgck-1.so.0()(64bit)                                          gcr-3.20.0-4.fc26.x86_64
-├─libnm.so.0(libnm_1_0_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_2_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libgcr-ui-3.so.1()(64bit)                                       gcr-3.20.0-4.fc26.x86_64
-├─libnma.so.0()(64bit)                                            libnma-1.8.2-2.fc27.x86_64
-├─libnma.so.0(libnma_1_2_0)(64bit)                                libnma-1.8.2-2.fc27.x86_64
-├─libnm.so.0(libnm_1_6_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_8_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_4_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnma.so.0(libnma_1_8_0)(64bit)                                libnma-1.8.2-2.fc27.x86_64
-├─libnma(x86-64) = 1.8.2-2.fc27                                   libnma-1.8.2-2.fc27.x86_64
-└─NetworkManager-glib >= 1:1.1.0                                  NetworkManager-glib-1:1.8.0-6.fc27.x86_64
-python3-meh-gui-0.44-4.fc26.noarch                                
-├─python3-gobject                                                 python3-gobject-3.24.1-1.fc27.x86_64
-├─gtk3                                                            gtk3-3.22.17-1.fc27.x86_64
-├─libreport-gtk >= 2.0.18-1                                       libreport-gtk-2.9.1-2.fc27.x86_64
-└─python3-meh = 0.44-4.fc26                                       python3-meh-0.44-4.fc26.noarch
-tigervnc-server-minimal-1.8.0-2.fc27.x86_64                       
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libGL.so.1()(64bit)                                             libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-├─libjpeg.so.62()(64bit)                                          libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─libICE.so.6()(64bit)                                            libICE-1.0.9-9.fc27.x86_64
-├─libSM.so.6()(64bit)                                             libSM-1.2.2-5.fc26.x86_64
-├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                               libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─initscripts                                                     initscripts-9.72-1.fc27.x86_64
-├─libpixman-1.so.0()(64bit)                                       pixman-0.34.0-3.fc26.x86_64
-├─libXau.so.6()(64bit)                                            libXau-1.0.8-7.fc26.x86_64
-├─libXdmcp.so.6()(64bit)                                          libXdmcp-1.1.2-6.fc27.x86_64
-├─libxshmfence.so.1()(64bit)                                      libxshmfence-1.2-4.fc26.x86_64
-├─xkeyboard-config                                                xkeyboard-config-2.21-1.fc27.noarch
-├─libXfont2.so.2()(64bit)                                         libXfont2-2.0.1-3.fc26.x86_64
-├─xorg-x11-xkb-utils                                              xorg-x11-xkb-utils-7.7-19.fc27.x86_64
-├─tigervnc-license                                                tigervnc-license-1.8.0-2.fc27.noarch
-└─mesa-dri-drivers                                                mesa-dri-drivers-17.1.5-1.fc27.x86_64
-yelp-2:3.25.3-1.fc27.x86_64                                       
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libsoup-2.4.so.1()(64bit)                                       libsoup-2.58.1-2.fc27.x86_64
-├─libxslt.so.1()(64bit)                                           libxslt-1.1.29-2.fc27.x86_64
-├─libwebkit2gtk-4.0.so.37()(64bit)                                webkitgtk4-2.17.4-4.fc27.x86_64
-├─libjavascriptcoregtk-4.0.so.18()(64bit)                         webkitgtk4-jsc-2.17.4-4.fc27.x86_64
-├─libexslt.so.0()(64bit)                                          libxslt-1.1.29-2.fc27.x86_64
-├─yelp-xsl                                                        yelp-xsl-3.20.1-2.fc26.noarch
-├─libyelp.so.0()(64bit)                                           yelp-libs-2:3.25.3-1.fc27.x86_64
-└─yelp-libs(x86-64) = 2:3.25.3-1.fc27                             yelp-libs-2:3.25.3-1.fc27.x86_64
-zenity-3.24.0-1.fc27.x86_64                                       
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-└─libnotify.so.4()(64bit)                                         libnotify-0.7.7-2.fc26.x86_64
 libusb-1:0.1.5-8.fc26.x86_64                                      
-libsepol-devel-2.6-1.fc26.x86_64                                  
-jansson-2.10-2.fc27.x86_64                                        
-NetworkManager-1:1.8.0-6.fc27.x86_64                              
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-├─libpolkit-gobject-1.so.0()(64bit)                               polkit-libs-0.113-13.fc27.x86_64
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
-├─libnm.so.0()(64bit)                                             NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libjansson.so.4()(64bit)                                        jansson-2.10-2.fc27.x86_64
-├─libnm.so.0(libnm_1_0_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_2_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libpolkit-agent-1.so.0()(64bit)                                 polkit-libs-0.113-13.fc27.x86_64
-├─libnm.so.0(libnm_1_6_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libpsl.so.5()(64bit)                                            libpsl-0.17.0-2.fc26.x86_64
-├─libnm.so.0(libnm_1_8_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_4_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libndp.so.0()(64bit)                                            libndp-1.6-2.fc26.x86_64
-├─NetworkManager-libnm(x86-64) = 1:1.8.0-6.fc27                   NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-policycoreutils-2.6-5.fc27.x86_64                                 
-├─libselinux-utils >= 2.6-5                                       libselinux-utils-2.6-6.fc27.x86_64
-python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                    
-createrepo_c-libs-0.10.0-9.fc26.x86_64                            
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-└─libdrpm.so.0()(64bit)                                           drpm-0.3.0-6.fc27.x86_64
-drpm-0.3.0-6.fc27.x86_64                                          
-kbd-legacy-2.0.4-2.fc26.noarch                                    
-kbd-misc-2.0.4-2.fc26.noarch                                      
-dracut-network-045-18.git20170515.fc27.x86_64                     
-ethtool-2:4.8-2.fc26.x86_64                                       
-langtable-0.0.37-1.fc26.noarch                                    
-libreport-2.9.1-2.fc27.x86_64                                     
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-├─libaugeas.so.0(AUGEAS_0.1.0)(64bit)                             augeas-libs-1.8.0-1.fc27.x86_64
-├─lz4                                                             lz4-1.7.5-4.fc27.x86_64
-├─libaugeas.so.0(AUGEAS_0.8.0)(64bit)                             augeas-libs-1.8.0-1.fc27.x86_64
-├─libaugeas.so.0(AUGEAS_0.10.0)(64bit)                            augeas-libs-1.8.0-1.fc27.x86_64
-├─satyr >= 0.22                                                   satyr-0.23-1.fc27.x86_64
-libreport-plugin-bugzilla-2.9.1-2.fc27.x86_64                     
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-├─libjson-c.so.2()(64bit)                                         json-c-0.12.1-2.fc27.x86_64
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libreport.so.0()(64bit)                                         libreport-2.9.1-2.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libproxy.so.1()(64bit)                                          libproxy-0.4.15-2.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-├─libxmlrpc.so.3()(64bit)                                         xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_util.so.4()(64bit)                                    xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_client.so.3()(64bit)                                  xmlrpc-c-client-1.48.0-5.fc27.x86_64
-├─libreport-web.so.0()(64bit)                                     libreport-web-2.9.1-2.fc27.x86_64
-├─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-└─libreport-web = 2.9.1-2.fc27                                    libreport-web-2.9.1-2.fc27.x86_64
-libreport-plugin-reportuploader-2.9.1-2.fc27.x86_64               
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-├─libjson-c.so.2()(64bit)                                         json-c-0.12.1-2.fc27.x86_64
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libreport.so.0()(64bit)                                         libreport-2.9.1-2.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libproxy.so.1()(64bit)                                          libproxy-0.4.15-2.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-├─libxmlrpc.so.3()(64bit)                                         xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_util.so.4()(64bit)                                    xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_client.so.3()(64bit)                                  xmlrpc-c-client-1.48.0-5.fc27.x86_64
-├─libreport-web.so.0()(64bit)                                     libreport-web-2.9.1-2.fc27.x86_64
-├─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-└─libreport-web = 2.9.1-2.fc27                                    libreport-web-2.9.1-2.fc27.x86_64
-lsof-4.89-5.fc26.x86_64                                           
-python3-bytesize-0.11-1.fc27.x86_64                               
-└─libbytesize(x86-64) = 0.11-1.fc27                               libbytesize-0.11-1.fc27.x86_64
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-libreport-cli-2.9.1-2.fc27.x86_64                                 
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libreport.so.0()(64bit)                                         libreport-2.9.1-2.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-└─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-libreport-python3-2.9.1-2.fc27.x86_64                             
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libreport.so.0()(64bit)                                         libreport-2.9.1-2.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-└─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-python3-chardet-3.0.4-1.fc27.noarch                               
-python3-idna-2.5-1.fc27.noarch                                    
-python3-urllib3-1.21.1-1.fc27.noarch                              
-├─python3-pyOpenSSL                                               python3-pyOpenSSL-17.1.0-1.fc27.noarch
-├─python3-cryptography                                            python3-cryptography-1.9-1.fc27.x86_64
-├─python3-idna                                                    python3-idna-2.5-1.fc27.noarch
-├─python3-pysocks                                                 python3-pysocks-1.5.7-4.fc26.noarch
-polkit-libs-0.113-13.fc27.x86_64                                  
-libdaemon-0.14-11.fc26.x86_64                                     
-libteam-1.27-1.fc27.x86_64                                        
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
-├─libnl-nf-3.so.200()(64bit)                                      libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3_2_27)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
-├─libnl-cli-3.so.200()(64bit)                                     libnl3-cli-3.3.0-1.fc27.x86_64
-└─libnl-cli-3.so.200(libnl_3)(64bit)                              libnl3-cli-3.3.0-1.fc27.x86_64
-libuser-0.62-7.fc27.x86_64                                        
-passwd-0.79-9.fc26.x86_64                                         
-├─libuser.so.1()(64bit)                                           libuser-0.62-7.fc27.x86_64
-wpa_supplicant-1:2.6-7.fc27.x86_64                                
-├─libnl-3.so.200()(64bit)                                         libnl3-3.3.0-1.fc27.x86_64
-├─libnl-3.so.200(libnl_3)(64bit)                                  libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.x86_64
-├─libnl-genl-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.x86_64
-├─libnl-route-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.x86_64
-└─libnl-route-3.so.200(libnl_3_2_28)(64bit)                       libnl3-3.3.0-1.fc27.x86_64
-adwaita-cursor-theme-3.24.0-2.fc27.noarch                         
-atk-2.25.2-1.fc27.x86_64                                          
-cairo-1.14.10-2.fc27.x86_64                                       
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-├─libpixman-1.so.0()(64bit)                                       pixman-0.34.0-3.fc26.x86_64
-├─libxcb-shm.so.0()(64bit)                                        libxcb-1.12-3.fc26.x86_64
-└─libxcb-render.so.0()(64bit)                                     libxcb-1.12-3.fc26.x86_64
-cairo-gobject-1.14.10-2.fc27.x86_64                               
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-├─libpixman-1.so.0()(64bit)                                       pixman-0.34.0-3.fc26.x86_64
-├─libxcb-shm.so.0()(64bit)                                        libxcb-1.12-3.fc26.x86_64
-├─libxcb-render.so.0()(64bit)                                     libxcb-1.12-3.fc26.x86_64
-└─cairo(x86-64) = 1.14.10-2.fc27                                  cairo-1.14.10-2.fc27.x86_64
-gdk-pixbuf2-2.36.7-1.fc27.x86_64                                  
-├─shared-mime-info                                                shared-mime-info-1.8-3.fc27.x86_64
-glade-libs-3.20.0-3.fc26.x86_64                                   
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-gtk3-3.22.17-1.fc27.x86_64                                        
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libpangoft2-1.0.so.0()(64bit)                                   pango-1.40.7-1.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─hicolor-icon-theme                                              hicolor-icon-theme-0.15-5.fc27.noarch
-├─libXi.so.6()(64bit)                                             libXi-1.7.9-2.fc26.x86_64
-├─libXrandr.so.2()(64bit)                                         libXrandr-1.5.1-2.fc26.x86_64
-├─libjson-glib-1.0.so.0()(64bit)                                  json-glib-1.3.2-1.fc27.x86_64
-├─libXfixes.so.3()(64bit)                                         libXfixes-5.0.3-2.fc26.x86_64
-├─libXinerama.so.1()(64bit)                                       libXinerama-1.1.3-7.fc26.x86_64
-├─libXcomposite.so.1()(64bit)                                     libXcomposite-0.4.4-9.fc26.x86_64
-├─libXdamage.so.1()(64bit)                                        libXdamage-1.1.4-9.fc26.x86_64
-├─libwayland-client.so.0()(64bit)                                 libwayland-client-1.13.0-1.fc26.x86_64
-├─libxkbcommon.so.0()(64bit)                                      libxkbcommon-0.7.1-3.fc27.x86_64
-├─libXcursor.so.1()(64bit)                                        libXcursor-1.1.14-8.fc26.x86_64
-├─libwayland-egl.so.1()(64bit)                                    mesa-libwayland-egl-17.1.5-1.fc27.x86_64
-├─libwayland-cursor.so.0()(64bit)                                 libwayland-cursor-1.13.0-1.fc26.x86_64
-├─libcups.so.2()(64bit)                                           cups-libs-1:2.2.4-1.fc27.x86_64
-├─libepoxy.so.0()(64bit)                                          libepoxy-1.4.3-1.fc27.x86_64
-├─libxkbcommon.so.0(V_0.5.0)(64bit)                               libxkbcommon-0.7.1-3.fc27.x86_64
-├─librest-0.7.so.0()(64bit)                                       rest-0.8.0-2.fc26.x86_64
-├─libcolord.so.2()(64bit)                                         colord-libs-1.3.5-1.fc26.x86_64
-├─adwaita-icon-theme                                              adwaita-icon-theme-3.24.0-2.fc27.noarch
-├─libatk-bridge-2.0.so.0()(64bit)                                 at-spi2-atk-2.25.3-1.fc27.x86_64
-├─gdk-pixbuf2-modules(x86-64)                                     gdk-pixbuf2-modules-2.36.7-1.fc27.x86_64
-├─gtk-update-icon-cache                                           gtk-update-icon-cache-3.22.17-1.fc27.x86_64
-├─cairo(x86-64) >= 1.14.0                                         cairo-1.14.10-2.fc27.x86_64
-├─atk(x86-64) >= 2.15.1                                           atk-2.25.2-1.fc27.x86_64
-├─cairo-gobject(x86-64) >= 1.14.0                                 cairo-gobject-1.14.10-2.fc27.x86_64
-├─libXrandr(x86-64) >= 1.5.0                                      libXrandr-1.5.1-2.fc26.x86_64
-├─libepoxy(x86-64) >= 1.0                                         libepoxy-1.4.3-1.fc27.x86_64
-├─libwayland-client(x86-64) >= 1.9.91                             libwayland-client-1.13.0-1.fc26.x86_64
-├─libwayland-cursor(x86-64) >= 1.9.91                             libwayland-cursor-1.13.0-1.fc26.x86_64
-└─pango(x86-64) >= 1.37.3                                         pango-1.40.7-1.fc27.x86_64
-pango-1.40.7-1.fc27.x86_64                                        
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-├─libXft.so.2()(64bit)                                            libXft-2.3.2-5.fc26.x86_64
-├─libharfbuzz.so.0()(64bit)                                       harfbuzz-1.4.6-1.fc27.x86_64
-├─libthai.so.0()(64bit)                                           libthai-0.1.25-2.fc26.x86_64
-├─libthai.so.0(LIBTHAI_0.1)(64bit)                                libthai-0.1.25-2.fc26.x86_64
-├─cairo(x86-64) >= 1.12.10                                        cairo-1.14.10-2.fc27.x86_64
-├─fontconfig(x86-64) >= 2.10.91                                   fontconfig-2.12.4-1.fc27.x86_64
-├─harfbuzz(x86-64) >= 1.2.3                                       harfbuzz-1.4.6-1.fc27.x86_64
-├─libXft(x86-64) >= 2.0.0                                         libXft-2.3.2-5.fc26.x86_64
-└─libthai(x86-64) >= 0.1.9                                        libthai-0.1.25-2.fc26.x86_64
-python3-gobject-3.24.1-1.fc27.x86_64                              
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─python3-cairo(x86-64)                                           python3-cairo-1.10.0-20.fc26.x86_64
-└─python3-gobject-base(x86-64) = 3.24.1-1.fc27                    python3-gobject-base-3.24.1-1.fc27.x86_64
-libX11-1.6.5-2.fc27.x86_64                                        
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-└─libX11-common >= 1.6.5-2.fc27                                   libX11-common-1.6.5-2.fc27.noarch
-libXext-1.3.3-5.fc26.x86_64                                       
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-libXrender-0.9.10-2.fc26.x86_64                                   
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-GConf2-3.2.6-17.fc26.x86_64                                       
-├─libdbus-glib-1.so.2()(64bit)                                    dbus-glib-0.108-2.fc26.x86_64
-├─libpolkit-gobject-1.so.0()(64bit)                               polkit-libs-0.113-13.fc27.x86_64
-json-glib-1.3.2-1.fc27.x86_64                                     
-librsvg2-2.40.17-1.fc27.x86_64                                    
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-└─gdk-pixbuf2(x86-64) >= 2.31.5-2.fc24                            gdk-pixbuf2-2.36.7-1.fc27.x86_64
-libsoup-2.58.1-2.fc27.x86_64                                      
-├─glib-networking(x86-64) >= 2.38.0                               glib-networking-2.50.0-2.fc26.x86_64
-iso-codes-3.75-1.fc27.noarch                                      
-libXi-1.7.9-2.fc26.x86_64                                         
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-libxkbfile-1.0.9-4.fc26.x86_64                                    
-└─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-NetworkManager-glib-1:1.8.0-6.fc27.x86_64                         
-├─libdbus-glib-1.so.2()(64bit)                                    dbus-glib-0.108-2.fc26.x86_64
-└─dbus-glib >= 0.100                                              dbus-glib-0.108-2.fc26.x86_64
-gcr-3.20.0-4.fc26.x86_64                                          
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-libgudev-230-4.fc26.x86_64                                        
-libnma-1.8.2-2.fc27.x86_64                                        
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libgudev-1.0.so.0()(64bit)                                      libgudev-230-4.fc26.x86_64
-├─libnm.so.0()(64bit)                                             NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libgcr-base-3.so.1()(64bit)                                     gcr-3.20.0-4.fc26.x86_64
-├─libgck-1.so.0()(64bit)                                          gcr-3.20.0-4.fc26.x86_64
-├─libnm.so.0(libnm_1_0_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_2_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libgcr-ui-3.so.1()(64bit)                                       gcr-3.20.0-4.fc26.x86_64
-├─libnm.so.0(libnm_1_6_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─libnm.so.0(libnm_1_8_0)(64bit)                                  NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
-├─gtk3 >= 3.22.16                                                 gtk3-3.22.17-1.fc27.x86_64
-└─mobile-broadband-provider-info >= 0.20090602                    mobile-broadband-provider-info-1.20170105git-2.fc26.noarch
-libreport-gtk-2.9.1-2.fc27.x86_64                                 
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libreport.so.0()(64bit)                                         libreport-2.9.1-2.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-├─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-├─libreport-plugin-reportuploader = 2.9.1-2.fc27                  libreport-plugin-reportuploader-2.9.1-2.fc27.x86_64
-└─fros >= 1.1-2                                                   fros-1.1-12.fc26.noarch
-libICE-1.0.9-9.fc27.x86_64                                        
-libSM-1.2.2-5.fc26.x86_64                                         
-├─libICE.so.6()(64bit)                                            libICE-1.0.9-9.fc27.x86_64
-libXau-1.0.8-7.fc26.x86_64                                        
-libXdmcp-1.1.2-6.fc27.x86_64                                      
-libXfont2-2.0.1-3.fc26.x86_64                                     
-└─libfontenc.so.1()(64bit)                                        libfontenc-1.1.3-4.fc26.x86_64
-libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64          
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libGLdispatch.so.0()(64bit)                                     libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-├─libglvnd(x86-64) = 1:0.2.999-20.20170620gitd850cdd.fc27         libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-└─mesa-libGL(x86-64) >= 13.0.4-1                                  mesa-libGL-17.1.5-1.fc27.x86_64
-libjpeg-turbo-1.5.1-2.fc27.x86_64                                 
-libxshmfence-1.2-4.fc26.x86_64                                    
-mesa-dri-drivers-17.1.5-1.fc27.x86_64                             
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libdrm.so.2()(64bit)                                            libdrm-2.4.81-1.fc27.x86_64
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-├─libX11-xcb.so.1()(64bit)                                        libX11-1.6.5-2.fc27.x86_64
-├─libLLVM-4.0.so()(64bit)                                         llvm-libs-4.0.1-1.fc27.x86_64
-├─libxcb-xfixes.so.0()(64bit)                                     libxcb-1.12-3.fc26.x86_64
-├─libxshmfence.so.1()(64bit)                                      libxshmfence-1.2-4.fc26.x86_64
-├─libxcb-sync.so.1()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-dri2.so.0()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libdrm_amdgpu.so.1()(64bit)                                     libdrm-2.4.81-1.fc27.x86_64
-├─libdrm_nouveau.so.2()(64bit)                                    libdrm-2.4.81-1.fc27.x86_64
-├─libxcb-dri3.so.0()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-present.so.0()(64bit)                                    libxcb-1.12-3.fc26.x86_64
-├─libdrm_intel.so.1()(64bit)                                      libdrm-2.4.81-1.fc27.x86_64
-├─libdrm_radeon.so.1()(64bit)                                     libdrm-2.4.81-1.fc27.x86_64
-├─libglapi.so.0()(64bit)                                          mesa-libglapi-17.1.5-1.fc27.x86_64
-└─mesa-filesystem(x86-64) = 17.1.5-1.fc27                         mesa-filesystem-17.1.5-1.fc27.x86_64
-pixman-0.34.0-3.fc26.x86_64                                       
-tigervnc-license-1.8.0-2.fc27.noarch                              
-xkeyboard-config-2.21-1.fc27.noarch                               
-xorg-x11-xkb-utils-7.7-19.fc27.x86_64                             
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-└─libxkbfile.so.1()(64bit)                                        libxkbfile-1.0.9-4.fc26.x86_64
-libxslt-1.1.29-2.fc27.x86_64                                      
-yelp-libs-2:3.25.3-1.fc27.x86_64                                  
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libsoup-2.4.so.1()(64bit)                                       libsoup-2.58.1-2.fc27.x86_64
-├─libxslt.so.1()(64bit)                                           libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.11)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-├─libwebkit2gtk-4.0.so.37()(64bit)                                webkitgtk4-2.17.4-4.fc27.x86_64
-├─libexslt.so.0()(64bit)                                          libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.18)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.22)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.13)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-└─libxslt.so.1(LIBXML2_1.1.18)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-yelp-xsl-3.20.1-2.fc26.noarch                                     
-libnotify-0.7.7-2.fc26.x86_64                                     
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-libndp-1.6-2.fc26.x86_64                                          
-libpsl-0.17.0-2.fc26.x86_64                                       
-└─publicsuffix-list-dafsa                                         publicsuffix-list-dafsa-20170424-1.fc27.noarch
-libselinux-utils-2.6-6.fc27.x86_64                                
-augeas-libs-1.8.0-1.fc27.x86_64                                   
-libtar-1.2.20-9.fc26.x86_64                                       
-lz4-1.7.5-4.fc27.x86_64                                           
-satyr-0.23-1.fc27.x86_64                                          
-json-c-0.12.1-2.fc27.x86_64                                       
-libproxy-0.4.15-2.fc27.x86_64                                     
-└─libmodman.so.1()(64bit)                                         libmodman-2.0.1-14.fc27.x86_64
-libreport-web-2.9.1-2.fc27.x86_64                                 
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-├─libjson-c.so.2()(64bit)                                         json-c-0.12.1-2.fc27.x86_64
-├─libsatyr.so.3()(64bit)                                          satyr-0.23-1.fc27.x86_64
-├─libreport.so.0()(64bit)                                         libreport-2.9.1-2.fc27.x86_64
-├─libaugeas.so.0()(64bit)                                         augeas-libs-1.8.0-1.fc27.x86_64
-├─libproxy.so.1()(64bit)                                          libproxy-0.4.15-2.fc27.x86_64
-├─libtar.so.1()(64bit)                                            libtar-1.2.20-9.fc26.x86_64
-├─libxmlrpc.so.3()(64bit)                                         xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_util.so.4()(64bit)                                    xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_client.so.3()(64bit)                                  xmlrpc-c-client-1.48.0-5.fc27.x86_64
-└─libreport = 2.9.1-2.fc27                                        libreport-2.9.1-2.fc27.x86_64
-xmlrpc-c-1.48.0-5.fc27.x86_64                                     
-xmlrpc-c-client-1.48.0-5.fc27.x86_64                              
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-├─libxmlrpc.so.3()(64bit)                                         xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libxmlrpc_util.so.4()(64bit)                                    xmlrpc-c-1.48.0-5.fc27.x86_64
-└─xmlrpc-c(x86-64) = 1.48.0-5.fc27                                xmlrpc-c-1.48.0-5.fc27.x86_64
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-python3-cryptography-1.9-1.fc27.x86_64                            
-├─python3-asn1crypto >= 0.21                                      python3-asn1crypto-0.22.0-2.fc27.noarch
-├─python3-cffi >= 1.7                                             python3-cffi-1.10.0-1.fc27.x86_64
-├─python3-idna >= 2.1                                             python3-idna-2.5-1.fc27.noarch
-python3-pyOpenSSL-17.1.0-1.fc27.noarch                            
-├─python3-cryptography                                            python3-cryptography-1.9-1.fc27.x86_64
-python3-pysocks-1.5.7-4.fc26.noarch                               
-fontconfig-2.12.4-1.fc27.x86_64                                   
-├─fontpackages-filesystem                                         fontpackages-filesystem-1.44-18.fc26.noarch
-├─font(:lang=en)                                                  aajohan-comfortaa-fonts-2.004-7.fc26.noarch
-libxcb-1.12-3.fc26.x86_64                                         
-└─libXau.so.6()(64bit)                                            libXau-1.0.8-7.fc26.x86_64
-shared-mime-info-1.8-3.fc27.x86_64                                
-at-spi2-atk-2.25.3-1.fc27.x86_64                                  
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libatspi.so.0()(64bit)                                          at-spi2-core-2.25.4-1.fc27.x86_64
-├─at-spi2-core(x86-64) >= 2.25.3                                  at-spi2-core-2.25.4-1.fc27.x86_64
-└─atk(x86-64) >= 2.25.2                                           atk-2.25.2-1.fc27.x86_64
-colord-libs-1.3.5-1.fc26.x86_64                                   
-├─liblcms2.so.2()(64bit)                                          lcms2-2.8-3.fc26.x86_64
-├─libgusb.so.2()(64bit)                                           libgusb-0.2.10-1.fc27.x86_64
-├─libgusb.so.2(LIBGUSB_0.1.0)(64bit)                              libgusb-0.2.10-1.fc27.x86_64
-└─libgusb.so.2(LIBGUSB_0.1.1)(64bit)                              libgusb-0.2.10-1.fc27.x86_64
-cups-libs-1:2.2.4-1.fc27.x86_64                                   
-├─libavahi-common.so.3()(64bit)                                   avahi-libs-0.7-1.fc27.x86_64
-└─libavahi-client.so.3()(64bit)                                   avahi-libs-0.7-1.fc27.x86_64
-gdk-pixbuf2-modules-2.36.7-1.fc27.x86_64                          
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libjpeg.so.62()(64bit)                                          libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                               libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─libtiff.so.5()(64bit)                                           libtiff-4.0.8-1.fc27.x86_64
-├─libtiff.so.5(LIBTIFF_4.0)(64bit)                                libtiff-4.0.8-1.fc27.x86_64
-├─libjasper.so.4()(64bit)                                         jasper-libs-2.0.12-1.fc27.x86_64
-└─gdk-pixbuf2(x86-64) = 2.36.7-1.fc27                             gdk-pixbuf2-2.36.7-1.fc27.x86_64
-gtk-update-icon-cache-3.22.17-1.fc27.x86_64                       
-└─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-hicolor-icon-theme-0.15-5.fc27.noarch                             
-libXcomposite-0.4.4-9.fc26.x86_64                                 
-└─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-libXcursor-1.1.14-8.fc26.x86_64                                   
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-├─libXfixes.so.3()(64bit)                                         libXfixes-5.0.3-2.fc26.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-libXdamage-1.1.4-9.fc26.x86_64                                    
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-└─libXfixes.so.3()(64bit)                                         libXfixes-5.0.3-2.fc26.x86_64
-libXfixes-5.0.3-2.fc26.x86_64                                     
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-└─libX11 >= 1.6                                                   libX11-1.6.5-2.fc27.x86_64
-libXinerama-1.1.3-7.fc26.x86_64                                   
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-libXrandr-1.5.1-2.fc26.x86_64                                     
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-└─libX11 >= 1.6.0                                                 libX11-1.6.5-2.fc27.x86_64
-libepoxy-1.4.3-1.fc27.x86_64                                      
-libwayland-client-1.13.0-1.fc26.x86_64                            
-libwayland-cursor-1.13.0-1.fc26.x86_64                            
-└─libwayland-client.so.0()(64bit)                                 libwayland-client-1.13.0-1.fc26.x86_64
-libxkbcommon-0.7.1-3.fc27.x86_64                                  
-└─xkeyboard-config                                                xkeyboard-config-2.21-1.fc27.noarch
-mesa-libwayland-egl-17.1.5-1.fc27.x86_64                          
-rest-0.8.0-2.fc26.x86_64                                          
-├─libsoup-2.4.so.1()(64bit)                                       libsoup-2.58.1-2.fc27.x86_64
-└─libsoup-gnome-2.4.so.1()(64bit)                                 libsoup-2.58.1-2.fc27.x86_64
-harfbuzz-1.4.6-1.fc27.x86_64                                      
-└─libgraphite2.so.3()(64bit)                                      graphite2-1.3.10-1.fc27.x86_64
-libXft-2.3.2-5.fc26.x86_64                                        
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-└─fontconfig >= 2.2-1                                             fontconfig-2.12.4-1.fc27.x86_64
-libthai-0.1.25-2.fc26.x86_64                                      
-├─libdatrie.so.1()(64bit)                                         libdatrie-0.2.9-4.fc26.x86_64
-└─libdatrie.so.1(DATRIE_0.2)(64bit)                               libdatrie-0.2.9-4.fc26.x86_64
-python3-cairo-1.10.0-20.fc26.x86_64                               
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-libX11-common-1.6.5-2.fc27.noarch                                 
-glib-networking-2.50.0-2.fc26.x86_64                              
-├─libproxy.so.1()(64bit)                                          libproxy-0.4.15-2.fc27.x86_64
-├─gsettings-desktop-schemas                                       gsettings-desktop-schemas-3.24.0-1.fc27.x86_64
-mobile-broadband-provider-info-1.20170105git-2.fc26.noarch        
-fros-1.1-12.fc26.noarch                                           
-├─python3-gobject                                                 python3-gobject-3.24.1-1.fc27.x86_64
-libfontenc-1.1.3-4.fc26.x86_64                                    
-libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64              
-mesa-libGL-17.1.5-1.fc27.x86_64                                   
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libXfixes.so.3()(64bit)                                         libXfixes-5.0.3-2.fc26.x86_64
-├─libdrm.so.2()(64bit)                                            libdrm-2.4.81-1.fc27.x86_64
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-├─libXdamage.so.1()(64bit)                                        libXdamage-1.1.4-9.fc26.x86_64
-├─libXxf86vm.so.1()(64bit)                                        libXxf86vm-1.1.4-4.fc26.x86_64
-├─libX11-xcb.so.1()(64bit)                                        libX11-1.6.5-2.fc27.x86_64
-├─libxcb-xfixes.so.0()(64bit)                                     libxcb-1.12-3.fc26.x86_64
-├─libxshmfence.so.1()(64bit)                                      libxshmfence-1.2-4.fc26.x86_64
-├─libxcb-sync.so.1()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-dri2.so.0()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-glx.so.0()(64bit)                                        libxcb-1.12-3.fc26.x86_64
-├─libxcb-dri3.so.0()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-present.so.0()(64bit)                                    libxcb-1.12-3.fc26.x86_64
-├─libglapi.so.0()(64bit)                                          mesa-libglapi-17.1.5-1.fc27.x86_64
-├─libglvnd-glx(x86-64)                                            libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-└─mesa-libglapi(x86-64) = 17.1.5-1.fc27                           mesa-libglapi-17.1.5-1.fc27.x86_64
-libdrm-2.4.81-1.fc27.x86_64                                       
-└─libpciaccess.so.0()(64bit)                                      libpciaccess-0.13.4-4.fc26.x86_64
-llvm-libs-4.0.1-1.fc27.x86_64                                     
-mesa-filesystem-17.1.5-1.fc27.x86_64                              
-mesa-libglapi-17.1.5-1.fc27.x86_64                                
-libmodman-2.0.1-14.fc27.x86_64                                    
-python3-asn1crypto-0.22.0-2.fc27.noarch                           
-python3-cffi-1.10.0-1.fc27.x86_64                                 
-├─python3-pycparser                                               python3-pycparser-2.14-10.fc26.noarch
-fontpackages-filesystem-1.44-18.fc26.noarch                       
-at-spi2-core-2.25.4-1.fc27.x86_64                                 
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXi.so.6()(64bit)                                             libXi-1.7.9-2.fc26.x86_64
-├─libXtst.so.6()(64bit)                                           libXtst-1.2.3-2.fc26.x86_64
-├─libxkbcommon.so.0()(64bit)                                      libxkbcommon-0.7.1-3.fc27.x86_64
-└─libxkbcommon-x11.so.0()(64bit)                                  libxkbcommon-x11-0.7.1-3.fc27.x86_64
-lcms2-2.8-3.fc26.x86_64                                           
-libgusb-0.2.10-1.fc27.x86_64                                      
-avahi-libs-0.7-1.fc27.x86_64                                      
-jasper-libs-2.0.12-1.fc27.x86_64                                  
-├─libjpeg.so.62()(64bit)                                          libjpeg-turbo-1.5.1-2.fc27.x86_64
-└─libjpeg.so.62(LIBJPEG_6.2)(64bit)                               libjpeg-turbo-1.5.1-2.fc27.x86_64
-libtiff-4.0.8-1.fc27.x86_64                                       
-├─libjpeg.so.62()(64bit)                                          libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                               libjpeg-turbo-1.5.1-2.fc27.x86_64
-└─libjbig.so.2.1()(64bit)                                         jbigkit-libs-2.1-6.fc26.x86_64
-graphite2-1.3.10-1.fc27.x86_64                                    
-libdatrie-0.2.9-4.fc26.x86_64                                     
-gsettings-desktop-schemas-3.24.0-1.fc27.x86_64                    
-libXxf86vm-1.1.4-4.fc26.x86_64                                    
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-python3-pycparser-2.14-10.fc26.noarch                             
-├─python3-ply                                                     python3-ply-3.9-3.fc27.noarch
-libXtst-1.2.3-2.fc26.x86_64                                       
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libXi.so.6()(64bit)                                             libXi-1.7.9-2.fc26.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-libxkbcommon-x11-0.7.1-3.fc27.x86_64                              
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-├─libxkbcommon.so.0()(64bit)                                      libxkbcommon-0.7.1-3.fc27.x86_64
-├─libxkbcommon.so.0(V_0.5.0)(64bit)                               libxkbcommon-0.7.1-3.fc27.x86_64
-├─libxcb-xkb.so.1()(64bit)                                        libxcb-1.12-3.fc26.x86_64
-└─libxkbcommon(x86-64) = 0.7.1-3.fc27                             libxkbcommon-0.7.1-3.fc27.x86_64
-jbigkit-libs-2.1-6.fc26.x86_64                                    
-python3-ply-3.9-3.fc27.noarch                                     
-ebtables-2.0.10-22.fc26.x86_64                                    
-publicsuffix-list-20170424-1.fc27.noarch                          
-ipset-6.29-3.fc27.x86_64                                          
-├─libipset.so.3()(64bit)                                          ipset-libs-6.29-3.fc27.x86_64
-├─libipset.so.3(LIBIPSET_1.0)(64bit)                              ipset-libs-6.29-3.fc27.x86_64
-├─libipset.so.3(LIBIPSET_2.0)(64bit)                              ipset-libs-6.29-3.fc27.x86_64
-├─libipset.so.3(LIBIPSET_3.0)(64bit)                              ipset-libs-6.29-3.fc27.x86_64
-└─ipset-libs(x86-64) = 6.29-3.fc27                                ipset-libs-6.29-3.fc27.x86_64
-└─glibc-langpack = 2.25.90-27.fc27                                glibc-langpack-en-2.25.90-27.fc27.x86_64
-glibc-langpack-en-2.25.90-27.fc27.x86_64                          
-webkitgtk4-2.17.4-4.fc27.x86_64                                   
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libicudata.so.57()(64bit)                                       libicu-57.1-4.fc26.x86_64
-├─libicui18n.so.57()(64bit)                                       libicu-57.1-4.fc26.x86_64
-├─libicuuc.so.57()(64bit)                                         libicu-57.1-4.fc26.x86_64
-├─libjavascriptcoregtk-4.0.so.18()(64bit)                         webkitgtk4-jsc-2.17.4-4.fc27.x86_64
-├─libEGL.so.1()(64bit)                                            libglvnd-egl-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-├─libGL.so.1()(64bit)                                             libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-├─libXcomposite.so.1()(64bit)                                     libXcomposite-0.4.4-9.fc26.x86_64
-├─libXdamage.so.1()(64bit)                                        libXdamage-1.1.4-9.fc26.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-├─libXt.so.6()(64bit)                                             libXt-1.1.5-4.fc26.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libenchant.so.1()(64bit)                                        enchant-1:1.6.0-16.fc26.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libgstapp-1.0.so.0()(64bit)                                     gstreamer1-plugins-base-1.12.2-1.fc27.x86_64
-├─libgstaudio-1.0.so.0()(64bit)                                   gstreamer1-plugins-base-1.12.2-1.fc27.x86_64
-├─libgstbase-1.0.so.0()(64bit)                                    gstreamer1-1.12.2-1.fc27.x86_64
-├─libgstfft-1.0.so.0()(64bit)                                     gstreamer1-plugins-base-1.12.2-1.fc27.x86_64
-├─libgstpbutils-1.0.so.0()(64bit)                                 gstreamer1-plugins-base-1.12.2-1.fc27.x86_64
-├─libgstreamer-1.0.so.0()(64bit)                                  gstreamer1-1.12.2-1.fc27.x86_64
-├─libgsttag-1.0.so.0()(64bit)                                     gstreamer1-plugins-base-1.12.2-1.fc27.x86_64
-├─libgstvideo-1.0.so.0()(64bit)                                   gstreamer1-plugins-base-1.12.2-1.fc27.x86_64
-├─libharfbuzz-icu.so.0()(64bit)                                   harfbuzz-icu-1.4.6-1.fc27.x86_64
-├─libharfbuzz.so.0()(64bit)                                       harfbuzz-1.4.6-1.fc27.x86_64
-├─libhyphen.so.0()(64bit)                                         hyphen-2.8.8-6.fc26.x86_64
-├─libjpeg.so.62()(64bit)                                          libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                               libjpeg-turbo-1.5.1-2.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libsecret-1.so.0()(64bit)                                       libsecret-0.18.5-3.fc26.x86_64
-├─libsoup-2.4.so.1()(64bit)                                       libsoup-2.58.1-2.fc27.x86_64
-├─libwayland-client.so.0()(64bit)                                 libwayland-client-1.13.0-1.fc26.x86_64
-├─libwayland-egl.so.1()(64bit)                                    mesa-libwayland-egl-17.1.5-1.fc27.x86_64
-├─libwayland-server.so.0()(64bit)                                 libwayland-server-1.13.0-1.fc26.x86_64
-├─libwebp.so.7()(64bit)                                           libwebp-0.6.0-2.fc26.x86_64
-├─libxslt.so.1()(64bit)                                           libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.11)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.22)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.0.24)(64bit)                             libxslt-1.1.29-2.fc27.x86_64
-├─libxslt.so.1(LIBXML2_1.1.9)(64bit)                              libxslt-1.1.29-2.fc27.x86_64
-├─libcairo-gobject.so.2()(64bit)                                  cairo-gobject-1.14.10-2.fc27.x86_64
-├─libgdk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libgtk-3.so.0()(64bit)                                          gtk3-3.22.17-1.fc27.x86_64
-├─libnotify.so.4()(64bit)                                         libnotify-0.7.7-2.fc26.x86_64
-├─geoclue2                                                        geoclue2-2.4.5-4.fc27.x86_64
-└─webkitgtk4-jsc(x86-64) = 2.17.4-4.fc27                          webkitgtk4-jsc-2.17.4-4.fc27.x86_64
-enchant-1:1.6.0-16.fc26.x86_64                                    
-└─libhunspell-1.5.so.0()(64bit)                                   hunspell-1.5.4-2.fc26.x86_64
-geoclue2-2.4.5-4.fc27.x86_64                                      
-├─libsoup-2.4.so.1()(64bit)                                       libsoup-2.58.1-2.fc27.x86_64
-├─libjson-glib-1.0.so.0()(64bit)                                  json-glib-1.3.2-1.fc27.x86_64
-├─libavahi-common.so.3()(64bit)                                   avahi-libs-0.7-1.fc27.x86_64
-├─libavahi-client.so.3()(64bit)                                   avahi-libs-0.7-1.fc27.x86_64
-├─libavahi-glib.so.1()(64bit)                                     avahi-glib-0.7-1.fc27.x86_64
-└─libmm-glib.so.0()(64bit)                                        ModemManager-glib-1.6.4-2.fc26.x86_64
-gstreamer1-1.12.2-1.fc27.x86_64                                   
-gstreamer1-plugins-base-1.12.2-1.fc27.x86_64                      
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─libasound.so.2()(64bit)                                         alsa-lib-1.1.4.1-1.fc27.x86_64
-├─libasound.so.2(ALSA_0.9)(64bit)                                 alsa-lib-1.1.4.1-1.fc27.x86_64
-├─libogg.so.0()(64bit)                                            libogg-2:1.3.2-6.fc26.x86_64
-├─libasound.so.2(ALSA_0.9.0rc4)(64bit)                            alsa-lib-1.1.4.1-1.fc27.x86_64
-├─libgstreamer-1.0.so.0()(64bit)                                  gstreamer1-1.12.2-1.fc27.x86_64
-├─libvorbis.so.0()(64bit)                                         libvorbis-1:1.3.5-2.fc26.x86_64
-├─libgstbase-1.0.so.0()(64bit)                                    gstreamer1-1.12.2-1.fc27.x86_64
-├─libvorbisenc.so.2()(64bit)                                      libvorbis-1:1.3.5-2.fc26.x86_64
-├─libtheoradec.so.1()(64bit)                                      libtheora-1:1.1.1-15.fc26.x86_64
-├─libtheoraenc.so.1()(64bit)                                      libtheora-1:1.1.1-15.fc26.x86_64
-├─libXv.so.1()(64bit)                                             libXv-1.0.11-2.fc26.x86_64
-├─libopus.so.0()(64bit)                                           opus-1.2.1-1.fc27.x86_64
-├─iso-codes                                                       iso-codes-3.75-1.fc27.noarch
-├─libtheoradec.so.1(libtheoradec_1.0)(64bit)                      libtheora-1:1.1.1-15.fc26.x86_64
-├─liborc-0.4.so.0()(64bit)                                        orc-0.4.26-2.fc26.x86_64
-├─libcdda_interface.so.0()(64bit)                                 cdparanoia-libs-10.2-22.fc26.x86_64
-├─libcdda_paranoia.so.0()(64bit)                                  cdparanoia-libs-10.2-22.fc26.x86_64
-├─libtheoraenc.so.1(libtheoraenc_1.0)(64bit)                      libtheora-1:1.1.1-15.fc26.x86_64
-├─libgstnet-1.0.so.0()(64bit)                                     gstreamer1-1.12.2-1.fc27.x86_64
-├─libvisual-0.4.so.0()(64bit)                                     libvisual-1:0.4.0-21.fc26.x86_64
-└─libasound.so.2(ALSA_0.9.0rc8)(64bit)                            alsa-lib-1.1.4.1-1.fc27.x86_64
-harfbuzz-icu-1.4.6-1.fc27.x86_64                                  
-├─libicuuc.so.57()(64bit)                                         libicu-57.1-4.fc26.x86_64
-├─libicudata.so.57()(64bit)                                       libicu-57.1-4.fc26.x86_64
-├─libharfbuzz.so.0()(64bit)                                       harfbuzz-1.4.6-1.fc27.x86_64
-└─harfbuzz(x86-64) = 1.4.6-1.fc27                                 harfbuzz-1.4.6-1.fc27.x86_64
-hyphen-2.8.8-6.fc26.x86_64                                        
-libXt-1.1.5-4.fc26.x86_64                                         
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libICE.so.6()(64bit)                                            libICE-1.0.9-9.fc27.x86_64
-├─libSM.so.6()(64bit)                                             libSM-1.2.2-5.fc26.x86_64
-└─libX11(x86-64) >= 1.5.99.902                                    libX11-1.6.5-2.fc27.x86_64
-libglvnd-egl-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64          
-├─libGLdispatch.so.0()(64bit)                                     libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-├─libglvnd(x86-64) = 1:0.2.999-20.20170620gitd850cdd.fc27         libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-└─mesa-libEGL(x86-64) >= 13.0.4-1                                 mesa-libEGL-17.1.5-1.fc27.x86_64
-libicu-57.1-4.fc26.x86_64                                         
-libsecret-0.18.5-3.fc26.x86_64                                    
-libwayland-server-1.13.0-1.fc26.x86_64                            
-libwebp-0.6.0-2.fc26.x86_64                                       
-webkitgtk4-jsc-2.17.4-4.fc27.x86_64                               
-├─libicudata.so.57()(64bit)                                       libicu-57.1-4.fc26.x86_64
-├─libicui18n.so.57()(64bit)                                       libicu-57.1-4.fc26.x86_64
-├─libicuuc.so.57()(64bit)                                         libicu-57.1-4.fc26.x86_64
-hunspell-1.5.4-2.fc26.x86_64                                      
-└─hunspell-en-US                                                  hunspell-en-US-0.20140811.1-6.fc26.noarch
-ModemManager-glib-1.6.4-2.fc26.x86_64                             
-avahi-glib-0.7-1.fc27.x86_64                                      
-├─libavahi-common.so.3()(64bit)                                   avahi-libs-0.7-1.fc27.x86_64
-└─avahi-libs(x86-64) = 0.7-1.fc27                                 avahi-libs-0.7-1.fc27.x86_64
-alsa-lib-1.1.4.1-1.fc27.x86_64                                    
-cdparanoia-libs-10.2-22.fc26.x86_64                               
-libXv-1.0.11-2.fc26.x86_64                                        
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-└─libX11 >= 1.5.99.902                                            libX11-1.6.5-2.fc27.x86_64
-libogg-2:1.3.2-6.fc26.x86_64                                      
-libtheora-1:1.1.1-15.fc26.x86_64                                  
-└─libogg.so.0()(64bit)                                            libogg-2:1.3.2-6.fc26.x86_64
-libvisual-1:0.4.0-21.fc26.x86_64                                  
-libvorbis-1:1.3.5-2.fc26.x86_64                                   
-└─libogg.so.0()(64bit)                                            libogg-2:1.3.2-6.fc26.x86_64
-opus-1.2.1-1.fc27.x86_64                                          
-orc-0.4.26-2.fc26.x86_64                                          
-mesa-libEGL-17.1.5-1.fc27.x86_64                                  
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libdrm.so.2()(64bit)                                            libdrm-2.4.81-1.fc27.x86_64
-├─libxcb.so.1()(64bit)                                            libxcb-1.12-3.fc26.x86_64
-├─libwayland-client.so.0()(64bit)                                 libwayland-client-1.13.0-1.fc26.x86_64
-├─libgbm.so.1()(64bit)                                            mesa-libgbm-17.1.5-1.fc27.x86_64
-├─libwayland-server.so.0()(64bit)                                 libwayland-server-1.13.0-1.fc26.x86_64
-├─libX11-xcb.so.1()(64bit)                                        libX11-1.6.5-2.fc27.x86_64
-├─libxcb-xfixes.so.0()(64bit)                                     libxcb-1.12-3.fc26.x86_64
-├─libxshmfence.so.1()(64bit)                                      libxshmfence-1.2-4.fc26.x86_64
-├─libxcb-sync.so.1()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-dri2.so.0()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-dri3.so.0()(64bit)                                       libxcb-1.12-3.fc26.x86_64
-├─libxcb-present.so.0()(64bit)                                    libxcb-1.12-3.fc26.x86_64
-└─libglvnd-egl(x86-64)                                            libglvnd-egl-1:0.2.999-20.20170620gitd850cdd.fc27.x86_64
-hunspell-en-US-0.20140811.1-6.fc26.noarch                         
-└─hunspell                                                        hunspell-1.5.4-2.fc26.x86_64
-mesa-libgbm-17.1.5-1.fc27.x86_64                                  
-├─libdrm.so.2()(64bit)                                            libdrm-2.4.81-1.fc27.x86_64
-├─libwayland-client.so.0()(64bit)                                 libwayland-client-1.13.0-1.fc26.x86_64
-└─libwayland-server.so.0()(64bit)                                 libwayland-server-1.13.0-1.fc26.x86_64
+publicsuffix-list-20170424-2.fc27.noarch                          
+publicsuffix-list-dafsa-20170424-2.fc27.noarch                    
+glib2-devel-2.53.5-1.fc27.x86_64                                  
+├─pkgconfig(libpcre)                                              pcre-devel-8.41-1.fc27.2.x86_64
+libuser-0.62-9.fc27.x86_64                                        
 systemd-devel-234-5.fc27.x86_64                                   
-├─curl                                                            curl-minimal-7.54.1-2.fc27.x86_64
-parted-3.2-28.fc27.x86_64                                         
-python3-kickstart-2.37-1.fc27.noarch                              
-├─python3-ordered-set                                             python3-ordered-set-2.0.0-6.fc26.noarch
-├─python3-requests                                                python3-requests-2.18.1-2.fc27.noarch
+└─dbus >= 1.9.18                                                  dbus-1:1.11.16-4.fc27.x86_64
+pcre-devel-8.41-1.fc27.2.x86_64                                   
+├─libpcre16.so.0()(64bit)                                         pcre-utf16-8.41-1.fc27.2.x86_64
+├─libpcre32.so.0()(64bit)                                         pcre-utf32-8.41-1.fc27.2.x86_64
+├─libpcrecpp.so.0()(64bit)                                        pcre-cpp-8.41-1.fc27.2.x86_64
+├─pcre-cpp(x86-64) = 8.41-1.fc27.2                                pcre-cpp-8.41-1.fc27.2.x86_64
+├─pcre-utf16(x86-64) = 8.41-1.fc27.2                              pcre-utf16-8.41-1.fc27.2.x86_64
+└─pcre-utf32(x86-64) = 8.41-1.fc27.2                              pcre-utf32-8.41-1.fc27.2.x86_64
+pcre-cpp-8.41-1.fc27.2.x86_64                                     
+pcre-utf16-8.41-1.fc27.2.x86_64                                   
+pcre-utf32-8.41-1.fc27.2.x86_64                                   
+parted-3.2-26.fc27.x86_64                                         
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64            
-├─libmpathcmd.so.0()(64bit)                                       device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.x86_64
 ├─initscripts                                                     initscripts-9.72-1.fc27.x86_64
+├─libmpathcmd.so.0()(64bit)                                       device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.x86_64
 ├─libmpathpersist.so.0()(64bit)                                   device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.x86_64
 ├─libmultipath.so.0()(64bit)                                      device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.x86_64
 ├─liburcu.so.6()(64bit)                                           userspace-rcu-0.10.0-1.fc27.x86_64
@@ -1342,90 +357,47 @@ boost-thread-1.63.0-9.fc27.x86_64
 lttng-ust-2.9.1-2.fc27.x86_64                                     
 ├─liburcu-cds.so.6()(64bit)                                       userspace-rcu-0.10.0-1.fc27.x86_64
 └─liburcu-bp.so.6()(64bit)                                        userspace-rcu-0.10.0-1.fc27.x86_64
-firewalld-0.4.4.5-3.fc27.noarch                                   
-├─ebtables                                                        ebtables-2.0.10-22.fc26.x86_64
-├─ipset                                                           ipset-6.29-3.fc27.x86_64
-├─firewalld-filesystem = 0.4.4.5-3.fc27                           firewalld-filesystem-0.4.4.5-3.fc27.noarch
-└─python3-firewall = 0.4.4.5-3.fc27                               python3-firewall-0.4.4.5-3.fc27.noarch
-firewalld-filesystem-0.4.4.5-3.fc27.noarch                        
-python3-firewall-0.4.4.5-3.fc27.noarch                            
+device-mapper-event-1.02.142-4.fc27.x86_64                        
+├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.142-4.fc27.x86_64
+└─device-mapper-event-libs = 1.02.142-4.fc27                      device-mapper-event-libs-1.02.142-4.fc27.x86_64
+device-mapper-devel-1.02.142-4.fc27.x86_64                        
+├─pkgconfig(libselinux)                                           libselinux-devel-2.7-1.fc27.x86_64
+├─pkgconfig(libudev)                                              systemd-devel-234-5.fc27.x86_64
+device-mapper-event-libs-1.02.142-4.fc27.x86_64                   
+libselinux-devel-2.7-1.fc27.x86_64                                
+└─libsepol-devel(x86-64) >= 2.7-1                                 libsepol-devel-2.7-1.fc27.x86_64
+lvm2-2.02.173-4.fc27.x86_64                                       
+├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─liblvm2app.so.2.2()(64bit)                                      lvm2-libs-2.02.173-4.fc27.x86_64
+├─liblvm2app.so.2.2(Base)(64bit)                                  lvm2-libs-2.02.173-4.fc27.x86_64
+├─lvm2-libs = 2.02.173-4.fc27                                     lvm2-libs-2.02.173-4.fc27.x86_64
+├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                  device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.x86_64
+libsepol-devel-2.7-1.fc27.x86_64                                  
+lvm2-libs-2.02.173-4.fc27.x86_64                                  
+├─libdevmapper-event.so.1.02()(64bit)                             device-mapper-event-libs-1.02.142-4.fc27.x86_64
+├─libdevmapper-event.so.1.02(Base)(64bit)                         device-mapper-event-libs-1.02.142-4.fc27.x86_64
+└─device-mapper-event = 1.02.142-4.fc27                           device-mapper-event-1.02.142-4.fc27.x86_64
+lvm2-dbusd-2.02.173-4.fc27.x86_64                                 
+├─dbus                                                            dbus-1:1.11.16-4.fc27.x86_64
 ├─python3-dbus                                                    python3-dbus-1.2.4-6.fc26.x86_64
-├─python3-decorator                                               python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-gobject-base                                            python3-gobject-base-3.24.1-1.fc27.x86_64
-├─python3-slip-dbus                                               python3-slip-dbus-0.6.4-6.fc26.noarch
-python3-decorator-4.0.11-2.fc26.noarch                            
-python3-slip-dbus-0.6.4-6.fc26.noarch                             
-├─python3-decorator                                               python3-decorator-4.0.11-2.fc26.noarch
-├─python3-slip = 0.6.4-6.fc26                                     python3-slip-0.6.4-6.fc26.noarch
-└─python3-dbus >= 0.80                                            python3-dbus-1.2.4-6.fc26.x86_64
-python3-slip-0.6.4-6.fc26.noarch                                  
-├─libselinux-python3                                              libselinux-python3-2.6-6.fc27.x86_64
-python3-coverage-4.4.1-2.fc27.x86_64                              
-libcurl-minimal-7.54.1-2.fc27.x86_64                              
-aajohan-comfortaa-fonts-2.004-7.fc26.noarch                       
-└─fontpackages-filesystem                                         fontpackages-filesystem-1.44-18.fc26.noarch
-lxpolkit-0.5.3-2.fc26.1.x86_64                                    
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libgtk-x11-2.0.so.0()(64bit)                                    gtk2-2.24.31-4.fc27.x86_64
-├─libgdk-x11-2.0.so.0()(64bit)                                    gtk2-2.24.31-4.fc27.x86_64
-├─libpangoft2-1.0.so.0()(64bit)                                   pango-1.40.7-1.fc27.x86_64
-├─libpolkit-gobject-1.so.0()(64bit)                               polkit-libs-0.113-13.fc27.x86_64
-├─libpolkit-agent-1.so.0()(64bit)                                 polkit-libs-0.113-13.fc27.x86_64
-├─libunique-1.0.so.0()(64bit)                                     unique-1.1.6-16.fc26.x86_64
-└─polkit >= 0.95                                                  polkit-0.113-13.fc27.x86_64
-gtk2-2.24.31-4.fc27.x86_64                                        
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libpangoft2-1.0.so.0()(64bit)                                   pango-1.40.7-1.fc27.x86_64
-├─libXext.so.6()(64bit)                                           libXext-1.3.3-5.fc26.x86_64
-├─hicolor-icon-theme                                              hicolor-icon-theme-0.15-5.fc27.noarch
-├─libXi.so.6()(64bit)                                             libXi-1.7.9-2.fc26.x86_64
-├─libXrandr.so.2()(64bit)                                         libXrandr-1.5.1-2.fc26.x86_64
-├─libXrender.so.1()(64bit)                                        libXrender-0.9.10-2.fc26.x86_64
-├─libXfixes.so.3()(64bit)                                         libXfixes-5.0.3-2.fc26.x86_64
-├─libXinerama.so.1()(64bit)                                       libXinerama-1.1.3-7.fc26.x86_64
-├─libXcomposite.so.1()(64bit)                                     libXcomposite-0.4.4-9.fc26.x86_64
-├─libXdamage.so.1()(64bit)                                        libXdamage-1.1.4-9.fc26.x86_64
-├─libXcursor.so.1()(64bit)                                        libXcursor-1.1.14-8.fc26.x86_64
-├─libcups.so.2()(64bit)                                           cups-libs-1:2.2.4-1.fc27.x86_64
-├─gdk-pixbuf2-modules(x86-64)                                     gdk-pixbuf2-modules-2.36.7-1.fc27.x86_64
-├─gtk-update-icon-cache                                           gtk-update-icon-cache-3.22.17-1.fc27.x86_64
-├─atk >= 1.29.4-2                                                 atk-2.25.2-1.fc27.x86_64
-├─libXrandr >= 1.2.99.4-2                                         libXrandr-1.5.1-2.fc26.x86_64
-└─pango >= 1.20.0-1                                               pango-1.40.7-1.fc27.x86_64
-polkit-0.113-13.fc27.x86_64                                       
-├─libpolkit-gobject-1.so.0()(64bit)                               polkit-libs-0.113-13.fc27.x86_64
-├─libpolkit-agent-1.so.0()(64bit)                                 polkit-libs-0.113-13.fc27.x86_64
-├─polkit-pkla-compat                                              polkit-pkla-compat-0.1-8.fc26.x86_64
-├─libmozjs-17.0.so()(64bit)                                       mozjs17-17.0.0-19.fc27.x86_64
-├─libmozjs-17.0.so(mozjs_17.0)(64bit)                             mozjs17-17.0.0-19.fc27.x86_64
-└─polkit-libs(x86-64) = 0.113-13.fc27                             polkit-libs-0.113-13.fc27.x86_64
-unique-1.1.6-16.fc26.x86_64                                       
-├─libcairo.so.2()(64bit)                                          cairo-1.14.10-2.fc27.x86_64
-├─libgdk_pixbuf-2.0.so.0()(64bit)                                 gdk-pixbuf2-2.36.7-1.fc27.x86_64
-├─libpango-1.0.so.0()(64bit)                                      pango-1.40.7-1.fc27.x86_64
-├─libX11.so.6()(64bit)                                            libX11-1.6.5-2.fc27.x86_64
-├─libpangocairo-1.0.so.0()(64bit)                                 pango-1.40.7-1.fc27.x86_64
-├─libatk-1.0.so.0()(64bit)                                        atk-2.25.2-1.fc27.x86_64
-├─libfontconfig.so.1()(64bit)                                     fontconfig-2.12.4-1.fc27.x86_64
-├─libgtk-x11-2.0.so.0()(64bit)                                    gtk2-2.24.31-4.fc27.x86_64
-├─libgdk-x11-2.0.so.0()(64bit)                                    gtk2-2.24.31-4.fc27.x86_64
-├─libpangoft2-1.0.so.0()(64bit)                                   pango-1.40.7-1.fc27.x86_64
-└─libdbus-glib-1.so.2()(64bit)                                    dbus-glib-0.108-2.fc26.x86_64
-mozjs17-17.0.0-19.fc27.x86_64                                     
-polkit-pkla-compat-0.1-8.fc26.x86_64                              
-└─libpolkit-gobject-1.so.0()(64bit)                               polkit-libs-0.113-13.fc27.x86_64
-curl-minimal-7.54.1-2.fc27.x86_64                                 
-├─libcurl.so.4()(64bit)                                           libcurl-minimal-7.54.1-2.fc27.x86_64
-└─libcurl(x86-64) >= 7.54.1-2.fc27                                libcurl-minimal-7.54.1-2.fc27.x86_64
+├─python3-pyudev                                                  python3-pyudev-0.21.0-3.fc26.noarch
+└─lvm2 >= 2.02.173-4.fc27                                         lvm2-2.02.173-4.fc27.x86_64
+python3-dbus-1.2.4-6.fc26.x86_64                                  
+├─libdbus-1.so.3()(64bit)                                         dbus-libs-1:1.11.16-4.fc27.x86_64
+├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                              dbus-libs-1:1.11.16-4.fc27.x86_64
+├─libdbus-glib-1.so.2()(64bit)                                    dbus-glib-0.108-2.fc26.x86_64
+python3-pyudev-0.21.0-3.fc26.noarch                               
+dbus-glib-0.108-2.fc26.x86_64                                     
+├─libdbus-1.so.3()(64bit)                                         dbus-libs-1:1.11.16-4.fc27.x86_64
+└─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                              dbus-libs-1:1.11.16-4.fc27.x86_64
+└─emacs-filesystem >= 25.2                                        emacs-filesystem-1:25.2-7.fc27.noarch
+dbus-libs-1:1.11.16-4.fc27.x86_64                                 
+dbus-1:1.11.16-4.fc27.x86_64                                      
+├─libdbus-1.so.3()(64bit)                                         dbus-libs-1:1.11.16-4.fc27.x86_64
+├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                              dbus-libs-1:1.11.16-4.fc27.x86_64
+├─libdbus-1.so.3(LIBDBUS_PRIVATE_1.11.16)(64bit)                  dbus-libs-1:1.11.16-4.fc27.x86_64
+├─dbus-libs(x86-64) = 1:1.11.16-4.fc27                            dbus-libs-1:1.11.16-4.fc27.x86_64
+emacs-filesystem-1:25.2-7.fc27.noarch                             

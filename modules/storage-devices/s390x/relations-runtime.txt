@@ -2,6 +2,40 @@ ceph-1:10.2.7-2.fc27.s390x
 ├─ceph-mds = 1:10.2.7-2.fc27                              ceph-mds-1:10.2.7-2.fc27.s390x
 ├─ceph-mon = 1:10.2.7-2.fc27                              ceph-mon-1:10.2.7-2.fc27.s390x
 └─ceph-osd = 1:10.2.7-2.fc27                              ceph-osd-1:10.2.7-2.fc27.s390x
+ceph-base-1:10.2.7-2.fc27.s390x                           
+├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
+├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
+├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
+├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
+├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
+├─cryptsetup                                              cryptsetup-1.7.5-3.fc27.s390x
+├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.s390x
+├─hdparm                                                  hdparm-9.51-1.fc27.s390x
+├─redhat-lsb-core                                         redhat-lsb-core-4.1-34.fc26.s390x
+├─liblttng-ust.so.0()(64bit)                              lttng-ust-2.9.1-2.fc27.s390x
+├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
+├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.s390x
+├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.s390x
+├─ceph-common = 1:10.2.7-2.fc27                           ceph-common-1:10.2.7-2.fc27.s390x
+├─ceph-selinux = 1:10.2.7-2.fc27                          ceph-selinux-1:10.2.7-2.fc27.s390x
+└─librgw2 = 1:10.2.7-2.fc27                               librgw2-1:10.2.7-2.fc27.s390x
+ceph-common-1:10.2.7-2.fc27.s390x                         
+├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
+├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
+├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
+├─libboost_regex.so.1.63.0()(64bit)                       boost-regex-1.63.0-9.fc27.s390x
+├─libboost_program_options.so.1.63.0()(64bit)             boost-program-options-1.63.0-9.fc27.s390x
+├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
+├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
+├─librbd.so.1()(64bit)                                    librbd1-1:10.2.7-2.fc27.s390x
+├─libradosstriper.so.1()(64bit)                           libradosstriper1-1:10.2.7-2.fc27.s390x
+├─librgw.so.2()(64bit)                                    librgw2-1:10.2.7-2.fc27.s390x
+├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
+├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.s390x
+├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.s390x
+├─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.s390x
+├─python-cephfs = 1:10.2.7-2.fc27                         python-cephfs-1:10.2.7-2.fc27.s390x
+└─python-rbd = 1:10.2.7-2.fc27                            python-rbd-1:10.2.7-2.fc27.s390x
 ceph-mds-1:10.2.7-2.fc27.s390x                            
 ├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
@@ -23,69 +57,21 @@ ceph-osd-1:10.2.7-2.fc27.s390x
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
 ├─libleveldb.so.1()(64bit)                                leveldb-1.18-1.fc26.s390x
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.s390x
-boost-iostreams-1.63.0-9.fc27.s390x                       
-boost-system-1.63.0-9.fc27.s390x                          
-boost-thread-1.63.0-9.fc27.s390x                          
-├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
-└─boost-system(s390-64) = 1.63.0-9.fc27                   boost-system-1.63.0-9.fc27.s390x
-ceph-base-1:10.2.7-2.fc27.s390x                           
-├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
-├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
-├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
-├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
-├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
-├─cryptsetup                                              cryptsetup-1.7.5-1.fc27.s390x
-├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.s390x
-├─hdparm                                                  hdparm-9.51-1.fc27.s390x
-├─redhat-lsb-core                                         redhat-lsb-core-4.1-34.fc26.s390x
-├─liblttng-ust.so.0()(64bit)                              lttng-ust-2.9.1-2.fc27.s390x
-├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
-├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.s390x
-├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.s390x
-├─ceph-common = 1:10.2.7-2.fc27                           ceph-common-1:10.2.7-2.fc27.s390x
-├─ceph-selinux = 1:10.2.7-2.fc27                          ceph-selinux-1:10.2.7-2.fc27.s390x
-└─librgw2 = 1:10.2.7-2.fc27                               librgw2-1:10.2.7-2.fc27.s390x
-boost-random-1.63.0-9.fc27.s390x                          
-└─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
-leveldb-1.18-1.fc26.s390x                                 
-python2-flask-1:0.11.1-5.fc26.noarch                      
-├─python-jinja2                                           python2-jinja2-2.9.6-1.fc27.noarch
-├─python-click                                            python2-click-6.7-3.fc26.noarch
-├─python-werkzeug                                         python-werkzeug-0.11.10-5.fc26.noarch
-├─python-itsdangerous                                     python2-itsdangerous-0.24-10.fc27.noarch
-boost-program-options-1.63.0-9.fc27.s390x                 
-ceph-common-1:10.2.7-2.fc27.s390x                         
-├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
-├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
-├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
-├─libboost_regex.so.1.63.0()(64bit)                       boost-regex-1.63.0-9.fc27.s390x
-├─libboost_program_options.so.1.63.0()(64bit)             boost-program-options-1.63.0-9.fc27.s390x
-├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
-├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
-├─librbd.so.1()(64bit)                                    librbd1-1:10.2.7-2.fc27.s390x
-├─libradosstriper.so.1()(64bit)                           libradosstriper1-1:10.2.7-2.fc27.s390x
-├─librgw.so.2()(64bit)                                    librgw2-1:10.2.7-2.fc27.s390x
-├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
-├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.s390x
-├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.s390x
-├─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.s390x
-├─python-cephfs = 1:10.2.7-2.fc27                         python-cephfs-1:10.2.7-2.fc27.s390x
-└─python-rbd = 1:10.2.7-2.fc27                            python-rbd-1:10.2.7-2.fc27.s390x
 ceph-selinux-1:10.2.7-2.fc27.s390x                        
+├─libselinux-utils                                        libselinux-utils-2.7-1.fc27.s390x
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.s390x
-cryptsetup-1.7.5-1.fc27.s390x                             
-hdparm-9.51-1.fc27.s390x                                  
 libcephfs1-1:10.2.7-2.fc27.s390x                          
 ├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
-librados2-1:10.2.7-2.fc27.s390x                           
+libradosstriper1-1:10.2.7-2.fc27.s390x                    
 ├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
-└─liblttng-ust.so.0()(64bit)                              lttng-ust-2.9.1-2.fc27.s390x
+├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
+└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
 librbd1-1:10.2.7-2.fc27.s390x                             
 ├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
@@ -102,6 +88,31 @@ librgw2-1:10.2.7-2.fc27.s390x
 ├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
 ├─libfcgi.so.0()(64bit)                                   fcgi-2.4.0-30.fc26.s390x
 └─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
+python-cephfs-1:10.2.7-2.fc27.s390x                       
+├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.s390x
+├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.s390x
+└─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.s390x
+python-rados-1:10.2.7-2.fc27.s390x                        
+├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
+└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
+python-rbd-1:10.2.7-2.fc27.s390x                          
+├─librbd.so.1()(64bit)                                    librbd1-1:10.2.7-2.fc27.s390x
+├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.s390x
+└─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.s390x
+boost-iostreams-1.63.0-9.fc27.s390x                       
+boost-random-1.63.0-9.fc27.s390x                          
+└─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
+boost-system-1.63.0-9.fc27.s390x                          
+boost-thread-1.63.0-9.fc27.s390x                          
+├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
+└─boost-system(s390-64) = 1.63.0-9.fc27                   boost-system-1.63.0-9.fc27.s390x
+hdparm-9.51-1.fc27.s390x                                  
+librados2-1:10.2.7-2.fc27.s390x                           
+├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
+├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
+├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
+├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
+└─liblttng-ust.so.0()(64bit)                              lttng-ust-2.9.1-2.fc27.s390x
 lttng-ust-2.9.1-2.fc27.s390x                              
 python2-requests-2.18.1-2.fc27.noarch                     
 ├─python-chardet                                          python-chardet-3.0.4-1.fc27.noarch
@@ -116,39 +127,29 @@ redhat-lsb-core-4.1-34.fc26.s390x
 ├─/usr/bin/bc                                             bc-1.07.1-1.fc27.s390x
 ├─/usr/bin/lp                                             cups-client-1:2.2.4-1.fc27.s390x
 ├─/usr/bin/lpr                                            cups-client-1:2.2.4-1.fc27.s390x
-├─ncurses-compat-libs(s390-64)                            ncurses-compat-libs-6.0-10.20170520.fc27.s390x
+├─ncurses-compat-libs(s390-64)                            ncurses-compat-libs-6.0-13.20170722.fc27.s390x
 ├─/bin/ed                                                 ed-1.14.1-2.fc26.s390x
 ├─/bin/mailx                                              mailx-12.5-20.fc26.s390x
 ├─/usr/bin/at                                             at-3.1.20-4.fc27.s390x
 ├─/usr/bin/batch                                          at-3.1.20-4.fc27.s390x
-├─/usr/bin/chfn                                           util-linux-user-2.30-1.fc27.s390x
-├─/usr/bin/chsh                                           util-linux-user-2.30-1.fc27.s390x
+├─/usr/bin/chfn                                           util-linux-user-2.30.1-1.fc27.s390x
+├─/usr/bin/chsh                                           util-linux-user-2.30.1-1.fc27.s390x
+├─/usr/bin/gettext                                        gettext-0.19.8.1-9.fc27.s390x
+├─/usr/bin/msgfmt                                         gettext-0.19.8.1-9.fc27.s390x
 └─redhat-lsb-submod-security(s390-64) = 4.1-34.fc26       redhat-lsb-submod-security-4.1-34.fc26.s390x
-python-werkzeug-0.11.10-5.fc26.noarch                     
-python2-click-6.7-3.fc26.noarch                           
-python2-itsdangerous-0.24-10.fc27.noarch                  
-python2-jinja2-2.9.6-1.fc27.noarch                        
-├─python-markupsafe                                       python2-markupsafe-0.23-13.fc26.s390x
-└─python2-babel >= 0.8                                    python2-babel-2.3.4-5.fc26.noarch
+boost-program-options-1.63.0-9.fc27.s390x                 
 boost-regex-1.63.0-9.fc27.s390x                           
-libradosstriper1-1:10.2.7-2.fc27.s390x                    
-├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.s390x
-├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.s390x
-├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.s390x
-├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.s390x
-├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
-└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
-python-cephfs-1:10.2.7-2.fc27.s390x                       
-├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.s390x
-├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.s390x
-└─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.s390x
-python-rados-1:10.2.7-2.fc27.s390x                        
-├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.s390x
-└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.s390x
-python-rbd-1:10.2.7-2.fc27.s390x                          
-├─librbd.so.1()(64bit)                                    librbd1-1:10.2.7-2.fc27.s390x
-├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.s390x
-└─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.s390x
+├─libicuuc.so.57()(64bit)                                 libicu-57.1-4.fc26.s390x
+├─libicui18n.so.57()(64bit)                               libicu-57.1-4.fc26.s390x
+└─libicudata.so.57()(64bit)                               libicu-57.1-4.fc26.s390x
+leveldb-1.18-1.fc26.s390x                                 
+python2-flask-1:0.11.1-5.fc26.noarch                      
+├─python-jinja2                                           python2-jinja2-2.9.6-1.fc27.noarch
+├─python-click                                            python2-click-6.7-3.fc26.noarch
+├─python-werkzeug                                         python-werkzeug-0.11.10-5.fc26.noarch
+├─python-itsdangerous                                     python2-itsdangerous-0.24-10.fc27.noarch
+policycoreutils-2.6-5.fc27.s390x                          
+├─libselinux-utils >= 2.6-5                               libselinux-utils-2.7-1.fc27.s390x
 fcgi-2.4.0-30.fc26.s390x                                  
 python-chardet-3.0.4-1.fc27.noarch                        
 python2-idna-2.5-1.fc27.noarch                            
@@ -165,19 +166,29 @@ bc-1.07.1-1.fc27.s390x
 cronie-1.5.1-6.fc27.s390x                                 
 ├─dailyjobs                                               cronie-noanacron-1.5.1-6.fc27.s390x
 cups-client-1:2.2.4-1.fc27.s390x                          
+├─libavahi-common.so.3()(64bit)                           avahi-libs-0.7-1.fc27.s390x
+├─libavahi-client.so.3()(64bit)                           avahi-libs-0.7-1.fc27.s390x
+├─libcups.so.2()(64bit)                                   cups-libs-1:2.2.4-1.fc27.s390x
+└─cups-libs(s390-64) = 1:2.2.4-1.fc27                     cups-libs-1:2.2.4-1.fc27.s390x
 ed-1.14.1-2.fc26.s390x                                    
+gettext-0.19.8.1-9.fc27.s390x                             
+├─libcroco-0.6.so.3()(64bit)                              libcroco-0.6.12-1.fc27.s390x
+├─libgettextlib-0.19.8.1.so()(64bit)                      gettext-libs-0.19.8.1-9.fc27.s390x
+├─libgettextsrc-0.19.8.1.so()(64bit)                      gettext-libs-0.19.8.1-9.fc27.s390x
+└─gettext-libs(s390-64) = 0.19.8.1-9.fc27                 gettext-libs-0.19.8.1-9.fc27.s390x
 mailx-12.5-20.fc26.s390x                                  
 man-db-2.7.6.1-2.fc26.s390x                               
 ├─less                                                    less-487-3.fc27.s390x
 └─libpipeline.so.1()(64bit)                               libpipeline-1.4.2-1.fc27.s390x
-ncurses-compat-libs-6.0-10.20170520.fc27.s390x            
 redhat-lsb-submod-security-4.1-34.fc26.s390x              
 spax-1.5.3-8.fc26.s390x                                   
 time-1.7-52.fc26.s390x                                    
-util-linux-user-2.30-1.fc27.s390x                         
-python2-babel-2.3.4-5.fc26.noarch                         
-├─pytz                                                    pytz-2017.2-1.fc27.noarch
-python2-markupsafe-0.23-13.fc26.s390x                     
+python-werkzeug-0.11.10-5.fc26.noarch                     
+python2-click-6.7-3.fc26.noarch                           
+python2-itsdangerous-0.24-10.fc27.noarch                  
+python2-jinja2-2.9.6-1.fc27.noarch                        
+├─python-markupsafe                                       python2-markupsafe-0.23-15.fc27.s390x
+└─python2-babel >= 0.8                                    python2-babel-2.3.4-5.fc26.noarch
 python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch 
 ├─python-backports                                        python-backports-1.0-9.fc26.s390x
 python-ipaddress-1.0.18-1.fc27.noarch                     
@@ -192,22 +203,37 @@ python2-pyOpenSSL-17.1.0-1.fc27.noarch
 └─python-cryptography >= 1.3.0                            python2-cryptography-1.9-1.fc27.s390x
 python2-pysocks-1.5.7-4.fc26.noarch                       
 python2-six-1.10.0-9.fc27.noarch                          
+avahi-libs-0.7-1.fc27.s390x                               
+cups-libs-1:2.2.4-1.fc27.s390x                            
+├─libavahi-common.so.3()(64bit)                           avahi-libs-0.7-1.fc27.s390x
+└─libavahi-client.so.3()(64bit)                           avahi-libs-0.7-1.fc27.s390x
+gettext-libs-0.19.8.1-9.fc27.s390x                        
+├─libcroco-0.6.so.3()(64bit)                              libcroco-0.6.12-1.fc27.s390x
+libcroco-0.6.12-1.fc27.s390x                              
 less-487-3.fc27.s390x                                     
 libpipeline-1.4.2-1.fc27.s390x                            
-pytz-2017.2-1.fc27.noarch                                 
+python2-babel-2.3.4-5.fc26.noarch                         
+├─pytz                                                    pytz-2017.2-1.fc27.noarch
 python-backports-1.0-9.fc26.s390x                         
 python-enum34-1.1.6-1.fc27.noarch                         
 python2-asn1crypto-0.22.0-2.fc27.noarch                   
 python2-cffi-1.10.0-1.fc27.s390x                          
 ├─python-pycparser                                        python2-pycparser-2.14-10.fc26.noarch
+pytz-2017.2-1.fc27.noarch                                 
 python2-pycparser-2.14-10.fc26.noarch                     
 └─python-ply >= 3.6                                       python2-ply-3.9-3.fc27.noarch
 python2-ply-3.9-3.fc27.noarch                             
+util-linux-user-2.30.1-1.fc27.s390x                       
+libselinux-utils-2.7-1.fc27.s390x                         
+ncurses-compat-libs-6.0-13.20170722.fc27.s390x            
+python2-markupsafe-0.23-15.fc27.s390x                     
+cryptsetup-1.7.5-3.fc27.s390x                             
+libicu-57.1-4.fc26.s390x                                  
 sendmail-8.15.2-15.fc27.s390x                             
 ├─procmail                                                procmail-3.22-41.fc27.s390x
 ├─libhesiod.so.0()(64bit)                                 hesiod-3.2.1-7.fc26.s390x
-├─/usr/sbin/saslauthd                                     cyrus-sasl-2.1.26-32.fc27.s390x
-cyrus-sasl-2.1.26-32.fc27.s390x                           
+├─/usr/sbin/saslauthd                                     cyrus-sasl-2.1.26-34.fc27.s390x
+cyrus-sasl-2.1.26-34.fc27.s390x                           
 hesiod-3.2.1-7.fc26.s390x                                 
 procmail-3.22-41.fc27.s390x                               
 cronie-noanacron-1.5.1-6.fc27.s390x                       
@@ -219,17 +245,21 @@ policycoreutils-python-utils-2.6-5.fc27.s390x
 └─policycoreutils-python3 = 2.6-5.fc27                    policycoreutils-python3-2.6-5.fc27.s390x
 selinux-policy-3.13.1-264.fc27.noarch                     
 policycoreutils-python3-2.6-5.fc27.s390x                  
+├─libselinux-python3                                      libselinux-python3-2.7-1.fc27.s390x
 ├─libcgroup                                               libcgroup-0.41-11.fc26.s390x
 ├─setools-python3                                         setools-python3-4.1.0-3.fc27.s390x
 ├─checkpolicy                                             checkpolicy-2.6-1.fc26.s390x
 ├─python-IPy-python3                                      python3-IPy-0.81-19.fc27.noarch
-├─audit-libs-python3 >= 2.1.3-4                           audit-libs-python3-2.7.7-3.fc27.s390x
-└─libsemanage-python3 >= 2.6-0                            libsemanage-python3-2.6-4.fc27.s390x
-audit-libs-python3-2.7.7-3.fc27.s390x                     
-└─audit(s390-64) = 2.7.7-3.fc27                           audit-2.7.7-3.fc27.s390x
+├─policycoreutils = 2.6-5.fc27                            policycoreutils-2.6-5.fc27.s390x
+├─audit-libs-python3 >= 2.1.3-4                           audit-libs-python3-2.7.7-5.fc27.s390x
+└─libsemanage-python3 >= 2.6-0                            libsemanage-python3-2.7-1.fc27.s390x
+audit-libs-python3-2.7.7-5.fc27.s390x                     
+└─audit(s390-64) = 2.7.7-5.fc27                           audit-2.7.7-5.fc27.s390x
 checkpolicy-2.6-1.fc26.s390x                              
 libcgroup-0.41-11.fc26.s390x                              
-libsemanage-python3-2.6-4.fc27.s390x                      
+libselinux-python3-2.7-1.fc27.s390x                       
+libsemanage-python3-2.7-1.fc27.s390x                      
+├─libselinux-python3                                      libselinux-python3-2.7-1.fc27.s390x
 python3-IPy-0.81-19.fc27.noarch                           
 setools-python3-4.1.0-3.fc27.s390x                        
-audit-2.7.7-3.fc27.s390x                                  
+audit-2.7.7-5.fc27.s390x                                  

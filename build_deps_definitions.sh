@@ -11,4 +11,5 @@
 ./build_deps.sh storage-devices platform platform-placeholder
 ./build_deps.sh platform-placeholder platform
 ./build_deps.sh freeipa platform platform-placeholder
+./build_deps.sh java        platform platform-placeholder
 

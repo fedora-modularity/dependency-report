@@ -7,6 +7,8 @@ digraph G {
   "autotools" -> "platform-placeholder" [color="#aa0000"];
   "freeipa" -> "platform" [color="#009900"];
   "freeipa" -> "platform-placeholder" [color="#009900"];
+  "freeipa" -> "java" [color="#009900"];
+  "freeipa" -> "perl" [color="#009900"];
   "freeipa" -> "platform" [color="#aa0000"];
   "freeipa" -> "platform-placeholder" [color="#aa0000"];
   "installer" -> "platform" [color="#009900"];
@@ -17,6 +19,10 @@ digraph G {
   "installer" -> "systemtap" [color="#aa0000"];
   "installer" -> "autotools" [color="#aa0000"];
   "installer" -> "platform-placeholder" [color="#aa0000"];
+  "java" -> "platform" [color="#009900"];
+  "java" -> "platform-placeholder" [color="#009900"];
+  "java" -> "platform" [color="#aa0000"];
+  "java" -> "platform-placeholder" [color="#aa0000"];
   "networking-base" -> "platform" [color="#009900"];
   "networking-base" -> "platform-placeholder" [color="#009900"];
   "networking-base" -> "platform" [color="#aa0000"];

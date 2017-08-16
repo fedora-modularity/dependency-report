@@ -8,6 +8,8 @@ These are modules identified as dependencies.
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
+* [java](../java)
+* [perl](../perl)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -36,8 +38,11 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `audit` | X | X | X | X | X | X | X |
 | `audit-libs-python` | X | X | X | X | X | X | X |
 | `audit-libs-python3` | X | X | X | X | X | X | X |
+| `augeas-libs` | X | X | X | X | X | X | X |
+| `authconfig` | X | X | X | X | X | X | X |
 | `autofs` | X | X | X | X | X | X | X |
 | `autogen-libopts` | X | X | X | X | X | X | X |
+| `avahi-libs` | X | X | X | X | X | X | X |
 | `bea-stax-api` | X | X | X | X | X | X | X |
 | `bind` | X | X | X | X | X | X | X |
 | `bind-dyndb-ldap` | X | X | X | X | X | X | X |
@@ -51,7 +56,8 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `certmonger` | X | X | X | X | X | X | X |
 | `checkpolicy` | X | X | X | X | X | X | X |
 | `compat-openssl10` | X | X | X | X | X | X | X |
-| `copy-jdk-configs` | X | X | X | X | X | X | X |
+| `cups-libs` | X | X | X | X | X | X | X |
+| `curl-minimal` | X | X | X | X | X | - | X |
 | `custodia` | X | X | X | X | X | X | X |
 | `cyrus-sasl-gssapi` | X | X | X | X | X | X | X |
 | `cyrus-sasl-md5` | X | X | X | X | X | X | X |
@@ -59,6 +65,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `ecj` | X | X | X | X | X | X | X |
 | `fedora-logos-httpd` | X | X | X | X | X | X | X |
 | `fontawesome-fonts` | X | X | X | X | X | X | X |
+| `fontpackages-filesystem` | X | X | X | X | X | X | X |
 | `freeipa-client` | X | X | X | X | X | X | X |
 | `freeipa-client-common` | X | X | X | X | X | X | X |
 | `freeipa-common` | X | X | X | X | X | X | X |
@@ -76,7 +83,6 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `glassfish-jaxb-runtime` | X | X | X | X | X | X | X |
 | `glassfish-jaxb-txw2` | X | X | X | X | X | X | X |
 | `gperftools-libs` | X | X | X | - | - | - | X |
-| `groff-base` | X | X | X | X | X | - | X |
 | `gssproxy` | X | X | X | X | X | X | X |
 | `hesiod` | X | X | X | X | X | X | X |
 | `httpcomponents-client` | X | X | X | X | X | X | X |
@@ -88,8 +94,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `istack-commons-runtime` | X | X | X | X | X | X | X |
 | `jackson` | X | X | X | X | X | X | X |
 | `jakarta-commons-httpclient` | X | X | X | X | X | X | X |
-| `java-1.8.0-openjdk-headless` | X | X | X | X | X | X | X |
-| `javapackages-tools` | X | X | X | X | X | X | X |
+| `jansson` | X | X | X | X | X | X | X |
 | `javassist` | X | X | X | X | X | X | X |
 | `jboss-annotations-1.2-api` | X | X | X | X | X | X | X |
 | `jboss-jaxrs-2.0-api` | X | X | X | X | X | X | X |
@@ -108,6 +113,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `libcgroup` | X | X | X | X | X | X | X |
 | `libcollection` | X | X | X | X | X | X | X |
 | `libdhash` | X | X | X | X | X | X | X |
+| `libicu` | X | X | X | X | X | X | X |
 | `libini_config` | X | X | X | X | X | X | X |
 | `libipa_hbac` | X | X | X | X | X | X | X |
 | `libitm` | X | X | X | X | X | X | X |
@@ -117,6 +123,8 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `libpath_utils` | X | X | X | X | X | X | X |
 | `libref_array` | X | X | X | X | X | X | X |
 | `libselinux-python` | X | X | X | X | X | X | X |
+| `libselinux-python3` | X | X | X | X | X | X | X |
+| `libselinux-utils` | X | X | X | X | X | X | X |
 | `libsemanage-python` | X | X | X | X | X | X | X |
 | `libsemanage-python3` | X | X | X | X | X | X | X |
 | `libsmbclient` | X | X | X | X | X | X | X |
@@ -133,9 +141,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `libunwind` | X | X | X | - | - | - | X |
 | `libverto-libev` | X | X | X | X | X | X | X |
 | `libwbclient` | X | X | X | X | X | X | X |
-| `lksctp-tools` | X | X | X | X | X | X | X |
-| `lua` | X | X | X | X | X | X | X |
-| `lua-posix` | X | X | X | X | X | X | X |
+| `libxslt` | X | X | X | X | X | X | X |
 | `m2crypto` | X | X | X | X | X | X | X |
 | `mailcap` | X | X | X | X | X | X | X |
 | `mod_auth_gssapi` | X | X | X | X | X | X | X |
@@ -160,58 +166,16 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `opendnssec` | X | X | X | X | X | X | X |
 | `openldap-clients` | X | X | X | X | X | X | X |
 | `open-sans-fonts` | X | X | X | X | X | X | X |
-| `perl-Algorithm-Diff` | X | X | X | X | X | - | X |
-| `perl-Archive-Tar` | X | X | X | X | X | - | X |
-| `perl-Carp` | X | X | X | - | - | - | X |
-| `perl-Compress-Raw-Bzip2` | X | X | X | X | X | - | X |
-| `perl-Compress-Raw-Zlib` | X | X | X | X | X | - | X |
-| `perl-constant` | X | X | X | - | - | - | X |
-| `perl-Data-Dumper` | X | X | X | - | - | - | X |
-| `perl-DB_File` | X | X | X | X | X | - | X |
-| `perl-Encode` | X | X | X | X | X | - | X |
-| `perl-Errno` | X | X | X | - | - | - | X |
-| `perl-Exporter` | X | X | X | - | - | - | X |
-| `perl-File-Path` | X | X | X | - | - | - | X |
-| `perl-File-Temp` | X | X | X | X | X | - | X |
-| `perl-Getopt-Long` | X | X | X | X | X | - | X |
-| `perl-HTTP-Tiny` | X | X | X | X | X | - | X |
-| `perl-interpreter` | X | X | X | - | - | - | X |
-| `perl-IO` | X | X | X | - | - | - | X |
-| `perl-IO-Compress` | X | X | X | X | X | - | X |
-| `perl-IO-Zlib` | X | X | X | X | X | - | X |
-| `perl-libs` | X | X | X | - | - | - | X |
-| `perl-macros` | X | X | X | - | - | - | X |
-| `perl-Math-BigInt` | X | X | X | X | X | - | X |
-| `perl-Math-Complex` | X | X | X | X | X | - | X |
-| `perl-MIME-Base64` | X | X | X | X | X | - | X |
 | `perl-Mozilla-LDAP` | X | X | X | X | X | X | X |
 | `perl-NetAddr-IP` | X | X | X | X | X | X | X |
-| `perl-parent` | X | X | X | - | - | - | X |
-| `perl-PathTools` | X | X | X | - | - | - | X |
-| `perl-Pod-Escapes` | X | X | X | X | X | - | X |
-| `perl-podlators` | X | X | X | X | X | - | X |
-| `perl-Pod-Perldoc` | X | X | X | X | X | - | X |
-| `perl-Pod-Simple` | X | X | X | X | X | - | X |
-| `perl-Pod-Usage` | X | X | X | X | X | - | X |
-| `perl-Scalar-List-Utils` | X | X | X | - | - | - | X |
-| `perl-Socket` | X | X | X | - | - | - | X |
 | `perl-Socket6` | X | X | X | X | X | X | X |
-| `perl-Storable` | X | X | X | X | X | - | X |
-| `perl-Term-ANSIColor` | X | X | X | X | X | - | X |
-| `perl-Term-Cap` | X | X | X | X | X | - | X |
-| `perl-Text-Diff` | X | X | X | X | X | - | X |
-| `perl-Text-ParseWords` | X | X | X | X | X | - | X |
-| `perl-Text-Tabs+Wrap` | X | X | X | - | - | - | X |
-| `perl-threads` | X | X | X | - | - | - | X |
-| `perl-threads-shared` | X | X | X | - | - | - | X |
-| `perl-Time-Local` | X | X | X | X | X | - | X |
-| `perl-Unicode-Normalize` | X | X | X | - | - | - | X |
 | `pki-base` | X | X | X | X | X | X | X |
 | `pki-base-java` | X | X | X | X | X | X | X |
 | `pki-ca` | X | X | X | X | X | X | X |
 | `pki-kra` | X | X | X | X | X | X | X |
 | `pki-server` | X | X | X | X | X | X | X |
 | `pki-tools` | X | X | X | X | X | X | X |
+| `policycoreutils` | X | X | X | X | X | X | X |
 | `policycoreutils-python` | X | X | X | X | X | X | X |
 | `policycoreutils-python3` | X | X | X | X | X | X | X |
 | `policycoreutils-python-utils` | X | X | X | X | X | X | X |
@@ -259,11 +223,23 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python2-typing` | X | X | X | X | X | X | X |
 | `python2-urllib3` | X | X | X | X | X | X | X |
 | `python2-yubico` | X | X | X | X | X | X | X |
+| `python3-asn1crypto` | X | X | X | X | X | X | X |
 | `python3-bind` | X | X | X | X | X | X | X |
+| `python3-cffi` | X | X | X | X | X | X | X |
+| `python3-chardet` | X | X | X | X | X | X | X |
+| `python3-cryptography` | X | X | X | X | X | X | X |
 | `python3-custodia` | X | X | X | X | X | X | X |
+| `python3-idna` | X | X | X | X | X | X | X |
 | `python3-IPy` | X | X | X | X | X | X | X |
 | `python3-jwcrypto` | X | X | X | X | X | X | X |
+| `python3-ply` | X | X | X | X | X | X | X |
+| `python3-pycparser` | X | X | X | X | X | X | X |
+| `python3-pyOpenSSL` | X | X | X | X | X | X | X |
+| `python3-pysocks` | X | X | X | X | X | X | X |
+| `python3-requests` | X | X | X | X | X | X | X |
+| `python3-sssdconfig` | X | X | X | X | X | X | X |
 | `python3-systemd` | X | X | X | X | X | X | X |
+| `python3-urllib3` | X | X | X | X | X | X | X |
 | `python-backports` | X | X | X | X | X | X | X |
 | `python-backports-ssl_match_hostname` | X | X | X | X | X | X | X |
 | `python-beautifulsoup4` | X | X | X | X | X | X | X |
@@ -326,13 +302,13 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `tomcatjss` | X | X | X | X | X | X | X |
 | `tomcat-lib` | X | X | X | X | X | X | X |
 | `tomcat-servlet-3.1-api` | X | X | X | X | X | X | X |
-| `tzdata-java` | X | X | X | X | X | X | X |
 | `velocity` | X | X | X | X | X | X | X |
-| `which` | - | X | - | - | - | - | - |
 | `words` | X | X | X | X | X | X | X |
 | `xalan-j2` | X | X | X | X | X | X | X |
 | `xerces-j2` | X | X | X | X | X | X | X |
 | `xml-commons-apis` | X | X | X | X | X | X | X |
 | `xml-commons-resolver` | X | X | X | X | X | X | X |
+| `xmlrpc-c` | X | X | X | X | X | X | X |
+| `xmlrpc-c-client` | X | X | X | X | X | X | X |
 | `xmlstreambuffer` | X | X | X | X | X | X | X |
 | `xsom` | X | X | X | X | X | X | X |

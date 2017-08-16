@@ -264,6 +264,7 @@ These are RPM dependencies of the [platform top-level package set](platform.csv)
 | `patch` | X | X | X | X | X | X | X |
 | `pciutils-libs` | X | X | X | X | X | - | X |
 | `pcre` | X | X | X | X | X | X | X |
+| `pcre2` | X | X | X | X | X | X | X |
 | `perl` | - | - | - | - | - | X | - |
 | `perl-Algorithm-Diff` | - | - | - | - | - | X | - |
 | `perl-Archive-Tar` | - | - | - | - | - | X | - |
@@ -407,7 +408,6 @@ These are RPM dependencies of the [platform top-level package set](platform.csv)
 | `ppc64-utils` | - | - | - | X | X | - | - |
 | `procps-ng` | X | X | X | X | X | X | X |
 | `psmisc` | X | X | X | X | X | X | X |
-| `pth` | X | X | X | X | X | X | X |
 | `python2` | X | X | X | X | X | - | X |
 | `python2-libs` | X | X | X | X | X | - | X |
 | `python2-pip` | X | X | X | X | X | - | X |
@@ -469,7 +469,6 @@ These are RPM dependencies of the [platform top-level package set](platform.csv)
 | `tzdata` | X | X | X | X | X | X | X |
 | `uboot-tools` | X | X | X | X | X | X | X |
 | `unzip` | X | X | X | X | X | X | X |
-| `ustr` | X | X | X | X | X | X | X |
 | `util-linux` | X | X | X | X | X | X | X |
 | `vim-minimal` | X | X | X | X | X | X | X |
 | `which` | X | - | X | X | X | X | X |
@@ -479,3 +478,4 @@ These are RPM dependencies of the [platform top-level package set](platform.csv)
 | `xz-libs` | X | X | X | X | X | X | X |
 | `zip` | X | X | X | X | X | X | X |
 | `zlib` | X | X | X | X | X | X | X |
+| `zstd` | X | X | X | X | X | X | X |

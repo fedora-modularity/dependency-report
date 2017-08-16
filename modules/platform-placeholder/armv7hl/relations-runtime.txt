@@ -1,94 +1,168 @@
-libblockdev-loop-devel-2.10-1.fc27.armv7hl                         
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_loop.so.2                                                  libblockdev-loop-2.10-1.fc27.armv7hl
-└─libblockdev-loop(armv7hl-32) = 2.10-1.fc27                       libblockdev-loop-2.10-1.fc27.armv7hl
-libblockdev-kbd-devel-2.10-1.fc27.armv7hl                          
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_kbd.so.2                                                   libblockdev-kbd-2.10-1.fc27.armv7hl
-└─libblockdev-kbd(armv7hl-32) = 2.10-1.fc27                        libblockdev-kbd-2.10-1.fc27.armv7hl
-python3-libnl3-3.3.0-1.fc27.armv7hl                                
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
-└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
-libpciaccess-devel-0.13.4-4.fc26.armv7hl                           
+debugmode-9.72-1.fc27.armv7hl                                      
+└─initscripts                                                      initscripts-9.72-1.fc27.armv7hl
+ebtables-2.0.10-22.fc26.armv7hl                                    
+ethtool-2:4.8-2.fc26.armv7hl                                       
+fcoe-utils-1.0.32-1.fc26.armv7hl                                   
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
 ├─libpciaccess.so.0                                                libpciaccess-0.13.4-4.fc26.armv7hl
-└─libpciaccess = 0.13.4-4.fc26                                     libpciaccess-0.13.4-4.fc26.armv7hl
-snappy-devel-1.1.4-3.fc26.armv7hl                                  
-├─libsnappy.so.1                                                   snappy-1.1.4-3.fc26.armv7hl
-└─snappy(armv7hl-32) = 1.1.4-3.fc26                                snappy-1.1.4-3.fc26.armv7hl
-libblockdev-devel-2.10-1.fc27.armv7hl                              
-├─pkgconfig(glib-2.0)                                              glib2-devel-2.53.4-1.fc27.armv7hl
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev.so.2                                                 libblockdev-2.10-1.fc27.armv7hl
-└─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
+└─lldpad >= 0.9.43                                                 lldpad-1.0.1-6.git036e314.fc26.armv7hl
+gdisk-1.0.1-3.fc26.armv7hl                                         
+hfsplus-tools-540.1.linux3-12.fc26.armv7hl                         
+hostname-3.18-2.fc26.armv7hl                                       
+hwdata-0.302-1.fc27.noarch                                         
+initscripts-9.72-1.fc27.armv7hl                                    
+├─hostname                                                         hostname-3.18-2.fc26.armv7hl
+ipset-6.29-3.fc27.armv7hl                                          
+├─libipset.so.3                                                    ipset-libs-6.29-3.fc27.armv7hl
+├─libipset.so.3(LIBIPSET_1.0)                                      ipset-libs-6.29-3.fc27.armv7hl
+├─libipset.so.3(LIBIPSET_2.0)                                      ipset-libs-6.29-3.fc27.armv7hl
+├─libipset.so.3(LIBIPSET_3.0)                                      ipset-libs-6.29-3.fc27.armv7hl
+└─ipset-libs(armv7hl-32) = 6.29-3.fc27                             ipset-libs-6.29-3.fc27.armv7hl
+ipset-devel-6.29-3.fc27.armv7hl                                    
+├─libipset.so.3                                                    ipset-libs-6.29-3.fc27.armv7hl
+├─ipset-libs(armv7hl-32) = 6.29-3.fc27                             ipset-libs-6.29-3.fc27.armv7hl
+└─pkgconfig(libmnl) >= 1                                           libmnl-devel-1.0.4-2.fc26.armv7hl
+ipset-libs-6.29-3.fc27.armv7hl                                     
+iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl          
+├─libisns.so.0                                                     isns-utils-libs-0.97-3.fc27.armv7hl
+├─libisns.so.0(LIBISNS_0.96)                                       isns-utils-libs-0.97-3.fc27.armv7hl
+└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27    iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.armv7hl
+iscsi-initiator-utils-devel-6.2.0.874-4.git86e8892.fc27.armv7hl    
+├─libiscsi.so.0                                                    iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
+└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27              iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
+iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.armv7hl 
+└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27              iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
+kbd-2.0.4-2.fc26.armv7hl                                           
+├─kbd-legacy = 2.0.4-2.fc26                                        kbd-legacy-2.0.4-2.fc26.noarch
+├─kbd-misc = 2.0.4-2.fc26                                          kbd-misc-2.0.4-2.fc26.noarch
+└─initscripts >= 5.86-1                                            initscripts-9.72-1.fc27.armv7hl
+kexec-tools-2.0.15-4.fc27.armv7hl                                  
+├─ethtool                                                          ethtool-2:4.8-2.fc26.armv7hl
+└─dracut-network >= 044-117                                        dracut-network-045-18.git20170515.fc27.armv7hl
+libaio-0.3.110-7.fc26.armv7hl                                      
 libaio-devel-0.3.110-7.fc26.armv7hl                                
 ├─libaio.so.1                                                      libaio-0.3.110-7.fc26.armv7hl
 └─libaio                                                           libaio-0.3.110-7.fc26.armv7hl
-libnl3-cli-3.3.0-1.fc27.armv7hl                                    
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-nf-3.so.200                                                libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-idiag-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200(libnl_3_2_28)                               libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-idiag-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-nf-3.so.200(libnl_3)                                       libnl3-3.3.0-1.fc27.armv7hl
-└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
+libblockdev-2.10-1.fc27.armv7hl                                    
+└─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+libblockdev-btrfs-2.10-1.fc27.armv7hl                              
+├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+├─libbytesize.so.1                                                 libbytesize-0.11-1.fc27.armv7hl
+└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+libblockdev-btrfs-devel-2.10-1.fc27.armv7hl                        
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_btrfs.so.2                                                 libblockdev-btrfs-2.10-1.fc27.armv7hl
+└─libblockdev-btrfs(armv7hl-32) = 2.10-1.fc27                      libblockdev-btrfs-2.10-1.fc27.armv7hl
+libblockdev-crypto-2.10-1.fc27.armv7hl                             
+├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+└─libvolume_key.so.1                                               volume_key-libs-0.3.9-13.fc27.armv7hl
+libblockdev-crypto-devel-2.10-1.fc27.armv7hl                       
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libbd_crypto.so.2                                                libblockdev-crypto-2.10-1.fc27.armv7hl
+└─libblockdev-crypto(armv7hl-32) = 2.10-1.fc27                     libblockdev-crypto-2.10-1.fc27.armv7hl
+libblockdev-devel-2.10-1.fc27.armv7hl                              
+├─pkgconfig(glib-2.0)                                              glib2-devel-2.53.5-1.fc27.armv7hl
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev.so.2                                                 libblockdev-2.10-1.fc27.armv7hl
+└─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
 libblockdev-dm-2.10-1.fc27.armv7hl                                 
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
 ├─dmraid                                                           dmraid-1.0.0.rc16-31.fc26.armv7hl
 ├─libdmraid.so.1                                                   dmraid-1.0.0.rc16-31.fc26.armv7hl
 ├─libdmraid.so.1(Base)                                             dmraid-1.0.0.rc16-31.fc26.armv7hl
 └─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-libblockdev-utils-devel-2.10-1.fc27.armv7hl                        
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
+libblockdev-dm-devel-2.10-1.fc27.armv7hl                           
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─device-mapper-devel                                              device-mapper-devel-1.02.142-4.fc27.armv7hl
+├─systemd-devel                                                    systemd-devel-234-5.fc27.armv7hl
+├─dmraid-devel                                                     dmraid-devel-1.0.0.rc16-31.fc26.armv7hl
+├─libbd_dm.so.2                                                    libblockdev-dm-2.10-1.fc27.armv7hl
+└─libblockdev-dm(armv7hl-32) = 2.10-1.fc27                         libblockdev-dm-2.10-1.fc27.armv7hl
+libblockdev-fs-2.10-1.fc27.armv7hl                                 
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+├─libparted.so.2                                                   parted-3.2-26.fc27.armv7hl
+├─libparted-fs-resize.so.0                                         parted-3.2-26.fc27.armv7hl
+├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)              parted-3.2-26.fc27.armv7hl
 ├─libbd_part_err.so.2                                              libblockdev-utils-2.10-1.fc27.armv7hl
-└─libblockdev-utils(armv7hl-32) = 2.10-1.fc27                      libblockdev-utils-2.10-1.fc27.armv7hl
+└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+libblockdev-fs-devel-2.10-1.fc27.armv7hl                           
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─dosfstools                                                       dosfstools-4.1-2.fc26.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_fs.so.2                                                    libblockdev-fs-2.10-1.fc27.armv7hl
+└─libblockdev-fs(armv7hl-32) = 2.10-1.fc27                         libblockdev-fs-2.10-1.fc27.armv7hl
+libblockdev-kbd-2.10-1.fc27.armv7hl                                
+├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+├─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+└─bcache-tools >= 1.0.8                                            bcache-tools-1.0.8-8.fc26.armv7hl
+libblockdev-kbd-devel-2.10-1.fc27.armv7hl                          
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_kbd.so.2                                                   libblockdev-kbd-2.10-1.fc27.armv7hl
+└─libblockdev-kbd(armv7hl-32) = 2.10-1.fc27                        libblockdev-kbd-2.10-1.fc27.armv7hl
 libblockdev-loop-2.10-1.fc27.armv7hl                               
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
 └─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-libblockdev-mpath-devel-2.10-1.fc27.armv7hl                        
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
+libblockdev-loop-devel-2.10-1.fc27.armv7hl                         
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
 ├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_mpath.so.2                                                 libblockdev-mpath-2.10-1.fc27.armv7hl
-└─libblockdev-mpath(armv7hl-32) = 2.10-1.fc27                      libblockdev-mpath-2.10-1.fc27.armv7hl
-libblockdev-swap-2.10-1.fc27.armv7hl                               
+├─libbd_loop.so.2                                                  libblockdev-loop-2.10-1.fc27.armv7hl
+└─libblockdev-loop(armv7hl-32) = 2.10-1.fc27                       libblockdev-loop-2.10-1.fc27.armv7hl
+libblockdev-lvm-2.10-1.fc27.armv7hl                                
+├─lvm2                                                             lvm2-2.02.173-4.fc27.armv7hl
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+├─device-mapper-persistent-data                                    device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl
 └─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-python2-blockdev-2.10-1.fc27.armv7hl                               
-├─pygobject3-base                                                  python-gobject-base-3.24.1-1.fc27.armv7hl
-└─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
-iscsi-initiator-utils-devel-6.2.0.874-4.git86e8892.fc27.armv7hl    
-├─libiscsi.so.0                                                    iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
-└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27              iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
 libblockdev-lvm-dbus-2.10-1.fc27.armv7hl                           
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
 ├─device-mapper-persistent-data                                    device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl
 ├─libblockdev-utils(armv7hl-32) >= 1.4                             libblockdev-utils-2.10-1.fc27.armv7hl
-└─lvm2-dbusd >= 2.02.156                                           lvm2-dbusd-2.02.172-1.fc27.armv7hl
-python-libnl3-3.3.0-1.fc27.armv7hl                                 
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
-└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
+└─lvm2-dbusd >= 2.02.156                                           lvm2-dbusd-2.02.173-4.fc27.armv7hl
 libblockdev-lvm-dbus-devel-2.10-1.fc27.armv7hl                     
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
 ├─libbd_lvm-dbus.so.2                                              libblockdev-lvm-dbus-2.10-1.fc27.armv7hl
 ├─libblockdev-lvm-dbus(armv7hl-32) = 2.10-1.fc27                   libblockdev-lvm-dbus-2.10-1.fc27.armv7hl
 └─libblockdev-utils-devel(armv7hl-32) >= 1.4                       libblockdev-utils-devel-2.10-1.fc27.armv7hl
+libblockdev-lvm-devel-2.10-1.fc27.armv7hl                          
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_lvm.so.2                                                   libblockdev-lvm-2.10-1.fc27.armv7hl
+└─libblockdev-lvm(armv7hl-32) = 2.10-1.fc27                        libblockdev-lvm-2.10-1.fc27.armv7hl
+libblockdev-mdraid-2.10-1.fc27.armv7hl                             
+├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+├─mdadm                                                            mdadm-4.0-3.fc27.armv7hl
+├─libbytesize.so.1                                                 libbytesize-0.11-1.fc27.armv7hl
+└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+libblockdev-mdraid-devel-2.10-1.fc27.armv7hl                       
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_mdraid.so.2                                                libblockdev-mdraid-2.10-1.fc27.armv7hl
+└─libblockdev-mdraid(armv7hl-32) = 2.10-1.fc27                     libblockdev-mdraid-2.10-1.fc27.armv7hl
+libblockdev-mpath-2.10-1.fc27.armv7hl                              
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
+├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+libblockdev-mpath-devel-2.10-1.fc27.armv7hl                        
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_mpath.so.2                                                 libblockdev-mpath-2.10-1.fc27.armv7hl
+└─libblockdev-mpath(armv7hl-32) = 2.10-1.fc27                      libblockdev-mpath-2.10-1.fc27.armv7hl
+libblockdev-part-2.10-1.fc27.armv7hl                               
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
+├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
+├─libparted.so.2                                                   parted-3.2-26.fc27.armv7hl
+├─gdisk                                                            gdisk-1.0.1-3.fc26.armv7hl
+├─libparted-fs-resize.so.0                                         parted-3.2-26.fc27.armv7hl
+├─libbd_part_err.so.2                                              libblockdev-utils-2.10-1.fc27.armv7hl
+└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+libblockdev-part-devel-2.10-1.fc27.armv7hl                         
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
+├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
+├─libbd_part.so.2                                                  libblockdev-part-2.10-1.fc27.armv7hl
+└─libblockdev-part(armv7hl-32) = 2.10-1.fc27                       libblockdev-part-2.10-1.fc27.armv7hl
 libblockdev-plugins-all-2.10-1.fc27.armv7hl                        
 ├─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
 ├─libblockdev-btrfs(armv7hl-32) = 2.10-1.fc27                      libblockdev-btrfs-2.10-1.fc27.armv7hl
@@ -102,107 +176,41 @@ libblockdev-plugins-all-2.10-1.fc27.armv7hl
 ├─libblockdev-mpath(armv7hl-32) = 2.10-1.fc27                      libblockdev-mpath-2.10-1.fc27.armv7hl
 ├─libblockdev-part(armv7hl-32) = 2.10-1.fc27                       libblockdev-part-2.10-1.fc27.armv7hl
 └─libblockdev-swap(armv7hl-32) = 2.10-1.fc27                       libblockdev-swap-2.10-1.fc27.armv7hl
-libblockdev-mpath-2.10-1.fc27.armv7hl                              
-├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
+libblockdev-swap-2.10-1.fc27.armv7hl                               
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
 └─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-libblockdev-lvm-devel-2.10-1.fc27.armv7hl                          
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_lvm.so.2                                                   libblockdev-lvm-2.10-1.fc27.armv7hl
-└─libblockdev-lvm(armv7hl-32) = 2.10-1.fc27                        libblockdev-lvm-2.10-1.fc27.armv7hl
-python-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl   
-├─libiscsi.so.0                                                    iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
-kexec-tools-anaconda-addon-2.0.15-4.fc27.armv7hl                   
-└─anaconda >= 21.33                                                anaconda-27.18-1.fc27.armv7hl
 libblockdev-swap-devel-2.10-1.fc27.armv7hl                         
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
 ├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
 ├─libbd_swap.so.2                                                  libblockdev-swap-2.10-1.fc27.armv7hl
 └─libblockdev-swap(armv7hl-32) = 2.10-1.fc27                       libblockdev-swap-2.10-1.fc27.armv7hl
-libblockdev-lvm-2.10-1.fc27.armv7hl                                
-├─lvm2                                                             lvm2-2.02.172-1.fc27.armv7hl
+libblockdev-utils-2.10-1.fc27.armv7hl                              
+├─libparted.so.2                                                   parted-3.2-26.fc27.armv7hl
+└─libparted-fs-resize.so.0                                         parted-3.2-26.fc27.armv7hl
+libblockdev-utils-devel-2.10-1.fc27.armv7hl                        
+├─glib2-devel                                                      glib2-devel-2.53.5-1.fc27.armv7hl
 ├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-├─device-mapper-persistent-data                                    device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl
-└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-python3-blockdev-2.10-1.fc27.armv7hl                               
-├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.armv7hl
-└─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
-libblockdev-crypto-2.10-1.fc27.armv7hl                             
-├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-└─libvolume_key.so.1                                               volume_key-libs-0.3.9-13.fc27.armv7hl
-publicsuffix-list-dafsa-20170424-1.fc27.noarch                     
-libblockdev-btrfs-devel-2.10-1.fc27.armv7hl                        
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_btrfs.so.2                                                 libblockdev-btrfs-2.10-1.fc27.armv7hl
-└─libblockdev-btrfs(armv7hl-32) = 2.10-1.fc27                      libblockdev-btrfs-2.10-1.fc27.armv7hl
-libblockdev-fs-2.10-1.fc27.armv7hl                                 
-├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
-├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-├─libparted.so.2                                                   parted-3.2-28.fc27.armv7hl
-├─libparted-fs-resize.so.0                                         parted-3.2-28.fc27.armv7hl
-├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)              parted-3.2-28.fc27.armv7hl
 ├─libbd_part_err.so.2                                              libblockdev-utils-2.10-1.fc27.armv7hl
-└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-libblockdev-mdraid-devel-2.10-1.fc27.armv7hl                       
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_mdraid.so.2                                                libblockdev-mdraid-2.10-1.fc27.armv7hl
-└─libblockdev-mdraid(armv7hl-32) = 2.10-1.fc27                     libblockdev-mdraid-2.10-1.fc27.armv7hl
-libblockdev-dm-devel-2.10-1.fc27.armv7hl                           
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─device-mapper-devel                                              device-mapper-devel-1.02.141-1.fc27.armv7hl
-├─systemd-devel                                                    systemd-devel-234-5.fc27.armv7hl
-├─dmraid-devel                                                     dmraid-devel-1.0.0.rc16-31.fc26.armv7hl
-├─libbd_dm.so.2                                                    libblockdev-dm-2.10-1.fc27.armv7hl
-└─libblockdev-dm(armv7hl-32) = 2.10-1.fc27                         libblockdev-dm-2.10-1.fc27.armv7hl
-python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl  
-├─libiscsi.so.0                                                    iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
-libblockdev-btrfs-2.10-1.fc27.armv7hl                              
-├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-├─libbytesize.so.1                                                 libbytesize-0.11-1.fc27.armv7hl
-└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
+└─libblockdev-utils(armv7hl-32) = 2.10-1.fc27                      libblockdev-utils-2.10-1.fc27.armv7hl
+libconfig-1.5-5.fc26.armv7hl                                       
 libconfig-devel-1.5-5.fc26.armv7hl                                 
 ├─libconfig.so.9                                                   libconfig-1.5-5.fc26.armv7hl
 ├─libconfig++.so.9                                                 libconfig-1.5-5.fc26.armv7hl
 └─libconfig = 1.5-5.fc26                                           libconfig-1.5-5.fc26.armv7hl
-ipset-devel-6.29-3.fc27.armv7hl                                    
-├─libipset.so.3                                                    ipset-libs-6.29-3.fc27.armv7hl
-├─ipset-libs(armv7hl-32) = 6.29-3.fc27                             ipset-libs-6.29-3.fc27.armv7hl
-└─pkgconfig(libmnl) >= 1                                           libmnl-devel-1.0.4-2.fc26.armv7hl
-iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.armv7hl 
-└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27              iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
-libblockdev-fs-devel-2.10-1.fc27.armv7hl                           
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─dosfstools                                                       dosfstools-4.1-2.fc26.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_fs.so.2                                                    libblockdev-fs-2.10-1.fc27.armv7hl
-└─libblockdev-fs(armv7hl-32) = 2.10-1.fc27                         libblockdev-fs-2.10-1.fc27.armv7hl
-libblockdev-kbd-2.10-1.fc27.armv7hl                                
-├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-├─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-└─bcache-tools >= 1.0.8                                            bcache-tools-1.0.8-8.fc26.armv7hl
-libblockdev-mdraid-2.10-1.fc27.armv7hl                             
-├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-├─mdadm                                                            mdadm-4.0-3.fc27.armv7hl
-├─libbytesize.so.1                                                 libbytesize-0.11-1.fc27.armv7hl
-└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-libblockdev-part-2.10-1.fc27.armv7hl                               
-├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
-├─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-├─libparted.so.2                                                   parted-3.2-28.fc27.armv7hl
-├─gdisk                                                            gdisk-1.0.1-3.fc26.armv7hl
-├─libparted-fs-resize.so.0                                         parted-3.2-28.fc27.armv7hl
-├─libbd_part_err.so.2                                              libblockdev-utils-2.10-1.fc27.armv7hl
-└─libblockdev-utils(armv7hl-32) >= 0.11                            libblockdev-utils-2.10-1.fc27.armv7hl
-libblockdev-crypto-devel-2.10-1.fc27.armv7hl                       
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libbd_crypto.so.2                                                libblockdev-crypto-2.10-1.fc27.armv7hl
-└─libblockdev-crypto(armv7hl-32) = 2.10-1.fc27                     libblockdev-crypto-2.10-1.fc27.armv7hl
-debugmode-9.72-1.fc27.armv7hl                                      
-└─initscripts                                                      initscripts-9.72-1.fc27.armv7hl
+libnl3-3.3.0-1.fc27.armv7hl                                        
+libnl3-cli-3.3.0-1.fc27.armv7hl                                    
+├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-nf-3.so.200                                                libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-idiag-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3_2_28)                               libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-idiag-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-nf-3.so.200(libnl_3)                                       libnl3-3.3.0-1.fc27.armv7hl
+└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
 libnl3-devel-3.3.0-1.fc27.armv7hl                                  
 ├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
 ├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
@@ -213,1124 +221,112 @@ libnl3-devel-3.3.0-1.fc27.armv7hl
 ├─libnl-xfrm-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
 ├─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
 └─libnl3-cli = 3.3.0-1.fc27                                        libnl3-cli-3.3.0-1.fc27.armv7hl
-libblockdev-utils-2.10-1.fc27.armv7hl                              
-├─libparted.so.2                                                   parted-3.2-28.fc27.armv7hl
-└─libparted-fs-resize.so.0                                         parted-3.2-28.fc27.armv7hl
-libblockdev-part-devel-2.10-1.fc27.armv7hl                         
-├─glib2-devel                                                      glib2-devel-2.53.4-1.fc27.armv7hl
-├─libblockdev-utils-devel(armv7hl-32)                              libblockdev-utils-devel-2.10-1.fc27.armv7hl
-├─libbd_part.so.2                                                  libblockdev-part-2.10-1.fc27.armv7hl
-└─libblockdev-part(armv7hl-32) = 2.10-1.fc27                       libblockdev-part-2.10-1.fc27.armv7hl
-lldpad-devel-1.0.1-6.git036e314.fc26.armv7hl                       
-├─liblldp_clif.so.1                                                lldpad-1.0.1-6.git036e314.fc26.armv7hl
-└─lldpad(armv7hl-32) = 1.0.1-6.git036e314.fc26                     lldpad-1.0.1-6.git036e314.fc26.armv7hl
-ipset-libs-6.29-3.fc27.armv7hl                                     
-glib2-devel-2.53.4-1.fc27.armv7hl                                  
-├─pkgconfig(libpcre)                                               pcre-devel-8.41-1.fc27.armv7hl
-libnl3-3.3.0-1.fc27.armv7hl                                        
 libpciaccess-0.13.4-4.fc26.armv7hl                                 
 └─hwdata                                                           hwdata-0.302-1.fc27.noarch
-snappy-1.1.4-3.fc26.armv7hl                                        
-libblockdev-2.10-1.fc27.armv7hl                                    
-└─libbd_utils.so.2                                                 libblockdev-utils-2.10-1.fc27.armv7hl
-libaio-0.3.110-7.fc26.armv7hl                                      
-dmraid-1.0.0.rc16-31.fc26.armv7hl                                  
-├─kpartx                                                           kpartx-0.7.1-6.git847cc43.fc27.armv7hl
-├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─dmraid-events                                                    dmraid-events-1.0.0.rc16-31.fc26.armv7hl
-python-gobject-base-3.24.1-1.fc27.armv7hl                          
-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl          
-├─libisns.so.0                                                     isns-utils-libs-0.97-3.fc27.armv7hl
-├─libisns.so.0(LIBISNS_0.96)                                       isns-utils-libs-0.97-3.fc27.armv7hl
-└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27    iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.armv7hl
-device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl           
-├─libaio.so.1                                                      libaio-0.3.110-7.fc26.armv7hl
-├─libaio.so.1(LIBAIO_0.1)                                          libaio-0.3.110-7.fc26.armv7hl
-├─libaio.so.1(LIBAIO_0.4)                                          libaio-0.3.110-7.fc26.armv7hl
-lvm2-dbusd-2.02.172-1.fc27.armv7hl                                 
-├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.armv7hl
-├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.armv7hl
-├─python3-pyudev                                                   python3-pyudev-0.21.0-3.fc26.noarch
-└─lvm2 >= 2.02.172-1.fc27                                          lvm2-2.02.172-1.fc27.armv7hl
-anaconda-27.18-1.fc27.armv7hl                                      
-├─anaconda-core = 27.18-1.fc27                                     anaconda-core-27.18-1.fc27.armv7hl
-├─anaconda-tui = 27.18-1.fc27                                      anaconda-tui-27.18-1.fc27.armv7hl
-└─anaconda-gui = 27.18-1.fc27                                      anaconda-gui-27.18-1.fc27.armv7hl
-lvm2-2.02.172-1.fc27.armv7hl                                       
-├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─liblvm2app.so.2.2                                                lvm2-libs-2.02.172-1.fc27.armv7hl
-├─liblvm2app.so.2.2(Base)                                          lvm2-libs-2.02.172-1.fc27.armv7hl
-├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─lvm2-libs = 2.02.172-1.fc27                                      lvm2-libs-2.02.172-1.fc27.armv7hl
-├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                   device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl
-python3-gobject-base-3.24.1-1.fc27.armv7hl                         
-volume_key-libs-0.3.9-13.fc27.armv7hl                              
-└─/usr/bin/gpg                                                     gnupg-1.4.21-4.fc27.armv7hl
-device-mapper-devel-1.02.141-1.fc27.armv7hl                        
-├─pkgconfig(libudev)                                               systemd-devel-234-5.fc27.armv7hl
-├─pkgconfig(libselinux)                                            libselinux-devel-2.6-6.fc27.armv7hl
-dmraid-devel-1.0.0.rc16-31.fc26.armv7hl                            
-├─sgpio                                                            sgpio-1.2.0.10-17.fc26.armv7hl
-└─dmraid = 1.0.0.rc16-31.fc26                                      dmraid-1.0.0.rc16-31.fc26.armv7hl
-libbytesize-0.11-1.fc27.armv7hl                                    
-libconfig-1.5-5.fc26.armv7hl                                       
-libmnl-devel-1.0.4-2.fc26.armv7hl                                  
-dosfstools-4.1-2.fc26.armv7hl                                      
-bcache-tools-1.0.8-8.fc26.armv7hl                                  
-mdadm-4.0-3.fc27.armv7hl                                           
-gdisk-1.0.1-3.fc26.armv7hl                                         
-initscripts-9.72-1.fc27.armv7hl                                    
-├─hostname                                                         hostname-3.18-2.fc26.armv7hl
+libpciaccess-devel-0.13.4-4.fc26.armv7hl                           
+├─libpciaccess.so.0                                                libpciaccess-0.13.4-4.fc26.armv7hl
+└─libpciaccess = 0.13.4-4.fc26                                     libpciaccess-0.13.4-4.fc26.armv7hl
 lldpad-1.0.1-6.git036e314.fc26.armv7hl                             
 ├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
 ├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
 ├─libconfig.so.9                                                   libconfig-1.5-5.fc26.armv7hl
-pcre-devel-8.41-1.fc27.armv7hl                                     
-├─libpcrecpp.so.0                                                  pcre-cpp-8.41-1.fc27.armv7hl
-├─libpcre16.so.0                                                   pcre-utf16-8.41-1.fc27.armv7hl
-├─libpcre32.so.0                                                   pcre-utf32-8.41-1.fc27.armv7hl
-├─pcre-cpp(armv7hl-32) = 8.41-1.fc27                               pcre-cpp-8.41-1.fc27.armv7hl
-├─pcre-utf16(armv7hl-32) = 8.41-1.fc27                             pcre-utf16-8.41-1.fc27.armv7hl
-└─pcre-utf32(armv7hl-32) = 8.41-1.fc27                             pcre-utf32-8.41-1.fc27.armv7hl
-hwdata-0.302-1.fc27.noarch                                         
-device-mapper-event-libs-1.02.141-1.fc27.armv7hl                   
+lldpad-devel-1.0.1-6.git036e314.fc26.armv7hl                       
+├─liblldp_clif.so.1                                                lldpad-1.0.1-6.git036e314.fc26.armv7hl
+└─lldpad(armv7hl-32) = 1.0.1-6.git036e314.fc26                     lldpad-1.0.1-6.git036e314.fc26.armv7hl
+lsof-4.89-5.fc26.armv7hl                                           
+passwd-0.79-9.fc26.armv7hl                                         
+├─libuser.so.1                                                     libuser-0.62-9.fc27.armv7hl
+python2-blockdev-2.10-1.fc27.armv7hl                               
+├─pygobject3-base                                                  python-gobject-base-3.24.1-1.fc27.armv7hl
+└─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
+python3-blockdev-2.10-1.fc27.armv7hl                               
+├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.armv7hl
+└─libblockdev(armv7hl-32) = 2.10-1.fc27                            libblockdev-2.10-1.fc27.armv7hl
+python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl  
+├─libiscsi.so.0                                                    iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
+python3-libnl3-3.3.0-1.fc27.armv7hl                                
+├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
+└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
+python-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl   
+├─libiscsi.so.0                                                    iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
+python-libnl3-3.3.0-1.fc27.armv7hl                                 
+├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
+└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.armv7hl
+rsync-3.1.2-5.fc27.armv7hl                                         
+sgpio-1.2.0.10-17.fc26.armv7hl                                     
+snappy-1.1.4-3.fc26.armv7hl                                        
+snappy-devel-1.1.4-3.fc26.armv7hl                                  
+├─libsnappy.so.1                                                   snappy-1.1.4-3.fc26.armv7hl
+└─snappy(armv7hl-32) = 1.1.4-3.fc26                                snappy-1.1.4-3.fc26.armv7hl
+usermode-1.111-10.fc27.armv7hl                                     
+├─libuser.so.1                                                     libuser-0.62-9.fc27.armv7hl
+└─passwd                                                           passwd-0.79-9.fc26.armv7hl
+libmnl-devel-1.0.4-2.fc26.armv7hl                                  
+isns-utils-libs-0.97-3.fc27.armv7hl                                
+kbd-legacy-2.0.4-2.fc26.noarch                                     
+kbd-misc-2.0.4-2.fc26.noarch                                       
+dracut-network-045-18.git20170515.fc27.armv7hl                     
+libbytesize-0.11-1.fc27.armv7hl                                    
+volume_key-libs-0.3.9-13.fc27.armv7hl                              
+└─/usr/bin/gpg                                                     gnupg-1.4.21-4.fc27.armv7hl
+dmraid-1.0.0.rc16-31.fc26.armv7hl                                  
+├─kpartx                                                           kpartx-0.7.1-6.git847cc43.fc27.armv7hl
+├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─dmraid-events                                                    dmraid-events-1.0.0.rc16-31.fc26.armv7hl
+dmraid-devel-1.0.0.rc16-31.fc26.armv7hl                            
+├─sgpio                                                            sgpio-1.2.0.10-17.fc26.armv7hl
+└─dmraid = 1.0.0.rc16-31.fc26                                      dmraid-1.0.0.rc16-31.fc26.armv7hl
+dosfstools-4.1-2.fc26.armv7hl                                      
+bcache-tools-1.0.8-8.fc26.armv7hl                                  
+device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl           
+├─libaio.so.1                                                      libaio-0.3.110-7.fc26.armv7hl
+├─libaio.so.1(LIBAIO_0.1)                                          libaio-0.3.110-7.fc26.armv7hl
+├─libaio.so.1(LIBAIO_0.4)                                          libaio-0.3.110-7.fc26.armv7hl
+mdadm-4.0-3.fc27.armv7hl                                           
+python-gobject-base-3.24.1-1.fc27.armv7hl                          
+python3-gobject-base-3.24.1-1.fc27.armv7hl                         
+gnupg-1.4.21-4.fc27.armv7hl                                        
+└─libusb-0.1.so.4                                                  libusb-1:0.1.5-8.fc26.armv7hl
 dmraid-events-1.0.0.rc16-31.fc26.armv7hl                           
-├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─device-mapper-event                                              device-mapper-event-1.02.141-1.fc27.armv7hl
+├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─device-mapper-event                                              device-mapper-event-1.02.142-4.fc27.armv7hl
 ├─libdmraid.so.1                                                   dmraid-1.0.0.rc16-31.fc26.armv7hl
 ├─libdmraid.so.1(Base)                                             dmraid-1.0.0.rc16-31.fc26.armv7hl
 ├─sgpio                                                            sgpio-1.2.0.10-17.fc26.armv7hl
 └─dmraid = 1.0.0.rc16-31.fc26                                      dmraid-1.0.0.rc16-31.fc26.armv7hl
-isns-utils-libs-0.97-3.fc27.armv7hl                                
-python3-dbus-1.2.4-6.fc26.armv7hl                                  
-├─libdbus-glib-1.so.2                                              dbus-glib-0.108-2.fc26.armv7hl
-python3-pyudev-0.21.0-3.fc26.noarch                                
-anaconda-core-27.18-1.fc27.armv7hl                                 
-├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
-├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.armv7hl
-├─python3-pytz                                                     python3-pytz-2017.2-1.fc27.noarch
-├─rsync                                                            rsync-3.1.2-5.fc27.armv7hl
-├─createrepo_c                                                     createrepo_c-0.10.0-9.fc26.armv7hl
-├─libselinux-python3                                               libselinux-python3-2.6-6.fc27.armv7hl
-├─kbd                                                              kbd-2.0.4-2.fc26.armv7hl
-├─cracklib-dicts                                                   cracklib-dicts-2.9.6-5.fc26.armv7hl
-├─kexec-tools                                                      kexec-tools-2.0.15-4.fc27.armv7hl
-├─python3-wrapt                                                    python3-wrapt-1.10.10-1.fc27.armv7hl
-├─authconfig                                                       authconfig-7.0.1-1.fc27.armv7hl
-├─realmd                                                           realmd-0.16.3-5.fc27.armv7hl
-├─NetworkManager-team                                              NetworkManager-team-1:1.8.0-6.fc27.armv7hl
-├─python3-pid                                                      python3-pid-2.1.1-3.fc26.noarch
-├─python3-requests-file                                            python3-requests-file-1.4-6.fc26.noarch
-├─teamd                                                            teamd-1.27-1.fc27.armv7hl
-├─chrony                                                           chrony-3.1-5.fc27.armv7hl
-├─glibc-langpack-en                                                glibc-langpack-en-2.25.90-27.fc27.armv7hl
-├─python3-ntplib                                                   python3-ntplib-0.3.3-6.fc26.noarch
-├─python3-pwquality                                                python3-pwquality-1.4.0-1.fc27.armv7hl
-├─python3-requests-ftp                                             python3-requests-ftp-0.3.1-6.fc26.noarch
-├─anaconda-tui = 27.18-1.fc27                                      anaconda-tui-27.18-1.fc27.armv7hl
-├─parted >= 1.8.1                                                  parted-3.2-28.fc27.armv7hl
-├─NetworkManager >= 1.0                                            NetworkManager-1:1.8.0-6.fc27.armv7hl
-├─NetworkManager-libnm >= 1.0                                      NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─firewalld >= 0.3.5-1                                             firewalld-0.4.4.5-3.fc27.noarch
-├─isomd5sum >= 1.0.10                                              isomd5sum-1:1.2.1-1.fc27.armv7hl
-├─langtable-data >= 0.0.34                                         langtable-data-0.0.37-1.fc26.noarch
-├─langtable-python3 >= 0.0.34                                      langtable-python3-0.0.37-1.fc26.noarch
-├─libblockdev-plugins-all >= 2.1                                   libblockdev-plugins-all-2.10-1.fc27.armv7hl
-├─libreport-anaconda >= 2.0.21-1                                   libreport-anaconda-2.9.1-2.fc27.armv7hl
-├─python3-blivet >= 1:2.1.9-1                                      python3-blivet-1:2.1.9-2.fc27.noarch
-├─python3-blockdev >= 2.1                                          python3-blockdev-2.10-1.fc27.armv7hl
-├─python3-coverage >= 4.0-0.12.b3                                  python3-coverage-4.4.1-2.fc27.armv7hl
-├─python3-iscsi-initiator-utils >= 6.2.0.873-26                    python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.armv7hl
-├─python3-kickstart >= 2.35-1                                      python3-kickstart-2.37-1.fc27.noarch
-├─python3-meh >= 0.23-1                                            python3-meh-0.44-4.fc26.noarch
-├─python3-ordered-set >= 2.0.0                                     python3-ordered-set-2.0.0-6.fc26.noarch
-├─python3-pyparted >= 2.5-2                                        python3-pyparted-1:3.11.0-2.fc27.armv7hl
-anaconda-gui-27.18-1.fc27.armv7hl                                  
-├─system-logos                                                     fedora-logos-26.0.1-1.fc27.armv7hl
-├─yelp                                                             yelp-2:3.25.3-1.fc27.armv7hl
-├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.armv7hl
-├─adwaita-icon-theme                                               adwaita-icon-theme-3.24.0-2.fc27.noarch
-├─nm-connection-editor                                             nm-connection-editor-1.8.2-2.fc27.armv7hl
-├─keybinder3                                                       keybinder3-0.3.2-1.fc27.armv7hl
-├─libgnomekbd                                                      libgnomekbd-3.22.0.1-2.fc26.armv7hl
-├─tigervnc-server-minimal                                          tigervnc-server-minimal-1.8.0-2.fc27.armv7hl
-├─NetworkManager-wifi                                              NetworkManager-wifi-1:1.8.0-6.fc27.armv7hl
-├─anaconda-core = 27.18-1.fc27                                     anaconda-core-27.18-1.fc27.armv7hl
-├─anaconda-widgets = 27.18-1.fc27                                  anaconda-widgets-27.18-1.fc27.armv7hl
-├─anaconda-user-help >= 22.1-1                                     anaconda-user-help-26.1-4.fc27.noarch
-├─blivet-gui-runtime >= 2.1.5-2                                    blivet-gui-runtime-2.1.5-2.fc27.noarch
-├─libtimezonemap >= 0.4.1-2                                        libtimezonemap-0.4.5-6.fc26.armv7hl
-├─libxklavier >= 5.4                                               libxklavier-5.4-7.fc26.armv7hl
-└─python3-meh-gui >= 0.23-1                                        python3-meh-gui-0.44-4.fc26.noarch
-anaconda-tui-27.18-1.fc27.armv7hl                                  
-└─anaconda-core = 27.18-1.fc27                                     anaconda-core-27.18-1.fc27.armv7hl
-lvm2-libs-2.02.172-1.fc27.armv7hl                                  
-├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-└─device-mapper-event = 1.02.141-1.fc27                            device-mapper-event-1.02.141-1.fc27.armv7hl
-gnupg-1.4.21-4.fc27.armv7hl                                        
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-└─libusb-0.1.so.4                                                  libusb-1:0.1.5-8.fc26.armv7hl
-libselinux-devel-2.6-6.fc27.armv7hl                                
-├─pkgconfig(libpcre)                                               pcre-devel-8.41-1.fc27.armv7hl
-├─pkgconfig(libsepol)                                              libsepol-devel-2.6-1.fc26.armv7hl
-└─libsepol-devel(armv7hl-32) >= 2.6-0                              libsepol-devel-2.6-1.fc26.armv7hl
-sgpio-1.2.0.10-17.fc26.armv7hl                                     
-hostname-3.18-2.fc26.armv7hl                                       
-pcre-cpp-8.41-1.fc27.armv7hl                                       
-pcre-utf16-8.41-1.fc27.armv7hl                                     
-pcre-utf32-8.41-1.fc27.armv7hl                                     
-device-mapper-event-1.02.141-1.fc27.armv7hl                        
-├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-└─device-mapper-event-libs = 1.02.141-1.fc27                       device-mapper-event-libs-1.02.141-1.fc27.armv7hl
-dbus-glib-0.108-2.fc26.armv7hl                                     
-NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl                        
-├─libjansson.so.4                                                  jansson-2.10-2.fc27.armv7hl
-NetworkManager-team-1:1.8.0-6.fc27.armv7hl                         
-├─libjansson.so.4                                                  jansson-2.10-2.fc27.armv7hl
-├─libteamdctl.so.0                                                 teamd-1.27-1.fc27.armv7hl
-└─NetworkManager(armv7hl-32) = 1:1.8.0-6.fc27                      NetworkManager-1:1.8.0-6.fc27.armv7hl
-authconfig-7.0.1-1.fc27.armv7hl                                    
-├─policycoreutils                                                  policycoreutils-2.6-5.fc27.armv7hl
-├─python3-sssdconfig                                               python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
-chrony-3.1-5.fc27.armv7hl                                          
-cracklib-dicts-2.9.6-5.fc26.armv7hl                                
-createrepo_c-0.10.0-9.fc26.armv7hl                                 
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-├─libdrpm.so.0                                                     drpm-0.3.0-6.fc27.armv7hl
-├─libcreaterepo_c.so.0                                             createrepo_c-libs-0.10.0-9.fc26.armv7hl
-├─createrepo_c-libs = 0.10.0-9.fc26                                createrepo_c-libs-0.10.0-9.fc26.armv7hl
-isomd5sum-1:1.2.1-1.fc27.armv7hl                                   
-kbd-2.0.4-2.fc26.armv7hl                                           
-├─kbd-legacy = 2.0.4-2.fc26                                        kbd-legacy-2.0.4-2.fc26.noarch
-├─kbd-misc = 2.0.4-2.fc26                                          kbd-misc-2.0.4-2.fc26.noarch
-└─initscripts >= 5.86-1                                            initscripts-9.72-1.fc27.armv7hl
-kexec-tools-2.0.15-4.fc27.armv7hl                                  
-├─ethtool                                                          ethtool-2:4.8-2.fc26.armv7hl
-└─dracut-network >= 044-117                                        dracut-network-045-18.git20170515.fc27.armv7hl
-langtable-data-0.0.37-1.fc26.noarch                                
-└─langtable = 0.0.37-1.fc26                                        langtable-0.0.37-1.fc26.noarch
-langtable-python3-0.0.37-1.fc26.noarch                             
-├─langtable = 0.0.37-1.fc26                                        langtable-0.0.37-1.fc26.noarch
-└─langtable-data = 0.0.37-1.fc26                                   langtable-data-0.0.37-1.fc26.noarch
-libreport-anaconda-2.9.1-2.fc27.armv7hl                            
-├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-├─libreport-plugin-bugzilla = 2.9.1-2.fc27                         libreport-plugin-bugzilla-2.9.1-2.fc27.armv7hl
-└─libreport-plugin-reportuploader = 2.9.1-2.fc27                   libreport-plugin-reportuploader-2.9.1-2.fc27.armv7hl
-libselinux-python3-2.6-6.fc27.armv7hl                              
-python3-blivet-1:2.1.9-2.fc27.noarch                               
-├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.armv7hl
-├─dosfstools                                                       dosfstools-4.1-2.fc26.armv7hl
-├─libselinux-python3                                               libselinux-python3-2.6-6.fc27.armv7hl
-├─lsof                                                             lsof-4.89-5.fc26.armv7hl
-├─python3-kickstart                                                python3-kickstart-2.37-1.fc27.noarch
-├─parted >= 1.8.1                                                  parted-3.2-28.fc27.armv7hl
-├─libblockdev-plugins-all >= 2.6                                   libblockdev-plugins-all-2.10-1.fc27.armv7hl
-├─python3-blockdev >= 2.6                                          python3-blockdev-2.10-1.fc27.armv7hl
-├─python3-bytesize >= 0.3                                          python3-bytesize-0.11-1.fc27.armv7hl
-├─python3-pyparted >= 3.10.4                                       python3-pyparted-1:3.11.0-2.fc27.armv7hl
-└─python3-pyudev >= 0.18                                           python3-pyudev-0.21.0-3.fc26.noarch
-python3-meh-0.44-4.fc26.noarch                                     
-├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.armv7hl
-├─libreport-cli >= 2.0.18-1                                        libreport-cli-2.9.1-2.fc27.armv7hl
-└─libreport-python3 >= 2.0.18-1                                    libreport-python3-2.9.1-2.fc27.armv7hl
-python3-ntplib-0.3.3-6.fc26.noarch                                 
-python3-ordered-set-2.0.0-6.fc26.noarch                            
-python3-pid-2.1.1-3.fc26.noarch                                    
-python3-pwquality-1.4.0-1.fc27.armv7hl                             
-python3-pyparted-1:3.11.0-2.fc27.armv7hl                           
-├─libparted.so.2                                                   parted-3.2-28.fc27.armv7hl
-python3-pytz-2017.2-1.fc27.noarch                                  
-python3-requests-2.18.1-2.fc27.noarch                              
-├─python3-chardet                                                  python3-chardet-3.0.4-1.fc27.noarch
-├─python3-urllib3                                                  python3-urllib3-1.21.1-1.fc27.noarch
-├─python3-idna                                                     python3-idna-2.5-1.fc27.noarch
-python3-requests-file-1.4-6.fc26.noarch                            
-├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
-python3-requests-ftp-0.3.1-6.fc26.noarch                           
-├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
-python3-wrapt-1.10.10-1.fc27.armv7hl                               
-realmd-0.16.3-5.fc27.armv7hl                                       
-├─libpolkit-gobject-1.so.0                                         polkit-libs-0.113-13.fc27.armv7hl
-└─authconfig                                                       authconfig-7.0.1-1.fc27.armv7hl
-rsync-3.1.2-5.fc27.armv7hl                                         
-teamd-1.27-1.fc27.armv7hl                                          
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libjansson.so.4                                                  jansson-2.10-2.fc27.armv7hl
-├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
-├─libdaemon.so.0                                                   libdaemon-0.14-11.fc26.armv7hl
-├─libnl-nf-3.so.200                                                libnl3-3.3.0-1.fc27.armv7hl
-├─libteam.so.5                                                     libteam-1.27-1.fc27.armv7hl
-├─libnl-cli-3.so.200                                               libnl3-cli-3.3.0-1.fc27.armv7hl
-└─libteam = 1.27-1.fc27                                            libteam-1.27-1.fc27.armv7hl
-NetworkManager-wifi-1:1.8.0-6.fc27.armv7hl                         
-├─NetworkManager(armv7hl-32) = 1:1.8.0-6.fc27                      NetworkManager-1:1.8.0-6.fc27.armv7hl
-└─wpa_supplicant >= 1:1.1                                          wpa_supplicant-1:2.6-7.fc27.armv7hl
-adwaita-icon-theme-3.24.0-2.fc27.noarch                            
-└─adwaita-cursor-theme = 3.24.0-2.fc27                             adwaita-cursor-theme-3.24.0-2.fc27.noarch
-anaconda-user-help-26.1-4.fc27.noarch                              
-anaconda-widgets-27.18-1.fc27.armv7hl                              
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libxklavier.so.16                                                libxklavier-5.4-7.fc26.armv7hl
-├─libgladeui-2.so.6                                                glade-libs-3.20.0-3.fc26.armv7hl
-blivet-gui-runtime-2.1.5-2.fc27.noarch                             
-├─python3-gobject                                                  python3-gobject-3.24.1-1.fc27.armv7hl
-├─gtk3                                                             gtk3-3.22.17-1.fc27.armv7hl
-├─libreport                                                        libreport-2.9.1-2.fc27.armv7hl
-├─gettext                                                          gettext-0.19.8.1-9.fc27.armv7hl
-├─adwaita-icon-theme                                               adwaita-icon-theme-3.24.0-2.fc27.noarch
-├─PolicyKit-authentication-agent                                   lxpolkit-0.5.3-2.fc26.1.armv7hl
-├─python3-pid                                                      python3-pid-2.1.1-3.fc26.noarch
-└─python3-blivet >= 1:2.1                                          python3-blivet-1:2.1.9-2.fc27.noarch
-keybinder3-0.3.2-1.fc27.armv7hl                                    
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-└─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-libgnomekbd-3.22.0.1-2.fc26.armv7hl                                
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-└─libxklavier.so.16                                                libxklavier-5.4-7.fc26.armv7hl
-libtimezonemap-0.4.5-6.fc26.armv7hl                                
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libsoup-2.4.so.1                                                 libsoup-2.58.1-2.fc27.armv7hl
-├─libjson-glib-1.0.so.0                                            json-glib-1.3.2-1.fc27.armv7hl
-└─librsvg-2.so.2                                                   librsvg2-2.40.17-1.fc27.armv7hl
-libxklavier-5.4-7.fc26.armv7hl                                     
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXi.so.6                                                       libXi-1.7.9-2.fc26.armv7hl
-├─iso-codes                                                        iso-codes-3.75-1.fc27.noarch
-└─libxkbfile.so.1                                                  libxkbfile-1.0.9-4.fc26.armv7hl
-nm-connection-editor-1.8.2-2.fc27.armv7hl                          
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libgudev-1.0.so.0                                                libgudev-230-4.fc26.armv7hl
-├─libnm.so.0                                                       NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libgcr-base-3.so.1                                               gcr-3.20.0-4.fc26.armv7hl
-├─libjansson.so.4                                                  jansson-2.10-2.fc27.armv7hl
-├─libgck-1.so.0                                                    gcr-3.20.0-4.fc26.armv7hl
-├─libnm.so.0(libnm_1_0_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_2_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libgcr-ui-3.so.1                                                 gcr-3.20.0-4.fc26.armv7hl
-├─libnma.so.0                                                      libnma-1.8.2-2.fc27.armv7hl
-├─libnma.so.0(libnma_1_2_0)                                        libnma-1.8.2-2.fc27.armv7hl
-├─libnm.so.0(libnm_1_6_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_8_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_4_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnma.so.0(libnma_1_8_0)                                        libnma-1.8.2-2.fc27.armv7hl
-├─libnma(armv7hl-32) = 1.8.2-2.fc27                                libnma-1.8.2-2.fc27.armv7hl
-└─NetworkManager-glib >= 1:1.1.0                                   NetworkManager-glib-1:1.8.0-6.fc27.armv7hl
-python3-meh-gui-0.44-4.fc26.noarch                                 
-├─python3-gobject                                                  python3-gobject-3.24.1-1.fc27.armv7hl
-├─gtk3                                                             gtk3-3.22.17-1.fc27.armv7hl
-├─libreport-gtk >= 2.0.18-1                                        libreport-gtk-2.9.1-2.fc27.armv7hl
-└─python3-meh = 0.44-4.fc26                                        python3-meh-0.44-4.fc26.noarch
-tigervnc-server-minimal-1.8.0-2.fc27.armv7hl                       
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libGL.so.1                                                       libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-├─libjpeg.so.62                                                    libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─libICE.so.6                                                      libICE-1.0.9-9.fc27.armv7hl
-├─libSM.so.6                                                       libSM-1.2.2-5.fc26.armv7hl
-├─libjpeg.so.62(LIBJPEG_6.2)                                       libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─initscripts                                                      initscripts-9.72-1.fc27.armv7hl
-├─libpixman-1.so.0                                                 pixman-0.34.0-3.fc26.armv7hl
-├─libXau.so.6                                                      libXau-1.0.8-7.fc26.armv7hl
-├─libXdmcp.so.6                                                    libXdmcp-1.1.2-6.fc27.armv7hl
-├─libxshmfence.so.1                                                libxshmfence-1.2-4.fc26.armv7hl
-├─xkeyboard-config                                                 xkeyboard-config-2.21-1.fc27.noarch
-├─libXfont2.so.2                                                   libXfont2-2.0.1-3.fc26.armv7hl
-├─xorg-x11-xkb-utils                                               xorg-x11-xkb-utils-7.7-19.fc27.armv7hl
-├─mesa-dri-drivers                                                 mesa-dri-drivers-17.1.5-1.fc27.armv7hl
-└─tigervnc-license                                                 tigervnc-license-1.8.0-2.fc27.noarch
-yelp-2:3.25.3-1.fc27.armv7hl                                       
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libsoup-2.4.so.1                                                 libsoup-2.58.1-2.fc27.armv7hl
-├─libxslt.so.1                                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libwebkit2gtk-4.0.so.37                                          webkitgtk4-2.17.4-4.fc27.armv7hl
-├─libjavascriptcoregtk-4.0.so.18                                   webkitgtk4-jsc-2.17.4-4.fc27.armv7hl
-├─libexslt.so.0                                                    libxslt-1.1.29-2.fc27.armv7hl
-├─yelp-xsl                                                         yelp-xsl-3.20.1-2.fc26.noarch
-├─libyelp.so.0                                                     yelp-libs-2:3.25.3-1.fc27.armv7hl
-└─yelp-libs(armv7hl-32) = 2:3.25.3-1.fc27                          yelp-libs-2:3.25.3-1.fc27.armv7hl
 libusb-1:0.1.5-8.fc26.armv7hl                                      
-libsepol-devel-2.6-1.fc26.armv7hl                                  
-jansson-2.10-2.fc27.armv7hl                                        
-NetworkManager-1:1.8.0-6.fc27.armv7hl                              
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-├─libpolkit-gobject-1.so.0                                         polkit-libs-0.113-13.fc27.armv7hl
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
-├─libnm.so.0                                                       NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libjansson.so.4                                                  jansson-2.10-2.fc27.armv7hl
-├─libnm.so.0(libnm_1_0_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_2_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libpolkit-agent-1.so.0                                           polkit-libs-0.113-13.fc27.armv7hl
-├─libnm.so.0(libnm_1_6_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libpsl.so.5                                                      libpsl-0.17.0-2.fc26.armv7hl
-├─libnm.so.0(libnm_1_8_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_4_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libndp.so.0                                                      libndp-1.6-2.fc26.armv7hl
-├─NetworkManager-libnm(armv7hl-32) = 1:1.8.0-6.fc27                NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-policycoreutils-2.6-5.fc27.armv7hl                                 
-├─libselinux-utils >= 2.6-5                                        libselinux-utils-2.6-6.fc27.armv7hl
-python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                     
-createrepo_c-libs-0.10.0-9.fc26.armv7hl                            
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-└─libdrpm.so.0                                                     drpm-0.3.0-6.fc27.armv7hl
-drpm-0.3.0-6.fc27.armv7hl                                          
-kbd-legacy-2.0.4-2.fc26.noarch                                     
-kbd-misc-2.0.4-2.fc26.noarch                                       
-dracut-network-045-18.git20170515.fc27.armv7hl                     
-ethtool-2:4.8-2.fc26.armv7hl                                       
-langtable-0.0.37-1.fc26.noarch                                     
-libreport-2.9.1-2.fc27.armv7hl                                     
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-├─libaugeas.so.0(AUGEAS_0.1.0)                                     augeas-libs-1.8.0-1.fc27.armv7hl
-├─lz4                                                              lz4-1.7.5-4.fc27.armv7hl
-├─libaugeas.so.0(AUGEAS_0.8.0)                                     augeas-libs-1.8.0-1.fc27.armv7hl
-├─libaugeas.so.0(AUGEAS_0.10.0)                                    augeas-libs-1.8.0-1.fc27.armv7hl
-├─satyr >= 0.22                                                    satyr-0.23-1.fc27.armv7hl
-libreport-plugin-bugzilla-2.9.1-2.fc27.armv7hl                     
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-├─libjson-c.so.2                                                   json-c-0.12.1-2.fc27.armv7hl
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libreport.so.0                                                   libreport-2.9.1-2.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libproxy.so.1                                                    libproxy-0.4.15-2.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-├─libxmlrpc.so.3                                                   xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_util.so.4                                              xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_client.so.3                                            xmlrpc-c-client-1.48.0-5.fc27.armv7hl
-├─libreport-web.so.0                                               libreport-web-2.9.1-2.fc27.armv7hl
-├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-└─libreport-web = 2.9.1-2.fc27                                     libreport-web-2.9.1-2.fc27.armv7hl
-libreport-plugin-reportuploader-2.9.1-2.fc27.armv7hl               
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-├─libjson-c.so.2                                                   json-c-0.12.1-2.fc27.armv7hl
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libreport.so.0                                                   libreport-2.9.1-2.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libproxy.so.1                                                    libproxy-0.4.15-2.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-├─libxmlrpc.so.3                                                   xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_util.so.4                                              xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_client.so.3                                            xmlrpc-c-client-1.48.0-5.fc27.armv7hl
-├─libreport-web.so.0                                               libreport-web-2.9.1-2.fc27.armv7hl
-├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-└─libreport-web = 2.9.1-2.fc27                                     libreport-web-2.9.1-2.fc27.armv7hl
-lsof-4.89-5.fc26.armv7hl                                           
-python3-bytesize-0.11-1.fc27.armv7hl                               
-└─libbytesize(armv7hl-32) = 0.11-1.fc27                            libbytesize-0.11-1.fc27.armv7hl
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-libreport-cli-2.9.1-2.fc27.armv7hl                                 
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libreport.so.0                                                   libreport-2.9.1-2.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-└─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-libreport-python3-2.9.1-2.fc27.armv7hl                             
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libreport.so.0                                                   libreport-2.9.1-2.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-└─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-python3-chardet-3.0.4-1.fc27.noarch                                
-python3-idna-2.5-1.fc27.noarch                                     
-python3-urllib3-1.21.1-1.fc27.noarch                               
-├─python3-pyOpenSSL                                                python3-pyOpenSSL-17.1.0-1.fc27.noarch
-├─python3-cryptography                                             python3-cryptography-1.9-1.fc27.armv7hl
-├─python3-idna                                                     python3-idna-2.5-1.fc27.noarch
-├─python3-pysocks                                                  python3-pysocks-1.5.7-4.fc26.noarch
-polkit-libs-0.113-13.fc27.armv7hl                                  
-libdaemon-0.14-11.fc26.armv7hl                                     
-libteam-1.27-1.fc27.armv7hl                                        
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-nf-3.so.200                                                libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3_2_27)                                     libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-cli-3.so.200                                               libnl3-cli-3.3.0-1.fc27.armv7hl
-└─libnl-cli-3.so.200(libnl_3)                                      libnl3-cli-3.3.0-1.fc27.armv7hl
-wpa_supplicant-1:2.6-7.fc27.armv7hl                                
-├─libnl-3.so.200                                                   libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-3.so.200(libnl_3)                                          libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200                                             libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200                                              libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-genl-3.so.200(libnl_3)                                     libnl3-3.3.0-1.fc27.armv7hl
-├─libnl-route-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.armv7hl
-└─libnl-route-3.so.200(libnl_3_2_28)                               libnl3-3.3.0-1.fc27.armv7hl
-adwaita-cursor-theme-3.24.0-2.fc27.noarch                          
-atk-2.25.2-1.fc27.armv7hl                                          
-cairo-1.14.10-2.fc27.armv7hl                                       
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libpng16.so.16(PNG16_0)                                          libpng-2:1.6.29-1.fc27.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-├─libpixman-1.so.0                                                 pixman-0.34.0-3.fc26.armv7hl
-├─libxcb-shm.so.0                                                  libxcb-1.12-3.fc26.armv7hl
-└─libxcb-render.so.0                                               libxcb-1.12-3.fc26.armv7hl
-cairo-gobject-1.14.10-2.fc27.armv7hl                               
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-├─libpixman-1.so.0                                                 pixman-0.34.0-3.fc26.armv7hl
-├─libxcb-shm.so.0                                                  libxcb-1.12-3.fc26.armv7hl
-├─libxcb-render.so.0                                               libxcb-1.12-3.fc26.armv7hl
-└─cairo(armv7hl-32) = 1.14.10-2.fc27                               cairo-1.14.10-2.fc27.armv7hl
-gdk-pixbuf2-2.36.7-1.fc27.armv7hl                                  
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libpng16.so.16(PNG16_0)                                          libpng-2:1.6.29-1.fc27.armv7hl
-├─shared-mime-info                                                 shared-mime-info-1.8-3.fc27.armv7hl
-glade-libs-3.20.0-3.fc26.armv7hl                                   
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-gtk3-3.22.17-1.fc27.armv7hl                                        
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libpangoft2-1.0.so.0                                             pango-1.40.7-1.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─hicolor-icon-theme                                               hicolor-icon-theme-0.15-5.fc27.noarch
-├─libXi.so.6                                                       libXi-1.7.9-2.fc26.armv7hl
-├─libXrandr.so.2                                                   libXrandr-1.5.1-2.fc26.armv7hl
-├─libjson-glib-1.0.so.0                                            json-glib-1.3.2-1.fc27.armv7hl
-├─libXfixes.so.3                                                   libXfixes-5.0.3-2.fc26.armv7hl
-├─libXinerama.so.1                                                 libXinerama-1.1.3-7.fc26.armv7hl
-├─libXcomposite.so.1                                               libXcomposite-0.4.4-9.fc26.armv7hl
-├─libwayland-client.so.0                                           libwayland-client-1.13.0-1.fc26.armv7hl
-├─libXdamage.so.1                                                  libXdamage-1.1.4-9.fc26.armv7hl
-├─libxkbcommon.so.0                                                libxkbcommon-0.7.1-3.fc27.armv7hl
-├─libXcursor.so.1                                                  libXcursor-1.1.14-8.fc26.armv7hl
-├─libwayland-egl.so.1                                              mesa-libwayland-egl-17.1.5-1.fc27.armv7hl
-├─libwayland-cursor.so.0                                           libwayland-cursor-1.13.0-1.fc26.armv7hl
-├─libcups.so.2                                                     cups-libs-1:2.2.4-1.fc27.armv7hl
-├─libepoxy.so.0                                                    libepoxy-1.4.3-1.fc27.armv7hl
-├─libxkbcommon.so.0(V_0.5.0)                                       libxkbcommon-0.7.1-3.fc27.armv7hl
-├─librest-0.7.so.0                                                 rest-0.8.0-2.fc26.armv7hl
-├─libcolord.so.2                                                   colord-libs-1.3.5-1.fc26.armv7hl
-├─adwaita-icon-theme                                               adwaita-icon-theme-3.24.0-2.fc27.noarch
-├─libatk-bridge-2.0.so.0                                           at-spi2-atk-2.25.3-1.fc27.armv7hl
-├─gdk-pixbuf2-modules(armv7hl-32)                                  gdk-pixbuf2-modules-2.36.7-1.fc27.armv7hl
-├─gtk-update-icon-cache                                            gtk-update-icon-cache-3.22.17-1.fc27.armv7hl
-├─cairo(armv7hl-32) >= 1.14.0                                      cairo-1.14.10-2.fc27.armv7hl
-├─atk(armv7hl-32) >= 2.15.1                                        atk-2.25.2-1.fc27.armv7hl
-├─cairo-gobject(armv7hl-32) >= 1.14.0                              cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libXrandr(armv7hl-32) >= 1.5.0                                   libXrandr-1.5.1-2.fc26.armv7hl
-├─libepoxy(armv7hl-32) >= 1.0                                      libepoxy-1.4.3-1.fc27.armv7hl
-├─libwayland-client(armv7hl-32) >= 1.9.91                          libwayland-client-1.13.0-1.fc26.armv7hl
-├─libwayland-cursor(armv7hl-32) >= 1.9.91                          libwayland-cursor-1.13.0-1.fc26.armv7hl
-└─pango(armv7hl-32) >= 1.37.3                                      pango-1.40.7-1.fc27.armv7hl
-pango-1.40.7-1.fc27.armv7hl                                        
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-├─libXft.so.2                                                      libXft-2.3.2-5.fc26.armv7hl
-├─libharfbuzz.so.0                                                 harfbuzz-1.4.6-1.fc27.armv7hl
-├─libthai.so.0                                                     libthai-0.1.25-2.fc26.armv7hl
-├─libthai.so.0(LIBTHAI_0.1)                                        libthai-0.1.25-2.fc26.armv7hl
-├─cairo(armv7hl-32) >= 1.12.10                                     cairo-1.14.10-2.fc27.armv7hl
-├─fontconfig(armv7hl-32) >= 2.10.91                                fontconfig-2.12.4-1.fc27.armv7hl
-├─freetype(armv7hl-32) >= 2.1.5                                    freetype-2.8-3.fc27.armv7hl
-├─harfbuzz(armv7hl-32) >= 1.2.3                                    harfbuzz-1.4.6-1.fc27.armv7hl
-├─libXft(armv7hl-32) >= 2.0.0                                      libXft-2.3.2-5.fc26.armv7hl
-└─libthai(armv7hl-32) >= 0.1.9                                     libthai-0.1.25-2.fc26.armv7hl
-gettext-0.19.8.1-9.fc27.armv7hl                                    
-├─libcroco-0.6.so.3                                                libcroco-0.6.12-1.fc27.armv7hl
-├─libgettextlib-0.19.8.1.so                                        gettext-libs-0.19.8.1-9.fc27.armv7hl
-├─libgettextsrc-0.19.8.1.so                                        gettext-libs-0.19.8.1-9.fc27.armv7hl
-└─gettext-libs(armv7hl-32) = 0.19.8.1-9.fc27                       gettext-libs-0.19.8.1-9.fc27.armv7hl
-python3-gobject-3.24.1-1.fc27.armv7hl                              
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─python3-cairo(armv7hl-32)                                        python3-cairo-1.10.0-20.fc26.armv7hl
-└─python3-gobject-base(armv7hl-32) = 3.24.1-1.fc27                 python3-gobject-base-3.24.1-1.fc27.armv7hl
-libX11-1.6.5-2.fc27.armv7hl                                        
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-└─libX11-common >= 1.6.5-2.fc27                                    libX11-common-1.6.5-2.fc27.noarch
-libXext-1.3.3-5.fc26.armv7hl                                       
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-libXrender-0.9.10-2.fc26.armv7hl                                   
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-GConf2-3.2.6-17.fc26.armv7hl                                       
-├─libdbus-glib-1.so.2                                              dbus-glib-0.108-2.fc26.armv7hl
-├─libpolkit-gobject-1.so.0                                         polkit-libs-0.113-13.fc27.armv7hl
-json-glib-1.3.2-1.fc27.armv7hl                                     
-librsvg2-2.40.17-1.fc27.armv7hl                                    
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libcroco-0.6.so.3                                                libcroco-0.6.12-1.fc27.armv7hl
-└─gdk-pixbuf2(armv7hl-32) >= 2.31.5-2.fc24                         gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-libsoup-2.58.1-2.fc27.armv7hl                                      
-├─glib-networking(armv7hl-32) >= 2.38.0                            glib-networking-2.50.0-2.fc26.armv7hl
-iso-codes-3.75-1.fc27.noarch                                       
-libXi-1.7.9-2.fc26.armv7hl                                         
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-libxkbfile-1.0.9-4.fc26.armv7hl                                    
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-NetworkManager-glib-1:1.8.0-6.fc27.armv7hl                         
-├─libdbus-glib-1.so.2                                              dbus-glib-0.108-2.fc26.armv7hl
-└─dbus-glib >= 0.100                                               dbus-glib-0.108-2.fc26.armv7hl
-gcr-3.20.0-4.fc26.armv7hl                                          
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-libgudev-230-4.fc26.armv7hl                                        
-libnma-1.8.2-2.fc27.armv7hl                                        
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libgudev-1.0.so.0                                                libgudev-230-4.fc26.armv7hl
-├─libnm.so.0                                                       NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libgcr-base-3.so.1                                               gcr-3.20.0-4.fc26.armv7hl
-├─libgck-1.so.0                                                    gcr-3.20.0-4.fc26.armv7hl
-├─libnm.so.0(libnm_1_0_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_2_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libgcr-ui-3.so.1                                                 gcr-3.20.0-4.fc26.armv7hl
-├─libnm.so.0(libnm_1_6_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─libnm.so.0(libnm_1_8_0)                                          NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
-├─gtk3 >= 3.22.16                                                  gtk3-3.22.17-1.fc27.armv7hl
-└─mobile-broadband-provider-info >= 0.20090602                     mobile-broadband-provider-info-1.20170105git-2.fc26.noarch
-libreport-gtk-2.9.1-2.fc27.armv7hl                                 
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libreport.so.0                                                   libreport-2.9.1-2.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-├─libreport-plugin-reportuploader = 2.9.1-2.fc27                   libreport-plugin-reportuploader-2.9.1-2.fc27.armv7hl
-└─fros >= 1.1-2                                                    fros-1.1-12.fc26.noarch
-libICE-1.0.9-9.fc27.armv7hl                                        
-libSM-1.2.2-5.fc26.armv7hl                                         
-├─libICE.so.6                                                      libICE-1.0.9-9.fc27.armv7hl
-libXau-1.0.8-7.fc26.armv7hl                                        
-libXdmcp-1.1.2-6.fc27.armv7hl                                      
-libXfont2-2.0.1-3.fc26.armv7hl                                     
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-└─libfontenc.so.1                                                  libfontenc-1.1.3-4.fc26.armv7hl
-libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl          
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libGLdispatch.so.0                                               libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-├─libglvnd(armv7hl-32) = 1:0.2.999-20.20170620gitd850cdd.fc27      libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-└─mesa-libGL(armv7hl-32) >= 13.0.4-1                               mesa-libGL-17.1.5-1.fc27.armv7hl
-libjpeg-turbo-1.5.1-2.fc27.armv7hl                                 
-libxshmfence-1.2-4.fc26.armv7hl                                    
-mesa-dri-drivers-17.1.5-1.fc27.armv7hl                             
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libdrm.so.2                                                      libdrm-2.4.81-1.fc27.armv7hl
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-├─libX11-xcb.so.1                                                  libX11-1.6.5-2.fc27.armv7hl
-├─libLLVM-4.0.so                                                   llvm-libs-4.0.1-1.fc27.armv7hl
-├─libxcb-xfixes.so.0                                               libxcb-1.12-3.fc26.armv7hl
-├─libxshmfence.so.1                                                libxshmfence-1.2-4.fc26.armv7hl
-├─libxcb-sync.so.1                                                 libxcb-1.12-3.fc26.armv7hl
-├─libdrm_nouveau.so.2                                              libdrm-2.4.81-1.fc27.armv7hl
-├─libxcb-dri2.so.0                                                 libxcb-1.12-3.fc26.armv7hl
-├─libdrm_amdgpu.so.1                                               libdrm-2.4.81-1.fc27.armv7hl
-├─libdrm_radeon.so.1                                               libdrm-2.4.81-1.fc27.armv7hl
-├─libxcb-dri3.so.0                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-present.so.0                                              libxcb-1.12-3.fc26.armv7hl
-├─libdrm_freedreno.so.1                                            libdrm-2.4.81-1.fc27.armv7hl
-├─libglapi.so.0                                                    mesa-libglapi-17.1.5-1.fc27.armv7hl
-├─libdrm_etnaviv.so.1                                              libdrm-2.4.81-1.fc27.armv7hl
-└─mesa-filesystem(armv7hl-32) = 17.1.5-1.fc27                      mesa-filesystem-17.1.5-1.fc27.armv7hl
-pixman-0.34.0-3.fc26.armv7hl                                       
-tigervnc-license-1.8.0-2.fc27.noarch                               
-xkeyboard-config-2.21-1.fc27.noarch                                
-xorg-x11-xkb-utils-7.7-19.fc27.armv7hl                             
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-└─libxkbfile.so.1                                                  libxkbfile-1.0.9-4.fc26.armv7hl
-libxslt-1.1.29-2.fc27.armv7hl                                      
-yelp-libs-2:3.25.3-1.fc27.armv7hl                                  
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libsoup-2.4.so.1                                                 libsoup-2.58.1-2.fc27.armv7hl
-├─libxslt.so.1                                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.11)                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libwebkit2gtk-4.0.so.37                                          webkitgtk4-2.17.4-4.fc27.armv7hl
-├─libexslt.so.0                                                    libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.18)                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.22)                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.13)                                     libxslt-1.1.29-2.fc27.armv7hl
-└─libxslt.so.1(LIBXML2_1.1.18)                                     libxslt-1.1.29-2.fc27.armv7hl
-yelp-xsl-3.20.1-2.fc26.noarch                                      
-libndp-1.6-2.fc26.armv7hl                                          
-libpsl-0.17.0-2.fc26.armv7hl                                       
-└─publicsuffix-list-dafsa                                          publicsuffix-list-dafsa-20170424-1.fc27.noarch
-libselinux-utils-2.6-6.fc27.armv7hl                                
-augeas-libs-1.8.0-1.fc27.armv7hl                                   
-libtar-1.2.20-9.fc26.armv7hl                                       
-lz4-1.7.5-4.fc27.armv7hl                                           
-satyr-0.23-1.fc27.armv7hl                                          
-json-c-0.12.1-2.fc27.armv7hl                                       
-libproxy-0.4.15-2.fc27.armv7hl                                     
-└─libmodman.so.1                                                   libmodman-2.0.1-14.fc27.armv7hl
-libreport-web-2.9.1-2.fc27.armv7hl                                 
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-├─libjson-c.so.2                                                   json-c-0.12.1-2.fc27.armv7hl
-├─libsatyr.so.3                                                    satyr-0.23-1.fc27.armv7hl
-├─libreport.so.0                                                   libreport-2.9.1-2.fc27.armv7hl
-├─libaugeas.so.0                                                   augeas-libs-1.8.0-1.fc27.armv7hl
-├─libproxy.so.1                                                    libproxy-0.4.15-2.fc27.armv7hl
-├─libtar.so.1                                                      libtar-1.2.20-9.fc26.armv7hl
-├─libxmlrpc.so.3                                                   xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_util.so.4                                              xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_client.so.3                                            xmlrpc-c-client-1.48.0-5.fc27.armv7hl
-└─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.armv7hl
-xmlrpc-c-1.48.0-5.fc27.armv7hl                                     
-xmlrpc-c-client-1.48.0-5.fc27.armv7hl                              
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-├─libxmlrpc.so.3                                                   xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libxmlrpc_util.so.4                                              xmlrpc-c-1.48.0-5.fc27.armv7hl
-└─xmlrpc-c(armv7hl-32) = 1.48.0-5.fc27                             xmlrpc-c-1.48.0-5.fc27.armv7hl
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-python3-cryptography-1.9-1.fc27.armv7hl                            
-├─python3-asn1crypto >= 0.21                                       python3-asn1crypto-0.22.0-2.fc27.noarch
-├─python3-cffi >= 1.7                                              python3-cffi-1.10.0-1.fc27.armv7hl
-├─python3-idna >= 2.1                                              python3-idna-2.5-1.fc27.noarch
-python3-pyOpenSSL-17.1.0-1.fc27.noarch                             
-├─python3-cryptography                                             python3-cryptography-1.9-1.fc27.armv7hl
-python3-pysocks-1.5.7-4.fc26.noarch                                
-fontconfig-2.12.4-1.fc27.armv7hl                                   
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─fontpackages-filesystem                                          fontpackages-filesystem-1.44-18.fc26.noarch
-├─font(:lang=en)                                                   aajohan-comfortaa-fonts-2.004-7.fc26.noarch
-freetype-2.8-3.fc27.armv7hl                                        
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libpng16.so.16(PNG16_0)                                          libpng-2:1.6.29-1.fc27.armv7hl
-libpng-2:1.6.29-1.fc27.armv7hl                                     
-libxcb-1.12-3.fc26.armv7hl                                         
-└─libXau.so.6                                                      libXau-1.0.8-7.fc26.armv7hl
-shared-mime-info-1.8-3.fc27.armv7hl                                
-at-spi2-atk-2.25.3-1.fc27.armv7hl                                  
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libatspi.so.0                                                    at-spi2-core-2.25.4-1.fc27.armv7hl
-├─at-spi2-core(armv7hl-32) >= 2.25.3                               at-spi2-core-2.25.4-1.fc27.armv7hl
-└─atk(armv7hl-32) >= 2.25.2                                        atk-2.25.2-1.fc27.armv7hl
-colord-libs-1.3.5-1.fc26.armv7hl                                   
-├─liblcms2.so.2                                                    lcms2-2.8-3.fc26.armv7hl
-├─libgusb.so.2                                                     libgusb-0.2.10-1.fc27.armv7hl
-├─libgusb.so.2(LIBGUSB_0.1.0)                                      libgusb-0.2.10-1.fc27.armv7hl
-└─libgusb.so.2(LIBGUSB_0.1.1)                                      libgusb-0.2.10-1.fc27.armv7hl
-cups-libs-1:2.2.4-1.fc27.armv7hl                                   
-├─libavahi-common.so.3                                             avahi-libs-0.7-1.fc27.armv7hl
-└─libavahi-client.so.3                                             avahi-libs-0.7-1.fc27.armv7hl
-gdk-pixbuf2-modules-2.36.7-1.fc27.armv7hl                          
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libjpeg.so.62                                                    libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─libjpeg.so.62(LIBJPEG_6.2)                                       libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─libtiff.so.5                                                     libtiff-4.0.8-1.fc27.armv7hl
-├─libtiff.so.5(LIBTIFF_4.0)                                        libtiff-4.0.8-1.fc27.armv7hl
-├─libjasper.so.4                                                   jasper-libs-2.0.12-1.fc27.armv7hl
-└─gdk-pixbuf2(armv7hl-32) = 2.36.7-1.fc27                          gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-gtk-update-icon-cache-3.22.17-1.fc27.armv7hl                       
-└─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-hicolor-icon-theme-0.15-5.fc27.noarch                              
-libXcomposite-0.4.4-9.fc26.armv7hl                                 
-└─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-libXcursor-1.1.14-8.fc26.armv7hl                                   
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-├─libXfixes.so.3                                                   libXfixes-5.0.3-2.fc26.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-libXdamage-1.1.4-9.fc26.armv7hl                                    
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-└─libXfixes.so.3                                                   libXfixes-5.0.3-2.fc26.armv7hl
-libXfixes-5.0.3-2.fc26.armv7hl                                     
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-└─libX11 >= 1.6                                                    libX11-1.6.5-2.fc27.armv7hl
-libXinerama-1.1.3-7.fc26.armv7hl                                   
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-libXrandr-1.5.1-2.fc26.armv7hl                                     
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-└─libX11 >= 1.6.0                                                  libX11-1.6.5-2.fc27.armv7hl
-libepoxy-1.4.3-1.fc27.armv7hl                                      
-libwayland-client-1.13.0-1.fc26.armv7hl                            
-libwayland-cursor-1.13.0-1.fc26.armv7hl                            
-└─libwayland-client.so.0                                           libwayland-client-1.13.0-1.fc26.armv7hl
-libxkbcommon-0.7.1-3.fc27.armv7hl                                  
-└─xkeyboard-config                                                 xkeyboard-config-2.21-1.fc27.noarch
-mesa-libwayland-egl-17.1.5-1.fc27.armv7hl                          
-rest-0.8.0-2.fc26.armv7hl                                          
-├─libsoup-2.4.so.1                                                 libsoup-2.58.1-2.fc27.armv7hl
-└─libsoup-gnome-2.4.so.1                                           libsoup-2.58.1-2.fc27.armv7hl
-harfbuzz-1.4.6-1.fc27.armv7hl                                      
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-└─libgraphite2.so.3                                                graphite2-1.3.10-1.fc27.armv7hl
-libXft-2.3.2-5.fc26.armv7hl                                        
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-└─fontconfig >= 2.2-1                                              fontconfig-2.12.4-1.fc27.armv7hl
-libthai-0.1.25-2.fc26.armv7hl                                      
-├─libdatrie.so.1                                                   libdatrie-0.2.9-4.fc26.armv7hl
-└─libdatrie.so.1(DATRIE_0.2)                                       libdatrie-0.2.9-4.fc26.armv7hl
-gettext-libs-0.19.8.1-9.fc27.armv7hl                               
-├─libcroco-0.6.so.3                                                libcroco-0.6.12-1.fc27.armv7hl
-libcroco-0.6.12-1.fc27.armv7hl                                     
-python3-cairo-1.10.0-20.fc26.armv7hl                               
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-libX11-common-1.6.5-2.fc27.noarch                                  
-glib-networking-2.50.0-2.fc26.armv7hl                              
-├─libproxy.so.1                                                    libproxy-0.4.15-2.fc27.armv7hl
-├─gsettings-desktop-schemas                                        gsettings-desktop-schemas-3.24.0-1.fc27.armv7hl
-mobile-broadband-provider-info-1.20170105git-2.fc26.noarch         
-fros-1.1-12.fc26.noarch                                            
-├─python3-gobject                                                  python3-gobject-3.24.1-1.fc27.armv7hl
-libfontenc-1.1.3-4.fc26.armv7hl                                    
-libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl              
-mesa-libGL-17.1.5-1.fc27.armv7hl                                   
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libXfixes.so.3                                                   libXfixes-5.0.3-2.fc26.armv7hl
-├─libdrm.so.2                                                      libdrm-2.4.81-1.fc27.armv7hl
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-├─libXdamage.so.1                                                  libXdamage-1.1.4-9.fc26.armv7hl
-├─libXxf86vm.so.1                                                  libXxf86vm-1.1.4-4.fc26.armv7hl
-├─libX11-xcb.so.1                                                  libX11-1.6.5-2.fc27.armv7hl
-├─libxcb-xfixes.so.0                                               libxcb-1.12-3.fc26.armv7hl
-├─libxshmfence.so.1                                                libxshmfence-1.2-4.fc26.armv7hl
-├─libxcb-sync.so.1                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-glx.so.0                                                  libxcb-1.12-3.fc26.armv7hl
-├─libxcb-dri2.so.0                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-dri3.so.0                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-present.so.0                                              libxcb-1.12-3.fc26.armv7hl
-├─libglapi.so.0                                                    mesa-libglapi-17.1.5-1.fc27.armv7hl
-├─libglvnd-glx(armv7hl-32)                                         libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-└─mesa-libglapi(armv7hl-32) = 17.1.5-1.fc27                        mesa-libglapi-17.1.5-1.fc27.armv7hl
-libdrm-2.4.81-1.fc27.armv7hl                                       
-llvm-libs-4.0.1-1.fc27.armv7hl                                     
-mesa-filesystem-17.1.5-1.fc27.armv7hl                              
-mesa-libglapi-17.1.5-1.fc27.armv7hl                                
-libmodman-2.0.1-14.fc27.armv7hl                                    
-python3-asn1crypto-0.22.0-2.fc27.noarch                            
-python3-cffi-1.10.0-1.fc27.armv7hl                                 
-├─python3-pycparser                                                python3-pycparser-2.14-10.fc26.noarch
-fontpackages-filesystem-1.44-18.fc26.noarch                        
-at-spi2-core-2.25.4-1.fc27.armv7hl                                 
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXi.so.6                                                       libXi-1.7.9-2.fc26.armv7hl
-├─libXtst.so.6                                                     libXtst-1.2.3-2.fc26.armv7hl
-├─libxkbcommon.so.0                                                libxkbcommon-0.7.1-3.fc27.armv7hl
-└─libxkbcommon-x11.so.0                                            libxkbcommon-x11-0.7.1-3.fc27.armv7hl
-lcms2-2.8-3.fc26.armv7hl                                           
-libgusb-0.2.10-1.fc27.armv7hl                                      
-avahi-libs-0.7-1.fc27.armv7hl                                      
-jasper-libs-2.0.12-1.fc27.armv7hl                                  
-├─libjpeg.so.62                                                    libjpeg-turbo-1.5.1-2.fc27.armv7hl
-└─libjpeg.so.62(LIBJPEG_6.2)                                       libjpeg-turbo-1.5.1-2.fc27.armv7hl
-libtiff-4.0.8-1.fc27.armv7hl                                       
-├─libjpeg.so.62                                                    libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─libjpeg.so.62(LIBJPEG_6.2)                                       libjpeg-turbo-1.5.1-2.fc27.armv7hl
-└─libjbig.so.2.1                                                   jbigkit-libs-2.1-6.fc26.armv7hl
-graphite2-1.3.10-1.fc27.armv7hl                                    
-libdatrie-0.2.9-4.fc26.armv7hl                                     
-gsettings-desktop-schemas-3.24.0-1.fc27.armv7hl                    
-libXxf86vm-1.1.4-4.fc26.armv7hl                                    
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-python3-pycparser-2.14-10.fc26.noarch                              
-├─python3-ply                                                      python3-ply-3.9-3.fc27.noarch
-libXtst-1.2.3-2.fc26.armv7hl                                       
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libXi.so.6                                                       libXi-1.7.9-2.fc26.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-libxkbcommon-x11-0.7.1-3.fc27.armv7hl                              
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-├─libxkbcommon.so.0                                                libxkbcommon-0.7.1-3.fc27.armv7hl
-├─libxkbcommon.so.0(V_0.5.0)                                       libxkbcommon-0.7.1-3.fc27.armv7hl
-├─libxcb-xkb.so.1                                                  libxcb-1.12-3.fc26.armv7hl
-└─libxkbcommon(armv7hl-32) = 0.7.1-3.fc27                          libxkbcommon-0.7.1-3.fc27.armv7hl
-jbigkit-libs-2.1-6.fc26.armv7hl                                    
-python3-ply-3.9-3.fc27.noarch                                      
-fcoe-utils-1.0.32-1.fc26.armv7hl                                   
-├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
-├─libpciaccess.so.0                                                libpciaccess-0.13.4-4.fc26.armv7hl
-└─lldpad >= 0.9.43                                                 lldpad-1.0.1-6.git036e314.fc26.armv7hl
-hfsplus-tools-540.1.linux3-12.fc26.armv7hl                         
-ebtables-2.0.10-22.fc26.armv7hl                                    
-usermode-1.111-10.fc27.armv7hl                                     
-├─libuser.so.1                                                     libuser-0.62-7.fc27.armv7hl
-└─passwd                                                           passwd-0.79-9.fc26.armv7hl
-libuser-0.62-7.fc27.armv7hl                                        
-passwd-0.79-9.fc26.armv7hl                                         
-├─libuser.so.1                                                     libuser-0.62-7.fc27.armv7hl
-publicsuffix-list-20170424-1.fc27.noarch                           
-ipset-6.29-3.fc27.armv7hl                                          
-├─libipset.so.3                                                    ipset-libs-6.29-3.fc27.armv7hl
-├─libipset.so.3(LIBIPSET_1.0)                                      ipset-libs-6.29-3.fc27.armv7hl
-├─libipset.so.3(LIBIPSET_2.0)                                      ipset-libs-6.29-3.fc27.armv7hl
-├─libipset.so.3(LIBIPSET_3.0)                                      ipset-libs-6.29-3.fc27.armv7hl
-└─ipset-libs(armv7hl-32) = 6.29-3.fc27                             ipset-libs-6.29-3.fc27.armv7hl
-└─glibc-langpack = 2.25.90-27.fc27                                 glibc-langpack-en-2.25.90-27.fc27.armv7hl
-glibc-langpack-en-2.25.90-27.fc27.armv7hl                          
-webkitgtk4-2.17.4-4.fc27.armv7hl                                   
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libicudata.so.57                                                 libicu-57.1-4.fc26.armv7hl
-├─libicui18n.so.57                                                 libicu-57.1-4.fc26.armv7hl
-├─libicuuc.so.57                                                   libicu-57.1-4.fc26.armv7hl
-├─libjavascriptcoregtk-4.0.so.18                                   webkitgtk4-jsc-2.17.4-4.fc27.armv7hl
-├─libpng16.so.16                                                   libpng-2:1.6.29-1.fc27.armv7hl
-├─libEGL.so.1                                                      libglvnd-egl-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-├─libGL.so.1                                                       libglvnd-glx-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-├─libXcomposite.so.1                                               libXcomposite-0.4.4-9.fc26.armv7hl
-├─libXdamage.so.1                                                  libXdamage-1.1.4-9.fc26.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-├─libXt.so.6                                                       libXt-1.1.5-4.fc26.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libenchant.so.1                                                  enchant-1:1.6.0-16.fc26.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libgstapp-1.0.so.0                                               gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl
-├─libgstaudio-1.0.so.0                                             gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl
-├─libgstbase-1.0.so.0                                              gstreamer1-1.12.2-1.fc27.armv7hl
-├─libgstfft-1.0.so.0                                               gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl
-├─libgstpbutils-1.0.so.0                                           gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl
-├─libgstreamer-1.0.so.0                                            gstreamer1-1.12.2-1.fc27.armv7hl
-├─libgsttag-1.0.so.0                                               gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl
-├─libgstvideo-1.0.so.0                                             gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl
-├─libharfbuzz-icu.so.0                                             harfbuzz-icu-1.4.6-1.fc27.armv7hl
-├─libharfbuzz.so.0                                                 harfbuzz-1.4.6-1.fc27.armv7hl
-├─libhyphen.so.0                                                   hyphen-2.8.8-6.fc26.armv7hl
-├─libjpeg.so.62                                                    libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─libjpeg.so.62(LIBJPEG_6.2)                                       libjpeg-turbo-1.5.1-2.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libpng16.so.16(PNG16_0)                                          libpng-2:1.6.29-1.fc27.armv7hl
-├─libsecret-1.so.0                                                 libsecret-0.18.5-3.fc26.armv7hl
-├─libsoup-2.4.so.1                                                 libsoup-2.58.1-2.fc27.armv7hl
-├─libwayland-client.so.0                                           libwayland-client-1.13.0-1.fc26.armv7hl
-├─libwayland-egl.so.1                                              mesa-libwayland-egl-17.1.5-1.fc27.armv7hl
-├─libwayland-server.so.0                                           libwayland-server-1.13.0-1.fc26.armv7hl
-├─libwebp.so.7                                                     libwebp-0.6.0-2.fc26.armv7hl
-├─libxslt.so.1                                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.11)                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.22)                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.0.24)                                     libxslt-1.1.29-2.fc27.armv7hl
-├─libxslt.so.1(LIBXML2_1.1.9)                                      libxslt-1.1.29-2.fc27.armv7hl
-├─libcairo-gobject.so.2                                            cairo-gobject-1.14.10-2.fc27.armv7hl
-├─libgdk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libgtk-3.so.0                                                    gtk3-3.22.17-1.fc27.armv7hl
-├─libnotify.so.4                                                   libnotify-0.7.7-2.fc26.armv7hl
-├─geoclue2                                                         geoclue2-2.4.5-4.fc27.armv7hl
-└─webkitgtk4-jsc(armv7hl-32) = 2.17.4-4.fc27                       webkitgtk4-jsc-2.17.4-4.fc27.armv7hl
-enchant-1:1.6.0-16.fc26.armv7hl                                    
-└─libhunspell-1.5.so.0                                             hunspell-1.5.4-2.fc26.armv7hl
-geoclue2-2.4.5-4.fc27.armv7hl                                      
-├─libsoup-2.4.so.1                                                 libsoup-2.58.1-2.fc27.armv7hl
-├─libjson-glib-1.0.so.0                                            json-glib-1.3.2-1.fc27.armv7hl
-├─libavahi-common.so.3                                             avahi-libs-0.7-1.fc27.armv7hl
-├─libavahi-client.so.3                                             avahi-libs-0.7-1.fc27.armv7hl
-├─libavahi-glib.so.1                                               avahi-glib-0.7-1.fc27.armv7hl
-└─libmm-glib.so.0                                                  ModemManager-glib-1.6.4-2.fc26.armv7hl
-gstreamer1-1.12.2-1.fc27.armv7hl                                   
-gstreamer1-plugins-base-1.12.2-1.fc27.armv7hl                      
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─libasound.so.2                                                   alsa-lib-1.1.4.1-1.fc27.armv7hl
-├─libasound.so.2(ALSA_0.9)                                         alsa-lib-1.1.4.1-1.fc27.armv7hl
-├─libogg.so.0                                                      libogg-2:1.3.2-6.fc26.armv7hl
-├─libasound.so.2(ALSA_0.9.0rc4)                                    alsa-lib-1.1.4.1-1.fc27.armv7hl
-├─libgstreamer-1.0.so.0                                            gstreamer1-1.12.2-1.fc27.armv7hl
-├─libvorbis.so.0                                                   libvorbis-1:1.3.5-2.fc26.armv7hl
-├─libgstbase-1.0.so.0                                              gstreamer1-1.12.2-1.fc27.armv7hl
-├─libvorbisenc.so.2                                                libvorbis-1:1.3.5-2.fc26.armv7hl
-├─libtheoradec.so.1                                                libtheora-1:1.1.1-15.fc26.armv7hl
-├─libtheoraenc.so.1                                                libtheora-1:1.1.1-15.fc26.armv7hl
-├─libopus.so.0                                                     opus-1.2.1-1.fc27.armv7hl
-├─libXv.so.1                                                       libXv-1.0.11-2.fc26.armv7hl
-├─iso-codes                                                        iso-codes-3.75-1.fc27.noarch
-├─libtheoradec.so.1(libtheoradec_1.0)                              libtheora-1:1.1.1-15.fc26.armv7hl
-├─liborc-0.4.so.0                                                  orc-0.4.26-2.fc26.armv7hl
-├─libcdda_interface.so.0                                           cdparanoia-libs-10.2-22.fc26.armv7hl
-├─libcdda_paranoia.so.0                                            cdparanoia-libs-10.2-22.fc26.armv7hl
-├─libtheoraenc.so.1(libtheoraenc_1.0)                              libtheora-1:1.1.1-15.fc26.armv7hl
-├─libgstnet-1.0.so.0                                               gstreamer1-1.12.2-1.fc27.armv7hl
-├─libvisual-0.4.so.0                                               libvisual-1:0.4.0-21.fc26.armv7hl
-└─libasound.so.2(ALSA_0.9.0rc8)                                    alsa-lib-1.1.4.1-1.fc27.armv7hl
-harfbuzz-icu-1.4.6-1.fc27.armv7hl                                  
-├─libicuuc.so.57                                                   libicu-57.1-4.fc26.armv7hl
-├─libicudata.so.57                                                 libicu-57.1-4.fc26.armv7hl
-├─libharfbuzz.so.0                                                 harfbuzz-1.4.6-1.fc27.armv7hl
-└─harfbuzz(armv7hl-32) = 1.4.6-1.fc27                              harfbuzz-1.4.6-1.fc27.armv7hl
-hyphen-2.8.8-6.fc26.armv7hl                                        
-libXt-1.1.5-4.fc26.armv7hl                                         
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libICE.so.6                                                      libICE-1.0.9-9.fc27.armv7hl
-├─libSM.so.6                                                       libSM-1.2.2-5.fc26.armv7hl
-└─libX11(armv7hl-32) >= 1.5.99.902                                 libX11-1.6.5-2.fc27.armv7hl
-libglvnd-egl-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl          
-├─libGLdispatch.so.0                                               libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-├─libglvnd(armv7hl-32) = 1:0.2.999-20.20170620gitd850cdd.fc27      libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-└─mesa-libEGL(armv7hl-32) >= 13.0.4-1                              mesa-libEGL-17.1.5-1.fc27.armv7hl
-libicu-57.1-4.fc26.armv7hl                                         
-libnotify-0.7.7-2.fc26.armv7hl                                     
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-libsecret-0.18.5-3.fc26.armv7hl                                    
-libwayland-server-1.13.0-1.fc26.armv7hl                            
-libwebp-0.6.0-2.fc26.armv7hl                                       
-webkitgtk4-jsc-2.17.4-4.fc27.armv7hl                               
-├─libicudata.so.57                                                 libicu-57.1-4.fc26.armv7hl
-├─libicui18n.so.57                                                 libicu-57.1-4.fc26.armv7hl
-├─libicuuc.so.57                                                   libicu-57.1-4.fc26.armv7hl
-hunspell-1.5.4-2.fc26.armv7hl                                      
-└─hunspell-en-US                                                   hunspell-en-US-0.20140811.1-6.fc26.noarch
-ModemManager-glib-1.6.4-2.fc26.armv7hl                             
-avahi-glib-0.7-1.fc27.armv7hl                                      
-├─libavahi-common.so.3                                             avahi-libs-0.7-1.fc27.armv7hl
-└─avahi-libs(armv7hl-32) = 0.7-1.fc27                              avahi-libs-0.7-1.fc27.armv7hl
-alsa-lib-1.1.4.1-1.fc27.armv7hl                                    
-cdparanoia-libs-10.2-22.fc26.armv7hl                               
-libXv-1.0.11-2.fc26.armv7hl                                        
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-└─libX11 >= 1.5.99.902                                             libX11-1.6.5-2.fc27.armv7hl
-libogg-2:1.3.2-6.fc26.armv7hl                                      
-libtheora-1:1.1.1-15.fc26.armv7hl                                  
-└─libogg.so.0                                                      libogg-2:1.3.2-6.fc26.armv7hl
-libvisual-1:0.4.0-21.fc26.armv7hl                                  
-libvorbis-1:1.3.5-2.fc26.armv7hl                                   
-└─libogg.so.0                                                      libogg-2:1.3.2-6.fc26.armv7hl
-opus-1.2.1-1.fc27.armv7hl                                          
-orc-0.4.26-2.fc26.armv7hl                                          
-mesa-libEGL-17.1.5-1.fc27.armv7hl                                  
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libdrm.so.2                                                      libdrm-2.4.81-1.fc27.armv7hl
-├─libxcb.so.1                                                      libxcb-1.12-3.fc26.armv7hl
-├─libwayland-client.so.0                                           libwayland-client-1.13.0-1.fc26.armv7hl
-├─libgbm.so.1                                                      mesa-libgbm-17.1.5-1.fc27.armv7hl
-├─libwayland-server.so.0                                           libwayland-server-1.13.0-1.fc26.armv7hl
-├─libX11-xcb.so.1                                                  libX11-1.6.5-2.fc27.armv7hl
-├─libxcb-xfixes.so.0                                               libxcb-1.12-3.fc26.armv7hl
-├─libxshmfence.so.1                                                libxshmfence-1.2-4.fc26.armv7hl
-├─libxcb-sync.so.1                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-dri2.so.0                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-dri3.so.0                                                 libxcb-1.12-3.fc26.armv7hl
-├─libxcb-present.so.0                                              libxcb-1.12-3.fc26.armv7hl
-└─libglvnd-egl(armv7hl-32)                                         libglvnd-egl-1:0.2.999-20.20170620gitd850cdd.fc27.armv7hl
-hunspell-en-US-0.20140811.1-6.fc26.noarch                          
-└─hunspell                                                         hunspell-1.5.4-2.fc26.armv7hl
-mesa-libgbm-17.1.5-1.fc27.armv7hl                                  
-├─libdrm.so.2                                                      libdrm-2.4.81-1.fc27.armv7hl
-├─libwayland-client.so.0                                           libwayland-client-1.13.0-1.fc26.armv7hl
-└─libwayland-server.so.0                                           libwayland-server-1.13.0-1.fc26.armv7hl
+publicsuffix-list-20170424-2.fc27.noarch                           
+publicsuffix-list-dafsa-20170424-2.fc27.noarch                     
+glib2-devel-2.53.5-1.fc27.armv7hl                                  
+├─pkgconfig(libpcre)                                               pcre-devel-8.41-1.fc27.2.armv7hl
+libuser-0.62-9.fc27.armv7hl                                        
 systemd-devel-234-5.fc27.armv7hl                                   
-├─curl                                                             curl-minimal-7.54.1-2.fc27.armv7hl
-parted-3.2-28.fc27.armv7hl                                         
-python3-kickstart-2.37-1.fc27.noarch                               
-├─python3-ordered-set                                              python3-ordered-set-2.0.0-6.fc26.noarch
-├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
+└─dbus >= 1.9.18                                                   dbus-1:1.11.16-4.fc27.armv7hl
+pcre-devel-8.41-1.fc27.2.armv7hl                                   
+├─libpcre16.so.0                                                   pcre-utf16-8.41-1.fc27.2.armv7hl
+├─libpcre32.so.0                                                   pcre-utf32-8.41-1.fc27.2.armv7hl
+├─libpcrecpp.so.0                                                  pcre-cpp-8.41-1.fc27.2.armv7hl
+├─pcre-cpp(armv7hl-32) = 8.41-1.fc27.2                             pcre-cpp-8.41-1.fc27.2.armv7hl
+├─pcre-utf16(armv7hl-32) = 8.41-1.fc27.2                           pcre-utf16-8.41-1.fc27.2.armv7hl
+└─pcre-utf32(armv7hl-32) = 8.41-1.fc27.2                           pcre-utf32-8.41-1.fc27.2.armv7hl
+pcre-cpp-8.41-1.fc27.2.armv7hl                                     
+pcre-utf16-8.41-1.fc27.2.armv7hl                                   
+pcre-utf32-8.41-1.fc27.2.armv7hl                                   
+parted-3.2-26.fc27.armv7hl                                         
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl            
-├─libmpathcmd.so.0                                                 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 ├─initscripts                                                      initscripts-9.72-1.fc27.armv7hl
+├─libmpathcmd.so.0                                                 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 ├─libmpathpersist.so.0                                             device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 ├─libmultipath.so.0                                                device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 ├─liburcu.so.6                                                     userspace-rcu-0.10.0-1.fc27.armv7hl
@@ -1343,94 +339,47 @@ device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 ├─libaio.so.1(LIBAIO_0.1)                                          libaio-0.3.110-7.fc26.armv7hl
 └─libaio.so.1(LIBAIO_0.4)                                          libaio-0.3.110-7.fc26.armv7hl
 kpartx-0.7.1-6.git847cc43.fc27.armv7hl                             
-firewalld-0.4.4.5-3.fc27.noarch                                    
-├─ebtables                                                         ebtables-2.0.10-22.fc26.armv7hl
-├─ipset                                                            ipset-6.29-3.fc27.armv7hl
-├─firewalld-filesystem = 0.4.4.5-3.fc27                            firewalld-filesystem-0.4.4.5-3.fc27.noarch
-└─python3-firewall = 0.4.4.5-3.fc27                                python3-firewall-0.4.4.5-3.fc27.noarch
-firewalld-filesystem-0.4.4.5-3.fc27.noarch                         
-python3-firewall-0.4.4.5-3.fc27.noarch                             
+device-mapper-event-1.02.142-4.fc27.armv7hl                        
+├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+└─device-mapper-event-libs = 1.02.142-4.fc27                       device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+device-mapper-devel-1.02.142-4.fc27.armv7hl                        
+├─pkgconfig(libselinux)                                            libselinux-devel-2.7-1.fc27.armv7hl
+├─pkgconfig(libudev)                                               systemd-devel-234-5.fc27.armv7hl
+device-mapper-event-libs-1.02.142-4.fc27.armv7hl                   
+libselinux-devel-2.7-1.fc27.armv7hl                                
+└─libsepol-devel(armv7hl-32) >= 2.7-1                              libsepol-devel-2.7-1.fc27.armv7hl
+lvm2-2.02.173-4.fc27.armv7hl                                       
+├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─liblvm2app.so.2.2                                                lvm2-libs-2.02.173-4.fc27.armv7hl
+├─liblvm2app.so.2.2(Base)                                          lvm2-libs-2.02.173-4.fc27.armv7hl
+├─lvm2-libs = 2.02.173-4.fc27                                      lvm2-libs-2.02.173-4.fc27.armv7hl
+├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                   device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.armv7hl
+libsepol-devel-2.7-1.fc27.armv7hl                                  
+lvm2-libs-2.02.173-4.fc27.armv7hl                                  
+├─libdevmapper-event.so.1.02                                       device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+├─libdevmapper-event.so.1.02(Base)                                 device-mapper-event-libs-1.02.142-4.fc27.armv7hl
+└─device-mapper-event = 1.02.142-4.fc27                            device-mapper-event-1.02.142-4.fc27.armv7hl
+lvm2-dbusd-2.02.173-4.fc27.armv7hl                                 
+├─dbus                                                             dbus-1:1.11.16-4.fc27.armv7hl
 ├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.armv7hl
-├─python3-decorator                                                python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.armv7hl
-├─python3-slip-dbus                                                python3-slip-dbus-0.6.4-6.fc26.noarch
-python3-decorator-4.0.11-2.fc26.noarch                             
-python3-slip-dbus-0.6.4-6.fc26.noarch                              
-├─python3-decorator                                                python3-decorator-4.0.11-2.fc26.noarch
-├─python3-slip = 0.6.4-6.fc26                                      python3-slip-0.6.4-6.fc26.noarch
-└─python3-dbus >= 0.80                                             python3-dbus-1.2.4-6.fc26.armv7hl
-python3-slip-0.6.4-6.fc26.noarch                                   
-├─libselinux-python3                                               libselinux-python3-2.6-6.fc27.armv7hl
-python3-coverage-4.4.1-2.fc27.armv7hl                              
-libcurl-minimal-7.54.1-2.fc27.armv7hl                              
-aajohan-comfortaa-fonts-2.004-7.fc26.noarch                        
-└─fontpackages-filesystem                                          fontpackages-filesystem-1.44-18.fc26.noarch
-lxpolkit-0.5.3-2.fc26.1.armv7hl                                    
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libgtk-x11-2.0.so.0                                              gtk2-2.24.31-4.fc27.armv7hl
-├─libgdk-x11-2.0.so.0                                              gtk2-2.24.31-4.fc27.armv7hl
-├─libpangoft2-1.0.so.0                                             pango-1.40.7-1.fc27.armv7hl
-├─libpolkit-gobject-1.so.0                                         polkit-libs-0.113-13.fc27.armv7hl
-├─libpolkit-agent-1.so.0                                           polkit-libs-0.113-13.fc27.armv7hl
-├─libunique-1.0.so.0                                               unique-1.1.6-16.fc26.armv7hl
-└─polkit >= 0.95                                                   polkit-0.113-13.fc27.armv7hl
-gtk2-2.24.31-4.fc27.armv7hl                                        
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libpangoft2-1.0.so.0                                             pango-1.40.7-1.fc27.armv7hl
-├─libXext.so.6                                                     libXext-1.3.3-5.fc26.armv7hl
-├─hicolor-icon-theme                                               hicolor-icon-theme-0.15-5.fc27.noarch
-├─libXi.so.6                                                       libXi-1.7.9-2.fc26.armv7hl
-├─libXrandr.so.2                                                   libXrandr-1.5.1-2.fc26.armv7hl
-├─libXrender.so.1                                                  libXrender-0.9.10-2.fc26.armv7hl
-├─libXfixes.so.3                                                   libXfixes-5.0.3-2.fc26.armv7hl
-├─libXinerama.so.1                                                 libXinerama-1.1.3-7.fc26.armv7hl
-├─libXcomposite.so.1                                               libXcomposite-0.4.4-9.fc26.armv7hl
-├─libXdamage.so.1                                                  libXdamage-1.1.4-9.fc26.armv7hl
-├─libXcursor.so.1                                                  libXcursor-1.1.14-8.fc26.armv7hl
-├─libcups.so.2                                                     cups-libs-1:2.2.4-1.fc27.armv7hl
-├─gdk-pixbuf2-modules(armv7hl-32)                                  gdk-pixbuf2-modules-2.36.7-1.fc27.armv7hl
-├─gtk-update-icon-cache                                            gtk-update-icon-cache-3.22.17-1.fc27.armv7hl
-├─atk >= 1.29.4-2                                                  atk-2.25.2-1.fc27.armv7hl
-├─libXrandr >= 1.2.99.4-2                                          libXrandr-1.5.1-2.fc26.armv7hl
-└─pango >= 1.20.0-1                                                pango-1.40.7-1.fc27.armv7hl
-polkit-0.113-13.fc27.armv7hl                                       
-├─libpolkit-gobject-1.so.0                                         polkit-libs-0.113-13.fc27.armv7hl
-├─libpolkit-agent-1.so.0                                           polkit-libs-0.113-13.fc27.armv7hl
-├─polkit-pkla-compat                                               polkit-pkla-compat-0.1-8.fc26.armv7hl
-├─libmozjs-17.0.so                                                 mozjs17-17.0.0-19.fc27.armv7hl
-├─libmozjs-17.0.so(mozjs_17.0)                                     mozjs17-17.0.0-19.fc27.armv7hl
-└─polkit-libs(armv7hl-32) = 0.113-13.fc27                          polkit-libs-0.113-13.fc27.armv7hl
-unique-1.1.6-16.fc26.armv7hl                                       
-├─libcairo.so.2                                                    cairo-1.14.10-2.fc27.armv7hl
-├─libgdk_pixbuf-2.0.so.0                                           gdk-pixbuf2-2.36.7-1.fc27.armv7hl
-├─libpango-1.0.so.0                                                pango-1.40.7-1.fc27.armv7hl
-├─libX11.so.6                                                      libX11-1.6.5-2.fc27.armv7hl
-├─libpangocairo-1.0.so.0                                           pango-1.40.7-1.fc27.armv7hl
-├─libatk-1.0.so.0                                                  atk-2.25.2-1.fc27.armv7hl
-├─libfreetype.so.6                                                 freetype-2.8-3.fc27.armv7hl
-├─libfontconfig.so.1                                               fontconfig-2.12.4-1.fc27.armv7hl
-├─libgtk-x11-2.0.so.0                                              gtk2-2.24.31-4.fc27.armv7hl
-├─libgdk-x11-2.0.so.0                                              gtk2-2.24.31-4.fc27.armv7hl
-├─libpangoft2-1.0.so.0                                             pango-1.40.7-1.fc27.armv7hl
-└─libdbus-glib-1.so.2                                              dbus-glib-0.108-2.fc26.armv7hl
-mozjs17-17.0.0-19.fc27.armv7hl                                     
-polkit-pkla-compat-0.1-8.fc26.armv7hl                              
-└─libpolkit-gobject-1.so.0                                         polkit-libs-0.113-13.fc27.armv7hl
-fedora-logos-26.0.1-1.fc27.armv7hl                                 
-curl-minimal-7.54.1-2.fc27.armv7hl                                 
-├─libcurl.so.4                                                     libcurl-minimal-7.54.1-2.fc27.armv7hl
-└─libcurl(armv7hl-32) >= 7.54.1-2.fc27                             libcurl-minimal-7.54.1-2.fc27.armv7hl
+├─python3-pyudev                                                   python3-pyudev-0.21.0-3.fc26.noarch
+└─lvm2 >= 2.02.173-4.fc27                                          lvm2-2.02.173-4.fc27.armv7hl
+python3-dbus-1.2.4-6.fc26.armv7hl                                  
+├─libdbus-1.so.3                                                   dbus-libs-1:1.11.16-4.fc27.armv7hl
+├─libdbus-1.so.3(LIBDBUS_1_3)                                      dbus-libs-1:1.11.16-4.fc27.armv7hl
+├─libdbus-glib-1.so.2                                              dbus-glib-0.108-2.fc26.armv7hl
+python3-pyudev-0.21.0-3.fc26.noarch                                
+dbus-glib-0.108-2.fc26.armv7hl                                     
+├─libdbus-1.so.3                                                   dbus-libs-1:1.11.16-4.fc27.armv7hl
+└─libdbus-1.so.3(LIBDBUS_1_3)                                      dbus-libs-1:1.11.16-4.fc27.armv7hl
+└─emacs-filesystem >= 25.2                                         emacs-filesystem-1:25.2-7.fc27.noarch
+dbus-libs-1:1.11.16-4.fc27.armv7hl                                 
+dbus-1:1.11.16-4.fc27.armv7hl                                      
+├─libdbus-1.so.3                                                   dbus-libs-1:1.11.16-4.fc27.armv7hl
+├─libdbus-1.so.3(LIBDBUS_1_3)                                      dbus-libs-1:1.11.16-4.fc27.armv7hl
+├─libdbus-1.so.3(LIBDBUS_PRIVATE_1.11.16)                          dbus-libs-1:1.11.16-4.fc27.armv7hl
+├─dbus-libs(armv7hl-32) = 1:1.11.16-4.fc27                         dbus-libs-1:1.11.16-4.fc27.armv7hl
+emacs-filesystem-1:25.2-7.fc27.noarch                              

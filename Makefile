@@ -23,4 +23,6 @@ storage-devices: platform platform-placeholder
 
 platform-placeholder: platform
 
-freeipa: platform platform-placeholder
+freeipa: platform platform-placeholder java perl
+
+java: platform platform-placeholder
