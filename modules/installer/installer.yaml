@@ -1,87 +1,87 @@
 document: modulemd
 version: 1
 data:
-    summary: installer module
-    description: This installer has been generated
-    license:
-        module: [ MIT ]
-    dependencies:
-        buildrequires:
+summary: installer module
+description: This installer has been generated
+license:
+    module: [ MIT ]
+dependencies:
+    buildrequires:
             platform: master
             systemtap: master
             autotools: master
             platform-placeholder: master
-        requires:
+    requires:
             platform: master
             networking-base: master
             storage-devices: master
             platform-placeholder: master
-    references:
-        community: https://docs.pagure.org/modularity/
-        documentation: https://github.com/modularity-modules/installer
-        tracker: https://github.com/modularity-modules/installer
-    components:
-        rpms:
+references:
+    community: https://docs.pagure.org/modularity/
+    documentation: https://github.com/modularity-modules/installer
+    tracker: https://github.com/modularity-modules/installer
+components:
+    rpms:
             anaconda:
                 rationale: Generated.
-                ref: master.
+                ref: 550b9a620c2e68777db4d1c3623c8d231d77c3f1
             augeas:
                 rationale: Generated.
-                ref: master.
+                ref: 62ecc80b426abc61d3658f2ccb6daa2c9c0f56a3
             chrony:
                 rationale: Generated.
-                ref: master.
+                ref: 3f9c9e5a2a07bef6c3e180a456333e0d9709da46
             createrepo_c:
                 rationale: Generated.
-                ref: master.
+                ref: 6a445f4aa70d5b34820425f6502335efff3c3ff0
             drpm:
                 rationale: Generated.
-                ref: master.
+                ref: a15a225621e8f2347b1f605b0506999669ba30ce
             isomd5sum:
                 rationale: Generated.
-                ref: master.
+                ref: master
             json-c:
                 rationale: Generated.
-                ref: master.
+                ref: 4bce577b3b7f3a3e96df9b404aee3094733d699c
             langtable:
                 rationale: Generated.
-                ref: master.
+                ref: da6f416d901a82cb17534964271937bf2435fe18
             libtar:
                 rationale: Generated.
-                ref: master.
+                ref: 8ae2336f58da6ce1bad083d08a852e212aeab55c
             pykickstart:
                 rationale: Generated.
-                ref: master.
+                ref: b2df1af3f0b9ef907a07763ebccbbda71dca849e
             pyparted:
                 rationale: Generated.
-                ref: master.
+                ref: master
             python-blivet:
                 rationale: Generated.
-                ref: master.
+                ref: master
             python-coverage:
                 rationale: Generated.
-                ref: master.
+                ref: 307507d651510ff72d9c9853222cc6cc851563e5
             python-meh:
                 rationale: Generated.
-                ref: master.
+                ref: 437db681c5af5de9f68cbdc1e35557c37d391d79
             python-ntplib:
                 rationale: Generated.
-                ref: master.
+                ref: 79d739e3ca26613f15257f132654e0b00c700288
             python-ordered-set:
                 rationale: Generated.
-                ref: master.
+                ref: 5cfcac877ae90c5801740da0ee20ab22066960a7
             python-pid:
                 rationale: Generated.
-                ref: master.
+                ref: 13adda6be6845d5081979a767faab1f042291f72
             python-requests-file:
                 rationale: Generated.
-                ref: master.
+                ref: cd3543eceb80870578cb38eb497c6e9de243cf05
             python-requests-ftp:
                 rationale: Generated.
-                ref: master.
+                ref: 6536642315f0e64daf6c8d166da60b205493c7bd
             python-wrapt:
                 rationale: Generated.
-                ref: master.
+                ref: b45c3f2f6d5516d275f1840097c8e0be398a8ce0
             satyr:
                 rationale: Generated.
-                ref: master.
+                ref: acb9b8cb6495fe672cda7a05c3b559ef1472e7b5

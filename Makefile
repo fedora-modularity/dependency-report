@@ -9,7 +9,8 @@ platform:
 	@./deps2.sh $@ $^
 
 
-installer: platform networking-base storage-devices platform-placeholder
+#installer: platform networking-base storage-devices platform-placeholder
+installer: platform
 
 autotools: platform perl platform-placeholder
 
