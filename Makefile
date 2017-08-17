@@ -45,3 +45,5 @@ tomcat: platform platform-placeholder
 resteasy: platform platform-placeholder
 
 httpd: platform platform-placeholder
+
+postgresql: platform platform-placeholder

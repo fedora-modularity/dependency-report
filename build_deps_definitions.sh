@@ -22,4 +22,5 @@
 ./build_deps.sh tomcat      platform platform-placeholder
 ./build_deps.sh resteasy    platform platform-placeholder
 ./build_deps.sh httpd       platform platform-placeholder
+./build_deps.sh postgresql  platform platform-placeholder
 
