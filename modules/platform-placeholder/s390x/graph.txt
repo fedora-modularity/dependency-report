@@ -1,9 +1,6 @@
   "blktrace" -> "libaio";
   "blktrace" -> "python2";
   "curl-minimal" -> "libcurl-minimal";
-  "dbus" -> "dbus-libs";
-  "dbus-glib" -> "dbus-libs";
-  "dbus-glib" -> "emacs-filesystem";
   "device-mapper-devel" -> "libselinux-devel";
   "device-mapper-devel" -> "systemd-devel";
   "device-mapper-event" -> "device-mapper-event-libs";
@@ -137,7 +134,6 @@
   "lldpad-devel" -> "lldpad";
   "lldpad" -> "libconfig";
   "lldpad" -> "libnl3";
-  "lvm2-dbusd" -> "dbus";
   "lvm2-dbusd" -> "lvm2";
   "lvm2-dbusd" -> "python3-dbus";
   "lvm2-dbusd" -> "python3-gobject-base";
@@ -149,7 +145,6 @@
   "lvm2" -> "lvm2-libs";
   "mariadb-common" -> "mariadb-config";
   "mariadb-config" -> "curl-minimal";
-  "mariadb-config" -> "dbus";
   "mariadb-libs" -> "mariadb-common";
   "net-snmp-agent-libs" -> "mariadb-libs";
   "net-snmp-agent-libs" -> "net-snmp-libs";
@@ -172,7 +167,6 @@
   "python3-blockdev" -> "libblockdev";
   "python3-blockdev" -> "python3-gobject-base";
   "python3-dbus" -> "dbus-glib";
-  "python3-dbus" -> "dbus-libs";
   "python3-iscsi-initiator-utils" -> "iscsi-initiator-utils";
   "python3-libnl3" -> "libnl3";
   "python-gobject-base" -> "python2";

@@ -379,7 +379,6 @@ mariadb-common-3:10.2.7-2.fc27.s390x
 └─/etc/my.cnf                                                    mariadb-config-3:10.2.7-2.fc27.s390x
 mariadb-config-3:10.2.7-2.fc27.s390x                             
 ├─curl                                                           curl-minimal-7.55.0-1.fc27.s390x
-└─dbus >= 1.9.18                                                 dbus-1:1.11.16-4.fc27.s390x
 systemd-devel-234-5.fc27.s390x                                   
 python2-pip-9.0.1-11.fc27.noarch                                 
 ├─python-setuptools                                              python2-setuptools-36.2.0-3.fc27.noarch
@@ -422,27 +421,14 @@ lvm2-libs-2.02.173-4.fc27.s390x
 ├─libdevmapper-event.so.1.02(Base)(64bit)                        device-mapper-event-libs-1.02.142-4.fc27.s390x
 └─device-mapper-event = 1.02.142-4.fc27                          device-mapper-event-1.02.142-4.fc27.s390x
 lvm2-dbusd-2.02.173-4.fc27.s390x                                 
-├─dbus                                                           dbus-1:1.11.16-4.fc27.s390x
 ├─python3-dbus                                                   python3-dbus-1.2.4-6.fc26.s390x
 ├─python3-gobject-base                                           python3-gobject-base-3.24.1-1.fc27.s390x
 ├─python3-pyudev                                                 python3-pyudev-0.21.0-3.fc26.noarch
 └─lvm2 >= 2.02.173-4.fc27                                        lvm2-2.02.173-4.fc27.s390x
 python3-dbus-1.2.4-6.fc26.s390x                                  
-├─libdbus-1.so.3()(64bit)                                        dbus-libs-1:1.11.16-4.fc27.s390x
-├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                             dbus-libs-1:1.11.16-4.fc27.s390x
 ├─libdbus-glib-1.so.2()(64bit)                                   dbus-glib-0.108-2.fc26.s390x
 python3-pyudev-0.21.0-3.fc26.noarch                              
 dbus-glib-0.108-2.fc26.s390x                                     
-├─libdbus-1.so.3()(64bit)                                        dbus-libs-1:1.11.16-4.fc27.s390x
-└─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                             dbus-libs-1:1.11.16-4.fc27.s390x
-└─emacs-filesystem >= 25.2                                       emacs-filesystem-1:25.2-7.fc27.noarch
-dbus-libs-1:1.11.16-4.fc27.s390x                                 
-dbus-1:1.11.16-4.fc27.s390x                                      
-├─libdbus-1.so.3()(64bit)                                        dbus-libs-1:1.11.16-4.fc27.s390x
-├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                             dbus-libs-1:1.11.16-4.fc27.s390x
-├─libdbus-1.so.3(LIBDBUS_PRIVATE_1.11.16)(64bit)                 dbus-libs-1:1.11.16-4.fc27.s390x
-├─dbus-libs(s390-64) = 1:1.11.16-4.fc27                          dbus-libs-1:1.11.16-4.fc27.s390x
-emacs-filesystem-1:25.2-7.fc27.noarch                            
 libcurl-minimal-7.55.0-1.fc27.s390x                              
 curl-minimal-7.55.0-1.fc27.s390x                                 
 ├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x

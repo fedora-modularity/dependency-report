@@ -1194,16 +1194,16 @@ perl-devel-4:5.26.0-398.fc27.armv7hl
 └─perl-libs(armv7hl-32) = 4:5.26.0-398.fc27                    perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-interpreter-4:5.26.0-398.fc27.armv7hl                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libdl.so.2                                                   glibc-2.26-1.fc27.1.armv7hl
 ├─libm.so.6                                                    glibc-2.26-1.fc27.1.armv7hl
-├─libm.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
+├─libm.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(strict)                                                 perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─perl(Carp)                                                   perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                               perl-Exporter-5.72-395.fc27.noarch
@@ -1239,18 +1239,18 @@ perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─perl(:VERSION) >= 5.0.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─perl-libs(armv7hl-32) = 4:5.26.0-398.fc27                    perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─perl(:VERSION) >= 5.9.1                                      perl-libs-4:5.26.0-398.fc27.armv7hl
-├─perl(:VERSION) >= 5.7.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
-├─perl(:VERSION) >= 5.24.0                                     perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─perl(:VERSION) >= 5.10.1                                     perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─perl(:VERSION) >= 5.3.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
-├─perl(Scalar::Util) >= 1.10                                   perl-Scalar-List-Utils-3:1.48-1.fc27.armv7hl
 ├─perl(:VERSION) >= 5.7.3                                      perl-libs-4:5.26.0-398.fc27.armv7hl
+├─perl(Scalar::Util) >= 1.10                                   perl-Scalar-List-Utils-3:1.48-1.fc27.armv7hl
+├─perl(:VERSION) >= 5.7.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
+├─perl(:VERSION) >= 5.24.0                                     perl-libs-4:5.26.0-398.fc27.armv7hl
 └─perl(:VERSION) >= 5.9.4                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-libs-4:5.26.0-398.fc27.armv7hl                            
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -1306,9 +1306,9 @@ perl-constant-1.33-395.fc27.noarch
 └─perl(:VERSION) >= 5.8.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-Data-Dumper-2.167-396.fc27.armv7hl                        
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1330,9 +1330,9 @@ perl-Digest-1.17-394.fc27.noarch
 └─perl(MIME::Base64)                                           perl-MIME-Base64-3.15-395.fc27.armv7hl
 perl-Digest-MD5-2.55-395.fc27.armv7hl                          
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1344,9 +1344,9 @@ perl-Digest-MD5-2.55-395.fc27.armv7hl
 └─perl(Digest::base) >= 1.00                                   perl-Digest-1.17-394.fc27.noarch
 perl-Encode-4:2.92-14.fc27.armv7hl                             
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1408,9 +1408,9 @@ perl-File-Temp-0.230.400-394.fc27.noarch
 └─perl(Fcntl) >= 1.03                                          perl-interpreter-4:5.26.0-398.fc27.armv7hl
 perl-Filter-2:1.57-6.fc27.armv7hl                              
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1449,9 +1449,9 @@ perl-HTTP-Tiny-0.070-394.fc27.noarch
 └─perl(IO::Socket)                                             perl-IO-1.38-398.fc27.armv7hl
 perl-PathTools-3.67-395.fc27.armv7hl                           
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1515,9 +1515,9 @@ kernel-headers-4.13.0-0.rc1.git1.1.fc27.armv7hl
 libgcc-7.1.1-7.fc27.1.armv7hl                                  
 gdbm-1.13-3.fc27.armv7hl                                       
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.7)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libreadline.so.7                                             readline-7.0-7.fc27.armv7hl
@@ -1529,9 +1529,9 @@ gdbm-devel-1.13-3.fc27.armv7hl
 └─gdbm = 1.13-3.fc27                                           gdbm-1.13-3.fc27.armv7hl
 perl-IO-1.38-398.fc27.armv7hl                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1568,9 +1568,9 @@ perl-Scalar-List-Utils-3:1.48-1.fc27.armv7hl
 └─perl(XSLoader)                                               perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-Unicode-Normalize-1.25-395.fc27.armv7hl                   
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1589,9 +1589,9 @@ perl-parent-1:0.236-394.fc27.noarch
 └─perl(vars)                                                   perl-interpreter-4:5.26.0-398.fc27.armv7hl
 perl-threads-1:2.16-4.fc27.armv7hl                             
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
@@ -1607,9 +1607,9 @@ perl-threads-1:2.16-4.fc27.armv7hl
 └─perl(:VERSION) >= 5.8.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-threads-shared-1.57-4.fc27.armv7hl                        
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
@@ -1627,18 +1627,18 @@ libdb-devel-5.3.28-26.fc27.armv7hl
 └─libdb(armv7hl-32) = 5.3.28-26.fc27                           libdb-5.3.28-26.fc27.armv7hl
 libdb-5.3.28-26.fc27.armv7hl                                   
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.17)                                        glibc-2.26-1.fc27.1.armv7hl
 perl-Socket-4:2.024-5.fc27.armv7hl                             
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1650,9 +1650,9 @@ perl-Socket-4:2.024-5.fc27.armv7hl
 └─perl(warnings::register)                                     perl-interpreter-4:5.26.0-398.fc27.armv7hl
 perl-MIME-Base64-3.15-395.fc27.armv7hl                         
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1689,9 +1689,9 @@ perl-Text-ParseWords-3.30-394.fc27.noarch
 └─perl(:VERSION) >= 5.6.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-Storable-1:2.62-395.fc27.armv7hl                          
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1894,9 +1894,9 @@ perl-Test-1.30-398.fc27.noarch
 └─perl(:VERSION) >= 5.4.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 perl-Time-Piece-1.31-398.fc27.armv7hl                          
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
@@ -1955,9 +1955,9 @@ perl-podlators-4.09-394.fc27.noarch
 └─perl(Pod::Simple) >= 3.06                                    perl-Pod-Simple-1:3.35-394.fc27.noarch
 bash-4.4.12-9.fc27.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libdl.so.2                                                   glibc-2.26-1.fc27.1.armv7hl
 ├─libdl.so.2(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
@@ -1966,9 +1966,9 @@ bash-4.4.12-9.fc27.armv7hl
 └─filesystem >= 3                                              filesystem-3.3-3.fc27.armv7hl
 libselinux-2.7-1.fc27.armv7hl                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libdl.so.2                                                   glibc-2.26-1.fc27.1.armv7hl
 ├─libdl.so.2(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
@@ -1980,9 +1980,9 @@ libselinux-2.7-1.fc27.armv7hl
 └─libsepol(armv7hl-32) >= 2.7-1                                libsepol-2.7-1.fc27.armv7hl
 libsepol-2.7-1.fc27.armv7hl                                    
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─/sbin/ldconfig                                               glibc-2.26-1.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.8)                                         glibc-2.26-1.fc27.1.armv7hl
@@ -1990,9 +1990,9 @@ tzdata-2017b-2.fc27.noarch
 basesystem-11-4.fc27.noarch                                    
 ncurses-libs-6.0-13.20170722.fc27.armv7hl                      
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libdl.so.2                                                   glibc-2.26-1.fc27.1.armv7hl
 ├─libdl.so.2(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
@@ -2001,9 +2001,9 @@ ncurses-libs-6.0-13.20170722.fc27.armv7hl
 ncurses-base-6.0-13.20170722.fc27.noarch                       
 ncurses-6.0-13.20170722.fc27.armv7hl                           
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libtinfo.so.6                                                ncurses-libs-6.0-13.20170722.fc27.armv7hl
@@ -2011,9 +2011,9 @@ ncurses-6.0-13.20170722.fc27.armv7hl
 └─ncurses-libs(armv7hl-32) = 6.0-13.20170722.fc27              ncurses-libs-6.0-13.20170722.fc27.armv7hl
 readline-7.0-7.fc27.armv7hl                                    
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─/sbin/ldconfig                                               glibc-2.26-1.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.15)                                        glibc-2.26-1.fc27.1.armv7hl
@@ -2040,9 +2040,9 @@ python3-libs-3.6.2-6.fc27.armv7hl
 └─expat >= 2.1.0                                               expat-2.2.3-1.fc27.armv7hl
 system-python-libs-3.6.2-6.fc27.armv7hl                        
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─/bin/sh                                                      bash-4.4.12-9.fc27.armv7hl
@@ -2062,13 +2062,13 @@ system-python-libs-3.6.2-6.fc27.armv7hl
 ├─libutil.so.1                                                 glibc-2.26-1.fc27.1.armv7hl
 ├─libnsl.so.1                                                  glibc-2.26-1.fc27.1.armv7hl
 ├─libreadline.so.7                                             readline-7.0-7.fc27.armv7hl
-├─libtinfo.so.6                                                ncurses-libs-6.0-13.20170722.fc27.armv7hl
 ├─libsqlite3.so.0                                              sqlite-libs-3.20.0-1.fc27.armv7hl
 ├─liblzma.so.5(XZ_5.0)                                         xz-libs-5.2.3-4.fc27.armv7hl
 ├─libcrypt.so.1(GLIBC_2.4)                                     libcrypt-2.26-1.fc27.1.armv7hl
 ├─libffi.so.6                                                  libffi-3.1-14.fc27.armv7hl
-├─libexpat.so.1                                                expat-2.2.3-1.fc27.armv7hl
+├─libtinfo.so.6                                                ncurses-libs-6.0-13.20170722.fc27.armv7hl
 ├─libssl.so.1.1(OPENSSL_1_1_0)                                 openssl-libs-1:1.1.0f-9.fc27.armv7hl
+├─libexpat.so.1                                                expat-2.2.3-1.fc27.armv7hl
 ├─libnsl.so.1(GLIBC_2.4)                                       glibc-2.26-1.fc27.1.armv7hl
 ├─libz.so.1(ZLIB_1.2.0)                                        zlib-1.2.11-4.fc27.armv7hl
 ├─libgdbm.so.4                                                 gdbm-1.13-3.fc27.armv7hl
@@ -2093,23 +2093,23 @@ perl-IPC-System-Simple-1.25-16.fc27.noarch
 └─perl(:VERSION) >= 5.6.0                                      perl-libs-4:5.26.0-398.fc27.armv7hl
 zlib-1.2.11-4.fc27.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 bzip2-libs-1.0.6-24.fc27.armv7hl                               
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 make-1:4.2.1-4.fc27.armv7hl                                    
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2121,23 +2121,23 @@ make-1:4.2.1-4.fc27.armv7hl
 └─libguile-2.0.so.22(GUILE_2.0)                                guile-5:2.0.14-3.fc27.armv7hl
 expat-2.2.3-1.fc27.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.25)                                        glibc-2.26-1.fc27.1.armv7hl
 libffi-3.1-14.fc27.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 openssl-libs-1:1.1.0f-9.fc27.armv7hl                           
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2149,9 +2149,9 @@ openssl-libs-1:1.1.0f-9.fc27.armv7hl
 └─ca-certificates >= 2008-5                                    ca-certificates-2017.2.16-3.fc27.noarch
 sqlite-libs-3.20.0-1.fc27.armv7hl                              
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
@@ -2160,9 +2160,9 @@ sqlite-libs-3.20.0-1.fc27.armv7hl
 └─libdl.so.2(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
 xz-libs-5.2.3-4.fc27.armv7hl                                   
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2176,9 +2176,9 @@ python3-setuptools-36.2.0-3.fc27.noarch
 └─python(abi) = 3.6                                            python3-3.6.2-6.fc27.armv7hl
 groff-base-1.22.3-11.fc27.armv7hl                              
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─/bin/sh                                                      bash-4.4.12-9.fc27.armv7hl
@@ -2197,9 +2197,9 @@ ca-certificates-2017.2.16-3.fc27.noarch
 crypto-policies-20170802-1.git9300620.fc27.noarch              
 gc-7.6.0-7.fc27.armv7hl                                        
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2212,9 +2212,9 @@ gc-7.6.0-7.fc27.armv7hl
 └─libatomic_ops.so.1                                           libatomic_ops-7.4.6-3.fc27.armv7hl
 guile-5:2.0.14-3.fc27.armv7hl                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─/sbin/ldconfig                                               glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
@@ -2226,59 +2226,59 @@ guile-5:2.0.14-3.fc27.armv7hl
 ├─libcrypt.so.1                                                libcrypt-2.26-1.fc27.1.armv7hl
 ├─libgmp.so.10                                                 gmp-1:6.1.2-6.fc27.armv7hl
 ├─libreadline.so.7                                             readline-7.0-7.fc27.armv7hl
-├─libtinfo.so.6                                                ncurses-libs-6.0-13.20170722.fc27.armv7hl
 ├─libcrypt.so.1(GLIBC_2.4)                                     libcrypt-2.26-1.fc27.1.armv7hl
 ├─libffi.so.6                                                  libffi-3.1-14.fc27.armv7hl
+├─libtinfo.so.6                                                ncurses-libs-6.0-13.20170722.fc27.armv7hl
 ├─libunistring.so.2                                            libunistring-0.9.7-3.fc27.armv7hl
 ├─libncurses.so.6                                              ncurses-libs-6.0-13.20170722.fc27.armv7hl
 ├─libgc.so.1                                                   gc-7.6.0-7.fc27.armv7hl
 └─libltdl.so.7                                                 libtool-ltdl-2.4.6-20.fc27.armv7hl
 pcre-8.41-1.fc27.2.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 └─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
 pcre2-10.30-0.6.RC1.fc27.armv7hl                               
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 └─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
 gmp-1:6.1.2-6.fc27.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.7)                                         glibc-2.26-1.fc27.1.armv7hl
 libtool-ltdl-2.4.6-20.fc27.armv7hl                             
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libdl.so.2                                                   glibc-2.26-1.fc27.1.armv7hl
 └─libdl.so.2(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
 libunistring-0.9.7-3.fc27.armv7hl                              
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 libstdc++-7.1.1-7.fc27.1.armv7hl                               
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libm.so.6                                                    glibc-2.26-1.fc27.1.armv7hl
 ├─libm.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
@@ -2288,9 +2288,9 @@ libstdc++-7.1.1-7.fc27.1.armv7hl
 └─glibc >= 2.10.90-7                                           glibc-2.26-1.fc27.1.armv7hl
 sed-4.4-3.fc27.armv7hl                                         
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libselinux.so.1                                              libselinux-2.7-1.fc27.armv7hl
 ├─libc.so.6(GLIBC_2.7)                                         glibc-2.26-1.fc27.1.armv7hl
@@ -2298,24 +2298,24 @@ sed-4.4-3.fc27.armv7hl
 └─libacl.so.1(ACL_1.0)                                         libacl-2.2.52-18.fc27.armv7hl
 libatomic_ops-7.4.6-3.fc27.armv7hl                             
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 grep-3.1-3.fc27.armv7hl                                        
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpcre.so.1                                                 pcre-8.41-1.fc27.2.armv7hl
 └─libc.so.6(GLIBC_2.5)                                         glibc-2.26-1.fc27.1.armv7hl
 p11-kit-0.23.7-3.fc27.armv7hl                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2325,9 +2325,9 @@ p11-kit-0.23.7-3.fc27.armv7hl
 └─libc.so.6(GLIBC_2.16)                                        glibc-2.26-1.fc27.1.armv7hl
 p11-kit-trust-0.23.7-3.fc27.armv7hl                            
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2342,18 +2342,18 @@ p11-kit-trust-0.23.7-3.fc27.armv7hl
 └─p11-kit(armv7hl-32) = 0.23.7-3.fc27                          p11-kit-0.23.7-3.fc27.armv7hl
 libacl-2.2.52-18.fc27.armv7hl                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 ├─libattr.so.1                                                 libattr-2.4.47-21.fc27.armv7hl
 └─libattr.so.1(ATTR_1.0)                                       libattr-2.4.47-21.fc27.armv7hl
 chkconfig-1.10-3.fc27.armv7hl                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libselinux.so.1                                              libselinux-2.7-1.fc27.armv7hl
 ├─libpopt.so.0                                                 popt-1.16-11.fc27.armv7hl
@@ -2362,23 +2362,23 @@ chkconfig-1.10-3.fc27.armv7hl
 └─libsepol.so.1                                                libsepol-2.7-1.fc27.armv7hl
 libtasn1-4.12-3.fc27.armv7hl                                   
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 libattr-2.4.47-21.fc27.armv7hl                                 
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.4)                                         glibc-2.26-1.fc27.1.armv7hl
 popt-1.16-11.fc27.armv7hl                                      
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.8)                                         glibc-2.26-1.fc27.1.armv7hl
 libcrypt-2.26-1.fc27.1.armv7hl                                 
@@ -2388,9 +2388,9 @@ libcrypt-2.26-1.fc27.1.armv7hl
 └─glibc(armv7hl-32) = 2.26-1.fc27.1                            glibc-2.26-1.fc27.1.armv7hl
 coreutils-8.27-14.fc27.armv7hl                                 
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libpthread.so.0                                              glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                                   glibc-2.26-1.fc27.1.armv7hl
@@ -2400,11 +2400,11 @@ coreutils-8.27-14.fc27.armv7hl
 ├─librt.so.1                                                   glibc-2.26-1.fc27.1.armv7hl
 ├─libacl.so.1                                                  libacl-2.2.52-18.fc27.armv7hl
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)                              openssl-libs-1:1.1.0f-9.fc27.armv7hl
-├─librt.so.1(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
 ├─libgmp.so.10                                                 gmp-1:6.1.2-6.fc27.armv7hl
+├─librt.so.1(GLIBC_2.4)                                        glibc-2.26-1.fc27.1.armv7hl
 ├─libcap.so.2                                                  libcap-2.25-7.fc27.armv7hl
-├─libacl.so.1(ACL_1.0)                                         libacl-2.2.52-18.fc27.armv7hl
 ├─ncurses                                                      ncurses-6.0-13.20170722.fc27.armv7hl
+├─libacl.so.1(ACL_1.0)                                         libacl-2.2.52-18.fc27.armv7hl
 ├─libattr.so.1                                                 libattr-2.4.47-21.fc27.armv7hl
 ├─libattr.so.1(ATTR_1.1)                                       libattr-2.4.47-21.fc27.armv7hl
 └─coreutils-common = 8.27-14.fc27                              coreutils-common-8.27-14.fc27.armv7hl
@@ -2414,9 +2414,9 @@ glibc-minimal-langpack-2.26-1.fc27.1.armv7hl
 └─glibc-common = 2.26-1.fc27.1                                 glibc-common-2.26-1.fc27.1.armv7hl
 libcap-2.25-7.fc27.armv7hl                                     
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.armv7hl
+├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                                          glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                               glibc-2.26-1.fc27.1.armv7hl
-├─libgcc_s.so.1                                                libgcc-7.1.1-7.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                                       libgcc-7.1.1-7.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.8)                                         glibc-2.26-1.fc27.1.armv7hl
 fedora-release-27-0.2.noarch                                   
