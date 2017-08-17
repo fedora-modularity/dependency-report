@@ -37,6 +37,10 @@ echo "Generating runtime package dependency graph for all modules..."
 ./graph.sh
 
 echo "\n========================================="
+echo "Generating global reports..."
+./where_is_pkg.sh
+
+echo "\n========================================="
 echo "EVERYTHING is done! \\o/"
 echo "========================================="
 
