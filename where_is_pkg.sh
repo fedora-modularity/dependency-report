@@ -2,7 +2,7 @@
 
 mkdir -p global_reports
 
-cat modules/*/x86_64/runtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/all-binary-pkgs-counted.txt
+cat modules/*/*/runtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/all-binary-pkgs-counted.txt
 
 while read pkg_row; do
     pkg=$(echo $pkg_row | sed -e "s/.* //")
