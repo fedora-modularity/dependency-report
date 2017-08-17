@@ -4,14 +4,6 @@
       1 anaconda-core
       1 anaconda-tui
       1 apache-commons-cli
-      1 apache-commons-codec
-      1 apache-commons-collections
-      1 apache-commons-daemon
-      1 apache-commons-dbcp
-      1 apache-commons-io
-      1 apache-commons-lang
-      1 apache-commons-logging
-      1 apache-commons-pool
       1 apr
       1 apr-util
       1 at
@@ -23,21 +15,14 @@
       1 automake
       1 basesystem
       1 bash
-      1 bcache-tools
-      1 bea-stax-api
       1 bind
       1 bind99-libs
       1 bind99-license
       1 bind-dyndb-ldap
-      1 bind-libs
-      1 bind-libs-lite
-      1 bind-license
       1 bind-pkcs11
       1 bind-pkcs11-libs
       1 bind-pkcs11-utils
-      1 bind-utils
       1 binutils
-      1 blktrace
       1 bluez
       1 bluez-libs
       1 boost-atomic
@@ -62,7 +47,6 @@
       1 chkconfig
       1 chrony
       1 compat-openssl10
-      1 copy-jdk-configs
       1 coreutils
       1 coreutils-common
       1 cpio
@@ -81,43 +65,30 @@
       1 curl
       1 custodia
       1 cyrus-sasl
-      1 cyrus-sasl-gssapi
       1 cyrus-sasl-lib
       1 cyrus-sasl-md5
       1 dbus
-      1 dbus-glib
       1 dbus-libs
       1 dbus-python
       1 debugmode
       1 deltarpm
       1 device-mapper
       1 device-mapper-devel
-      1 device-mapper-event
-      1 device-mapper-event-libs
       1 device-mapper-libs
-      1 device-mapper-multipath
-      1 device-mapper-multipath-libs
-      1 device-mapper-persistent-data
       1 dhcp-client
       1 dhcp-common
       1 dhcp-libs
       1 diffutils
-      1 dmraid
       1 dmraid-devel
-      1 dmraid-events
       1 dnf
       1 dnf-conf
-      1 dosfstools
       1 dracut
-      1 dracut-network
       1 drpm
       1 dtc
       1 dwz
       1 dyninst
       1 e2fsprogs
       1 e2fsprogs-libs
-      1 ebtables
-      1 ecj
       1 ed
       1 efibootmgr
       1 efivar
@@ -130,7 +101,6 @@
       1 expat
       1 fbset
       1 fcgi
-      1 fcoe-utils
       1 fedora-logos
       1 fedora-logos-httpd
       1 fedora-release
@@ -144,8 +114,6 @@
       1 findutils
       1 fipscheck
       1 fipscheck-lib
-      1 firewalld
-      1 firewalld-filesystem
       1 flex
       1 fontawesome-fonts
       1 fontpackages-filesystem
@@ -168,15 +136,7 @@
       1 gcc-c++
       1 gdb-headless
       1 gdbm
-      1 gdisk
-      1 GeoIP
-      1 GeoIP-GeoLite-data
       1 ghc-srpm-macros
-      1 glassfish-fastinfoset
-      1 glassfish-jaxb-api
-      1 glassfish-jaxb-core
-      1 glassfish-jaxb-runtime
-      1 glassfish-jaxb-txw2
       1 glib2
       1 glib2-devel
       1 glibc
@@ -187,7 +147,6 @@
       1 glibc-minimal-langpack
       1 gmp
       1 gnat-srpm-macros
-      1 gnupg
       1 gnupg2
       1 gnutls
       1 gobject-introspection
@@ -204,46 +163,23 @@
       1 guile
       1 gzip
       1 hdparm
-      1 hfsplus-tools
       1 hfsutils
-      1 httpcomponents-client
-      1 httpcomponents-core
       1 httpd
       1 httpd-filesystem
       1 httpd-tools
       1 http-parser
-      1 hwdata
       1 info
       1 ipcalc
       1 iproute
-      1 ipset
       1 ipset-devel
-      1 ipset-libs
       1 iptables
       1 iptables-libs
       1 iputils
-      1 iscsi-initiator-utils
       1 iscsi-initiator-utils-devel
-      1 iscsi-initiator-utils-iscsiuio
       1 isl
-      1 isns-utils-libs
       1 isomd5sum
-      1 istack-commons-runtime
-      1 jackson
       1 jakarta-commons-httpclient
-      1 java-1.8.0-openjdk-headless
-      1 javapackages-tools
       1 javassist
-      1 jboss-annotations-1.2-api
-      1 jboss-jaxrs-2.0-api
-      1 jboss-logging
-      1 jcip-annotations
-      1 joda-time
-      1 jsr-311
-      1 jss
-      1 kbd
-      1 kbd-legacy
-      1 kbd-misc
       1 kernel-bootwrapper
       1 kernel-core
       1 kernel-cross-headers
@@ -259,12 +195,10 @@
       1 kernel-PAE-modules
       1 kernel-tools
       1 kernel-tools-libs
-      1 kexec-tools
       1 keyutils
       1 keyutils-libs
       1 kmod
       1 kmod-libs
-      1 kpartx
       1 krb5-libs
       1 krb5-pkinit
       1 krb5-server
@@ -277,7 +211,6 @@
       1 less
       1 leveldb
       1 libacl
-      1 libaio
       1 libaio-devel
       1 libarchive
       1 libasan
@@ -286,51 +219,31 @@
       1 libatomic_ops
       1 libattr
       1 libbabeltrace
-      1 libbasicobjects
       1 libblkid
-      1 libblockdev
-      1 libblockdev-btrfs
       1 libblockdev-btrfs-devel
-      1 libblockdev-crypto
       1 libblockdev-crypto-devel
       1 libblockdev-devel
-      1 libblockdev-dm
       1 libblockdev-dm-devel
-      1 libblockdev-fs
       1 libblockdev-fs-devel
-      1 libblockdev-kbd
       1 libblockdev-kbd-devel
-      1 libblockdev-loop
       1 libblockdev-loop-devel
-      1 libblockdev-lvm
       1 libblockdev-lvm-dbus
       1 libblockdev-lvm-dbus-devel
       1 libblockdev-lvm-devel
-      1 libblockdev-mdraid
       1 libblockdev-mdraid-devel
-      1 libblockdev-mpath
       1 libblockdev-mpath-devel
-      1 libblockdev-part
       1 libblockdev-part-devel
-      1 libblockdev-plugins-all
-      1 libblockdev-s390
-      1 libblockdev-swap
       1 libblockdev-swap-devel
-      1 libblockdev-utils
       1 libblockdev-utils-devel
-      1 libbytesize
       1 libcap
       1 libcap-ng
       1 libcephfs1
       1 libcilkrts
-      1 libcollection
       1 libcom_err
       1 libcomps
-      1 libconfig
       1 libconfig-devel
       1 libcrypt
       1 libcurl-minimal
-      1 libdaemon
       1 libdb
       1 libdb-utils
       1 libdhash
@@ -350,47 +263,34 @@
       1 libgudev
       1 libidn
       1 libidn2
-      1 libini_config
       1 libipa_hbac
       1 libipt
       1 libitm
-      1 libjpeg-turbo
-      1 libkadm5
       1 libksba
-      1 libldb
       1 liblogging-stdlog
       1 libmbim
       1 libmbim-utils
       1 libmetalink
       1 libmnl
       1 libmnl-devel
-      1 libmodman
       1 libmount
       1 libmpc
       1 libmpx
-      1 libndp
       1 libnetfilter_conntrack
       1 libnfnetlink
       1 libnfsidmap
       1 libnghttp2
-      1 libnl3
-      1 libnl3-cli
       1 libnl3-devel
-      1 libpath_utils
       1 libpcap
-      1 libpciaccess
       1 libpciaccess-devel
       1 libpeas
       1 libpipeline
       1 libpkgconf
-      1 libproxy
-      1 libpsl
       1 libpwquality
       1 libqmi
       1 libqmi-utils
       1 libradosstriper1
       1 librbd1
-      1 libref_array
       1 librepo
       1 libreport
       1 libreport-anaconda
@@ -407,13 +307,11 @@
       1 libselinux-devel
       1 libselinux-python
       1 libsemanage
-      1 libsemanage-python
       1 libsepol
       1 libsepol-devel
       1 libservicelog
       1 libsigsegv
       1 libsmartcols
-      1 libsmbclient
       1 libsolv
       1 libss
       1 libsss_autofs
@@ -423,12 +321,8 @@
       1 libstdc++
       1 libstdc++-devel
       1 libsysfs
-      1 libtalloc
       1 libtar
       1 libtasn1
-      1 libtdb
-      1 libteam
-      1 libtevent
       1 libtirpc
       1 libtomcrypt
       1 libtommath
@@ -436,32 +330,22 @@
       1 libtool-ltdl
       1 libubsan
       1 libunistring
-      1 libusb
       1 libusbx
-      1 libuser
       1 libutempter
       1 libuuid
       1 libverto
       1 libverto-libev
       1 libvpd
-      1 libwbclient
       1 libxml2
       1 libxslt
       1 linux-firmware
-      1 lksctp-tools
-      1 lldpad
       1 lldpad-devel
       1 lm_sensors-libs
       1 logrotate
-      1 lsof
       1 lsscsi
       1 lsvpd
-      1 lua
       1 lua-libs
-      1 lua-posix
-      1 lvm2
       1 lvm2-dbusd
-      1 lvm2-libs
       1 lz4
       1 lz4-libs
       1 lzo
@@ -472,7 +356,6 @@
       1 mailx
       1 make
       1 man-db
-      1 mdadm
       1 memtest86+
       1 microdnf
       1 mod_auth_gssapi
@@ -494,11 +377,8 @@
       1 net-snmp-utils
       1 nettle
       1 net-tools
-      1 NetworkManager
       1 NetworkManager-adsl
       1 NetworkManager-bluetooth
-      1 NetworkManager-libnm
-      1 NetworkManager-team
       1 NetworkManager-tui
       1 NetworkManager-wifi
       1 NetworkManager-wwan
@@ -511,12 +391,10 @@
       1 nss-softokn
       1 nss-softokn-freebl
       1 nss-sysinit
-      1 nss-tools
       1 nss-util
       1 ntp
       1 nuxwdog
       1 nuxwdog-client-java
-      1 objectweb-asm3
       1 ocaml-srpm-macros
       1 oddjob
       1 oddjob-mkhomedir
@@ -527,7 +405,6 @@
       1 opencryptoki-libs
       1 opendnssec
       1 openldap
-      1 openldap-clients
       1 open-sans-fonts
       1 openssh
       1 openssh-clients
@@ -538,8 +415,6 @@
       1 p11-kit
       1 p11-kit-trust
       1 pam
-      1 parted
-      1 passwd
       1 patch
       1 pciutils-libs
       1 pcre
@@ -564,7 +439,6 @@
       1 pki-server
       1 pki-tools
       1 policycoreutils-python
-      1 polkit-libs
       1 popt
       1 powerpc-utils
       1 ppc64-utils
@@ -573,7 +447,6 @@
       1 psl
       1 psmisc
       1 publicsuffix-list
-      1 publicsuffix-list-dafsa
       1 python2-augeas
       1 python2-blockdev
       1 python2-click
@@ -603,27 +476,19 @@
       1 python2-sssdconfig
       1 python2-sss-murmur
       1 python2-systemd
-      1 python2-talloc
       1 python2-tdb
       1 python2-tevent
       1 python2-typing
       1 python2-yubico
       1 python3
-      1 python3-bind
       1 python3-blivet
-      1 python3-blockdev
       1 python3-bytesize
       1 python3-coverage
       1 python3-custodia
-      1 python3-dbus
-      1 python3-decorator
       1 python3-dnf
-      1 python3-firewall
-      1 python3-gobject-base
       1 python3-gpg
       1 python3-hawkey
       1 python3-iniparse
-      1 python3-iscsi-initiator-utils
       1 python3-jwcrypto
       1 python3-kickstart
       1 python3-libcomps
@@ -638,14 +503,11 @@
       1 python3-pwquality
       1 python3-pyparted
       1 python3-pytz
-      1 python3-pyudev
       1 python3-requests-file
       1 python3-requests-ftp
       1 python3-rpm
       1 python3-setuptools
       1 python3-six
-      1 python3-slip
-      1 python3-slip-dbus
       1 python3-systemd
       1 python3-wrapt
       1 python-beautifulsoup4
@@ -669,16 +531,9 @@
       1 quota
       1 quota-nls
       1 readline
-      1 realmd
       1 redhat-lsb-core
       1 redhat-lsb-submod-security
       1 redhat-rpm-config
-      1 relaxngDatatype
-      1 resteasy-atom-provider
-      1 resteasy-client
-      1 resteasy-core
-      1 resteasy-jackson-provider
-      1 resteasy-jaxb-provider
       1 rpcbind
       1 rpm
       1 rpm-build
@@ -686,26 +541,13 @@
       1 rpm-libs
       1 rpm-plugin-selinux
       1 rpm-plugin-systemd-inhibit
-      1 rsync
       1 rsyslog
       1 runc
       1 rust-srpm-macros
-      1 s390utils
       1 s390utils-base
-      1 s390utils-cmsfs
       1 s390utils-cmsfs-fuse
-      1 s390utils-cpuplugd
-      1 s390utils-iucvterm
-      1 s390utils-mon_statd
-      1 s390utils-osasnmpd
-      1 s390utils-ziomon
       1 samba
-      1 samba-client-libs
-      1 samba-common
-      1 samba-common-libs
       1 samba-common-tools
-      1 samba-dc-libs
-      1 samba-libs
       1 samba-python
       1 samba-winbind
       1 samba-winbind-modules
@@ -719,7 +561,6 @@
       1 sg3_utils
       1 sg3_utils-libs
       1 sgml-common
-      1 sgpio
       1 shadow-utils
       1 shim
       1 shim-unsigned
@@ -727,7 +568,6 @@
       1 slapi-nis
       1 slf4j
       1 slf4j-jdk14
-      1 snappy
       1 snappy-devel
       1 softhsm
       1 spax
@@ -743,8 +583,6 @@
       1 sssd-krb5
       1 sssd-krb5-common
       1 sssd-ldap
-      1 stax2-api
-      1 stax-ex
       1 sudo
       1 svrcore
       1 sysfsutils
@@ -766,26 +604,15 @@
       1 tar
       1 tcp_wrappers
       1 tcp_wrappers-libs
-      1 teamd
       1 time
       1 tmux
-      1 tomcat
-      1 tomcat-el-3.0-api
-      1 tomcat-jsp-2.3-api
-      1 tomcatjss
-      1 tomcat-lib
-      1 tomcat-servlet-3.1-api
       1 tzdata
-      1 tzdata-java
       1 uboot-tools
       1 unzip
-      1 usermode
-      1 userspace-rcu
       1 util-linux
       1 util-linux-user
       1 velocity
       1 vim-minimal
-      1 volume_key-libs
       1 words
       1 wpa_supplicant
       1 xalan-j2
@@ -794,59 +621,145 @@
       1 xml-common
       1 xml-commons-apis
       1 xml-commons-resolver
-      1 xmlstreambuffer
-      1 xsom
       1 xz
       1 xz-libs
       1 zip
       1 zlib
       1 zstd
-      2 audit
-      2 audit-libs-python3
+      2 apache-commons-codec
+      2 apache-commons-collections
+      2 apache-commons-daemon
+      2 apache-commons-dbcp
+      2 apache-commons-io
+      2 apache-commons-lang
+      2 apache-commons-pool
       2 augeas-libs
-      2 authconfig
       2 bc
-      2 boost-iostreams
-      2 boost-random
-      2 checkpolicy
-      2 cups-libs
-      2 ethtool
-      2 freetype
+      2 bcache-tools
+      2 bea-stax-api
+      2 bind-libs
+      2 bind-libs-lite
+      2 bind-license
+      2 bind-utils
+      2 blktrace
+      2 cyrus-sasl-gssapi
+      2 dbus-glib
+      2 device-mapper-event
+      2 device-mapper-event-libs
+      2 device-mapper-multipath
+      2 device-mapper-multipath-libs
+      2 device-mapper-persistent-data
+      2 dmraid
+      2 dmraid-events
+      2 dosfstools
+      2 dracut-network
+      2 ebtables
+      2 ecj
+      2 fcoe-utils
+      2 firewalld
+      2 firewalld-filesystem
       2 gdbm-devel
+      2 gdisk
+      2 GeoIP
+      2 GeoIP-GeoLite-data
       2 gettext
       2 gettext-libs
+      2 glassfish-fastinfoset
+      2 glassfish-jaxb-api
+      2 glassfish-jaxb-core
+      2 glassfish-jaxb-runtime
+      2 glassfish-jaxb-txw2
+      2 gnupg
       2 gperftools-libs
       2 hesiod
-      2 hostname
-      2 initscripts
-      2 jansson
+      2 hfsplus-tools
+      2 httpcomponents-client
+      2 httpcomponents-core
+      2 hwdata
+      2 ipset
+      2 ipset-libs
+      2 iscsi-initiator-utils
+      2 iscsi-initiator-utils-iscsiuio
+      2 isns-utils-libs
+      2 istack-commons-runtime
+      2 jackson
+      2 jboss-annotations-1.2-api
+      2 jboss-jaxrs-2.0-api
+      2 jboss-logging
+      2 jcip-annotations
+      2 joda-time
       2 json-c
-      2 libcgroup
+      2 jsr-311
+      2 jss
+      2 kbd
+      2 kbd-legacy
+      2 kbd-misc
+      2 kexec-tools
+      2 kpartx
+      2 libaio
+      2 libbasicobjects
+      2 libblockdev
+      2 libblockdev-btrfs
+      2 libblockdev-crypto
+      2 libblockdev-dm
+      2 libblockdev-fs
+      2 libblockdev-kbd
+      2 libblockdev-loop
+      2 libblockdev-lvm
+      2 libblockdev-mdraid
+      2 libblockdev-mpath
+      2 libblockdev-part
+      2 libblockdev-plugins-all
+      2 libblockdev-s390
+      2 libblockdev-swap
+      2 libblockdev-utils
+      2 libbytesize
+      2 libcollection
+      2 libconfig
       2 libcroco
+      2 libdaemon
       2 libdb-devel
       2 libicu
-      2 libpng
-      2 librados2
-      2 libsemanage-python3
+      2 libini_config
+      2 libldb
+      2 libmodman
+      2 libndp
+      2 libnl3
+      2 libnl3-cli
+      2 libpath_utils
+      2 libpciaccess
+      2 libproxy
+      2 libpsl
+      2 libref_array
+      2 libsemanage-python
+      2 libsmbclient
+      2 libtalloc
+      2 libtdb
+      2 libteam
+      2 libtevent
       2 libunwind
-      2 lttng-ust
-      2 mariadb-common
-      2 mariadb-config
-      2 mariadb-libs
-      2 net-snmp
-      2 net-snmp-agent-libs
-      2 net-snmp-libs
+      2 libusb
+      2 libuser
+      2 libwbclient
+      2 lldpad
+      2 lsof
+      2 lvm2
+      2 lvm2-libs
+      2 mdadm
+      2 NetworkManager
+      2 NetworkManager-libnm
+      2 NetworkManager-team
+      2 objectweb-asm3
+      2 openldap-clients
+      2 parted
+      2 passwd
       2 perl
-      2 perl-Algorithm-Diff
-      2 perl-Archive-Tar
       2 perl-Archive-Zip
       2 perl-Attribute-Handlers
       2 perl-autodie
       2 perl-B-Debug
       2 perl-bignum
       2 perl-Compress-Bzip2
-      2 perl-Compress-Raw-Bzip2
-      2 perl-Compress-Raw-Zlib
       2 perl-Config-Perl-V
       2 perl-CPAN
       2 perl-CPAN-Meta
@@ -854,7 +767,6 @@
       2 perl-CPAN-Meta-YAML
       2 perl-Data-OptList
       2 perl-Data-Section
-      2 perl-DB_File
       2 perl-devel
       2 perl-Devel-Peek
       2 perl-Devel-PPPort
@@ -863,7 +775,6 @@
       2 perl-Digest
       2 perl-Digest-MD5
       2 perl-Digest-SHA
-      2 perl-Encode
       2 perl-encoding
       2 perl-Env
       2 perl-experimental
@@ -878,16 +789,11 @@
       2 perl-ExtUtils-ParseXS
       2 perl-File-Fetch
       2 perl-File-HomeDir
-      2 perl-File-Temp
       2 perl-File-Which
       2 perl-Filter
       2 perl-Filter-Simple
-      2 perl-Getopt-Long
-      2 perl-HTTP-Tiny
       2 perl-inc-latest
-      2 perl-IO-Compress
       2 perl-IO-Socket-IP
-      2 perl-IO-Zlib
       2 perl-IPC-Cmd
       2 perl-IPC-System-Simple
       2 perl-IPC-SysV
@@ -898,12 +804,9 @@
       2 perl-Locale-Maketext
       2 perl-Locale-Maketext-Simple
       2 perl-local-lib
-      2 perl-Math-BigInt
       2 perl-Math-BigInt-FastCalc
       2 perl-Math-BigRat
-      2 perl-Math-Complex
       2 perl-Memoize
-      2 perl-MIME-Base64
       2 perl-Module-Build
       2 perl-Module-CoreList
       2 perl-Module-CoreList-tools
@@ -921,70 +824,63 @@
       2 perl-PerlIO-via-QuotedPrint
       2 perl-Perl-OSType
       2 perl-Pod-Checker
-      2 perl-Pod-Escapes
       2 perl-Pod-Html
-      2 perl-podlators
       2 perl-Pod-Parser
-      2 perl-Pod-Perldoc
-      2 perl-Pod-Simple
-      2 perl-Pod-Usage
       2 perl-SelfLoader
       2 perl-Software-License
-      2 perl-Storable
       2 perl-Sub-Exporter
       2 perl-Sub-Install
       2 perl-Sys-Syslog
-      2 perl-Term-ANSIColor
-      2 perl-Term-Cap
       2 perl-Test
       2 perl-Test-Harness
       2 perl-Test-Simple
       2 perl-Text-Balanced
-      2 perl-Text-Diff
       2 perl-Text-Glob
-      2 perl-Text-ParseWords
       2 perl-Text-Template
       2 perl-Thread-Queue
       2 perl-Time-HiRes
-      2 perl-Time-Local
       2 perl-Time-Piece
       2 perl-Unicode-Collate
       2 perl-URI
       2 perl-utils
       2 perl-version
-      2 policycoreutils-python3
-      2 policycoreutils-python-utils
-      2 python2
+      2 polkit-libs
+      2 publicsuffix-list-dafsa
       2 python2-asn1crypto
       2 python2-babel
       2 python2-cffi
       2 python2-cryptography
       2 python2-idna
       2 python2-jinja2
-      2 python2-libs
       2 python2-markupsafe
-      2 python2-pip
       2 python2-ply
       2 python2-pycparser
       2 python2-pyOpenSSL
       2 python2-pysocks
       2 python2-requests
-      2 python2-setuptools
       2 python2-six
+      2 python2-talloc
       2 python2-urllib3
       2 python3-asn1crypto
+      2 python3-bind
+      2 python3-blockdev
       2 python3-cffi
       2 python3-chardet
       2 python3-cryptography
+      2 python3-dbus
+      2 python3-decorator
+      2 python3-firewall
+      2 python3-gobject-base
       2 python3-idna
-      2 python3-IPy
-      2 python3-ply
+      2 python3-iscsi-initiator-utils
       2 python3-pycparser
       2 python3-pyOpenSSL
       2 python3-pyparsing
       2 python3-pysocks
+      2 python3-pyudev
       2 python3-requests
-      2 python3-sssdconfig
+      2 python3-slip
+      2 python3-slip-dbus
       2 python3-urllib3
       2 python-backports
       2 python-backports-ssl_match_hostname
@@ -992,35 +888,139 @@
       2 python-enum34
       2 python-ipaddress
       2 pytz
+      2 realmd
+      2 relaxngDatatype
+      2 resteasy-atom-provider
+      2 resteasy-client
+      2 resteasy-core
+      2 resteasy-jackson-provider
+      2 resteasy-jaxb-provider
+      2 rsync
+      2 s390utils
+      2 s390utils-cmsfs
+      2 s390utils-cpuplugd
+      2 s390utils-iucvterm
+      2 s390utils-mon_statd
+      2 s390utils-osasnmpd
+      2 s390utils-ziomon
+      2 samba-client-libs
+      2 samba-common
+      2 samba-common-libs
+      2 samba-dc-libs
+      2 samba-libs
       2 selinux-policy
-      2 setools-python3
+      2 sgpio
+      2 snappy
+      2 stax2-api
+      2 stax-ex
       2 systemtap-sdt-devel
-      2 xmlrpc-c
-      2 xmlrpc-c-client
-      3 avahi-libs
-      3 boost-system
-      3 boost-thread
-      3 groff-base
-      3 libselinux-python3
-      3 libselinux-utils
-      3 perl-Carp
-      3 perl-constant
-      3 perl-Data-Dumper
-      3 perl-Errno
-      3 perl-Exporter
-      3 perl-File-Path
-      3 perl-interpreter
-      3 perl-IO
-      3 perl-libs
-      3 perl-macros
-      3 perl-parent
-      3 perl-PathTools
-      3 perl-Scalar-List-Utils
-      3 perl-Socket
-      3 perl-Text-Tabs+Wrap
-      3 perl-threads
-      3 perl-threads-shared
-      3 perl-Unicode-Normalize
-      3 policycoreutils
-      3 which
-      5 curl-minimal
+      2 teamd
+      2 tomcat
+      2 tomcat-el-3.0-api
+      2 tomcat-jsp-2.3-api
+      2 tomcatjss
+      2 tomcat-lib
+      2 tomcat-servlet-3.1-api
+      2 usermode
+      2 userspace-rcu
+      2 volume_key-libs
+      2 xmlstreambuffer
+      2 xsom
+      3 apache-commons-logging
+      3 audit
+      3 audit-libs-python3
+      3 authconfig
+      3 boost-iostreams
+      3 boost-random
+      3 checkpolicy
+      3 cups-libs
+      3 ethtool
+      3 hostname
+      3 initscripts
+      3 jansson
+      3 libcgroup
+      3 libkadm5
+      3 librados2
+      3 libsemanage-python3
+      3 lttng-ust
+      3 mariadb-common
+      3 mariadb-config
+      3 mariadb-libs
+      3 net-snmp
+      3 net-snmp-agent-libs
+      3 net-snmp-libs
+      3 nss-tools
+      3 perl-Algorithm-Diff
+      3 perl-Archive-Tar
+      3 perl-Compress-Raw-Bzip2
+      3 perl-Compress-Raw-Zlib
+      3 perl-DB_File
+      3 perl-Encode
+      3 perl-File-Temp
+      3 perl-Getopt-Long
+      3 perl-HTTP-Tiny
+      3 perl-IO-Compress
+      3 perl-IO-Zlib
+      3 perl-Math-BigInt
+      3 perl-Math-Complex
+      3 perl-MIME-Base64
+      3 perl-Pod-Escapes
+      3 perl-podlators
+      3 perl-Pod-Perldoc
+      3 perl-Pod-Simple
+      3 perl-Pod-Usage
+      3 perl-Storable
+      3 perl-Term-ANSIColor
+      3 perl-Term-Cap
+      3 perl-Text-Diff
+      3 perl-Text-ParseWords
+      3 perl-Time-Local
+      3 policycoreutils-python3
+      3 policycoreutils-python-utils
+      3 python2
+      3 python2-libs
+      3 python2-pip
+      3 python2-setuptools
+      3 python3-IPy
+      3 python3-ply
+      3 python3-sssdconfig
+      3 setools-python3
+      3 xmlrpc-c
+      3 xmlrpc-c-client
+      4 avahi-libs
+      4 boost-system
+      4 boost-thread
+      4 copy-jdk-configs
+      4 groff-base
+      4 java-1.8.0-openjdk-headless
+      4 javapackages-tools
+      4 libjpeg-turbo
+      4 lksctp-tools
+      4 lua
+      4 lua-posix
+      4 perl-Carp
+      4 perl-constant
+      4 perl-Data-Dumper
+      4 perl-Errno
+      4 perl-Exporter
+      4 perl-File-Path
+      4 perl-interpreter
+      4 perl-IO
+      4 perl-libs
+      4 perl-macros
+      4 perl-parent
+      4 perl-PathTools
+      4 perl-Scalar-List-Utils
+      4 perl-Socket
+      4 perl-Text-Tabs+Wrap
+      4 perl-threads
+      4 perl-threads-shared
+      4 perl-Unicode-Normalize
+      4 tzdata-java
+      5 freetype
+      5 libpng
+      5 libselinux-python3
+      5 libselinux-utils
+      5 policycoreutils
+      6 which
+      7 curl-minimal

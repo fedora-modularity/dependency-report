@@ -1,43 +1,28 @@
-1 389-ds-base                          freeipa
-1 389-ds-base-libs                     freeipa
+1 389-ds-base                          389-ds
+1 389-ds-base-libs                     389-ds
 1 acl                                  platform
 1 anaconda-core                        installer
 1 anaconda-tui                         installer
-1 apache-commons-cli                   freeipa
-1 apache-commons-codec                 freeipa
-1 apache-commons-collections           freeipa
-1 apache-commons-daemon                freeipa
-1 apache-commons-dbcp                  freeipa
-1 apache-commons-io                    freeipa
-1 apache-commons-lang                  freeipa
-1 apache-commons-logging               freeipa
-1 apache-commons-pool                  freeipa
-1 apr                                  freeipa
-1 apr-util                             freeipa
+1 apache-commons-cli                   pki
+1 apr                                  httpd
+1 apr-util                             httpd
 1 at                                   storage-devices
 1 audit-libs                           platform
-1 audit-libs-python                    freeipa
+1 audit-libs-python                    pki
 1 autoconf                             autotools
 1 autofs                               freeipa
 1 autogen-libopts                      freeipa
 1 automake                             autotools
 1 basesystem                           platform
 1 bash                                 platform
-1 bcache-tools                         platform-placeholder
-1 bea-stax-api                         freeipa
-1 bind                                 freeipa
+1 bind                                 bind
 1 bind99-libs                          platform
 1 bind99-license                       platform
 1 bind-dyndb-ldap                      freeipa
-1 bind-libs                            freeipa
-1 bind-libs-lite                       freeipa
-1 bind-license                         freeipa
-1 bind-pkcs11                          freeipa
-1 bind-pkcs11-libs                     freeipa
-1 bind-pkcs11-utils                    freeipa
-1 bind-utils                           freeipa
+1 bind-pkcs11                          bind
+1 bind-pkcs11-libs                     bind
+1 bind-pkcs11-utils                    bind
 1 binutils                             platform
-1 blktrace                             platform-placeholder
 1 bluez                                networking-base
 1 bluez-libs                           networking-base
 1 boost-atomic                         systemtap
@@ -62,7 +47,6 @@
 1 chkconfig                            platform
 1 chrony                               installer
 1 compat-openssl10                     freeipa
-1 copy-jdk-configs                     java
 1 coreutils                            platform
 1 coreutils-common                     platform
 1 cpio                                 platform
@@ -81,43 +65,30 @@
 1 curl                                 platform
 1 custodia                             freeipa
 1 cyrus-sasl                           storage-devices
-1 cyrus-sasl-gssapi                    freeipa
 1 cyrus-sasl-lib                       platform
-1 cyrus-sasl-md5                       freeipa
+1 cyrus-sasl-md5                       389-ds
 1 dbus                                 platform
-1 dbus-glib                            platform-placeholder
 1 dbus-libs                            platform
 1 dbus-python                          freeipa
 1 debugmode                            platform-placeholder
 1 deltarpm                             platform
 1 device-mapper                        platform
 1 device-mapper-devel                  platform-placeholder
-1 device-mapper-event                  platform-placeholder
-1 device-mapper-event-libs             platform-placeholder
 1 device-mapper-libs                   platform
-1 device-mapper-multipath              platform-placeholder
-1 device-mapper-multipath-libs         platform-placeholder
-1 device-mapper-persistent-data        platform-placeholder
 1 dhcp-client                          platform
 1 dhcp-common                          platform
 1 dhcp-libs                            platform
 1 diffutils                            platform
-1 dmraid                               platform-placeholder
 1 dmraid-devel                         platform-placeholder
-1 dmraid-events                        platform-placeholder
 1 dnf                                  platform
 1 dnf-conf                             platform
-1 dosfstools                           platform-placeholder
 1 dracut                               platform
-1 dracut-network                       platform-placeholder
 1 drpm                                 installer
 1 dtc                                  platform
 1 dwz                                  platform
 1 dyninst                              systemtap
 1 e2fsprogs                            platform
 1 e2fsprogs-libs                       platform
-1 ebtables                             platform-placeholder
-1 ecj                                  freeipa
 1 ed                                   storage-devices
 1 efibootmgr                           platform
 1 efivar                               platform
@@ -130,9 +101,8 @@
 1 expat                                platform
 1 fbset                                platform
 1 fcgi                                 storage-devices
-1 fcoe-utils                           platform-placeholder
 1 fedora-logos                         platform
-1 fedora-logos-httpd                   freeipa
+1 fedora-logos-httpd                   httpd
 1 fedora-release                       platform
 1 fedora-repos                         platform
 1 fedora-repos-rawhide                 platform
@@ -144,8 +114,6 @@
 1 findutils                            platform
 1 fipscheck                            platform
 1 fipscheck-lib                        platform
-1 firewalld                            networking-base
-1 firewalld-filesystem                 networking-base
 1 flex                                 platform
 1 fontawesome-fonts                    freeipa
 1 fontpackages-filesystem              freeipa
@@ -168,15 +136,7 @@
 1 gcc-c++                              platform
 1 gdb-headless                         platform
 1 gdbm                                 platform
-1 gdisk                                platform-placeholder
-1 GeoIP                                freeipa
-1 GeoIP-GeoLite-data                   freeipa
 1 ghc-srpm-macros                      platform
-1 glassfish-fastinfoset                freeipa
-1 glassfish-jaxb-api                   freeipa
-1 glassfish-jaxb-core                  freeipa
-1 glassfish-jaxb-runtime               freeipa
-1 glassfish-jaxb-txw2                  freeipa
 1 glib2                                platform
 1 glib2-devel                          platform-placeholder
 1 glibc                                platform
@@ -187,7 +147,6 @@
 1 glibc-minimal-langpack               platform
 1 gmp                                  platform
 1 gnat-srpm-macros                     platform
-1 gnupg                                platform-placeholder
 1 gnupg2                               platform
 1 gnutls                               platform
 1 gobject-introspection                platform
@@ -200,50 +159,27 @@
 1 grub2-efi-modules                    platform
 1 grub2-tools                          platform
 1 grubby                               platform
-1 gssproxy                             freeipa
+1 gssproxy                             krb5
 1 guile                                platform
 1 gzip                                 platform
 1 hdparm                               storage-devices
-1 hfsplus-tools                        platform-placeholder
 1 hfsutils                             platform
-1 httpcomponents-client                freeipa
-1 httpcomponents-core                  freeipa
-1 httpd                                freeipa
-1 httpd-filesystem                     freeipa
-1 httpd-tools                          freeipa
-1 http-parser                          freeipa
-1 hwdata                               platform-placeholder
+1 httpd                                httpd
+1 httpd-filesystem                     httpd
+1 httpd-tools                          httpd
+1 http-parser                          sssd
 1 info                                 platform
 1 ipcalc                               platform
 1 iproute                              platform
-1 ipset                                platform-placeholder
 1 ipset-devel                          platform-placeholder
-1 ipset-libs                           platform-placeholder
 1 iptables                             platform
 1 iptables-libs                        platform
 1 iputils                              platform
-1 iscsi-initiator-utils                platform-placeholder
 1 iscsi-initiator-utils-devel          platform-placeholder
-1 iscsi-initiator-utils-iscsiuio       platform-placeholder
 1 isl                                  platform
-1 isns-utils-libs                      platform-placeholder
 1 isomd5sum                            installer
-1 istack-commons-runtime               freeipa
-1 jackson                              freeipa
-1 jakarta-commons-httpclient           freeipa
-1 java-1.8.0-openjdk-headless          java
-1 javapackages-tools                   java
-1 javassist                            freeipa
-1 jboss-annotations-1.2-api            freeipa
-1 jboss-jaxrs-2.0-api                  freeipa
-1 jboss-logging                        freeipa
-1 jcip-annotations                     freeipa
-1 joda-time                            freeipa
-1 jsr-311                              freeipa
-1 jss                                  freeipa
-1 kbd                                  platform-placeholder
-1 kbd-legacy                           platform-placeholder
-1 kbd-misc                             platform-placeholder
+1 jakarta-commons-httpclient           pki
+1 javassist                            pki
 1 kernel-bootwrapper                   platform
 1 kernel-core                          platform
 1 kernel-cross-headers                 platform
@@ -259,25 +195,22 @@
 1 kernel-PAE-modules                   platform
 1 kernel-tools                         platform
 1 kernel-tools-libs                    platform
-1 kexec-tools                          platform-placeholder
 1 keyutils                             freeipa
 1 keyutils-libs                        platform
 1 kmod                                 platform
 1 kmod-libs                            platform
-1 kpartx                               platform-placeholder
 1 krb5-libs                            platform
-1 krb5-pkinit                          freeipa
-1 krb5-server                          freeipa
-1 krb5-workstation                     freeipa
+1 krb5-pkinit                          krb5
+1 krb5-server                          krb5
+1 krb5-workstation                     krb5
 1 langtable                            installer
 1 langtable-data                       installer
 1 langtable-python3                    installer
-1 ldapjdk                              freeipa
+1 ldapjdk                              pki
 1 ldns                                 freeipa
 1 less                                 storage-devices
 1 leveldb                              storage-devices
 1 libacl                               platform
-1 libaio                               platform-placeholder
 1 libaio-devel                         platform-placeholder
 1 libarchive                           platform
 1 libasan                              platform
@@ -286,54 +219,34 @@
 1 libatomic_ops                        platform
 1 libattr                              platform
 1 libbabeltrace                        platform
-1 libbasicobjects                      freeipa
 1 libblkid                             platform
-1 libblockdev                          platform-placeholder
-1 libblockdev-btrfs                    platform-placeholder
 1 libblockdev-btrfs-devel              platform-placeholder
-1 libblockdev-crypto                   platform-placeholder
 1 libblockdev-crypto-devel             platform-placeholder
 1 libblockdev-devel                    platform-placeholder
-1 libblockdev-dm                       platform-placeholder
 1 libblockdev-dm-devel                 platform-placeholder
-1 libblockdev-fs                       platform-placeholder
 1 libblockdev-fs-devel                 platform-placeholder
-1 libblockdev-kbd                      platform-placeholder
 1 libblockdev-kbd-devel                platform-placeholder
-1 libblockdev-loop                     platform-placeholder
 1 libblockdev-loop-devel               platform-placeholder
-1 libblockdev-lvm                      platform-placeholder
 1 libblockdev-lvm-dbus                 platform-placeholder
 1 libblockdev-lvm-dbus-devel           platform-placeholder
 1 libblockdev-lvm-devel                platform-placeholder
-1 libblockdev-mdraid                   platform-placeholder
 1 libblockdev-mdraid-devel             platform-placeholder
-1 libblockdev-mpath                    platform-placeholder
 1 libblockdev-mpath-devel              platform-placeholder
-1 libblockdev-part                     platform-placeholder
 1 libblockdev-part-devel               platform-placeholder
-1 libblockdev-plugins-all              platform-placeholder
-1 libblockdev-s390                     platform-placeholder
-1 libblockdev-swap                     platform-placeholder
 1 libblockdev-swap-devel               platform-placeholder
-1 libblockdev-utils                    platform-placeholder
 1 libblockdev-utils-devel              platform-placeholder
-1 libbytesize                          platform-placeholder
 1 libcap                               platform
 1 libcap-ng                            platform
 1 libcephfs1                           storage-devices
 1 libcilkrts                           platform
-1 libcollection                        freeipa
 1 libcom_err                           platform
 1 libcomps                             platform
-1 libconfig                            platform-placeholder
 1 libconfig-devel                      platform-placeholder
 1 libcrypt                             platform
 1 libcurl-minimal                      platform
-1 libdaemon                            networking-base
 1 libdb                                platform
 1 libdb-utils                          platform
-1 libdhash                             freeipa
+1 libdhash                             sssd
 1 libdnf                               platform
 1 libdwarf                             systemtap
 1 libedit                              platform
@@ -350,47 +263,34 @@
 1 libgudev                             networking-base
 1 libidn                               platform
 1 libidn2                              platform
-1 libini_config                        freeipa
-1 libipa_hbac                          freeipa
+1 libipa_hbac                          sssd
 1 libipt                               platform
 1 libitm                               freeipa
-1 libjpeg-turbo                        java
-1 libkadm5                             freeipa
 1 libksba                              platform
-1 libldb                               freeipa
 1 liblogging-stdlog                    platform
 1 libmbim                              networking-base
 1 libmbim-utils                        networking-base
 1 libmetalink                          platform
 1 libmnl                               platform
 1 libmnl-devel                         platform-placeholder
-1 libmodman                            networking-base
 1 libmount                             platform
 1 libmpc                               platform
 1 libmpx                               platform
-1 libndp                               networking-base
 1 libnetfilter_conntrack               platform
 1 libnfnetlink                         platform
 1 libnfsidmap                          freeipa
 1 libnghttp2                           platform
-1 libnl3                               platform-placeholder
-1 libnl3-cli                           platform-placeholder
 1 libnl3-devel                         platform-placeholder
-1 libpath_utils                        freeipa
 1 libpcap                              platform
-1 libpciaccess                         platform-placeholder
 1 libpciaccess-devel                   platform-placeholder
 1 libpeas                              platform
 1 libpipeline                          storage-devices
 1 libpkgconf                           platform
-1 libproxy                             networking-base
-1 libpsl                               networking-base
 1 libpwquality                         platform
 1 libqmi                               networking-base
 1 libqmi-utils                         networking-base
 1 libradosstriper1                     storage-devices
 1 librbd1                              storage-devices
-1 libref_array                         freeipa
 1 librepo                              platform
 1 libreport                            installer
 1 libreport-anaconda                   installer
@@ -405,84 +305,67 @@
 1 libseccomp                           platform
 1 libselinux                           platform
 1 libselinux-devel                     platform-placeholder
-1 libselinux-python                    freeipa
+1 libselinux-python                    pki
 1 libsemanage                          platform
-1 libsemanage-python                   freeipa
 1 libsepol                             platform
 1 libsepol-devel                       platform-placeholder
 1 libservicelog                        platform
 1 libsigsegv                           platform
 1 libsmartcols                         platform
-1 libsmbclient                         freeipa
 1 libsolv                              platform
 1 libss                                platform
-1 libsss_autofs                        freeipa
-1 libsss_certmap                       freeipa
-1 libsss_idmap                         freeipa
-1 libsss_nss_idmap                     freeipa
+1 libsss_autofs                        sssd
+1 libsss_certmap                       sssd
+1 libsss_idmap                         sssd
+1 libsss_nss_idmap                     sssd
 1 libstdc++                            platform
 1 libstdc++-devel                      platform
 1 libsysfs                             platform
-1 libtalloc                            freeipa
 1 libtar                               installer
 1 libtasn1                             platform
-1 libtdb                               freeipa
-1 libteam                              networking-base
-1 libtevent                            freeipa
 1 libtirpc                             freeipa
-1 libtomcrypt                          freeipa
-1 libtommath                           freeipa
+1 libtomcrypt                          samba
+1 libtommath                           samba
 1 libtool                              autotools
 1 libtool-ltdl                         platform
 1 libubsan                             platform
 1 libunistring                         platform
-1 libusb                               platform-placeholder
 1 libusbx                              platform
-1 libuser                              platform-placeholder
 1 libutempter                          platform
 1 libuuid                              platform
 1 libverto                             platform
-1 libverto-libev                       freeipa
+1 libverto-libev                       krb5
 1 libvpd                               platform
-1 libwbclient                          freeipa
 1 libxml2                              platform
-1 libxslt                              freeipa
+1 libxslt                              pki
 1 linux-firmware                       platform
-1 lksctp-tools                         java
-1 lldpad                               platform-placeholder
 1 lldpad-devel                         platform-placeholder
 1 lm_sensors-libs                      networking-base
 1 logrotate                            platform
-1 lsof                                 platform-placeholder
 1 lsscsi                               platform
 1 lsvpd                                platform
-1 lua                                  java
 1 lua-libs                             platform
-1 lua-posix                            java
-1 lvm2                                 platform-placeholder
 1 lvm2-dbusd                           platform-placeholder
-1 lvm2-libs                            platform-placeholder
 1 lz4                                  installer
 1 lz4-libs                             platform
 1 lzo                                  platform
 1 m2crypto                             freeipa
 1 m4                                   platform
 1 mactel-boot                          platform
-1 mailcap                              freeipa
+1 mailcap                              httpd
 1 mailx                                storage-devices
 1 make                                 platform
 1 man-db                               storage-devices
-1 mdadm                                platform-placeholder
 1 memtest86+                           platform
 1 microdnf                             platform
 1 mod_auth_gssapi                      freeipa
 1 ModemManager                         networking-base
 1 ModemManager-glib                    networking-base
-1 mod_http2                            freeipa
+1 mod_http2                            httpd
 1 mod_lookup_identity                  freeipa
-1 mod_nss                              freeipa
-1 mod_session                          freeipa
-1 mod_wsgi                             freeipa
+1 mod_nss                              httpd
+1 mod_session                          httpd
+1 mod_wsgi                             httpd
 1 mokutil                              platform
 1 mpfr                                 platform
 1 mtools                               platform
@@ -493,12 +376,9 @@
 1 ncurses-libs                         platform
 1 net-snmp-utils                       networking-base
 1 nettle                               platform
-1 net-tools                            freeipa
-1 NetworkManager                       networking-base
+1 net-tools                            pki
 1 NetworkManager-adsl                  networking-base
 1 NetworkManager-bluetooth             networking-base
-1 NetworkManager-libnm                 networking-base
-1 NetworkManager-team                  networking-base
 1 NetworkManager-tui                   networking-base
 1 NetworkManager-wifi                  networking-base
 1 NetworkManager-wwan                  networking-base
@@ -511,12 +391,10 @@
 1 nss-softokn                          platform
 1 nss-softokn-freebl                   platform
 1 nss-sysinit                          platform
-1 nss-tools                            freeipa
 1 nss-util                             platform
 1 ntp                                  freeipa
-1 nuxwdog                              freeipa
-1 nuxwdog-client-java                  freeipa
-1 objectweb-asm3                       freeipa
+1 nuxwdog                              pki
+1 nuxwdog-client-java                  pki
 1 ocaml-srpm-macros                    platform
 1 oddjob                               freeipa
 1 oddjob-mkhomedir                     freeipa
@@ -527,7 +405,6 @@
 1 opencryptoki-libs                    freeipa
 1 opendnssec                           freeipa
 1 openldap                             platform
-1 openldap-clients                     freeipa
 1 open-sans-fonts                      freeipa
 1 openssh                              platform
 1 openssh-clients                      platform
@@ -538,8 +415,6 @@
 1 p11-kit                              platform
 1 p11-kit-trust                        platform
 1 pam                                  platform
-1 parted                               platform-placeholder
-1 passwd                               platform-placeholder
 1 patch                                platform
 1 pciutils-libs                        platform
 1 pcre                                 platform
@@ -550,21 +425,20 @@
 1 pcre-utf32                           platform-placeholder
 1 perl-Fedora-VSP                      perl
 1 perl-generators                      perl
-1 perl-Mozilla-LDAP                    freeipa
-1 perl-NetAddr-IP                      freeipa
-1 perl-Socket6                         freeipa
+1 perl-Mozilla-LDAP                    389-ds
+1 perl-NetAddr-IP                      389-ds
+1 perl-Socket6                         389-ds
 1 perl-srpm-macros                     platform
 1 pkgconf                              platform
 1 pkgconf-m4                           platform
 1 pkgconf-pkg-config                   platform
-1 pki-base                             freeipa
-1 pki-base-java                        freeipa
-1 pki-ca                               freeipa
-1 pki-kra                              freeipa
-1 pki-server                           freeipa
-1 pki-tools                            freeipa
-1 policycoreutils-python               freeipa
-1 polkit-libs                          networking-base
+1 pki-base                             pki
+1 pki-base-java                        pki
+1 pki-ca                               pki
+1 pki-kra                              pki
+1 pki-server                           pki
+1 pki-tools                            pki
+1 policycoreutils-python               pki
 1 popt                                 platform
 1 powerpc-utils                        platform
 1 ppc64-utils                          platform
@@ -573,57 +447,48 @@
 1 psl                                  networking-base
 1 psmisc                               platform
 1 publicsuffix-list                    platform-placeholder
-1 publicsuffix-list-dafsa              platform-placeholder
 1 python2-augeas                       freeipa
 1 python2-blockdev                     platform-placeholder
 1 python2-click                        storage-devices
 1 python2-configparser                 freeipa
-1 python2-crypto                       freeipa
-1 python2-cssselect                    freeipa
+1 python2-crypto                       samba
+1 python2-cssselect                    pki
 1 python2-custodia                     freeipa
 1 python2-dateutil                     freeipa
 1 python2-decorator                    freeipa
-1 python2-dns                          freeipa
+1 python2-dns                          samba
 1 python2-flask                        storage-devices
-1 python2-html5lib                     freeipa
+1 python2-html5lib                     pki
 1 python2-ipaclient                    freeipa
 1 python2-ipalib                       freeipa
 1 python2-ipaserver                    freeipa
-1 python2-IPy                          freeipa
+1 python2-IPy                          pki
 1 python2-itsdangerous                 storage-devices
 1 python2-kdcproxy                     freeipa
-1 python2-ldb                          freeipa
-1 python2-libipa_hbac                  freeipa
-1 python2-libsss_nss_idmap             freeipa
-1 python2-lxml                         freeipa
+1 python2-ldb                          samba
+1 python2-libipa_hbac                  sssd
+1 python2-libsss_nss_idmap             sssd
+1 python2-lxml                         pki
 1 python2-netifaces                    freeipa
-1 python2-pyasn1                       freeipa
-1 python2-pyasn1-modules               freeipa
-1 python2-sss                          freeipa
-1 python2-sssdconfig                   freeipa
-1 python2-sss-murmur                   freeipa
+1 python2-pyasn1                       pki
+1 python2-pyasn1-modules               pki
+1 python2-sss                          sssd
+1 python2-sssdconfig                   sssd
+1 python2-sss-murmur                   sssd
 1 python2-systemd                      freeipa
-1 python2-talloc                       freeipa
-1 python2-tdb                          freeipa
-1 python2-tevent                       freeipa
+1 python2-tdb                          samba
+1 python2-tevent                       samba
 1 python2-typing                       freeipa
 1 python2-yubico                       freeipa
 1 python3                              platform
-1 python3-bind                         freeipa
 1 python3-blivet                       installer
-1 python3-blockdev                     platform-placeholder
 1 python3-bytesize                     installer
 1 python3-coverage                     installer
 1 python3-custodia                     freeipa
-1 python3-dbus                         platform-placeholder
-1 python3-decorator                    networking-base
 1 python3-dnf                          platform
-1 python3-firewall                     networking-base
-1 python3-gobject-base                 platform-placeholder
 1 python3-gpg                          platform
 1 python3-hawkey                       platform
 1 python3-iniparse                     platform
-1 python3-iscsi-initiator-utils        platform-placeholder
 1 python3-jwcrypto                     freeipa
 1 python3-kickstart                    installer
 1 python3-libcomps                     platform
@@ -638,26 +503,23 @@
 1 python3-pwquality                    installer
 1 python3-pyparted                     installer
 1 python3-pytz                         installer
-1 python3-pyudev                       platform-placeholder
 1 python3-requests-file                installer
 1 python3-requests-ftp                 installer
 1 python3-rpm                          platform
 1 python3-setuptools                   platform
 1 python3-six                          platform
-1 python3-slip                         networking-base
-1 python3-slip-dbus                    networking-base
 1 python3-systemd                      freeipa
 1 python3-wrapt                        installer
-1 python-beautifulsoup4                freeipa
+1 python-beautifulsoup4                pki
 1 python-cephfs                        storage-devices
 1 python-gobject-base                  platform-placeholder
 1 python-gssapi                        freeipa
 1 python-iscsi-initiator-utils         platform-placeholder
 1 python-jwcrypto                      freeipa
-1 python-ldap                          freeipa
+1 python-ldap                          pki
 1 python-libnl3                        platform-placeholder
 1 python-netaddr                       freeipa
-1 python-nss                           freeipa
+1 python-nss                           pki
 1 python-qrcode-core                   freeipa
 1 python-rados                         storage-devices
 1 python-rbd                           storage-devices
@@ -669,16 +531,9 @@
 1 quota                                freeipa
 1 quota-nls                            freeipa
 1 readline                             platform
-1 realmd                               networking-base
 1 redhat-lsb-core                      storage-devices
 1 redhat-lsb-submod-security           storage-devices
 1 redhat-rpm-config                    platform
-1 relaxngDatatype                      freeipa
-1 resteasy-atom-provider               freeipa
-1 resteasy-client                      freeipa
-1 resteasy-core                        freeipa
-1 resteasy-jackson-provider            freeipa
-1 resteasy-jaxb-provider               freeipa
 1 rpcbind                              freeipa
 1 rpm                                  platform
 1 rpm-build                            platform
@@ -686,67 +541,50 @@
 1 rpm-libs                             platform
 1 rpm-plugin-selinux                   platform
 1 rpm-plugin-systemd-inhibit           platform
-1 rsync                                platform-placeholder
 1 rsyslog                              platform
 1 runc                                 platform
 1 rust-srpm-macros                     platform
-1 s390utils                            platform-placeholder
 1 s390utils-base                       platform
-1 s390utils-cmsfs                      platform-placeholder
 1 s390utils-cmsfs-fuse                 platform
-1 s390utils-cpuplugd                   platform-placeholder
-1 s390utils-iucvterm                   platform-placeholder
-1 s390utils-mon_statd                  platform-placeholder
-1 s390utils-osasnmpd                   platform-placeholder
-1 s390utils-ziomon                     platform-placeholder
-1 samba                                freeipa
-1 samba-client-libs                    freeipa
-1 samba-common                         freeipa
-1 samba-common-libs                    freeipa
-1 samba-common-tools                   freeipa
-1 samba-dc-libs                        freeipa
-1 samba-libs                           freeipa
-1 samba-python                         freeipa
-1 samba-winbind                        freeipa
-1 samba-winbind-modules                freeipa
+1 samba                                samba
+1 samba-common-tools                   samba
+1 samba-python                         samba
+1 samba-winbind                        samba
+1 samba-winbind-modules                samba
 1 satyr                                installer
 1 sed                                  platform
 1 selinux-policy-minimum               storage-devices
-1 selinux-policy-targeted              freeipa
+1 selinux-policy-targeted              pki
 1 sendmail                             storage-devices
-1 setools-python                       freeipa
+1 setools-python                       pki
 1 setup                                platform
 1 sg3_utils                            platform
 1 sg3_utils-libs                       platform
 1 sgml-common                          platform
-1 sgpio                                platform-placeholder
 1 shadow-utils                         platform
 1 shim                                 platform
 1 shim-unsigned                        platform
 1 slang                                networking-base
 1 slapi-nis                            freeipa
-1 slf4j                                freeipa
-1 slf4j-jdk14                          freeipa
-1 snappy                               platform-placeholder
+1 slf4j                                pki
+1 slf4j-jdk14                          pki
 1 snappy-devel                         platform-placeholder
 1 softhsm                              freeipa
 1 spax                                 storage-devices
 1 sqlite                               freeipa
 1 sqlite-libs                          platform
-1 sssd                                 freeipa
-1 sssd-ad                              freeipa
-1 sssd-client                          freeipa
-1 sssd-common                          freeipa
-1 sssd-common-pac                      freeipa
-1 sssd-dbus                            freeipa
-1 sssd-ipa                             freeipa
-1 sssd-krb5                            freeipa
-1 sssd-krb5-common                     freeipa
-1 sssd-ldap                            freeipa
-1 stax2-api                            freeipa
-1 stax-ex                              freeipa
+1 sssd                                 sssd
+1 sssd-ad                              sssd
+1 sssd-client                          sssd
+1 sssd-common                          sssd
+1 sssd-common-pac                      sssd
+1 sssd-dbus                            sssd
+1 sssd-ipa                             sssd
+1 sssd-krb5                            sssd
+1 sssd-krb5-common                     sssd
+1 sssd-ldap                            sssd
 1 sudo                                 platform
-1 svrcore                              freeipa
+1 svrcore                              389-ds
 1 sysfsutils                           platform
 1 syslinux                             platform
 1 syslinux-extlinux                    platform
@@ -766,87 +604,162 @@
 1 tar                                  platform
 1 tcp_wrappers                         freeipa
 1 tcp_wrappers-libs                    platform
-1 teamd                                networking-base
 1 time                                 storage-devices
 1 tmux                                 platform
-1 tomcat                               freeipa
-1 tomcat-el-3.0-api                    freeipa
-1 tomcat-jsp-2.3-api                   freeipa
-1 tomcatjss                            freeipa
-1 tomcat-lib                           freeipa
-1 tomcat-servlet-3.1-api               freeipa
 1 tzdata                               platform
-1 tzdata-java                          java
 1 uboot-tools                          platform
 1 unzip                                platform
-1 usermode                             platform-placeholder
-1 userspace-rcu                        platform-placeholder
 1 util-linux                           platform
 1 util-linux-user                      storage-devices
-1 velocity                             freeipa
+1 velocity                             pki
 1 vim-minimal                          platform
-1 volume_key-libs                      platform-placeholder
-1 words                                freeipa
+1 words                                krb5
 1 wpa_supplicant                       networking-base
-1 xalan-j2                             freeipa
-1 xerces-j2                            freeipa
+1 xalan-j2                             pki
+1 xerces-j2                            pki
 1 xfsprogs                             platform
 1 xml-common                           platform
-1 xml-commons-apis                     freeipa
-1 xml-commons-resolver                 freeipa
-1 xmlstreambuffer                      freeipa
-1 xsom                                 freeipa
+1 xml-commons-apis                     pki
+1 xml-commons-resolver                 pki
 1 xz                                   platform
 1 xz-libs                              platform
 1 zip                                  platform
 1 zlib                                 platform
 1 zstd                                 platform
-2 audit                                freeipa, storage-devices
-2 audit-libs-python3                   freeipa, storage-devices
+2 apache-commons-codec                 pki, resteasy
+2 apache-commons-collections           pki, tomcat
+2 apache-commons-daemon                pki, tomcat
+2 apache-commons-dbcp                  pki, tomcat
+2 apache-commons-io                    pki, resteasy
+2 apache-commons-lang                  pki, tomcat
+2 apache-commons-pool                  pki, tomcat
 2 augeas-libs                          freeipa, installer
-2 authconfig                           freeipa, networking-base
 2 bc                                   platform, storage-devices
-2 boost-iostreams                      platform-placeholder, storage-devices
-2 boost-random                         platform-placeholder, storage-devices
-2 checkpolicy                          freeipa, storage-devices
-2 cups-libs                            freeipa, storage-devices
-2 ethtool                              platform, platform-placeholder
-2 freetype                             java, platform
+2 bcache-tools                         installer, platform-placeholder
+2 bea-stax-api                         pki, resteasy
+2 bind-libs                            389-ds, bind
+2 bind-libs-lite                       389-ds, bind
+2 bind-license                         389-ds, bind
+2 bind-utils                           389-ds, bind
+2 blktrace                             installer, platform-placeholder
+2 cyrus-sasl-gssapi                    389-ds, sssd
+2 dbus-glib                            installer, platform-placeholder
+2 device-mapper-event                  installer, platform-placeholder
+2 device-mapper-event-libs             installer, platform-placeholder
+2 device-mapper-multipath              installer, platform-placeholder
+2 device-mapper-multipath-libs         installer, platform-placeholder
+2 device-mapper-persistent-data        installer, platform-placeholder
+2 dmraid                               installer, platform-placeholder
+2 dmraid-events                        installer, platform-placeholder
+2 dosfstools                           installer, platform-placeholder
+2 dracut-network                       installer, platform-placeholder
+2 ebtables                             installer, platform-placeholder
+2 ecj                                  pki, tomcat
+2 fcoe-utils                           installer, platform-placeholder
+2 firewalld                            installer, networking-base
+2 firewalld-filesystem                 installer, networking-base
 2 gdbm-devel                           perl, platform
+2 gdisk                                installer, platform-placeholder
+2 GeoIP                                389-ds, bind
+2 GeoIP-GeoLite-data                   389-ds, bind
 2 gettext                              platform, storage-devices
 2 gettext-libs                         platform, storage-devices
-2 gperftools-libs                      freeipa, storage-devices
+2 glassfish-fastinfoset                pki, resteasy
+2 glassfish-jaxb-api                   pki, resteasy
+2 glassfish-jaxb-core                  pki, resteasy
+2 glassfish-jaxb-runtime               pki, resteasy
+2 glassfish-jaxb-txw2                  pki, resteasy
+2 gnupg                                installer, platform-placeholder
+2 gperftools-libs                      389-ds, storage-devices
 2 hesiod                               freeipa, storage-devices
-2 hostname                             platform, platform-placeholder
-2 initscripts                          platform, platform-placeholder
-2 jansson                              freeipa, networking-base
+2 hfsplus-tools                        installer, platform-placeholder
+2 httpcomponents-client                pki, resteasy
+2 httpcomponents-core                  pki, resteasy
+2 hwdata                               installer, platform-placeholder
+2 ipset                                installer, platform-placeholder
+2 ipset-libs                           installer, platform-placeholder
+2 iscsi-initiator-utils                installer, platform-placeholder
+2 iscsi-initiator-utils-iscsiuio       installer, platform-placeholder
+2 isns-utils-libs                      installer, platform-placeholder
+2 istack-commons-runtime               pki, resteasy
+2 jackson                              pki, resteasy
+2 jboss-annotations-1.2-api            pki, resteasy
+2 jboss-jaxrs-2.0-api                  pki, resteasy
+2 jboss-logging                        pki, resteasy
+2 jcip-annotations                     pki, resteasy
+2 joda-time                            pki, resteasy
 2 json-c                               installer, systemtap
-2 libcgroup                            freeipa, storage-devices
+2 jsr-311                              pki, resteasy
+2 jss                                  pki, tomcat
+2 kbd                                  installer, platform-placeholder
+2 kbd-legacy                           installer, platform-placeholder
+2 kbd-misc                             installer, platform-placeholder
+2 kexec-tools                          installer, platform-placeholder
+2 kpartx                               installer, platform-placeholder
+2 libaio                               installer, platform-placeholder
+2 libbasicobjects                      krb5, sssd
+2 libblockdev                          installer, platform-placeholder
+2 libblockdev-btrfs                    installer, platform-placeholder
+2 libblockdev-crypto                   installer, platform-placeholder
+2 libblockdev-dm                       installer, platform-placeholder
+2 libblockdev-fs                       installer, platform-placeholder
+2 libblockdev-kbd                      installer, platform-placeholder
+2 libblockdev-loop                     installer, platform-placeholder
+2 libblockdev-lvm                      installer, platform-placeholder
+2 libblockdev-mdraid                   installer, platform-placeholder
+2 libblockdev-mpath                    installer, platform-placeholder
+2 libblockdev-part                     installer, platform-placeholder
+2 libblockdev-plugins-all              installer, platform-placeholder
+2 libblockdev-s390                     installer, platform-placeholder
+2 libblockdev-swap                     installer, platform-placeholder
+2 libblockdev-utils                    installer, platform-placeholder
+2 libbytesize                          installer, platform-placeholder
+2 libcollection                        krb5, sssd
+2 libconfig                            installer, platform-placeholder
 2 libcroco                             platform, storage-devices
+2 libdaemon                            installer, networking-base
 2 libdb-devel                          perl, platform
-2 libicu                               freeipa, storage-devices
-2 libpng                               java, platform
-2 librados2                            platform-placeholder, storage-devices
-2 libsemanage-python3                  freeipa, storage-devices
-2 libunwind                            freeipa, storage-devices
-2 lttng-ust                            platform-placeholder, storage-devices
-2 mariadb-common                       networking-base, platform-placeholder
-2 mariadb-config                       networking-base, platform-placeholder
-2 mariadb-libs                         networking-base, platform-placeholder
-2 net-snmp                             networking-base, platform-placeholder
-2 net-snmp-agent-libs                  networking-base, platform-placeholder
-2 net-snmp-libs                        networking-base, platform-placeholder
+2 libicu                               389-ds, storage-devices
+2 libini_config                        krb5, sssd
+2 libldb                               samba, sssd
+2 libmodman                            installer, networking-base
+2 libndp                               installer, networking-base
+2 libnl3                               installer, platform-placeholder
+2 libnl3-cli                           installer, platform-placeholder
+2 libpath_utils                        krb5, sssd
+2 libpciaccess                         installer, platform-placeholder
+2 libproxy                             installer, networking-base
+2 libpsl                               installer, networking-base
+2 libref_array                         krb5, sssd
+2 libsemanage-python                   389-ds, pki
+2 libsmbclient                         samba, sssd
+2 libtalloc                            samba, sssd
+2 libtdb                               samba, sssd
+2 libteam                              installer, networking-base
+2 libtevent                            samba, sssd
+2 libunwind                            389-ds, storage-devices
+2 libusb                               installer, platform-placeholder
+2 libuser                              installer, platform-placeholder
+2 libwbclient                          samba, sssd
+2 lldpad                               installer, platform-placeholder
+2 lsof                                 installer, platform-placeholder
+2 lvm2                                 installer, platform-placeholder
+2 lvm2-libs                            installer, platform-placeholder
+2 mdadm                                installer, platform-placeholder
+2 NetworkManager                       installer, networking-base
+2 NetworkManager-libnm                 installer, networking-base
+2 NetworkManager-team                  installer, networking-base
+2 objectweb-asm3                       pki, resteasy
+2 openldap-clients                     389-ds, pki
+2 parted                               installer, platform-placeholder
+2 passwd                               installer, platform-placeholder
 2 perl                                 perl, platform
-2 perl-Algorithm-Diff                  perl, platform
-2 perl-Archive-Tar                     perl, platform
 2 perl-Archive-Zip                     perl, platform
 2 perl-Attribute-Handlers              perl, platform
 2 perl-autodie                         perl, platform
 2 perl-B-Debug                         perl, platform
 2 perl-bignum                          perl, platform
 2 perl-Compress-Bzip2                  perl, platform
-2 perl-Compress-Raw-Bzip2              perl, platform
-2 perl-Compress-Raw-Zlib               perl, platform
 2 perl-Config-Perl-V                   perl, platform
 2 perl-CPAN                            perl, platform
 2 perl-CPAN-Meta                       perl, platform
@@ -854,7 +767,6 @@
 2 perl-CPAN-Meta-YAML                  perl, platform
 2 perl-Data-OptList                    perl, platform
 2 perl-Data-Section                    perl, platform
-2 perl-DB_File                         perl, platform
 2 perl-devel                           perl, platform
 2 perl-Devel-Peek                      perl, platform
 2 perl-Devel-PPPort                    perl, platform
@@ -863,7 +775,6 @@
 2 perl-Digest                          perl, platform
 2 perl-Digest-MD5                      perl, platform
 2 perl-Digest-SHA                      perl, platform
-2 perl-Encode                          perl, platform
 2 perl-encoding                        perl, platform
 2 perl-Env                             perl, platform
 2 perl-experimental                    perl, platform
@@ -878,16 +789,11 @@
 2 perl-ExtUtils-ParseXS                perl, platform
 2 perl-File-Fetch                      perl, platform
 2 perl-File-HomeDir                    perl, platform
-2 perl-File-Temp                       perl, platform
 2 perl-File-Which                      perl, platform
 2 perl-Filter                          perl, platform
 2 perl-Filter-Simple                   perl, platform
-2 perl-Getopt-Long                     perl, platform
-2 perl-HTTP-Tiny                       perl, platform
 2 perl-inc-latest                      perl, platform
-2 perl-IO-Compress                     perl, platform
 2 perl-IO-Socket-IP                    perl, platform
-2 perl-IO-Zlib                         perl, platform
 2 perl-IPC-Cmd                         perl, platform
 2 perl-IPC-System-Simple               perl, platform
 2 perl-IPC-SysV                        perl, platform
@@ -898,12 +804,9 @@
 2 perl-Locale-Maketext                 perl, platform
 2 perl-Locale-Maketext-Simple          perl, platform
 2 perl-local-lib                       perl, platform
-2 perl-Math-BigInt                     perl, platform
 2 perl-Math-BigInt-FastCalc            perl, platform
 2 perl-Math-BigRat                     perl, platform
-2 perl-Math-Complex                    perl, platform
 2 perl-Memoize                         perl, platform
-2 perl-MIME-Base64                     perl, platform
 2 perl-Module-Build                    perl, platform
 2 perl-Module-CoreList                 perl, platform
 2 perl-Module-CoreList-tools           perl, platform
@@ -921,106 +824,203 @@
 2 perl-PerlIO-via-QuotedPrint          perl, platform
 2 perl-Perl-OSType                     perl, platform
 2 perl-Pod-Checker                     perl, platform
-2 perl-Pod-Escapes                     perl, platform
 2 perl-Pod-Html                        perl, platform
-2 perl-podlators                       perl, platform
 2 perl-Pod-Parser                      perl, platform
-2 perl-Pod-Perldoc                     perl, platform
-2 perl-Pod-Simple                      perl, platform
-2 perl-Pod-Usage                       perl, platform
 2 perl-SelfLoader                      perl, platform
 2 perl-Software-License                perl, platform
-2 perl-Storable                        perl, platform
 2 perl-Sub-Exporter                    perl, platform
 2 perl-Sub-Install                     perl, platform
 2 perl-Sys-Syslog                      perl, platform
-2 perl-Term-ANSIColor                  perl, platform
-2 perl-Term-Cap                        perl, platform
 2 perl-Test                            perl, platform
 2 perl-Test-Harness                    perl, platform
 2 perl-Test-Simple                     perl, platform
 2 perl-Text-Balanced                   perl, platform
-2 perl-Text-Diff                       perl, platform
 2 perl-Text-Glob                       perl, platform
-2 perl-Text-ParseWords                 perl, platform
 2 perl-Text-Template                   perl, platform
 2 perl-Thread-Queue                    perl, platform
 2 perl-Time-HiRes                      perl, platform
-2 perl-Time-Local                      perl, platform
 2 perl-Time-Piece                      perl, platform
 2 perl-Unicode-Collate                 perl, platform
 2 perl-URI                             perl, platform
 2 perl-utils                           perl, platform
 2 perl-version                         perl, platform
-2 policycoreutils-python3              freeipa, storage-devices
-2 policycoreutils-python-utils         freeipa, storage-devices
-2 python2                              platform, platform-placeholder
-2 python2-asn1crypto                   freeipa, storage-devices
+2 polkit-libs                          installer, networking-base
+2 publicsuffix-list-dafsa              installer, platform-placeholder
+2 python2-asn1crypto                   pki, storage-devices
 2 python2-babel                        freeipa, storage-devices
-2 python2-cffi                         freeipa, storage-devices
-2 python2-cryptography                 freeipa, storage-devices
-2 python2-idna                         freeipa, storage-devices
+2 python2-cffi                         pki, storage-devices
+2 python2-cryptography                 pki, storage-devices
+2 python2-idna                         pki, storage-devices
 2 python2-jinja2                       freeipa, storage-devices
-2 python2-libs                         platform, platform-placeholder
 2 python2-markupsafe                   freeipa, storage-devices
-2 python2-pip                          platform, platform-placeholder
-2 python2-ply                          freeipa, storage-devices
-2 python2-pycparser                    freeipa, storage-devices
-2 python2-pyOpenSSL                    freeipa, storage-devices
-2 python2-pysocks                      freeipa, storage-devices
-2 python2-requests                     freeipa, storage-devices
-2 python2-setuptools                   platform, platform-placeholder
-2 python2-six                          freeipa, storage-devices
-2 python2-urllib3                      freeipa, storage-devices
+2 python2-ply                          pki, storage-devices
+2 python2-pycparser                    pki, storage-devices
+2 python2-pyOpenSSL                    pki, storage-devices
+2 python2-pysocks                      pki, storage-devices
+2 python2-requests                     pki, storage-devices
+2 python2-six                          pki, storage-devices
+2 python2-talloc                       samba, sssd
+2 python2-urllib3                      pki, storage-devices
 2 python3-asn1crypto                   freeipa, installer
+2 python3-bind                         389-ds, bind
+2 python3-blockdev                     installer, platform-placeholder
 2 python3-cffi                         freeipa, installer
 2 python3-chardet                      freeipa, installer
 2 python3-cryptography                 freeipa, installer
+2 python3-dbus                         installer, platform-placeholder
+2 python3-decorator                    installer, networking-base
+2 python3-firewall                     installer, networking-base
+2 python3-gobject-base                 installer, platform-placeholder
 2 python3-idna                         freeipa, installer
-2 python3-IPy                          freeipa, storage-devices
-2 python3-ply                          freeipa, installer
+2 python3-iscsi-initiator-utils        installer, platform-placeholder
 2 python3-pycparser                    freeipa, installer
 2 python3-pyOpenSSL                    freeipa, installer
 2 python3-pyparsing                    perl, platform
 2 python3-pysocks                      freeipa, installer
+2 python3-pyudev                       installer, platform-placeholder
 2 python3-requests                     freeipa, installer
-2 python3-sssdconfig                   freeipa, networking-base
+2 python3-slip                         installer, networking-base
+2 python3-slip-dbus                    installer, networking-base
 2 python3-urllib3                      freeipa, installer
-2 python-backports                     freeipa, storage-devices
-2 python-backports-ssl_match_hostname  freeipa, storage-devices
-2 python-chardet                       freeipa, storage-devices
-2 python-enum34                        freeipa, storage-devices
-2 python-ipaddress                     freeipa, storage-devices
+2 python-backports                     pki, storage-devices
+2 python-backports-ssl_match_hostname  pki, storage-devices
+2 python-chardet                       pki, storage-devices
+2 python-enum34                        pki, storage-devices
+2 python-ipaddress                     pki, storage-devices
 2 pytz                                 freeipa, storage-devices
-2 selinux-policy                       freeipa, storage-devices
-2 setools-python3                      freeipa, storage-devices
+2 realmd                               installer, networking-base
+2 relaxngDatatype                      pki, resteasy
+2 resteasy-atom-provider               pki, resteasy
+2 resteasy-client                      pki, resteasy
+2 resteasy-core                        pki, resteasy
+2 resteasy-jackson-provider            pki, resteasy
+2 resteasy-jaxb-provider               pki, resteasy
+2 rsync                                installer, platform-placeholder
+2 s390utils                            installer, platform-placeholder
+2 s390utils-cmsfs                      installer, platform-placeholder
+2 s390utils-cpuplugd                   installer, platform-placeholder
+2 s390utils-iucvterm                   installer, platform-placeholder
+2 s390utils-mon_statd                  installer, platform-placeholder
+2 s390utils-osasnmpd                   installer, platform-placeholder
+2 s390utils-ziomon                     installer, platform-placeholder
+2 samba-client-libs                    samba, sssd
+2 samba-common                         samba, sssd
+2 samba-common-libs                    samba, sssd
+2 samba-dc-libs                        samba, sssd
+2 samba-libs                           samba, sssd
+2 selinux-policy                       pki, storage-devices
+2 sgpio                                installer, platform-placeholder
+2 snappy                               installer, platform-placeholder
+2 stax2-api                            pki, resteasy
+2 stax-ex                              pki, resteasy
 2 systemtap-sdt-devel                  perl, platform
-2 xmlrpc-c                             freeipa, networking-base
-2 xmlrpc-c-client                      freeipa, networking-base
-3 avahi-libs                           freeipa, storage-devices, systemtap
-3 boost-system                         platform-placeholder, storage-devices, systemtap
-3 boost-thread                         platform-placeholder, storage-devices, systemtap
-3 groff-base                           perl, platform, storage-devices
-3 libselinux-python3                   freeipa, networking-base, storage-devices
-3 libselinux-utils                     freeipa, networking-base, storage-devices
-3 perl-Carp                            networking-base, perl, platform
-3 perl-constant                        networking-base, perl, platform
-3 perl-Data-Dumper                     networking-base, perl, platform
-3 perl-Errno                           networking-base, perl, platform
-3 perl-Exporter                        networking-base, perl, platform
-3 perl-File-Path                       networking-base, perl, platform
-3 perl-interpreter                     networking-base, perl, platform
-3 perl-IO                              networking-base, perl, platform
-3 perl-libs                            networking-base, perl, platform
-3 perl-macros                          networking-base, perl, platform
-3 perl-parent                          networking-base, perl, platform
-3 perl-PathTools                       networking-base, perl, platform
-3 perl-Scalar-List-Utils               networking-base, perl, platform
-3 perl-Socket                          networking-base, perl, platform
-3 perl-Text-Tabs+Wrap                  networking-base, perl, platform
-3 perl-threads                         networking-base, perl, platform
-3 perl-threads-shared                  networking-base, perl, platform
-3 perl-Unicode-Normalize               networking-base, perl, platform
-3 policycoreutils                      freeipa, networking-base, storage-devices
-3 which                                java, platform, storage-devices
-5 curl-minimal                         freeipa, networking-base, platform-placeholder, storage-devices, systemtap
+2 teamd                                installer, networking-base
+2 tomcat                               pki, tomcat
+2 tomcat-el-3.0-api                    pki, tomcat
+2 tomcat-jsp-2.3-api                   pki, tomcat
+2 tomcatjss                            pki, tomcat
+2 tomcat-lib                           pki, tomcat
+2 tomcat-servlet-3.1-api               pki, tomcat
+2 usermode                             installer, platform-placeholder
+2 userspace-rcu                        installer, platform-placeholder
+2 volume_key-libs                      installer, platform-placeholder
+2 xmlstreambuffer                      pki, resteasy
+2 xsom                                 pki, resteasy
+3 apache-commons-logging               pki, resteasy, tomcat
+3 audit                                389-ds, pki, storage-devices
+3 audit-libs-python3                   389-ds, pki, storage-devices
+3 authconfig                           freeipa, installer, networking-base
+3 boost-iostreams                      installer, platform-placeholder, storage-devices
+3 boost-random                         installer, platform-placeholder, storage-devices
+3 checkpolicy                          389-ds, pki, storage-devices
+3 cups-libs                            samba, sssd, storage-devices
+3 ethtool                              installer, platform, platform-placeholder
+3 hostname                             installer, platform, platform-placeholder
+3 initscripts                          installer, platform, platform-placeholder
+3 jansson                              installer, networking-base, sssd
+3 libcgroup                            389-ds, pki, storage-devices
+3 libkadm5                             krb5, samba, sssd
+3 librados2                            installer, platform-placeholder, storage-devices
+3 libsemanage-python3                  389-ds, pki, storage-devices
+3 lttng-ust                            installer, platform-placeholder, storage-devices
+3 mariadb-common                       installer, networking-base, platform-placeholder
+3 mariadb-config                       installer, networking-base, platform-placeholder
+3 mariadb-libs                         installer, networking-base, platform-placeholder
+3 net-snmp                             installer, networking-base, platform-placeholder
+3 net-snmp-agent-libs                  installer, networking-base, platform-placeholder
+3 net-snmp-libs                        installer, networking-base, platform-placeholder
+3 nss-tools                            389-ds, httpd, pki
+3 perl-Algorithm-Diff                  389-ds, perl, platform
+3 perl-Archive-Tar                     389-ds, perl, platform
+3 perl-Compress-Raw-Bzip2              389-ds, perl, platform
+3 perl-Compress-Raw-Zlib               389-ds, perl, platform
+3 perl-DB_File                         389-ds, perl, platform
+3 perl-Encode                          389-ds, perl, platform
+3 perl-File-Temp                       389-ds, perl, platform
+3 perl-Getopt-Long                     389-ds, perl, platform
+3 perl-HTTP-Tiny                       389-ds, perl, platform
+3 perl-IO-Compress                     389-ds, perl, platform
+3 perl-IO-Zlib                         389-ds, perl, platform
+3 perl-Math-BigInt                     389-ds, perl, platform
+3 perl-Math-Complex                    389-ds, perl, platform
+3 perl-MIME-Base64                     389-ds, perl, platform
+3 perl-Pod-Escapes                     389-ds, perl, platform
+3 perl-podlators                       389-ds, perl, platform
+3 perl-Pod-Perldoc                     389-ds, perl, platform
+3 perl-Pod-Simple                      389-ds, perl, platform
+3 perl-Pod-Usage                       389-ds, perl, platform
+3 perl-Storable                        389-ds, perl, platform
+3 perl-Term-ANSIColor                  389-ds, perl, platform
+3 perl-Term-Cap                        389-ds, perl, platform
+3 perl-Text-Diff                       389-ds, perl, platform
+3 perl-Text-ParseWords                 389-ds, perl, platform
+3 perl-Time-Local                      389-ds, perl, platform
+3 policycoreutils-python3              389-ds, pki, storage-devices
+3 policycoreutils-python-utils         389-ds, pki, storage-devices
+3 python2                              installer, platform, platform-placeholder
+3 python2-libs                         installer, platform, platform-placeholder
+3 python2-pip                          installer, platform, platform-placeholder
+3 python2-setuptools                   installer, platform, platform-placeholder
+3 python3-IPy                          389-ds, pki, storage-devices
+3 python3-ply                          389-ds, bind, installer
+3 python3-sssdconfig                   installer, networking-base, sssd
+3 setools-python3                      389-ds, pki, storage-devices
+3 xmlrpc-c                             freeipa, installer, networking-base
+3 xmlrpc-c-client                      freeipa, installer, networking-base
+4 avahi-libs                           samba, sssd, storage-devices, systemtap
+4 boost-system                         installer, platform-placeholder, storage-devices, systemtap
+4 boost-thread                         installer, platform-placeholder, storage-devices, systemtap
+4 copy-jdk-configs                     java, pki, resteasy, tomcat
+4 groff-base                           389-ds, perl, platform, storage-devices
+4 java-1.8.0-openjdk-headless          java, pki, resteasy, tomcat
+4 javapackages-tools                   java, pki, resteasy, tomcat
+4 libjpeg-turbo                        java, pki, resteasy, tomcat
+4 lksctp-tools                         java, pki, resteasy, tomcat
+4 lua                                  java, pki, resteasy, tomcat
+4 lua-posix                            java, pki, resteasy, tomcat
+4 perl-Carp                            389-ds, networking-base, perl, platform
+4 perl-constant                        389-ds, networking-base, perl, platform
+4 perl-Data-Dumper                     389-ds, networking-base, perl, platform
+4 perl-Errno                           389-ds, networking-base, perl, platform
+4 perl-Exporter                        389-ds, networking-base, perl, platform
+4 perl-File-Path                       389-ds, networking-base, perl, platform
+4 perl-interpreter                     389-ds, networking-base, perl, platform
+4 perl-IO                              389-ds, networking-base, perl, platform
+4 perl-libs                            389-ds, networking-base, perl, platform
+4 perl-macros                          389-ds, networking-base, perl, platform
+4 perl-parent                          389-ds, networking-base, perl, platform
+4 perl-PathTools                       389-ds, networking-base, perl, platform
+4 perl-Scalar-List-Utils               389-ds, networking-base, perl, platform
+4 perl-Socket                          389-ds, networking-base, perl, platform
+4 perl-Text-Tabs+Wrap                  389-ds, networking-base, perl, platform
+4 perl-threads                         389-ds, networking-base, perl, platform
+4 perl-threads-shared                  389-ds, networking-base, perl, platform
+4 perl-Unicode-Normalize               389-ds, networking-base, perl, platform
+4 tzdata-java                          java, pki, resteasy, tomcat
+5 freetype                             java, pki, platform, resteasy, tomcat
+5 libpng                               java, pki, platform, resteasy, tomcat
+5 libselinux-python3                   389-ds, installer, networking-base, pki, storage-devices
+5 libselinux-utils                     389-ds, installer, networking-base, pki, storage-devices
+5 policycoreutils                      389-ds, installer, networking-base, pki, storage-devices
+6 which                                java, pki, platform, resteasy, storage-devices, tomcat
+7 curl-minimal                         389-ds, installer, networking-base, pki, platform-placeholder, storage-devices, systemtap

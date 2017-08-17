@@ -1,0 +1,147 @@
+resteasy-atom-provider-3.0.19-5.fc26.noarch                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─mvn(com.sun.xml.bind:jaxb-impl)                                     glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
+├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+├─mvn(org.jboss.resteasy:resteasy-jaxrs) = 3.0.19.Final               resteasy-core-3.0.19-5.fc26.noarch
+└─mvn(org.jboss.resteasy:resteasy-jaxb-provider) = 3.0.19.Final       resteasy-jaxb-provider-3.0.19-5.fc26.noarch
+resteasy-client-3.0.19-5.fc26.noarch                                  
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─java-headless >= 1:1.7                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+└─mvn(org.jboss.resteasy:resteasy-jaxrs) = 3.0.19.Final               resteasy-core-3.0.19-5.fc26.noarch
+resteasy-core-3.0.19-5.fc26.noarch                                    
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─mvn(commons-io:commons-io)                                          apache-commons-io-1:2.5-2.fc26.noarch
+├─mvn(org.apache.httpcomponents:httpclient)                           httpcomponents-client-4.5.3-3.fc26.noarch
+├─mvn(net.jcip:jcip-annotations)                                      jcip-annotations-1-19.20060626.fc26.noarch
+├─mvn(org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec) jboss-annotations-1.2-api-1.0.0-2.fc26.noarch
+├─mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec)            jboss-jaxrs-2.0-api-1.0.0-4.fc26.noarch
+└─java-headless >= 1:1.7                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+resteasy-jackson-provider-3.0.19-5.fc26.noarch                        
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-mapper-asl)                        jackson-1.9.11-11.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-core-asl)                          jackson-1.9.11-11.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-jaxrs)                             jackson-1.9.11-11.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-xc)                                jackson-1.9.11-11.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+resteasy-jaxb-provider-3.0.19-5.fc26.noarch                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─mvn(com.sun.xml.bind:jaxb-impl)                                     glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+glassfish-jaxb-runtime-2.2.11-5.fc26.noarch                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(com.sun.xml.fastinfoset:FastInfoset)                            glassfish-fastinfoset-1.2.13-6.fc26.noarch
+├─mvn(org.jvnet.staxex:stax-ex)                                       stax-ex-1.7.7-6.fc26.noarch
+├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+└─mvn(org.glassfish.jaxb:jaxb-core) = 2.2.11                          glassfish-jaxb-core-2.2.11-5.fc26.noarch
+java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64            
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─libjpeg.so.62()(64bit)                                              libjpeg-turbo-1.5.1-4.fc27.aarch64
+├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                                   libjpeg-turbo-1.5.1-4.fc27.aarch64
+├─lksctp-tools(aarch-64)                                              lksctp-tools-1.0.16-6.fc26.aarch64
+├─copy-jdk-configs >= 2.2                                             copy-jdk-configs-2.3-1.fc27.noarch
+└─tzdata-java >= 2015d                                                tzdata-java-2017b-2.fc27.noarch
+javapackages-tools-5.0.0-4.fc27.noarch                                
+└─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+jboss-logging-3.3.0-2.fc26.noarch                                     
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+apache-commons-io-1:2.5-2.fc26.noarch                                 
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+httpcomponents-client-4.5.3-3.fc26.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(commons-logging:commons-logging)                                apache-commons-logging-1.2-10.fc27.noarch
+├─mvn(commons-codec:commons-codec)                                    apache-commons-codec-1.10-4.fc26.noarch
+├─mvn(org.apache.httpcomponents:httpcore)                             httpcomponents-core-4.4.6-3.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+jboss-annotations-1.2-api-1.0.0-2.fc26.noarch                         
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.8                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+jboss-jaxrs-2.0-api-1.0.0-4.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.8                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+jcip-annotations-1-19.20060626.fc26.noarch                            
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+├─jpackage-utils                                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1.5.0                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+jackson-1.9.11-11.fc27.noarch                                         
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+├─joda-time >= 1.6.2                                                  joda-time-2.9.3-3.tzdata2016c.fc26.noarch
+├─jsr-311 >= 1.1.1                                                    jsr-311-1.1.1-13.fc26.noarch
+├─objectweb-asm3 >= 3.3                                               objectweb-asm3-3.3.1-14.fc26.noarch
+└─stax2-api >= 3.1.1                                                  stax2-api-4.0.0-2.fc26.noarch
+glassfish-fastinfoset-1.2.13-6.fc26.noarch                            
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(com.sun.xsom:xsom)                                              xsom-0-16.20110809svn.fc26.noarch
+├─mvn(com.sun.xml.stream.buffer:streambuffer)                         xmlstreambuffer-1.5.4-5.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+glassfish-jaxb-core-2.2.11-5.fc26.noarch                              
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(javax.xml.bind:jaxb-api)                                        glassfish-jaxb-api-2.2.12-6.fc26.noarch
+├─mvn(com.sun.istack:istack-commons-runtime)                          istack-commons-runtime-2.21-5.fc26.noarch
+├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+└─mvn(org.glassfish.jaxb:txw2) = 2.2.11                               glassfish-jaxb-txw2-2.2.11-5.fc26.noarch
+stax-ex-1.7.7-6.fc26.noarch                                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(javax.xml.stream:stax-api)                                      bea-stax-api-1.2.0-14.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+copy-jdk-configs-2.3-1.fc27.noarch                                    
+├─lua                                                                 lua-5.3.4-5.fc27.aarch64
+├─/usr/bin/lua                                                        lua-5.3.4-5.fc27.aarch64
+└─lua-posix                                                           lua-posix-33.3.1-4.fc26.aarch64
+lksctp-tools-1.0.16-6.fc26.aarch64                                    
+apache-commons-codec-1.10-4.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+apache-commons-logging-1.2-10.fc27.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+httpcomponents-core-4.4.6-3.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+joda-time-2.9.3-3.tzdata2016c.fc26.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.5                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+jsr-311-1.1.1-13.fc26.noarch                                          
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+objectweb-asm3-3.3.1-14.fc26.noarch                                   
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+stax2-api-4.0.0-2.fc26.noarch                                         
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+xmlstreambuffer-1.5.4-5.fc26.noarch                                   
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jvnet.staxex:stax-ex)                                       stax-ex-1.7.7-6.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+xsom-0-16.20110809svn.fc26.noarch                                     
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(relaxngDatatype:relaxngDatatype)                                relaxngDatatype-2011.1-5.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+glassfish-jaxb-api-2.2.12-6.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+glassfish-jaxb-txw2-2.2.11-5.fc26.noarch                              
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+istack-commons-runtime-2.21-5.fc26.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+bea-stax-api-1.2.0-14.fc27.noarch                                     
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+lua-posix-33.3.1-4.fc26.aarch64                                       
+└─lua(abi) = 5.3                                                      lua-5.3.4-5.fc27.aarch64
+relaxngDatatype-2011.1-5.fc26.noarch                                  
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.aarch64
+lua-5.3.4-5.fc27.aarch64                                              
+libjpeg-turbo-1.5.1-4.fc27.aarch64                                    
+tzdata-java-2017b-2.fc27.noarch                                       

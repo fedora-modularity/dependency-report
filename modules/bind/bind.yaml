@@ -1,0 +1,32 @@
+document: modulemd
+version: 1
+data:
+    summary: bind module
+    description: This bind has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/bind
+        tracker: https://github.com/modularity-modules/bind
+    components:
+        rpms:
+            bind:
+                rationale: Generated.
+                ref: master.
+            GeoIP:
+                rationale: Generated.
+                ref: master.
+            GeoIP-GeoLite-data:
+                rationale: Generated.
+                ref: master.
+            python-ply:
+                rationale: Generated.
+                ref: master.

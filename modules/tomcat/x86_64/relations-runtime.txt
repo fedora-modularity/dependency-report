@@ -1,0 +1,79 @@
+tomcat-1:8.0.44-1.fc27.noarch                             
+├─jpackage-utils                                          javapackages-tools-5.0.0-4.fc27.noarch
+├─apache-commons-logging                                  apache-commons-logging-1.2-10.fc27.noarch
+├─apache-commons-collections                              apache-commons-collections-3.2.2-4.fc26.noarch
+├─apache-commons-dbcp                                     apache-commons-dbcp-1.4-21.fc26.noarch
+├─apache-commons-pool                                     apache-commons-pool-1.6-14.fc26.noarch
+├─apache-commons-daemon                                   apache-commons-daemon-1.0.15-13.fc26.x86_64
+├─java-headless >= 1:1.6.0                                java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+└─tomcat-lib = 1:8.0.44-1.fc27                            tomcat-lib-1:8.0.44-1.fc27.noarch
+tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch                  
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+tomcat-jsp-2.3-api-1:8.0.44-1.fc27.noarch                 
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+├─tomcat-el-3.0-api = 1:8.0.44-1.fc27                     tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch
+└─tomcat-servlet-3.1-api = 1:8.0.44-1.fc27                tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch
+tomcatjss-7.2.4-1.fc27.noarch                             
+├─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+├─apache-commons-lang                                     apache-commons-lang-2.6-19.fc26.noarch
+├─jss >= 4.4.2-2                                          jss-4.4.2-2.fc27.x86_64
+├─jpackage-utils >= 1.7.5-15                              javapackages-tools-5.0.0-4.fc27.noarch
+└─tomcat >= 8.0.18                                        tomcat-1:8.0.44-1.fc27.noarch
+tomcat-lib-1:8.0.44-1.fc27.noarch                         
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+├─apache-commons-collections                              apache-commons-collections-3.2.2-4.fc26.noarch
+├─apache-commons-dbcp                                     apache-commons-dbcp-1.4-21.fc26.noarch
+├─apache-commons-pool                                     apache-commons-pool-1.6-14.fc26.noarch
+├─tomcat-el-3.0-api = 1:8.0.44-1.fc27                     tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch
+├─tomcat-servlet-3.1-api = 1:8.0.44-1.fc27                tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch
+├─tomcat-jsp-2.3-api = 1:8.0.44-1.fc27                    tomcat-jsp-2.3-api-1:8.0.44-1.fc27.noarch
+└─ecj >= 1:4.2.1                                          ecj-1:4.6.3-2.fc27.noarch
+tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch             
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+apache-commons-collections-3.2.2-4.fc26.noarch            
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                  java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+apache-commons-daemon-1.0.15-13.fc26.x86_64               
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                  java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+apache-commons-dbcp-1.4-21.fc26.noarch                    
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(commons-pool:commons-pool)                          apache-commons-pool-1.6-14.fc26.noarch
+└─java-headless >= 1:1.6                                  java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+apache-commons-logging-1.2-10.fc27.noarch                 
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                  java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+apache-commons-pool-1.6-14.fc26.noarch                    
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                  java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64 
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+├─libjpeg.so.62()(64bit)                                  libjpeg-turbo-1.5.1-4.fc27.x86_64
+├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                       libjpeg-turbo-1.5.1-4.fc27.x86_64
+├─lksctp-tools(x86-64)                                    lksctp-tools-1.0.16-6.fc26.x86_64
+├─copy-jdk-configs >= 2.2                                 copy-jdk-configs-2.3-1.fc27.noarch
+└─tzdata-java >= 2015d                                    tzdata-java-2017b-2.fc27.noarch
+javapackages-tools-5.0.0-4.fc27.noarch                    
+└─java-1.8.0-openjdk-headless                             java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+apache-commons-lang-2.6-19.fc26.noarch                    
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.3                                  java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+jss-4.4.2-2.fc27.x86_64                                   
+├─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+ecj-1:4.6.3-2.fc27.noarch                                 
+├─javapackages-tools                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless                                           java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
+copy-jdk-configs-2.3-1.fc27.noarch                        
+├─lua                                                     lua-5.3.4-5.fc27.x86_64
+├─/usr/bin/lua                                            lua-5.3.4-5.fc27.x86_64
+└─lua-posix                                               lua-posix-33.3.1-4.fc26.x86_64
+lksctp-tools-1.0.16-6.fc26.x86_64                         
+lua-posix-33.3.1-4.fc26.x86_64                            
+└─lua(abi) = 5.3                                          lua-5.3.4-5.fc27.x86_64
+lua-5.3.4-5.fc27.x86_64                                   
+libjpeg-turbo-1.5.1-4.fc27.x86_64                         
+tzdata-java-2017b-2.fc27.noarch                           

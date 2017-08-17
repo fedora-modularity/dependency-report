@@ -1,0 +1,29 @@
+document: modulemd
+version: 1
+data:
+    summary: krb5 module
+    description: This krb5 has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/krb5
+        tracker: https://github.com/modularity-modules/krb5
+    components:
+        rpms:
+            ding-libs:
+                rationale: Generated.
+                ref: master.
+            gssproxy:
+                rationale: Generated.
+                ref: master.
+            words:
+                rationale: Generated.
+                ref: master.

@@ -1,0 +1,555 @@
+INFO:depchase:DEPENDENCY INFORMATION                                                          
+INFO                                                                  MATCH
+resteasy-atom-provider-3.0.19-5.fc26.noarch                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─mvn(com.sun.xml.bind:jaxb-impl)                                     glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
+├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+├─mvn(org.jboss.resteasy:resteasy-jaxrs) = 3.0.19.Final               resteasy-core-3.0.19-5.fc26.noarch
+└─mvn(org.jboss.resteasy:resteasy-jaxb-provider) = 3.0.19.Final       resteasy-jaxb-provider-3.0.19-5.fc26.noarch
+resteasy-client-3.0.19-5.fc26.noarch                                  
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─java-headless >= 1:1.7                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+└─mvn(org.jboss.resteasy:resteasy-jaxrs) = 3.0.19.Final               resteasy-core-3.0.19-5.fc26.noarch
+resteasy-core-3.0.19-5.fc26.noarch                                    
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─mvn(commons-io:commons-io)                                          apache-commons-io-1:2.5-2.fc26.noarch
+├─mvn(org.apache.httpcomponents:httpclient)                           httpcomponents-client-4.5.3-3.fc26.noarch
+├─mvn(net.jcip:jcip-annotations)                                      jcip-annotations-1-19.20060626.fc26.noarch
+├─mvn(org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec) jboss-annotations-1.2-api-1.0.0-2.fc26.noarch
+├─mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec)            jboss-jaxrs-2.0-api-1.0.0-4.fc26.noarch
+└─java-headless >= 1:1.7                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+resteasy-jackson-provider-3.0.19-5.fc26.noarch                        
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-mapper-asl)                        jackson-1.9.11-11.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-core-asl)                          jackson-1.9.11-11.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-jaxrs)                             jackson-1.9.11-11.fc27.noarch
+├─mvn(org.codehaus.jackson:jackson-xc)                                jackson-1.9.11-11.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+resteasy-jaxb-provider-3.0.19-5.fc26.noarch                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
+├─mvn(com.sun.xml.bind:jaxb-impl)                                     glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+glassfish-jaxb-runtime-2.2.11-5.fc26.noarch                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(com.sun.xml.fastinfoset:FastInfoset)                            glassfish-fastinfoset-1.2.13-6.fc26.noarch
+├─mvn(org.jvnet.staxex:stax-ex)                                       stax-ex-1.7.7-6.fc26.noarch
+├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+└─mvn(org.glassfish.jaxb:jaxb-core) = 2.2.11                          glassfish-jaxb-core-2.2.11-5.fc26.noarch
+java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64              
+├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64
+├─libstdc++.so.6()(64bit)                                             libstdc++-7.1.1-7.fc27.1.ppc64
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─libstdc++.so.6(CXXABI_1.3)(64bit)                                   libstdc++-7.1.1-7.fc27.1.ppc64
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                                  libstdc++-7.1.1-7.fc27.1.ppc64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64
+├─libm.so.6(GLIBC_2.3)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libfreetype.so.6()(64bit)                                           freetype-2.8-5.fc27.ppc64
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)                                 glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.11)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libjpeg.so.62()(64bit)                                              libjpeg-turbo-1.5.1-4.fc27.ppc64
+├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                                   libjpeg-turbo-1.5.1-4.fc27.ppc64
+├─libpthread.so.0(GLIBC_2.6)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libnspr4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libnss3.so()(64bit)                                                 nss-3.32.0-2.fc27.ppc64
+├─libplc4.so()(64bit)                                                 nspr-4.16.0-1.fc27.ppc64
+├─libplds4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libssl3.so()(64bit)                                                 nss-3.32.0-2.fc27.ppc64
+├─libsmime3.so()(64bit)                                               nss-3.32.0-2.fc27.ppc64
+├─libnssutil3.so()(64bit)                                             nss-util-3.32.0-2.fc27.ppc64
+├─libnss3.so(NSS_3.2)(64bit)                                          nss-3.32.0-2.fc27.ppc64
+├─libpthread.so.0(GLIBC_2.3.3)(64bit)                                 glibc-2.26-1.fc27.1.ppc64
+├─ca-certificates                                                     ca-certificates-2017.2.16-3.fc27.noarch
+├─libnssutil3.so(NSSUTIL_3.12)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─lksctp-tools(ppc-64)                                                lksctp-tools-1.0.16-6.fc26.ppc64
+├─copy-jdk-configs >= 2.2                                             copy-jdk-configs-2.3-1.fc27.noarch
+├─nss(ppc-64) >= 3.30.2                                               nss-3.32.0-2.fc27.ppc64
+├─nss-softokn(ppc-64) >= 3.30.2                                       nss-softokn-3.32.0-2.fc27.ppc64
+└─tzdata-java >= 2015d                                                tzdata-java-2017b-2.fc27.noarch
+javapackages-tools-5.0.0-4.fc27.noarch                                
+├─coreutils                                                           coreutils-8.27-14.fc27.ppc64
+├─findutils                                                           findutils-1:4.6.0-14.fc27.ppc64
+├─which                                                               which-2.21-4.fc27.ppc64
+└─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+jboss-logging-3.3.0-2.fc26.noarch                                     
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+apache-commons-io-1:2.5-2.fc26.noarch                                 
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+httpcomponents-client-4.5.3-3.fc26.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(commons-logging:commons-logging)                                apache-commons-logging-1.2-10.fc27.noarch
+├─mvn(commons-codec:commons-codec)                                    apache-commons-codec-1.10-4.fc26.noarch
+├─mvn(org.apache.httpcomponents:httpcore)                             httpcomponents-core-4.4.6-3.fc26.noarch
+├─publicsuffix-list                                                   publicsuffix-list-20170424-2.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+jboss-annotations-1.2-api-1.0.0-2.fc26.noarch                         
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.8                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+jboss-jaxrs-2.0-api-1.0.0-4.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.8                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+jcip-annotations-1-19.20060626.fc26.noarch                            
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+├─jpackage-utils                                                      javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1.5.0                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+jackson-1.9.11-11.fc27.noarch                                         
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+├─joda-time >= 1.6.2                                                  joda-time-2.9.3-3.tzdata2016c.fc26.noarch
+├─jsr-311 >= 1.1.1                                                    jsr-311-1.1.1-13.fc26.noarch
+├─objectweb-asm3 >= 3.3                                               objectweb-asm3-3.3.1-14.fc26.noarch
+└─stax2-api >= 3.1.1                                                  stax2-api-4.0.0-2.fc26.noarch
+glassfish-fastinfoset-1.2.13-6.fc26.noarch                            
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(com.sun.xsom:xsom)                                              xsom-0-16.20110809svn.fc26.noarch
+├─mvn(com.sun.xml.stream.buffer:streambuffer)                         xmlstreambuffer-1.5.4-5.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+glassfish-jaxb-core-2.2.11-5.fc26.noarch                              
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(javax.xml.bind:jaxb-api)                                        glassfish-jaxb-api-2.2.12-6.fc26.noarch
+├─mvn(com.sun.istack:istack-commons-runtime)                          istack-commons-runtime-2.21-5.fc26.noarch
+├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+└─mvn(org.glassfish.jaxb:txw2) = 2.2.11                               glassfish-jaxb-txw2-2.2.11-5.fc26.noarch
+stax-ex-1.7.7-6.fc26.noarch                                           
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(javax.xml.stream:stax-api)                                      bea-stax-api-1.2.0-14.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+copy-jdk-configs-2.3-1.fc27.noarch                                    
+├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64
+├─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64
+├─lua                                                                 lua-5.3.4-5.fc27.ppc64
+├─/usr/bin/lua                                                        lua-5.3.4-5.fc27.ppc64
+└─lua-posix                                                           lua-posix-33.3.1-4.fc26.ppc64
+lksctp-tools-1.0.16-6.fc26.ppc64                                      
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.16)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+apache-commons-codec-1.10-4.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+apache-commons-logging-1.2-10.fc27.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+httpcomponents-core-4.4.6-3.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+joda-time-2.9.3-3.tzdata2016c.fc26.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.5                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+jsr-311-1.1.1-13.fc26.noarch                                          
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+objectweb-asm3-3.3.1-14.fc26.noarch                                   
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+└─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64
+stax2-api-4.0.0-2.fc26.noarch                                         
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+xmlstreambuffer-1.5.4-5.fc26.noarch                                   
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(org.jvnet.staxex:stax-ex)                                       stax-ex-1.7.7-6.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+xsom-0-16.20110809svn.fc26.noarch                                     
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+├─mvn(relaxngDatatype:relaxngDatatype)                                relaxngDatatype-2011.1-5.fc26.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+glassfish-jaxb-api-2.2.12-6.fc26.noarch                               
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+glassfish-jaxb-txw2-2.2.11-5.fc26.noarch                              
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+istack-commons-runtime-2.21-5.fc26.noarch                             
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+bea-stax-api-1.2.0-14.fc27.noarch                                     
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+lua-posix-33.3.1-4.fc26.ppc64                                         
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.7)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─librt.so.1()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64
+├─librt.so.1(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libcrypt.so.1()(64bit)                                              libcrypt-2.26-1.fc27.1.ppc64
+├─libcrypt.so.1(GLIBC_2.3)(64bit)                                     libcrypt-2.26-1.fc27.1.ppc64
+├─libncursesw.so.6()(64bit)                                           ncurses-libs-6.0-13.20170722.fc27.ppc64
+└─lua(abi) = 5.3                                                      lua-5.3.4-5.fc27.ppc64
+relaxngDatatype-2011.1-5.fc26.noarch                                  
+├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
+└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
+bash-4.4.12-9.fc27.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64
+└─filesystem >= 3                                                     filesystem-3.3-3.fc27.ppc64
+glibc-2.26-1.fc27.1.ppc64                                             
+├─glibc-common = 2.26-1.fc27.1                                        glibc-common-2.26-1.fc27.1.ppc64
+└─glibc-langpack = 2.26-1.fc27.1                                      glibc-minimal-langpack-2.26-1.fc27.1.ppc64
+glibc-common-2.26-1.fc27.1.ppc64                                      
+├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─/usr/bin/bash                                                       bash-4.4.12-9.fc27.ppc64
+├─glibc = 2.26-1.fc27.1                                               glibc-2.26-1.fc27.1.ppc64
+└─tzdata >= 2003a                                                     tzdata-2017b-2.fc27.noarch
+lua-5.3.4-5.fc27.ppc64                                                
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6(GLIBC_2.3)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.11)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libreadline.so.7()(64bit)                                           readline-7.0-7.fc27.ppc64
+├─liblua-5.3.so()(64bit)                                              lua-libs-5.3.4-5.fc27.ppc64
+├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64
+├─libncurses.so.6()(64bit)                                            ncurses-libs-6.0-13.20170722.fc27.ppc64
+└─lua-libs = 5.3.4-5.fc27                                             lua-libs-5.3.4-5.fc27.ppc64
+lua-libs-5.3.4-5.fc27.ppc64                                           
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6(GLIBC_2.3)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.11)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+ncurses-libs-6.0-13.20170722.fc27.ppc64                               
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.16)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─ncurses-base = 6.0-13.20170722.fc27                                 ncurses-base-6.0-13.20170722.fc27.noarch
+ncurses-base-6.0-13.20170722.fc27.noarch                              
+findutils-1:4.6.0-14.fc27.ppc64                                       
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6(GLIBC_2.3)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64
+info-6.4-3.fc27.ppc64                                                 
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64
+which-2.21-4.fc27.ppc64                                               
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+ca-certificates-2017.2.16-3.fc27.noarch                               
+├─p11-kit >= 0.23.4                                                   p11-kit-0.23.7-3.fc27.ppc64
+└─p11-kit-trust >= 0.23.4                                             p11-kit-trust-0.23.7-3.fc27.ppc64
+chkconfig-1.10-3.fc27.ppc64                                           
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64
+├─libc.so.6(GLIBC_2.8)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpopt.so.0()(64bit)                                               popt-1.16-11.fc27.ppc64
+├─libpopt.so.0(LIBPOPT_0)(64bit)                                      popt-1.16-11.fc27.ppc64
+└─libsepol.so.1()(64bit)                                              libsepol-2.7-1.fc27.ppc64
+freetype-2.8-5.fc27.ppc64                                             
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64
+├─libc.so.6(GLIBC_2.11)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64
+├─libpng16.so.16()(64bit)                                             libpng-2:1.6.31-1.fc27.ppc64
+└─libpng16.so.16(PNG16_0)(64bit)                                      libpng-2:1.6.31-1.fc27.ppc64
+libgcc-7.1.1-7.fc27.1.ppc64                                           
+libjpeg-turbo-1.5.1-4.fc27.ppc64                                      
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.7)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+libstdc++-7.1.1-7.fc27.1.ppc64                                        
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64
+├─libm.so.6(GLIBC_2.3)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64
+├─ld64.so.1()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─ld64.so.1(GLIBC_2.22)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libgcc_s.so.1(GCC_3.3)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64
+├─libgcc_s.so.1(GCC_4.2.0)(64bit)                                     libgcc-7.1.1-7.fc27.1.ppc64
+├─libm.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libgcc_s.so.1(GCC_3.4.4)(64bit)                                     libgcc-7.1.1-7.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.18)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─glibc >= 2.10.90-7                                                  glibc-2.26-1.fc27.1.ppc64
+nspr-4.16.0-1.fc27.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─librt.so.1()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)                                 glibc-2.26-1.fc27.1.ppc64
+├─librt.so.1(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─libpthread.so.0(GLIBC_2.6)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+nss-3.32.0-2.fc27.ppc64                                               
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64
+├─libnspr4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libplc4.so()(64bit)                                                 nspr-4.16.0-1.fc27.ppc64
+├─libplds4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libnssutil3.so()(64bit)                                             nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.14)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.15)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─nss-pem                                                             nss-pem-1.0.3-5.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12.3)(64bit)                               nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.13)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.17.1)(64bit)                               nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.24)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12.5)(64bit)                               nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.21)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.31)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─nss-system-init                                                     nss-sysinit-3.32.0-2.fc27.ppc64
+├─nspr >= 4.16.0                                                      nspr-4.16.0-1.fc27.ppc64
+├─nss-util >= 3.32.0                                                  nss-util-3.32.0-2.fc27.ppc64
+└─nss-softokn(ppc-64) >= 3.32.0                                       nss-softokn-3.32.0-2.fc27.ppc64
+nss-softokn-3.32.0-2.fc27.ppc64                                       
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.7)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libsqlite3.so.0()(64bit)                                            sqlite-libs-3.20.0-1.fc27.ppc64
+├─libnspr4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libplc4.so()(64bit)                                                 nspr-4.16.0-1.fc27.ppc64
+├─libplds4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libnssutil3.so()(64bit)                                             nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.14)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.15)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12.3)(64bit)                               nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.13)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.17.1)(64bit)                               nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.24)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─nspr >= 4.16.0                                                      nspr-4.16.0-1.fc27.ppc64
+├─nss-util >= 3.32.0                                                  nss-util-3.32.0-2.fc27.ppc64
+└─nss-softokn-freebl(ppc-64) >= 3.32.0-2.fc27                         nss-softokn-freebl-3.32.0-2.fc27.ppc64
+nss-util-3.32.0-2.fc27.ppc64                                          
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libnspr4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libplc4.so()(64bit)                                                 nspr-4.16.0-1.fc27.ppc64
+├─libplds4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+└─nspr >= 4.16.0                                                      nspr-4.16.0-1.fc27.ppc64
+nss-softokn-freebl-3.32.0-2.fc27.ppc64                                
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64
+nss-sysinit-3.32.0-2.fc27.ppc64                                       
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libnspr4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libplc4.so()(64bit)                                                 nspr-4.16.0-1.fc27.ppc64
+├─libplds4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libnssutil3.so()(64bit)                                             nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.14)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+└─nss = 3.32.0-2.fc27                                                 nss-3.32.0-2.fc27.ppc64
+tzdata-java-2017b-2.fc27.noarch                                       
+zlib-1.2.11-4.fc27.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+publicsuffix-list-20170424-2.fc27.noarch                              
+sed-4.4-3.fc27.ppc64                                                  
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64
+├─libc.so.6(GLIBC_2.7)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libacl.so.1()(64bit)                                                libacl-2.2.52-18.fc27.ppc64
+└─libacl.so.1(ACL_1.0)(64bit)                                         libacl-2.2.52-18.fc27.ppc64
+sqlite-libs-3.20.0-1.fc27.ppc64                                       
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+└─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+nss-pem-1.0.3-5.fc27.ppc64                                            
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libnspr4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libplc4.so()(64bit)                                                 nspr-4.16.0-1.fc27.ppc64
+├─libplds4.so()(64bit)                                                nspr-4.16.0-1.fc27.ppc64
+├─libnssutil3.so()(64bit)                                             nss-util-3.32.0-2.fc27.ppc64
+├─libnss3.so()(64bit)                                                 nss-3.32.0-2.fc27.ppc64
+├─libnssutil3.so(NSSUTIL_3.12)(64bit)                                 nss-util-3.32.0-2.fc27.ppc64
+├─libsmime3.so()(64bit)                                               nss-3.32.0-2.fc27.ppc64
+├─libssl3.so()(64bit)                                                 nss-3.32.0-2.fc27.ppc64
+└─nss(ppc-64) >= 3.31.0                                               nss-3.32.0-2.fc27.ppc64
+readline-7.0-7.fc27.ppc64                                             
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64
+libselinux-2.7-1.fc27.ppc64                                           
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─ld64.so.1()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─ld64.so.1(GLIBC_2.22)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.8)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─pcre                                                                pcre-8.41-1.fc27.2.ppc64
+├─libsepol.so.1()(64bit)                                              libsepol-2.7-1.fc27.ppc64
+├─libpcre2-8.so.0()(64bit)                                            pcre2-10.30-0.6.RC1.fc27.ppc64
+├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                                  libsepol-2.7-1.fc27.ppc64
+└─libsepol(ppc-64) >= 2.7-1                                           libsepol-2.7-1.fc27.ppc64
+libsepol-2.7-1.fc27.ppc64                                             
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.8)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+tzdata-2017b-2.fc27.noarch                                            
+basesystem-11-4.fc27.noarch                                           
+bzip2-libs-1.0.6-24.fc27.ppc64                                        
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+libpng-2:1.6.31-1.fc27.ppc64                                          
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64
+├─libm.so.6(GLIBC_2.3)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.11)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libz.so.1(ZLIB_1.2.3.4)(64bit)                                      zlib-1.2.11-4.fc27.ppc64
+└─libz.so.1(ZLIB_1.2.9)(64bit)                                        zlib-1.2.11-4.fc27.ppc64
+popt-1.16-11.fc27.ppc64                                               
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.8)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+p11-kit-0.23.7-3.fc27.ppc64                                           
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64
+└─libc.so.6(GLIBC_2.16)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+p11-kit-trust-0.23.7-3.fc27.ppc64                                     
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64
+├─libc.so.6(GLIBC_2.16)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libp11-kit.so.0()(64bit)                                            p11-kit-0.23.7-3.fc27.ppc64
+├─libtasn1.so.6()(64bit)                                              libtasn1-4.12-3.fc27.ppc64
+├─/usr/bin/bash                                                       bash-4.4.12-9.fc27.ppc64
+├─libtasn1.so.6(LIBTASN1_0_3)(64bit)                                  libtasn1-4.12-3.fc27.ppc64
+└─p11-kit(ppc-64) = 0.23.7-3.fc27                                     p11-kit-0.23.7-3.fc27.ppc64
+filesystem-3.3-3.fc27.ppc64                                           
+└─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64
+setup-2.10.5-3.fc27.noarch                                            
+└─system-release                                                      fedora-release-27-0.2.noarch
+libacl-2.2.52-18.fc27.ppc64                                           
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libattr.so.1()(64bit)                                               libattr-2.4.47-21.fc27.ppc64
+└─libattr.so.1(ATTR_1.0)(64bit)                                       libattr-2.4.47-21.fc27.ppc64
+libffi-3.1-14.fc27.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+libtasn1-4.12-3.fc27.ppc64                                            
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+pcre-8.41-1.fc27.2.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+└─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+pcre2-10.30-0.6.RC1.fc27.ppc64                                        
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+└─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+libattr-2.4.47-21.fc27.ppc64                                          
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+libcrypt-2.26-1.fc27.1.ppc64                                          
+├─libc.so.6(GLIBC_2.25)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+└─glibc(ppc-64) = 2.26-1.fc27.1                                       glibc-2.26-1.fc27.1.ppc64
+coreutils-8.27-14.fc27.ppc64                                          
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libcrypto.so.1.1()(64bit)                                           openssl-libs-1:1.1.0f-9.fc27.ppc64
+├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64
+├─librt.so.1()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)                                 glibc-2.26-1.fc27.1.ppc64
+├─libacl.so.1()(64bit)                                                libacl-2.2.52-18.fc27.ppc64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                              openssl-libs-1:1.1.0f-9.fc27.ppc64
+├─libgmp.so.10()(64bit)                                               gmp-1:6.1.2-6.fc27.ppc64
+├─libcap.so.2()(64bit)                                                libcap-2.25-7.fc27.ppc64
+├─ncurses                                                             ncurses-6.0-13.20170722.fc27.ppc64
+├─libacl.so.1(ACL_1.0)(64bit)                                         libacl-2.2.52-18.fc27.ppc64
+├─libattr.so.1()(64bit)                                               libattr-2.4.47-21.fc27.ppc64
+├─libattr.so.1(ATTR_1.1)(64bit)                                       libattr-2.4.47-21.fc27.ppc64
+├─librt.so.1(GLIBC_2.3.3)(64bit)                                      glibc-2.26-1.fc27.1.ppc64
+└─coreutils-common = 8.27-14.fc27                                     coreutils-common-8.27-14.fc27.ppc64
+ncurses-6.0-13.20170722.fc27.ppc64                                    
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64
+├─libtic.so.6()(64bit)                                                ncurses-libs-6.0-13.20170722.fc27.ppc64
+└─ncurses-libs(ppc-64) = 6.0-13.20170722.fc27                         ncurses-libs-6.0-13.20170722.fc27.ppc64
+coreutils-common-8.27-14.fc27.ppc64                                   
+fedora-release-27-0.2.noarch                                          
+└─fedora-repos(27)                                                    fedora-repos-27-0.2.noarch
+fedora-repos-27-0.2.noarch                                            
+├─system-release(27)                                                  fedora-release-27-0.2.noarch
+└─fedora-repos-rawhide = 27-0.2                                       fedora-repos-rawhide-27-0.2.noarch
+fedora-repos-rawhide-27-0.2.noarch                                    
+└─fedora-repos = 27-0.2                                               fedora-repos-27-0.2.noarch
+glibc-minimal-langpack-2.26-1.fc27.1.ppc64                            
+├─glibc = 2.26-1.fc27.1                                               glibc-2.26-1.fc27.1.ppc64
+└─glibc-common = 2.26-1.fc27.1                                        glibc-common-2.26-1.fc27.1.ppc64
+gmp-1:6.1.2-6.fc27.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.7)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+libcap-2.25-7.fc27.ppc64                                              
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+└─libc.so.6(GLIBC_2.8)(64bit)                                         glibc-2.26-1.fc27.1.ppc64
+openssl-libs-1:1.1.0f-9.fc27.ppc64                                    
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64
+├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64
+├─libpthread.so.0(GLIBC_2.3)(64bit)                                   glibc-2.26-1.fc27.1.ppc64
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64
+├─crypto-policies                                                     crypto-policies-20170802-1.git9300620.fc27.noarch
+└─ca-certificates >= 2008-5                                           ca-certificates-2017.2.16-3.fc27.noarch
+crypto-policies-20170802-1.git9300620.fc27.noarch                     
+grep-3.1-3.fc27.ppc64                                                 
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64
+├─libpcre.so.1()(64bit)                                               pcre-8.41-1.fc27.2.ppc64
+└─libc.so.6(GLIBC_2.5)(64bit)                                         glibc-2.26-1.fc27.1.ppc64

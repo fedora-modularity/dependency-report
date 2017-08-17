@@ -1,0 +1,77 @@
+document: modulemd
+version: 1
+data:
+    summary: tomcat module
+    description: This tomcat has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/tomcat
+        tracker: https://github.com/modularity-modules/tomcat
+    components:
+        rpms:
+            apache-commons-collections:
+                rationale: Generated.
+                ref: master.
+            apache-commons-daemon:
+                rationale: Generated.
+                ref: master.
+            apache-commons-dbcp:
+                rationale: Generated.
+                ref: master.
+            apache-commons-lang:
+                rationale: Generated.
+                ref: master.
+            apache-commons-logging:
+                rationale: Generated.
+                ref: master.
+            apache-commons-pool:
+                rationale: Generated.
+                ref: master.
+            copy-jdk-configs:
+                rationale: Generated.
+                ref: master.
+            ecj:
+                rationale: Generated.
+                ref: master.
+            freetype:
+                rationale: Generated.
+                ref: master.
+            java-1.8.0-openjdk:
+                rationale: Generated.
+                ref: master.
+            javapackages-tools:
+                rationale: Generated.
+                ref: master.
+            jss:
+                rationale: Generated.
+                ref: master.
+            libjpeg-turbo:
+                rationale: Generated.
+                ref: master.
+            libpng:
+                rationale: Generated.
+                ref: master.
+            lksctp-tools:
+                rationale: Generated.
+                ref: master.
+            lua-posix:
+                rationale: Generated.
+                ref: master.
+            tomcat:
+                rationale: Generated.
+                ref: master.
+            tomcatjss:
+                rationale: Generated.
+                ref: master.
+            which:
+                rationale: Generated.
+                ref: master.
