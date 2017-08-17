@@ -2,54 +2,117 @@ anaconda-tui-27.19-4.fc27.s390x
 └─anaconda-core = 27.19-4.fc27                                   anaconda-core-27.19-4.fc27.s390x
 anaconda-core-27.19-4.fc27.s390x                                 
 ├─cracklib-dicts                                                 cracklib-dicts-2.9.6-7.fc27.s390x
+├─libselinux-python3                                             libselinux-python3-2.7-1.fc27.s390x
 ├─glibc-langpack-en                                              glibc-langpack-en-2.26-1.fc27.1.s390x
+├─python3-dbus                                                   python3-dbus-1.2.4-6.fc26.s390x
 ├─python3-pwquality                                              python3-pwquality-1.4.0-3.fc27.s390x
 ├─createrepo_c                                                   createrepo_c-0.10.0-9.fc26.s390x
+├─kbd                                                            kbd-2.0.4-2.fc26.s390x
 ├─python3-requests                                               python3-requests-2.18.1-2.fc27.noarch
+├─NetworkManager-team                                            NetworkManager-team-1:1.8.0-6.fc27.s390x
+├─authconfig                                                     authconfig-7.0.1-1.fc27.s390x
 ├─chrony                                                         chrony-3.1-5.fc27.s390x
+├─kexec-tools                                                    kexec-tools-2.0.15-4.fc27.s390x
 ├─python3-ntplib                                                 python3-ntplib-0.3.3-6.fc26.noarch
 ├─python3-pid                                                    python3-pid-2.1.1-3.fc26.noarch
 ├─python3-pytz                                                   python3-pytz-2017.2-1.fc27.noarch
 ├─python3-requests-file                                          python3-requests-file-1.4-6.fc26.noarch
 ├─python3-requests-ftp                                           python3-requests-ftp-0.3.1-6.fc26.noarch
 ├─python3-wrapt                                                  python3-wrapt-1.10.10-1.fc27.s390x
+├─realmd                                                         realmd-0.16.3-5.fc27.s390x
+├─rsync                                                          rsync-3.1.2-5.fc27.s390x
+├─teamd                                                          teamd-1.27-1.fc27.s390x
 ├─anaconda-tui = 27.19-4.fc27                                    anaconda-tui-27.19-4.fc27.s390x
+├─parted >= 1.8.1                                                parted-3.2-26.fc27.s390x
+├─NetworkManager >= 1.0                                          NetworkManager-1:1.8.0-6.fc27.s390x
+├─NetworkManager-libnm >= 1.0                                    NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─firewalld >= 0.3.5-1                                           firewalld-0.4.4.5-3.fc27.noarch
 ├─isomd5sum >= 1.0.10                                            isomd5sum-1:1.2.1-1.fc27.s390x
 ├─langtable-data >= 0.0.34                                       langtable-data-0.0.37-1.fc26.noarch
 ├─langtable-python3 >= 0.0.34                                    langtable-python3-0.0.37-1.fc26.noarch
+├─libblockdev-plugins-all >= 2.1                                 libblockdev-plugins-all-2.10-1.fc27.s390x
 ├─libreport-anaconda >= 2.0.21-1                                 libreport-anaconda-2.9.1-2.fc27.s390x
 ├─python3-blivet >= 1:2.1.9-1                                    python3-blivet-1:2.1.9-2.fc27.noarch
+├─python3-blockdev >= 2.1                                        python3-blockdev-2.10-1.fc27.s390x
 ├─python3-coverage >= 4.0-0.12.b3                                python3-coverage-4.4.1-2.fc27.s390x
+├─python3-iscsi-initiator-utils >= 6.2.0.873-26                  python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.s390x
 ├─python3-kickstart >= 2.35-1                                    python3-kickstart-2.37-1.fc27.noarch
 ├─python3-meh >= 0.23-1                                          python3-meh-0.44-4.fc26.noarch
 ├─python3-ordered-set >= 2.0.0                                   python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-pyparted >= 2.5-2                                      python3-pyparted-1:3.11.0-2.fc27.s390x
+NetworkManager-libnm-1:1.8.0-6.fc27.s390x                        
+├─libjansson.so.4()(64bit)                                       jansson-2.10-2.fc27.s390x
+NetworkManager-team-1:1.8.0-6.fc27.s390x                         
+├─libjansson.so.4()(64bit)                                       jansson-2.10-2.fc27.s390x
+├─libteamdctl.so.0()(64bit)                                      teamd-1.27-1.fc27.s390x
+└─NetworkManager(s390-64) = 1:1.8.0-6.fc27                       NetworkManager-1:1.8.0-6.fc27.s390x
+authconfig-7.0.1-1.fc27.s390x                                    
+├─policycoreutils                                                policycoreutils-2.6-5.fc27.s390x
+├─python3-sssdconfig                                             python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
 chrony-3.1-5.fc27.s390x                                          
 createrepo_c-0.10.0-9.fc26.s390x                                 
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
 ├─libdrpm.so.0()(64bit)                                          drpm-0.3.0-6.fc27.s390x
 ├─libcreaterepo_c.so.0()(64bit)                                  createrepo_c-libs-0.10.0-9.fc26.s390x
 ├─createrepo_c-libs = 0.10.0-9.fc26                              createrepo_c-libs-0.10.0-9.fc26.s390x
 isomd5sum-1:1.2.1-1.fc27.s390x                                   
+kbd-2.0.4-2.fc26.s390x                                           
+├─kbd-legacy = 2.0.4-2.fc26                                      kbd-legacy-2.0.4-2.fc26.noarch
+├─kbd-misc = 2.0.4-2.fc26                                        kbd-misc-2.0.4-2.fc26.noarch
+kexec-tools-2.0.15-4.fc27.s390x                                  
+├─libsnappy.so.1()(64bit)                                        snappy-1.1.4-3.fc26.s390x
+└─dracut-network >= 044-117                                      dracut-network-045-18.git20170515.fc27.s390x
 langtable-data-0.0.37-1.fc26.noarch                              
 └─langtable = 0.0.37-1.fc26                                      langtable-0.0.37-1.fc26.noarch
 langtable-python3-0.0.37-1.fc26.noarch                           
 ├─langtable = 0.0.37-1.fc26                                      langtable-0.0.37-1.fc26.noarch
 └─langtable-data = 0.0.37-1.fc26                                 langtable-data-0.0.37-1.fc26.noarch
+libblockdev-plugins-all-2.10-1.fc27.s390x                        
+├─libblockdev(s390-64) = 2.10-1.fc27                             libblockdev-2.10-1.fc27.s390x
+├─libblockdev-btrfs(s390-64) = 2.10-1.fc27                       libblockdev-btrfs-2.10-1.fc27.s390x
+├─libblockdev-crypto(s390-64) = 2.10-1.fc27                      libblockdev-crypto-2.10-1.fc27.s390x
+├─libblockdev-dm(s390-64) = 2.10-1.fc27                          libblockdev-dm-2.10-1.fc27.s390x
+├─libblockdev-fs(s390-64) = 2.10-1.fc27                          libblockdev-fs-2.10-1.fc27.s390x
+├─libblockdev-kbd(s390-64) = 2.10-1.fc27                         libblockdev-kbd-2.10-1.fc27.s390x
+├─libblockdev-loop(s390-64) = 2.10-1.fc27                        libblockdev-loop-2.10-1.fc27.s390x
+├─libblockdev-lvm(s390-64) = 2.10-1.fc27                         libblockdev-lvm-2.10-1.fc27.s390x
+├─libblockdev-mdraid(s390-64) = 2.10-1.fc27                      libblockdev-mdraid-2.10-1.fc27.s390x
+├─libblockdev-mpath(s390-64) = 2.10-1.fc27                       libblockdev-mpath-2.10-1.fc27.s390x
+├─libblockdev-part(s390-64) = 2.10-1.fc27                        libblockdev-part-2.10-1.fc27.s390x
+├─libblockdev-s390(s390-64) = 2.10-1.fc27                        libblockdev-s390-2.10-1.fc27.s390x
+└─libblockdev-swap(s390-64) = 2.10-1.fc27                        libblockdev-swap-2.10-1.fc27.s390x
 libreport-anaconda-2.9.1-2.fc27.s390x                            
 ├─libreport = 2.9.1-2.fc27                                       libreport-2.9.1-2.fc27.s390x
 ├─libreport-plugin-bugzilla = 2.9.1-2.fc27                       libreport-plugin-bugzilla-2.9.1-2.fc27.s390x
 └─libreport-plugin-reportuploader = 2.9.1-2.fc27                 libreport-plugin-reportuploader-2.9.1-2.fc27.s390x
 python3-blivet-1:2.1.9-2.fc27.noarch                             
+├─python3-gobject-base                                           python3-gobject-base-3.24.1-1.fc27.s390x
+├─dosfstools                                                     dosfstools-4.1-2.fc26.s390x
+├─libselinux-python3                                             libselinux-python3-2.7-1.fc27.s390x
+├─lsof                                                           lsof-4.89-5.fc26.s390x
 ├─python3-kickstart                                              python3-kickstart-2.37-1.fc27.noarch
+├─parted >= 1.8.1                                                parted-3.2-26.fc27.s390x
+├─libblockdev-plugins-all >= 2.6                                 libblockdev-plugins-all-2.10-1.fc27.s390x
+├─python3-blockdev >= 2.6                                        python3-blockdev-2.10-1.fc27.s390x
 ├─python3-bytesize >= 0.3                                        python3-bytesize-0.11-1.fc27.s390x
 ├─python3-pyparted >= 3.10.4                                     python3-pyparted-1:3.11.0-2.fc27.s390x
+└─python3-pyudev >= 0.18                                         python3-pyudev-0.21.0-3.fc26.noarch
+python3-blockdev-2.10-1.fc27.s390x                               
+├─python3-gobject-base                                           python3-gobject-base-3.24.1-1.fc27.s390x
+└─libblockdev(s390-64) = 2.10-1.fc27                             libblockdev-2.10-1.fc27.s390x
+python3-dbus-1.2.4-6.fc26.s390x                                  
+├─libdbus-glib-1.so.2()(64bit)                                   dbus-glib-0.108-2.fc26.s390x
+python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.s390x  
+├─libiscsi.so.0()(64bit)                                         iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.s390x
 python3-meh-0.44-4.fc26.noarch                                   
+├─python3-dbus                                                   python3-dbus-1.2.4-6.fc26.s390x
 ├─libreport-cli >= 2.0.18-1                                      libreport-cli-2.9.1-2.fc27.s390x
 └─libreport-python3 >= 2.0.18-1                                  libreport-python3-2.9.1-2.fc27.s390x
 python3-ntplib-0.3.3-6.fc26.noarch                               
 python3-ordered-set-2.0.0-6.fc26.noarch                          
 python3-pid-2.1.1-3.fc26.noarch                                  
 python3-pyparted-1:3.11.0-2.fc27.s390x                           
+├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
 python3-pytz-2017.2-1.fc27.noarch                                
 python3-requests-2.18.1-2.fc27.noarch                            
 ├─python3-chardet                                                python3-chardet-3.0.4-1.fc27.noarch
@@ -60,10 +123,107 @@ python3-requests-file-1.4-6.fc26.noarch
 python3-requests-ftp-0.3.1-6.fc26.noarch                         
 ├─python3-requests                                               python3-requests-2.18.1-2.fc27.noarch
 python3-wrapt-1.10.10-1.fc27.s390x                               
+realmd-0.16.3-5.fc27.s390x                                       
+├─libpolkit-gobject-1.so.0()(64bit)                              polkit-libs-0.113-13.fc27.s390x
+└─authconfig                                                     authconfig-7.0.1-1.fc27.s390x
+rsync-3.1.2-5.fc27.s390x                                         
+teamd-1.27-1.fc27.s390x                                          
+├─libnl-3.so.200()(64bit)                                        libnl3-3.3.0-1.fc27.s390x
+├─libjansson.so.4()(64bit)                                       jansson-2.10-2.fc27.s390x
+├─libnl-route-3.so.200()(64bit)                                  libnl3-3.3.0-1.fc27.s390x
+├─libnl-genl-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.s390x
+├─libdaemon.so.0()(64bit)                                        libdaemon-0.14-11.fc26.s390x
+├─libnl-nf-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.s390x
+├─libteam.so.5()(64bit)                                          libteam-1.27-1.fc27.s390x
+├─libnl-cli-3.so.200()(64bit)                                    libnl3-cli-3.3.0-1.fc27.s390x
+└─libteam = 1.27-1.fc27                                          libteam-1.27-1.fc27.s390x
+jansson-2.10-2.fc27.s390x                                        
+NetworkManager-1:1.8.0-6.fc27.s390x                              
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
+├─libpolkit-gobject-1.so.0()(64bit)                              polkit-libs-0.113-13.fc27.s390x
+├─libnl-3.so.200()(64bit)                                        libnl3-3.3.0-1.fc27.s390x
+├─libnl-3.so.200(libnl_3)(64bit)                                 libnl3-3.3.0-1.fc27.s390x
+├─libnm.so.0()(64bit)                                            NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─libjansson.so.4()(64bit)                                       jansson-2.10-2.fc27.s390x
+├─libnm.so.0(libnm_1_0_0)(64bit)                                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─libnm.so.0(libnm_1_2_0)(64bit)                                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─libpolkit-agent-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.s390x
+├─libnm.so.0(libnm_1_6_0)(64bit)                                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─libpsl.so.5()(64bit)                                           libpsl-0.17.0-4.fc27.s390x
+├─libnm.so.0(libnm_1_8_0)(64bit)                                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─libnm.so.0(libnm_1_4_0)(64bit)                                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+├─libndp.so.0()(64bit)                                           libndp-1.6-2.fc26.s390x
+├─NetworkManager-libnm(s390-64) = 1:1.8.0-6.fc27                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
+policycoreutils-2.6-5.fc27.s390x                                 
+├─libselinux-utils >= 2.6-5                                      libselinux-utils-2.7-1.fc27.s390x
+python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                   
 createrepo_c-libs-0.10.0-9.fc26.s390x                            
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
 └─libdrpm.so.0()(64bit)                                          drpm-0.3.0-6.fc27.s390x
 drpm-0.3.0-6.fc27.s390x                                          
+kbd-legacy-2.0.4-2.fc26.noarch                                   
+kbd-misc-2.0.4-2.fc26.noarch                                     
+dracut-network-045-18.git20170515.fc27.s390x                     
+snappy-1.1.4-3.fc26.s390x                                        
 langtable-0.0.37-1.fc26.noarch                                   
+libblockdev-2.10-1.fc27.s390x                                    
+└─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-btrfs-2.10-1.fc27.s390x                              
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─libbytesize.so.1()(64bit)                                      libbytesize-0.11-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-crypto-2.10-1.fc27.s390x                             
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+└─libvolume_key.so.1()(64bit)                                    volume_key-libs-0.3.9-13.fc27.s390x
+libblockdev-dm-2.10-1.fc27.s390x                                 
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─dmraid                                                         dmraid-1.0.0.rc16-31.fc26.s390x
+├─libdmraid.so.1()(64bit)                                        dmraid-1.0.0.rc16-31.fc26.s390x
+├─libdmraid.so.1(Base)(64bit)                                    dmraid-1.0.0.rc16-31.fc26.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-fs-2.10-1.fc27.s390x                                 
+├─device-mapper-multipath                                        device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
+├─libparted-fs-resize.so.0()(64bit)                              parted-3.2-26.fc27.s390x
+├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit)     parted-3.2-26.fc27.s390x
+├─libbd_part_err.so.2()(64bit)                                   libblockdev-utils-2.10-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-kbd-2.10-1.fc27.s390x                                
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+└─bcache-tools >= 1.0.8                                          bcache-tools-1.0.8-8.fc26.s390x
+libblockdev-loop-2.10-1.fc27.s390x                               
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-lvm-2.10-1.fc27.s390x                                
+├─lvm2                                                           lvm2-2.02.173-4.fc27.s390x
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─device-mapper-persistent-data                                  device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-mdraid-2.10-1.fc27.s390x                             
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─mdadm                                                          mdadm-4.0-3.fc27.s390x
+├─libbytesize.so.1()(64bit)                                      libbytesize-0.11-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-mpath-2.10-1.fc27.s390x                              
+├─device-mapper-multipath                                        device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-part-2.10-1.fc27.s390x                               
+├─device-mapper-multipath                                        device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
+├─gdisk                                                          gdisk-1.0.1-3.fc26.s390x
+├─libparted-fs-resize.so.0()(64bit)                              parted-3.2-26.fc27.s390x
+├─libbd_part_err.so.2()(64bit)                                   libblockdev-utils-2.10-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
+libblockdev-s390-2.10-1.fc27.s390x                               
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+└─s390utils                                                      s390utils-2:1.37.1-1.fc27.s390x
+libblockdev-swap-2.10-1.fc27.s390x                               
+├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
+└─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
 libreport-2.9.1-2.fc27.s390x                                     
 ├─libsatyr.so.3()(64bit)                                         satyr-0.23-1.fc27.s390x
 ├─libaugeas.so.0()(64bit)                                        augeas-libs-1.8.0-1.fc27.s390x
@@ -74,24 +234,45 @@ libreport-2.9.1-2.fc27.s390x
 ├─libaugeas.so.0(AUGEAS_0.10.0)(64bit)                           augeas-libs-1.8.0-1.fc27.s390x
 ├─satyr >= 0.22                                                  satyr-0.23-1.fc27.s390x
 libreport-plugin-bugzilla-2.9.1-2.fc27.s390x                     
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
 ├─libjson-c.so.2()(64bit)                                        json-c-0.12.1-2.fc27.s390x
 ├─libsatyr.so.3()(64bit)                                         satyr-0.23-1.fc27.s390x
 ├─libreport.so.0()(64bit)                                        libreport-2.9.1-2.fc27.s390x
 ├─libaugeas.so.0()(64bit)                                        augeas-libs-1.8.0-1.fc27.s390x
+├─libproxy.so.1()(64bit)                                         libproxy-0.4.15-2.fc27.s390x
 ├─libtar.so.1()(64bit)                                           libtar-1.2.20-9.fc26.s390x
+├─libxmlrpc.so.3()(64bit)                                        xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_util.so.4()(64bit)                                   xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_client.so.3()(64bit)                                 xmlrpc-c-client-1.48.0-5.fc27.s390x
 ├─libreport-web.so.0()(64bit)                                    libreport-web-2.9.1-2.fc27.s390x
 ├─libreport = 2.9.1-2.fc27                                       libreport-2.9.1-2.fc27.s390x
 └─libreport-web = 2.9.1-2.fc27                                   libreport-web-2.9.1-2.fc27.s390x
 libreport-plugin-reportuploader-2.9.1-2.fc27.s390x               
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
 ├─libjson-c.so.2()(64bit)                                        json-c-0.12.1-2.fc27.s390x
 ├─libsatyr.so.3()(64bit)                                         satyr-0.23-1.fc27.s390x
 ├─libreport.so.0()(64bit)                                        libreport-2.9.1-2.fc27.s390x
 ├─libaugeas.so.0()(64bit)                                        augeas-libs-1.8.0-1.fc27.s390x
+├─libproxy.so.1()(64bit)                                         libproxy-0.4.15-2.fc27.s390x
 ├─libtar.so.1()(64bit)                                           libtar-1.2.20-9.fc26.s390x
+├─libxmlrpc.so.3()(64bit)                                        xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_util.so.4()(64bit)                                   xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_client.so.3()(64bit)                                 xmlrpc-c-client-1.48.0-5.fc27.s390x
 ├─libreport-web.so.0()(64bit)                                    libreport-web-2.9.1-2.fc27.s390x
 ├─libreport = 2.9.1-2.fc27                                       libreport-2.9.1-2.fc27.s390x
 └─libreport-web = 2.9.1-2.fc27                                   libreport-web-2.9.1-2.fc27.s390x
+dosfstools-4.1-2.fc26.s390x                                      
+lsof-4.89-5.fc26.s390x                                           
 python3-bytesize-0.11-1.fc27.s390x                               
+└─libbytesize(s390-64) = 0.11-1.fc27                             libbytesize-0.11-1.fc27.s390x
+python3-gobject-base-3.24.1-1.fc27.s390x                         
+python3-pyudev-0.21.0-3.fc26.noarch                              
+dbus-glib-0.108-2.fc26.s390x                                     
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
+iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.s390x          
+├─libisns.so.0()(64bit)                                          isns-utils-libs-0.97-3.fc27.s390x
+├─libisns.so.0(LIBISNS_0.96)(64bit)                              isns-utils-libs-0.97-3.fc27.s390x
+└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27  iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.s390x
 libreport-cli-2.9.1-2.fc27.s390x                                 
 ├─libsatyr.so.3()(64bit)                                         satyr-0.23-1.fc27.s390x
 ├─libreport.so.0()(64bit)                                        libreport-2.9.1-2.fc27.s390x
@@ -111,17 +292,87 @@ python3-urllib3-1.21.1-1.fc27.noarch
 ├─python3-cryptography                                           python3-cryptography-1.9-1.fc27.s390x
 ├─python3-idna                                                   python3-idna-2.5-1.fc27.noarch
 ├─python3-pysocks                                                python3-pysocks-1.5.7-4.fc26.noarch
+polkit-libs-0.113-13.fc27.s390x                                  
+libdaemon-0.14-11.fc26.s390x                                     
+libnl3-3.3.0-1.fc27.s390x                                        
+libnl3-cli-3.3.0-1.fc27.s390x                                    
+├─libnl-3.so.200()(64bit)                                        libnl3-3.3.0-1.fc27.s390x
+├─libnl-3.so.200(libnl_3)(64bit)                                 libnl3-3.3.0-1.fc27.s390x
+├─libnl-route-3.so.200()(64bit)                                  libnl3-3.3.0-1.fc27.s390x
+├─libnl-genl-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.s390x
+├─libnl-genl-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.s390x
+├─libnl-route-3.so.200(libnl_3)(64bit)                           libnl3-3.3.0-1.fc27.s390x
+├─libnl-nf-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.s390x
+├─libnl-idiag-3.so.200()(64bit)                                  libnl3-3.3.0-1.fc27.s390x
+├─libnl-route-3.so.200(libnl_3_2_28)(64bit)                      libnl3-3.3.0-1.fc27.s390x
+├─libnl-idiag-3.so.200(libnl_3)(64bit)                           libnl3-3.3.0-1.fc27.s390x
+├─libnl-nf-3.so.200(libnl_3)(64bit)                              libnl3-3.3.0-1.fc27.s390x
+└─libnl3 = 3.3.0-1.fc27                                          libnl3-3.3.0-1.fc27.s390x
+libteam-1.27-1.fc27.s390x                                        
+├─libnl-3.so.200()(64bit)                                        libnl3-3.3.0-1.fc27.s390x
+├─libnl-3.so.200(libnl_3)(64bit)                                 libnl3-3.3.0-1.fc27.s390x
+├─libnl-route-3.so.200()(64bit)                                  libnl3-3.3.0-1.fc27.s390x
+├─libnl-genl-3.so.200()(64bit)                                   libnl3-3.3.0-1.fc27.s390x
+├─libnl-genl-3.so.200(libnl_3)(64bit)                            libnl3-3.3.0-1.fc27.s390x
+├─libnl-route-3.so.200(libnl_3)(64bit)                           libnl3-3.3.0-1.fc27.s390x
+├─libnl-nf-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.s390x
+├─libnl-3.so.200(libnl_3_2_27)(64bit)                            libnl3-3.3.0-1.fc27.s390x
+├─libnl-cli-3.so.200()(64bit)                                    libnl3-cli-3.3.0-1.fc27.s390x
+└─libnl-cli-3.so.200(libnl_3)(64bit)                             libnl3-cli-3.3.0-1.fc27.s390x
+libndp-1.6-2.fc26.s390x                                          
+libblockdev-utils-2.10-1.fc27.s390x                              
+├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
+└─libparted-fs-resize.so.0()(64bit)                              parted-3.2-26.fc27.s390x
+libbytesize-0.11-1.fc27.s390x                                    
+volume_key-libs-0.3.9-13.fc27.s390x                              
+└─/usr/bin/gpg                                                   gnupg-1.4.21-4.fc27.s390x
+dmraid-1.0.0.rc16-31.fc26.s390x                                  
+├─kpartx                                                         kpartx-0.7.1-6.git847cc43.fc27.s390x
+├─libdevmapper-event.so.1.02()(64bit)                            device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─libdevmapper-event.so.1.02(Base)(64bit)                        device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─dmraid-events                                                  dmraid-events-1.0.0.rc16-31.fc26.s390x
+bcache-tools-1.0.8-8.fc26.s390x                                  
+device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.s390x           
+├─libaio.so.1()(64bit)                                           libaio-0.3.110-7.fc26.s390x
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                 libaio-0.3.110-7.fc26.s390x
+├─libaio.so.1(LIBAIO_0.4)(64bit)                                 libaio-0.3.110-7.fc26.s390x
+mdadm-4.0-3.fc27.s390x                                           
+gdisk-1.0.1-3.fc26.s390x                                         
+s390utils-2:1.37.1-1.fc27.s390x                                  
+├─s390utils-cmsfs = 2:1.37.1-1.fc27                              s390utils-cmsfs-2:1.37.1-1.fc27.s390x
+├─s390utils-cpuplugd = 2:1.37.1-1.fc27                           s390utils-cpuplugd-2:1.37.1-1.fc27.s390x
+├─s390utils-iucvterm = 2:1.37.1-1.fc27                           s390utils-iucvterm-2:1.37.1-1.fc27.s390x
+├─s390utils-mon_statd = 2:1.37.1-1.fc27                          s390utils-mon_statd-2:1.37.1-1.fc27.s390x
+├─s390utils-osasnmpd = 2:1.37.1-1.fc27                           s390utils-osasnmpd-2:1.37.1-1.fc27.s390x
+└─s390utils-ziomon = 2:1.37.1-1.fc27                             s390utils-ziomon-2:1.37.1-1.fc27.s390x
 augeas-libs-1.8.0-1.fc27.s390x                                   
 libtar-1.2.20-9.fc26.s390x                                       
 satyr-0.23-1.fc27.s390x                                          
 json-c-0.12.1-2.fc27.s390x                                       
+libproxy-0.4.15-2.fc27.s390x                                     
+└─libmodman.so.1()(64bit)                                        libmodman-2.0.1-14.fc27.s390x
 libreport-web-2.9.1-2.fc27.s390x                                 
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
 ├─libjson-c.so.2()(64bit)                                        json-c-0.12.1-2.fc27.s390x
 ├─libsatyr.so.3()(64bit)                                         satyr-0.23-1.fc27.s390x
 ├─libreport.so.0()(64bit)                                        libreport-2.9.1-2.fc27.s390x
 ├─libaugeas.so.0()(64bit)                                        augeas-libs-1.8.0-1.fc27.s390x
+├─libproxy.so.1()(64bit)                                         libproxy-0.4.15-2.fc27.s390x
 ├─libtar.so.1()(64bit)                                           libtar-1.2.20-9.fc26.s390x
+├─libxmlrpc.so.3()(64bit)                                        xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_util.so.4()(64bit)                                   xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_client.so.3()(64bit)                                 xmlrpc-c-client-1.48.0-5.fc27.s390x
 └─libreport = 2.9.1-2.fc27                                       libreport-2.9.1-2.fc27.s390x
+xmlrpc-c-1.48.0-5.fc27.s390x                                     
+xmlrpc-c-client-1.48.0-5.fc27.s390x                              
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
+├─libxmlrpc.so.3()(64bit)                                        xmlrpc-c-1.48.0-5.fc27.s390x
+├─libxmlrpc_util.so.4()(64bit)                                   xmlrpc-c-1.48.0-5.fc27.s390x
+└─xmlrpc-c(s390-64) = 1.48.0-5.fc27                              xmlrpc-c-1.48.0-5.fc27.s390x
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
+iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.s390x 
+└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27            iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.s390x
+isns-utils-libs-0.97-3.fc27.s390x                                
 python3-cryptography-1.9-1.fc27.s390x                            
 ├─python3-asn1crypto >= 0.21                                     python3-asn1crypto-0.22.0-2.fc27.noarch
 ├─python3-cffi >= 1.7                                            python3-cffi-1.10.0-1.fc27.s390x
@@ -129,18 +380,147 @@ python3-cryptography-1.9-1.fc27.s390x
 python3-pyOpenSSL-17.1.0-1.fc27.noarch                           
 ├─python3-cryptography                                           python3-cryptography-1.9-1.fc27.s390x
 python3-pysocks-1.5.7-4.fc26.noarch                              
+gnupg-1.4.21-4.fc27.s390x                                        
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
+dmraid-events-1.0.0.rc16-31.fc26.s390x                           
+├─libdevmapper-event.so.1.02()(64bit)                            device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─device-mapper-event                                            device-mapper-event-1.02.142-4.fc27.s390x
+├─libdmraid.so.1()(64bit)                                        dmraid-1.0.0.rc16-31.fc26.s390x
+├─libdmraid.so.1(Base)(64bit)                                    dmraid-1.0.0.rc16-31.fc26.s390x
+├─sgpio                                                          sgpio-1.2.0.10-17.fc26.s390x
+└─dmraid = 1.0.0.rc16-31.fc26                                    dmraid-1.0.0.rc16-31.fc26.s390x
+libaio-0.3.110-7.fc26.s390x                                      
+s390utils-cmsfs-2:1.37.1-1.fc27.s390x                            
+s390utils-cpuplugd-2:1.37.1-1.fc27.s390x                         
+s390utils-iucvterm-2:1.37.1-1.fc27.s390x                         
+s390utils-mon_statd-2:1.37.1-1.fc27.s390x                        
+s390utils-osasnmpd-2:1.37.1-1.fc27.s390x                         
+├─libnetsnmp.so.30()(64bit)                                      net-snmp-libs-1:5.7.3-20.fc27.s390x
+├─libnetsnmpagent.so.30()(64bit)                                 net-snmp-agent-libs-1:5.7.3-20.fc27.s390x
+├─libnetsnmpmibs.so.30()(64bit)                                  net-snmp-agent-libs-1:5.7.3-20.fc27.s390x
+└─net-snmp                                                       net-snmp-1:5.7.3-20.fc27.s390x
+s390utils-ziomon-2:1.37.1-1.fc27.s390x                           
+├─rsync                                                          rsync-3.1.2-5.fc27.s390x
+├─device-mapper-multipath                                        device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
+├─blktrace                                                       blktrace-1.1.0-4.fc26.s390x
+libmodman-2.0.1-14.fc27.s390x                                    
 python3-asn1crypto-0.22.0-2.fc27.noarch                          
 python3-cffi-1.10.0-1.fc27.s390x                                 
 ├─python3-pycparser                                              python3-pycparser-2.14-10.fc26.noarch
+sgpio-1.2.0.10-17.fc26.s390x                                     
+blktrace-1.1.0-4.fc26.s390x                                      
+├─python                                                         python2-2.7.13-12.fc27.s390x
+├─libaio.so.1()(64bit)                                           libaio-0.3.110-7.fc26.s390x
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                 libaio-0.3.110-7.fc26.s390x
+└─libaio.so.1(LIBAIO_0.4)(64bit)                                 libaio-0.3.110-7.fc26.s390x
 python3-pycparser-2.14-10.fc26.noarch                            
 ├─python3-ply                                                    python3-ply-3.9-3.fc27.noarch
+python2-2.7.13-12.fc27.s390x                                     
+├─libpython2.7.so.1.0()(64bit)                                   python2-libs-2.7.13-12.fc27.s390x
+├─python2-setuptools                                             python2-setuptools-36.2.0-3.fc27.noarch
+├─python2-pip                                                    python2-pip-9.0.1-11.fc27.noarch
+└─python2-libs(s390-64) = 2.7.13-12.fc27                         python2-libs-2.7.13-12.fc27.s390x
 python3-ply-3.9-3.fc27.noarch                                    
+python2-libs-2.7.13-12.fc27.s390x                                
+├─curl                                                           curl-minimal-7.55.0-1.fc27.s390x
 cracklib-dicts-2.9.6-7.fc27.s390x                                
+firewalld-0.4.4.5-3.fc27.noarch                                  
+├─ebtables                                                       ebtables-2.0.10-22.fc26.s390x
+├─ipset                                                          ipset-6.29-3.fc27.s390x
+├─firewalld-filesystem = 0.4.4.5-3.fc27                          firewalld-filesystem-0.4.4.5-3.fc27.noarch
+└─python3-firewall = 0.4.4.5-3.fc27                              python3-firewall-0.4.4.5-3.fc27.noarch
+ebtables-2.0.10-22.fc26.s390x                                    
+ipset-6.29-3.fc27.s390x                                          
+├─libipset.so.3()(64bit)                                         ipset-libs-6.29-3.fc27.s390x
+├─libipset.so.3(LIBIPSET_1.0)(64bit)                             ipset-libs-6.29-3.fc27.s390x
+├─libipset.so.3(LIBIPSET_2.0)(64bit)                             ipset-libs-6.29-3.fc27.s390x
+├─libipset.so.3(LIBIPSET_3.0)(64bit)                             ipset-libs-6.29-3.fc27.s390x
+└─ipset-libs(s390-64) = 6.29-3.fc27                              ipset-libs-6.29-3.fc27.s390x
+firewalld-filesystem-0.4.4.5-3.fc27.noarch                       
+python3-firewall-0.4.4.5-3.fc27.noarch                           
+├─python3-dbus                                                   python3-dbus-1.2.4-6.fc26.s390x
+├─python3-gobject-base                                           python3-gobject-base-3.24.1-1.fc27.s390x
+├─python3-decorator                                              python3-decorator-4.0.11-2.fc26.noarch
+├─python3-slip-dbus                                              python3-slip-dbus-0.6.4-6.fc26.noarch
+ipset-libs-6.29-3.fc27.s390x                                     
+python3-decorator-4.0.11-2.fc26.noarch                           
+python3-slip-dbus-0.6.4-6.fc26.noarch                            
+├─python3-decorator                                              python3-decorator-4.0.11-2.fc26.noarch
+├─python3-slip = 0.6.4-6.fc26                                    python3-slip-0.6.4-6.fc26.noarch
+└─python3-dbus >= 0.80                                           python3-dbus-1.2.4-6.fc26.s390x
+python3-slip-0.6.4-6.fc26.noarch                                 
+├─libselinux-python3                                             libselinux-python3-2.7-1.fc27.s390x
 └─glibc-langpack = 2.26-1.fc27.1                                 glibc-langpack-en-2.26-1.fc27.1.s390x
 glibc-langpack-en-2.26-1.fc27.1.s390x                            
+libselinux-python3-2.7-1.fc27.s390x                              
+libselinux-utils-2.7-1.fc27.s390x                                
+parted-3.2-26.fc27.s390x                                         
 python3-coverage-4.4.1-2.fc27.s390x                              
 python3-kickstart-2.37-1.fc27.noarch                             
 ├─python3-ordered-set                                            python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-requests                                               python3-requests-2.18.1-2.fc27.noarch
 python3-pwquality-1.4.0-3.fc27.s390x                             
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x            
+├─libmpathcmd.so.0()(64bit)                                      device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
+├─libmpathpersist.so.0()(64bit)                                  device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
+├─libmultipath.so.0()(64bit)                                     device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
+├─liburcu.so.6()(64bit)                                          userspace-rcu-0.10.0-1.fc27.s390x
+├─device-mapper-multipath-libs = 0.7.1-6.git847cc43.fc27         device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
+├─kpartx = 0.7.1-6.git847cc43.fc27                               kpartx-0.7.1-6.git847cc43.fc27.s390x
+userspace-rcu-0.10.0-1.fc27.s390x                                
+device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x       
+├─liburcu.so.6()(64bit)                                          userspace-rcu-0.10.0-1.fc27.s390x
+├─libaio.so.1()(64bit)                                           libaio-0.3.110-7.fc26.s390x
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                 libaio-0.3.110-7.fc26.s390x
+└─libaio.so.1(LIBAIO_0.4)(64bit)                                 libaio-0.3.110-7.fc26.s390x
+kpartx-0.7.1-6.git847cc43.fc27.s390x                             
+net-snmp-1:5.7.3-20.fc27.s390x                                   
+├─libnetsnmp.so.30()(64bit)                                      net-snmp-libs-1:5.7.3-20.fc27.s390x
+├─libnetsnmpagent.so.30()(64bit)                                 net-snmp-agent-libs-1:5.7.3-20.fc27.s390x
+├─libnetsnmpmibs.so.30()(64bit)                                  net-snmp-agent-libs-1:5.7.3-20.fc27.s390x
+├─libnetsnmptrapd.so.30()(64bit)                                 net-snmp-agent-libs-1:5.7.3-20.fc27.s390x
+├─libmariadb.so.3()(64bit)                                       mariadb-libs-3:10.2.7-2.fc27.s390x
+├─net-snmp-libs(s390-64) = 1:5.7.3-20.fc27                       net-snmp-libs-1:5.7.3-20.fc27.s390x
+└─net-snmp-agent-libs(s390-64) = 1:5.7.3-20.fc27                 net-snmp-agent-libs-1:5.7.3-20.fc27.s390x
+mariadb-libs-3:10.2.7-2.fc27.s390x                               
+└─mariadb-common(s390-64) = 3:10.2.7-2.fc27                      mariadb-common-3:10.2.7-2.fc27.s390x
+net-snmp-agent-libs-1:5.7.3-20.fc27.s390x                        
+├─libnetsnmp.so.30()(64bit)                                      net-snmp-libs-1:5.7.3-20.fc27.s390x
+├─libmariadb.so.3()(64bit)                                       mariadb-libs-3:10.2.7-2.fc27.s390x
+├─libmariadb.so.3(libmysqlclient_18)(64bit)                      mariadb-libs-3:10.2.7-2.fc27.s390x
+└─net-snmp-libs(s390-64) = 1:5.7.3-20.fc27                       net-snmp-libs-1:5.7.3-20.fc27.s390x
+net-snmp-libs-1:5.7.3-20.fc27.s390x                              
+mariadb-common-3:10.2.7-2.fc27.s390x                             
+└─/etc/my.cnf                                                    mariadb-config-3:10.2.7-2.fc27.s390x
+mariadb-config-3:10.2.7-2.fc27.s390x                             
+python2-pip-9.0.1-11.fc27.noarch                                 
+├─python-setuptools                                              python2-setuptools-36.2.0-3.fc27.noarch
+├─/usr/bin/python2                                               python2-2.7.13-12.fc27.s390x
+└─python(abi) = 2.7                                              python2-2.7.13-12.fc27.s390x
+python2-setuptools-36.2.0-3.fc27.noarch                          
+├─/usr/bin/python2                                               python2-2.7.13-12.fc27.s390x
+└─python(abi) = 2.7                                              python2-2.7.13-12.fc27.s390x
+device-mapper-event-1.02.142-4.fc27.s390x                        
+├─libdevmapper-event.so.1.02()(64bit)                            device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─libdevmapper-event.so.1.02(Base)(64bit)                        device-mapper-event-libs-1.02.142-4.fc27.s390x
+└─device-mapper-event-libs = 1.02.142-4.fc27                     device-mapper-event-libs-1.02.142-4.fc27.s390x
+device-mapper-event-libs-1.02.142-4.fc27.s390x                   
+lvm2-2.02.173-4.fc27.s390x                                       
+├─libdevmapper-event.so.1.02()(64bit)                            device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─libdevmapper-event.so.1.02(Base)(64bit)                        device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─liblvm2app.so.2.2()(64bit)                                     lvm2-libs-2.02.173-4.fc27.s390x
+├─liblvm2app.so.2.2(Base)(64bit)                                 lvm2-libs-2.02.173-4.fc27.s390x
+├─lvm2-libs = 2.02.173-4.fc27                                    lvm2-libs-2.02.173-4.fc27.s390x
+├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.s390x
+lvm2-libs-2.02.173-4.fc27.s390x                                  
+├─libdevmapper-event.so.1.02()(64bit)                            device-mapper-event-libs-1.02.142-4.fc27.s390x
+├─libdevmapper-event.so.1.02(Base)(64bit)                        device-mapper-event-libs-1.02.142-4.fc27.s390x
+└─device-mapper-event = 1.02.142-4.fc27                          device-mapper-event-1.02.142-4.fc27.s390x
 lz4-1.7.5-6.fc27.s390x                                           
+libpsl-0.17.0-4.fc27.s390x                                       
+└─publicsuffix-list-dafsa                                        publicsuffix-list-dafsa-20170424-2.fc27.noarch
+publicsuffix-list-dafsa-20170424-2.fc27.noarch                   
+libcurl-minimal-7.55.0-1.fc27.s390x                              
+curl-minimal-7.55.0-1.fc27.s390x                                 
+├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.s390x
+└─libcurl(s390-64) >= 7.55.0-1.fc27                              libcurl-minimal-7.55.0-1.fc27.s390x

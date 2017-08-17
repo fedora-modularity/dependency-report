@@ -8,14 +8,8 @@ license:
 dependencies:
     buildrequires:
             platform: master
-            systemtap: master
-            autotools: master
-            platform-placeholder: master
     requires:
             platform: master
-            networking-base: master
-            storage-devices: master
-            platform-placeholder: master
 references:
     community: https://docs.pagure.org/modularity/
     documentation: https://github.com/modularity-modules/installer
@@ -28,39 +22,225 @@ components:
             augeas:
                 rationale: Generated.
                 ref: 62ecc80b426abc61d3658f2ccb6daa2c9c0f56a3
+            authconfig:
+                rationale: Generated.
+                ref: 936d4c04b972e056f9d2ccfb0d8102f43ee9e625
+            bcache-tools:
+                rationale: Generated.
+                ref: 8fe2f35e38695da0f156877d57e091586e0213f8
+            blktrace:
+                rationale: Generated.
+                ref: 60a8aefa8a758c40b2069601bcff987a5a290074
+            boost:
+                rationale: Generated.
+                ref: a919cdd969baea630179b96609f0204b48ecc174
+            ceph:
+                rationale: Generated.
+                ref: master
             chrony:
                 rationale: Generated.
                 ref: 3f9c9e5a2a07bef6c3e180a456333e0d9709da46
             createrepo_c:
                 rationale: Generated.
                 ref: 6a445f4aa70d5b34820425f6502335efff3c3ff0
+            dbus-glib:
+                rationale: Generated.
+                ref: 109eff38b1821950e70c3872e5d29ef70ad499d1
+            dbus-python:
+                rationale: Generated.
+                ref: f72afe1ccb703b8913c0519a97dd9617fde7bfa8
+            device-mapper-multipath:
+                rationale: Generated.
+                ref: f0da3f91e8161ff632fc3d8e17b2878f71fff181
+            device-mapper-persistent-data:
+                rationale: Generated.
+                ref: a9f94b0fd5a4519549596ece7b90547abdca40f7
+            dmraid:
+                rationale: Generated.
+                ref: 40037cc251c95b01658e0fe54def79d5a688cc9b
+            dosfstools:
+                rationale: Generated.
+                ref: 583cba6c622aa10aaff5dd7d490d9425aa6e9829
             drpm:
                 rationale: Generated.
                 ref: a15a225621e8f2347b1f605b0506999669ba30ce
+            ebtables:
+                rationale: Generated.
+                ref: b0905b550e13833635db0442a04a7ade62ec37cf
+            ethtool:
+                rationale: Generated.
+                ref: master
+            fcoe-utils:
+                rationale: Generated.
+                ref: 072cb4d2459d1f2aab821048432cdaaf7820a379
+            firewalld:
+                rationale: Generated.
+                ref: 1577a1a93155892f2001163d0d6b0bec76a3800c
+            gdisk:
+                rationale: Generated.
+                ref: 8eac9df1ba25b617275abcfd367a6a645a761bad
+            gnupg:
+                rationale: Generated.
+                ref: 757fd2e9192482a7e4f4c3f1d54f43e8a06cc091
+            hfsplus-tools:
+                rationale: Generated.
+                ref: b7d09eb9769bc56a533e0f758a673e616b3f348b
+            hostname:
+                rationale: Generated.
+                ref: 0295eebd4fdb0f743622697699cb24452e134921
+            hwdata:
+                rationale: Generated.
+                ref: fc7f28e56cb6d785175a1ed5b40f09a643bb4525
+            initscripts:
+                rationale: Generated.
+                ref: 243b64adc19b7c1077b416850f03158637dd78b4
+            ipset:
+                rationale: Generated.
+                ref: c7c6edae6344b25b2cca52d97be3fbfc43719ef8
+            iscsi-initiator-utils:
+                rationale: Generated.
+                ref: f434b57711e0d722dd7619635d51edcabe51c417
+            isns-utils:
+                rationale: Generated.
+                ref: a67b480ca2c6a93493422eeff383944681560808
             isomd5sum:
                 rationale: Generated.
                 ref: master
+            jansson:
+                rationale: Generated.
+                ref: 5a3b3722e45402e7aea4ef5fd4777cc09e4ccccf
             json-c:
                 rationale: Generated.
                 ref: 4bce577b3b7f3a3e96df9b404aee3094733d699c
+            kbd:
+                rationale: Generated.
+                ref: 662a2c6744cba8c78e0c1f6cb91df6abcf56222e
+            kexec-tools:
+                rationale: Generated.
+                ref: 06b35b224d805693103b4a5228ab2e136566b875
             langtable:
                 rationale: Generated.
                 ref: da6f416d901a82cb17534964271937bf2435fe18
+            libaio:
+                rationale: Generated.
+                ref: db11cf2785cee8d274c6640edf9a7078c2509012
+            libblockdev:
+                rationale: Generated.
+                ref: 05f68dddf4d1fbe73a3cc57d1588eb13f59994ec
+            libbytesize:
+                rationale: Generated.
+                ref: 2e0df4271d646e63c1915ae0a9a6b50be9ea667c
+            libconfig:
+                rationale: Generated.
+                ref: d6d9b7d012624c9fa4905bb5f9b24004bd445414
+            libdaemon:
+                rationale: Generated.
+                ref: cded0af21e7f3e8521bc610ae94b1227be52ca1b
+            libmodman:
+                rationale: Generated.
+                ref: ef684635616a14e7971a97b31e60d933a2ddf092
+            libndp:
+                rationale: Generated.
+                ref: 743399d6336993a1d6a953ac8c4d1f42bfbf2743
+            libnl3:
+                rationale: Generated.
+                ref: 0322f3c312a944dbe41d94d2e547a974a6ca4170
+            libpciaccess:
+                rationale: Generated.
+                ref: 14af11625e1c86b564e7eef18cc8318714c11df1
+            libproxy:
+                rationale: Generated.
+                ref: 322421492241d4ee77f545a9b03f52d26074b18a
+            libpsl:
+                rationale: Generated.
+                ref: d3613d3a2dca95c0afccfd32440e8343c0c70113
             libtar:
                 rationale: Generated.
                 ref: 8ae2336f58da6ce1bad083d08a852e212aeab55c
+            libteam:
+                rationale: Generated.
+                ref: 759cffa83a08af5feb876d0017714ec0ce5f3d2e
+            libusb:
+                rationale: Generated.
+                ref: master
+            libuser:
+                rationale: Generated.
+                ref: 3342f4c810c4fae54bee8834ae641b41dbc3e51f
+            lldpad:
+                rationale: Generated.
+                ref: b09c517b525800047d520c56a8ee9dc27cfd9715
+            lsof:
+                rationale: Generated.
+                ref: 1cff8ff2e4bca66433aa3839bff41ee8330d55e2
+            lttng-ust:
+                rationale: Generated.
+                ref: 01030246dacfec2941d27246e06a9f5779edcc89
+            mariadb:
+                rationale: Generated.
+                ref: master
+            mdadm:
+                rationale: Generated.
+                ref: bf6fddd70ef09d52a81c3f672b0d162edc7fdcf7
+            net-snmp:
+                rationale: Generated.
+                ref: master
+            NetworkManager:
+                rationale: Generated.
+                ref: master
+            parted:
+                rationale: Generated.
+                ref: a0d503db4cd33a616b41a4100f96d1bf880538c7
+            passwd:
+                rationale: Generated.
+                ref: 80e1e5a6a422c0cbd6d6b1126cc2d9fa07257284
+            policycoreutils:
+                rationale: Generated.
+                ref: b185f8151d518e94376a442b9609fc95b7213bf4
+            polkit:
+                rationale: Generated.
+                ref: fa6fd575804de92886c95d3bc2b7eb2abcd13760
+            publicsuffix-list:
+                rationale: Generated.
+                ref: 4d71f58200ed82a8f953b802f804a2342a1cd1c4
+            pygobject3:
+                rationale: Generated.
+                ref: e962eea998a45f79fd7ee554bb2dc7993069c2b6
             pykickstart:
                 rationale: Generated.
                 ref: b2df1af3f0b9ef907a07763ebccbbda71dca849e
+            pyOpenSSL:
+                rationale: Generated.
+                ref: b9e13c5618e956396d6ef8c7977fe3852cf40a7d
             pyparted:
                 rationale: Generated.
                 ref: master
+            python2:
+                rationale: Generated.
+                ref: 916477c6e62ae053c2aec5bd240159636c0bdb82
+            python-asn1crypto:
+                rationale: Generated.
+                ref: f7c7f9c502c29054a63bfef39eb6c17743ff0ff8
             python-blivet:
                 rationale: Generated.
                 ref: master
+            python-cffi:
+                rationale: Generated.
+                ref: 1d01b4e994aed082de2f73a8624f709a8876131d
+            python-chardet:
+                rationale: Generated.
+                ref: 5737c81db4f5ac4cb9e96d9d61b011aee4c1a55d
             python-coverage:
                 rationale: Generated.
                 ref: 307507d651510ff72d9c9853222cc6cc851563e5
+            python-cryptography:
+                rationale: Generated.
+                ref: aababb350678da8e2496c44e1363990ca48be2e5
+            python-decorator:
+                rationale: Generated.
+                ref: e9e7a725a1e2cca641fb015646832bfd76f4d423
+            python-idna:
+                rationale: Generated.
+                ref: cc119a3381a555cf6b615b05948df6c44b5c8fc9
             python-meh:
                 rationale: Generated.
                 ref: 437db681c5af5de9f68cbdc1e35557c37d391d79
@@ -73,15 +253,66 @@ components:
             python-pid:
                 rationale: Generated.
                 ref: 13adda6be6845d5081979a767faab1f042291f72
+            python-ply:
+                rationale: Generated.
+                ref: d1bc9a00f3adaada60530d4e77c9ec9d0ff09761
+            python-pycparser:
+                rationale: Generated.
+                ref: e2ddbc1e31710ea37027354c53ff26fd73e5f60e
+            python-pysocks:
+                rationale: Generated.
+                ref: 872319be9916093adbfa233f12adc10cfeb58c9e
+            python-pyudev:
+                rationale: Generated.
+                ref: 0b559a8cea17c5298e68d138789ee9e107164e07
+            python-requests:
+                rationale: Generated.
+                ref: 42ab4cc57f4784dcf8d66088a94e3277810013d2
             python-requests-file:
                 rationale: Generated.
                 ref: cd3543eceb80870578cb38eb497c6e9de243cf05
             python-requests-ftp:
                 rationale: Generated.
                 ref: 6536642315f0e64daf6c8d166da60b205493c7bd
+            python-slip:
+                rationale: Generated.
+                ref: 7dd00c2d1435109a7e51509797e590b38697c0ca
+            python-urllib3:
+                rationale: Generated.
+                ref: ebed52294ddbc398b9c35bdde10fdcbdbdcab699
             python-wrapt:
                 rationale: Generated.
                 ref: b45c3f2f6d5516d275f1840097c8e0be398a8ce0
+            pytz:
+                rationale: Generated.
+                ref: 8da39891076bf410584df48a0b486e71c4dee358
+            realmd:
+                rationale: Generated.
+                ref: 0990f92a835f9f8afb172beb016c2c9364006f33
+            rsync:
+                rationale: Generated.
+                ref: 8b7a75d2bf3aacabb6ffa2446328003af7d50ff4
             satyr:
                 rationale: Generated.
                 ref: acb9b8cb6495fe672cda7a05c3b559ef1472e7b5
+            sgpio:
+                rationale: Generated.
+                ref: b33bf5ea88fbe710366842cf9375f1906001dc1e
+            snappy:
+                rationale: Generated.
+                ref: 4e1d0eafc0fabe79b5ea74e2bf5f42079cb146c2
+            sssd:
+                rationale: Generated.
+                ref: ca67484fda279c34f11a8469ed54a9891d881a23
+            usermode:
+                rationale: Generated.
+                ref: 124aec2cb3cc9910f5abbb1560d49157488136af
+            userspace-rcu:
+                rationale: Generated.
+                ref: 11164566575f944b2d3b6a44b1d95ef34000d5a6
+            volume_key:
+                rationale: Generated.
+                ref: 2aaaf551a42d5455933972a9655d42ae2ee587f4
+            xmlrpc-c:
+                rationale: Generated.
+                ref: cd1fc7a8922d08eb4cc03b630e8e83bcec6a3436

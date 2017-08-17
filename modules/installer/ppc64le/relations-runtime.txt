@@ -2,54 +2,119 @@ anaconda-tui-27.19-4.fc27.ppc64le
 └─anaconda-core = 27.19-4.fc27                                     anaconda-core-27.19-4.fc27.ppc64le
 anaconda-core-27.19-4.fc27.ppc64le                                 
 ├─cracklib-dicts                                                   cracklib-dicts-2.9.6-7.fc27.ppc64le
+├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.ppc64le
 ├─glibc-langpack-en                                                glibc-langpack-en-2.26-1.fc27.1.ppc64le
+├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.ppc64le
 ├─python3-pwquality                                                python3-pwquality-1.4.0-3.fc27.ppc64le
 ├─createrepo_c                                                     createrepo_c-0.10.0-9.fc26.ppc64le
+├─kbd                                                              kbd-2.0.4-2.fc26.ppc64le
 ├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
+├─NetworkManager-team                                              NetworkManager-team-1:1.8.0-6.fc27.ppc64le
+├─authconfig                                                       authconfig-7.0.1-1.fc27.ppc64le
 ├─chrony                                                           chrony-3.1-5.fc27.ppc64le
+├─kexec-tools                                                      kexec-tools-2.0.15-4.fc27.ppc64le
 ├─python3-ntplib                                                   python3-ntplib-0.3.3-6.fc26.noarch
 ├─python3-pid                                                      python3-pid-2.1.1-3.fc26.noarch
 ├─python3-pytz                                                     python3-pytz-2017.2-1.fc27.noarch
 ├─python3-requests-file                                            python3-requests-file-1.4-6.fc26.noarch
 ├─python3-requests-ftp                                             python3-requests-ftp-0.3.1-6.fc26.noarch
 ├─python3-wrapt                                                    python3-wrapt-1.10.10-1.fc27.ppc64le
+├─realmd                                                           realmd-0.16.3-5.fc27.ppc64le
+├─rsync                                                            rsync-3.1.2-5.fc27.ppc64le
+├─teamd                                                            teamd-1.27-1.fc27.ppc64le
+├─usermode                                                         usermode-1.111-10.fc27.ppc64le
 ├─anaconda-tui = 27.19-4.fc27                                      anaconda-tui-27.19-4.fc27.ppc64le
+├─parted >= 1.8.1                                                  parted-3.2-26.fc27.ppc64le
+├─NetworkManager >= 1.0                                            NetworkManager-1:1.8.0-6.fc27.ppc64le
+├─NetworkManager-libnm >= 1.0                                      NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─firewalld >= 0.3.5-1                                             firewalld-0.4.4.5-3.fc27.noarch
 ├─isomd5sum >= 1.0.10                                              isomd5sum-1:1.2.1-1.fc27.ppc64le
 ├─langtable-data >= 0.0.34                                         langtable-data-0.0.37-1.fc26.noarch
 ├─langtable-python3 >= 0.0.34                                      langtable-python3-0.0.37-1.fc26.noarch
+├─libblockdev-plugins-all >= 2.1                                   libblockdev-plugins-all-2.10-1.fc27.ppc64le
 ├─libreport-anaconda >= 2.0.21-1                                   libreport-anaconda-2.9.1-2.fc27.ppc64le
 ├─python3-blivet >= 1:2.1.9-1                                      python3-blivet-1:2.1.9-2.fc27.noarch
+├─python3-blockdev >= 2.1                                          python3-blockdev-2.10-1.fc27.ppc64le
 ├─python3-coverage >= 4.0-0.12.b3                                  python3-coverage-4.4.1-2.fc27.ppc64le
+├─python3-iscsi-initiator-utils >= 6.2.0.873-26                    python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64le
 ├─python3-kickstart >= 2.35-1                                      python3-kickstart-2.37-1.fc27.noarch
 ├─python3-meh >= 0.23-1                                            python3-meh-0.44-4.fc26.noarch
 ├─python3-ordered-set >= 2.0.0                                     python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-pyparted >= 2.5-2                                        python3-pyparted-1:3.11.0-2.fc27.ppc64le
+NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le                        
+├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.ppc64le
+NetworkManager-team-1:1.8.0-6.fc27.ppc64le                         
+├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.ppc64le
+├─libteamdctl.so.0()(64bit)                                        teamd-1.27-1.fc27.ppc64le
+└─NetworkManager(ppc-64) = 1:1.8.0-6.fc27                          NetworkManager-1:1.8.0-6.fc27.ppc64le
+authconfig-7.0.1-1.fc27.ppc64le                                    
+├─policycoreutils                                                  policycoreutils-2.6-5.fc27.ppc64le
+├─python3-sssdconfig                                               python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
 chrony-3.1-5.fc27.ppc64le                                          
 createrepo_c-0.10.0-9.fc26.ppc64le                                 
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
 ├─libdrpm.so.0()(64bit)                                            drpm-0.3.0-6.fc27.ppc64le
 ├─libcreaterepo_c.so.0()(64bit)                                    createrepo_c-libs-0.10.0-9.fc26.ppc64le
 ├─createrepo_c-libs = 0.10.0-9.fc26                                createrepo_c-libs-0.10.0-9.fc26.ppc64le
 isomd5sum-1:1.2.1-1.fc27.ppc64le                                   
+kbd-2.0.4-2.fc26.ppc64le                                           
+├─kbd-legacy = 2.0.4-2.fc26                                        kbd-legacy-2.0.4-2.fc26.noarch
+├─kbd-misc = 2.0.4-2.fc26                                          kbd-misc-2.0.4-2.fc26.noarch
+└─initscripts >= 5.86-1                                            initscripts-9.72-1.fc27.ppc64le
+kexec-tools-2.0.15-4.fc27.ppc64le                                  
+├─libsnappy.so.1()(64bit)                                          snappy-1.1.4-3.fc26.ppc64le
+├─ethtool                                                          ethtool-2:4.8-2.fc26.ppc64le
+└─dracut-network >= 044-117                                        dracut-network-045-18.git20170515.fc27.ppc64le
 langtable-data-0.0.37-1.fc26.noarch                                
 └─langtable = 0.0.37-1.fc26                                        langtable-0.0.37-1.fc26.noarch
 langtable-python3-0.0.37-1.fc26.noarch                             
 ├─langtable = 0.0.37-1.fc26                                        langtable-0.0.37-1.fc26.noarch
 └─langtable-data = 0.0.37-1.fc26                                   langtable-data-0.0.37-1.fc26.noarch
+libblockdev-plugins-all-2.10-1.fc27.ppc64le                        
+├─libblockdev(ppc-64) = 2.10-1.fc27                                libblockdev-2.10-1.fc27.ppc64le
+├─libblockdev-btrfs(ppc-64) = 2.10-1.fc27                          libblockdev-btrfs-2.10-1.fc27.ppc64le
+├─libblockdev-crypto(ppc-64) = 2.10-1.fc27                         libblockdev-crypto-2.10-1.fc27.ppc64le
+├─libblockdev-dm(ppc-64) = 2.10-1.fc27                             libblockdev-dm-2.10-1.fc27.ppc64le
+├─libblockdev-fs(ppc-64) = 2.10-1.fc27                             libblockdev-fs-2.10-1.fc27.ppc64le
+├─libblockdev-kbd(ppc-64) = 2.10-1.fc27                            libblockdev-kbd-2.10-1.fc27.ppc64le
+├─libblockdev-loop(ppc-64) = 2.10-1.fc27                           libblockdev-loop-2.10-1.fc27.ppc64le
+├─libblockdev-lvm(ppc-64) = 2.10-1.fc27                            libblockdev-lvm-2.10-1.fc27.ppc64le
+├─libblockdev-mdraid(ppc-64) = 2.10-1.fc27                         libblockdev-mdraid-2.10-1.fc27.ppc64le
+├─libblockdev-mpath(ppc-64) = 2.10-1.fc27                          libblockdev-mpath-2.10-1.fc27.ppc64le
+├─libblockdev-part(ppc-64) = 2.10-1.fc27                           libblockdev-part-2.10-1.fc27.ppc64le
+└─libblockdev-swap(ppc-64) = 2.10-1.fc27                           libblockdev-swap-2.10-1.fc27.ppc64le
 libreport-anaconda-2.9.1-2.fc27.ppc64le                            
 ├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.ppc64le
 ├─libreport-plugin-bugzilla = 2.9.1-2.fc27                         libreport-plugin-bugzilla-2.9.1-2.fc27.ppc64le
 └─libreport-plugin-reportuploader = 2.9.1-2.fc27                   libreport-plugin-reportuploader-2.9.1-2.fc27.ppc64le
 python3-blivet-1:2.1.9-2.fc27.noarch                               
+├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.ppc64le
+├─dosfstools                                                       dosfstools-4.1-2.fc26.ppc64le
+├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.ppc64le
+├─lsof                                                             lsof-4.89-5.fc26.ppc64le
 ├─python3-kickstart                                                python3-kickstart-2.37-1.fc27.noarch
+├─parted >= 1.8.1                                                  parted-3.2-26.fc27.ppc64le
+├─libblockdev-plugins-all >= 2.6                                   libblockdev-plugins-all-2.10-1.fc27.ppc64le
+├─python3-blockdev >= 2.6                                          python3-blockdev-2.10-1.fc27.ppc64le
 ├─python3-bytesize >= 0.3                                          python3-bytesize-0.11-1.fc27.ppc64le
 ├─python3-pyparted >= 3.10.4                                       python3-pyparted-1:3.11.0-2.fc27.ppc64le
+└─python3-pyudev >= 0.18                                           python3-pyudev-0.21.0-3.fc26.noarch
+python3-blockdev-2.10-1.fc27.ppc64le                               
+├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.ppc64le
+└─libblockdev(ppc-64) = 2.10-1.fc27                                libblockdev-2.10-1.fc27.ppc64le
+python3-dbus-1.2.4-6.fc26.ppc64le                                  
+├─libdbus-glib-1.so.2()(64bit)                                     dbus-glib-0.108-2.fc26.ppc64le
+python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64le  
+├─libiscsi.so.0()(64bit)                                           iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64le
 python3-meh-0.44-4.fc26.noarch                                     
+├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.ppc64le
 ├─libreport-cli >= 2.0.18-1                                        libreport-cli-2.9.1-2.fc27.ppc64le
 └─libreport-python3 >= 2.0.18-1                                    libreport-python3-2.9.1-2.fc27.ppc64le
 python3-ntplib-0.3.3-6.fc26.noarch                                 
 python3-ordered-set-2.0.0-6.fc26.noarch                            
 python3-pid-2.1.1-3.fc26.noarch                                    
 python3-pyparted-1:3.11.0-2.fc27.ppc64le                           
+├─libparted.so.2()(64bit)                                          parted-3.2-26.fc27.ppc64le
 python3-pytz-2017.2-1.fc27.noarch                                  
 python3-requests-2.18.1-2.fc27.noarch                              
 ├─python3-chardet                                                  python3-chardet-3.0.4-1.fc27.noarch
@@ -60,10 +125,110 @@ python3-requests-file-1.4-6.fc26.noarch
 python3-requests-ftp-0.3.1-6.fc26.noarch                           
 ├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
 python3-wrapt-1.10.10-1.fc27.ppc64le                               
+realmd-0.16.3-5.fc27.ppc64le                                       
+├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.ppc64le
+└─authconfig                                                       authconfig-7.0.1-1.fc27.ppc64le
+rsync-3.1.2-5.fc27.ppc64le                                         
+teamd-1.27-1.fc27.ppc64le                                          
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.ppc64le
+├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.ppc64le
+├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.ppc64le
+├─libdaemon.so.0()(64bit)                                          libdaemon-0.14-11.fc26.ppc64le
+├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.ppc64le
+├─libteam.so.5()(64bit)                                            libteam-1.27-1.fc27.ppc64le
+├─libnl-cli-3.so.200()(64bit)                                      libnl3-cli-3.3.0-1.fc27.ppc64le
+└─libteam = 1.27-1.fc27                                            libteam-1.27-1.fc27.ppc64le
+usermode-1.111-10.fc27.ppc64le                                     
+├─libuser.so.1()(64bit)                                            libuser-0.62-9.fc27.ppc64le
+└─passwd                                                           passwd-0.79-9.fc26.ppc64le
+jansson-2.10-2.fc27.ppc64le                                        
+NetworkManager-1:1.8.0-6.fc27.ppc64le                              
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
+├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.ppc64le
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.ppc64le
+├─libnm.so.0()(64bit)                                              NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libjansson.so.4()(64bit)                                         jansson-2.10-2.fc27.ppc64le
+├─libnm.so.0(libnm_1_0_0)(64bit)                                   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libnm.so.0(libnm_1_2_0)(64bit)                                   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libpolkit-agent-1.so.0()(64bit)                                  polkit-libs-0.113-13.fc27.ppc64le
+├─libnm.so.0(libnm_1_6_0)(64bit)                                   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libpsl.so.5()(64bit)                                             libpsl-0.17.0-4.fc27.ppc64le
+├─libnm.so.0(libnm_1_8_0)(64bit)                                   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libnm.so.0(libnm_1_4_0)(64bit)                                   NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+├─libndp.so.0()(64bit)                                             libndp-1.6-2.fc26.ppc64le
+├─NetworkManager-libnm(ppc-64) = 1:1.8.0-6.fc27                    NetworkManager-libnm-1:1.8.0-6.fc27.ppc64le
+policycoreutils-2.6-5.fc27.ppc64le                                 
+├─libselinux-utils >= 2.6-5                                        libselinux-utils-2.7-1.fc27.ppc64le
+python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                     
 createrepo_c-libs-0.10.0-9.fc26.ppc64le                            
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
 └─libdrpm.so.0()(64bit)                                            drpm-0.3.0-6.fc27.ppc64le
 drpm-0.3.0-6.fc27.ppc64le                                          
+initscripts-9.72-1.fc27.ppc64le                                    
+├─hostname                                                         hostname-3.18-2.fc26.ppc64le
+kbd-legacy-2.0.4-2.fc26.noarch                                     
+kbd-misc-2.0.4-2.fc26.noarch                                       
+dracut-network-045-18.git20170515.fc27.ppc64le                     
+ethtool-2:4.8-2.fc26.ppc64le                                       
+snappy-1.1.4-3.fc26.ppc64le                                        
 langtable-0.0.37-1.fc26.noarch                                     
+libblockdev-2.10-1.fc27.ppc64le                                    
+└─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-btrfs-2.10-1.fc27.ppc64le                              
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─libbytesize.so.1()(64bit)                                        libbytesize-0.11-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-crypto-2.10-1.fc27.ppc64le                             
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+└─libvolume_key.so.1()(64bit)                                      volume_key-libs-0.3.9-13.fc27.ppc64le
+libblockdev-dm-2.10-1.fc27.ppc64le                                 
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─dmraid                                                           dmraid-1.0.0.rc16-31.fc26.ppc64le
+├─libdmraid.so.1()(64bit)                                          dmraid-1.0.0.rc16-31.fc26.ppc64le
+├─libdmraid.so.1(Base)(64bit)                                      dmraid-1.0.0.rc16-31.fc26.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-fs-2.10-1.fc27.ppc64le                                 
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64le
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─libparted.so.2()(64bit)                                          parted-3.2-26.fc27.ppc64le
+├─libparted-fs-resize.so.0()(64bit)                                parted-3.2-26.fc27.ppc64le
+├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit)       parted-3.2-26.fc27.ppc64le
+├─libbd_part_err.so.2()(64bit)                                     libblockdev-utils-2.10-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-kbd-2.10-1.fc27.ppc64le                                
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+└─bcache-tools >= 1.0.8                                            bcache-tools-1.0.8-8.fc26.ppc64le
+libblockdev-loop-2.10-1.fc27.ppc64le                               
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-lvm-2.10-1.fc27.ppc64le                                
+├─lvm2                                                             lvm2-2.02.173-4.fc27.ppc64le
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─device-mapper-persistent-data                                    device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-mdraid-2.10-1.fc27.ppc64le                             
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─mdadm                                                            mdadm-4.0-3.fc27.ppc64le
+├─libbytesize.so.1()(64bit)                                        libbytesize-0.11-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-mpath-2.10-1.fc27.ppc64le                              
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64le
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-part-2.10-1.fc27.ppc64le                               
+├─device-mapper-multipath                                          device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64le
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+├─libparted.so.2()(64bit)                                          parted-3.2-26.fc27.ppc64le
+├─gdisk                                                            gdisk-1.0.1-3.fc26.ppc64le
+├─libparted-fs-resize.so.0()(64bit)                                parted-3.2-26.fc27.ppc64le
+├─libbd_part_err.so.2()(64bit)                                     libblockdev-utils-2.10-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
+libblockdev-swap-2.10-1.fc27.ppc64le                               
+├─libbd_utils.so.2()(64bit)                                        libblockdev-utils-2.10-1.fc27.ppc64le
+└─libblockdev-utils(ppc-64) >= 0.11                                libblockdev-utils-2.10-1.fc27.ppc64le
 libreport-2.9.1-2.fc27.ppc64le                                     
 ├─libsatyr.so.3()(64bit)                                           satyr-0.23-1.fc27.ppc64le
 ├─libaugeas.so.0()(64bit)                                          augeas-libs-1.8.0-1.fc27.ppc64le
@@ -74,24 +239,45 @@ libreport-2.9.1-2.fc27.ppc64le
 ├─libaugeas.so.0(AUGEAS_0.10.0)(64bit)                             augeas-libs-1.8.0-1.fc27.ppc64le
 ├─satyr >= 0.22                                                    satyr-0.23-1.fc27.ppc64le
 libreport-plugin-bugzilla-2.9.1-2.fc27.ppc64le                     
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
 ├─libjson-c.so.2()(64bit)                                          json-c-0.12.1-2.fc27.ppc64le
 ├─libsatyr.so.3()(64bit)                                           satyr-0.23-1.fc27.ppc64le
 ├─libreport.so.0()(64bit)                                          libreport-2.9.1-2.fc27.ppc64le
 ├─libaugeas.so.0()(64bit)                                          augeas-libs-1.8.0-1.fc27.ppc64le
+├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.ppc64le
 ├─libtar.so.1()(64bit)                                             libtar-1.2.20-9.fc26.ppc64le
+├─libxmlrpc.so.3()(64bit)                                          xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_util.so.4()(64bit)                                     xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_client.so.3()(64bit)                                   xmlrpc-c-client-1.48.0-5.fc27.ppc64le
 ├─libreport-web.so.0()(64bit)                                      libreport-web-2.9.1-2.fc27.ppc64le
 ├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.ppc64le
 └─libreport-web = 2.9.1-2.fc27                                     libreport-web-2.9.1-2.fc27.ppc64le
 libreport-plugin-reportuploader-2.9.1-2.fc27.ppc64le               
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
 ├─libjson-c.so.2()(64bit)                                          json-c-0.12.1-2.fc27.ppc64le
 ├─libsatyr.so.3()(64bit)                                           satyr-0.23-1.fc27.ppc64le
 ├─libreport.so.0()(64bit)                                          libreport-2.9.1-2.fc27.ppc64le
 ├─libaugeas.so.0()(64bit)                                          augeas-libs-1.8.0-1.fc27.ppc64le
+├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.ppc64le
 ├─libtar.so.1()(64bit)                                             libtar-1.2.20-9.fc26.ppc64le
+├─libxmlrpc.so.3()(64bit)                                          xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_util.so.4()(64bit)                                     xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_client.so.3()(64bit)                                   xmlrpc-c-client-1.48.0-5.fc27.ppc64le
 ├─libreport-web.so.0()(64bit)                                      libreport-web-2.9.1-2.fc27.ppc64le
 ├─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.ppc64le
 └─libreport-web = 2.9.1-2.fc27                                     libreport-web-2.9.1-2.fc27.ppc64le
+dosfstools-4.1-2.fc26.ppc64le                                      
+lsof-4.89-5.fc26.ppc64le                                           
 python3-bytesize-0.11-1.fc27.ppc64le                               
+└─libbytesize(ppc-64) = 0.11-1.fc27                                libbytesize-0.11-1.fc27.ppc64le
+python3-gobject-base-3.24.1-1.fc27.ppc64le                         
+python3-pyudev-0.21.0-3.fc26.noarch                                
+dbus-glib-0.108-2.fc26.ppc64le                                     
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
+iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64le          
+├─libisns.so.0()(64bit)                                            isns-utils-libs-0.97-3.fc27.ppc64le
+├─libisns.so.0(LIBISNS_0.96)(64bit)                                isns-utils-libs-0.97-3.fc27.ppc64le
+└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27    iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.ppc64le
 libreport-cli-2.9.1-2.fc27.ppc64le                                 
 ├─libsatyr.so.3()(64bit)                                           satyr-0.23-1.fc27.ppc64le
 ├─libreport.so.0()(64bit)                                          libreport-2.9.1-2.fc27.ppc64le
@@ -111,17 +297,83 @@ python3-urllib3-1.21.1-1.fc27.noarch
 ├─python3-cryptography                                             python3-cryptography-1.9-1.fc27.ppc64le
 ├─python3-idna                                                     python3-idna-2.5-1.fc27.noarch
 ├─python3-pysocks                                                  python3-pysocks-1.5.7-4.fc26.noarch
+polkit-libs-0.113-13.fc27.ppc64le                                  
+libdaemon-0.14-11.fc26.ppc64le                                     
+libnl3-3.3.0-1.fc27.ppc64le                                        
+libnl3-cli-3.3.0-1.fc27.ppc64le                                    
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-genl-3.so.200(libnl_3)(64bit)                              libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-route-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-idiag-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-route-3.so.200(libnl_3_2_28)(64bit)                        libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-idiag-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-nf-3.so.200(libnl_3)(64bit)                                libnl3-3.3.0-1.fc27.ppc64le
+└─libnl3 = 3.3.0-1.fc27                                            libnl3-3.3.0-1.fc27.ppc64le
+libteam-1.27-1.fc27.ppc64le                                        
+├─libnl-3.so.200()(64bit)                                          libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-3.so.200(libnl_3)(64bit)                                   libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-route-3.so.200()(64bit)                                    libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-genl-3.so.200()(64bit)                                     libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-genl-3.so.200(libnl_3)(64bit)                              libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-route-3.so.200(libnl_3)(64bit)                             libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-nf-3.so.200()(64bit)                                       libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-3.so.200(libnl_3_2_27)(64bit)                              libnl3-3.3.0-1.fc27.ppc64le
+├─libnl-cli-3.so.200()(64bit)                                      libnl3-cli-3.3.0-1.fc27.ppc64le
+└─libnl-cli-3.so.200(libnl_3)(64bit)                               libnl3-cli-3.3.0-1.fc27.ppc64le
+passwd-0.79-9.fc26.ppc64le                                         
+├─libuser.so.1()(64bit)                                            libuser-0.62-9.fc27.ppc64le
+libndp-1.6-2.fc26.ppc64le                                          
+hostname-3.18-2.fc26.ppc64le                                       
+libblockdev-utils-2.10-1.fc27.ppc64le                              
+├─libparted.so.2()(64bit)                                          parted-3.2-26.fc27.ppc64le
+└─libparted-fs-resize.so.0()(64bit)                                parted-3.2-26.fc27.ppc64le
+libbytesize-0.11-1.fc27.ppc64le                                    
+volume_key-libs-0.3.9-13.fc27.ppc64le                              
+└─/usr/bin/gpg                                                     gnupg-1.4.21-4.fc27.ppc64le
+dmraid-1.0.0.rc16-31.fc26.ppc64le                                  
+├─kpartx                                                           kpartx-0.7.1-6.git847cc43.fc27.ppc64le
+├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─libdevmapper-event.so.1.02(Base)(64bit)                          device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─dmraid-events                                                    dmraid-events-1.0.0.rc16-31.fc26.ppc64le
+bcache-tools-1.0.8-8.fc26.ppc64le                                  
+device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.ppc64le           
+├─libaio.so.1()(64bit)                                             libaio-0.3.110-7.fc26.ppc64le
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                   libaio-0.3.110-7.fc26.ppc64le
+├─libaio.so.1(LIBAIO_0.4)(64bit)                                   libaio-0.3.110-7.fc26.ppc64le
+mdadm-4.0-3.fc27.ppc64le                                           
+gdisk-1.0.1-3.fc26.ppc64le                                         
 augeas-libs-1.8.0-1.fc27.ppc64le                                   
 libtar-1.2.20-9.fc26.ppc64le                                       
 satyr-0.23-1.fc27.ppc64le                                          
 json-c-0.12.1-2.fc27.ppc64le                                       
+libproxy-0.4.15-2.fc27.ppc64le                                     
+└─libmodman.so.1()(64bit)                                          libmodman-2.0.1-14.fc27.ppc64le
 libreport-web-2.9.1-2.fc27.ppc64le                                 
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
 ├─libjson-c.so.2()(64bit)                                          json-c-0.12.1-2.fc27.ppc64le
 ├─libsatyr.so.3()(64bit)                                           satyr-0.23-1.fc27.ppc64le
 ├─libreport.so.0()(64bit)                                          libreport-2.9.1-2.fc27.ppc64le
 ├─libaugeas.so.0()(64bit)                                          augeas-libs-1.8.0-1.fc27.ppc64le
+├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.ppc64le
 ├─libtar.so.1()(64bit)                                             libtar-1.2.20-9.fc26.ppc64le
+├─libxmlrpc.so.3()(64bit)                                          xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_util.so.4()(64bit)                                     xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_client.so.3()(64bit)                                   xmlrpc-c-client-1.48.0-5.fc27.ppc64le
 └─libreport = 2.9.1-2.fc27                                         libreport-2.9.1-2.fc27.ppc64le
+xmlrpc-c-1.48.0-5.fc27.ppc64le                                     
+xmlrpc-c-client-1.48.0-5.fc27.ppc64le                              
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
+├─libxmlrpc.so.3()(64bit)                                          xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libxmlrpc_util.so.4()(64bit)                                     xmlrpc-c-1.48.0-5.fc27.ppc64le
+└─xmlrpc-c(ppc-64) = 1.48.0-5.fc27                                 xmlrpc-c-1.48.0-5.fc27.ppc64le
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
+iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.ppc64le 
+└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27              iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64le
+isns-utils-libs-0.97-3.fc27.ppc64le                                
 python3-cryptography-1.9-1.fc27.ppc64le                            
 ├─python3-asn1crypto >= 0.21                                       python3-asn1crypto-0.22.0-2.fc27.noarch
 ├─python3-cffi >= 1.7                                              python3-cffi-1.10.0-1.fc27.ppc64le
@@ -129,18 +381,101 @@ python3-cryptography-1.9-1.fc27.ppc64le
 python3-pyOpenSSL-17.1.0-1.fc27.noarch                             
 ├─python3-cryptography                                             python3-cryptography-1.9-1.fc27.ppc64le
 python3-pysocks-1.5.7-4.fc26.noarch                                
+gnupg-1.4.21-4.fc27.ppc64le                                        
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
+└─libusb-0.1.so.4()(64bit)                                         libusb-1:0.1.5-8.fc26.ppc64le
+dmraid-events-1.0.0.rc16-31.fc26.ppc64le                           
+├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─device-mapper-event                                              device-mapper-event-1.02.142-4.fc27.ppc64le
+├─libdmraid.so.1()(64bit)                                          dmraid-1.0.0.rc16-31.fc26.ppc64le
+├─libdmraid.so.1(Base)(64bit)                                      dmraid-1.0.0.rc16-31.fc26.ppc64le
+├─sgpio                                                            sgpio-1.2.0.10-17.fc26.ppc64le
+└─dmraid = 1.0.0.rc16-31.fc26                                      dmraid-1.0.0.rc16-31.fc26.ppc64le
+libaio-0.3.110-7.fc26.ppc64le                                      
+libmodman-2.0.1-14.fc27.ppc64le                                    
 python3-asn1crypto-0.22.0-2.fc27.noarch                            
 python3-cffi-1.10.0-1.fc27.ppc64le                                 
 ├─python3-pycparser                                                python3-pycparser-2.14-10.fc26.noarch
+libusb-1:0.1.5-8.fc26.ppc64le                                      
+sgpio-1.2.0.10-17.fc26.ppc64le                                     
 python3-pycparser-2.14-10.fc26.noarch                              
 ├─python3-ply                                                      python3-ply-3.9-3.fc27.noarch
 python3-ply-3.9-3.fc27.noarch                                      
+├─curl                                                             curl-minimal-7.55.0-1.fc27.ppc64le
 cracklib-dicts-2.9.6-7.fc27.ppc64le                                
+firewalld-0.4.4.5-3.fc27.noarch                                    
+├─ebtables                                                         ebtables-2.0.10-22.fc26.ppc64le
+├─ipset                                                            ipset-6.29-3.fc27.ppc64le
+├─firewalld-filesystem = 0.4.4.5-3.fc27                            firewalld-filesystem-0.4.4.5-3.fc27.noarch
+└─python3-firewall = 0.4.4.5-3.fc27                                python3-firewall-0.4.4.5-3.fc27.noarch
+ebtables-2.0.10-22.fc26.ppc64le                                    
+ipset-6.29-3.fc27.ppc64le                                          
+├─libipset.so.3()(64bit)                                           ipset-libs-6.29-3.fc27.ppc64le
+├─libipset.so.3(LIBIPSET_1.0)(64bit)                               ipset-libs-6.29-3.fc27.ppc64le
+├─libipset.so.3(LIBIPSET_2.0)(64bit)                               ipset-libs-6.29-3.fc27.ppc64le
+├─libipset.so.3(LIBIPSET_3.0)(64bit)                               ipset-libs-6.29-3.fc27.ppc64le
+└─ipset-libs(ppc-64) = 6.29-3.fc27                                 ipset-libs-6.29-3.fc27.ppc64le
+firewalld-filesystem-0.4.4.5-3.fc27.noarch                         
+python3-firewall-0.4.4.5-3.fc27.noarch                             
+├─python3-dbus                                                     python3-dbus-1.2.4-6.fc26.ppc64le
+├─python3-gobject-base                                             python3-gobject-base-3.24.1-1.fc27.ppc64le
+├─python3-decorator                                                python3-decorator-4.0.11-2.fc26.noarch
+├─python3-slip-dbus                                                python3-slip-dbus-0.6.4-6.fc26.noarch
+ipset-libs-6.29-3.fc27.ppc64le                                     
+python3-decorator-4.0.11-2.fc26.noarch                             
+python3-slip-dbus-0.6.4-6.fc26.noarch                              
+├─python3-decorator                                                python3-decorator-4.0.11-2.fc26.noarch
+├─python3-slip = 0.6.4-6.fc26                                      python3-slip-0.6.4-6.fc26.noarch
+└─python3-dbus >= 0.80                                             python3-dbus-1.2.4-6.fc26.ppc64le
+python3-slip-0.6.4-6.fc26.noarch                                   
+├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.ppc64le
 └─glibc-langpack = 2.26-1.fc27.1                                   glibc-langpack-en-2.26-1.fc27.1.ppc64le
 glibc-langpack-en-2.26-1.fc27.1.ppc64le                            
+libselinux-python3-2.7-1.fc27.ppc64le                              
+libselinux-utils-2.7-1.fc27.ppc64le                                
+parted-3.2-26.fc27.ppc64le                                         
 python3-coverage-4.4.1-2.fc27.ppc64le                              
 python3-kickstart-2.37-1.fc27.noarch                               
 ├─python3-ordered-set                                              python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-requests                                                 python3-requests-2.18.1-2.fc27.noarch
 python3-pwquality-1.4.0-3.fc27.ppc64le                             
+libuser-0.62-9.fc27.ppc64le                                        
+device-mapper-event-1.02.142-4.fc27.ppc64le                        
+├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─libdevmapper-event.so.1.02(Base)(64bit)                          device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+└─device-mapper-event-libs = 1.02.142-4.fc27                       device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+device-mapper-event-libs-1.02.142-4.fc27.ppc64le                   
+lvm2-2.02.173-4.fc27.ppc64le                                       
+├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─libdevmapper-event.so.1.02(Base)(64bit)                          device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─liblvm2app.so.2.2()(64bit)                                       lvm2-libs-2.02.173-4.fc27.ppc64le
+├─liblvm2app.so.2.2(Base)(64bit)                                   lvm2-libs-2.02.173-4.fc27.ppc64le
+├─lvm2-libs = 2.02.173-4.fc27                                      lvm2-libs-2.02.173-4.fc27.ppc64le
+├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                   device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.ppc64le
+lvm2-libs-2.02.173-4.fc27.ppc64le                                  
+├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─libdevmapper-event.so.1.02(Base)(64bit)                          device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+└─device-mapper-event = 1.02.142-4.fc27                            device-mapper-event-1.02.142-4.fc27.ppc64le
 lz4-1.7.5-6.fc27.ppc64le                                           
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64le            
+├─initscripts                                                      initscripts-9.72-1.fc27.ppc64le
+├─libmpathcmd.so.0()(64bit)                                        device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le
+├─libmpathpersist.so.0()(64bit)                                    device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le
+├─libmultipath.so.0()(64bit)                                       device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le
+├─liburcu.so.6()(64bit)                                            userspace-rcu-0.10.0-1.fc27.ppc64le
+├─device-mapper-multipath-libs = 0.7.1-6.git847cc43.fc27           device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le
+├─kpartx = 0.7.1-6.git847cc43.fc27                                 kpartx-0.7.1-6.git847cc43.fc27.ppc64le
+userspace-rcu-0.10.0-1.fc27.ppc64le                                
+device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le       
+├─liburcu.so.6()(64bit)                                            userspace-rcu-0.10.0-1.fc27.ppc64le
+├─libaio.so.1()(64bit)                                             libaio-0.3.110-7.fc26.ppc64le
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                   libaio-0.3.110-7.fc26.ppc64le
+└─libaio.so.1(LIBAIO_0.4)(64bit)                                   libaio-0.3.110-7.fc26.ppc64le
+kpartx-0.7.1-6.git847cc43.fc27.ppc64le                             
+libpsl-0.17.0-4.fc27.ppc64le                                       
+└─publicsuffix-list-dafsa                                          publicsuffix-list-dafsa-20170424-2.fc27.noarch
+publicsuffix-list-dafsa-20170424-2.fc27.noarch                     
+libcurl-minimal-7.55.0-1.fc27.ppc64le                              
+curl-minimal-7.55.0-1.fc27.ppc64le                                 
+├─libcurl.so.4()(64bit)                                            libcurl-minimal-7.55.0-1.fc27.ppc64le
+└─libcurl(ppc-64) >= 7.55.0-1.fc27                                 libcurl-minimal-7.55.0-1.fc27.ppc64le

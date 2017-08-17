@@ -28,7 +28,8 @@ files="
     runtime-binary-packages-short.txt
     runtime-source-packages-short.txt
     buildtime-binary-packages-short.txt
-    buildtime-source-packages-short.txt"
+    buildtime-source-packages-short.txt
+    runtime-source-packages-full.txt"
 
 for file in $files; do
     for module in $(ls modules); do
