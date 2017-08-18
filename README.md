@@ -40,7 +40,7 @@ Right now, the **following modules are included**. This image is automatically g
 
 ## Scripts
 
-### 0. Get dependencies 
+### Installation 
 
 These scripts require you to have **depchase** installed:
 
@@ -68,44 +68,46 @@ $ cp baseruntime-package-lists/repo/Fedora-devel-GA-repos.cfg dependency-report/
 
 Now you can run all the scripts in this repo.
 
-### 1. Get the module definitions
+### Running the scripts
 
-Clones all [modularity-modules](https://github.com/modularity-modules) repos listed in `repos/repolist.txt`. These repositories define the top-level package sets and are owned by the module maintainers.
-
-```
-$ ./clone_repos.sh
-```
-
-### 2. Extract module package lists from README files
-
-Generates machine-readable top-level package lists for modules from all repositorires.
+There are many scripts doing different things. This one runs them in the right order.
 
 ```
-$ ./generate_lists.sh
+$ ./regenerate_everything.sh
 ```
 
-### 3. Get the Host & Platform modules data
+### Adding content and defining dependencies
 
-The [Host & Platform](https://github.com/fedora-modularity/hp) is a set of modules or module stacks defining the base operating system. It is needed to resolve the `standalone-*` package lists.
+The goal of these scripts was to provide an output as quickly as possible. Therefore, some of the following steps might feel hacky.
 
-```
-$ ./get_hp.sh
-```
-
-### 4. Generate deps for all modules
-
-Generate the `complete-runtime-*` and `standalone-runtime-*` package lists for all modules on all architectures. 
+To **add a new module** defined in a [modularity-modules](https://github.com/modularity-modules) repository, add the name of the repo in the `module-repolist.txt` file.
 
 ```
-$ ./resolve.sh runtime
+$ cat module-repolist.txt
+
+repo-one
+repo-two
+repo-three
+...
 ```
 
-### 5. Figure out dependencies
-
-Generate the `rumtime-*` package lists for all modules on all architectures.
-
-It is currently implemented with make as make can easily figure out dependencies of tasks.
+To **define a runtime dependency**, add it to the `Makefile`.
 
 ```
-$ make
+$ cat Makefile
+
+...
+module: platform dependency-one dependency-two
+
+dependency-one: platform
+...
+```
+
+To **define a build dependency**, add it to the `build_deps_definitions.sh`. All modules need to have an entry in this file.
+
+```
+$ cat build_deps_definitions.sh
+
+./build_deps.sh module-one   platform
+./build_deps.sh module-two   platform module-one
 ```
