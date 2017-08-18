@@ -26,6 +26,8 @@ Please see the **missing RPM build dependencies ([source](all/buildtime-source-p
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
 * [389-ds](../389-ds)
+* [autotools](../autotools)
+* [perl](../perl)
 ## Binary RPM packages
 These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). They should be either:
 * split into other modules and be used as modular dependncies
