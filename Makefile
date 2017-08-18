@@ -24,21 +24,21 @@ storage-devices: platform platform-placeholder
 
 platform-placeholder: platform
 
-freeipa: platform platform-placeholder java perl 389-ds bind krb5 sssd samba pki tomcat resteasy httpd
+freeipa: platform platform-placeholder java perl 389-ds bind krb5 sssd samba pki tomcat resteasy httpd storage-devices
 
 java: platform platform-placeholder
 
-389-ds: platform platform-placeholder
+389-ds: platform platform-placeholder networking-base perl
 
 bind: platform platform-placeholder
 
 krb5: platform platform-placeholder
 
-sssd: platform platform-placeholder
+sssd: platform platform-placeholder samba
 
 samba: platform platform-placeholder
 
-pki: platform platform-placeholder
+pki: platform platform-placeholder java tomcat resteasy storage-devices
 
 tomcat: platform platform-placeholder
 
