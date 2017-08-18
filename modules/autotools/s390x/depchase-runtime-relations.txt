@@ -86,8 +86,8 @@ findutils-1:4.6.0-14.fc27.s390x
 ├─rtld(GNU_HASH)                               glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                           glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.s390x
-└─libselinux.so.1()(64bit)                     libselinux-2.7-1.fc27.s390x
+├─libselinux.so.1()(64bit)                     libselinux-2.7-1.fc27.s390x
+└─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.s390x
 gcc-7.1.1-7.fc27.1.s390x                       
 ├─rtld(GNU_HASH)                               glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                          glibc-2.26-1.fc27.1.s390x
@@ -141,8 +141,8 @@ sed-4.4-3.fc27.s390x
 └─libacl.so.1(ACL_1.0)(64bit)                  libacl-2.2.52-18.fc27.s390x
 tar-2:1.29-7.fc27.s390x                        
 ├─rtld(GNU_HASH)                               glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.s390x
 ├─libselinux.so.1()(64bit)                     libselinux-2.7-1.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.s390x
 ├─libacl.so.1()(64bit)                         libacl-2.2.52-18.fc27.s390x
 └─libacl.so.1(ACL_1.0)(64bit)                  libacl-2.2.52-18.fc27.s390x
 glibc-2.26-1.fc27.1.s390x                      
@@ -183,10 +183,10 @@ libselinux-2.7-1.fc27.s390x
 ├─ld64.so.1()(64bit)                           glibc-2.26-1.fc27.1.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                  glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.8)(64bit)                  glibc-2.26-1.fc27.1.s390x
-├─pcre                                         pcre-8.41-1.fc27.2.s390x
 ├─libsepol.so.1()(64bit)                       libsepol-2.7-1.fc27.s390x
-├─libpcre2-8.so.0()(64bit)                     pcre2-10.30-0.6.RC1.fc27.s390x
+├─pcre                                         pcre-8.41-1.fc27.2.s390x
 ├─libsepol.so.1(LIBSEPOL_1.0)(64bit)           libsepol-2.7-1.fc27.s390x
+├─libpcre2-8.so.0()(64bit)                     pcre2-10.30-0.6.RC1.fc27.s390x
 └─libsepol(s390-64) >= 2.7-1                   libsepol-2.7-1.fc27.s390x
 libsepol-2.7-1.fc27.s390x                      
 ├─rtld(GNU_HASH)                               glibc-2.26-1.fc27.1.s390x
@@ -260,8 +260,8 @@ perl-libs-4:5.26.0-398.fc27.s390x
 ├─libm.so.6(GLIBC_2.2)(64bit)                  glibc-2.26-1.fc27.1.s390x
 ├─perl(Carp)                                   perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                               perl-Exporter-5.72-395.fc27.noarch
-├─libresolv.so.2()(64bit)                      glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.11)(64bit)                 glibc-2.26-1.fc27.1.s390x
+├─libresolv.so.2()(64bit)                      glibc-2.26-1.fc27.1.s390x
 ├─libcrypt.so.1()(64bit)                       libcrypt-2.26-1.fc27.1.s390x
 ├─libutil.so.1()(64bit)                        glibc-2.26-1.fc27.1.s390x
 ├─libnsl.so.1()(64bit)                         glibc-2.26-1.fc27.1.s390x
@@ -288,14 +288,14 @@ perl-interpreter-4:5.26.0-398.fc27.s390x
 ├─perl(constant)                               perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                               perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(Cwd)                                    perl-PathTools-3.67-395.fc27.s390x
+├─libgdbm.so.4()(64bit)                        gdbm-1.13-3.fc27.s390x
+├─libgdbm_compat.so.4()(64bit)                 gdbm-1.13-3.fc27.s390x
 ├─perl(File::Path)                             perl-File-Path-2.15-1.fc27.noarch
 ├─perl(IO::File)                               perl-IO-1.38-398.fc27.s390x
 ├─perl(parent)                                 perl-parent-1:0.236-394.fc27.noarch
 ├─perl(utf8)                                   perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(integer)                                perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(re)                                     perl-libs-4:5.26.0-398.fc27.s390x
-├─libgdbm.so.4()(64bit)                        gdbm-1.13-3.fc27.s390x
-├─libgdbm_compat.so.4()(64bit)                 gdbm-1.13-3.fc27.s390x
 ├─libm.so.6(GLIBC_2.4)(64bit)                  glibc-2.26-1.fc27.1.s390x
 ├─perl(Text::Wrap)                             perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch
 ├─libm.so.6(GLIBC_2.23)(64bit)                 glibc-2.26-1.fc27.1.s390x

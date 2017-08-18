@@ -20,15 +20,8 @@ These are RPM dependencies of the [krb5 top-level package set](krb5.csv). They s
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
-| `gssproxy` | X | X | X | X | X | X | X |
 | `krb5-pkinit` | X | X | X | X | X | X | X |
 | `krb5-server` | X | X | X | X | X | X | X |
 | `krb5-workstation` | X | X | X | X | X | X | X |
-| `libbasicobjects` | X | X | X | X | X | X | X |
-| `libcollection` | X | X | X | X | X | X | X |
-| `libini_config` | X | X | X | X | X | X | X |
 | `libkadm5` | X | X | X | X | X | X | X |
-| `libpath_utils` | X | X | X | X | X | X | X |
-| `libref_array` | X | X | X | X | X | X | X |
-| `libverto-libev` | X | X | X | X | X | X | X |
 | `words` | X | X | X | X | X | X | X |

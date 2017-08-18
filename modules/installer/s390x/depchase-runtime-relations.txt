@@ -7,22 +7,22 @@ anaconda-core-27.19-4.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
-├─systemd                                                        systemd-234-5.fc27.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
-├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
+├─systemd                                                        systemd-234-5.fc27.s390x
 ├─/usr/bin/python3                                               python3-3.6.2-6.fc27.s390x
+├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
 ├─/usr/bin/env                                                   coreutils-8.27-14.fc27.s390x
 ├─cracklib-dicts                                                 cracklib-dicts-2.9.6-7.fc27.s390x
 ├─/usr/bin/bash                                                  bash-4.4.12-9.fc27.s390x
 ├─libselinux-python3                                             libselinux-python3-2.7-1.fc27.s390x
-├─glibc-langpack-en                                              glibc-langpack-en-2.26-1.fc27.1.s390x
 ├─python3-dbus                                                   python3-dbus-1.2.4-6.fc26.s390x
+├─glibc-langpack-en                                              glibc-langpack-en-2.26-1.fc27.1.s390x
 ├─python3-libs                                                   python3-libs-3.6.2-6.fc27.s390x
 ├─python3-pwquality                                              python3-pwquality-1.4.0-3.fc27.s390x
+├─python3-requests                                               python3-requests-2.18.1-2.fc27.noarch
 ├─createrepo_c                                                   createrepo_c-0.10.0-9.fc26.s390x
 ├─kbd                                                            kbd-2.0.4-2.fc26.s390x
-├─python3-requests                                               python3-requests-2.18.1-2.fc27.noarch
 ├─/usr/libexec/system-python                                     system-python-3.6.2-6.fc27.s390x
 ├─NetworkManager-team                                            NetworkManager-team-1:1.8.0-6.fc27.s390x
 ├─authconfig                                                     authconfig-7.0.1-1.fc27.s390x
@@ -41,7 +41,7 @@ anaconda-core-27.19-4.fc27.s390x
 ├─teamd                                                          teamd-1.27-1.fc27.s390x
 ├─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
 ├─anaconda-tui = 27.19-4.fc27                                    anaconda-tui-27.19-4.fc27.s390x
-├─parted >= 1.8.1                                                parted-3.2-26.fc27.s390x
+├─parted >= 1.8.1                                                parted-3.2-28.fc27.s390x
 ├─util-linux >= 2.15.1                                           util-linux-2.30.1-1.fc27.s390x
 ├─NetworkManager >= 1.0                                          NetworkManager-1:1.8.0-6.fc27.s390x
 ├─NetworkManager-libnm >= 1.0                                    NetworkManager-libnm-1:1.8.0-6.fc27.s390x
@@ -113,7 +113,7 @@ authconfig-7.0.1-1.fc27.s390x
 ├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.s390x
 ├─python3                                                        python3-3.6.2-6.fc27.s390x
 ├─libresolv.so.2(GLIBC_2.2)(64bit)                               glibc-2.26-1.fc27.1.s390x
-├─policycoreutils                                                policycoreutils-2.6-5.fc27.s390x
+├─policycoreutils                                                policycoreutils-2.7-1.fc27.s390x
 ├─python3-sssdconfig                                             python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
 ├─/usr/bin/openssl                                               openssl-1:1.1.0f-9.fc27.s390x
 ├─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
@@ -274,7 +274,7 @@ python3-blivet-1:2.1.9-2.fc27.noarch
 ├─systemd-udev                                                   systemd-udev-234-5.fc27.s390x
 ├─python3-hawkey                                                 python3-hawkey-0.9.2-1.fc27.s390x
 ├─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
-├─parted >= 1.8.1                                                parted-3.2-26.fc27.s390x
+├─parted >= 1.8.1                                                parted-3.2-28.fc27.s390x
 ├─util-linux >= 2.15.1                                           util-linux-2.30.1-1.fc27.s390x
 ├─e2fsprogs >= 1.41.0                                            e2fsprogs-1.43.4-4.fc27.s390x
 ├─libblockdev-plugins-all >= 2.6                                 libblockdev-plugins-all-2.10-1.fc27.s390x
@@ -333,7 +333,7 @@ python3-pyparted-1:3.11.0-2.fc27.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─libc.so.6(GLIBC_2.8)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
+├─libparted.so.2()(64bit)                                        parted-3.2-28.fc27.s390x
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
 python3-pytz-2017.2-1.fc27.noarch                                
 ├─tzdata                                                         tzdata-2017b-2.fc27.noarch
@@ -456,28 +456,6 @@ NetworkManager-1:1.8.0-6.fc27.s390x
 ├─NetworkManager-libnm(s390-64) = 1:1.8.0-6.fc27                 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
 ├─dbus >= 1.9.18                                                 dbus-1:1.11.14-1.fc27.s390x
 └─glib2 >= 2.53.2                                                glib2-2.53.5-1.fc27.s390x
-policycoreutils-2.6-5.fc27.s390x                                 
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
-├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
-├─coreutils                                                      coreutils-8.27-14.fc27.s390x
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
-├─util-linux                                                     util-linux-2.30.1-1.fc27.s390x
-├─grep                                                           grep-3.1-3.fc27.s390x
-├─sed                                                            sed-4.4-3.fc27.s390x
-├─gawk                                                           gawk-4.1.4-5.fc27.s390x
-├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
-├─rpm                                                            rpm-4.13.0.1-41.fc27.s390x
-├─diffutils                                                      diffutils-3.6-3.fc27.s390x
-├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
-├─libsemanage.so.1()(64bit)                                      libsemanage-2.7-1.fc27.s390x
-├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                             libsepol-2.7-1.fc27.s390x
-├─libsemanage.so.1(LIBSEMANAGE_1.0)(64bit)                       libsemanage-2.7-1.fc27.s390x
-├─libsemanage.so.1(LIBSEMANAGE_1.1)(64bit)                       libsemanage-2.7-1.fc27.s390x
-├─libsepol.so.1(LIBSEPOL_1.1)(64bit)                             libsepol-2.7-1.fc27.s390x
-├─libselinux-utils >= 2.6-5                                      libselinux-utils-2.7-1.fc27.s390x
-└─libsepol >= 2.6-0                                              libsepol-2.7-1.fc27.s390x
 python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch                   
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
 libedit-3.1-18.20170329cvs.fc27.s390x                            
@@ -724,10 +702,10 @@ libblockdev-fs-2.10-1.fc27.s390x
 ├─device-mapper-multipath                                        device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
 ├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
 ├─libmount.so.1(MOUNT_2.19)(64bit)                               libmount-2.30.1-1.fc27.s390x
-├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
-├─libparted-fs-resize.so.0()(64bit)                              parted-3.2-26.fc27.s390x
+├─libparted.so.2()(64bit)                                        parted-3.2-28.fc27.s390x
+├─libparted-fs-resize.so.0()(64bit)                              parted-3.2-28.fc27.s390x
 ├─libmount.so.1(MOUNT_2.22)(64bit)                               libmount-2.30.1-1.fc27.s390x
-├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit)     parted-3.2-26.fc27.s390x
+├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit)     parted-3.2-28.fc27.s390x
 ├─libbd_part_err.so.2()(64bit)                                   libblockdev-utils-2.10-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.21)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libmount.so.1(MOUNT_2.21)(64bit)                               libmount-2.30.1-1.fc27.s390x
@@ -810,9 +788,9 @@ libblockdev-part-2.10-1.fc27.s390x
 ├─util-linux                                                     util-linux-2.30.1-1.fc27.s390x
 ├─device-mapper-multipath                                        device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
 ├─libbd_utils.so.2()(64bit)                                      libblockdev-utils-2.10-1.fc27.s390x
-├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
+├─libparted.so.2()(64bit)                                        parted-3.2-28.fc27.s390x
 ├─gdisk                                                          gdisk-1.0.1-3.fc26.s390x
-├─libparted-fs-resize.so.0()(64bit)                              parted-3.2-26.fc27.s390x
+├─libparted-fs-resize.so.0()(64bit)                              parted-3.2-28.fc27.s390x
 ├─libbd_part_err.so.2()(64bit)                                   libblockdev-utils-2.10-1.fc27.s390x
 └─libblockdev-utils(s390-64) >= 0.11                             libblockdev-utils-2.10-1.fc27.s390x
 libblockdev-s390-2.10-1.fc27.s390x                               
@@ -1155,8 +1133,8 @@ libblockdev-utils-2.10-1.fc27.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.s390x
 ├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
-├─libparted.so.2()(64bit)                                        parted-3.2-26.fc27.s390x
-└─libparted-fs-resize.so.0()(64bit)                              parted-3.2-26.fc27.s390x
+├─libparted.so.2()(64bit)                                        parted-3.2-28.fc27.s390x
+└─libparted-fs-resize.so.0()(64bit)                              parted-3.2-28.fc27.s390x
 libbytesize-0.11-1.fc27.s390x                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libgmp.so.10()(64bit)                                          gmp-1:6.1.2-6.fc27.s390x
@@ -1684,7 +1662,7 @@ blktrace-1.1.0-4.fc26.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─python                                                         python2-2.7.13-12.fc27.s390x
+├─python                                                         python2-2.7.13-16.fc27.s390x
 ├─libaio.so.1()(64bit)                                           libaio-0.3.110-7.fc26.s390x
 ├─libaio.so.1(LIBAIO_0.1)(64bit)                                 libaio-0.3.110-7.fc26.s390x
 └─libaio.so.1(LIBAIO_0.4)(64bit)                                 libaio-0.3.110-7.fc26.s390x
@@ -1700,73 +1678,26 @@ sg3_utils-libs-1.42-1.fc26.s390x
 libsysfs-2.1.0-20.fc26.s390x                                     
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 └─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-python2-2.7.13-12.fc27.s390x                                     
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libpython2.7.so.1.0()(64bit)                                   python2-libs-2.7.13-12.fc27.s390x
-├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
-├─python2-setuptools                                             python2-setuptools-36.2.0-3.fc27.noarch
-├─python2-pip                                                    python2-pip-9.0.1-11.fc27.noarch
-└─python2-libs(s390-64) = 2.7.13-12.fc27                         python2-libs-2.7.13-12.fc27.s390x
 python3-ply-3.9-3.fc27.noarch                                    
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
-python2-libs-2.7.13-12.fc27.s390x                                
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
-├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-├─libm.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
-├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─/usr/bin/env                                                   coreutils-8.27-14.fc27.s390x
-├─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.s390x
-├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
-├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.s390x
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.s390x
-├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
-├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.s390x
-├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
-├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.s390x
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
-├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.s390x
-├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
-├─libutil.so.1(GLIBC_2.2)(64bit)                                 glibc-2.26-1.fc27.1.s390x
-├─libz.so.1(ZLIB_1.2.0)(64bit)                                   zlib-1.2.11-4.fc27.s390x
-├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
-├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.s390x
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.s390x
-├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.s390x
-├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.s390x
-├─libnsl.so.1(GLIBC_2.2)(64bit)                                  glibc-2.26-1.fc27.1.s390x
-├─libpanelw.so.6()(64bit)                                        ncurses-libs-6.0-13.20170722.fc27.s390x
-├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.s390x
-├─expat >= 2.1.0                                                 expat-2.2.3-1.fc27.s390x
-└─glibc(s390-64) >= 2.24.90-26                                   glibc-2.26-1.fc27.1.s390x
 python3-3.6.2-6.fc27.s390x                                       
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
-├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
+├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─python3-setuptools                                             python3-setuptools-36.2.0-3.fc27.noarch
 ├─python3-pip                                                    python3-pip-9.0.1-11.fc27.noarch
 └─python3-libs(s390-64) = 3.6.2-6.fc27                           python3-libs-3.6.2-6.fc27.s390x
 python3-libs-3.6.2-6.fc27.s390x                                  
-├─system-python-libs(s390-64) = 3.6.2-6.fc27                     system-python-libs-3.6.2-6.fc27.s390x
-└─expat >= 2.1.0                                                 expat-2.2.3-1.fc27.s390x
+├─expat >= 2.1.0                                                 expat-2.2.3-1.fc27.s390x
+└─system-python-libs(s390-64) = 3.6.2-6.fc27                     system-python-libs-3.6.2-6.fc27.s390x
 system-python-libs-3.6.2-6.fc27.s390x                            
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
@@ -1780,15 +1711,15 @@ system-python-libs-3.6.2-6.fc27.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.s390x
 ├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.s390x
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
-├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
 ├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.s390x
-├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
 ├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.s390x
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
+├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.s390x
 ├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.s390x
 ├─libnsl.so.1(GLIBC_2.2)(64bit)                                  glibc-2.26-1.fc27.1.s390x
@@ -1806,8 +1737,8 @@ system-python-3.6.2-6.fc27.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
-├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
+├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 └─system-python-libs(s390-64) = 3.6.2-6.fc27                     system-python-libs-3.6.2-6.fc27.s390x
 python3-rpm-4.13.0.1-41.fc27.s390x                               
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
@@ -1850,18 +1781,18 @@ rpm-libs-4.13.0.1-41.fc27.s390x
 rpm-4.13.0.1-41.fc27.s390x                                       
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
 ├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.s390x
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
 ├─coreutils                                                      coreutils-8.27-14.fc27.s390x
+├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
 ├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
 ├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.s390x
-├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
 ├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.s390x
 ├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.s390x
 ├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.s390x
@@ -1988,8 +1919,8 @@ firewalld-filesystem-0.4.4.5-3.fc27.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch                           
 ├─python3-dbus                                                   python3-dbus-1.2.4-6.fc26.s390x
 ├─python3-gobject-base                                           python3-gobject-base-3.24.1-1.fc27.s390x
-├─python3-decorator                                              python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-slip-dbus                                              python3-slip-dbus-0.6.4-6.fc26.noarch
+├─python3-decorator                                              python3-decorator-4.0.11-2.fc26.noarch
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
 ipset-libs-6.29-3.fc27.s390x                                     
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
@@ -2040,33 +1971,28 @@ libselinux-2.7-1.fc27.s390x
 ├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.8)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─pcre                                                           pcre-8.41-1.fc27.2.s390x
 ├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
-├─libpcre2-8.so.0()(64bit)                                       pcre2-10.30-0.6.RC1.fc27.s390x
+├─pcre                                                           pcre-8.41-1.fc27.2.s390x
 ├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                             libsepol-2.7-1.fc27.s390x
+├─libpcre2-8.so.0()(64bit)                                       pcre2-10.30-0.6.RC1.fc27.s390x
 └─libsepol(s390-64) >= 2.7-1                                     libsepol-2.7-1.fc27.s390x
 libsepol-2.7-1.fc27.s390x                                        
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─/sbin/ldconfig                                                 glibc-2.26-1.fc27.1.s390x
 └─libc.so.6(GLIBC_2.8)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-libselinux-utils-2.7-1.fc27.s390x                                
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
-└─libselinux(s390-64) = 2.7-1.fc27                               libselinux-2.7-1.fc27.s390x
-parted-3.2-26.fc27.s390x                                         
+parted-3.2-28.fc27.s390x                                         
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.11)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
-├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
-├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
-├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.s390x
-├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
+├─libc.so.6(GLIBC_2.11)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.s390x
 ├─libdevmapper.so.1.02()(64bit)                                  device-mapper-libs-1.02.142-4.fc27.s390x
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
 ├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libdevmapper.so.1.02(DM_1_02_97)(64bit)                        device-mapper-libs-1.02.142-4.fc27.s390x
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
+├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 └─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
@@ -2074,13 +2000,13 @@ python3-coverage-4.4.1-2.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─/usr/bin/python3                                               python3-3.6.2-6.fc27.s390x
+├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.s390x
 ├─python3-setuptools                                             python3-setuptools-36.2.0-3.fc27.noarch
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
 python3-kickstart-2.37-1.fc27.noarch                             
-├─python3-ordered-set                                            python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-requests                                               python3-requests-2.18.1-2.fc27.noarch
+├─python3-ordered-set                                            python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-six                                                    python3-six-1.10.0-9.fc27.noarch
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
 python3-pwquality-1.4.0-3.fc27.s390x                             
@@ -2114,39 +2040,39 @@ systemd-234-5.fc27.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
 ├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
+├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
 ├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
 ├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
 ├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.s390x
-├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
 ├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.s390x
+├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 ├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.s390x
 ├─util-linux                                                     util-linux-2.30.1-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
+├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
 ├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
 ├─libgpg-error.so.0()(64bit)                                     libgpg-error-1.27-3.fc27.s390x
-├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
+├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
 ├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
-├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
+├─libmount.so.1()(64bit)                                         libmount-2.30.1-1.fc27.s390x
 ├─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.s390x
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.s390x
 ├─libgcrypt.so.20()(64bit)                                       libgcrypt-1.7.8-3.fc27.s390x
 ├─libgcrypt.so.20(GCRYPT_1.6)(64bit)                             libgcrypt-1.7.8-3.fc27.s390x
 ├─libgpg-error.so.0(GPG_ERROR_1.0)(64bit)                        libgpg-error-1.27-3.fc27.s390x
-├─libmount.so.1()(64bit)                                         libmount-2.30.1-1.fc27.s390x
 ├─libpam.so.0()(64bit)                                           pam-1.3.0-5.fc27.s390x
+├─libpam.so.0(LIBPAM_1.0)(64bit)                                 pam-1.3.0-5.fc27.s390x
 ├─libcryptsetup.so.4()(64bit)                                    cryptsetup-libs-1.7.5-3.fc27.s390x
 ├─libdw.so.1()(64bit)                                            elfutils-libs-0.170-1.fc27.s390x
-├─libpam.so.0(LIBPAM_1.0)(64bit)                                 pam-1.3.0-5.fc27.s390x
 ├─libcryptsetup.so.4(CRYPTSETUP_1.0)(64bit)                      cryptsetup-libs-1.7.5-3.fc27.s390x
 ├─liblz4.so.1()(64bit)                                           lz4-libs-1.7.5-6.fc27.s390x
 ├─libidn.so.11()(64bit)                                          libidn-1.33-4.fc27.s390x
-├─libidn.so.11(LIBIDN_1.0)(64bit)                                libidn-1.33-4.fc27.s390x
 ├─libmount.so.1(MOUNT_2.19)(64bit)                               libmount-2.30.1-1.fc27.s390x
+├─libidn.so.11(LIBIDN_1.0)(64bit)                                libidn-1.33-4.fc27.s390x
 ├─libseccomp.so.2()(64bit)                                       libseccomp-2.3.2-5.fc27.s390x
 ├─libblkid.so.1(BLKID_2.18)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libkmod.so.2()(64bit)                                          kmod-libs-24-3.fc27.s390x
@@ -2173,10 +2099,10 @@ systemd-libs-234-5.fc27.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
 ├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
 ├─libgcrypt.so.20()(64bit)                                       libgcrypt-1.7.8-3.fc27.s390x
 ├─libgcrypt.so.20(GCRYPT_1.6)(64bit)                             libgcrypt-1.7.8-3.fc27.s390x
@@ -2191,8 +2117,8 @@ systemd-pam-234-5.fc27.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
 ├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libpam.so.0()(64bit)                                           pam-1.3.0-5.fc27.s390x
 ├─libpam.so.0(LIBPAM_1.0)(64bit)                                 pam-1.3.0-5.fc27.s390x
 ├─libpam_misc.so.0()(64bit)                                      pam-1.3.0-5.fc27.s390x
@@ -2206,10 +2132,10 @@ systemd-udev-234-5.fc27.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
-├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 ├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
@@ -2232,35 +2158,35 @@ util-linux-2.30.1-1.fc27.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
+├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
+├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
 ├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
-├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
-├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
 ├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
+├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
+├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.s390x
+├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
-├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libcap-ng.so.0()(64bit)                                        libcap-ng-0.7.8-5.fc27.s390x
-├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.s390x
 ├─libmount.so.1()(64bit)                                         libmount-2.30.1-1.fc27.s390x
 ├─libpam.so.0()(64bit)                                           pam-1.3.0-5.fc27.s390x
+├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.s390x
 ├─libpam.so.0(LIBPAM_1.0)(64bit)                                 pam-1.3.0-5.fc27.s390x
-├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
 ├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                         systemd-libs-234-5.fc27.s390x
+├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
 ├─libmount.so.1(MOUNT_2.19)(64bit)                               libmount-2.30.1-1.fc27.s390x
-├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.s390x
+├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libpam_misc.so.0()(64bit)                                      pam-1.3.0-5.fc27.s390x
+├─libutil.so.1(GLIBC_2.2)(64bit)                                 glibc-2.26-1.fc27.1.s390x
+├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.s390x
+├─libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit)                       pam-1.3.0-5.fc27.s390x
 ├─libblkid.so.1(BLKID_2.18)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libmount.so.1(MOUNT_2.20)(64bit)                               libmount-2.30.1-1.fc27.s390x
-├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.s390x
-├─libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit)                       pam-1.3.0-5.fc27.s390x
-├─librt.so.1(GLIBC_2.3.3)(64bit)                                 glibc-2.26-1.fc27.1.s390x
-├─libutil.so.1(GLIBC_2.2)(64bit)                                 glibc-2.26-1.fc27.1.s390x
 ├─libmount.so.1(MOUNT_2.24)(64bit)                               libmount-2.30.1-1.fc27.s390x
+├─librt.so.1(GLIBC_2.3.3)(64bit)                                 glibc-2.26-1.fc27.1.s390x
 ├─libblkid.so.1(BLKID_2.21)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libfdisk.so.1()(64bit)                                         libfdisk-2.30.1-1.fc27.s390x
 ├─libmount.so.1(MOUNT_2.21)(64bit)                               libmount-2.30.1-1.fc27.s390x
@@ -2320,8 +2246,8 @@ libmount-2.30.1-1.fc27.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
+├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.s390x
@@ -2350,8 +2276,8 @@ openssl-libs-1:1.1.0f-9.fc27.s390x
 └─ca-certificates >= 2008-5                                      ca-certificates-2017.2.16-3.fc27.noarch
 openssl-1:1.1.0f-9.fc27.s390x                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
@@ -2379,25 +2305,25 @@ cryptsetup-libs-1.7.5-3.fc27.s390x
 └─libgcrypt >= 1.6.1                                             libgcrypt-1.7.8-3.fc27.s390x
 glib2-2.53.5-1.fc27.s390x                                        
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
 ├─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 ├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.s390x
 ├─libmount.so.1()(64bit)                                         libmount-2.30.1-1.fc27.s390x
 ├─libpcre.so.1()(64bit)                                          pcre-8.41-1.fc27.2.s390x
-├─libresolv.so.2(GLIBC_2.2)(64bit)                               glibc-2.26-1.fc27.1.s390x
 ├─libmount.so.1(MOUNT_2.19)(64bit)                               libmount-2.30.1-1.fc27.s390x
-├─libpthread.so.0(GLIBC_2.12)(64bit)                             glibc-2.26-1.fc27.1.s390x
+├─libresolv.so.2(GLIBC_2.2)(64bit)                               glibc-2.26-1.fc27.1.s390x
 ├─libmount.so.1(MOUNT_2.24)(64bit)                               libmount-2.30.1-1.fc27.s390x
+├─libpthread.so.0(GLIBC_2.12)(64bit)                             glibc-2.26-1.fc27.1.s390x
 └─libz.so.1(ZLIB_1.2.2)(64bit)                                   zlib-1.2.11-4.fc27.s390x
 gpgme-1.9.0-5.fc27.s390x                                         
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
@@ -2497,8 +2423,8 @@ nss-softokn-freebl-3.32.0-2.fc27.s390x
 nss-sysinit-3.32.0-2.fc27.s390x                                  
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libnspr4.so()(64bit)                                           nspr-4.16.0-1.fc27.s390x
 ├─libplc4.so()(64bit)                                            nspr-4.16.0-1.fc27.s390x
@@ -2535,8 +2461,8 @@ elfutils-libs-0.170-1.fc27.s390x
 ├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
 ├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
-├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.8)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.s390x
 ├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.s390x
 ├─libelf.so.1(ELFUTILS_1.3)(64bit)                               elfutils-libelf-0.170-1.fc27.s390x
@@ -2557,18 +2483,18 @@ device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
 ├─libdevmapper.so.1.02()(64bit)                                  device-mapper-libs-1.02.142-4.fc27.s390x
-├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.s390x
-├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
 ├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                         systemd-libs-234-5.fc27.s390x
+├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
 ├─initscripts                                                    initscripts-9.72-1.fc27.s390x
 ├─libmpathcmd.so.0()(64bit)                                      device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
 ├─libmpathpersist.so.0()(64bit)                                  device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
@@ -2594,8 +2520,8 @@ device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
 ├─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
 ├─libm.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
@@ -2603,8 +2529,8 @@ device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
 ├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libdevmapper.so.1.02(DM_1_02_97)(64bit)                        device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.s390x
-├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
 ├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                         systemd-libs-234-5.fc27.s390x
+├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
 ├─libpthread.so.0(GLIBC_2.3.3)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─liburcu.so.6()(64bit)                                          userspace-rcu-0.10.0-1.fc27.s390x
 ├─libaio.so.1()(64bit)                                           libaio-0.3.110-7.fc26.s390x
@@ -2656,14 +2582,14 @@ perl-interpreter-4:5.26.0-398.fc27.s390x
 ├─perl(constant)                                                 perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                                 perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(Cwd)                                                      perl-PathTools-3.67-395.fc27.s390x
+├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.s390x
+├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.s390x
 ├─perl(File::Path)                                               perl-File-Path-2.15-1.fc27.noarch
 ├─perl(IO::File)                                                 perl-IO-1.38-398.fc27.s390x
 ├─perl(parent)                                                   perl-parent-1:0.236-394.fc27.noarch
 ├─perl(utf8)                                                     perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(integer)                                                  perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(re)                                                       perl-libs-4:5.26.0-398.fc27.s390x
-├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.s390x
-├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.s390x
 ├─libm.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─perl(Text::Wrap)                                               perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch
 ├─libm.so.6(GLIBC_2.23)(64bit)                                   glibc-2.26-1.fc27.1.s390x
@@ -2696,8 +2622,8 @@ perl-libs-4:5.26.0-398.fc27.s390x
 ├─libm.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
-├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.11)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
 ├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
@@ -3885,8 +3811,8 @@ sed-4.4-3.fc27.s390x
 └─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.s390x
 tar-2:1.29-7.fc27.s390x                                          
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.s390x
 └─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.s390x
 net-snmp-1:5.7.3-20.fc27.s390x                                   
@@ -3903,8 +3829,8 @@ net-snmp-1:5.7.3-20.fc27.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
 ├─libperl.so.5.26()(64bit)                                       perl-libs-4:5.26.0-398.fc27.s390x
 ├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.s390x
-├─/usr/bin/perl                                                  perl-interpreter-4:5.26.0-398.fc27.s390x
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
+├─/usr/bin/perl                                                  perl-interpreter-4:5.26.0-398.fc27.s390x
 ├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
 ├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.s390x
 ├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.s390x
@@ -3995,8 +3921,8 @@ shadow-utils-2:4.5-3.fc27.s390x
 ├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
 ├─libattr.so.1()(64bit)                                          libattr-2.4.47-21.fc27.s390x
 ├─setup                                                          setup-2.10.5-3.fc27.noarch
-├─libattr.so.1(ATTR_1.1)(64bit)                                  libattr-2.4.47-21.fc27.s390x
 ├─libsemanage.so.1()(64bit)                                      libsemanage-2.7-1.fc27.s390x
+├─libattr.so.1(ATTR_1.1)(64bit)                                  libattr-2.4.47-21.fc27.s390x
 ├─libsemanage.so.1(LIBSEMANAGE_1.0)(64bit)                       libsemanage-2.7-1.fc27.s390x
 ├─libacl.so.1(ACL_1.1)(64bit)                                    libacl-2.2.52-18.fc27.s390x
 ├─audit-libs >= 1.6.5                                            audit-libs-2.7.7-5.fc27.s390x
@@ -4040,10 +3966,10 @@ krb5-libs-1.15.1-21.fc27.s390x
 ├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.s390x
 ├─grep                                                           grep-3.1-3.fc27.s390x
 ├─gawk                                                           gawk-4.1.4-5.fc27.s390x
-├─libkeyutils.so.1()(64bit)                                      keyutils-libs-1.5.10-3.fc27.s390x
 ├─sed                                                            sed-4.4-3.fc27.s390x
-├─libc.so.6(GLIBC_2.16)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libkeyutils.so.1()(64bit)                                      keyutils-libs-1.5.10-3.fc27.s390x
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.s390x
+├─libc.so.6(GLIBC_2.16)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libresolv.so.2(GLIBC_2.2)(64bit)                               glibc-2.26-1.fc27.1.s390x
 ├─libverto.so.1()(64bit)                                         libverto-0.2.6-11.fc27.s390x
 ├─libkeyutils.so.1(KEYUTILS_0.3)(64bit)                          keyutils-libs-1.5.10-3.fc27.s390x
@@ -4152,67 +4078,6 @@ libxml2-2.9.4-4.fc27.s390x
 libffi-3.1-14.fc27.s390x                                         
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 └─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-bzip2-libs-1.0.6-24.fc27.s390x                                   
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-└─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-gdbm-1.13-3.fc27.s390x                                           
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.7)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
-└─libncurses.so.6()(64bit)                                       ncurses-libs-6.0-13.20170722.fc27.s390x
-gdbm-devel-1.13-3.fc27.s390x                                     
-├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.s390x
-├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.s390x
-└─gdbm = 1.13-3.fc27                                             gdbm-1.13-3.fc27.s390x
-libdb-5.3.28-26.fc27.s390x                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-└─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
-libdb-utils-5.3.28-26.fc27.s390x                                 
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.s390x
-└─libdb(s390-64) = 5.3.28-26.fc27                                libdb-5.3.28-26.fc27.s390x
-libdb-devel-5.3.28-26.fc27.s390x                                 
-└─libdb(s390-64) = 5.3.28-26.fc27                                libdb-5.3.28-26.fc27.s390x
-readline-7.0-7.fc27.s390x                                        
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─/sbin/ldconfig                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-└─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
-sqlite-libs-3.20.0-1.fc27.s390x                                  
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-└─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-python2-pip-9.0.1-11.fc27.noarch                                 
-├─python-setuptools                                              python2-setuptools-36.2.0-3.fc27.noarch
-├─/usr/bin/python2                                               python2-2.7.13-12.fc27.s390x
-└─python(abi) = 2.7                                              python2-2.7.13-12.fc27.s390x
-python2-setuptools-36.2.0-3.fc27.noarch                          
-├─/usr/bin/python2                                               python2-2.7.13-12.fc27.s390x
-└─python(abi) = 2.7                                              python2-2.7.13-12.fc27.s390x
-diffutils-3.6-3.fc27.s390x                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-└─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-libsemanage-2.7-1.fc27.s390x                                     
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
-├─libc.so.6(GLIBC_2.8)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
-├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
-├─audit-libs                                                     audit-libs-2.7.7-5.fc27.s390x
-├─bzip2-libs                                                     bzip2-libs-1.0.6-24.fc27.s390x
-├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                             libsepol-2.7-1.fc27.s390x
-└─libsepol.so.1(LIBSEPOL_1.1)(64bit)                             libsepol-2.7-1.fc27.s390x
 perl-Carp-1.42-394.fc27.noarch                                   
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.s390x
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.s390x
@@ -4555,6 +4420,24 @@ perl-Digest-1.17-394.fc27.noarch
 ├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
 ├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.s390x
 └─perl(MIME::Base64)                                             perl-MIME-Base64-3.15-395.fc27.s390x
+libdb-5.3.28-26.fc27.s390x                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+└─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
+libdb-utils-5.3.28-26.fc27.s390x                                 
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.s390x
+└─libdb(s390-64) = 5.3.28-26.fc27                                libdb-5.3.28-26.fc27.s390x
+libdb-devel-5.3.28-26.fc27.s390x                                 
+└─libdb(s390-64) = 5.3.28-26.fc27                                libdb-5.3.28-26.fc27.s390x
+bzip2-libs-1.0.6-24.fc27.s390x                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+└─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 make-1:4.2.1-4.fc27.s390x                                        
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
@@ -4618,6 +4501,40 @@ perl-IO-Zlib-1:1.10-398.fc27.noarch
 ├─perl(Compress::Zlib)                                           perl-IO-Compress-2.074-394.fc27.noarch
 ├─perl(Tie::Handle)                                              perl-interpreter-4:5.26.0-398.fc27.s390x
 └─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.s390x
+xz-libs-5.2.3-4.fc27.s390x                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
+└─libpthread.so.0(GLIBC_2.3.3)(64bit)                            glibc-2.26-1.fc27.1.s390x
+xz-5.2.3-4.fc27.s390x                                            
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
+├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
+├─liblzma.so.5(XZ_5.2)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
+├─xz-libs(s390-64) = 5.2.3-4.fc27                                xz-libs-5.2.3-4.fc27.s390x
+└─grep >= 2.20-5                                                 grep-3.1-3.fc27.s390x
+lz4-1.7.5-6.fc27.s390x                                           
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+└─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+gmp-1:6.1.2-6.fc27.s390x                                         
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+└─libc.so.6(GLIBC_2.7)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+mpfr-3.1.5-5.fc27.s390x                                          
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
+├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libgmp.so.10()(64bit)                                          gmp-1:6.1.2-6.fc27.s390x
+└─gmp >= 4.2.1                                                   gmp-1:6.1.2-6.fc27.s390x
+pcre-8.41-1.fc27.2.s390x                                         
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+└─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 device-mapper-libs-1.02.142-4.fc27.s390x                         
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
@@ -4628,16 +4545,16 @@ device-mapper-libs-1.02.142-4.fc27.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
 ├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
 ├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.s390x
 ├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.s390x
-├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.22)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 └─device-mapper = 1.02.142-4.fc27                                device-mapper-1.02.142-4.fc27.s390x
 device-mapper-1.02.142-4.fc27.s390x                              
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
-├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
 ├─libdevmapper.so.1.02()(64bit)                                  device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
@@ -4662,8 +4579,8 @@ device-mapper-event-1.02.142-4.fc27.s390x
 ├─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
-├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
@@ -4693,14 +4610,14 @@ lvm2-2.02.173-4.fc27.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
 ├─libdevmapper.so.1.02()(64bit)                                  device-mapper-libs-1.02.142-4.fc27.s390x
-├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
 ├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
 ├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
-├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libdevmapper.so.1.02(DM_1_02_97)(64bit)                        device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
@@ -4739,9 +4656,9 @@ lvm2-libs-2.02.173-4.fc27.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.s390x
 ├─libdevmapper.so.1.02()(64bit)                                  device-mapper-libs-1.02.142-4.fc27.s390x
-├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.s390x
 ├─libdevmapper.so.1.02(Base)(64bit)                              device-mapper-libs-1.02.142-4.fc27.s390x
+├─librt.so.1(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libdevmapper.so.1.02(DM_1_02_97)(64bit)                        device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
@@ -4763,53 +4680,19 @@ lvm2-libs-2.02.173-4.fc27.s390x
 ├─libdevmapper.so.1.02(DM_1_02_141)(64bit)                       device-mapper-libs-1.02.142-4.fc27.s390x
 ├─libdevmapper.so.1.02(DM_1_02_128)(64bit)                       device-mapper-libs-1.02.142-4.fc27.s390x
 └─device-mapper-event = 1.02.142-4.fc27                          device-mapper-event-1.02.142-4.fc27.s390x
-xz-libs-5.2.3-4.fc27.s390x                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
-└─libpthread.so.0(GLIBC_2.3.3)(64bit)                            glibc-2.26-1.fc27.1.s390x
-xz-5.2.3-4.fc27.s390x                                            
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
-├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
-├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
-├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
-├─liblzma.so.5(XZ_5.2)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
-├─xz-libs(s390-64) = 5.2.3-4.fc27                                xz-libs-5.2.3-4.fc27.s390x
-└─grep >= 2.20-5                                                 grep-3.1-3.fc27.s390x
-lz4-1.7.5-6.fc27.s390x                                           
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-└─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-gmp-1:6.1.2-6.fc27.s390x                                         
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-└─libc.so.6(GLIBC_2.7)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-mpfr-3.1.5-5.fc27.s390x                                          
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
-├─ld64.so.1(GLIBC_2.3)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libgmp.so.10()(64bit)                                          gmp-1:6.1.2-6.fc27.s390x
-└─gmp >= 4.2.1                                                   gmp-1:6.1.2-6.fc27.s390x
-pcre-8.41-1.fc27.2.s390x                                         
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-└─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 kmod-libs-24-3.fc27.s390x                                        
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 └─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
 btrfs-progs-4.12-1.fc27.s390x                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
 ├─ld64.so.1()(64bit)                                             glibc-2.26-1.fc27.1.s390x
@@ -4822,8 +4705,8 @@ btrfs-progs-4.12-1.fc27.s390x
 ├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.s390x
 ├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.s390x
-├─libpthread.so.0(GLIBC_2.3.3)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1(ZLIB_1.2.0)(64bit)                                   zlib-1.2.11-4.fc27.s390x
+├─libpthread.so.0(GLIBC_2.3.3)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.s390x
 ├─libext2fs.so.2()(64bit)                                        e2fsprogs-libs-1.43.4-4.fc27.s390x
 └─liblzo2.so.2()(64bit)                                          lzo-2.08-9.fc26.s390x
@@ -4834,14 +4717,14 @@ pam-1.3.0-5.fc27.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.s390x
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.s390x
 ├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
 ├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
 ├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
 ├─libnsl.so.1(GLIBC_2.2)(64bit)                                  glibc-2.26-1.fc27.1.s390x
-├─libcrack.so.2()(64bit)                                         cracklib-2.9.6-7.fc27.s390x
 ├─libutil.so.1(GLIBC_2.2)(64bit)                                 glibc-2.26-1.fc27.1.s390x
+├─libcrack.so.2()(64bit)                                         cracklib-2.9.6-7.fc27.s390x
 ├─audit-libs >= 1.0.8                                            audit-libs-2.7.7-5.fc27.s390x
 ├─glibc >= 2.3.90-37                                             glibc-2.26-1.fc27.1.s390x
 ├─libpwquality >= 0.9.9                                          libpwquality-1.4.0-3.fc27.s390x
@@ -4861,12 +4744,12 @@ findutils-1:4.6.0-14.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
-└─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+└─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 iproute-4.12.0-1.fc27.s390x                                      
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
@@ -4884,12 +4767,17 @@ kmod-24-3.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
 ├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.s390x
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.s390x
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                libgcc-7.1.1-7.fc27.1.s390x
 └─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.s390x
+readline-7.0-7.fc27.s390x                                        
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─/sbin/ldconfig                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+└─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
 filesystem-3.3-3.fc27.s390x                                      
 └─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
 gzip-1.8-4.fc27.s390x                                            
@@ -4906,9 +4794,90 @@ file-libs-5.31-7.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
 └─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+sqlite-libs-3.20.0-1.fc27.s390x                                  
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
+└─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 libseccomp-2.3.2-5.fc27.s390x                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 └─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+python2-2.7.13-16.fc27.s390x                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
+├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
+├─libpython2.7.so.1.0()(64bit)                                   python2-libs-2.7.13-16.fc27.s390x
+├─libc.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─python2-setuptools                                             python2-setuptools-36.2.0-3.fc27.noarch
+├─python2-pip                                                    python2-pip-9.0.1-11.fc27.noarch
+└─python2-libs(s390-64) = 2.7.13-16.fc27                         python2-libs-2.7.13-16.fc27.s390x
+python2-libs-2.7.13-16.fc27.s390x                                
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.s390x
+├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.s390x
+├─libdl.so.2(GLIBC_2.2)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libm.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.s390x
+├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
+├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.s390x
+├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.s390x
+├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.s390x
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.s390x
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.s390x
+├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.s390x
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
+├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
+├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.s390x
+├─/usr/bin/env                                                   coreutils-8.27-14.fc27.s390x
+├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.s390x
+├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.s390x
+├─libnsl.so.1(GLIBC_2.2)(64bit)                                  glibc-2.26-1.fc27.1.s390x
+├─libz.so.1(ZLIB_1.2.0)(64bit)                                   zlib-1.2.11-4.fc27.s390x
+├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.s390x
+├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.s390x
+├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.s390x
+├─libpanelw.so.6()(64bit)                                        ncurses-libs-6.0-13.20170722.fc27.s390x
+├─libutil.so.1(GLIBC_2.2)(64bit)                                 glibc-2.26-1.fc27.1.s390x
+├─expat >= 2.1.0                                                 expat-2.2.3-1.fc27.s390x
+└─glibc(s390-64) >= 2.24.90-26                                   glibc-2.26-1.fc27.1.s390x
+policycoreutils-2.7-1.fc27.s390x                                 
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─/bin/sh                                                        bash-4.4.12-9.fc27.s390x
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+├─coreutils                                                      coreutils-8.27-14.fc27.s390x
+├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─rpm                                                            rpm-4.13.0.1-41.fc27.s390x
+├─util-linux                                                     util-linux-2.30.1-1.fc27.s390x
+├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
+├─grep                                                           grep-3.1-3.fc27.s390x
+├─gawk                                                           gawk-4.1.4-5.fc27.s390x
+├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
+├─sed                                                            sed-4.4-3.fc27.s390x
+├─diffutils                                                      diffutils-3.6-3.fc27.s390x
+├─libsemanage.so.1()(64bit)                                      libsemanage-2.7-1.fc27.s390x
+├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                             libsepol-2.7-1.fc27.s390x
+├─libsemanage.so.1(LIBSEMANAGE_1.0)(64bit)                       libsemanage-2.7-1.fc27.s390x
+├─libsemanage.so.1(LIBSEMANAGE_1.1)(64bit)                       libsemanage-2.7-1.fc27.s390x
+├─libsepol.so.1(LIBSEPOL_1.1)(64bit)                             libsepol-2.7-1.fc27.s390x
+├─libselinux-utils >= 2.7-1                                      libselinux-utils-2.7-1.fc27.s390x
+└─libsepol >= 2.7-1                                              libsepol-2.7-1.fc27.s390x
+libselinux-utils-2.7-1.fc27.s390x                                
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+└─libselinux(s390-64) = 2.7-1.fc27                               libselinux-2.7-1.fc27.s390x
 libpsl-0.17.0-4.fc27.s390x                                       
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
@@ -4939,8 +4908,8 @@ iptables-1.6.1-4.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.s390x
 ├─libm.so.6(GLIBC_2.2)(64bit)                                    glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.7)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─/bin/bash                                                      bash-4.4.12-9.fc27.s390x
+├─libc.so.6(GLIBC_2.7)(64bit)                                    glibc-2.26-1.fc27.1.s390x
 ├─libpcap.so.1()(64bit)                                          libpcap-14:1.8.1-6.fc27.s390x
 ├─libxtables.so.12()(64bit)                                      iptables-libs-1.6.1-4.fc27.s390x
 ├─libip4tc.so.0()(64bit)                                         iptables-libs-1.6.1-4.fc27.s390x
@@ -4961,6 +4930,27 @@ libnfnetlink-1.0.1-9.fc26.s390x
 qrencode-libs-3.4.4-3.fc27.s390x                                 
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 └─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+gdbm-1.13-3.fc27.s390x                                           
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libc.so.6(GLIBC_2.7)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
+└─libncurses.so.6()(64bit)                                       ncurses-libs-6.0-13.20170722.fc27.s390x
+gdbm-devel-1.13-3.fc27.s390x                                     
+├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.s390x
+├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.s390x
+└─gdbm = 1.13-3.fc27                                             gdbm-1.13-3.fc27.s390x
+libsemanage-2.7-1.fc27.s390x                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
+├─libc.so.6(GLIBC_2.8)(64bit)                                    glibc-2.26-1.fc27.1.s390x
+├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.s390x
+├─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.s390x
+├─audit-libs                                                     audit-libs-2.7.7-5.fc27.s390x
+├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                             libsepol-2.7-1.fc27.s390x
+├─bzip2-libs                                                     bzip2-libs-1.0.6-24.fc27.s390x
+└─libsepol.so.1(LIBSEPOL_1.1)(64bit)                             libsepol-2.7-1.fc27.s390x
 setup-2.10.5-3.fc27.noarch                                       
 └─system-release                                                 fedora-release-27-0.2.noarch
 lua-libs-5.3.4-5.fc27.s390x                                      
@@ -4980,8 +4970,8 @@ gnupg2-2.1.22-1.fc27.s390x
 ├─libc.so.6(GLIBC_2.15)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.s390x
 ├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.s390x
-├─libgpg-error.so.0()(64bit)                                     libgpg-error-1.27-3.fc27.s390x
 ├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libgpg-error.so.0()(64bit)                                     libgpg-error-1.27-3.fc27.s390x
 ├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.s390x
 ├─liblber-2.4.so.2()(64bit)                                      openldap-2.4.45-3.fc27.s390x
 ├─libldap-2.4.so.2()(64bit)                                      openldap-2.4.45-3.fc27.s390x
@@ -5025,6 +5015,16 @@ python3-pip-9.0.1-11.fc27.noarch
 ├─/usr/bin/python3                                               python3-3.6.2-6.fc27.s390x
 ├─python3-setuptools                                             python3-setuptools-36.2.0-3.fc27.noarch
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.s390x
+python2-pip-9.0.1-11.fc27.noarch                                 
+├─python-setuptools                                              python2-setuptools-36.2.0-3.fc27.noarch
+├─/usr/bin/python2                                               python2-2.7.13-16.fc27.s390x
+└─python(abi) = 2.7                                              python2-2.7.13-16.fc27.s390x
+python2-setuptools-36.2.0-3.fc27.noarch                          
+├─/usr/bin/python2                                               python2-2.7.13-16.fc27.s390x
+└─python(abi) = 2.7                                              python2-2.7.13-16.fc27.s390x
+diffutils-3.6-3.fc27.s390x                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
+└─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 perl-threads-1:2.16-4.fc27.s390x                                 
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libc.so.6(GLIBC_2.4)(64bit)                                    glibc-2.26-1.fc27.1.s390x
@@ -5255,9 +5255,9 @@ guile-5:2.0.14-3.fc27.s390x
 ├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.s390x
 ├─libgmp.so.10()(64bit)                                          gmp-1:6.1.2-6.fc27.s390x
 ├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.s390x
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libcrypt.so.1(GLIBC_2.2)(64bit)                                libcrypt-2.26-1.fc27.1.s390x
 ├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.s390x
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libunistring.so.2()(64bit)                                     libunistring-0.9.7-3.fc27.s390x
 ├─libncurses.so.6()(64bit)                                       ncurses-libs-6.0-13.20170722.fc27.s390x
 ├─libgc.so.1()(64bit)                                            gc-7.6.0-7.fc27.s390x
@@ -5379,8 +5379,8 @@ coreutils-8.27-14.fc27.s390x
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.s390x
 ├─libpthread.so.0(GLIBC_2.2)(64bit)                              glibc-2.26-1.fc27.1.s390x
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.s390x
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.s390x
 ├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.s390x
 ├─libpthread.so.0(GLIBC_2.3.2)(64bit)                            glibc-2.26-1.fc27.1.s390x
 ├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.s390x
@@ -5406,8 +5406,8 @@ libcurl-minimal-7.55.0-1.fc27.s390x
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.s390x
 ├─libgssapi_krb5.so.2()(64bit)                                   krb5-libs-1.15.1-21.fc27.s390x
 ├─libkrb5.so.3()(64bit)                                          krb5-libs-1.15.1-21.fc27.s390x
-├─libk5crypto.so.3()(64bit)                                      krb5-libs-1.15.1-21.fc27.s390x
 ├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.s390x
+├─libk5crypto.so.3()(64bit)                                      krb5-libs-1.15.1-21.fc27.s390x
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                  krb5-libs-1.15.1-21.fc27.s390x
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.s390x
 ├─libnghttp2.so.14()(64bit)                                      libnghttp2-1.24.0-4.fc27.s390x

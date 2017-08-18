@@ -32,9 +32,7 @@ These are RPM dependencies of the [tomcat top-level package set](tomcat.csv). Th
 | `java-1.8.0-openjdk-headless` | X | X | X | X | X | X | X |
 | `javapackages-tools` | X | X | X | X | X | X | X |
 | `jss` | X | X | X | X | X | X | X |
-| `libjpeg-turbo` | X | X | X | X | X | X | X |
 | `libpng` | - | X | - | - | - | X | - |
-| `lksctp-tools` | X | X | X | X | X | X | X |
 | `lua` | X | X | X | X | X | X | X |
 | `lua-posix` | X | X | X | X | X | X | X |
 | `tomcat` | X | X | X | X | X | X | X |
@@ -44,4 +42,4 @@ These are RPM dependencies of the [tomcat top-level package set](tomcat.csv). Th
 | `tomcat-lib` | X | X | X | X | X | X | X |
 | `tomcat-servlet-3.1-api` | X | X | X | X | X | X | X |
 | `tzdata-java` | X | X | X | X | X | X | X |
-| `which` | - | X | - | - | - | - | - |
+| `which` | - | X | - | - | - | X | - |

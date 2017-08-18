@@ -32,4 +32,3 @@ These are RPM dependencies of the [httpd top-level package set](httpd.csv). They
 | `mod_session` | X | X | X | X | X | X | X |
 | `mod_wsgi` | X | X | X | X | X | X | X |
 | `nss-tools` | X | X | X | X | X | X | X |
-| `python2-libs` | - | - | - | - | - | X | - |

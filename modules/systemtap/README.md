@@ -25,11 +25,10 @@ These are RPM dependencies of the [systemtap top-level package set](systemtap.cs
 | `boost-atomic` | - | - | X | X | - | - | X |
 | `boost-chrono` | - | - | X | X | - | - | X |
 | `boost-date-time` | - | - | X | X | - | - | X |
-| `boost-system` | - | - | X | X | - | - | X |
-| `boost-thread` | - | - | X | X | - | - | X |
+| `boost-system` | - | - | X | X | - | - | - |
+| `boost-thread` | - | - | X | X | - | - | - |
 | `curl-minimal` | X | X | X | X | X | X | X |
 | `dyninst` | - | - | X | X | - | - | X |
-| `json-c` | X | X | X | X | X | X | X |
 | `kernel-devel` | X | X | X | X | X | X | X |
 | `libdwarf` | - | - | X | X | - | - | X |
 | `systemtap` | X | X | X | X | X | X | X |

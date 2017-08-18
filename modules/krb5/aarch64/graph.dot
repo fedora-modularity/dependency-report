@@ -1,16 +1,6 @@
 strict digraph G {
 node [fontname=monospace];
-  "gssproxy" -> "libbasicobjects";
-  "gssproxy" -> "libcollection";
-  "gssproxy" -> "libini_config";
-  "gssproxy" -> "libref_array";
-  "gssproxy" -> "libverto-libev";
   "krb5-server" -> "libkadm5";
-  "krb5-server" -> "libverto-libev";
   "krb5-server" -> "words";
   "krb5-workstation" -> "libkadm5";
-  "libini_config" -> "libbasicobjects";
-  "libini_config" -> "libcollection";
-  "libini_config" -> "libpath_utils";
-  "libini_config" -> "libref_array";
 }

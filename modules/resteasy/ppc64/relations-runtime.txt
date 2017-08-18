@@ -39,9 +39,6 @@ glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
 └─mvn(org.glassfish.jaxb:jaxb-core) = 2.2.11                          glassfish-jaxb-core-2.2.11-5.fc26.noarch
 java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64              
 ├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─libjpeg.so.62()(64bit)                                              libjpeg-turbo-1.5.1-4.fc27.ppc64
-├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                                   libjpeg-turbo-1.5.1-4.fc27.ppc64
-├─lksctp-tools(ppc-64)                                                lksctp-tools-1.0.16-6.fc26.ppc64
 ├─copy-jdk-configs >= 2.2                                             copy-jdk-configs-2.3-1.fc27.noarch
 └─tzdata-java >= 2015d                                                tzdata-java-2017b-2.fc27.noarch
 javapackages-tools-5.0.0-4.fc27.noarch                                
@@ -57,7 +54,6 @@ httpcomponents-client-4.5.3-3.fc26.noarch
 ├─mvn(commons-logging:commons-logging)                                apache-commons-logging-1.2-10.fc27.noarch
 ├─mvn(commons-codec:commons-codec)                                    apache-commons-codec-1.10-4.fc26.noarch
 ├─mvn(org.apache.httpcomponents:httpcore)                             httpcomponents-core-4.4.6-3.fc26.noarch
-├─publicsuffix-list                                                   publicsuffix-list-20170424-2.fc27.noarch
 └─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
 jboss-annotations-1.2-api-1.0.0-2.fc26.noarch                         
 ├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
@@ -96,7 +92,6 @@ copy-jdk-configs-2.3-1.fc27.noarch
 ├─lua                                                                 lua-5.3.4-5.fc27.ppc64
 ├─/usr/bin/lua                                                        lua-5.3.4-5.fc27.ppc64
 └─lua-posix                                                           lua-posix-33.3.1-4.fc26.ppc64
-lksctp-tools-1.0.16-6.fc26.ppc64                                      
 apache-commons-codec-1.10-4.fc26.noarch                               
 ├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
 └─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
@@ -144,6 +139,4 @@ relaxngDatatype-2011.1-5.fc26.noarch
 ├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
 └─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.ppc64
 lua-5.3.4-5.fc27.ppc64                                                
-libjpeg-turbo-1.5.1-4.fc27.ppc64                                      
 tzdata-java-2017b-2.fc27.noarch                                       
-publicsuffix-list-20170424-2.fc27.noarch                              

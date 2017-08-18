@@ -37,7 +37,6 @@ digraph G {
   "httpd" -> "platform" [color="#aa0000"];
   "httpd" -> "platform-placeholder" [color="#aa0000"];
   "installer" -> "platform" [color="#009900"];
-  "installer" -> "platform" [color="#aa0000"];
   "java" -> "platform" [color="#009900"];
   "java" -> "platform-placeholder" [color="#009900"];
   "java" -> "platform" [color="#aa0000"];
@@ -63,7 +62,10 @@ digraph G {
   "pki" -> "platform" [color="#aa0000"];
   "pki" -> "platform-placeholder" [color="#aa0000"];
   "platform-placeholder" -> "platform" [color="#009900"];
-  "platform-placeholder" -> "platform" [color="#aa0000"];
+  "postgresql" -> "platform" [color="#009900"];
+  "postgresql" -> "platform-placeholder" [color="#009900"];
+  "postgresql" -> "platform" [color="#aa0000"];
+  "postgresql" -> "platform-placeholder" [color="#aa0000"];
   "resteasy" -> "platform" [color="#009900"];
   "resteasy" -> "platform-placeholder" [color="#009900"];
   "resteasy" -> "platform" [color="#aa0000"];

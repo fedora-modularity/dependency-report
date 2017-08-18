@@ -3,7 +3,6 @@
   "389-ds-base" -> "cyrus-sasl-gssapi";
   "389-ds-base" -> "cyrus-sasl-md5";
   "389-ds-base" -> "gperftools-libs";
-  "389-ds-base" -> "libicu";
   "389-ds-base" -> "libsemanage-python";
   "389-ds-base-libs" -> "gperftools-libs";
   "389-ds-base-libs" -> "svrcore";
@@ -11,9 +10,7 @@
   "389-ds-base" -> "openldap-clients";
   "389-ds-base" -> "perl-Mozilla-LDAP";
   "389-ds-base" -> "perl-NetAddr-IP";
-  "389-ds-base" -> "policycoreutils-python-utils";
   "389-ds-base" -> "svrcore";
-  "audit-libs-python3" -> "audit";
   "bind-libs" -> "bind-libs-lite";
   "bind-libs" -> "bind-license";
   "bind-libs" -> "GeoIP";
@@ -26,12 +23,5 @@
   "GeoIP" -> "GeoIP-GeoLite-data";
   "gperftools-libs" -> "libunwind";
   "perl-NetAddr-IP" -> "perl-Socket6";
-  "policycoreutils-python3" -> "audit-libs-python3";
-  "policycoreutils-python3" -> "checkpolicy";
-  "policycoreutils-python3" -> "libcgroup";
-  "policycoreutils-python3" -> "libsemanage-python3";
-  "policycoreutils-python3" -> "python3-IPy";
-  "policycoreutils-python3" -> "setools-python3";
-  "policycoreutils-python-utils" -> "policycoreutils-python3";
   "python3-bind" -> "bind-license";
   "python3-bind" -> "python3-ply";

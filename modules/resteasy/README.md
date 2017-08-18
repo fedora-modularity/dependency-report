@@ -43,13 +43,10 @@ These are RPM dependencies of the [resteasy top-level package set](resteasy.csv)
 | `jcip-annotations` | X | X | X | X | X | X | X |
 | `joda-time` | X | X | X | X | X | X | X |
 | `jsr-311` | X | X | X | X | X | X | X |
-| `libjpeg-turbo` | X | X | X | X | X | X | X |
 | `libpng` | - | X | - | - | - | X | - |
-| `lksctp-tools` | X | X | X | X | X | X | X |
 | `lua` | X | X | X | X | X | X | X |
 | `lua-posix` | X | X | X | X | X | X | X |
 | `objectweb-asm3` | X | X | X | X | X | X | X |
-| `publicsuffix-list` | X | X | X | X | X | X | X |
 | `relaxngDatatype` | X | X | X | X | X | X | X |
 | `resteasy-atom-provider` | X | X | X | X | X | X | X |
 | `resteasy-client` | X | X | X | X | X | X | X |
@@ -59,6 +56,6 @@ These are RPM dependencies of the [resteasy top-level package set](resteasy.csv)
 | `stax2-api` | X | X | X | X | X | X | X |
 | `stax-ex` | X | X | X | X | X | X | X |
 | `tzdata-java` | X | X | X | X | X | X | X |
-| `which` | - | X | - | - | - | - | - |
+| `which` | - | X | - | - | - | X | - |
 | `xmlstreambuffer` | X | X | X | X | X | X | X |
 | `xsom` | X | X | X | X | X | X | X |

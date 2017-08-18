@@ -90,8 +90,8 @@ lua-5.3.4-5.fc27.i686
 ├─libm.so.6(GLIBC_2.0)                                  glibc-2.26-1.fc27.1.i686
 ├─libc.so.6(GLIBC_2.11)                                 glibc-2.26-1.fc27.1.i686
 ├─libreadline.so.7                                      readline-7.0-7.fc27.i686
-├─liblua-5.3.so                                         lua-libs-5.3.4-5.fc27.i686
 ├─libtinfo.so.6                                         ncurses-libs-6.0-13.20170722.fc27.i686
+├─liblua-5.3.so                                         lua-libs-5.3.4-5.fc27.i686
 ├─libncurses.so.6                                       ncurses-libs-6.0-13.20170722.fc27.i686
 └─lua-libs = 5.3.4-5.fc27                               lua-libs-5.3.4-5.fc27.i686
 lua-libs-5.3.4-5.fc27.i686                              
@@ -123,8 +123,8 @@ findutils-1:4.6.0-14.fc27.i686
 ├─rtld(GNU_HASH)                                        glibc-2.26-1.fc27.1.i686
 ├─libm.so.6                                             glibc-2.26-1.fc27.1.i686
 ├─libm.so.6(GLIBC_2.0)                                  glibc-2.26-1.fc27.1.i686
-├─libc.so.6(GLIBC_2.17)                                 glibc-2.26-1.fc27.1.i686
-└─libselinux.so.1                                       libselinux-2.7-1.fc27.i686
+├─libselinux.so.1                                       libselinux-2.7-1.fc27.i686
+└─libc.so.6(GLIBC_2.17)                                 glibc-2.26-1.fc27.1.i686
 info-6.4-3.fc27.i686                                    
 ├─rtld(GNU_HASH)                                        glibc-2.26-1.fc27.1.i686
 ├─libz.so.1                                             zlib-1.2.11-4.fc27.i686
@@ -139,8 +139,8 @@ ca-certificates-2017.2.16-3.fc27.noarch
 chkconfig-1.10-3.fc27.i686                              
 ├─rtld(GNU_HASH)                                        glibc-2.26-1.fc27.1.i686
 ├─libselinux.so.1                                       libselinux-2.7-1.fc27.i686
-├─libpopt.so.0                                          popt-1.16-11.fc27.i686
 ├─libc.so.6(GLIBC_2.8)                                  glibc-2.26-1.fc27.1.i686
+├─libpopt.so.0                                          popt-1.16-11.fc27.i686
 ├─libpopt.so.0(LIBPOPT_0)                               popt-1.16-11.fc27.i686
 └─libsepol.so.1                                         libsepol-2.7-1.fc27.i686
 freetype-2.8-5.fc27.i686                                
@@ -175,8 +175,8 @@ nspr-4.16.0-1.fc27.i686
 ├─libdl.so.2                                            glibc-2.26-1.fc27.1.i686
 ├─libdl.so.2(GLIBC_2.0)                                 glibc-2.26-1.fc27.1.i686
 ├─libdl.so.2(GLIBC_2.1)                                 glibc-2.26-1.fc27.1.i686
-├─libpthread.so.0(GLIBC_2.1)                            glibc-2.26-1.fc27.1.i686
 ├─libpthread.so.0(GLIBC_2.2)                            glibc-2.26-1.fc27.1.i686
+├─libpthread.so.0(GLIBC_2.1)                            glibc-2.26-1.fc27.1.i686
 ├─libc.so.6(GLIBC_2.17)                                 glibc-2.26-1.fc27.1.i686
 ├─libpthread.so.0(GLIBC_2.3.2)                          glibc-2.26-1.fc27.1.i686
 ├─librt.so.1                                            glibc-2.26-1.fc27.1.i686
@@ -278,8 +278,8 @@ sqlite-libs-3.20.0-1.fc27.i686
 ├─libdl.so.2                                            glibc-2.26-1.fc27.1.i686
 ├─libdl.so.2(GLIBC_2.0)                                 glibc-2.26-1.fc27.1.i686
 ├─libdl.so.2(GLIBC_2.1)                                 glibc-2.26-1.fc27.1.i686
-├─libpthread.so.0(GLIBC_2.1)                            glibc-2.26-1.fc27.1.i686
-└─libpthread.so.0(GLIBC_2.2)                            glibc-2.26-1.fc27.1.i686
+├─libpthread.so.0(GLIBC_2.2)                            glibc-2.26-1.fc27.1.i686
+└─libpthread.so.0(GLIBC_2.1)                            glibc-2.26-1.fc27.1.i686
 nss-pem-1.0.3-5.fc27.i686                               
 ├─rtld(GNU_HASH)                                        glibc-2.26-1.fc27.1.i686
 ├─libc.so.6(GLIBC_2.4)                                  glibc-2.26-1.fc27.1.i686
@@ -307,10 +307,10 @@ libselinux-2.7-1.fc27.i686
 ├─ld-linux.so.2                                         glibc-2.26-1.fc27.1.i686
 ├─ld-linux.so.2(GLIBC_2.3)                              glibc-2.26-1.fc27.1.i686
 ├─libc.so.6(GLIBC_2.8)                                  glibc-2.26-1.fc27.1.i686
-├─pcre                                                  pcre-8.41-1.fc27.2.i686
 ├─libsepol.so.1                                         libsepol-2.7-1.fc27.i686
-├─libpcre2-8.so.0                                       pcre2-10.30-0.6.RC1.fc27.i686
+├─pcre                                                  pcre-8.41-1.fc27.2.i686
 ├─libsepol.so.1(LIBSEPOL_1.0)                           libsepol-2.7-1.fc27.i686
+├─libpcre2-8.so.0                                       pcre2-10.30-0.6.RC1.fc27.i686
 └─libsepol(x86-32) >= 2.7-1                             libsepol-2.7-1.fc27.i686
 libsepol-2.7-1.fc27.i686                                
 ├─rtld(GNU_HASH)                                        glibc-2.26-1.fc27.1.i686
@@ -391,10 +391,10 @@ coreutils-8.27-14.fc27.i686
 ├─rtld(GNU_HASH)                                        glibc-2.26-1.fc27.1.i686
 ├─libpthread.so.0                                       glibc-2.26-1.fc27.1.i686
 ├─libpthread.so.0(GLIBC_2.0)                            glibc-2.26-1.fc27.1.i686
-├─libpthread.so.0(GLIBC_2.1)                            glibc-2.26-1.fc27.1.i686
 ├─libpthread.so.0(GLIBC_2.2)                            glibc-2.26-1.fc27.1.i686
-├─libc.so.6(GLIBC_2.17)                                 glibc-2.26-1.fc27.1.i686
+├─libpthread.so.0(GLIBC_2.1)                            glibc-2.26-1.fc27.1.i686
 ├─libselinux.so.1                                       libselinux-2.7-1.fc27.i686
+├─libc.so.6(GLIBC_2.17)                                 glibc-2.26-1.fc27.1.i686
 ├─libcrypto.so.1.1                                      openssl-libs-1:1.1.0f-9.fc27.i686
 ├─libpthread.so.0(GLIBC_2.3.2)                          glibc-2.26-1.fc27.1.i686
 ├─librt.so.1                                            glibc-2.26-1.fc27.1.i686

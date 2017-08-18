@@ -22,7 +22,6 @@ These are RPM dependencies of the [samba top-level package set](samba.csv). They
 |---|---|---|---|---|---|---|---|
 | `avahi-libs` | X | X | X | X | X | X | X |
 | `cups-libs` | X | X | X | X | X | X | X |
-| `libaio` | X | X | X | X | X | X | X |
 | `libkadm5` | X | X | X | X | X | X | X |
 | `libldb` | X | X | X | X | X | X | X |
 | `libsmbclient` | X | X | X | X | X | X | X |
@@ -32,13 +31,9 @@ These are RPM dependencies of the [samba top-level package set](samba.csv). They
 | `libtomcrypt` | X | X | X | X | X | X | X |
 | `libtommath` | X | X | X | X | X | X | X |
 | `libwbclient` | X | X | X | X | X | X | X |
-| `python2` | - | - | - | - | - | X | - |
 | `python2-crypto` | X | X | X | X | X | X | X |
 | `python2-dns` | X | X | X | X | X | X | X |
 | `python2-ldb` | X | X | X | X | X | X | X |
-| `python2-libs` | - | - | - | - | - | X | - |
-| `python2-pip` | - | - | - | - | - | X | - |
-| `python2-setuptools` | - | - | - | - | - | X | - |
 | `python2-talloc` | X | X | X | X | X | X | X |
 | `python2-tdb` | X | X | X | X | X | X | X |
 | `python2-tevent` | X | X | X | X | X | X | X |

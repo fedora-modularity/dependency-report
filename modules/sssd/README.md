@@ -23,15 +23,8 @@ These are RPM dependencies of the [sssd top-level package set](sssd.csv). They s
 |---|---|---|---|---|---|---|---|
 | `cyrus-sasl-gssapi` | X | X | X | X | X | X | X |
 | `http-parser` | X | X | X | X | X | X | X |
-| `jansson` | X | X | X | X | X | X | X |
-| `libbasicobjects` | X | X | X | X | X | X | X |
-| `libcollection` | X | X | X | X | X | X | X |
 | `libdhash` | X | X | X | X | X | X | X |
-| `libini_config` | X | X | X | X | X | X | X |
 | `libipa_hbac` | X | X | X | X | X | X | X |
-| `libnl3` | X | X | X | X | X | X | X |
-| `libpath_utils` | X | X | X | X | X | X | X |
-| `libref_array` | X | X | X | X | X | X | X |
 | `libsss_autofs` | X | X | X | X | X | X | X |
 | `libsss_certmap` | X | X | X | X | X | X | X |
 | `libsss_idmap` | X | X | X | X | X | X | X |

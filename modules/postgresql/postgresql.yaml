@@ -1,0 +1,23 @@
+document: modulemd
+version: 1
+data:
+    summary: postgresql module
+    description: This postgresql has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/postgresql
+        tracker: https://github.com/modularity-modules/postgresql
+    components:
+        rpms:
+            postgresql:
+                rationale: Generated.
+                ref: master.

@@ -33,15 +33,12 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
-| `augeas-libs` | X | X | X | X | X | X | X |
 | `authconfig` | X | X | X | X | X | X | X |
 | `autofs` | X | X | X | X | X | X | X |
 | `autogen-libopts` | X | X | X | X | X | X | X |
 | `bind-dyndb-ldap` | X | X | X | X | X | X | X |
 | `certmonger` | X | X | X | X | X | X | X |
-| `compat-openssl10` | X | X | X | X | X | X | X |
 | `custodia` | X | X | X | X | X | X | X |
-| `dbus-glib` | X | X | X | X | X | X | X |
 | `dbus-python` | X | X | X | X | X | X | X |
 | `fontawesome-fonts` | X | X | X | X | X | X | X |
 | `fontpackages-filesystem` | X | X | X | X | X | X | X |
@@ -54,18 +51,11 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `freeipa-server-common` | X | X | X | X | X | X | X |
 | `freeipa-server-dns` | X | X | X | X | X | X | X |
 | `freeipa-server-trust-ad` | X | X | X | X | X | X | X |
-| `gnupg` | X | X | X | X | X | X | X |
-| `initscripts` | X | X | X | X | X | - | X |
-| `keyutils` | X | X | X | X | X | X | X |
 | `ldns` | X | X | X | X | X | X | X |
 | `libitm` | X | X | X | X | X | X | X |
-| `libnfsidmap` | X | X | X | X | X | X | X |
-| `libtirpc` | X | X | X | X | X | X | X |
-| `libusb` | X | X | X | X | X | - | X |
 | `m2crypto` | X | X | X | X | X | X | X |
 | `mod_auth_gssapi` | X | X | X | X | X | X | X |
 | `mod_lookup_identity` | X | X | X | X | X | X | X |
-| `nfs-utils` | X | X | X | X | X | X | X |
 | `ntp` | X | X | X | X | X | X | X |
 | `oddjob` | X | X | X | X | X | X | X |
 | `oddjob-mkhomedir` | X | X | X | X | X | X | X |
@@ -106,12 +96,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python-netaddr` | X | X | X | X | X | X | X |
 | `python-qrcode-core` | X | X | X | X | X | X | X |
 | `pyusb` | X | X | X | X | X | X | X |
-| `quota` | X | X | X | X | X | X | X |
-| `quota-nls` | X | X | X | X | X | X | X |
-| `rpcbind` | X | X | X | X | X | X | X |
 | `slapi-nis` | X | X | X | X | X | X | X |
 | `softhsm` | X | X | X | X | X | X | X |
 | `sqlite` | X | X | X | X | X | X | X |
-| `tcp_wrappers` | X | X | X | X | X | X | X |
-| `xmlrpc-c` | X | X | X | X | X | X | X |
 | `xmlrpc-c-client` | X | X | X | X | X | X | X |

@@ -1,4 +1,3 @@
-bcache-tools-1.0.8-8.fc26.aarch64                         
 ceph-1:10.2.7-2.fc27.aarch64                              
 ├─ceph-mds = 1:10.2.7-2.fc27                              ceph-mds-1:10.2.7-2.fc27.aarch64
 ├─ceph-mon = 1:10.2.7-2.fc27                              ceph-mon-1:10.2.7-2.fc27.aarch64
@@ -8,7 +7,6 @@ ceph-base-1:10.2.7-2.fc27.aarch64
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.aarch64
 ├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.aarch64
-├─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.aarch64
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.aarch64
 ├─cryptsetup                                              cryptsetup-1.7.5-3.fc27.aarch64
 ├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.aarch64
@@ -51,7 +49,6 @@ ceph-mon-1:10.2.7-2.fc27.aarch64
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.aarch64
 ├─libtcmalloc.so.4()(64bit)                               gperftools-libs-2.6.1-1.fc27.aarch64
 ├─python-flask                                            python2-flask-1:0.11.1-5.fc26.noarch
-├─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.aarch64
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.aarch64
 ├─libleveldb.so.1()(64bit)                                leveldb-1.18-1.fc26.aarch64
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.aarch64
@@ -60,33 +57,12 @@ ceph-osd-1:10.2.7-2.fc27.aarch64
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.aarch64
 ├─libboost_program_options.so.1.63.0()(64bit)             boost-program-options-1.63.0-9.fc27.aarch64
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.aarch64
-├─libaio.so.1()(64bit)                                    libaio-0.3.110-7.fc26.aarch64
 ├─libtcmalloc.so.4()(64bit)                               gperftools-libs-2.6.1-1.fc27.aarch64
-├─libaio.so.1(LIBAIO_0.1)(64bit)                          libaio-0.3.110-7.fc26.aarch64
-├─libaio.so.1(LIBAIO_0.4)(64bit)                          libaio-0.3.110-7.fc26.aarch64
-├─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.aarch64
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.aarch64
-├─parted                                                  parted-3.2-26.fc27.aarch64
 ├─libleveldb.so.1()(64bit)                                leveldb-1.18-1.fc26.aarch64
-├─gdisk                                                   gdisk-1.0.1-3.fc26.aarch64
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.aarch64
 ceph-selinux-1:10.2.7-2.fc27.aarch64                      
-├─libselinux-utils                                        libselinux-utils-2.7-1.fc27.aarch64
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.aarch64
-dmraid-1.0.0.rc16-31.fc26.aarch64                         
-├─kpartx                                                  kpartx-0.7.1-6.git847cc43.fc27.aarch64
-├─libdevmapper-event.so.1.02()(64bit)                     device-mapper-event-libs-1.02.142-4.fc27.aarch64
-├─libdevmapper-event.so.1.02(Base)(64bit)                 device-mapper-event-libs-1.02.142-4.fc27.aarch64
-├─dmraid-events                                           dmraid-events-1.0.0.rc16-31.fc26.aarch64
-dmraid-events-1.0.0.rc16-31.fc26.aarch64                  
-├─libdevmapper-event.so.1.02()(64bit)                     device-mapper-event-libs-1.02.142-4.fc27.aarch64
-├─device-mapper-event                                     device-mapper-event-1.02.142-4.fc27.aarch64
-├─libdmraid.so.1()(64bit)                                 dmraid-1.0.0.rc16-31.fc26.aarch64
-├─libdmraid.so.1(Base)(64bit)                             dmraid-1.0.0.rc16-31.fc26.aarch64
-├─sgpio                                                   sgpio-1.2.0.10-17.fc26.aarch64
-└─dmraid = 1.0.0.rc16-31.fc26                             dmraid-1.0.0.rc16-31.fc26.aarch64
-dosfstools-4.1-2.fc26.aarch64                             
-hfsplus-tools-540.1.linux3-12.fc26.aarch64                
 libcephfs1-1:10.2.7-2.fc27.aarch64                        
 ├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.aarch64
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.aarch64
@@ -116,7 +92,6 @@ librgw2-1:10.2.7-2.fc27.aarch64
 ├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.aarch64
 ├─libfcgi.so.0()(64bit)                                   fcgi-2.4.0-30.fc26.aarch64
 └─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.aarch64
-mdadm-4.0-3.fc27.aarch64                                  
 python-cephfs-1:10.2.7-2.fc27.aarch64                     
 ├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.aarch64
 ├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.aarch64
@@ -143,8 +118,6 @@ librados2-1:10.2.7-2.fc27.aarch64
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.aarch64
 └─liblttng-ust.so.0()(64bit)                              lttng-ust-2.9.1-2.fc27.aarch64
 lttng-ust-2.9.1-2.fc27.aarch64                            
-├─liburcu-cds.so.6()(64bit)                               userspace-rcu-0.10.0-1.fc27.aarch64
-└─liburcu-bp.so.6()(64bit)                                userspace-rcu-0.10.0-1.fc27.aarch64
 python2-requests-2.18.1-2.fc27.noarch                     
 ├─python-chardet                                          python-chardet-3.0.4-1.fc27.noarch
 ├─python-idna                                             python2-idna-2.5-1.fc27.noarch
@@ -153,10 +126,7 @@ redhat-lsb-core-4.1-34.fc26.aarch64
 ├─/usr/sbin/sendmail                                      sendmail-8.15.2-15.fc27.aarch64
 ├─/usr/bin/crontab                                        cronie-1.5.1-6.fc27.aarch64
 ├─/usr/bin/man                                            man-db-2.7.6.1-2.fc26.aarch64
-├─/usr/bin/time                                           time-1.7-52.fc26.aarch64
 ├─spax                                                    spax-1.5.3-8.fc26.aarch64
-├─/usr/bin/bc                                             bc-1.07.1-1.fc27.aarch64
-├─/usr/bin/hostname                                       hostname-3.18-2.fc26.aarch64
 ├─/usr/bin/lp                                             cups-client-1:2.2.4-1.fc27.aarch64
 ├─/usr/bin/lpr                                            cups-client-1:2.2.4-1.fc27.aarch64
 ├─ncurses-compat-libs(aarch-64)                           ncurses-compat-libs-6.0-13.20170722.fc27.aarch64
@@ -166,30 +136,18 @@ redhat-lsb-core-4.1-34.fc26.aarch64
 ├─/usr/bin/batch                                          at-3.1.20-4.fc27.aarch64
 ├─/usr/bin/chfn                                           util-linux-user-2.30.1-1.fc27.aarch64
 ├─/usr/bin/chsh                                           util-linux-user-2.30.1-1.fc27.aarch64
-├─/usr/bin/passwd                                         passwd-0.79-9.fc26.aarch64
 └─redhat-lsb-submod-security(aarch-64) = 4.1-34.fc26      redhat-lsb-submod-security-4.1-34.fc26.aarch64
-snappy-1.1.4-3.fc26.aarch64                               
 boost-program-options-1.63.0-9.fc27.aarch64               
 boost-regex-1.63.0-9.fc27.aarch64                         
-├─libicuuc.so.57()(64bit)                                 libicu-57.1-4.fc26.aarch64
-├─libicui18n.so.57()(64bit)                               libicu-57.1-4.fc26.aarch64
-└─libicudata.so.57()(64bit)                               libicu-57.1-4.fc26.aarch64
 gperftools-libs-2.6.1-1.fc27.aarch64                      
 └─libunwind.so.8()(64bit)                                 libunwind-1.2-1.fc27.aarch64
 leveldb-1.18-1.fc26.aarch64                               
-└─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.aarch64
 python2-flask-1:0.11.1-5.fc26.noarch                      
 ├─python-jinja2                                           python2-jinja2-2.9.6-1.fc27.noarch
 ├─python-click                                            python2-click-6.7-3.fc26.noarch
 ├─python-werkzeug                                         python-werkzeug-0.11.10-5.fc26.noarch
 ├─python-itsdangerous                                     python2-itsdangerous-0.24-10.fc27.noarch
-gdisk-1.0.1-3.fc26.aarch64                                
-libaio-0.3.110-7.fc26.aarch64                             
-policycoreutils-2.6-5.fc27.aarch64                        
-├─libselinux-utils >= 2.6-5                               libselinux-utils-2.7-1.fc27.aarch64
-sgpio-1.2.0.10-17.fc26.aarch64                            
 fcgi-2.4.0-30.fc26.aarch64                                
-userspace-rcu-0.10.0-1.fc27.aarch64                       
 python-chardet-3.0.4-1.fc27.noarch                        
 python2-idna-2.5-1.fc27.noarch                            
 python2-urllib3-1.21.1-1.fc27.noarch                      
@@ -201,7 +159,6 @@ python2-urllib3-1.21.1-1.fc27.noarch
 ├─python-idna                                             python2-idna-2.5-1.fc27.noarch
 ├─python-pysocks                                          python2-pysocks-1.5.7-4.fc26.noarch
 at-3.1.20-4.fc27.aarch64                                  
-bc-1.07.1-1.fc27.aarch64                                  
 cronie-1.5.1-6.fc27.aarch64                               
 ├─dailyjobs                                               cronie-noanacron-1.5.1-6.fc27.aarch64
 cups-client-1:2.2.4-1.fc27.aarch64                        
@@ -210,17 +167,12 @@ cups-client-1:2.2.4-1.fc27.aarch64
 ├─libcups.so.2()(64bit)                                   cups-libs-1:2.2.4-1.fc27.aarch64
 └─cups-libs(aarch-64) = 1:2.2.4-1.fc27                    cups-libs-1:2.2.4-1.fc27.aarch64
 ed-1.14.1-2.fc26.aarch64                                  
-hostname-3.18-2.fc26.aarch64                              
 mailx-12.5-20.fc26.aarch64                                
 man-db-2.7.6.1-2.fc26.aarch64                             
-├─less                                                    less-487-3.fc27.aarch64
 ├─groff-base                                              groff-base-1.22.3-11.fc27.aarch64
 └─libpipeline.so.1()(64bit)                               libpipeline-1.4.2-1.fc27.aarch64
-passwd-0.79-9.fc26.aarch64                                
-├─libuser.so.1()(64bit)                                   libuser-0.62-9.fc27.aarch64
 redhat-lsb-submod-security-4.1-34.fc26.aarch64            
 spax-1.5.3-8.fc26.aarch64                                 
-time-1.7-52.fc26.aarch64                                  
 libunwind-1.2-1.fc27.aarch64                              
 python-werkzeug-0.11.10-5.fc26.noarch                     
 python2-click-6.7-3.fc26.noarch                           
@@ -246,7 +198,6 @@ avahi-libs-0.7-1.fc27.aarch64
 cups-libs-1:2.2.4-1.fc27.aarch64                          
 ├─libavahi-common.so.3()(64bit)                           avahi-libs-0.7-1.fc27.aarch64
 └─libavahi-client.so.3()(64bit)                           avahi-libs-0.7-1.fc27.aarch64
-less-487-3.fc27.aarch64                                   
 libpipeline-1.4.2-1.fc27.aarch64                          
 python2-babel-2.3.4-5.fc26.noarch                         
 ├─pytz                                                    pytz-2017.2-1.fc27.noarch
@@ -259,23 +210,12 @@ pytz-2017.2-1.fc27.noarch
 python2-pycparser-2.14-10.fc26.noarch                     
 └─python-ply >= 3.6                                       python2-ply-3.9-3.fc27.noarch
 python2-ply-3.9-3.fc27.noarch                             
-parted-3.2-26.fc27.aarch64                                
 util-linux-user-2.30.1-1.fc27.aarch64                     
-├─libuser.so.1()(64bit)                                   libuser-0.62-9.fc27.aarch64
-libselinux-utils-2.7-1.fc27.aarch64                       
 ncurses-compat-libs-6.0-13.20170722.fc27.aarch64          
 python2-markupsafe-0.23-15.fc27.aarch64                   
-├─curl                                                    curl-minimal-7.55.0-1.fc27.aarch64
-libuser-0.62-9.fc27.aarch64                               
-device-mapper-event-1.02.142-4.fc27.aarch64               
-├─libdevmapper-event.so.1.02()(64bit)                     device-mapper-event-libs-1.02.142-4.fc27.aarch64
-├─libdevmapper-event.so.1.02(Base)(64bit)                 device-mapper-event-libs-1.02.142-4.fc27.aarch64
-└─device-mapper-event-libs = 1.02.142-4.fc27              device-mapper-event-libs-1.02.142-4.fc27.aarch64
-device-mapper-event-libs-1.02.142-4.fc27.aarch64          
 groff-base-1.22.3-11.fc27.aarch64                         
-kpartx-0.7.1-6.git847cc43.fc27.aarch64                    
 cryptsetup-1.7.5-3.fc27.aarch64                           
-libicu-57.1-4.fc26.aarch64                                
+├─curl                                                    curl-minimal-7.55.0-1.fc27.aarch64
 sendmail-8.15.2-15.fc27.aarch64                           
 ├─procmail                                                procmail-3.22-41.fc27.aarch64
 ├─libhesiod.so.0()(64bit)                                 hesiod-3.2.1-7.fc26.aarch64
@@ -288,29 +228,6 @@ cronie-noanacron-1.5.1-6.fc27.aarch64
 ├─crontabs                                                crontabs-1.11-14.20150630git.fc26.noarch
 └─cronie = 1.5.1-6.fc27                                   cronie-1.5.1-6.fc27.aarch64
 crontabs-1.11-14.20150630git.fc26.noarch                  
-selinux-policy-minimum-3.13.1-264.fc27.noarch             
-policycoreutils-python-utils-2.6-5.fc27.aarch64           
-└─policycoreutils-python3 = 2.6-5.fc27                    policycoreutils-python3-2.6-5.fc27.aarch64
-selinux-policy-3.13.1-264.fc27.noarch                     
-policycoreutils-python3-2.6-5.fc27.aarch64                
-├─libselinux-python3                                      libselinux-python3-2.7-1.fc27.aarch64
-├─libcgroup                                               libcgroup-0.41-11.fc26.aarch64
-├─setools-python3                                         setools-python3-4.1.0-3.fc27.aarch64
-├─checkpolicy                                             checkpolicy-2.6-1.fc26.aarch64
-├─python-IPy-python3                                      python3-IPy-0.81-19.fc27.noarch
-├─policycoreutils = 2.6-5.fc27                            policycoreutils-2.6-5.fc27.aarch64
-├─audit-libs-python3 >= 2.1.3-4                           audit-libs-python3-2.7.7-5.fc27.aarch64
-└─libsemanage-python3 >= 2.6-0                            libsemanage-python3-2.7-1.fc27.aarch64
-audit-libs-python3-2.7.7-5.fc27.aarch64                   
-└─audit(aarch-64) = 2.7.7-5.fc27                          audit-2.7.7-5.fc27.aarch64
-checkpolicy-2.6-1.fc26.aarch64                            
-libcgroup-0.41-11.fc26.aarch64                            
-libselinux-python3-2.7-1.fc27.aarch64                     
-libsemanage-python3-2.7-1.fc27.aarch64                    
-├─libselinux-python3                                      libselinux-python3-2.7-1.fc27.aarch64
-python3-IPy-0.81-19.fc27.noarch                           
-setools-python3-4.1.0-3.fc27.aarch64                      
-audit-2.7.7-5.fc27.aarch64                                
 curl-minimal-7.55.0-1.fc27.aarch64                        
 ├─libcurl.so.4()(64bit)                                   libcurl-minimal-7.55.0-1.fc27.aarch64
 └─libcurl(aarch-64) >= 7.55.0-1.fc27                      libcurl-minimal-7.55.0-1.fc27.aarch64

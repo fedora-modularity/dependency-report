@@ -24,10 +24,8 @@ These are RPM dependencies of the [java top-level package set](java.csv). They s
 | `freetype` | - | X | - | - | - | X | - |
 | `java-1.8.0-openjdk-headless` | X | X | X | X | X | X | X |
 | `javapackages-tools` | X | X | X | X | X | X | X |
-| `libjpeg-turbo` | X | X | X | X | X | X | X |
 | `libpng` | - | X | - | - | - | X | - |
-| `lksctp-tools` | X | X | X | X | X | X | X |
 | `lua` | X | X | X | X | X | X | X |
 | `lua-posix` | X | X | X | X | X | X | X |
 | `tzdata-java` | X | X | X | X | X | X | X |
-| `which` | - | X | - | - | - | - | - |
+| `which` | - | X | - | - | - | X | - |

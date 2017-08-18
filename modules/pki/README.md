@@ -31,7 +31,6 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `ldapjdk` | X | X | X | X | X | X | X |
 | `libselinux-python` | X | X | X | X | X | X | X |
 | `libsemanage-python` | X | X | X | X | X | X | X |
-| `libxslt` | X | X | X | X | X | X | X |
 | `net-tools` | X | X | X | X | X | X | X |
 | `nss-tools` | X | X | X | X | X | X | X |
 | `nuxwdog` | X | X | X | X | X | X | X |
@@ -53,7 +52,6 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `python-beautifulsoup4` | X | X | X | X | X | X | X |
 | `python-ldap` | X | X | X | X | X | X | X |
 | `python-nss` | X | X | X | X | X | X | X |
-| `selinux-policy-targeted` | X | X | X | X | X | X | X |
 | `setools-python` | X | X | X | X | X | X | X |
 | `slf4j` | X | X | X | X | X | X | X |
 | `slf4j-jdk14` | X | X | X | X | X | X | X |

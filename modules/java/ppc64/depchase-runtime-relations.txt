@@ -82,8 +82,8 @@ lua-5.3.4-5.fc27.ppc64
 ├─libm.so.6(GLIBC_2.3)(64bit)                            glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.11)(64bit)                           glibc-2.26-1.fc27.1.ppc64
 ├─libreadline.so.7()(64bit)                              readline-7.0-7.fc27.ppc64
-├─liblua-5.3.so()(64bit)                                 lua-libs-5.3.4-5.fc27.ppc64
 ├─libtinfo.so.6()(64bit)                                 ncurses-libs-6.0-13.20170722.fc27.ppc64
+├─liblua-5.3.so()(64bit)                                 lua-libs-5.3.4-5.fc27.ppc64
 ├─libncurses.so.6()(64bit)                               ncurses-libs-6.0-13.20170722.fc27.ppc64
 └─lua-libs = 5.3.4-5.fc27                                lua-libs-5.3.4-5.fc27.ppc64
 lua-libs-5.3.4-5.fc27.ppc64                              
@@ -111,8 +111,8 @@ findutils-1:4.6.0-14.fc27.ppc64
 ├─rtld(GNU_HASH)                                         glibc-2.26-1.fc27.1.ppc64
 ├─libm.so.6()(64bit)                                     glibc-2.26-1.fc27.1.ppc64
 ├─libm.so.6(GLIBC_2.3)(64bit)                            glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.17)(64bit)                           glibc-2.26-1.fc27.1.ppc64
-└─libselinux.so.1()(64bit)                               libselinux-2.7-1.fc27.ppc64
+├─libselinux.so.1()(64bit)                               libselinux-2.7-1.fc27.ppc64
+└─libc.so.6(GLIBC_2.17)(64bit)                           glibc-2.26-1.fc27.1.ppc64
 info-6.4-3.fc27.ppc64                                    
 ├─rtld(GNU_HASH)                                         glibc-2.26-1.fc27.1.ppc64
 ├─libz.so.1()(64bit)                                     zlib-1.2.11-4.fc27.ppc64
@@ -288,10 +288,10 @@ libselinux-2.7-1.fc27.ppc64
 ├─ld64.so.1()(64bit)                                     glibc-2.26-1.fc27.1.ppc64
 ├─ld64.so.1(GLIBC_2.22)(64bit)                           glibc-2.26-1.fc27.1.ppc64
 ├─libc.so.6(GLIBC_2.8)(64bit)                            glibc-2.26-1.fc27.1.ppc64
-├─pcre                                                   pcre-8.41-1.fc27.2.ppc64
 ├─libsepol.so.1()(64bit)                                 libsepol-2.7-1.fc27.ppc64
-├─libpcre2-8.so.0()(64bit)                               pcre2-10.30-0.6.RC1.fc27.ppc64
+├─pcre                                                   pcre-8.41-1.fc27.2.ppc64
 ├─libsepol.so.1(LIBSEPOL_1.0)(64bit)                     libsepol-2.7-1.fc27.ppc64
+├─libpcre2-8.so.0()(64bit)                               pcre2-10.30-0.6.RC1.fc27.ppc64
 └─libsepol(ppc-64) >= 2.7-1                              libsepol-2.7-1.fc27.ppc64
 libsepol-2.7-1.fc27.ppc64                                
 ├─rtld(GNU_HASH)                                         glibc-2.26-1.fc27.1.ppc64
@@ -369,9 +369,9 @@ coreutils-8.27-14.fc27.ppc64
 ├─rtld(GNU_HASH)                                         glibc-2.26-1.fc27.1.ppc64
 ├─libpthread.so.0()(64bit)                               glibc-2.26-1.fc27.1.ppc64
 ├─libpthread.so.0(GLIBC_2.3)(64bit)                      glibc-2.26-1.fc27.1.ppc64
+├─libselinux.so.1()(64bit)                               libselinux-2.7-1.fc27.ppc64
 ├─libc.so.6(GLIBC_2.17)(64bit)                           glibc-2.26-1.fc27.1.ppc64
 ├─libcrypto.so.1.1()(64bit)                              openssl-libs-1:1.1.0f-9.fc27.ppc64
-├─libselinux.so.1()(64bit)                               libselinux-2.7-1.fc27.ppc64
 ├─librt.so.1()(64bit)                                    glibc-2.26-1.fc27.1.ppc64
 ├─libpthread.so.0(GLIBC_2.3.2)(64bit)                    glibc-2.26-1.fc27.1.ppc64
 ├─libacl.so.1()(64bit)                                   libacl-2.2.52-18.fc27.ppc64
