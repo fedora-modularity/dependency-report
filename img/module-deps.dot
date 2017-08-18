@@ -2,6 +2,8 @@ digraph G {
   node [fontname=monospace];
   "389-ds" -> "platform" [color="#009900"];
   "389-ds" -> "platform-placeholder" [color="#009900"];
+  "389-ds" -> "networking-base" [color="#009900"];
+  "389-ds" -> "perl" [color="#009900"];
   "389-ds" -> "platform" [color="#aa0000"];
   "389-ds" -> "platform-placeholder" [color="#aa0000"];
   "autotools" -> "platform" [color="#009900"];
@@ -26,6 +28,7 @@ digraph G {
   "freeipa" -> "tomcat" [color="#009900"];
   "freeipa" -> "resteasy" [color="#009900"];
   "freeipa" -> "httpd" [color="#009900"];
+  "freeipa" -> "storage-devices" [color="#009900"];
   "freeipa" -> "platform" [color="#aa0000"];
   "freeipa" -> "platform-placeholder" [color="#aa0000"];
   "freeipa" -> "389-ds" [color="#aa0000"];
@@ -53,6 +56,10 @@ digraph G {
   "perl" -> "platform-placeholder" [color="#aa0000"];
   "pki" -> "platform" [color="#009900"];
   "pki" -> "platform-placeholder" [color="#009900"];
+  "pki" -> "java" [color="#009900"];
+  "pki" -> "tomcat" [color="#009900"];
+  "pki" -> "resteasy" [color="#009900"];
+  "pki" -> "storage-devices" [color="#009900"];
   "pki" -> "platform" [color="#aa0000"];
   "pki" -> "platform-placeholder" [color="#aa0000"];
   "platform-placeholder" -> "platform" [color="#009900"];
@@ -67,6 +74,7 @@ digraph G {
   "samba" -> "platform-placeholder" [color="#aa0000"];
   "sssd" -> "platform" [color="#009900"];
   "sssd" -> "platform-placeholder" [color="#009900"];
+  "sssd" -> "samba" [color="#009900"];
   "sssd" -> "platform" [color="#aa0000"];
   "sssd" -> "platform-placeholder" [color="#aa0000"];
   "storage-devices" -> "platform" [color="#009900"];

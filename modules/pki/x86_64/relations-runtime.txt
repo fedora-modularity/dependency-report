@@ -1,171 +1,52 @@
 pki-base-10.4.8-2.fc27.noarch                                         
-├─python-six                                                          python2-six-1.10.0-9.fc27.noarch
-├─python2-cryptography                                                python2-cryptography-1.9-1.fc27.x86_64
 ├─python-nss                                                          python-nss-1.0.1-2.fc27.x86_64
-└─python-requests >= 2.6.0                                            python2-requests-2.18.1-2.fc27.noarch
 pki-base-java-10.4.8-2.fc27.noarch                                    
 ├─slf4j                                                               slf4j-1.7.25-1.fc27.noarch
-├─apache-commons-logging                                              apache-commons-logging-1.2-10.fc27.noarch
 ├─xerces-j2                                                           xerces-j2-2.11.0-28.fc27.noarch
 ├─xml-commons-apis                                                    xml-commons-apis-1.4.01-22.fc26.noarch
 ├─apache-commons-cli                                                  apache-commons-cli-1.4-1.fc27.noarch
-├─apache-commons-codec                                                apache-commons-codec-1.10-4.fc26.noarch
-├─apache-commons-lang                                                 apache-commons-lang-2.6-19.fc26.noarch
 ├─xalan-j2                                                            xalan-j2-2.7.1-31.fc27.noarch
 ├─jakarta-commons-httpclient                                          jakarta-commons-httpclient-1:3.1-26.fc26.noarch
-├─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─apache-commons-io                                                   apache-commons-io-1:2.5-2.fc26.noarch
 ├─xml-commons-resolver                                                xml-commons-resolver-1.2-22.fc26.noarch
 ├─ldapjdk                                                             ldapjdk-4.19-1.fc27.noarch
 ├─javassist                                                           javassist-3.18.1-6.fc26.noarch
 ├─slf4j-jdk14                                                         slf4j-jdk14-1.7.25-1.fc27.noarch
 ├─pki-base = 10.4.8-2.fc27                                            pki-base-10.4.8-2.fc27.noarch
-├─jpackage-utils >= 1.7.5-10                                          javapackages-tools-5.0.0-4.fc27.noarch
-├─jss >= 4.4.2-2                                                      jss-4.4.2-2.fc27.x86_64
-├─resteasy-atom-provider >= 3.0.17-1                                  resteasy-atom-provider-3.0.19-5.fc26.noarch
-├─resteasy-client >= 3.0.17-1                                         resteasy-client-3.0.19-5.fc26.noarch
-├─resteasy-core >= 3.0.17-1                                           resteasy-core-3.0.19-5.fc26.noarch
-├─resteasy-jackson-provider >= 3.0.17-1                               resteasy-jackson-provider-3.0.19-5.fc26.noarch
-└─resteasy-jaxb-provider >= 3.0.17-1                                  resteasy-jaxb-provider-3.0.19-5.fc26.noarch
 pki-ca-10.4.8-2.fc27.noarch                                           
-├─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 └─pki-server = 10.4.8-2.fc27                                          pki-server-10.4.8-2.fc27.noarch
 pki-kra-10.4.8-2.fc27.noarch                                          
-├─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 └─pki-server = 10.4.8-2.fc27                                          pki-server-10.4.8-2.fc27.noarch
 pki-server-10.4.8-2.fc27.noarch                                       
 ├─python-lxml                                                         python2-lxml-3.7.2-2.fc26.x86_64
-├─policycoreutils                                                     policycoreutils-2.6-5.fc27.x86_64
 ├─net-tools                                                           net-tools-2.0-0.42.20160912git.fc26.x86_64
-├─policycoreutils-python-utils                                        policycoreutils-python-utils-2.6-5.fc27.x86_64
 ├─python-ldap                                                         python-ldap-2.4.25-4.fc27.x86_64
-├─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 ├─libselinux-python                                                   libselinux-python-2.7-1.fc27.x86_64
 ├─policycoreutils-python                                              policycoreutils-python-2.6-5.fc27.x86_64
 ├─openldap-clients                                                    openldap-clients-2.4.45-3.fc27.x86_64
-├─tomcat-servlet-3.1-api                                              tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch
 ├─velocity                                                            velocity-1.7-20.fc26.noarch
-├─tomcat-el-3.0-api                                                   tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch
-├─tomcat-jsp-2.3-api                                                  tomcat-jsp-2.3-api-1:8.0.44-1.fc27.noarch
 ├─pki-base = 10.4.8-2.fc27                                            pki-base-10.4.8-2.fc27.noarch
 ├─pki-base-java = 10.4.8-2.fc27                                       pki-base-java-10.4.8-2.fc27.noarch
 ├─pki-tools = 10.4.8-2.fc27                                           pki-tools-10.4.8-2.fc27.x86_64
 ├─nuxwdog-client-java >= 1.0.3                                        nuxwdog-client-java-1.0.3-9.fc27.x86_64
 ├─selinux-policy-targeted >= 3.13.1-159                               selinux-policy-targeted-3.13.1-264.fc27.noarch
-├─tomcat >= 7.0.68                                                    tomcat-1:8.0.44-1.fc27.noarch
-└─tomcatjss >= 7.2.3                                                  tomcatjss-7.2.4-1.fc27.noarch
 pki-tools-10.4.8-2.fc27.x86_64                                        
-├─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 ├─openldap-clients                                                    openldap-clients-2.4.45-3.fc27.x86_64
-├─tomcat-servlet-3.1-api                                              tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch
 ├─pki-base = 10.4.8-2.fc27                                            pki-base-10.4.8-2.fc27.noarch
-├─jpackage-utils >= 1.7.5-10                                          javapackages-tools-5.0.0-4.fc27.noarch
 ├─pki-base-java = 10.4.8-2.fc27                                       pki-base-java-10.4.8-2.fc27.noarch
 └─nss-tools >= 3.28.3                                                 nss-tools-3.32.0-2.fc27.x86_64
 python-nss-1.0.1-2.fc27.x86_64                                        
-python2-cryptography-1.9-1.fc27.x86_64                                
-├─python-enum34                                                       python-enum34-1.1.6-1.fc27.noarch
-├─python-ipaddress                                                    python-ipaddress-1.0.18-1.fc27.noarch
-├─python-cffi >= 1.7                                                  python2-cffi-1.10.0-1.fc27.x86_64
-├─python-idna >= 2.1                                                  python2-idna-2.5-1.fc27.noarch
-├─python-six >= 1.4.1                                                 python2-six-1.10.0-9.fc27.noarch
-└─python2-asn1crypto >= 0.21                                          python2-asn1crypto-0.22.0-2.fc27.noarch
-python2-requests-2.18.1-2.fc27.noarch                                 
-├─python-chardet                                                      python-chardet-3.0.4-1.fc27.noarch
-├─python-idna                                                         python2-idna-2.5-1.fc27.noarch
-├─python2-urllib3                                                     python2-urllib3-1.21.1-1.fc27.noarch
-python2-six-1.10.0-9.fc27.noarch                                      
 apache-commons-cli-1.4-1.fc27.noarch                                  
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-codec-1.10-4.fc26.noarch                               
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-io-1:2.5-2.fc26.noarch                                 
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-lang-2.6-19.fc26.noarch                                
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.3                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-logging-1.2-10.fc27.noarch                             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 jakarta-commons-httpclient-1:3.1-26.fc26.noarch                       
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─mvn(commons-logging:commons-logging)                                apache-commons-logging-1.2-10.fc27.noarch
-├─mvn(commons-codec:commons-codec)                                    apache-commons-codec-1.10-4.fc26.noarch
-├─apache-commons-codec                                                apache-commons-codec-1.10-4.fc26.noarch
-└─apache-commons-logging >= 1.0.3                                     apache-commons-logging-1.2-10.fc27.noarch
-java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─libjpeg.so.62()(64bit)                                              libjpeg-turbo-1.5.1-4.fc27.x86_64
-├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                                   libjpeg-turbo-1.5.1-4.fc27.x86_64
-├─lksctp-tools(x86-64)                                                lksctp-tools-1.0.16-6.fc26.x86_64
-├─copy-jdk-configs >= 2.2                                             copy-jdk-configs-2.3-1.fc27.noarch
-└─tzdata-java >= 2015d                                                tzdata-java-2017b-2.fc27.noarch
-javapackages-tools-5.0.0-4.fc27.noarch                                
-└─java-1.8.0-openjdk-headless                                         java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 javassist-3.18.1-6.fc26.noarch                                        
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(com.sun:tools)                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-jss-4.4.2-2.fc27.x86_64                                               
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 ldapjdk-4.19-1.fc27.noarch                                            
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─jss                                                                 jss-4.4.2-2.fc27.x86_64
-└─jpackage-utils >= 1.5                                               javapackages-tools-5.0.0-4.fc27.noarch
-resteasy-atom-provider-3.0.19-5.fc26.noarch                           
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
-├─mvn(com.sun.xml.bind:jaxb-impl)                                     glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
-├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─mvn(org.jboss.resteasy:resteasy-jaxrs) = 3.0.19.Final               resteasy-core-3.0.19-5.fc26.noarch
-└─mvn(org.jboss.resteasy:resteasy-jaxb-provider) = 3.0.19.Final       resteasy-jaxb-provider-3.0.19-5.fc26.noarch
-resteasy-client-3.0.19-5.fc26.noarch                                  
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
-├─java-headless >= 1:1.7                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-└─mvn(org.jboss.resteasy:resteasy-jaxrs) = 3.0.19.Final               resteasy-core-3.0.19-5.fc26.noarch
-resteasy-core-3.0.19-5.fc26.noarch                                    
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
-├─mvn(commons-io:commons-io)                                          apache-commons-io-1:2.5-2.fc26.noarch
-├─mvn(org.apache.httpcomponents:httpclient)                           httpcomponents-client-4.5.3-3.fc26.noarch
-├─mvn(net.jcip:jcip-annotations)                                      jcip-annotations-1-19.20060626.fc26.noarch
-├─mvn(org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec) jboss-annotations-1.2-api-1.0.0-2.fc26.noarch
-├─mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec)            jboss-jaxrs-2.0-api-1.0.0-4.fc26.noarch
-└─java-headless >= 1:1.7                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-resteasy-jackson-provider-3.0.19-5.fc26.noarch                        
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(org.codehaus.jackson:jackson-mapper-asl)                        jackson-1.9.11-11.fc27.noarch
-├─mvn(org.codehaus.jackson:jackson-core-asl)                          jackson-1.9.11-11.fc27.noarch
-├─mvn(org.codehaus.jackson:jackson-jaxrs)                             jackson-1.9.11-11.fc27.noarch
-├─mvn(org.codehaus.jackson:jackson-xc)                                jackson-1.9.11-11.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-resteasy-jaxb-provider-3.0.19-5.fc26.noarch                           
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(org.jboss.logging:jboss-logging)                                jboss-logging-3.3.0-2.fc26.noarch
-├─mvn(com.sun.xml.bind:jaxb-impl)                                     glassfish-jaxb-runtime-2.2.11-5.fc26.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 slf4j-1.7.25-1.fc27.noarch                                            
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 slf4j-jdk14-1.7.25-1.fc27.noarch                                      
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 └─mvn(org.slf4j:slf4j-api) = 1.7.25                                   slf4j-1.7.25-1.fc27.noarch
 xalan-j2-2.7.1-31.fc27.noarch                                         
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 ├─xerces-j2                                                           xerces-j2-2.11.0-28.fc27.noarch
 ├─mvn(xml-apis:xml-apis)                                              xml-commons-apis-1.4.01-22.fc26.noarch
 └─osgi(org.apache.xerces)                                             xerces-j2-2.11.0-28.fc27.noarch
 xerces-j2-2.11.0-28.fc27.noarch                                       
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 ├─mvn(xml-apis:xml-apis)                                              xml-commons-apis-1.4.01-22.fc26.noarch
 ├─osgi(javax.xml)                                                     xml-commons-apis-1.4.01-22.fc26.noarch
 ├─osgi(org.apache.xml.resolver)                                       xml-commons-resolver-1.2-22.fc26.noarch
@@ -174,30 +55,17 @@ xerces-j2-2.11.0-28.fc27.noarch
 ├─xml-commons-apis >= 1.4.01                                          xml-commons-apis-1.4.01-22.fc26.noarch
 └─xml-commons-resolver >= 1.2                                         xml-commons-resolver-1.2-22.fc26.noarch
 xml-commons-apis-1.4.01-22.fc26.noarch                                
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 xml-commons-resolver-1.2-22.fc26.noarch                               
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 net-tools-2.0-0.42.20160912git.fc26.x86_64                            
 nuxwdog-client-java-1.0.3-9.fc27.x86_64                               
-├─jpackage-utils                                                      javapackages-tools-5.0.0-4.fc27.noarch
 ├─libnuxwdog.so.0()(64bit)                                            nuxwdog-1.0.3-9.fc27.x86_64
-├─java-headless >= 1:1.6.0                                            java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 └─nuxwdog = 1.0.3-9.fc27                                              nuxwdog-1.0.3-9.fc27.x86_64
-policycoreutils-2.6-5.fc27.x86_64                                     
-├─libselinux-utils >= 2.6-5                                           libselinux-utils-2.7-1.fc27.x86_64
 policycoreutils-python-2.6-5.fc27.x86_64                              
 ├─libselinux-python                                                   libselinux-python-2.7-1.fc27.x86_64
 ├─python-IPy                                                          python2-IPy-0.81-19.fc27.noarch
-├─libcgroup                                                           libcgroup-0.41-11.fc26.x86_64
-├─checkpolicy                                                         checkpolicy-2.6-1.fc26.x86_64
 ├─setools-python                                                      setools-python-4.1.0-3.fc27.x86_64
-├─policycoreutils = 2.6-5.fc27                                        policycoreutils-2.6-5.fc27.x86_64
 ├─audit-libs-python >= 2.1.3-4                                        audit-libs-python-2.7.7-5.fc27.x86_64
 └─libsemanage-python >= 2.6-0                                         libsemanage-python-2.7-1.fc27.x86_64
-policycoreutils-python-utils-2.6-5.fc27.x86_64                        
-└─policycoreutils-python3 = 2.6-5.fc27                                policycoreutils-python3-2.6-5.fc27.x86_64
 python-ldap-2.4.25-4.fc27.x86_64                                      
 ├─python-pyasn1                                                       python2-pyasn1-0.2.3-1.fc26.noarch
 ├─python-pyasn1-modules                                               python2-pyasn1-modules-0.2.3-1.fc26.noarch
@@ -215,104 +83,10 @@ python2-lxml-3.7.2-2.fc26.x86_64
 ├─libxslt.so.1(LIBXML2_1.1.2)(64bit)                                  libxslt-1.1.29-2.fc27.x86_64
 ├─libxslt.so.1(LIBXML2_1.1.26)(64bit)                                 libxslt-1.1.29-2.fc27.x86_64
 selinux-policy-targeted-3.13.1-264.fc27.noarch                        
-tomcat-1:8.0.44-1.fc27.noarch                                         
-├─jpackage-utils                                                      javapackages-tools-5.0.0-4.fc27.noarch
-├─apache-commons-logging                                              apache-commons-logging-1.2-10.fc27.noarch
-├─apache-commons-collections                                          apache-commons-collections-3.2.2-4.fc26.noarch
-├─apache-commons-dbcp                                                 apache-commons-dbcp-1.4-21.fc26.noarch
-├─apache-commons-pool                                                 apache-commons-pool-1.6-14.fc26.noarch
-├─apache-commons-daemon                                               apache-commons-daemon-1.0.15-13.fc26.x86_64
-├─java-headless >= 1:1.6.0                                            java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-└─tomcat-lib = 1:8.0.44-1.fc27                                        tomcat-lib-1:8.0.44-1.fc27.noarch
-tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch                              
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-tomcat-jsp-2.3-api-1:8.0.44-1.fc27.noarch                             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─tomcat-el-3.0-api = 1:8.0.44-1.fc27                                 tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch
-└─tomcat-servlet-3.1-api = 1:8.0.44-1.fc27                            tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch
-tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch                         
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-tomcatjss-7.2.4-1.fc27.noarch                                         
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─apache-commons-lang                                                 apache-commons-lang-2.6-19.fc26.noarch
-├─jss >= 4.4.2-2                                                      jss-4.4.2-2.fc27.x86_64
-├─jpackage-utils >= 1.7.5-15                                          javapackages-tools-5.0.0-4.fc27.noarch
-└─tomcat >= 8.0.18                                                    tomcat-1:8.0.44-1.fc27.noarch
 velocity-1.7-20.fc26.noarch                                           
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─mvn(commons-lang:commons-lang)                                      apache-commons-lang-2.6-19.fc26.noarch
-└─mvn(commons-collections:commons-collections)                        apache-commons-collections-3.2.2-4.fc26.noarch
-python-enum34-1.1.6-1.fc27.noarch                                     
-python-ipaddress-1.0.18-1.fc27.noarch                                 
-python2-asn1crypto-0.22.0-2.fc27.noarch                               
-python2-cffi-1.10.0-1.fc27.x86_64                                     
-├─python-pycparser                                                    python2-pycparser-2.14-10.fc26.noarch
-python2-idna-2.5-1.fc27.noarch                                        
-python-chardet-3.0.4-1.fc27.noarch                                    
-python2-urllib3-1.21.1-1.fc27.noarch                                  
-├─python-six                                                          python2-six-1.10.0-9.fc27.noarch
-├─python-cryptography                                                 python2-cryptography-1.9-1.fc27.x86_64
-├─python-ipaddress                                                    python-ipaddress-1.0.18-1.fc27.noarch
-├─python-backports-ssl_match_hostname                                 python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch
-├─python2-pyOpenSSL                                                   python2-pyOpenSSL-17.1.0-1.fc27.noarch
-├─python-idna                                                         python2-idna-2.5-1.fc27.noarch
-├─python-pysocks                                                      python2-pysocks-1.5.7-4.fc26.noarch
-copy-jdk-configs-2.3-1.fc27.noarch                                    
-├─lua                                                                 lua-5.3.4-5.fc27.x86_64
-├─/usr/bin/lua                                                        lua-5.3.4-5.fc27.x86_64
-└─lua-posix                                                           lua-posix-33.3.1-4.fc26.x86_64
-lksctp-tools-1.0.16-6.fc26.x86_64                                     
-glassfish-jaxb-runtime-2.2.11-5.fc26.noarch                           
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(com.sun.xml.fastinfoset:FastInfoset)                            glassfish-fastinfoset-1.2.13-6.fc26.noarch
-├─mvn(org.jvnet.staxex:stax-ex)                                       stax-ex-1.7.7-6.fc26.noarch
-├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-└─mvn(org.glassfish.jaxb:jaxb-core) = 2.2.11                          glassfish-jaxb-core-2.2.11-5.fc26.noarch
-jboss-logging-3.3.0-2.fc26.noarch                                     
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-httpcomponents-client-4.5.3-3.fc26.noarch                             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(commons-logging:commons-logging)                                apache-commons-logging-1.2-10.fc27.noarch
-├─mvn(commons-codec:commons-codec)                                    apache-commons-codec-1.10-4.fc26.noarch
-├─mvn(org.apache.httpcomponents:httpcore)                             httpcomponents-core-4.4.6-3.fc26.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-jboss-annotations-1.2-api-1.0.0-2.fc26.noarch                         
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.8                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-jboss-jaxrs-2.0-api-1.0.0-4.fc26.noarch                               
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.8                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-jcip-annotations-1-19.20060626.fc26.noarch                            
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─jpackage-utils                                                      javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1.5.0                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-jackson-1.9.11-11.fc27.noarch                                         
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─joda-time >= 1.6.2                                                  joda-time-2.9.3-3.tzdata2016c.fc26.noarch
-├─jsr-311 >= 1.1.1                                                    jsr-311-1.1.1-13.fc26.noarch
-├─objectweb-asm3 >= 3.3                                               objectweb-asm3-3.3.1-14.fc26.noarch
-└─stax2-api >= 3.1.1                                                  stax2-api-4.0.0-2.fc26.noarch
 nuxwdog-1.0.3-9.fc27.x86_64                                           
-checkpolicy-2.6-1.fc26.x86_64                                         
-libcgroup-0.41-11.fc26.x86_64                                         
 python2-IPy-0.81-19.fc27.noarch                                       
 setools-python-4.1.0-3.fc27.x86_64                                    
-policycoreutils-python3-2.6-5.fc27.x86_64                             
-├─libselinux-python3                                                  libselinux-python3-2.7-1.fc27.x86_64
-├─libcgroup                                                           libcgroup-0.41-11.fc26.x86_64
-├─setools-python3                                                     setools-python3-4.1.0-3.fc27.x86_64
-├─checkpolicy                                                         checkpolicy-2.6-1.fc26.x86_64
-├─python-IPy-python3                                                  python3-IPy-0.81-19.fc27.noarch
-├─policycoreutils = 2.6-5.fc27                                        policycoreutils-2.6-5.fc27.x86_64
-├─audit-libs-python3 >= 2.1.3-4                                       audit-libs-python3-2.7.7-5.fc27.x86_64
-└─libsemanage-python3 >= 2.6-0                                        libsemanage-python3-2.7-1.fc27.x86_64
 python2-pyasn1-0.2.3-1.fc26.noarch                                    
 python2-pyasn1-modules-0.2.3-1.fc26.noarch                            
 └─python-pyasn1 >= 0.2.3-1.fc26                                       python2-pyasn1-0.2.3-1.fc26.noarch
@@ -321,117 +95,8 @@ python-beautifulsoup4-4.6.0-1.fc27.noarch
 ├─python-lxml                                                         python2-lxml-3.7.2-2.fc26.x86_64
 python2-cssselect-0.9.2-4.fc26.noarch                                 
 python2-html5lib-1:0.999-13.fc26.noarch                               
-├─python-six                                                          python2-six-1.10.0-9.fc27.noarch
-selinux-policy-3.13.1-264.fc27.noarch                                 
-apache-commons-collections-3.2.2-4.fc26.noarch                        
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-daemon-1.0.15-13.fc26.x86_64                           
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-dbcp-1.4-21.fc26.noarch                                
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(commons-pool:commons-pool)                                      apache-commons-pool-1.6-14.fc26.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-apache-commons-pool-1.6-14.fc26.noarch                                
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-tomcat-lib-1:8.0.44-1.fc27.noarch                                     
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-├─apache-commons-collections                                          apache-commons-collections-3.2.2-4.fc26.noarch
-├─apache-commons-dbcp                                                 apache-commons-dbcp-1.4-21.fc26.noarch
-├─apache-commons-pool                                                 apache-commons-pool-1.6-14.fc26.noarch
-├─tomcat-el-3.0-api = 1:8.0.44-1.fc27                                 tomcat-el-3.0-api-1:8.0.44-1.fc27.noarch
-├─tomcat-servlet-3.1-api = 1:8.0.44-1.fc27                            tomcat-servlet-3.1-api-1:8.0.44-1.fc27.noarch
-├─tomcat-jsp-2.3-api = 1:8.0.44-1.fc27                                tomcat-jsp-2.3-api-1:8.0.44-1.fc27.noarch
-└─ecj >= 1:4.2.1                                                      ecj-1:4.6.3-2.fc27.noarch
-python2-pycparser-2.14-10.fc26.noarch                                 
-└─python-ply >= 3.6                                                   python2-ply-3.9-3.fc27.noarch
-python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch             
-├─python-backports                                                    python-backports-1.0-9.fc26.x86_64
-python2-pyOpenSSL-17.1.0-1.fc27.noarch                                
-└─python-cryptography >= 1.3.0                                        python2-cryptography-1.9-1.fc27.x86_64
-python2-pysocks-1.5.7-4.fc26.noarch                                   
-lua-posix-33.3.1-4.fc26.x86_64                                        
-└─lua(abi) = 5.3                                                      lua-5.3.4-5.fc27.x86_64
-glassfish-fastinfoset-1.2.13-6.fc26.noarch                            
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(com.sun.xsom:xsom)                                              xsom-0-16.20110809svn.fc26.noarch
-├─mvn(com.sun.xml.stream.buffer:streambuffer)                         xmlstreambuffer-1.5.4-5.fc26.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-glassfish-jaxb-core-2.2.11-5.fc26.noarch                              
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(javax.xml.bind:jaxb-api)                                        glassfish-jaxb-api-2.2.12-6.fc26.noarch
-├─mvn(com.sun.istack:istack-commons-runtime)                          istack-commons-runtime-2.21-5.fc26.noarch
-├─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-└─mvn(org.glassfish.jaxb:txw2) = 2.2.11                               glassfish-jaxb-txw2-2.2.11-5.fc26.noarch
-stax-ex-1.7.7-6.fc26.noarch                                           
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(javax.xml.stream:stax-api)                                      bea-stax-api-1.2.0-14.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-httpcomponents-core-4.4.6-3.fc26.noarch                               
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-joda-time-2.9.3-3.tzdata2016c.fc26.noarch                             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.5                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-jsr-311-1.1.1-13.fc26.noarch                                          
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-objectweb-asm3-3.3.1-14.fc26.noarch                                   
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-stax2-api-4.0.0-2.fc26.noarch                                         
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-python3-IPy-0.81-19.fc27.noarch                                       
-setools-python3-4.1.0-3.fc27.x86_64                                   
-ecj-1:4.6.3-2.fc27.noarch                                             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-python2-ply-3.9-3.fc27.noarch                                         
-python-backports-1.0-9.fc26.x86_64                                    
-xmlstreambuffer-1.5.4-5.fc26.noarch                                   
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(org.jvnet.staxex:stax-ex)                                       stax-ex-1.7.7-6.fc26.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-xsom-0-16.20110809svn.fc26.noarch                                     
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-├─mvn(relaxngDatatype:relaxngDatatype)                                relaxngDatatype-2011.1-5.fc26.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-glassfish-jaxb-api-2.2.12-6.fc26.noarch                               
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-glassfish-jaxb-txw2-2.2.11-5.fc26.noarch                              
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-istack-commons-runtime-2.21-5.fc26.noarch                             
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-bea-stax-api-1.2.0-14.fc27.noarch                                     
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless                                                       java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
-relaxngDatatype-2011.1-5.fc26.noarch                                  
-├─javapackages-tools                                                  javapackages-tools-5.0.0-4.fc27.noarch
-└─java-headless >= 1:1.6                                              java-1.8.0-openjdk-headless-1:1.8.0.131-7.b12.fc27.x86_64
 nss-tools-3.32.0-2.fc27.x86_64                                        
 openldap-clients-2.4.45-3.fc27.x86_64                                 
-audit-libs-python3-2.7.7-5.fc27.x86_64                                
-└─audit(x86-64) = 2.7.7-5.fc27                                        audit-2.7.7-5.fc27.x86_64
-audit-2.7.7-5.fc27.x86_64                                             
 audit-libs-python-2.7.7-5.fc27.x86_64                                 
-libselinux-python3-2.7-1.fc27.x86_64                                  
-libselinux-utils-2.7-1.fc27.x86_64                                    
 libselinux-python-2.7-1.fc27.x86_64                                   
-libsemanage-python3-2.7-1.fc27.x86_64                                 
-├─libselinux-python3                                                  libselinux-python3-2.7-1.fc27.x86_64
 libsemanage-python-2.7-1.fc27.x86_64                                  
-├─curl                                                                curl-minimal-7.55.0-1.fc27.x86_64
-lua-5.3.4-5.fc27.x86_64                                               
-libjpeg-turbo-1.5.1-4.fc27.x86_64                                     
-tzdata-java-2017b-2.fc27.noarch                                       
-curl-minimal-7.55.0-1.fc27.x86_64                                     
-├─libcurl.so.4()(64bit)                                               libcurl-minimal-7.55.0-1.fc27.x86_64
-└─libcurl(x86-64) >= 7.55.0-1.fc27                                    libcurl-minimal-7.55.0-1.fc27.x86_64
-libcurl-minimal-7.55.0-1.fc27.x86_64                                  

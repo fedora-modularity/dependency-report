@@ -1,3 +1,4 @@
+bcache-tools-1.0.8-8.fc26.ppc64le                         
 ceph-1:10.2.7-2.fc27.ppc64le                              
 ├─ceph-mds = 1:10.2.7-2.fc27                              ceph-mds-1:10.2.7-2.fc27.ppc64le
 ├─ceph-mon = 1:10.2.7-2.fc27                              ceph-mon-1:10.2.7-2.fc27.ppc64le
@@ -7,6 +8,7 @@ ceph-base-1:10.2.7-2.fc27.ppc64le
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.ppc64le
 ├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.ppc64le
+├─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.ppc64le
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.ppc64le
 ├─cryptsetup                                              cryptsetup-1.7.5-3.fc27.ppc64le
 ├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.ppc64le
@@ -49,6 +51,7 @@ ceph-mon-1:10.2.7-2.fc27.ppc64le
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.ppc64le
 ├─python-flask                                            python2-flask-1:0.11.1-5.fc26.noarch
 ├─libtcmalloc.so.4()(64bit)                               gperftools-libs-2.6.1-1.fc27.ppc64le
+├─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.ppc64le
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.ppc64le
 ├─libleveldb.so.1()(64bit)                                leveldb-1.18-1.fc26.ppc64le
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.ppc64le
@@ -57,13 +60,33 @@ ceph-osd-1:10.2.7-2.fc27.ppc64le
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.ppc64le
 ├─libboost_program_options.so.1.63.0()(64bit)             boost-program-options-1.63.0-9.fc27.ppc64le
 ├─libboost_iostreams.so.1.63.0()(64bit)                   boost-iostreams-1.63.0-9.fc27.ppc64le
+├─libaio.so.1()(64bit)                                    libaio-0.3.110-7.fc26.ppc64le
 ├─libtcmalloc.so.4()(64bit)                               gperftools-libs-2.6.1-1.fc27.ppc64le
+├─libaio.so.1(LIBAIO_0.1)(64bit)                          libaio-0.3.110-7.fc26.ppc64le
+├─libaio.so.1(LIBAIO_0.4)(64bit)                          libaio-0.3.110-7.fc26.ppc64le
+├─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.ppc64le
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.ppc64le
+├─parted                                                  parted-3.2-26.fc27.ppc64le
+├─gdisk                                                   gdisk-1.0.1-3.fc26.ppc64le
 ├─libleveldb.so.1()(64bit)                                leveldb-1.18-1.fc26.ppc64le
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.ppc64le
 ceph-selinux-1:10.2.7-2.fc27.ppc64le                      
 ├─libselinux-utils                                        libselinux-utils-2.7-1.fc27.ppc64le
 └─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.ppc64le
+dmraid-1.0.0.rc16-31.fc26.ppc64le                         
+├─kpartx                                                  kpartx-0.7.1-6.git847cc43.fc27.ppc64le
+├─libdevmapper-event.so.1.02()(64bit)                     device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─libdevmapper-event.so.1.02(Base)(64bit)                 device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─dmraid-events                                           dmraid-events-1.0.0.rc16-31.fc26.ppc64le
+dmraid-events-1.0.0.rc16-31.fc26.ppc64le                  
+├─libdevmapper-event.so.1.02()(64bit)                     device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─device-mapper-event                                     device-mapper-event-1.02.142-4.fc27.ppc64le
+├─libdmraid.so.1()(64bit)                                 dmraid-1.0.0.rc16-31.fc26.ppc64le
+├─libdmraid.so.1(Base)(64bit)                             dmraid-1.0.0.rc16-31.fc26.ppc64le
+├─sgpio                                                   sgpio-1.2.0.10-17.fc26.ppc64le
+└─dmraid = 1.0.0.rc16-31.fc26                             dmraid-1.0.0.rc16-31.fc26.ppc64le
+dosfstools-4.1-2.fc26.ppc64le                             
+hfsplus-tools-540.1.linux3-12.fc26.ppc64le                
 libcephfs1-1:10.2.7-2.fc27.ppc64le                        
 ├─libboost_system.so.1.63.0()(64bit)                      boost-system-1.63.0-9.fc27.ppc64le
 ├─libboost_thread.so.1.63.0()(64bit)                      boost-thread-1.63.0-9.fc27.ppc64le
@@ -93,6 +116,7 @@ librgw2-1:10.2.7-2.fc27.ppc64le
 ├─librados.so.2()(64bit)                                  librados2-1:10.2.7-2.fc27.ppc64le
 ├─libfcgi.so.0()(64bit)                                   fcgi-2.4.0-30.fc26.ppc64le
 └─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.ppc64le
+mdadm-4.0-3.fc27.ppc64le                                  
 python-cephfs-1:10.2.7-2.fc27.ppc64le                     
 ├─libcephfs.so.1()(64bit)                                 libcephfs1-1:10.2.7-2.fc27.ppc64le
 ├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.ppc64le
@@ -119,6 +143,8 @@ librados2-1:10.2.7-2.fc27.ppc64le
 ├─libboost_random.so.1.63.0()(64bit)                      boost-random-1.63.0-9.fc27.ppc64le
 └─liblttng-ust.so.0()(64bit)                              lttng-ust-2.9.1-2.fc27.ppc64le
 lttng-ust-2.9.1-2.fc27.ppc64le                            
+├─liburcu-cds.so.6()(64bit)                               userspace-rcu-0.10.0-1.fc27.ppc64le
+└─liburcu-bp.so.6()(64bit)                                userspace-rcu-0.10.0-1.fc27.ppc64le
 python2-requests-2.18.1-2.fc27.noarch                     
 ├─python-chardet                                          python-chardet-3.0.4-1.fc27.noarch
 ├─python-idna                                             python2-idna-2.5-1.fc27.noarch
@@ -129,6 +155,7 @@ redhat-lsb-core-4.1-34.fc26.ppc64le
 ├─/usr/bin/man                                            man-db-2.7.6.1-2.fc26.ppc64le
 ├─/usr/bin/time                                           time-1.7-52.fc26.ppc64le
 ├─spax                                                    spax-1.5.3-8.fc26.ppc64le
+├─/usr/bin/hostname                                       hostname-3.18-2.fc26.ppc64le
 ├─/usr/bin/lp                                             cups-client-1:2.2.4-1.fc27.ppc64le
 ├─/usr/bin/lpr                                            cups-client-1:2.2.4-1.fc27.ppc64le
 ├─ncurses-compat-libs(ppc-64)                             ncurses-compat-libs-6.0-13.20170722.fc27.ppc64le
@@ -138,7 +165,9 @@ redhat-lsb-core-4.1-34.fc26.ppc64le
 ├─/usr/bin/batch                                          at-3.1.20-4.fc27.ppc64le
 ├─/usr/bin/chfn                                           util-linux-user-2.30.1-1.fc27.ppc64le
 ├─/usr/bin/chsh                                           util-linux-user-2.30.1-1.fc27.ppc64le
+├─/usr/bin/passwd                                         passwd-0.79-9.fc26.ppc64le
 └─redhat-lsb-submod-security(ppc-64) = 4.1-34.fc26        redhat-lsb-submod-security-4.1-34.fc26.ppc64le
+snappy-1.1.4-3.fc26.ppc64le                               
 boost-program-options-1.63.0-9.fc27.ppc64le               
 boost-regex-1.63.0-9.fc27.ppc64le                         
 ├─libicuuc.so.57()(64bit)                                 libicu-57.1-4.fc26.ppc64le
@@ -146,14 +175,19 @@ boost-regex-1.63.0-9.fc27.ppc64le
 └─libicudata.so.57()(64bit)                               libicu-57.1-4.fc26.ppc64le
 gperftools-libs-2.6.1-1.fc27.ppc64le                      
 leveldb-1.18-1.fc26.ppc64le                               
+└─libsnappy.so.1()(64bit)                                 snappy-1.1.4-3.fc26.ppc64le
 python2-flask-1:0.11.1-5.fc26.noarch                      
 ├─python-jinja2                                           python2-jinja2-2.9.6-1.fc27.noarch
 ├─python-click                                            python2-click-6.7-3.fc26.noarch
 ├─python-werkzeug                                         python-werkzeug-0.11.10-5.fc26.noarch
 ├─python-itsdangerous                                     python2-itsdangerous-0.24-10.fc27.noarch
+gdisk-1.0.1-3.fc26.ppc64le                                
+libaio-0.3.110-7.fc26.ppc64le                             
 policycoreutils-2.6-5.fc27.ppc64le                        
 ├─libselinux-utils >= 2.6-5                               libselinux-utils-2.7-1.fc27.ppc64le
+sgpio-1.2.0.10-17.fc26.ppc64le                            
 fcgi-2.4.0-30.fc26.ppc64le                                
+userspace-rcu-0.10.0-1.fc27.ppc64le                       
 python-chardet-3.0.4-1.fc27.noarch                        
 python2-idna-2.5-1.fc27.noarch                            
 python2-urllib3-1.21.1-1.fc27.noarch                      
@@ -173,11 +207,14 @@ cups-client-1:2.2.4-1.fc27.ppc64le
 ├─libcups.so.2()(64bit)                                   cups-libs-1:2.2.4-1.fc27.ppc64le
 └─cups-libs(ppc-64) = 1:2.2.4-1.fc27                      cups-libs-1:2.2.4-1.fc27.ppc64le
 ed-1.14.1-2.fc26.ppc64le                                  
+hostname-3.18-2.fc26.ppc64le                              
 mailx-12.5-20.fc26.ppc64le                                
 man-db-2.7.6.1-2.fc26.ppc64le                             
 ├─less                                                    less-487-3.fc27.ppc64le
 ├─groff-base                                              groff-base-1.22.3-11.fc27.ppc64le
 └─libpipeline.so.1()(64bit)                               libpipeline-1.4.2-1.fc27.ppc64le
+passwd-0.79-9.fc26.ppc64le                                
+├─libuser.so.1()(64bit)                                   libuser-0.62-9.fc27.ppc64le
 redhat-lsb-submod-security-4.1-34.fc26.ppc64le            
 spax-1.5.3-8.fc26.ppc64le                                 
 time-1.7-52.fc26.ppc64le                                  
@@ -218,12 +255,21 @@ pytz-2017.2-1.fc27.noarch
 python2-pycparser-2.14-10.fc26.noarch                     
 └─python-ply >= 3.6                                       python2-ply-3.9-3.fc27.noarch
 python2-ply-3.9-3.fc27.noarch                             
+parted-3.2-26.fc27.ppc64le                                
 util-linux-user-2.30.1-1.fc27.ppc64le                     
+├─libuser.so.1()(64bit)                                   libuser-0.62-9.fc27.ppc64le
 libselinux-utils-2.7-1.fc27.ppc64le                       
 ncurses-compat-libs-6.0-13.20170722.fc27.ppc64le          
 python2-markupsafe-0.23-15.fc27.ppc64le                   
 ├─curl                                                    curl-minimal-7.55.0-1.fc27.ppc64le
+libuser-0.62-9.fc27.ppc64le                               
+device-mapper-event-1.02.142-4.fc27.ppc64le               
+├─libdevmapper-event.so.1.02()(64bit)                     device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+├─libdevmapper-event.so.1.02(Base)(64bit)                 device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+└─device-mapper-event-libs = 1.02.142-4.fc27              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
+device-mapper-event-libs-1.02.142-4.fc27.ppc64le          
 groff-base-1.22.3-11.fc27.ppc64le                         
+kpartx-0.7.1-6.git847cc43.fc27.ppc64le                    
 cryptsetup-1.7.5-3.fc27.ppc64le                           
 libicu-57.1-4.fc26.ppc64le                                
 sendmail-8.15.2-15.fc27.ppc64le                           

@@ -64,6 +64,9 @@ libwbclient-2:4.7.0-0.5.rc1.fc27.s390x
 samba-2:4.7.0-0.5.rc1.fc27.s390x                                      
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
+├─libaio.so.1()(64bit)                                                libaio-0.3.110-7.fc26.s390x
+├─libaio.so.1(LIBAIO_0.1)(64bit)                                      libaio-0.3.110-7.fc26.s390x
+├─libaio.so.1(LIBAIO_0.4)(64bit)                                      libaio-0.3.110-7.fc26.s390x
 ├─libtevent.so.0()(64bit)                                             libtevent-0.9.32-1.fc27.s390x
 ├─libtdb.so.1()(64bit)                                                libtdb-1.3.14-1.fc27.s390x
 ├─libtevent.so.0(TEVENT_0.9.9)(64bit)                                 libtevent-0.9.32-1.fc27.s390x
@@ -345,6 +348,7 @@ samba-common-tools-2:4.7.0-0.5.rc1.fc27.s390x
 ├─libwbclient = 2:4.7.0-0.5.rc1.fc27                                  libwbclient-2:4.7.0-0.5.rc1.fc27.s390x
 └─samba-common-libs = 2:4.7.0-0.5.rc1.fc27                            samba-common-libs-2:4.7.0-0.5.rc1.fc27.s390x
 samba-dc-libs-2:4.7.0-0.5.rc1.fc27.s390x                              
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
 ├─libtevent.so.0()(64bit)                                             libtevent-0.9.32-1.fc27.s390x
@@ -462,6 +466,7 @@ samba-dc-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─samba-libs = 2:4.7.0-0.5.rc1.fc27                                   samba-libs-2:4.7.0-0.5.rc1.fc27.s390x
 └─samba-common-libs = 2:4.7.0-0.5.rc1.fc27                            samba-common-libs-2:4.7.0-0.5.rc1.fc27.s390x
 samba-libs-2:4.7.0-0.5.rc1.fc27.s390x                                 
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
 ├─libtevent.so.0()(64bit)                                             libtevent-0.9.32-1.fc27.s390x
@@ -561,6 +566,7 @@ samba-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─samba-client-libs = 2:4.7.0-0.5.rc1.fc27                            samba-client-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─libwbclient = 2:4.7.0-0.5.rc1.fc27                                  libwbclient-2:4.7.0-0.5.rc1.fc27.s390x
 samba-python-2:4.7.0-0.5.rc1.fc27.s390x                               
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
 ├─libtevent.so.0()(64bit)                                             libtevent-0.9.32-1.fc27.s390x
@@ -687,6 +693,7 @@ samba-python-2:4.7.0-0.5.rc1.fc27.s390x
 ├─libsamba-policy.so.0(SAMBA_POLICY_0.0.1)(64bit)                     samba-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─libsmbd-conn-samba4.so()(64bit)                                     samba-client-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─libsmbd-conn-samba4.so(SAMBA_4.7.0RC1)(64bit)                       samba-client-libs-2:4.7.0-0.5.rc1.fc27.s390x
+├─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 ├─samba-client-libs = 2:4.7.0-0.5.rc1.fc27                            samba-client-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─samba-libs = 2:4.7.0-0.5.rc1.fc27                                   samba-libs-2:4.7.0-0.5.rc1.fc27.s390x
 └─samba = 2:4.7.0-0.5.rc1.fc27                                        samba-2:4.7.0-0.5.rc1.fc27.s390x
@@ -825,16 +832,27 @@ samba-winbind-modules-2:4.7.0-0.5.rc1.fc27.s390x
 ├─samba-client-libs = 2:4.7.0-0.5.rc1.fc27                            samba-client-libs-2:4.7.0-0.5.rc1.fc27.s390x
 ├─samba-libs = 2:4.7.0-0.5.rc1.fc27                                   samba-libs-2:4.7.0-0.5.rc1.fc27.s390x
 └─libwbclient = 2:4.7.0-0.5.rc1.fc27                                  libwbclient-2:4.7.0-0.5.rc1.fc27.s390x
+libaio-0.3.110-7.fc26.s390x                                           
 cups-libs-1:2.2.4-1.fc27.s390x                                        
 ├─libavahi-common.so.3()(64bit)                                       avahi-libs-0.7-1.fc27.s390x
 └─libavahi-client.so.3()(64bit)                                       avahi-libs-0.7-1.fc27.s390x
+python2-libs-2.7.13-12.fc27.s390x                                     
 python2-talloc-2.1.9-2.fc27.s390x                                     
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
+├─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 └─libtalloc = 2.1.9-2.fc27                                            libtalloc-2.1.9-2.fc27.s390x
+python2-2.7.13-12.fc27.s390x                                          
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
+├─python2-setuptools                                                  python2-setuptools-36.2.0-3.fc27.noarch
+├─python2-pip                                                         python2-pip-9.0.1-11.fc27.noarch
+└─python2-libs(s390-64) = 2.7.13-12.fc27                              python2-libs-2.7.13-12.fc27.s390x
 python2-dns-1.15.0-3.fc26.noarch                                      
 ├─python2-crypto                                                      python2-crypto-2.6.1-15.fc27.s390x
+└─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 python2-ldb-1.2.0-2.fc27.s390x                                        
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
 ├─libtevent.so.0()(64bit)                                             libtevent-0.9.32-1.fc27.s390x
@@ -844,22 +862,36 @@ python2-ldb-1.2.0-2.fc27.s390x
 ├─libldb.so.1(LDB_0.9.15)(64bit)                                      libldb-1.2.0-2.fc27.s390x
 ├─libldb.so.1(LDB_1.0.2)(64bit)                                       libldb-1.2.0-2.fc27.s390x
 ├─libldb.so.1(LDB_1.1.22)(64bit)                                      libldb-1.2.0-2.fc27.s390x
+├─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 ├─libldb(s390-64) = 1.2.0-2.fc27                                      libldb-1.2.0-2.fc27.s390x
 └─python2-tdb(s390-64) >= 1.3.14                                      python2-tdb-1.3.14-1.fc27.s390x
 python2-tdb-1.3.14-1.fc27.s390x                                       
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtdb.so.1()(64bit)                                                libtdb-1.3.14-1.fc27.s390x
 ├─libtdb.so.1(TDB_1.2.1)(64bit)                                       libtdb-1.3.14-1.fc27.s390x
+├─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 └─libtdb = 1.3.14-1.fc27                                              libtdb-1.3.14-1.fc27.s390x
 python2-tevent-0.9.32-1.fc27.s390x                                    
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtalloc.so.2()(64bit)                                             libtalloc-2.1.9-2.fc27.s390x
 ├─libtalloc.so.2(TALLOC_2.0.2)(64bit)                                 libtalloc-2.1.9-2.fc27.s390x
 ├─libtevent.so.0()(64bit)                                             libtevent-0.9.32-1.fc27.s390x
 ├─libtevent.so.0(TEVENT_0.9.9)(64bit)                                 libtevent-0.9.32-1.fc27.s390x
+├─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 └─libtevent(s390-64) = 0.9.32-1.fc27                                  libtevent-0.9.32-1.fc27.s390x
 avahi-libs-0.7-1.fc27.s390x                                           
 python2-crypto-2.6.1-15.fc27.s390x                                    
+├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-12.fc27.s390x
 ├─libtomcrypt.so.0()(64bit)                                           libtomcrypt-1.17-33.20170623gitcd6e602.fc27.s390x
+└─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
 libtomcrypt-1.17-33.20170623gitcd6e602.fc27.s390x                     
 └─libtommath.so.1()(64bit)                                            libtommath-1.0-8.fc27.s390x
 libtommath-1.0-8.fc27.s390x                                           
 libkadm5-1.15.1-21.fc27.s390x                                         
+python2-pip-9.0.1-11.fc27.noarch                                      
+├─python-setuptools                                                   python2-setuptools-36.2.0-3.fc27.noarch
+├─/usr/bin/python2                                                    python2-2.7.13-12.fc27.s390x
+└─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x
+python2-setuptools-36.2.0-3.fc27.noarch                               
+├─/usr/bin/python2                                                    python2-2.7.13-12.fc27.s390x
+└─python(abi) = 2.7                                                   python2-2.7.13-12.fc27.s390x

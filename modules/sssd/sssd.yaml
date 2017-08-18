@@ -12,18 +12,13 @@ data:
         requires:
             platform: master
             platform-placeholder: master
+            samba: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/sssd
         tracker: https://github.com/modularity-modules/sssd
     components:
         rpms:
-            avahi:
-                rationale: Generated.
-                ref: master.
-            cups:
-                rationale: Generated.
-                ref: master.
             ding-libs:
                 rationale: Generated.
                 ref: master.
@@ -33,19 +28,7 @@ data:
             jansson:
                 rationale: Generated.
                 ref: master.
-            libldb:
-                rationale: Generated.
-                ref: master.
-            libtalloc:
-                rationale: Generated.
-                ref: master.
-            libtdb:
-                rationale: Generated.
-                ref: master.
-            libtevent:
-                rationale: Generated.
-                ref: master.
-            samba:
+            libnl3:
                 rationale: Generated.
                 ref: master.
             sssd:

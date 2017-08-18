@@ -13,6 +13,36 @@ bluez-5.45-1.fc27.src
 ├─git-core                                                                         git-core-2.13.2-1.fc27.aarch64
 ├─libical-devel                                                                    libical-devel-2.0.0-10.fc27.aarch64
 └─dbus-devel >= 1.6                                                                dbus-devel-1:1.11.14-1.fc27.aarch64
+dbus-glib-0.108-2.fc26.src                                                         
+├─gettext                                                                          gettext-0.19.8.1-9.fc27.aarch64
+├─/usr/bin/chrpath                                                                 chrpath-0.16-4.fc26.aarch64
+├─pkgconfig(glib-2.0) >= 2.32.0                                                    glib2-devel-2.53.5-1.fc27.aarch64
+├─expat-devel >= 1.95.5                                                            expat-devel-2.2.3-1.fc27.aarch64
+└─pkgconfig(dbus-1) >= 1.8                                                         dbus-devel-1:1.11.14-1.fc27.aarch64
+dbus-python-1.2.4-6.fc26.src                                                       
+├─python2-devel                                                                    python2-devel-2.7.13-12.fc27.aarch64
+├─python3-devel                                                                    python3-devel-3.6.2-6.fc27.aarch64
+├─libtool                                                                          libtool-2.4.6-20.fc27.aarch64
+├─automake                                                                         automake-1.15-9.fc26.noarch
+├─dbus-devel                                                                       dbus-devel-1:1.11.14-1.fc27.aarch64
+├─dbus-glib-devel                                                                  dbus-glib-devel-0.108-2.fc26.aarch64
+├─python-docutils                                                                  python2-docutils-0.13.1-4.fc26.noarch
+├─dbus-x11                                                                         dbus-x11-1:1.11.14-1.fc27.aarch64
+├─python3-gobject                                                                  python3-gobject-3.24.1-1.fc27.aarch64
+├─autoconf-archive                                                                 autoconf-archive-2017.03.21-1.fc27.noarch
+└─python-gobject                                                                   python-gobject-3.24.1-1.fc27.aarch64
+ebtables-2.0.10-22.fc26.src                                                        
+└─systemd-units                                                                    systemd-234-5.fc27.aarch64
+hostname-3.18-2.fc26.src                                                           
+initscripts-9.72-1.fc27.src                                                        
+├─gettext                                                                          gettext-0.19.8.1-9.fc27.aarch64
+├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─systemd                                                                          systemd-234-5.fc27.aarch64
+├─glib2-devel                                                                      glib2-devel-2.53.5-1.fc27.aarch64
+└─popt-devel                                                                       popt-devel-1.16-11.fc27.aarch64
+ipset-6.29-3.fc27.src                                                              
+├─systemd                                                                          systemd-234-5.fc27.aarch64
+└─libmnl-devel                                                                     libmnl-devel-1.0.4-2.fc26.aarch64
 jansson-2.10-2.fc27.src                                                            
 └─python-sphinx                                                                    python2-sphinx-1.5.2-2.fc26.noarch
 libdaemon-0.14-11.fc26.src                                                         
@@ -37,6 +67,16 @@ libmodman-2.0.1-14.fc27.src
 ├─zlib-devel                                                                       zlib-devel-1.2.11-4.fc27.aarch64
 └─gcc-c++                                                                          gcc-c++-7.1.1-7.fc27.1.aarch64
 libndp-1.6-2.fc26.src                                                              
+libnl3-3.3.0-1.fc27.src                                                            
+├─python2-devel                                                                    python2-devel-2.7.13-12.fc27.aarch64
+├─python3-devel                                                                    python3-devel-3.6.2-6.fc27.aarch64
+├─libtool                                                                          libtool-2.4.6-20.fc27.aarch64
+├─autoconf                                                                         autoconf-2.69-24.fc26.noarch
+├─automake                                                                         automake-1.15-9.fc26.noarch
+├─flex                                                                             flex-2.6.1-3.fc26.aarch64
+├─bison                                                                            bison-3.0.4-6.fc26.aarch64
+├─python                                                                           python2-2.7.13-12.fc27.aarch64
+└─swig                                                                             swig-3.0.12-8.fc27.aarch64
 libproxy-0.4.15-2.fc27.src                                                         
 ├─python2-devel                                                                    python2-devel-2.7.13-12.fc27.aarch64
 ├─python3-devel                                                                    python3-devel-3.6.2-6.fc27.aarch64
@@ -204,6 +244,14 @@ polkit-0.113-13.fc27.src
 ├─systemd-devel                                                                    systemd-devel-234-5.fc27.aarch64
 ├─mozjs17-devel                                                                    mozjs17-devel-17.0.0-19.fc27.aarch64
 └─glib2-devel >= 2.30.0                                                            glib2-devel-2.53.5-1.fc27.aarch64
+pygobject3-3.24.1-1.fc27.src                                                       
+├─cairo-gobject-devel                                                              cairo-gobject-devel-1.14.10-4.fc27.aarch64
+├─pycairo-devel                                                                    pycairo-devel-1.10.0-6.fc26.aarch64
+├─python3-cairo-devel                                                              python3-cairo-devel-1.10.0-20.fc26.aarch64
+├─python2-devel >= 2.7                                                             python2-devel-2.7.13-12.fc27.aarch64
+├─glib2-devel >= 2.38.0                                                            glib2-devel-2.53.5-1.fc27.aarch64
+├─gobject-introspection-devel >= 1.46.0                                            gobject-introspection-devel-1.53.3-1.fc27.aarch64
+└─python3-devel >= 3.1                                                             python3-devel-3.6.2-6.fc27.aarch64
 python-decorator-4.0.11-2.fc26.src                                                 
 ├─python2-devel                                                                    python2-devel-2.7.13-12.fc27.aarch64
 ├─python3-devel                                                                    python3-devel-3.6.2-6.fc27.aarch64
@@ -394,6 +442,118 @@ libical-devel-2.0.0-10.fc27.aarch64
 ├─libical_cxx.so.2()(64bit)                                                        libical-2.0.0-10.fc27.aarch64
 ├─libicalss_cxx.so.2()(64bit)                                                      libical-2.0.0-10.fc27.aarch64
 └─libical(aarch-64) = 2.0.0-10.fc27                                                libical-2.0.0-10.fc27.aarch64
+chrpath-0.16-4.fc26.aarch64                                                        
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+autoconf-archive-2017.03.21-1.fc27.noarch                                          
+└─autoconf                                                                         autoconf-2.69-24.fc26.noarch
+automake-1.15-9.fc26.noarch                                                        
+├─perl(strict)                                                                     perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(warnings)                                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Carp)                                                                       perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                                                   perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                                       perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─/usr/bin/perl                                                                    perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(constant)                                                                   perl-constant-1.33-395.fc27.noarch
+├─perl(Getopt::Long)                                                               perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─perl(File::Spec)                                                                 perl-PathTools-3.67-395.fc27.aarch64
+├─perl(POSIX)                                                                      perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(File::Basename)                                                             perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(DynaLoader)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Config)                                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(File::Path)                                                                 perl-File-Path-2.15-1.fc27.noarch
+├─perl(IO::File)                                                                   perl-IO-1.38-398.fc27.aarch64
+├─perl(File::Copy)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Errno)                                                                      perl-Errno-1.28-398.fc27.aarch64
+├─perl(File::stat)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(threads)                                                                    perl-threads-1:2.16-4.fc27.aarch64
+├─perl(Class::Struct)                                                              perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(File::Compare)                                                              perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Thread::Queue)                                                              perl-Thread-Queue-3.12-393.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                                                          perl-libs-4:5.26.0-398.fc27.aarch64
+└─autoconf >= 2.65                                                                 autoconf-2.69-24.fc26.noarch
+dbus-glib-devel-0.108-2.fc26.aarch64                                               
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libgio-2.0.so.0()(64bit)                                                         glib2-2.53.5-1.fc27.aarch64
+├─libdbus-1.so.3()(64bit)                                                          dbus-libs-1:1.11.14-1.fc27.aarch64
+├─libexpat.so.1()(64bit)                                                           expat-2.2.3-1.fc27.aarch64
+├─pkgconfig(glib-2.0)                                                              glib2-devel-2.53.5-1.fc27.aarch64
+├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
+├─libdbus-glib-1.so.2()(64bit)                                                     dbus-glib-0.108-2.fc26.aarch64
+├─pkgconfig(gobject-2.0)                                                           glib2-devel-2.53.5-1.fc27.aarch64
+├─pkgconfig(dbus-1)                                                                dbus-devel-1:1.11.14-1.fc27.aarch64
+└─dbus-glib(aarch-64) = 0.108-2.fc26                                               dbus-glib-0.108-2.fc26.aarch64
+dbus-x11-1:1.11.14-1.fc27.aarch64                                                  
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                                          bash-4.4.12-9.fc27.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                                               glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─libdbus-1.so.3()(64bit)                                                          dbus-libs-1:1.11.14-1.fc27.aarch64
+├─libsystemd.so.0()(64bit)                                                         systemd-libs-234-5.fc27.aarch64
+├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
+├─xorg-x11-xinit                                                                   xorg-x11-xinit-1.3.4-14.fc26.aarch64
+├─libdbus-1.so.3(LIBDBUS_PRIVATE_1.11.14)(64bit)                                   dbus-libs-1:1.11.14-1.fc27.aarch64
+└─dbus = 1:1.11.14-1.fc27                                                          dbus-1:1.11.14-1.fc27.aarch64
+python-gobject-3.24.1-1.fc27.aarch64                                               
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libcairo.so.2()(64bit)                                                           cairo-1.14.10-4.fc27.aarch64
+├─libcairo-gobject.so.2()(64bit)                                                   cairo-gobject-1.14.10-4.fc27.aarch64
+├─libgirepository-1.0.so.1()(64bit)                                                gobject-introspection-1.53.3-1.fc27.aarch64
+├─pycairo(aarch-64)                                                                pycairo-1.10.0-6.fc26.aarch64
+├─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+└─python-gobject-base(aarch-64) = 3.24.1-1.fc27                                    python-gobject-base-3.24.1-1.fc27.aarch64
+python2-devel-2.7.13-12.fc27.aarch64                                               
+├─/bin/sh                                                                          bash-4.4.12-9.fc27.aarch64
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libpython2.7.so.1.0()(64bit)                                                     python2-libs-2.7.13-12.fc27.aarch64
+├─/usr/bin/python2.7                                                               python2-2.7.13-12.fc27.aarch64
+├─python-rpm-macros                                                                python-rpm-macros-3-21.fc27.noarch
+├─python3-rpm-generators                                                           python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
+├─python2-rpm-macros                                                               python2-rpm-macros-3-21.fc27.noarch
+└─python2(aarch-64) = 2.7.13-12.fc27                                               python2-2.7.13-12.fc27.aarch64
+python2-docutils-0.13.1-4.fc26.noarch                                              
+├─/usr/bin/python2                                                                 python2-2.7.13-12.fc27.aarch64
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python3-gobject-3.24.1-1.fc27.aarch64                                              
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libcairo.so.2()(64bit)                                                           cairo-1.14.10-4.fc27.aarch64
+├─libcairo-gobject.so.2()(64bit)                                                   cairo-gobject-1.14.10-4.fc27.aarch64
+├─libgirepository-1.0.so.1()(64bit)                                                gobject-introspection-1.53.3-1.fc27.aarch64
+├─python3-cairo(aarch-64)                                                          python3-cairo-1.10.0-20.fc26.aarch64
+├─python(abi) = 3.6                                                                python3-3.6.2-6.fc27.aarch64
+└─python3-gobject-base(aarch-64) = 3.24.1-1.fc27                                   python3-gobject-base-3.24.1-1.fc27.aarch64
+pkgconf-pkg-config-1.3.8-1.fc27.aarch64                                            
+├─pkgconf(aarch-64) = 1.3.8-1.fc27                                                 pkgconf-1.3.8-1.fc27.aarch64
+└─pkgconf-m4 = 1.3.8-1.fc27                                                        pkgconf-m4-1.3.8-1.fc27.noarch
+libmnl-devel-1.0.4-2.fc26.aarch64                                                  
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libmnl.so.0()(64bit)                                                             libmnl-1.0.4-2.fc26.aarch64
+└─libmnl(aarch-64) = 1.0.4-2.fc26                                                  libmnl-1.0.4-2.fc26.aarch64
 python2-sphinx-1.5.2-2.fc26.noarch                                                 
 ├─/usr/bin/python2                                                                 python2-2.7.13-12.fc27.aarch64
 ├─python2-six                                                                      python2-six-1.10.0-9.fc27.noarch
@@ -468,9 +628,6 @@ gtk-doc-1.25-3.fc26.aarch64
 ├─openjade                                                                         openjade-1.3.2-55.fc27.aarch64
 ├─source-highlight                                                                 source-highlight-3.1.8-10.fc26.aarch64
 └─docbook-utils                                                                    docbook-utils-0.6.14-42.fc26.noarch
-pkgconf-pkg-config-1.3.8-1.fc27.aarch64                                            
-├─pkgconf(aarch-64) = 1.3.8-1.fc27                                                 pkgconf-1.3.8-1.fc27.aarch64
-└─pkgconf-m4 = 1.3.8-1.fc27                                                        pkgconf-m4-1.3.8-1.fc27.noarch
 autoconf-2.69-24.fc26.noarch                                                       
 ├─perl(strict)                                                                     perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(warnings)                                                                   perl-libs-4:5.26.0-398.fc27.aarch64
@@ -498,31 +655,6 @@ autoconf-2.69-24.fc26.noarch
 ├─perl(File::Compare)                                                              perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(:VERSION) >= 5.6.0                                                          perl-libs-4:5.26.0-398.fc27.aarch64
 └─m4 >= 1.4.14                                                                     m4-1.4.18-3.fc26.aarch64
-automake-1.15-9.fc26.noarch                                                        
-├─perl(strict)                                                                     perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(warnings)                                                                   perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Carp)                                                                       perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                                                   perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                                       perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─/usr/bin/perl                                                                    perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(constant)                                                                   perl-constant-1.33-395.fc27.noarch
-├─perl(Getopt::Long)                                                               perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl(File::Spec)                                                                 perl-PathTools-3.67-395.fc27.aarch64
-├─perl(POSIX)                                                                      perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(File::Basename)                                                             perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(DynaLoader)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Config)                                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(File::Path)                                                                 perl-File-Path-2.15-1.fc27.noarch
-├─perl(IO::File)                                                                   perl-IO-1.38-398.fc27.aarch64
-├─perl(File::Copy)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Errno)                                                                      perl-Errno-1.28-398.fc27.aarch64
-├─perl(File::stat)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(threads)                                                                    perl-threads-1:2.16-4.fc27.aarch64
-├─perl(Class::Struct)                                                              perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(File::Compare)                                                              perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Thread::Queue)                                                              perl-Thread-Queue-3.12-393.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                                                          perl-libs-4:5.26.0-398.fc27.aarch64
-└─autoconf >= 2.65                                                                 autoconf-2.69-24.fc26.noarch
 libgudev-devel-230-4.fc26.aarch64                                                  
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig(glib-2.0)                                                              glib2-devel-2.53.5-1.fc27.aarch64
@@ -576,6 +708,34 @@ cmake-3.8.2-1.fc27.aarch64
 ├─libuv.so.1()(64bit)                                                              libuv-1:1.13.1-1.fc27.aarch64
 ├─librhash.so.0()(64bit)                                                           rhash-1.3.4-2.fc27.aarch64
 └─cmake-data = 3.8.2-1.fc27                                                        cmake-data-3.8.2-1.fc27.noarch
+bison-3.0.4-6.fc26.aarch64                                                         
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+└─m4 >= 1.4                                                                        m4-1.4.18-3.fc26.aarch64
+flex-2.6.1-3.fc26.aarch64                                                          
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+└─m4                                                                               m4-1.4.18-3.fc26.aarch64
+swig-3.0.12-8.fc27.aarch64                                                         
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
+├─libgcc_s.so.1()(64bit)                                                           libgcc-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6()(64bit)                                                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3)(64bit)                                                libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                                               libstdc++-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                                    libgcc-7.1.1-7.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                                              libstdc++-7.1.1-7.fc27.1.aarch64
+└─libpcre.so.1()(64bit)                                                            pcre-8.41-1.fc27.2.aarch64
 NetworkManager-libnm-devel-1:1.8.0-6.fc27.aarch64                                  
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
@@ -606,16 +766,6 @@ mozjs38-devel-38.8.0-4.fc26.aarch64
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig(nspr) >= 4.9.2                                                         nspr-devel-4.16.0-1.fc27.aarch64
 └─mozjs38(aarch-64) = 38.8.0-4.fc26                                                mozjs38-38.8.0-4.fc26.aarch64
-python2-devel-2.7.13-12.fc27.aarch64                                               
-├─/bin/sh                                                                          bash-4.4.12-9.fc27.aarch64
-├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libpython2.7.so.1.0()(64bit)                                                     python2-libs-2.7.13-12.fc27.aarch64
-├─/usr/bin/python2.7                                                               python2-2.7.13-12.fc27.aarch64
-├─python-rpm-macros                                                                python-rpm-macros-3-21.fc27.noarch
-├─python3-rpm-generators                                                           python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
-├─python2-rpm-macros                                                               python2-rpm-macros-3-21.fc27.noarch
-└─python2(aarch-64) = 2.7.13-12.fc27                                               python2-2.7.13-12.fc27.aarch64
 libmbim-devel-1.14.0-2.fc26.aarch64                                                
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig(glib-2.0)                                                              glib2-devel-2.53.5-1.fc27.aarch64
@@ -667,34 +817,6 @@ libnl3-devel-3.3.0-1.fc27.aarch64
 ├─libnl-xfrm-3.so.200()(64bit)                                                     libnl3-3.3.0-1.fc27.aarch64
 ├─libnl3 = 3.3.0-1.fc27                                                            libnl3-3.3.0-1.fc27.aarch64
 └─libnl3-cli = 3.3.0-1.fc27                                                        libnl3-cli-3.3.0-1.fc27.aarch64
-swig-3.0.12-8.fc27.aarch64                                                         
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
-├─libgcc_s.so.1()(64bit)                                                           libgcc-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6()(64bit)                                                          libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(CXXABI_1.3)(64bit)                                                libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                                               libstdc++-7.1.1-7.fc27.1.aarch64
-├─libgcc_s.so.1(GCC_3.0)(64bit)                                                    libgcc-7.1.1-7.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
-├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                                              libstdc++-7.1.1-7.fc27.1.aarch64
-└─libpcre.so.1()(64bit)                                                            pcre-8.41-1.fc27.2.aarch64
-bison-3.0.4-6.fc26.aarch64                                                         
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-└─m4 >= 1.4                                                                        m4-1.4.18-3.fc26.aarch64
-flex-2.6.1-3.fc26.aarch64                                                          
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-└─m4                                                                               m4-1.4.18-3.fc26.aarch64
 kernel-headers-4.13.0-0.rc1.git1.1.fc27.aarch64                                    
 libsysfs-devel-2.1.0-20.fc26.aarch64                                               
 ├─libsysfs.so.2()(64bit)                                                           libsysfs-2.1.0-20.fc26.aarch64
@@ -916,23 +1038,6 @@ bluez-libs-devel-5.45-1.fc27.aarch64
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─libbluetooth.so.3()(64bit)                                                       bluez-libs-5.45-1.fc27.aarch64
 └─bluez-libs(aarch-64) = 5.45-1.fc27                                               bluez-libs-5.45-1.fc27.aarch64
-dbus-glib-devel-0.108-2.fc26.aarch64                                               
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
-├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
-├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libgio-2.0.so.0()(64bit)                                                         glib2-2.53.5-1.fc27.aarch64
-├─libdbus-1.so.3()(64bit)                                                          dbus-libs-1:1.11.14-1.fc27.aarch64
-├─libexpat.so.1()(64bit)                                                           expat-2.2.3-1.fc27.aarch64
-├─pkgconfig(glib-2.0)                                                              glib2-devel-2.53.5-1.fc27.aarch64
-├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
-├─libdbus-glib-1.so.2()(64bit)                                                     dbus-glib-0.108-2.fc26.aarch64
-├─pkgconfig(gobject-2.0)                                                           glib2-devel-2.53.5-1.fc27.aarch64
-├─pkgconfig(dbus-1)                                                                dbus-devel-1:1.11.14-1.fc27.aarch64
-└─dbus-glib(aarch-64) = 0.108-2.fc26                                               dbus-glib-0.108-2.fc26.aarch64
 dbus-python-1.2.4-6.fc26.aarch64                                                   
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -944,21 +1049,6 @@ dbus-python-1.2.4-6.fc26.aarch64
 ├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
 ├─libdbus-glib-1.so.2()(64bit)                                                     dbus-glib-0.108-2.fc26.aarch64
 └─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-dbus-x11-1:1.11.14-1.fc27.aarch64                                                  
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                                                          bash-4.4.12-9.fc27.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                                               glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-├─libdbus-1.so.3()(64bit)                                                          dbus-libs-1:1.11.14-1.fc27.aarch64
-├─libsystemd.so.0()(64bit)                                                         systemd-libs-234-5.fc27.aarch64
-├─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
-├─xorg-x11-xinit                                                                   xorg-x11-xinit-1.3.4-14.fc26.aarch64
-├─libdbus-1.so.3(LIBDBUS_PRIVATE_1.11.14)(64bit)                                   dbus-libs-1:1.11.14-1.fc27.aarch64
-└─dbus = 1:1.11.14-1.fc27                                                          dbus-1:1.11.14-1.fc27.aarch64
 dhcp-client-12:4.3.6-1.fc27.aarch64                                                
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -1073,6 +1163,20 @@ mozjs17-devel-17.0.0-19.fc27.aarch64
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig(nspr) >= 4.9.2                                                         nspr-devel-4.16.0-1.fc27.aarch64
 └─mozjs17 = 17.0.0-19.fc27                                                         mozjs17-17.0.0-19.fc27.aarch64
+pycairo-devel-1.10.0-6.fc26.aarch64                                                
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(cairo)                                                                 cairo-devel-1.14.10-4.fc27.aarch64
+├─cairo-devel                                                                      cairo-devel-1.14.10-4.fc27.aarch64
+├─python-devel                                                                     python2-devel-2.7.13-12.fc27.aarch64
+└─pycairo = 1.10.0-6.fc26                                                          pycairo-1.10.0-6.fc26.aarch64
+python3-cairo-devel-1.10.0-20.fc26.aarch64                                         
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(cairo)                                                                 cairo-devel-1.14.10-4.fc27.aarch64
+├─python3-devel                                                                    python3-devel-3.6.2-6.fc27.aarch64
+├─cairo-devel                                                                      cairo-devel-1.14.10-4.fc27.aarch64
+└─python3-cairo = 1.10.0-20.fc26                                                   python3-cairo-1.10.0-20.fc26.aarch64
 xmlto-0.0.28-3.fc26.aarch64                                                        
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -1448,46 +1552,35 @@ libical-2.0.0-10.fc27.aarch64
 ├─libicuuc.so.57()(64bit)                                                          libicu-57.1-4.fc26.aarch64
 ├─libicui18n.so.57()(64bit)                                                        libicu-57.1-4.fc26.aarch64
 └─tzdata                                                                           tzdata-2017b-2.fc27.noarch
-python-sphinx-locale-1.5.2-2.fc26.noarch                                           
-python2-babel-2.3.4-5.fc26.noarch                                                  
-├─python-setuptools                                                                python2-setuptools-36.2.0-3.fc27.noarch
-├─pytz                                                                             pytz-2017.2-1.fc27.noarch
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-docutils-0.13.1-4.fc26.noarch                                              
-├─/usr/bin/python2                                                                 python2-2.7.13-12.fc27.aarch64
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-imagesize-0.7.1-5.fc26.noarch                                              
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-jinja2-2.9.6-1.fc27.noarch                                                 
-├─python2-setuptools                                                               python2-setuptools-36.2.0-3.fc27.noarch
-├─python-markupsafe                                                                python2-markupsafe-0.23-15.fc27.aarch64
-├─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-└─python2-babel >= 0.8                                                             python2-babel-2.3.4-5.fc26.noarch
-python2-mock-2.0.0-4.fc26.noarch                                                   
-├─python-pbr                                                                       python2-pbr-3.1.1-2.fc27.noarch
-├─python-funcsigs                                                                  python2-funcsigs-1.0.2-5.fc26.noarch
-├─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-└─python-six >= 1.9.0                                                              python2-six-1.10.0-9.fc27.noarch
-python2-pygments-2.2.0-7.fc27.noarch                                               
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-requests-2.18.1-2.fc27.noarch                                              
-├─ca-certificates                                                                  ca-certificates-2017.2.16-3.fc27.noarch
-├─python-chardet                                                                   python-chardet-3.0.4-1.fc27.noarch
-├─python-idna                                                                      python2-idna-2.5-1.fc27.noarch
-├─python2-urllib3                                                                  python2-urllib3-1.21.1-1.fc27.noarch
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-six-1.10.0-9.fc27.noarch                                                   
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-snowballstemmer-1.2.1-3.fc26.noarch                                        
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-sphinx-theme-alabaster-0.7.9-3.fc26.noarch                                 
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-python2-sphinx_rtd_theme-0.2.4-1.fc27.noarch                                       
-├─fontawesome-fonts-web                                                            fontawesome-fonts-web-4.7.0-2.fc26.noarch
-├─font(fontawesome)                                                                fontawesome-fonts-4.7.0-2.fc26.noarch
-├─font(lato)                                                                       lato-fonts-2.015-3.fc26.noarch
-├─font(robotoslab)                                                                 google-roboto-slab-fonts-1.100263-0.5.20150923git.fc26.noarch
-└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+perl-Thread-Queue-3.12-393.fc27.noarch                                             
+├─perl(strict)                                                                     perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                                                      perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(warnings)                                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Carp)                                                                       perl-Carp-1.42-394.fc27.noarch
+├─perl(Scalar::Util) >= 1.10                                                       perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
+└─perl(threads::shared) >= 1.21                                                    perl-threads-shared-1.57-4.fc27.aarch64
+dbus-glib-0.108-2.fc26.aarch64                                                     
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libgio-2.0.so.0()(64bit)                                                         glib2-2.53.5-1.fc27.aarch64
+├─libdbus-1.so.3()(64bit)                                                          dbus-libs-1:1.11.14-1.fc27.aarch64
+├─libexpat.so.1()(64bit)                                                           expat-2.2.3-1.fc27.aarch64
+└─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
+xorg-x11-xinit-1.3.4-14.fc26.aarch64                                               
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                                          bash-4.4.12-9.fc27.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─/bin/bash                                                                        bash-4.4.12-9.fc27.aarch64
+├─coreutils                                                                        coreutils-8.27-14.fc27.aarch64
+├─xorg-x11-xauth                                                                   xorg-x11-xauth-1:1.0.9-5.fc24.aarch64
+└─xhost                                                                            xorg-x11-server-utils-7.7-21.fc26.aarch64
 gobject-introspection-1.53.3-1.fc27.aarch64                                        
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -1504,58 +1597,14 @@ gobject-introspection-1.53.3-1.fc27.aarch64
 ├─libgmodule-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
 ├─libffi.so.6()(64bit)                                                             libffi-3.1-14.fc27.aarch64
 └─glib2(aarch-64) >= 2.53.3                                                        glib2-2.53.5-1.fc27.aarch64
-python-mako-1.0.6-3.fc26.noarch                                                    
-├─/usr/bin/python                                                                  python2-2.7.13-12.fc27.aarch64
-├─python-markupsafe                                                                python2-markupsafe-0.23-15.fc27.aarch64
-├─python-beaker                                                                    python-beaker-1.5.4-16.fc26.noarch
+pycairo-1.10.0-6.fc26.aarch64                                                      
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libcairo.so.2()(64bit)                                                           cairo-1.14.10-4.fc27.aarch64
+├─python-xpyb                                                                      python-xpyb-1.3.1-7.fc26.aarch64
 └─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
-source-highlight-3.1.8-10.fc26.aarch64                                             
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
-├─libgcc_s.so.1()(64bit)                                                           libgcc-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6()(64bit)                                                          libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(CXXABI_1.3)(64bit)                                                libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                                               libstdc++-7.1.1-7.fc27.1.aarch64
-├─libgcc_s.so.1(GCC_3.0)(64bit)                                                    libgcc-7.1.1-7.fc27.1.aarch64
-├─/sbin/ldconfig                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                                              libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4.21)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4.9)(64bit)                                             libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4.11)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
-├─libstdc++.so.6(GLIBCXX_3.4.15)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
-├─libboost_regex.so.1.63.0()(64bit)                                                boost-regex-1.63.0-9.fc27.aarch64
-└─ctags                                                                            ctags-5.8-19.fc26.aarch64
-pkgconf-1.3.8-1.fc27.aarch64                                                       
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libpkgconf.so.2()(64bit)                                                         libpkgconf-1.3.8-1.fc27.aarch64
-└─libpkgconf(aarch-64) = 1.3.8-1.fc27                                              libpkgconf-1.3.8-1.fc27.aarch64
-pkgconf-m4-1.3.8-1.fc27.noarch                                                     
-emacs-filesystem-1:25.2-2.fc27.noarch                                              
-perl-Thread-Queue-3.12-393.fc27.noarch                                             
-├─perl(strict)                                                                     perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(:MODULE_COMPAT_5.26.0)                                                      perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(warnings)                                                                   perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Carp)                                                                       perl-Carp-1.42-394.fc27.noarch
-├─perl(Scalar::Util) >= 1.10                                                       perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
-└─perl(threads::shared) >= 1.21                                                    perl-threads-shared-1.57-4.fc27.aarch64
-libgudev-230-4.fc26.aarch64                                                        
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
-├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
-├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
-├─libgio-2.0.so.0()(64bit)                                                         glib2-2.53.5-1.fc27.aarch64
-├─libudev.so.1()(64bit)                                                            systemd-libs-234-5.fc27.aarch64
-└─libudev.so.1(LIBUDEV_183)(64bit)                                                 systemd-libs-234-5.fc27.aarch64
 python2-libs-2.7.13-12.fc27.aarch64                                                
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -1594,6 +1643,115 @@ python2-libs-2.7.13-12.fc27.aarch64
 ├─libgdbm_compat.so.4()(64bit)                                                     gdbm-1.13-3.fc27.aarch64
 ├─expat >= 2.1.0                                                                   expat-2.2.3-1.fc27.aarch64
 └─glibc(aarch-64) >= 2.24.90-26                                                    glibc-2.26-1.fc27.1.aarch64
+python3-cairo-1.10.0-20.fc26.aarch64                                               
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libcairo.so.2()(64bit)                                                           cairo-1.14.10-4.fc27.aarch64
+├─libpython3.6m.so.1.0()(64bit)                                                    system-python-libs-3.6.2-6.fc27.aarch64
+└─python(abi) = 3.6                                                                python3-3.6.2-6.fc27.aarch64
+python3-gobject-base-3.24.1-1.fc27.aarch64                                         
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libgthread-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libffi.so.6()(64bit)                                                             libffi-3.1-14.fc27.aarch64
+├─libgirepository-1.0.so.1()(64bit)                                                gobject-introspection-1.53.3-1.fc27.aarch64
+├─python(abi) = 3.6                                                                python3-3.6.2-6.fc27.aarch64
+└─gobject-introspection(aarch-64) >= 1.46.0                                        gobject-introspection-1.53.3-1.fc27.aarch64
+pkgconf-1.3.8-1.fc27.aarch64                                                       
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpkgconf.so.2()(64bit)                                                         libpkgconf-1.3.8-1.fc27.aarch64
+└─libpkgconf(aarch-64) = 1.3.8-1.fc27                                              libpkgconf-1.3.8-1.fc27.aarch64
+pkgconf-m4-1.3.8-1.fc27.noarch                                                     
+libmnl-1.0.4-2.fc26.aarch64                                                        
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+python-sphinx-locale-1.5.2-2.fc26.noarch                                           
+python2-babel-2.3.4-5.fc26.noarch                                                  
+├─python-setuptools                                                                python2-setuptools-36.2.0-3.fc27.noarch
+├─pytz                                                                             pytz-2017.2-1.fc27.noarch
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-imagesize-0.7.1-5.fc26.noarch                                              
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-jinja2-2.9.6-1.fc27.noarch                                                 
+├─python2-setuptools                                                               python2-setuptools-36.2.0-3.fc27.noarch
+├─python-markupsafe                                                                python2-markupsafe-0.23-15.fc27.aarch64
+├─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+└─python2-babel >= 0.8                                                             python2-babel-2.3.4-5.fc26.noarch
+python2-mock-2.0.0-4.fc26.noarch                                                   
+├─python-pbr                                                                       python2-pbr-3.1.1-2.fc27.noarch
+├─python-funcsigs                                                                  python2-funcsigs-1.0.2-5.fc26.noarch
+├─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+└─python-six >= 1.9.0                                                              python2-six-1.10.0-9.fc27.noarch
+python2-pygments-2.2.0-7.fc27.noarch                                               
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-requests-2.18.1-2.fc27.noarch                                              
+├─ca-certificates                                                                  ca-certificates-2017.2.16-3.fc27.noarch
+├─python-chardet                                                                   python-chardet-3.0.4-1.fc27.noarch
+├─python-idna                                                                      python2-idna-2.5-1.fc27.noarch
+├─python2-urllib3                                                                  python2-urllib3-1.21.1-1.fc27.noarch
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-six-1.10.0-9.fc27.noarch                                                   
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-snowballstemmer-1.2.1-3.fc26.noarch                                        
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-sphinx-theme-alabaster-0.7.9-3.fc26.noarch                                 
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python2-sphinx_rtd_theme-0.2.4-1.fc27.noarch                                       
+├─fontawesome-fonts-web                                                            fontawesome-fonts-web-4.7.0-2.fc26.noarch
+├─font(fontawesome)                                                                fontawesome-fonts-4.7.0-2.fc26.noarch
+├─font(lato)                                                                       lato-fonts-2.015-3.fc26.noarch
+├─font(robotoslab)                                                                 google-roboto-slab-fonts-1.100263-0.5.20150923git.fc26.noarch
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+python-mako-1.0.6-3.fc26.noarch                                                    
+├─/usr/bin/python                                                                  python2-2.7.13-12.fc27.aarch64
+├─python-markupsafe                                                                python2-markupsafe-0.23-15.fc27.aarch64
+├─python-beaker                                                                    python-beaker-1.5.4-16.fc26.noarch
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+source-highlight-3.1.8-10.fc26.aarch64                                             
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
+├─libgcc_s.so.1()(64bit)                                                           libgcc-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6()(64bit)                                                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3)(64bit)                                                libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                                               libstdc++-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                                    libgcc-7.1.1-7.fc27.1.aarch64
+├─/sbin/ldconfig                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                                              libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.21)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.9)(64bit)                                             libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.11)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.15)(64bit)                                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─libboost_regex.so.1.63.0()(64bit)                                                boost-regex-1.63.0-9.fc27.aarch64
+└─ctags                                                                            ctags-5.8-19.fc26.aarch64
+emacs-filesystem-1:25.2-2.fc27.noarch                                              
+libgudev-230-4.fc26.aarch64                                                        
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libgio-2.0.so.0()(64bit)                                                         glib2-2.53.5-1.fc27.aarch64
+├─libudev.so.1()(64bit)                                                            systemd-libs-234-5.fc27.aarch64
+└─libudev.so.1(LIBUDEV_183)(64bit)                                                 systemd-libs-234-5.fc27.aarch64
 cmake-data-3.8.2-1.fc27.noarch                                                     
 ├─/usr/bin/python3                                                                 python3-3.6.2-6.fc27.aarch64
 ├─emacs-filesystem >= 25.2                                                         emacs-filesystem-1:25.2-2.fc27.noarch
@@ -2488,28 +2646,6 @@ bluez-libs-5.45-1.fc27.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
 └─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-dbus-glib-0.108-2.fc26.aarch64                                                     
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
-├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
-├─libgio-2.0.so.0()(64bit)                                                         glib2-2.53.5-1.fc27.aarch64
-├─libdbus-1.so.3()(64bit)                                                          dbus-libs-1:1.11.14-1.fc27.aarch64
-├─libexpat.so.1()(64bit)                                                           expat-2.2.3-1.fc27.aarch64
-└─libdbus-1.so.3(LIBDBUS_1_3)(64bit)                                               dbus-libs-1:1.11.14-1.fc27.aarch64
-xorg-x11-xinit-1.3.4-14.fc26.aarch64                                               
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                                                          bash-4.4.12-9.fc27.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-├─/bin/bash                                                                        bash-4.4.12-9.fc27.aarch64
-├─coreutils                                                                        coreutils-8.27-14.fc27.aarch64
-├─xorg-x11-xauth                                                                   xorg-x11-xauth-1:1.0.9-5.fc24.aarch64
-└─xhost                                                                            xorg-x11-server-utils-7.7-21.fc26.aarch64
 bind99-libs-9.9.10-1.P3.fc27.aarch64                                               
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -3498,6 +3634,48 @@ openssh-7.5p1-3.fc27.aarch64
 ├─/sbin/nologin                                                                    util-linux-2.30.1-1.fc27.aarch64
 ├─audit-libs >= 1.0.8                                                              audit-libs-2.7.7-5.fc27.aarch64
 └─libselinux >= 2.3-5                                                              libselinux-2.7-1.fc27.aarch64
+xorg-x11-server-utils-7.7-21.fc26.aarch64                                          
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
+├─libICE.so.6()(64bit)                                                             libICE-1.0.9-11.fc27.aarch64
+├─libXi.so.6()(64bit)                                                              libXi-1.7.9-4.fc27.aarch64
+├─libXrandr.so.2()(64bit)                                                          libXrandr-1.5.1-2.fc26.aarch64
+├─libXt.so.6()(64bit)                                                              libXt-1.1.5-6.fc27.aarch64
+├─libXrender.so.1()(64bit)                                                         libXrender-0.9.10-4.fc27.aarch64
+├─libXmu.so.6()(64bit)                                                             libXmu-1.1.2-7.fc27.aarch64
+├─libXinerama.so.1()(64bit)                                                        libXinerama-1.1.3-7.fc26.aarch64
+├─libXcursor.so.1()(64bit)                                                         libXcursor-1.1.14-8.fc26.aarch64
+├─libXxf86vm.so.1()(64bit)                                                         libXxf86vm-1.1.4-4.fc26.aarch64
+├─libXxf86misc.so.1()(64bit)                                                       libXxf86misc-1.0.3-12.fc26.aarch64
+├─libXmuu.so.1()(64bit)                                                            libXmu-1.1.2-7.fc27.aarch64
+└─mcpp                                                                             mcpp-2.7.2-17.fc26.aarch64
+xorg-x11-xauth-1:1.0.9-5.fc24.aarch64                                              
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
+├─libXau.so.6()(64bit)                                                             libXau-1.0.8-9.fc27.aarch64
+└─libXmuu.so.1()(64bit)                                                            libXmu-1.1.2-7.fc27.aarch64
+python-xpyb-1.3.1-7.fc26.aarch64                                                   
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libxcb.so.1()(64bit)                                                             libxcb-1.12-5.fc27.aarch64
+└─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
+libpkgconf-1.3.8-1.fc27.aarch64                                                    
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 pytz-2017.2-1.fc27.noarch                                                          
 ├─/usr/bin/env                                                                     coreutils-8.27-14.fc27.aarch64
 ├─tzdata                                                                           tzdata-2017b-2.fc27.noarch
@@ -3534,11 +3712,6 @@ python-beaker-1.5.4-16.fc26.noarch
 ├─pycryptopp                                                                       pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-11.fc26.aarch64
 └─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
 ctags-5.8-19.fc26.aarch64                                                          
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-libpkgconf-1.3.8-1.fc27.aarch64                                                    
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
@@ -3786,36 +3959,6 @@ libqmi-utils-1.18.0-0.fc27.aarch64
 ├─libmbim-glib.so.4()(64bit)                                                       libmbim-1.14.0-2.fc26.aarch64
 ├─libqmi-glib.so.5()(64bit)                                                        libqmi-1.18.0-0.fc27.aarch64
 └─libqmi(aarch-64) = 1.18.0-0.fc27                                                 libqmi-1.18.0-0.fc27.aarch64
-xorg-x11-server-utils-7.7-21.fc26.aarch64                                          
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
-├─libICE.so.6()(64bit)                                                             libICE-1.0.9-11.fc27.aarch64
-├─libXi.so.6()(64bit)                                                              libXi-1.7.9-4.fc27.aarch64
-├─libXrandr.so.2()(64bit)                                                          libXrandr-1.5.1-2.fc26.aarch64
-├─libXt.so.6()(64bit)                                                              libXt-1.1.5-6.fc27.aarch64
-├─libXrender.so.1()(64bit)                                                         libXrender-0.9.10-4.fc27.aarch64
-├─libXmu.so.6()(64bit)                                                             libXmu-1.1.2-7.fc27.aarch64
-├─libXinerama.so.1()(64bit)                                                        libXinerama-1.1.3-7.fc26.aarch64
-├─libXcursor.so.1()(64bit)                                                         libXcursor-1.1.14-8.fc26.aarch64
-├─libXxf86vm.so.1()(64bit)                                                         libXxf86vm-1.1.4-4.fc26.aarch64
-├─libXxf86misc.so.1()(64bit)                                                       libXxf86misc-1.0.3-12.fc26.aarch64
-├─libXmuu.so.1()(64bit)                                                            libXmu-1.1.2-7.fc27.aarch64
-└─mcpp                                                                             mcpp-2.7.2-17.fc26.aarch64
-xorg-x11-xauth-1:1.0.9-5.fc24.aarch64                                              
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
-├─libXau.so.6()(64bit)                                                             libXau-1.0.8-9.fc27.aarch64
-└─libXmuu.so.1()(64bit)                                                            libXmu-1.1.2-7.fc27.aarch64
 bind99-license-9.9.10-1.P3.fc27.noarch                                             
 initscripts-9.72-1.fc27.aarch64                                                    
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
@@ -4161,6 +4304,25 @@ fipscheck-1.5.0-1.fc26.aarch64
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                                           openssl-libs-1:1.1.0f-9.fc27.aarch64
 ├─libfipscheck.so.1()(64bit)                                                       fipscheck-lib-1.5.0-1.fc26.aarch64
 └─fipscheck-lib(aarch-64) = 1.5.0-1.fc26                                           fipscheck-lib-1.5.0-1.fc26.aarch64
+libXxf86misc-1.0.3-12.fc26.aarch64                                                 
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+└─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
+libXxf86vm-1.1.4-4.fc26.aarch64                                                    
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
+└─libX11 >= 1.5.99.902                                                             libX11-1.6.5-4.fc27.aarch64
+mcpp-2.7.2-17.fc26.aarch64                                                         
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+└─libmcpp.so.0()(64bit)                                                            libmcpp-2.7.2-17.fc26.aarch64
 python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch                          
 ├─python-backports                                                                 python-backports-1.0-9.fc26.aarch64
 └─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
@@ -4376,25 +4538,6 @@ policycoreutils-python3-2.6-5.fc27.aarch64
 ├─policycoreutils = 2.6-5.fc27                                                     policycoreutils-2.6-5.fc27.aarch64
 ├─audit-libs-python3 >= 2.1.3-4                                                    audit-libs-python3-2.7.7-5.fc27.aarch64
 └─libsemanage-python3 >= 2.6-0                                                     libsemanage-python3-2.7-1.fc27.aarch64
-libXxf86misc-1.0.3-12.fc26.aarch64                                                 
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-└─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
-libXxf86vm-1.1.4-4.fc26.aarch64                                                    
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
-└─libX11 >= 1.5.99.902                                                             libX11-1.6.5-4.fc27.aarch64
-mcpp-2.7.2-17.fc26.aarch64                                                         
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-└─libmcpp.so.0()(64bit)                                                            libmcpp-2.7.2-17.fc26.aarch64
 hostname-3.18-2.fc26.aarch64                                                       
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -4440,6 +4583,11 @@ libglvnd-opengl-1:0.2.999-20.20170620gitd850cdd.fc27.aarch64
 ├─libdl.so.2()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
 ├─libGLdispatch.so.0()(64bit)                                                      libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.aarch64
 └─libglvnd(aarch-64) = 1:0.2.999-20.20170620gitd850cdd.fc27                        libglvnd-1:0.2.999-20.20170620gitd850cdd.fc27.aarch64
+libmcpp-2.7.2-17.fc26.aarch64                                                      
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 python-backports-1.0-9.fc26.aarch64                                                
 └─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
 python-enum34-1.1.6-1.fc27.noarch                                                  
@@ -4584,11 +4732,6 @@ setools-python3-4.1.0-3.fc27.aarch64
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                                               glibc-2.26-1.fc27.1.aarch64
 ├─libpython3.6m.so.1.0()(64bit)                                                    system-python-libs-3.6.2-6.fc27.aarch64
 └─python(abi) = 3.6                                                                python3-3.6.2-6.fc27.aarch64
-libmcpp-2.7.2-17.fc26.aarch64                                                      
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 python2-pycparser-2.14-10.fc26.noarch                                              
 ├─python(abi) = 2.7                                                                python2-2.7.13-12.fc27.aarch64
 └─python-ply >= 3.6                                                                python2-ply-3.9-3.fc27.noarch
@@ -4702,11 +4845,6 @@ ipset-libs-6.29-3.fc27.aarch64
 ├─libdl.so.2()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
 ├─libmnl.so.0()(64bit)                                                             libmnl-1.0.4-2.fc26.aarch64
 └─libmnl.so.0(LIBMNL_1.0)(64bit)                                                   libmnl-1.0.4-2.fc26.aarch64
-libmnl-1.0.4-2.fc26.aarch64                                                        
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 libpsl-0.17.0-4.fc27.src                                                           
 ├─gettext-devel                                                                    gettext-devel-0.19.8.1-9.fc27.aarch64
 ├─glib2-devel                                                                      glib2-devel-2.53.5-1.fc27.aarch64
@@ -4739,11 +4877,6 @@ net-snmp-1:5.7.3-20.fc27.src
 ├─rpm-devel                                                                        rpm-devel-4.13.0.1-41.fc27.aarch64
 ├─perl(TAP::Harness)                                                               perl-Test-Harness-1:3.39-3.fc27.noarch
 └─lm_sensors-devel >= 3                                                            lm_sensors-devel-3.4.0-6.fc26.aarch64
-chrpath-0.16-4.fc26.aarch64                                                        
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 lm_sensors-devel-3.4.0-6.fc26.aarch64                                              
 ├─libsensors.so.4()(64bit)                                                         lm_sensors-libs-3.4.0-6.fc26.aarch64
 └─lm_sensors-libs = 3.4.0-6.fc26                                                   lm_sensors-libs-3.4.0-6.fc26.aarch64
@@ -5346,6 +5479,10 @@ perl-Unicode-Normalize-1.25-395.fc27.src
 ├─perl(DynaLoader)                                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(SelectSaver)                                                                perl-interpreter-4:5.26.0-398.fc27.aarch64
 └─perl-libs                                                                        perl-libs-4:5.26.0-398.fc27.aarch64
+publicsuffix-list-20170424-2.fc27.src                                              
+└─psl-make-dafsa                                                                   psl-make-dafsa-0.17.0-4.fc27.aarch64
+psl-make-dafsa-0.17.0-4.fc27.aarch64                                               
+└─/usr/bin/python3                                                                 python3-3.6.2-6.fc27.aarch64
 findutils-1:4.6.0-14.fc27.aarch64                                                  
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
@@ -7940,6 +8077,77 @@ libpng-2:1.6.31-1.fc27.aarch64
 python3-setuptools-36.2.0-3.fc27.noarch                                            
 ├─/usr/bin/python3                                                                 python3-3.6.2-6.fc27.aarch64
 └─python(abi) = 3.6                                                                python3-3.6.2-6.fc27.aarch64
+cairo-gobject-devel-1.14.10-4.fc27.aarch64                                         
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libcairo-gobject.so.2()(64bit)                                                   cairo-gobject-1.14.10-4.fc27.aarch64
+├─pkgconfig(gobject-2.0)                                                           glib2-devel-2.53.5-1.fc27.aarch64
+├─pkgconfig(cairo)                                                                 cairo-devel-1.14.10-4.fc27.aarch64
+├─pkgconfig(glib-2.0) >= 2.14                                                      glib2-devel-2.53.5-1.fc27.aarch64
+├─cairo-devel(aarch-64) = 1.14.10-4.fc27                                           cairo-devel-1.14.10-4.fc27.aarch64
+└─cairo-gobject(aarch-64) = 1.14.10-4.fc27                                         cairo-gobject-1.14.10-4.fc27.aarch64
+cairo-devel-1.14.10-4.fc27.aarch64                                                 
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libcairo.so.2()(64bit)                                                           cairo-1.14.10-4.fc27.aarch64
+├─pkgconfig(x11)                                                                   libX11-devel-1.6.5-4.fc27.aarch64
+├─pkgconfig(gobject-2.0)                                                           glib2-devel-2.53.5-1.fc27.aarch64
+├─pkgconfig(xext)                                                                  libXext-devel-1.3.3-7.fc27.aarch64
+├─pkgconfig(libpng)                                                                libpng-devel-2:1.6.31-1.fc27.aarch64
+├─libcairo-script-interpreter.so.2()(64bit)                                        cairo-1.14.10-4.fc27.aarch64
+├─pkgconfig(xcb-shm)                                                               libxcb-devel-1.12-5.fc27.aarch64
+├─cairo(aarch-64) = 1.14.10-4.fc27                                                 cairo-1.14.10-4.fc27.aarch64
+├─pkgconfig(glib-2.0) >= 2.14                                                      glib2-devel-2.53.5-1.fc27.aarch64
+├─pkgconfig(fontconfig) >= 2.2.95                                                  fontconfig-devel-2.12.4-4.fc27.aarch64
+├─pkgconfig(freetype2) >= 9.7.3                                                    freetype-devel-2.8-5.fc27.aarch64
+├─pkgconfig(pixman-1) >= 0.30.0                                                    pixman-devel-0.34.0-3.fc26.aarch64
+├─pkgconfig(xcb) >= 1.6                                                            libxcb-devel-1.12-5.fc27.aarch64
+├─pkgconfig(xcb-render) >= 1.6                                                     libxcb-devel-1.12-5.fc27.aarch64
+└─pkgconfig(xrender) >= 0.6                                                        libXrender-devel-0.9.10-4.fc27.aarch64
+cairo-gobject-1.14.10-4.fc27.aarch64                                               
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                                               zlib-1.2.11-4.fc27.aarch64
+├─librt.so.1()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─libgobject-2.0.so.0()(64bit)                                                     glib2-2.53.5-1.fc27.aarch64
+├─libfreetype.so.6()(64bit)                                                        freetype-2.8-5.fc27.aarch64
+├─libpng16.so.16()(64bit)                                                          libpng-2:1.6.31-1.fc27.aarch64
+├─libcairo.so.2()(64bit)                                                           cairo-1.14.10-4.fc27.aarch64
+├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
+├─libfontconfig.so.1()(64bit)                                                      fontconfig-2.12.4-4.fc27.aarch64
+├─libXrender.so.1()(64bit)                                                         libXrender-0.9.10-4.fc27.aarch64
+├─libxcb.so.1()(64bit)                                                             libxcb-1.12-5.fc27.aarch64
+├─libpixman-1.so.0()(64bit)                                                        pixman-0.34.0-3.fc26.aarch64
+├─libxcb-render.so.0()(64bit)                                                      libxcb-1.12-5.fc27.aarch64
+├─libxcb-shm.so.0()(64bit)                                                         libxcb-1.12-5.fc27.aarch64
+└─cairo(aarch-64) = 1.14.10-4.fc27                                                 cairo-1.14.10-4.fc27.aarch64
+cairo-1.14.10-4.fc27.aarch64                                                       
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                                               glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                                               zlib-1.2.11-4.fc27.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+├─librt.so.1()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
+├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
+├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
+├─libfreetype.so.6()(64bit)                                                        freetype-2.8-5.fc27.aarch64
+├─librt.so.1(GLIBC_2.17)(64bit)                                                    glibc-2.26-1.fc27.1.aarch64
+├─libpng16.so.16()(64bit)                                                          libpng-2:1.6.31-1.fc27.aarch64
+├─libpng16.so.16(PNG16_0)(64bit)                                                   libpng-2:1.6.31-1.fc27.aarch64
+├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
+├─libfontconfig.so.1()(64bit)                                                      fontconfig-2.12.4-4.fc27.aarch64
+├─libXrender.so.1()(64bit)                                                         libXrender-0.9.10-4.fc27.aarch64
+├─libxcb.so.1()(64bit)                                                             libxcb-1.12-5.fc27.aarch64
+├─libpixman-1.so.0()(64bit)                                                        pixman-0.34.0-3.fc26.aarch64
+├─libxcb-render.so.0()(64bit)                                                      libxcb-1.12-5.fc27.aarch64
+└─libxcb-shm.so.0()(64bit)                                                         libxcb-1.12-5.fc27.aarch64
 expat-devel-2.2.3-1.fc27.aarch64                                                   
 ├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─libexpat.so.1()(64bit)                                                           expat-2.2.3-1.fc27.aarch64
@@ -8453,31 +8661,6 @@ libattr-2.4.47-21.fc27.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 └─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-cairo-1.14.10-4.fc27.aarch64                                                       
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                                               glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                                               zlib-1.2.11-4.fc27.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-├─librt.so.1()(64bit)                                                              glibc-2.26-1.fc27.1.aarch64
-├─libglib-2.0.so.0()(64bit)                                                        glib2-2.53.5-1.fc27.aarch64
-├─libX11.so.6()(64bit)                                                             libX11-1.6.5-4.fc27.aarch64
-├─libfreetype.so.6()(64bit)                                                        freetype-2.8-5.fc27.aarch64
-├─librt.so.1(GLIBC_2.17)(64bit)                                                    glibc-2.26-1.fc27.1.aarch64
-├─libpng16.so.16()(64bit)                                                          libpng-2:1.6.31-1.fc27.aarch64
-├─libpng16.so.16(PNG16_0)(64bit)                                                   libpng-2:1.6.31-1.fc27.aarch64
-├─libXext.so.6()(64bit)                                                            libXext-1.3.3-7.fc27.aarch64
-├─libfontconfig.so.1()(64bit)                                                      fontconfig-2.12.4-4.fc27.aarch64
-├─libXrender.so.1()(64bit)                                                         libXrender-0.9.10-4.fc27.aarch64
-├─libxcb.so.1()(64bit)                                                             libxcb-1.12-5.fc27.aarch64
-├─libpixman-1.so.0()(64bit)                                                        pixman-0.34.0-3.fc26.aarch64
-├─libxcb-render.so.0()(64bit)                                                      libxcb-1.12-5.fc27.aarch64
-└─libxcb-shm.so.0()(64bit)                                                         libxcb-1.12-5.fc27.aarch64
 fontconfig-2.12.4-4.fc27.aarch64                                                   
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
@@ -8627,6 +8810,16 @@ libgpg-error-1.27-3.fc27.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 └─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+libffi-3.1-14.fc27.aarch64                                                         
+├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+└─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+libffi-devel-3.1-14.fc27.aarch64                                                   
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libffi.so.6()(64bit)                                                             libffi-3.1-14.fc27.aarch64
+└─libffi = 3.1-14.fc27                                                             libffi-3.1-14.fc27.aarch64
 libgfortran-7.1.1-7.fc27.1.aarch64                                                 
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
@@ -8639,16 +8832,6 @@ libgfortran-7.1.1-7.fc27.1.aarch64
 ├─libgcc_s.so.1(GCC_3.3)(64bit)                                                    libgcc-7.1.1-7.fc27.1.aarch64
 ├─libgcc_s.so.1(GCC_4.2.0)(64bit)                                                  libgcc-7.1.1-7.fc27.1.aarch64
 └─libgcc_s.so.1(GCC_4.5.0)(64bit)                                                  libgcc-7.1.1-7.fc27.1.aarch64
-libffi-3.1-14.fc27.aarch64                                                         
-├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                                         glibc-2.26-1.fc27.1.aarch64
-└─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
-libffi-devel-3.1-14.fc27.aarch64                                                   
-├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libffi.so.6()(64bit)                                                             libffi-3.1-14.fc27.aarch64
-└─libffi = 3.1-14.fc27                                                             libffi-3.1-14.fc27.aarch64
 python2-markupsafe-0.23-15.fc27.aarch64                                            
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
@@ -9805,6 +9988,11 @@ pixman-0.34.0-3.fc26.aarch64
 ├─libm.so.6()(64bit)                                                               glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                                                         glibc-2.26-1.fc27.1.aarch64
 └─libm.so.6(GLIBC_2.17)(64bit)                                                     glibc-2.26-1.fc27.1.aarch64
+pixman-devel-0.34.0-3.fc26.aarch64                                                 
+├─/usr/bin/pkg-config                                                              pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                                        pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libpixman-1.so.0()(64bit)                                                        pixman-0.34.0-3.fc26.aarch64
+└─pixman = 0.34.0-3.fc26                                                           pixman-0.34.0-3.fc26.aarch64
 unzip-6.0-36.fc27.aarch64                                                          
 ├─rtld(GNU_HASH)                                                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                                   glibc-2.26-1.fc27.1.aarch64

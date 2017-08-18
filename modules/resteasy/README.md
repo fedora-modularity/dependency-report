@@ -49,6 +49,7 @@ These are RPM dependencies of the [resteasy top-level package set](resteasy.csv)
 | `lua` | X | X | X | X | X | X | X |
 | `lua-posix` | X | X | X | X | X | X | X |
 | `objectweb-asm3` | X | X | X | X | X | X | X |
+| `publicsuffix-list` | X | X | X | X | X | X | X |
 | `relaxngDatatype` | X | X | X | X | X | X | X |
 | `resteasy-atom-provider` | X | X | X | X | X | X | X |
 | `resteasy-client` | X | X | X | X | X | X | X |

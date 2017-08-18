@@ -12,6 +12,10 @@ data:
         requires:
             platform: master
             platform-placeholder: master
+            java: master
+            tomcat: master
+            resteasy: master
+            storage-devices: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/pki
@@ -21,118 +25,16 @@ data:
             apache-commons-cli:
                 rationale: Generated.
                 ref: master.
-            apache-commons-codec:
-                rationale: Generated.
-                ref: master.
-            apache-commons-collections:
-                rationale: Generated.
-                ref: master.
-            apache-commons-daemon:
-                rationale: Generated.
-                ref: master.
-            apache-commons-dbcp:
-                rationale: Generated.
-                ref: master.
-            apache-commons-io:
-                rationale: Generated.
-                ref: master.
-            apache-commons-lang:
-                rationale: Generated.
-                ref: master.
-            apache-commons-logging:
-                rationale: Generated.
-                ref: master.
-            apache-commons-pool:
-                rationale: Generated.
-                ref: master.
-            bea-stax:
-                rationale: Generated.
-                ref: master.
-            checkpolicy:
-                rationale: Generated.
-                ref: master.
-            copy-jdk-configs:
-                rationale: Generated.
-                ref: master.
-            ecj:
-                rationale: Generated.
-                ref: master.
-            freetype:
-                rationale: Generated.
-                ref: master.
-            glassfish-fastinfoset:
-                rationale: Generated.
-                ref: master.
-            glassfish-jaxb:
-                rationale: Generated.
-                ref: master.
-            glassfish-jaxb-api:
-                rationale: Generated.
-                ref: master.
-            httpcomponents-client:
-                rationale: Generated.
-                ref: master.
-            httpcomponents-core:
-                rationale: Generated.
-                ref: master.
-            istack-commons:
-                rationale: Generated.
-                ref: master.
-            jackson:
-                rationale: Generated.
-                ref: master.
             jakarta-commons-httpclient:
-                rationale: Generated.
-                ref: master.
-            java-1.8.0-openjdk:
-                rationale: Generated.
-                ref: master.
-            javapackages-tools:
                 rationale: Generated.
                 ref: master.
             javassist:
                 rationale: Generated.
                 ref: master.
-            jboss-annotations-1.2-api:
-                rationale: Generated.
-                ref: master.
-            jboss-jaxrs-2.0-api:
-                rationale: Generated.
-                ref: master.
-            jboss-logging:
-                rationale: Generated.
-                ref: master.
-            jcip-annotations:
-                rationale: Generated.
-                ref: master.
-            joda-time:
-                rationale: Generated.
-                ref: master.
-            jsr-311:
-                rationale: Generated.
-                ref: master.
-            jss:
-                rationale: Generated.
-                ref: master.
             ldapjdk:
                 rationale: Generated.
                 ref: master.
-            libcgroup:
-                rationale: Generated.
-                ref: master.
-            libjpeg-turbo:
-                rationale: Generated.
-                ref: master.
-            libpng:
-                rationale: Generated.
-                ref: master.
             libxslt:
-                rationale: Generated.
-                ref: master.
-            lksctp-tools:
-                rationale: Generated.
-                ref: master.
-            lua-posix:
                 rationale: Generated.
                 ref: master.
             net-tools:
@@ -141,55 +43,16 @@ data:
             nuxwdog:
                 rationale: Generated.
                 ref: master.
-            objectweb-asm3:
-                rationale: Generated.
-                ref: master.
             pki-core:
-                rationale: Generated.
-                ref: master.
-            policycoreutils:
-                rationale: Generated.
-                ref: master.
-            pyOpenSSL:
-                rationale: Generated.
-                ref: master.
-            python-asn1crypto:
-                rationale: Generated.
-                ref: master.
-            python-backports:
-                rationale: Generated.
-                ref: master.
-            python-backports-ssl_match_hostname:
                 rationale: Generated.
                 ref: master.
             python-beautifulsoup4:
                 rationale: Generated.
                 ref: master.
-            python-cffi:
-                rationale: Generated.
-                ref: master.
-            python-chardet:
-                rationale: Generated.
-                ref: master.
-            python-cryptography:
-                rationale: Generated.
-                ref: master.
             python-cssselect:
                 rationale: Generated.
                 ref: master.
-            python-enum34:
-                rationale: Generated.
-                ref: master.
             python-html5lib:
-                rationale: Generated.
-                ref: master.
-            python-idna:
-                rationale: Generated.
-                ref: master.
-            python-ipaddress:
-                rationale: Generated.
-                ref: master.
-            python-IPy:
                 rationale: Generated.
                 ref: master.
             python-ldap:
@@ -201,55 +64,13 @@ data:
             python-nss:
                 rationale: Generated.
                 ref: master.
-            python-ply:
-                rationale: Generated.
-                ref: master.
             python-pyasn1:
-                rationale: Generated.
-                ref: master.
-            python-pycparser:
-                rationale: Generated.
-                ref: master.
-            python-pysocks:
-                rationale: Generated.
-                ref: master.
-            python-requests:
-                rationale: Generated.
-                ref: master.
-            python-urllib3:
-                rationale: Generated.
-                ref: master.
-            relaxngDatatype:
-                rationale: Generated.
-                ref: master.
-            resteasy:
-                rationale: Generated.
-                ref: master.
-            selinux-policy:
-                rationale: Generated.
-                ref: master.
-            setools:
                 rationale: Generated.
                 ref: master.
             slf4j:
                 rationale: Generated.
                 ref: master.
-            stax2-api:
-                rationale: Generated.
-                ref: master.
-            stax-ex:
-                rationale: Generated.
-                ref: master.
-            tomcat:
-                rationale: Generated.
-                ref: master.
-            tomcatjss:
-                rationale: Generated.
-                ref: master.
             velocity:
-                rationale: Generated.
-                ref: master.
-            which:
                 rationale: Generated.
                 ref: master.
             xalan-j2:
@@ -262,11 +83,5 @@ data:
                 rationale: Generated.
                 ref: master.
             xml-commons-resolver:
-                rationale: Generated.
-                ref: master.
-            xmlstreambuffer:
-                rationale: Generated.
-                ref: master.
-            xsom:
                 rationale: Generated.
                 ref: master.

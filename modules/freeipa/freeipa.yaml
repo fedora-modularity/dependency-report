@@ -24,6 +24,7 @@ data:
             tomcat: master
             resteasy: master
             httpd: master
+            storage-devices: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/freeipa
@@ -42,9 +43,6 @@ data:
             autogen:
                 rationale: Generated.
                 ref: master.
-            babel:
-                rationale: Generated.
-                ref: master.
             bind-dyndb-ldap:
                 rationale: Generated.
                 ref: master.
@@ -55,6 +53,12 @@ data:
                 rationale: Generated.
                 ref: master.
             custodia:
+                rationale: Generated.
+                ref: master.
+            dbus-glib:
+                rationale: Generated.
+                ref: master.
+            dbus-python:
                 rationale: Generated.
                 ref: master.
             fontawesome-fonts:
@@ -69,7 +73,10 @@ data:
             freeipa-desktop-profile:
                 rationale: Generated.
                 ref: master.
-            hesiod:
+            gnupg:
+                rationale: Generated.
+                ref: master.
+            initscripts:
                 rationale: Generated.
                 ref: master.
             ldns:
@@ -79,6 +86,9 @@ data:
                 rationale: Generated.
                 ref: master.
             libtirpc:
+                rationale: Generated.
+                ref: master.
+            libusb:
                 rationale: Generated.
                 ref: master.
             m2crypto:
@@ -126,16 +136,10 @@ data:
             python-gssapi:
                 rationale: Generated.
                 ref: master.
-            python-jinja2:
-                rationale: Generated.
-                ref: master.
             python-jwcrypto:
                 rationale: Generated.
                 ref: master.
             python-kdcproxy:
-                rationale: Generated.
-                ref: master.
-            python-markupsafe:
                 rationale: Generated.
                 ref: master.
             python-netaddr:
@@ -151,9 +155,6 @@ data:
                 rationale: Generated.
                 ref: master.
             python-yubico:
-                rationale: Generated.
-                ref: master.
-            pytz:
                 rationale: Generated.
                 ref: master.
             pyusb:

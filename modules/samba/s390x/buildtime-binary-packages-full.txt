@@ -14,6 +14,8 @@ autoconf-2.69-24.fc26.noarch
 automake-1.15-9.fc26.noarch
 avahi-0.7-1.fc27.s390x
 avahi-devel-0.7-1.fc27.s390x
+bluez-libs-5.45-1.fc27.s390x
+bluez-libs-devel-5.45-1.fc27.s390x
 boost-iostreams-1.63.0-9.fc27.s390x
 boost-random-1.63.0-9.fc27.s390x
 boost-system-1.63.0-9.fc27.s390x
@@ -27,11 +29,16 @@ colord-libs-1.3.5-1.fc26.s390x
 compat-openssl10-1:1.0.2j-6.fc26.s390x
 cryptopp-5.6.3-8.fc27.s390x
 cups-devel-1:2.2.4-1.fc27.s390x
+curl-minimal-7.55.0-1.fc27.s390x
 cyrus-sasl-2.1.26-34.fc27.s390x
 cyrus-sasl-devel-2.1.26-34.fc27.s390x
 dbus-devel-1:1.11.14-1.fc27.s390x
+dbus-glib-0.108-2.fc26.s390x
 dbus-glib-devel-0.108-2.fc26.s390x
 dbus-python-1.2.4-6.fc26.s390x
+device-mapper-event-1.02.142-4.fc27.s390x
+device-mapper-event-libs-1.02.142-4.fc27.s390x
+device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.s390x
 docbook-dtds-1.0-66.fc26.noarch
 docbook-style-xsl-1.79.2-4.fc26.noarch
 doxygen-1:1.8.13-10.fc27.s390x
@@ -54,6 +61,7 @@ ghostscript-core-9.20-10.fc27.s390x
 ghostscript-fonts-5.50-36.fc26.noarch
 ghostscript-x11-9.20-10.fc27.s390x
 giflib-4.1.6-17.fc27.s390x
+glib2-devel-2.53.5-1.fc27.s390x
 glib-networking-2.50.0-2.fc26.s390x
 gl-manpages-1.1-13.20161227.fc26.noarch
 glusterfs-3.11.1-2.fc27.s390x
@@ -95,6 +103,7 @@ krb5-devel-1.15.1-21.fc27.s390x
 krb5-server-1.15.1-21.fc27.s390x
 lcms2-2.8-5.fc27.s390x
 libacl-devel-2.2.52-18.fc27.s390x
+libaio-devel-0.3.110-7.fc26.s390x
 libarchive-devel-3.3.1-3.fc27.s390x
 libattr-devel-2.4.47-21.fc27.s390x
 libcap-devel-2.25-7.fc27.s390x
@@ -138,6 +147,8 @@ libpng-devel-2:1.6.31-1.fc27.s390x
 libproxy-0.4.15-2.fc27.s390x
 librados2-1:10.2.7-2.fc27.s390x
 librados-devel-1:10.2.7-2.fc27.s390x
+libselinux-devel-2.7-1.fc27.s390x
+libsepol-devel-2.7-1.fc27.s390x
 libSM-1.2.2-7.fc27.s390x
 libSM-devel-1.2.2-7.fc27.s390x
 libsoup-2.58.1-2.fc27.s390x
@@ -204,6 +215,8 @@ libXv-devel-1.0.11-2.fc26.s390x
 libXxf86vm-1.1.4-4.fc26.s390x
 libXxf86vm-devel-1.1.4-4.fc26.s390x
 lttng-ust-2.9.1-2.fc27.s390x
+lvm2-2.02.173-4.fc27.s390x
+lvm2-libs-2.02.173-4.fc27.s390x
 mesa-libEGL-17.1.5-1.fc27.s390x
 mesa-libgbm-17.1.5-1.fc27.s390x
 mesa-libGL-17.1.5-1.fc27.s390x
@@ -229,10 +242,15 @@ ncurses-devel-6.0-13.20170722.fc27.s390x
 nettle-devel-3.3-5.fc27.s390x
 openjpeg2-2.2.0-1.fc27.s390x
 openldap-devel-2.4.45-3.fc27.s390x
+openssl-devel-1:1.1.0f-9.fc27.s390x
 p11-kit-devel-0.23.7-3.fc27.s390x
 pam-devel-1.3.0-5.fc27.s390x
 pango-1.40.7-1.fc27.s390x
 pango-devel-1.40.7-1.fc27.s390x
+pcre-cpp-8.41-1.fc27.2.s390x
+pcre-devel-8.41-1.fc27.2.s390x
+pcre-utf16-8.41-1.fc27.2.s390x
+pcre-utf32-8.41-1.fc27.2.s390x
 perl-Fedora-VSP-0.001-7.fc27.noarch
 perl-generators-1.10-5.fc27.noarch
 perl-Parse-Yapp-1.20-1.fc27.noarch
@@ -278,6 +296,7 @@ python3-crypto-2.6.1-15.fc27.s390x
 python3-cups-1.9.72-12.fc27.s390x
 python3-devel-3.6.2-6.fc27.s390x
 python3-gobject-3.24.1-1.fc27.s390x
+python3-gobject-base-3.24.1-1.fc27.s390x
 python3-ldb-1.2.0-2.fc27.s390x
 python3-ldb-devel-1.2.0-2.fc27.s390x
 python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
@@ -290,6 +309,7 @@ python-beaker-1.5.4-16.fc26.noarch
 python-enum34-1.1.6-1.fc27.noarch
 python-extras-0.0.3-15.fc26.noarch
 python-gobject-3.24.1-1.fc27.s390x
+python-gobject-base-3.24.1-1.fc27.s390x
 python-ipaddress-1.0.18-1.fc27.noarch
 python-ldb-devel-common-1.2.0-2.fc27.s390x
 python-libxml2-2.9.4-4.fc27.s390x
@@ -314,7 +334,9 @@ rpcbind-0.2.4-7.rc2.fc27.s390x
 shared-mime-info-1.8-3.fc27.s390x
 sqlite-3.20.0-1.fc27.s390x
 sqlite-devel-3.20.0-1.fc27.s390x
+systemd-devel-234-5.fc27.s390x
 tcl-1:8.6.6-4.fc27.s390x
+tcl-devel-1:8.6.6-4.fc27.s390x
 teckit-2.5.1-18.fc27.s390x
 texlive-ae-6:svn15878.1.4-35.fc27.1.noarch
 texlive-algorithms-6:svn38085.0.1-35.fc27.1.noarch
@@ -565,9 +587,14 @@ texlive-xunicode-6:svn30466.0.981-35.fc27.1.noarch
 texlive-zapfchan-6:svn31835.0-35.fc27.1.noarch
 texlive-zapfding-6:svn31835.0-35.fc27.1.noarch
 tix-1:8.4.3-18.fc26.s390x
+tix-devel-1:8.4.3-18.fc26.s390x
 tk-1:8.6.6-1.fc26.s390x
+tk-devel-1:8.6.6-1.fc26.s390x
 unbound-libs-1.6.4-1.fc27.s390x
 urw-fonts-3:2.4-23.fc26.noarch
+userspace-rcu-0.10.0-1.fc27.s390x
+valgrind-1:3.13.0-4.fc27.s390x
+valgrind-devel-1:3.13.0-4.fc27.s390x
 wayland-devel-1.13.0-1.fc26.s390x
 wayland-protocols-devel-1.9-1.fc27.noarch
 words-3.0-26.fc26.noarch

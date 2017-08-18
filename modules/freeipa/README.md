@@ -19,6 +19,7 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [tomcat](../tomcat)
 * [resteasy](../resteasy)
 * [httpd](../httpd)
+* [storage-devices](../storage-devices)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -40,6 +41,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `certmonger` | X | X | X | X | X | X | X |
 | `compat-openssl10` | X | X | X | X | X | X | X |
 | `custodia` | X | X | X | X | X | X | X |
+| `dbus-glib` | X | X | X | X | X | X | X |
 | `dbus-python` | X | X | X | X | X | X | X |
 | `fontawesome-fonts` | X | X | X | X | X | X | X |
 | `fontpackages-filesystem` | X | X | X | X | X | X | X |
@@ -52,12 +54,14 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `freeipa-server-common` | X | X | X | X | X | X | X |
 | `freeipa-server-dns` | X | X | X | X | X | X | X |
 | `freeipa-server-trust-ad` | X | X | X | X | X | X | X |
-| `hesiod` | X | X | X | X | X | X | X |
+| `gnupg` | X | X | X | X | X | X | X |
+| `initscripts` | X | X | X | X | X | - | X |
 | `keyutils` | X | X | X | X | X | X | X |
 | `ldns` | X | X | X | X | X | X | X |
 | `libitm` | X | X | X | X | X | X | X |
 | `libnfsidmap` | X | X | X | X | X | X | X |
 | `libtirpc` | X | X | X | X | X | X | X |
+| `libusb` | X | X | X | X | X | - | X |
 | `m2crypto` | X | X | X | X | X | X | X |
 | `mod_auth_gssapi` | X | X | X | X | X | X | X |
 | `mod_lookup_identity` | X | X | X | X | X | X | X |
@@ -72,7 +76,6 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `opendnssec` | X | X | X | X | X | X | X |
 | `open-sans-fonts` | X | X | X | X | X | X | X |
 | `python2-augeas` | X | X | X | X | X | X | X |
-| `python2-babel` | X | X | X | X | X | X | X |
 | `python2-configparser` | X | X | X | X | X | X | X |
 | `python2-custodia` | X | X | X | X | X | X | X |
 | `python2-dateutil` | X | X | X | X | X | X | X |
@@ -80,9 +83,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python2-ipaclient` | X | X | X | X | X | X | X |
 | `python2-ipalib` | X | X | X | X | X | X | X |
 | `python2-ipaserver` | X | X | X | X | X | X | X |
-| `python2-jinja2` | X | X | X | X | X | X | X |
 | `python2-kdcproxy` | X | X | X | X | X | X | X |
-| `python2-markupsafe` | X | X | X | X | X | X | X |
 | `python2-netifaces` | X | X | X | X | X | X | X |
 | `python2-systemd` | X | X | X | X | X | X | X |
 | `python2-typing` | X | X | X | X | X | X | X |
@@ -104,7 +105,6 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python-jwcrypto` | X | X | X | X | X | X | X |
 | `python-netaddr` | X | X | X | X | X | X | X |
 | `python-qrcode-core` | X | X | X | X | X | X | X |
-| `pytz` | X | X | X | X | X | X | X |
 | `pyusb` | X | X | X | X | X | X | X |
 | `quota` | X | X | X | X | X | X | X |
 | `quota-nls` | X | X | X | X | X | X | X |

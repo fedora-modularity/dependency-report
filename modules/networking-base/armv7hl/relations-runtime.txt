@@ -2,9 +2,21 @@ libndp-1.6-2.fc26.armv7hl
 libproxy-0.4.15-2.fc27.armv7hl                      
 └─libmodman.so.1                                    libmodman-2.0.1-14.fc27.armv7hl
 libteam-1.27-1.fc27.armv7hl                         
+├─libnl-3.so.200                                    libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                           libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                               libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200(libnl_3)                      libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3)                     libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-nf-3.so.200                                 libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3_2_27)                      libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-cli-3.so.200                                libnl3-cli-3.3.0-1.fc27.armv7hl
+└─libnl-cli-3.so.200(libnl_3)                       libnl3-cli-3.3.0-1.fc27.armv7hl
 NetworkManager-1:1.8.0-6.fc27.armv7hl               
 ├─libcurl.so.4                                      libcurl-minimal-7.55.0-1.fc27.armv7hl
 ├─libpolkit-gobject-1.so.0                          polkit-libs-0.113-13.fc27.armv7hl
+├─libnl-3.so.200                                    libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                           libnl3-3.3.0-1.fc27.armv7hl
 ├─libnm.so.0                                        NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
 ├─libjansson.so.4                                   jansson-2.10-2.fc27.armv7hl
 ├─libnm.so.0(libnm_1_0_0)                           NetworkManager-libnm-1:1.8.0-6.fc27.armv7hl
@@ -55,9 +67,14 @@ realmd-0.16.3-5.fc27.armv7hl
 ├─libpolkit-gobject-1.so.0                          polkit-libs-0.113-13.fc27.armv7hl
 └─authconfig                                        authconfig-7.0.1-1.fc27.armv7hl
 teamd-1.27-1.fc27.armv7hl                           
+├─libnl-3.so.200                                    libnl3-3.3.0-1.fc27.armv7hl
 ├─libjansson.so.4                                   jansson-2.10-2.fc27.armv7hl
+├─libnl-route-3.so.200                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                               libnl3-3.3.0-1.fc27.armv7hl
 ├─libdaemon.so.0                                    libdaemon-0.14-11.fc26.armv7hl
+├─libnl-nf-3.so.200                                 libnl3-3.3.0-1.fc27.armv7hl
 ├─libteam.so.5                                      libteam-1.27-1.fc27.armv7hl
+├─libnl-cli-3.so.200                                libnl3-cli-3.3.0-1.fc27.armv7hl
 └─libteam = 1.27-1.fc27                             libteam-1.27-1.fc27.armv7hl
 xmlrpc-c-1.48.0-5.fc27.armv7hl                      
 xmlrpc-c-client-1.48.0-5.fc27.armv7hl               
@@ -66,6 +83,20 @@ xmlrpc-c-client-1.48.0-5.fc27.armv7hl
 ├─libxmlrpc_util.so.4                               xmlrpc-c-1.48.0-5.fc27.armv7hl
 └─xmlrpc-c(armv7hl-32) = 1.48.0-5.fc27              xmlrpc-c-1.48.0-5.fc27.armv7hl
 libmodman-2.0.1-14.fc27.armv7hl                     
+libnl3-3.3.0-1.fc27.armv7hl                         
+libnl3-cli-3.3.0-1.fc27.armv7hl                     
+├─libnl-3.so.200                                    libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                           libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                               libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200(libnl_3)                      libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3)                     libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-nf-3.so.200                                 libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-idiag-3.so.200                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3_2_28)                libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-idiag-3.so.200(libnl_3)                     libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-nf-3.so.200(libnl_3)                        libnl3-3.3.0-1.fc27.armv7hl
+└─libnl3 = 3.3.0-1.fc27                             libnl3-3.3.0-1.fc27.armv7hl
 jansson-2.10-2.fc27.armv7hl                         
 polkit-libs-0.113-13.fc27.armv7hl                   
 ModemManager-glib-1.6.4-2.fc26.armv7hl              
@@ -75,6 +106,13 @@ newt-0.52.20-1.fc27.armv7hl
 ├─libslang.so.2                                     slang-2.3.1a-2.fc26.armv7hl
 └─libslang.so.2(SLANG2)                             slang-2.3.1a-2.fc26.armv7hl
 wpa_supplicant-1:2.6-7.fc27.armv7hl                 
+├─libnl-3.so.200                                    libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-3.so.200(libnl_3)                           libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200                              libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200                               libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-genl-3.so.200(libnl_3)                      libnl3-3.3.0-1.fc27.armv7hl
+├─libnl-route-3.so.200(libnl_3)                     libnl3-3.3.0-1.fc27.armv7hl
+└─libnl-route-3.so.200(libnl_3_2_28)                libnl3-3.3.0-1.fc27.armv7hl
 ModemManager-1.6.4-2.fc26.armv7hl                   
 ├─libgudev-1.0.so.0                                 libgudev-230-4.fc26.armv7hl
 ├─libmm-glib.so.0                                   ModemManager-glib-1.6.4-2.fc26.armv7hl
@@ -106,19 +144,37 @@ policycoreutils-2.6-5.fc27.armv7hl
 ├─libselinux-utils >= 2.6-5                         libselinux-utils-2.7-1.fc27.armv7hl
 python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch      
 firewalld-0.4.4.5-3.fc27.noarch                     
+├─ebtables                                          ebtables-2.0.10-22.fc26.armv7hl
+├─ipset                                             ipset-6.29-3.fc27.armv7hl
 ├─firewalld-filesystem = 0.4.4.5-3.fc27             firewalld-filesystem-0.4.4.5-3.fc27.noarch
 └─python3-firewall = 0.4.4.5-3.fc27                 python3-firewall-0.4.4.5-3.fc27.noarch
+ebtables-2.0.10-22.fc26.armv7hl                     
+ipset-6.29-3.fc27.armv7hl                           
+├─libipset.so.3                                     ipset-libs-6.29-3.fc27.armv7hl
+├─libipset.so.3(LIBIPSET_1.0)                       ipset-libs-6.29-3.fc27.armv7hl
+├─libipset.so.3(LIBIPSET_2.0)                       ipset-libs-6.29-3.fc27.armv7hl
+├─libipset.so.3(LIBIPSET_3.0)                       ipset-libs-6.29-3.fc27.armv7hl
+└─ipset-libs(armv7hl-32) = 6.29-3.fc27              ipset-libs-6.29-3.fc27.armv7hl
 firewalld-filesystem-0.4.4.5-3.fc27.noarch          
 python3-firewall-0.4.4.5-3.fc27.noarch              
+├─python3-dbus                                      python3-dbus-1.2.4-6.fc26.armv7hl
+├─python3-gobject-base                              python3-gobject-base-3.24.1-1.fc27.armv7hl
 ├─python3-decorator                                 python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-slip-dbus                                 python3-slip-dbus-0.6.4-6.fc26.noarch
+ipset-libs-6.29-3.fc27.armv7hl                      
+python3-dbus-1.2.4-6.fc26.armv7hl                   
+├─libdbus-glib-1.so.2                               dbus-glib-0.108-2.fc26.armv7hl
 python3-decorator-4.0.11-2.fc26.noarch              
+python3-gobject-base-3.24.1-1.fc27.armv7hl          
 python3-slip-dbus-0.6.4-6.fc26.noarch               
 ├─python3-decorator                                 python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-slip = 0.6.4-6.fc26                       python3-slip-0.6.4-6.fc26.noarch
+└─python3-dbus >= 0.80                              python3-dbus-1.2.4-6.fc26.armv7hl
+dbus-glib-0.108-2.fc26.armv7hl                      
 python3-slip-0.6.4-6.fc26.noarch                    
 ├─libselinux-python3                                libselinux-python3-2.7-1.fc27.armv7hl
 libpsl-0.17.0-4.fc27.armv7hl                        
+└─publicsuffix-list-dafsa                           publicsuffix-list-dafsa-20170424-2.fc27.noarch
 net-snmp-1:5.7.3-20.fc27.armv7hl                    
 ├─libperl.so.5.26                                   perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─/usr/bin/perl                                     perl-interpreter-4:5.26.0-398.fc27.armv7hl
@@ -126,6 +182,7 @@ net-snmp-1:5.7.3-20.fc27.armv7hl
 ├─libnetsnmp.so.30                                  net-snmp-libs-1:5.7.3-20.fc27.armv7hl
 ├─perl(Data::Dumper)                                perl-Data-Dumper-2.167-396.fc27.armv7hl
 ├─perl(IO::File)                                    perl-IO-1.38-398.fc27.armv7hl
+├─initscripts                                       initscripts-9.72-1.fc27.armv7hl
 ├─perl(File::Copy)                                  perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─libnetsnmpagent.so.30                             net-snmp-agent-libs-1:5.7.3-20.fc27.armv7hl
 ├─libnetsnmpmibs.so.30                              net-snmp-agent-libs-1:5.7.3-20.fc27.armv7hl
@@ -135,6 +192,8 @@ net-snmp-1:5.7.3-20.fc27.armv7hl
 ├─perl(Term::ReadLine)                              perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─net-snmp-libs(armv7hl-32) = 1:5.7.3-20.fc27       net-snmp-libs-1:5.7.3-20.fc27.armv7hl
 └─net-snmp-agent-libs(armv7hl-32) = 1:5.7.3-20.fc27 net-snmp-agent-libs-1:5.7.3-20.fc27.armv7hl
+initscripts-9.72-1.fc27.armv7hl                     
+├─hostname                                          hostname-3.18-2.fc26.armv7hl
 lm_sensors-libs-3.4.0-6.fc26.armv7hl                
 mariadb-libs-3:10.2.7-2.fc27.armv7hl                
 └─mariadb-common(armv7hl-32) = 3:10.2.7-2.fc27      mariadb-common-3:10.2.7-2.fc27.armv7hl
@@ -147,6 +206,7 @@ net-snmp-agent-libs-1:5.7.3-20.fc27.armv7hl
 ├─libsensors.so.4                                   lm_sensors-libs-3.4.0-6.fc26.armv7hl
 └─net-snmp-libs(armv7hl-32) = 1:5.7.3-20.fc27       net-snmp-libs-1:5.7.3-20.fc27.armv7hl
 net-snmp-libs-1:5.7.3-20.fc27.armv7hl               
+hostname-3.18-2.fc26.armv7hl                        
 mariadb-common-3:10.2.7-2.fc27.armv7hl              
 └─/etc/my.cnf                                       mariadb-config-3:10.2.7-2.fc27.armv7hl
 mariadb-config-3:10.2.7-2.fc27.armv7hl              
@@ -233,6 +293,7 @@ perl-Errno-1.28-398.fc27.armv7hl
 ├─perl(Exporter)                                    perl-Exporter-5.72-395.fc27.noarch
 ├─perl(Config)                                      perl-interpreter-4:5.26.0-398.fc27.armv7hl
 └─perl-libs(armv7hl-32) = 4:5.26.0-398.fc27         perl-libs-4:5.26.0-398.fc27.armv7hl
+publicsuffix-list-dafsa-20170424-2.fc27.noarch      
 libselinux-utils-2.7-1.fc27.armv7hl                 
 libselinux-python3-2.7-1.fc27.armv7hl               
 perl-Carp-1.42-394.fc27.noarch                      

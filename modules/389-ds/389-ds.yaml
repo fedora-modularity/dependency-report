@@ -12,6 +12,8 @@ data:
         requires:
             platform: master
             platform-placeholder: master
+            networking-base: master
+            perl: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/389-ds
@@ -36,9 +38,6 @@ data:
             gperftools:
                 rationale: Generated.
                 ref: master.
-            groff:
-                rationale: Generated.
-                ref: master.
             icu:
                 rationale: Generated.
                 ref: master.
@@ -48,127 +47,16 @@ data:
             libunwind:
                 rationale: Generated.
                 ref: master.
-            perl:
-                rationale: Generated.
-                ref: master.
-            perl-Algorithm-Diff:
-                rationale: Generated.
-                ref: master.
-            perl-Archive-Tar:
-                rationale: Generated.
-                ref: master.
-            perl-Carp:
-                rationale: Generated.
-                ref: master.
-            perl-Compress-Raw-Bzip2:
-                rationale: Generated.
-                ref: master.
-            perl-Compress-Raw-Zlib:
-                rationale: Generated.
-                ref: master.
-            perl-constant:
-                rationale: Generated.
-                ref: master.
-            perl-Data-Dumper:
-                rationale: Generated.
-                ref: master.
-            perl-DB_File:
-                rationale: Generated.
-                ref: master.
-            perl-Encode:
-                rationale: Generated.
-                ref: master.
-            perl-Exporter:
-                rationale: Generated.
-                ref: master.
-            perl-File-Path:
-                rationale: Generated.
-                ref: master.
-            perl-File-Temp:
-                rationale: Generated.
-                ref: master.
-            perl-Getopt-Long:
-                rationale: Generated.
-                ref: master.
-            perl-HTTP-Tiny:
-                rationale: Generated.
-                ref: master.
-            perl-IO-Compress:
-                rationale: Generated.
-                ref: master.
-            perl-Math-BigInt:
-                rationale: Generated.
-                ref: master.
-            perl-MIME-Base64:
-                rationale: Generated.
-                ref: master.
             perl-Mozilla-LDAP:
                 rationale: Generated.
                 ref: master.
             perl-NetAddr-IP:
                 rationale: Generated.
                 ref: master.
-            perl-parent:
-                rationale: Generated.
-                ref: master.
-            perl-PathTools:
-                rationale: Generated.
-                ref: master.
-            perl-Pod-Escapes:
-                rationale: Generated.
-                ref: master.
-            perl-podlators:
-                rationale: Generated.
-                ref: master.
-            perl-Pod-Perldoc:
-                rationale: Generated.
-                ref: master.
-            perl-Pod-Simple:
-                rationale: Generated.
-                ref: master.
-            perl-Pod-Usage:
-                rationale: Generated.
-                ref: master.
-            perl-Scalar-List-Utils:
-                rationale: Generated.
-                ref: master.
-            perl-Socket:
-                rationale: Generated.
-                ref: master.
             perl-Socket6:
                 rationale: Generated.
                 ref: master.
-            perl-Storable:
-                rationale: Generated.
-                ref: master.
-            perl-Term-ANSIColor:
-                rationale: Generated.
-                ref: master.
-            perl-Term-Cap:
-                rationale: Generated.
-                ref: master.
-            perl-Text-Diff:
-                rationale: Generated.
-                ref: master.
-            perl-Text-ParseWords:
-                rationale: Generated.
-                ref: master.
-            perl-Text-Tabs+Wrap:
-                rationale: Generated.
-                ref: master.
-            perl-threads:
-                rationale: Generated.
-                ref: master.
-            perl-threads-shared:
-                rationale: Generated.
-                ref: master.
-            perl-Time-Local:
-                rationale: Generated.
-                ref: master.
-            perl-Unicode-Normalize:
-                rationale: Generated.
-                ref: master.
-            policycoreutils:
+            python2:
                 rationale: Generated.
                 ref: master.
             python-IPy:

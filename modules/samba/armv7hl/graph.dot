@@ -47,6 +47,7 @@ node [fontname=monospace];
   "samba-dc-libs" -> "samba-client-libs";
   "samba-dc-libs" -> "samba-common-libs";
   "samba-dc-libs" -> "samba-libs";
+  "samba" -> "libaio";
   "samba-libs" -> "libldb";
   "samba-libs" -> "libtalloc";
   "samba-libs" -> "libtdb";
