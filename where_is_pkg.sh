@@ -22,10 +22,10 @@ done < global_reports/all-binary-pkgs-counted.txt | column -ts $'\t' > global_re
     echo "![module-deps](../img/module-deps.png)"
     echo "## There are $(ls modules | wc -l) modules:"
     echo ""
-    echo "| Module | RPM components | Missing RPM build deps |"
+    echo "| Module | RPM compnents | RPMs missing in buildroot |"
     echo "|---|---|---|"
     for module in $(ls modules); do
-        echo "| [**$module**](../modules/$module) | $(cat modules/$module/all/runtime-binary-packages-short.txt | wc -l) pkgs | $(cat modules/$module/all/buildtime-binary-packages-short.txt | wc -l) pkgs missing |"
+        echo "| [**$module**](../modules/$module) | $(cat modules/$module/all/runtime-binary-packages-short.txt | wc -l) | [$(cat modules/$module/all/buildtime-binary-packages-short.txt | wc -l) pkgs missing](../modules/$module/all/buildtime-binary-packages-short.txt) |"
     done
 } > global_reports/README.md
 
