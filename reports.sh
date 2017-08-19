@@ -25,7 +25,7 @@ dot -Tpng img/module-deps.dot > img/module-deps.png
 
 
 echo ""
-echo "Generating combined arch lists"
+echo "Generating combined arch lists..."
 files="
     runtime-binary-packages-short.txt
     runtime-source-packages-short.txt
@@ -98,7 +98,8 @@ for module in $(ls modules); do
     } > modules/$module/README.md
 done
 
-echo "Generating modulemd files"
+echo ""
+echo "Generating modulemd files..."
 for module in $(ls modules); do
     {
         cat << EOF
