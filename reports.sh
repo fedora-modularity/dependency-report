@@ -2,6 +2,7 @@
 arches=$(cat arches.txt)
 base=modules
 
+echo ""
 echo "Visualizing dependencies between modules..."
 
 mkdir -p img
@@ -23,6 +24,7 @@ echo "}" >> img/module-deps.dot
 dot -Tpng img/module-deps.dot > img/module-deps.png
 
 
+echo ""
 echo "Generating combined arch lists"
 files="
     runtime-binary-packages-short.txt
@@ -42,7 +44,8 @@ for file in $files; do
     done
 done
          
-echo "Generating reports"
+echo ""
+echo "Generating reports in README for each module..."
 for module in $(ls modules); do
     {
         echo "# $module"

@@ -1,46 +1,67 @@
 #!/bin/sh
 
-printf "\n\n=========================================\n"
-printf "Removing old data...\n\n"
+echo ""
+echo "========================================="
+echo "Removing old data..."
+echo "========================================="
 rm -rf modules repos
 
-printf "\n\n=========================================\n"
-printf "Cloning 'modularity-modules' repositories...\n\n"
+echo ""
+echo "========================================="
+echo "Cloning 'modularity-modules' repositories..."
+echo "========================================="
 ./clone_repos.sh
 
-printf "\n\n=========================================\n"
-printf "Generating machine-readable top-lvl  package lists...\n\n"
+echo ""
+echo "========================================="
+echo "Generating machine-readable top-lvl package lists..."
+echo "========================================="
 ./generate_lists.sh
 
-printf "\n\n=========================================\n"
-printf "Resolving runtime package dependencies using depchase...\n\n"
+echo ""
+echo "========================================="
+echo "Resolving runtime package dependencies using depchase..."
+echo "========================================="
 ./resolve.sh runtime
 
-printf "\n\n=========================================\n"
-printf "Resolving runtime module dependencies...\n\n"
+echo ""
+echo "========================================="
+echo "Substracting runtime module dependencies..."
+echo "========================================="
 make
 
-printf "\n\n=========================================\n"
-printf "Resolving build package dependencies using depchase...\n\n"
+echo ""
+echo "========================================="
+echo "Resolving build package dependencies using depchase..."
+echo "========================================="
 ./resolve.sh buildtime
 
-printf "\n\n=========================================\n"
-printf "Resolving build module dependencies...\n\n"
+echo ""
+echo "========================================="
+echo "Substracting build module dependencies..."
+echo "========================================="
 ./build_deps_definitions.sh
 
-printf "\n\n=========================================\n"
-printf "Producing human-readable reports...\n\n"
+echo ""
+echo "========================================="
+echo "Producing human-readable reports..."
+echo "========================================="
 ./reports.sh
 
-printf "\n\n=========================================\n"
-printf "Generating runtime package dependency graph for all modules...\n\n"
+echo ""
+echo "========================================="
+echo "Generating runtime package dependency graph for all modules..."
+echo "========================================="
 ./graph.sh
 
-printf "\n\n=========================================\n"
-printf "Generating global reports...\n\n"
+echo ""
+echo "========================================="
+echo "Generating global reports..."
+echo "========================================="
 ./where_is_pkg.sh
 
-printf "\n\n=========================================\n"
-printf "EVERYTHING is done! \\o/\n"
-printf "=========================================\n"
+echo ""
+echo "========================================="
+echo "EVERYTHING is done! \\o/"
+echo "========================================="
 

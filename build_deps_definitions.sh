@@ -1,8 +1,5 @@
 #!/bin/sh
 
-./add_platform.sh
-
-
 ./build_deps.sh 389-ds      platform platform-placeholder perl autotools
 ./build_deps.sh autotools   platform platform-placeholder java perl
 ./build_deps.sh bind        platform platform-placeholder autotools perl
@@ -22,5 +19,15 @@
 ./build_deps.sh tomcat      platform platform-placeholder autotools perl java
 
 # I don't need build deps for these...
-echo "" > modules/platform-placeholder/modular-build-deps.txt
-echo "" > modules/installer/modular-build-deps.txt
+excluded="platform platform-placeholder installer"
+arches=$(cat arches.txt)
+
+for module in $excluded; do
+    echo "" > modules/$module/modular-build-deps.txt
+    for arch in $arches; do
+        echo "" > modules/$module/$arch/buildtime-source-packages-short.txt
+        echo "" > modules/$module/$arch/buildtime-source-packages-full.txt
+        echo "" > modules/$module/$arch/buildtime-binary-packages-short.txt
+        echo "" > modules/$module/$arch/buildtime-binary-packages-full.txt
+    done
+done

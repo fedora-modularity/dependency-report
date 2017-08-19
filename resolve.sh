@@ -4,12 +4,20 @@ WHAT="$1"
 
 case "$WHAT" in 
     buildtime)
+        modules=$(ls modules \
+            | sed \
+                -e "s/^platform$//g" \
+                -e "s/^platform-placeholder$//g" \
+                -e "s/^installer$//g")
         get_toplevel_pkgs() {
             local modulearchroot="$1"
             sed -e "s/$/.src/g" < "$modulearchroot/runtime-source-packages-short.txt"
         }
         ;;
     runtime)
+        modules=$(ls modules \
+            | sed \
+                -e "s/^platform$//g")
         get_toplevel_pkgs() {
             local modulearchroot="$1"
             cat "$modulearchroot/toplevel-binary-packages.txt"
@@ -21,13 +29,11 @@ case "$WHAT" in
         ;;
 esac
 
-rm -rf modules/platform
-
 # Resolve complete dependencies using depchase
 resolve_arch() {
     local arch="$1"
 
-    for module in $(ls modules); do
+    for module in $modules; do
 
         modulearchroot="modules/$module/$arch"
 
@@ -37,7 +43,7 @@ resolve_arch() {
         > $modulearchroot/complete-$WHAT-binary-packages-short.txt
         > $modulearchroot/complete-$WHAT-source-packages-short.txt
 
-        echo "  Processing $module for $arch..."
+        echo "  Processing $WHAT deps of $module for $arch..."
         hintsfile="hp/$arch/hints.txt"
         hints=""
         while read hint; do
@@ -80,7 +86,7 @@ echo "Done. Sorting out Platform module dependencies."
 
 # Figuring out the standalone dependencies 
 for arch in $(cat arches.txt); do
-    for module in $(ls modules); do
+    for module in $modules; do
 
         modulearchroot="modules/$module/$arch"
 
