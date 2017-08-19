@@ -28,11 +28,11 @@ excluded="platform platform-placeholder installer"
 arches=$(cat arches.txt)
 
 for module in $excluded; do
-    echo "" > modules/$module/modular-build-deps.txt
+    touch modules/$module/modular-build-deps.txt
     for arch in $arches; do
-        echo "" > modules/$module/$arch/buildtime-source-packages-short.txt
-        echo "" > modules/$module/$arch/buildtime-source-packages-full.txt
-        echo "" > modules/$module/$arch/buildtime-binary-packages-short.txt
-        echo "" > modules/$module/$arch/buildtime-binary-packages-full.txt
+        touch modules/$module/$arch/buildtime-source-packages-short.txt
+        touch modules/$module/$arch/buildtime-source-packages-full.txt
+        touch modules/$module/$arch/buildtime-binary-packages-short.txt
+        touch modules/$module/$arch/buildtime-binary-packages-full.txt
     done
 done
