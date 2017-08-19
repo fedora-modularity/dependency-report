@@ -1,0 +1,62 @@
+document: modulemd
+version: 1
+data:
+    summary: python2 module
+    description: This python2 has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/python2
+        tracker: https://github.com/modularity-modules/python2
+    components:
+        rpms:
+            aajohan-comfortaa-fonts:
+                rationale: Generated.
+                ref: master.
+            fontconfig:
+                rationale: Generated.
+                ref: master.
+            fontpackages:
+                rationale: Generated.
+                ref: master.
+            freetype:
+                rationale: Generated.
+                ref: master.
+            libpng:
+                rationale: Generated.
+                ref: master.
+            libX11:
+                rationale: Generated.
+                ref: master.
+            libXau:
+                rationale: Generated.
+                ref: master.
+            libxcb:
+                rationale: Generated.
+                ref: master.
+            libXft:
+                rationale: Generated.
+                ref: master.
+            libXrender:
+                rationale: Generated.
+                ref: master.
+            python-rpm-generators:
+                rationale: Generated.
+                ref: master.
+            python-wheel:
+                rationale: Generated.
+                ref: master.
+            tix:
+                rationale: Generated.
+                ref: master.
+            tk:
+                rationale: Generated.
+                ref: master.
