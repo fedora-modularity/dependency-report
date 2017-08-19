@@ -8,7 +8,7 @@ This repository contains scripts to generate dependencies of the initial set of 
 
 The [module-repolist.txt](module-repolist.txt) file defines which repositories get processed.
 
-## Output
+## [Output](global_reports/README.md)
 
 **Output is stored in the [modules](modules)** (for individual modules) **and the [global_reports](global_reports)** (for all modules) **directories.**
 
