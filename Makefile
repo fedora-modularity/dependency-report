@@ -47,3 +47,13 @@ resteasy: platform platform-placeholder
 httpd: platform platform-placeholder
 
 postgresql: platform platform-placeholder
+
+python3: platform platform-placeholder
+
+python3-bootstrap: platform platform-placeholder
+
+python3-ecosystem: platform platform-placeholder
+
+python3-ecosystem-bootstrap: platform platform-placeholder
+
+python2: platform platform-placeholder
