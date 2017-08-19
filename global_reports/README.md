@@ -10,7 +10,7 @@
 | [**bind**](../modules/bind) | 12 | [30 pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
 | [**freeipa**](../modules/freeipa) | 67 | [227 pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | 12 | [115 pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
-| [**installer**](../modules/installer) | 316 | [0 pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
+| [**installer**](../modules/installer) | 65 | [0 pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | 9 | [142 pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | 5 | [1 pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
 | [**networking-base**](../modules/networking-base) | 61 | [311 pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |

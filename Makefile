@@ -10,7 +10,7 @@ platform:
 
 
 #installer: platform networking-base storage-devices platform-placeholder
-installer: platform
+installer: platform platform-placeholder
 
 autotools: platform perl platform-placeholder
 

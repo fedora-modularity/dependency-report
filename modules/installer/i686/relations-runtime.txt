@@ -2,18 +2,13 @@ anaconda-tui-27.19-4.fc27.i686
 └─anaconda-core = 27.19-4.fc27                                  anaconda-core-27.19-4.fc27.i686
 anaconda-core-27.19-4.fc27.i686                                 
 ├─cracklib-dicts                                                cracklib-dicts-2.9.6-7.fc27.i686
-├─libselinux-python3                                            libselinux-python3-2.7-1.fc27.i686
-├─python3-dbus                                                  python3-dbus-1.2.4-6.fc26.i686
 ├─glibc-langpack-en                                             glibc-langpack-en-2.26-1.fc27.1.i686
 ├─python3-pwquality                                             python3-pwquality-1.4.0-3.fc27.i686
 ├─python3-requests                                              python3-requests-2.18.1-2.fc27.noarch
 ├─createrepo_c                                                  createrepo_c-0.10.0-9.fc26.i686
-├─kbd                                                           kbd-2.0.4-2.fc26.i686
 ├─NetworkManager-team                                           NetworkManager-team-1:1.8.0-6.fc27.i686
 ├─authconfig                                                    authconfig-7.0.1-1.fc27.i686
 ├─chrony                                                        chrony-3.1-5.fc27.i686
-├─hfsplus-tools                                                 hfsplus-tools-540.1.linux3-12.fc26.i686
-├─kexec-tools                                                   kexec-tools-2.0.15-4.fc27.i686
 ├─python3-ntplib                                                python3-ntplib-0.3.3-6.fc26.noarch
 ├─python3-pid                                                   python3-pid-2.1.1-3.fc26.noarch
 ├─python3-pytz                                                  python3-pytz-2017.2-1.fc27.noarch
@@ -21,36 +16,26 @@ anaconda-core-27.19-4.fc27.i686
 ├─python3-requests-ftp                                          python3-requests-ftp-0.3.1-6.fc26.noarch
 ├─python3-wrapt                                                 python3-wrapt-1.10.10-1.fc27.i686
 ├─realmd                                                        realmd-0.16.3-5.fc27.i686
-├─rsync                                                         rsync-3.1.2-5.fc27.i686
 ├─teamd                                                         teamd-1.27-1.fc27.i686
-├─usermode                                                      usermode-1.111-10.fc27.i686
 ├─anaconda-tui = 27.19-4.fc27                                   anaconda-tui-27.19-4.fc27.i686
-├─parted >= 1.8.1                                               parted-3.2-28.fc27.i686
 ├─NetworkManager >= 1.0                                         NetworkManager-1:1.8.0-6.fc27.i686
 ├─NetworkManager-libnm >= 1.0                                   NetworkManager-libnm-1:1.8.0-6.fc27.i686
-├─fcoe-utils >= 1.0.12-3.20100323git                            fcoe-utils-1.0.32-1.fc26.i686
 ├─firewalld >= 0.3.5-1                                          firewalld-0.4.4.5-3.fc27.noarch
 ├─isomd5sum >= 1.0.10                                           isomd5sum-1:1.2.1-1.fc27.i686
 ├─langtable-data >= 0.0.34                                      langtable-data-0.0.37-1.fc26.noarch
 ├─langtable-python3 >= 0.0.34                                   langtable-python3-0.0.37-1.fc26.noarch
-├─libblockdev-plugins-all >= 2.1                                libblockdev-plugins-all-2.10-1.fc27.i686
 ├─libreport-anaconda >= 2.0.21-1                                libreport-anaconda-2.9.1-2.fc27.i686
 ├─python3-blivet >= 1:2.1.9-1                                   python3-blivet-1:2.1.9-2.fc27.noarch
-├─python3-blockdev >= 2.1                                       python3-blockdev-2.10-1.fc27.i686
 ├─python3-coverage >= 4.0-0.12.b3                               python3-coverage-4.4.1-2.fc27.i686
-├─python3-iscsi-initiator-utils >= 6.2.0.873-26                 python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.i686
 ├─python3-kickstart >= 2.35-1                                   python3-kickstart-2.37-1.fc27.noarch
 ├─python3-meh >= 0.23-1                                         python3-meh-0.44-4.fc26.noarch
 ├─python3-ordered-set >= 2.0.0                                  python3-ordered-set-2.0.0-6.fc26.noarch
 ├─python3-pyparted >= 2.5-2                                     python3-pyparted-1:3.11.0-2.fc27.i686
 NetworkManager-libnm-1:1.8.0-6.fc27.i686                        
-├─libjansson.so.4                                               jansson-2.10-2.fc27.i686
 NetworkManager-team-1:1.8.0-6.fc27.i686                         
-├─libjansson.so.4                                               jansson-2.10-2.fc27.i686
 ├─libteamdctl.so.0                                              teamd-1.27-1.fc27.i686
 └─NetworkManager(x86-32) = 1:1.8.0-6.fc27                       NetworkManager-1:1.8.0-6.fc27.i686
 authconfig-7.0.1-1.fc27.i686                                    
-├─policycoreutils                                               policycoreutils-2.7-1.fc27.i686
 ├─python3-sssdconfig                                            python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
 chrony-3.1-5.fc27.i686                                          
 createrepo_c-0.10.0-9.fc26.i686                                 
@@ -58,70 +43,27 @@ createrepo_c-0.10.0-9.fc26.i686
 ├─libdrpm.so.0                                                  drpm-0.3.0-6.fc27.i686
 ├─libcreaterepo_c.so.0                                          createrepo_c-libs-0.10.0-9.fc26.i686
 ├─createrepo_c-libs = 0.10.0-9.fc26                             createrepo_c-libs-0.10.0-9.fc26.i686
-fcoe-utils-1.0.32-1.fc26.i686                                   
-├─device-mapper-multipath                                       device-mapper-multipath-0.7.1-6.git847cc43.fc27.i686
-├─libpciaccess.so.0                                             libpciaccess-0.13.4-4.fc26.i686
-└─lldpad >= 0.9.43                                              lldpad-1.0.1-6.git036e314.fc26.i686
-hfsplus-tools-540.1.linux3-12.fc26.i686                         
 isomd5sum-1:1.2.1-1.fc27.i686                                   
-kbd-2.0.4-2.fc26.i686                                           
-├─kbd-legacy = 2.0.4-2.fc26                                     kbd-legacy-2.0.4-2.fc26.noarch
-├─kbd-misc = 2.0.4-2.fc26                                       kbd-misc-2.0.4-2.fc26.noarch
-└─initscripts >= 5.86-1                                         initscripts-9.72-1.fc27.i686
-kexec-tools-2.0.15-4.fc27.i686                                  
-├─libsnappy.so.1                                                snappy-1.1.4-3.fc26.i686
-├─ethtool                                                       ethtool-2:4.8-2.fc26.i686
-└─dracut-network >= 044-117                                     dracut-network-045-18.git20170515.fc27.i686
 langtable-data-0.0.37-1.fc26.noarch                             
 └─langtable = 0.0.37-1.fc26                                     langtable-0.0.37-1.fc26.noarch
 langtable-python3-0.0.37-1.fc26.noarch                          
 ├─langtable = 0.0.37-1.fc26                                     langtable-0.0.37-1.fc26.noarch
 └─langtable-data = 0.0.37-1.fc26                                langtable-data-0.0.37-1.fc26.noarch
-libblockdev-plugins-all-2.10-1.fc27.i686                        
-├─libblockdev(x86-32) = 2.10-1.fc27                             libblockdev-2.10-1.fc27.i686
-├─libblockdev-btrfs(x86-32) = 2.10-1.fc27                       libblockdev-btrfs-2.10-1.fc27.i686
-├─libblockdev-crypto(x86-32) = 2.10-1.fc27                      libblockdev-crypto-2.10-1.fc27.i686
-├─libblockdev-dm(x86-32) = 2.10-1.fc27                          libblockdev-dm-2.10-1.fc27.i686
-├─libblockdev-fs(x86-32) = 2.10-1.fc27                          libblockdev-fs-2.10-1.fc27.i686
-├─libblockdev-kbd(x86-32) = 2.10-1.fc27                         libblockdev-kbd-2.10-1.fc27.i686
-├─libblockdev-loop(x86-32) = 2.10-1.fc27                        libblockdev-loop-2.10-1.fc27.i686
-├─libblockdev-lvm(x86-32) = 2.10-1.fc27                         libblockdev-lvm-2.10-1.fc27.i686
-├─libblockdev-mdraid(x86-32) = 2.10-1.fc27                      libblockdev-mdraid-2.10-1.fc27.i686
-├─libblockdev-mpath(x86-32) = 2.10-1.fc27                       libblockdev-mpath-2.10-1.fc27.i686
-├─libblockdev-part(x86-32) = 2.10-1.fc27                        libblockdev-part-2.10-1.fc27.i686
-└─libblockdev-swap(x86-32) = 2.10-1.fc27                        libblockdev-swap-2.10-1.fc27.i686
 libreport-anaconda-2.9.1-2.fc27.i686                            
 ├─libreport = 2.9.1-2.fc27                                      libreport-2.9.1-2.fc27.i686
 ├─libreport-plugin-bugzilla = 2.9.1-2.fc27                      libreport-plugin-bugzilla-2.9.1-2.fc27.i686
 └─libreport-plugin-reportuploader = 2.9.1-2.fc27                libreport-plugin-reportuploader-2.9.1-2.fc27.i686
 python3-blivet-1:2.1.9-2.fc27.noarch                            
-├─python3-gobject-base                                          python3-gobject-base-3.24.1-1.fc27.i686
-├─dosfstools                                                    dosfstools-4.1-2.fc26.i686
-├─libselinux-python3                                            libselinux-python3-2.7-1.fc27.i686
-├─lsof                                                          lsof-4.89-5.fc26.i686
 ├─python3-kickstart                                             python3-kickstart-2.37-1.fc27.noarch
-├─parted >= 1.8.1                                               parted-3.2-28.fc27.i686
-├─libblockdev-plugins-all >= 2.6                                libblockdev-plugins-all-2.10-1.fc27.i686
-├─python3-blockdev >= 2.6                                       python3-blockdev-2.10-1.fc27.i686
 ├─python3-bytesize >= 0.3                                       python3-bytesize-0.11-1.fc27.i686
 ├─python3-pyparted >= 3.10.4                                    python3-pyparted-1:3.11.0-2.fc27.i686
-└─python3-pyudev >= 0.18                                        python3-pyudev-0.21.0-3.fc26.noarch
-python3-blockdev-2.10-1.fc27.i686                               
-├─python3-gobject-base                                          python3-gobject-base-3.24.1-1.fc27.i686
-└─libblockdev(x86-32) = 2.10-1.fc27                             libblockdev-2.10-1.fc27.i686
-python3-dbus-1.2.4-6.fc26.i686                                  
-├─libdbus-glib-1.so.2                                           dbus-glib-0.108-2.fc26.i686
-python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.i686  
-├─libiscsi.so.0                                                 iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.i686
 python3-meh-0.44-4.fc26.noarch                                  
-├─python3-dbus                                                  python3-dbus-1.2.4-6.fc26.i686
 ├─libreport-cli >= 2.0.18-1                                     libreport-cli-2.9.1-2.fc27.i686
 └─libreport-python3 >= 2.0.18-1                                 libreport-python3-2.9.1-2.fc27.i686
 python3-ntplib-0.3.3-6.fc26.noarch                              
 python3-ordered-set-2.0.0-6.fc26.noarch                         
 python3-pid-2.1.1-3.fc26.noarch                                 
 python3-pyparted-1:3.11.0-2.fc27.i686                           
-├─libparted.so.2                                                parted-3.2-28.fc27.i686
 python3-pytz-2017.2-1.fc27.noarch                               
 python3-requests-2.18.1-2.fc27.noarch                           
 ├─python3-chardet                                               python3-chardet-3.0.4-1.fc27.noarch
@@ -133,33 +75,15 @@ python3-requests-ftp-0.3.1-6.fc26.noarch
 ├─python3-requests                                              python3-requests-2.18.1-2.fc27.noarch
 python3-wrapt-1.10.10-1.fc27.i686                               
 realmd-0.16.3-5.fc27.i686                                       
-├─libpolkit-gobject-1.so.0                                      polkit-libs-0.113-13.fc27.i686
 └─authconfig                                                    authconfig-7.0.1-1.fc27.i686
-rsync-3.1.2-5.fc27.i686                                         
 teamd-1.27-1.fc27.i686                                          
-├─libnl-3.so.200                                                libnl3-3.3.0-1.fc27.i686
-├─libnl-route-3.so.200                                          libnl3-3.3.0-1.fc27.i686
-├─libjansson.so.4                                               jansson-2.10-2.fc27.i686
-├─libnl-genl-3.so.200                                           libnl3-3.3.0-1.fc27.i686
-├─libdaemon.so.0                                                libdaemon-0.14-11.fc26.i686
-├─libnl-nf-3.so.200                                             libnl3-3.3.0-1.fc27.i686
 ├─libteam.so.5                                                  libteam-1.27-1.fc27.i686
-├─libnl-cli-3.so.200                                            libnl3-cli-3.3.0-1.fc27.i686
 └─libteam = 1.27-1.fc27                                         libteam-1.27-1.fc27.i686
-usermode-1.111-10.fc27.i686                                     
-├─libuser.so.1                                                  libuser-0.62-9.fc27.i686
-└─passwd                                                        passwd-0.79-9.fc26.i686
-jansson-2.10-2.fc27.i686                                        
 NetworkManager-1:1.8.0-6.fc27.i686                              
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-├─libpolkit-gobject-1.so.0                                      polkit-libs-0.113-13.fc27.i686
-├─libnl-3.so.200                                                libnl3-3.3.0-1.fc27.i686
-├─libnl-3.so.200(libnl_3)                                       libnl3-3.3.0-1.fc27.i686
 ├─libnm.so.0                                                    NetworkManager-libnm-1:1.8.0-6.fc27.i686
-├─libjansson.so.4                                               jansson-2.10-2.fc27.i686
 ├─libnm.so.0(libnm_1_0_0)                                       NetworkManager-libnm-1:1.8.0-6.fc27.i686
 ├─libnm.so.0(libnm_1_2_0)                                       NetworkManager-libnm-1:1.8.0-6.fc27.i686
-├─libpolkit-agent-1.so.0                                        polkit-libs-0.113-13.fc27.i686
 ├─libnm.so.0(libnm_1_6_0)                                       NetworkManager-libnm-1:1.8.0-6.fc27.i686
 ├─libpsl.so.5                                                   libpsl-0.17.0-4.fc27.i686
 ├─libnm.so.0(libnm_1_8_0)                                       NetworkManager-libnm-1:1.8.0-6.fc27.i686
@@ -171,134 +95,40 @@ createrepo_c-libs-0.10.0-9.fc26.i686
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
 └─libdrpm.so.0                                                  drpm-0.3.0-6.fc27.i686
 drpm-0.3.0-6.fc27.i686                                          
-libpciaccess-0.13.4-4.fc26.i686                                 
-└─hwdata                                                        hwdata-0.302-1.fc27.noarch
-lldpad-1.0.1-6.git036e314.fc26.i686                             
-├─libnl-3.so.200                                                libnl3-3.3.0-1.fc27.i686
-├─libnl-3.so.200(libnl_3)                                       libnl3-3.3.0-1.fc27.i686
-├─libconfig.so.9                                                libconfig-1.5-5.fc26.i686
-initscripts-9.72-1.fc27.i686                                    
-├─hostname                                                      hostname-3.18-2.fc26.i686
-kbd-legacy-2.0.4-2.fc26.noarch                                  
-kbd-misc-2.0.4-2.fc26.noarch                                    
-dracut-network-045-18.git20170515.fc27.i686                     
-ethtool-2:4.8-2.fc26.i686                                       
-snappy-1.1.4-3.fc26.i686                                        
 langtable-0.0.37-1.fc26.noarch                                  
-libblockdev-2.10-1.fc27.i686                                    
-└─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-libblockdev-btrfs-2.10-1.fc27.i686                              
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─libbytesize.so.1                                              libbytesize-0.11-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-crypto-2.10-1.fc27.i686                             
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-└─libvolume_key.so.1                                            volume_key-libs-0.3.9-13.fc27.i686
-libblockdev-dm-2.10-1.fc27.i686                                 
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─dmraid                                                        dmraid-1.0.0.rc16-31.fc26.i686
-├─libdmraid.so.1                                                dmraid-1.0.0.rc16-31.fc26.i686
-├─libdmraid.so.1(Base)                                          dmraid-1.0.0.rc16-31.fc26.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-fs-2.10-1.fc27.i686                                 
-├─device-mapper-multipath                                       device-mapper-multipath-0.7.1-6.git847cc43.fc27.i686
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─libparted.so.2                                                parted-3.2-28.fc27.i686
-├─libparted-fs-resize.so.0                                      parted-3.2-28.fc27.i686
-├─libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)           parted-3.2-28.fc27.i686
-├─libbd_part_err.so.2                                           libblockdev-utils-2.10-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-kbd-2.10-1.fc27.i686                                
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-└─bcache-tools >= 1.0.8                                         bcache-tools-1.0.8-8.fc26.i686
-libblockdev-loop-2.10-1.fc27.i686                               
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-lvm-2.10-1.fc27.i686                                
-├─lvm2                                                          lvm2-2.02.173-4.fc27.i686
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─device-mapper-persistent-data                                 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-mdraid-2.10-1.fc27.i686                             
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─mdadm                                                         mdadm-4.0-3.fc27.i686
-├─libbytesize.so.1                                              libbytesize-0.11-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-mpath-2.10-1.fc27.i686                              
-├─device-mapper-multipath                                       device-mapper-multipath-0.7.1-6.git847cc43.fc27.i686
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-part-2.10-1.fc27.i686                               
-├─device-mapper-multipath                                       device-mapper-multipath-0.7.1-6.git847cc43.fc27.i686
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-├─libparted.so.2                                                parted-3.2-28.fc27.i686
-├─libparted-fs-resize.so.0                                      parted-3.2-28.fc27.i686
-├─gdisk                                                         gdisk-1.0.1-3.fc26.i686
-├─libbd_part_err.so.2                                           libblockdev-utils-2.10-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
-libblockdev-swap-2.10-1.fc27.i686                               
-├─libbd_utils.so.2                                              libblockdev-utils-2.10-1.fc27.i686
-└─libblockdev-utils(x86-32) >= 0.11                             libblockdev-utils-2.10-1.fc27.i686
 libreport-2.9.1-2.fc27.i686                                     
 ├─libsatyr.so.3                                                 satyr-0.23-1.fc27.i686
-├─libaugeas.so.0                                                augeas-libs-1.8.0-1.fc27.i686
 ├─libtar.so.1                                                   libtar-1.2.20-9.fc26.i686
-├─libaugeas.so.0(AUGEAS_0.1.0)                                  augeas-libs-1.8.0-1.fc27.i686
 ├─lz4                                                           lz4-1.7.5-6.fc27.i686
-├─libaugeas.so.0(AUGEAS_0.8.0)                                  augeas-libs-1.8.0-1.fc27.i686
-├─libaugeas.so.0(AUGEAS_0.10.0)                                 augeas-libs-1.8.0-1.fc27.i686
 ├─satyr >= 0.22                                                 satyr-0.23-1.fc27.i686
 libreport-plugin-bugzilla-2.9.1-2.fc27.i686                     
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-├─libjson-c.so.2                                                json-c-0.12.1-2.fc27.i686
 ├─libsatyr.so.3                                                 satyr-0.23-1.fc27.i686
 ├─libreport.so.0                                                libreport-2.9.1-2.fc27.i686
-├─libaugeas.so.0                                                augeas-libs-1.8.0-1.fc27.i686
-├─libproxy.so.1                                                 libproxy-0.4.15-2.fc27.i686
 ├─libtar.so.1                                                   libtar-1.2.20-9.fc26.i686
-├─libxmlrpc.so.3                                                xmlrpc-c-1.48.0-5.fc27.i686
-├─libxmlrpc_util.so.4                                           xmlrpc-c-1.48.0-5.fc27.i686
 ├─libxmlrpc_client.so.3                                         xmlrpc-c-client-1.48.0-5.fc27.i686
 ├─libreport-web.so.0                                            libreport-web-2.9.1-2.fc27.i686
 ├─libreport = 2.9.1-2.fc27                                      libreport-2.9.1-2.fc27.i686
 └─libreport-web = 2.9.1-2.fc27                                  libreport-web-2.9.1-2.fc27.i686
 libreport-plugin-reportuploader-2.9.1-2.fc27.i686               
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-├─libjson-c.so.2                                                json-c-0.12.1-2.fc27.i686
 ├─libsatyr.so.3                                                 satyr-0.23-1.fc27.i686
 ├─libreport.so.0                                                libreport-2.9.1-2.fc27.i686
-├─libaugeas.so.0                                                augeas-libs-1.8.0-1.fc27.i686
-├─libproxy.so.1                                                 libproxy-0.4.15-2.fc27.i686
 ├─libtar.so.1                                                   libtar-1.2.20-9.fc26.i686
-├─libxmlrpc.so.3                                                xmlrpc-c-1.48.0-5.fc27.i686
-├─libxmlrpc_util.so.4                                           xmlrpc-c-1.48.0-5.fc27.i686
 ├─libxmlrpc_client.so.3                                         xmlrpc-c-client-1.48.0-5.fc27.i686
 ├─libreport-web.so.0                                            libreport-web-2.9.1-2.fc27.i686
 ├─libreport = 2.9.1-2.fc27                                      libreport-2.9.1-2.fc27.i686
 └─libreport-web = 2.9.1-2.fc27                                  libreport-web-2.9.1-2.fc27.i686
-dosfstools-4.1-2.fc26.i686                                      
-lsof-4.89-5.fc26.i686                                           
 python3-bytesize-0.11-1.fc27.i686                               
-└─libbytesize(x86-32) = 0.11-1.fc27                             libbytesize-0.11-1.fc27.i686
-python3-gobject-base-3.24.1-1.fc27.i686                         
-python3-pyudev-0.21.0-3.fc26.noarch                             
-dbus-glib-0.108-2.fc26.i686                                     
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.i686          
-├─libisns.so.0                                                  isns-utils-libs-0.97-3.fc27.i686
-├─libisns.so.0(LIBISNS_0.96)                                    isns-utils-libs-0.97-3.fc27.i686
-└─iscsi-initiator-utils-iscsiuio >= 6.2.0.874-4.git86e8892.fc27 iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.i686
 libreport-cli-2.9.1-2.fc27.i686                                 
 ├─libsatyr.so.3                                                 satyr-0.23-1.fc27.i686
 ├─libreport.so.0                                                libreport-2.9.1-2.fc27.i686
-├─libaugeas.so.0                                                augeas-libs-1.8.0-1.fc27.i686
 ├─libtar.so.1                                                   libtar-1.2.20-9.fc26.i686
 └─libreport = 2.9.1-2.fc27                                      libreport-2.9.1-2.fc27.i686
 libreport-python3-2.9.1-2.fc27.i686                             
 ├─libsatyr.so.3                                                 satyr-0.23-1.fc27.i686
 ├─libreport.so.0                                                libreport-2.9.1-2.fc27.i686
-├─libaugeas.so.0                                                augeas-libs-1.8.0-1.fc27.i686
 ├─libtar.so.1                                                   libtar-1.2.20-9.fc26.i686
 └─libreport = 2.9.1-2.fc27                                      libreport-2.9.1-2.fc27.i686
 python3-chardet-3.0.4-1.fc27.noarch                             
@@ -308,85 +138,20 @@ python3-urllib3-1.21.1-1.fc27.noarch
 ├─python3-cryptography                                          python3-cryptography-1.9-1.fc27.i686
 ├─python3-idna                                                  python3-idna-2.5-1.fc27.noarch
 ├─python3-pysocks                                               python3-pysocks-1.5.7-4.fc26.noarch
-polkit-libs-0.113-13.fc27.i686                                  
-libdaemon-0.14-11.fc26.i686                                     
-libnl3-3.3.0-1.fc27.i686                                        
-libnl3-cli-3.3.0-1.fc27.i686                                    
-├─libnl-3.so.200                                                libnl3-3.3.0-1.fc27.i686
-├─libnl-3.so.200(libnl_3)                                       libnl3-3.3.0-1.fc27.i686
-├─libnl-route-3.so.200                                          libnl3-3.3.0-1.fc27.i686
-├─libnl-genl-3.so.200                                           libnl3-3.3.0-1.fc27.i686
-├─libnl-genl-3.so.200(libnl_3)                                  libnl3-3.3.0-1.fc27.i686
-├─libnl-route-3.so.200(libnl_3)                                 libnl3-3.3.0-1.fc27.i686
-├─libnl-nf-3.so.200                                             libnl3-3.3.0-1.fc27.i686
-├─libnl-idiag-3.so.200                                          libnl3-3.3.0-1.fc27.i686
-├─libnl-route-3.so.200(libnl_3_2_28)                            libnl3-3.3.0-1.fc27.i686
-├─libnl-idiag-3.so.200(libnl_3)                                 libnl3-3.3.0-1.fc27.i686
-├─libnl-nf-3.so.200(libnl_3)                                    libnl3-3.3.0-1.fc27.i686
-└─libnl3 = 3.3.0-1.fc27                                         libnl3-3.3.0-1.fc27.i686
 libteam-1.27-1.fc27.i686                                        
-├─libnl-3.so.200                                                libnl3-3.3.0-1.fc27.i686
-├─libnl-3.so.200(libnl_3)                                       libnl3-3.3.0-1.fc27.i686
-├─libnl-route-3.so.200                                          libnl3-3.3.0-1.fc27.i686
-├─libnl-genl-3.so.200                                           libnl3-3.3.0-1.fc27.i686
-├─libnl-genl-3.so.200(libnl_3)                                  libnl3-3.3.0-1.fc27.i686
-├─libnl-route-3.so.200(libnl_3)                                 libnl3-3.3.0-1.fc27.i686
-├─libnl-nf-3.so.200                                             libnl3-3.3.0-1.fc27.i686
-├─libnl-3.so.200(libnl_3_2_27)                                  libnl3-3.3.0-1.fc27.i686
-├─libnl-cli-3.so.200                                            libnl3-cli-3.3.0-1.fc27.i686
-└─libnl-cli-3.so.200(libnl_3)                                   libnl3-cli-3.3.0-1.fc27.i686
-passwd-0.79-9.fc26.i686                                         
-├─libuser.so.1                                                  libuser-0.62-9.fc27.i686
 libndp-1.6-2.fc26.i686                                          
-hwdata-0.302-1.fc27.noarch                                      
-libconfig-1.5-5.fc26.i686                                       
-hostname-3.18-2.fc26.i686                                       
-libblockdev-utils-2.10-1.fc27.i686                              
-├─libparted.so.2                                                parted-3.2-28.fc27.i686
-└─libparted-fs-resize.so.0                                      parted-3.2-28.fc27.i686
-libbytesize-0.11-1.fc27.i686                                    
-volume_key-libs-0.3.9-13.fc27.i686                              
-└─/usr/bin/gpg                                                  gnupg-1.4.21-4.fc27.i686
-dmraid-1.0.0.rc16-31.fc26.i686                                  
-├─kpartx                                                        kpartx-0.7.1-6.git847cc43.fc27.i686
-├─libdevmapper-event.so.1.02                                    device-mapper-event-libs-1.02.142-4.fc27.i686
-├─libdevmapper-event.so.1.02(Base)                              device-mapper-event-libs-1.02.142-4.fc27.i686
-├─dmraid-events                                                 dmraid-events-1.0.0.rc16-31.fc26.i686
-bcache-tools-1.0.8-8.fc26.i686                                  
-device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.i686           
-├─libaio.so.1                                                   libaio-0.3.110-7.fc26.i686
-├─libaio.so.1(LIBAIO_0.1)                                       libaio-0.3.110-7.fc26.i686
-├─libaio.so.1(LIBAIO_0.4)                                       libaio-0.3.110-7.fc26.i686
-mdadm-4.0-3.fc27.i686                                           
-gdisk-1.0.1-3.fc26.i686                                         
-augeas-libs-1.8.0-1.fc27.i686                                   
 libtar-1.2.20-9.fc26.i686                                       
 satyr-0.23-1.fc27.i686                                          
-json-c-0.12.1-2.fc27.i686                                       
-libproxy-0.4.15-2.fc27.i686                                     
-└─libmodman.so.1                                                libmodman-2.0.1-14.fc27.i686
 libreport-web-2.9.1-2.fc27.i686                                 
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-├─libjson-c.so.2                                                json-c-0.12.1-2.fc27.i686
 ├─libsatyr.so.3                                                 satyr-0.23-1.fc27.i686
 ├─libreport.so.0                                                libreport-2.9.1-2.fc27.i686
-├─libaugeas.so.0                                                augeas-libs-1.8.0-1.fc27.i686
-├─libproxy.so.1                                                 libproxy-0.4.15-2.fc27.i686
 ├─libtar.so.1                                                   libtar-1.2.20-9.fc26.i686
-├─libxmlrpc.so.3                                                xmlrpc-c-1.48.0-5.fc27.i686
-├─libxmlrpc_util.so.4                                           xmlrpc-c-1.48.0-5.fc27.i686
 ├─libxmlrpc_client.so.3                                         xmlrpc-c-client-1.48.0-5.fc27.i686
 └─libreport = 2.9.1-2.fc27                                      libreport-2.9.1-2.fc27.i686
-xmlrpc-c-1.48.0-5.fc27.i686                                     
 xmlrpc-c-client-1.48.0-5.fc27.i686                              
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-├─libxmlrpc.so.3                                                xmlrpc-c-1.48.0-5.fc27.i686
-├─libxmlrpc_util.so.4                                           xmlrpc-c-1.48.0-5.fc27.i686
-└─xmlrpc-c(x86-32) = 1.48.0-5.fc27                              xmlrpc-c-1.48.0-5.fc27.i686
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-iscsi-initiator-utils-iscsiuio-6.2.0.874-4.git86e8892.fc27.i686 
-└─iscsi-initiator-utils = 6.2.0.874-4.git86e8892.fc27           iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.i686
-isns-utils-libs-0.97-3.fc27.i686                                
 python3-cryptography-1.9-1.fc27.i686                            
 ├─python3-asn1crypto >= 0.21                                    python3-asn1crypto-0.22.0-2.fc27.noarch
 ├─python3-cffi >= 1.7                                           python3-cffi-1.10.0-1.fc27.i686
@@ -394,102 +159,36 @@ python3-cryptography-1.9-1.fc27.i686
 python3-pyOpenSSL-17.1.0-1.fc27.noarch                          
 ├─python3-cryptography                                          python3-cryptography-1.9-1.fc27.i686
 python3-pysocks-1.5.7-4.fc26.noarch                             
-gnupg-1.4.21-4.fc27.i686                                        
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686
-└─libusb-0.1.so.4                                               libusb-1:0.1.5-8.fc26.i686
-dmraid-events-1.0.0.rc16-31.fc26.i686                           
-├─libdevmapper-event.so.1.02                                    device-mapper-event-libs-1.02.142-4.fc27.i686
-├─device-mapper-event                                           device-mapper-event-1.02.142-4.fc27.i686
-├─libdmraid.so.1                                                dmraid-1.0.0.rc16-31.fc26.i686
-├─libdmraid.so.1(Base)                                          dmraid-1.0.0.rc16-31.fc26.i686
-├─sgpio                                                         sgpio-1.2.0.10-17.fc26.i686
-└─dmraid = 1.0.0.rc16-31.fc26                                   dmraid-1.0.0.rc16-31.fc26.i686
-libaio-0.3.110-7.fc26.i686                                      
-libmodman-2.0.1-14.fc27.i686                                    
 python3-asn1crypto-0.22.0-2.fc27.noarch                         
 python3-cffi-1.10.0-1.fc27.i686                                 
 ├─python3-pycparser                                             python3-pycparser-2.14-10.fc26.noarch
-libusb-1:0.1.5-8.fc26.i686                                      
-sgpio-1.2.0.10-17.fc26.i686                                     
 python3-pycparser-2.14-10.fc26.noarch                           
 ├─python3-ply                                                   python3-ply-3.9-3.fc27.noarch
 python3-ply-3.9-3.fc27.noarch                                   
 ├─curl                                                          curl-minimal-7.55.0-1.fc27.i686
 cracklib-dicts-2.9.6-7.fc27.i686                                
 firewalld-0.4.4.5-3.fc27.noarch                                 
-├─ebtables                                                      ebtables-2.0.10-22.fc26.i686
-├─ipset                                                         ipset-6.29-3.fc27.i686
 ├─firewalld-filesystem = 0.4.4.5-3.fc27                         firewalld-filesystem-0.4.4.5-3.fc27.noarch
 └─python3-firewall = 0.4.4.5-3.fc27                             python3-firewall-0.4.4.5-3.fc27.noarch
-ebtables-2.0.10-22.fc26.i686                                    
-ipset-6.29-3.fc27.i686                                          
-├─libipset.so.3                                                 ipset-libs-6.29-3.fc27.i686
-├─libipset.so.3(LIBIPSET_1.0)                                   ipset-libs-6.29-3.fc27.i686
-├─libipset.so.3(LIBIPSET_2.0)                                   ipset-libs-6.29-3.fc27.i686
-├─libipset.so.3(LIBIPSET_3.0)                                   ipset-libs-6.29-3.fc27.i686
-└─ipset-libs(x86-32) = 6.29-3.fc27                              ipset-libs-6.29-3.fc27.i686
 firewalld-filesystem-0.4.4.5-3.fc27.noarch                      
 python3-firewall-0.4.4.5-3.fc27.noarch                          
-├─python3-dbus                                                  python3-dbus-1.2.4-6.fc26.i686
-├─python3-gobject-base                                          python3-gobject-base-3.24.1-1.fc27.i686
 ├─python3-slip-dbus                                             python3-slip-dbus-0.6.4-6.fc26.noarch
 ├─python3-decorator                                             python3-decorator-4.0.11-2.fc26.noarch
-ipset-libs-6.29-3.fc27.i686                                     
 python3-decorator-4.0.11-2.fc26.noarch                          
 python3-slip-dbus-0.6.4-6.fc26.noarch                           
 ├─python3-decorator                                             python3-decorator-4.0.11-2.fc26.noarch
 ├─python3-slip = 0.6.4-6.fc26                                   python3-slip-0.6.4-6.fc26.noarch
-└─python3-dbus >= 0.80                                          python3-dbus-1.2.4-6.fc26.i686
 python3-slip-0.6.4-6.fc26.noarch                                
-├─libselinux-python3                                            libselinux-python3-2.7-1.fc27.i686
 └─glibc-langpack = 2.26-1.fc27.1                                glibc-langpack-en-2.26-1.fc27.1.i686
 glibc-langpack-en-2.26-1.fc27.1.i686                            
-libselinux-python3-2.7-1.fc27.i686                              
-parted-3.2-28.fc27.i686                                         
 python3-coverage-4.4.1-2.fc27.i686                              
 python3-kickstart-2.37-1.fc27.noarch                            
 ├─python3-requests                                              python3-requests-2.18.1-2.fc27.noarch
 ├─python3-ordered-set                                           python3-ordered-set-2.0.0-6.fc26.noarch
 python3-pwquality-1.4.0-3.fc27.i686                             
-libuser-0.62-9.fc27.i686                                        
 lz4-1.7.5-6.fc27.i686                                           
-device-mapper-multipath-0.7.1-6.git847cc43.fc27.i686            
-├─initscripts                                                   initscripts-9.72-1.fc27.i686
-├─libmpathcmd.so.0                                              device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686
-├─libmpathpersist.so.0                                          device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686
-├─libmultipath.so.0                                             device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686
-├─liburcu.so.6                                                  userspace-rcu-0.10.0-1.fc27.i686
-├─device-mapper-multipath-libs = 0.7.1-6.git847cc43.fc27        device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686
-├─kpartx = 0.7.1-6.git847cc43.fc27                              kpartx-0.7.1-6.git847cc43.fc27.i686
-userspace-rcu-0.10.0-1.fc27.i686                                
-device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686       
-├─liburcu.so.6                                                  userspace-rcu-0.10.0-1.fc27.i686
-├─libaio.so.1                                                   libaio-0.3.110-7.fc26.i686
-├─libaio.so.1(LIBAIO_0.1)                                       libaio-0.3.110-7.fc26.i686
-└─libaio.so.1(LIBAIO_0.4)                                       libaio-0.3.110-7.fc26.i686
-kpartx-0.7.1-6.git847cc43.fc27.i686                             
-device-mapper-event-1.02.142-4.fc27.i686                        
-├─libdevmapper-event.so.1.02                                    device-mapper-event-libs-1.02.142-4.fc27.i686
-├─libdevmapper-event.so.1.02(Base)                              device-mapper-event-libs-1.02.142-4.fc27.i686
-└─device-mapper-event-libs = 1.02.142-4.fc27                    device-mapper-event-libs-1.02.142-4.fc27.i686
-device-mapper-event-libs-1.02.142-4.fc27.i686                   
-lvm2-2.02.173-4.fc27.i686                                       
-├─libdevmapper-event.so.1.02                                    device-mapper-event-libs-1.02.142-4.fc27.i686
-├─libdevmapper-event.so.1.02(Base)                              device-mapper-event-libs-1.02.142-4.fc27.i686
-├─liblvm2app.so.2.2                                             lvm2-libs-2.02.173-4.fc27.i686
-├─liblvm2app.so.2.2(Base)                                       lvm2-libs-2.02.173-4.fc27.i686
-├─lvm2-libs = 2.02.173-4.fc27                                   lvm2-libs-2.02.173-4.fc27.i686
-├─device-mapper-persistent-data >= 0.7.0-0.1.rc6                device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.i686
-lvm2-libs-2.02.173-4.fc27.i686                                  
-├─libdevmapper-event.so.1.02                                    device-mapper-event-libs-1.02.142-4.fc27.i686
-├─libdevmapper-event.so.1.02(Base)                              device-mapper-event-libs-1.02.142-4.fc27.i686
-└─device-mapper-event = 1.02.142-4.fc27                         device-mapper-event-1.02.142-4.fc27.i686
-policycoreutils-2.7-1.fc27.i686                                 
-├─libselinux-utils >= 2.7-1                                     libselinux-utils-2.7-1.fc27.i686
-libselinux-utils-2.7-1.fc27.i686                                
 libpsl-0.17.0-4.fc27.i686                                       
-└─publicsuffix-list-dafsa                                       publicsuffix-list-dafsa-20170424-2.fc27.noarch
-publicsuffix-list-dafsa-20170424-2.fc27.noarch                  
 libcurl-minimal-7.55.0-1.fc27.i686                              
 curl-minimal-7.55.0-1.fc27.i686                                 
 ├─libcurl.so.4                                                  libcurl-minimal-7.55.0-1.fc27.i686

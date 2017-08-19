@@ -1,9 +1,10 @@
 #!/bin/sh
 
 arches=$(cat arches.txt)
+modules=$(ls modules | sed -e "s/^platform$//g")
 
 echo "Drawing graphs:"
-for module in $(ls modules); do
+for module in $modules; do
     echo "  Processing $module module..."
     for arch in $arches; do
         grep -F -f \
