@@ -3,17 +3,17 @@
 mkdir -p global_reports
 
 echo ""
-echo "Producing 'all-binary-packages' list..."
+echo "Producing 'all-binary-pkgs' list..."
 
 cat modules/*/all/runtime-binary-packages-short.txt  | sort | uniq | sort > global_reports/all-binary-pkgs.txt
 
 echo ""
-echo "Producing 'all-binary-packages-counted' list..."
+echo "Producing 'all-binary-pkgs-counted' list..."
 
 cat modules/*/all/runtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/all-binary-pkgs-counted.txt
 
 echo ""
-echo "Producing 'all-binary-packages-occurrences' list..."
+echo "Producing 'all-binary-pkgs-occurrences' list..."
 
 while read pkg_row; do
     pkg=$(echo $pkg_row | sed -e "s/.* //")
@@ -26,6 +26,16 @@ while read pkg_row; do
     done | sed 's/, $//'
     printf "\n"
 done < global_reports/all-binary-pkgs.txt | column -ts $'\t' > global_reports/all-binary-pkgs-occurrences.txt
+
+echo ""
+echo "Producing 'missing-build-deps-binary-pkgs' list..."
+
+cat modules/*/all/buildtime-binary-packages-short.txt  | sort | uniq | sort > global_reports/missing-build-deps-binary-pkgs.txt
+
+echo ""
+echo "Producing 'missing-build-deps-binary-pkgs-counted' list..."
+
+cat modules/*/all/buildtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/missing-build-deps-binary-pkgs.txt
 
 
 echo ""
