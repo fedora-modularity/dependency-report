@@ -37,12 +37,36 @@ echo "Producing 'missing-build-deps-binary-pkgs-counted' list..."
 
 cat modules/*/all/buildtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/missing-build-deps-binary-pkgs-counted.txt
 
+echo ""
+echo "Producing 'missing-build-deps-binary-pkgs-unmodularized' list..."
+
+comm -13 \
+    global_reports/all-binary-pkgs.txt \
+    global_reports/missing-build-deps-binary-pkgs.txt \
+    > global_reports/missing-build-deps-binary-pkgs-unmodularized.txt
+
 
 echo ""
 echo "Generating README in the global_reports directory..."
 
 {
     echo "# Global reports"
+    echo ""
+    echo "This directory contains global reports - a view on all modules at once."
+    echo ""
+    echo "## Files"
+    echo ""
+    echo "### Runtime dependencies"
+    echo ""
+    echo "* [**all-binary-pkgs.txt**](all-binary-pkgs.txt) - All binary packages included in all modules."
+    echo "* [**all-binary-pkgs-counted.txt**](all-binary-pkgs-counted.txt) - All binary packages included in all modules, with a number saying in how many modules the package is."
+    echo "* [**all-binary-pkgs-occurencees.txt**](all-binary-pkgs-occurencees.txt) - All binary packages included in all modules, with a list of modules they are included in."
+    echo ""
+    echo "### Build dependencies"
+    echo ""
+    echo "* [**missing-build-deps-binary-pkgs.txt**](missing-build-deps-binary-pkgs.txt) - Missing build dependencies of all modules. Some of these packages might be already modularized, the build dependency just need to be defined."
+    echo "* [**missing-build-deps-binary-pkgs-counted.txt**](missing-build-deps-binary-pkgs-counted.txt) - Missing build dependencies of all modules. Some of these packages might be already modularized, the build dependency just need to be defined. With a number representing how many modules are missing such dependency."
+    echo "* [**missing-build-deps-binary-pkgs-unmodularized.txt**](missing-build-deps-binary-pkgs-unmodularized.txt) - Missing build dependencies of all modules. None of these packages are included in modules, so they need to get modularized."
     echo ""
     echo "![module-deps](../img/module-deps.png)"
     echo "## There are $(ls modules | wc -l) modules:"

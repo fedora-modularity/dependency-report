@@ -58,7 +58,7 @@ echo ""
 echo "========================================="
 echo "Generating global reports..."
 echo "========================================="
-./where_is_pkg.sh
+./global_reports.sh
 
 echo ""
 echo "========================================="
