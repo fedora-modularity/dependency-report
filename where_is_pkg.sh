@@ -35,7 +35,7 @@ cat modules/*/all/buildtime-binary-packages-short.txt  | sort | uniq | sort > gl
 echo ""
 echo "Producing 'missing-build-deps-binary-pkgs-counted' list..."
 
-cat modules/*/all/buildtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/missing-build-deps-binary-pkgs.txt
+cat modules/*/all/buildtime-binary-packages-short.txt  | sort | uniq -c | sort > global_reports/missing-build-deps-binary-pkgs-counted.txt
 
 
 echo ""
