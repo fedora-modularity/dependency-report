@@ -2,6 +2,8 @@
 
 This directory contains global reports - a view on all modules at once.
 
+For more details **individual modules** and **architecture-specific** information, please see the table below.
+
 ## Files
 
 ### Runtime dependencies
