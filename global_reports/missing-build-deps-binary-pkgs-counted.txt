@@ -1,13 +1,15 @@
      10 atk
      10 cups-libs
+     10 curl-minimal
      10 cyrus-sasl
      10 cyrus-sasl-devel
      10 gdk-pixbuf2-modules
+     10 gettext
+     10 gettext-libs
      10 ghostscript-core
      10 ghostscript-fonts
      10 gtk-update-icon-cache
      10 hicolor-icon-theme
-     10 libkadm5
      10 libwebp
      10 libX11-devel
      10 libXau-devel
@@ -16,11 +18,13 @@
      10 poppler-data
      10 urw-fonts
      10 xorg-x11-proto-devel
+     10 xz-devel
      11 bzip2-devel
      11 fontpackages-filesystem
      11 gdk-pixbuf2
      11 jasper-libs
      11 libfontenc
+     11 libkadm5
      11 libX11-xcb
      11 libXcomposite
      11 libXdamage
@@ -48,28 +52,28 @@
      12 pango
      12 pixman
       1 389-ds-base-devel
-     13 keyutils-libs-devel
-     13 krb5-devel
      13 lcms2
-     13 libcom_err-devel
-     13 libverto-devel
      13 libX11
      13 libX11-common
      13 libXau
      13 libxcb
      13 libXi
      13 libXt
-     14 python2-devel
-     14 python2-rpm-macros
-     15 libcroco
+     14 keyutils-libs-devel
+     14 krb5-devel
+     14 libcom_err-devel
+     14 libverto-devel
      15 libICE
      15 libSM
      15 libXext
-     16 python3-devel
-     16 python3-rpm-generators
-     16 python3-rpm-macros
-     16 python-rpm-macros
-     16 zlib-devel
+     15 python2-devel
+     15 python2-rpm-macros
+     16 libcroco
+     17 python3-devel
+     17 python3-rpm-generators
+     17 python3-rpm-macros
+     17 python-rpm-macros
+     17 zlib-devel
       1 aesh
       1 ant-antlr
       1 antlr3-java
@@ -87,9 +91,11 @@
       1 args4j
       1 aspell
       1 attr
+      1 autoconf-archive
       1 autogen
       1 autogen-libopts-devel
       1 base64coder
+      1 bash-completion
       1 bcel
       1 bean-validation-api
       1 bind-devel
@@ -122,6 +128,7 @@
       1 cyrus-sasl-gssapi
       1 dejagnu
       1 dejavu-sans-fonts
+      1 device-mapper-event-devel
       1 dom4j
       1 dyninst-devel
       1 easymock
@@ -129,7 +136,6 @@
       1 ehcache-core
       1 ehcache-parent
       1 ehcache-sizeof-agent
-      1 elinks
       1 epydoc
       1 erlang
       1 erlang-asn1
@@ -194,6 +200,7 @@
       1 gcc-objc
       1 gcc-objc++
       1 gc-devel
+      1 gdbm-devel
       1 geronimo-interceptor
       1 geronimo-jaxrpc
       1 geronimo-jpa
@@ -211,14 +218,13 @@
       1 glusterfs-fuse
       1 glusterfs-libs
       1 glusterfs-server
+      1 gnome-common
       1 gnu-getopt
       1 google-gson
-      1 gpm-libs
       1 groff
       1 groovy18
       1 groovy18-lib
       1 gssntlmssp-devel
-      1 gtk-doc
       1 guile-devel
       1 hamcrest
       1 hardlink
@@ -242,6 +248,7 @@
       1 infinispan
       1 isorelax
       1 istack-commons-tools
+      1 itstool
       1 iw
       1 jackson-annotations
       1 jackson-core
@@ -297,7 +304,6 @@
       1 jline1
       1 jna
       1 joda-convert
-      1 js
       1 jsch
       1 json-c-devel
       1 jsonp
@@ -313,16 +319,16 @@
       1 leveldb-devel
       1 leveldb-java
       1 leveldbjni
+      1 libatasmart-devel
       1 libatomic_ops-devel
       1 libbabeltrace-devel
-      1 libblkid-devel
       1 libcephfs1
       1 libcephfs-devel
       1 libcroco-devel
+      1 libdb-devel
       1 libdbi
       1 libdhash
       1 libdwarf-devel
-      1 libgudev-devel
       1 libicns
       1 libicns-utils
       1 libidn2-devel
@@ -346,6 +352,7 @@
       1 libsss_idmap-devel
       1 libsss_nss_idmap-devel
       1 libstdc++-static
+      1 libstoragemgmt-devel
       1 libsysfs
       1 libsysfs-devel
       1 libtdb
@@ -367,8 +374,11 @@
       1 lttng-ust-devel
       1 lucene
       1 lucene-analysis
+      1 lvm2-devel
       1 lynx
       1 lzip
+      1 m2crypto
+      1 mallard-rng
       1 man-db
       1 maven-deploy-plugin
       1 maven-enforcer-api
@@ -409,9 +419,17 @@
       1 oniguruma
       1 oniguruma-devel
       1 optipng
+      1 perl
       1 perl-accessors
+      1 perl-Algorithm-Diff
       1 perl-AppConfig
+      1 perl-Archive-Tar
+      1 perl-Archive-Zip
+      1 perl-Attribute-Handlers
+      1 perl-autodie
+      1 perl-B-Debug
       1 perl-B-Hooks-EndOfScope
+      1 perl-bignum
       1 perl-B-Keywords
       1 perl-BSD-Resource
       1 perl-Business-ISBN
@@ -424,26 +442,62 @@
       1 perl-Class-Tiny
       1 perl-Class-XSAccessor
       1 perl-Clone
+      1 perl-Compress-Bzip2
+      1 perl-Compress-Raw-Bzip2
+      1 perl-Compress-Raw-Zlib
+      1 perl-Config-Perl-V
       1 perl-Config-Tiny
+      1 perl-CPAN
       1 perl-CPAN-Changes
+      1 perl-CPAN-Meta
+      1 perl-CPAN-Meta-Requirements
+      1 perl-CPAN-Meta-YAML
       1 perl-Data-Dump
+      1 perl-Data-OptList
       1 perl-Data-Perl
+      1 perl-Data-Section
+      1 perl-DB_File
+      1 perl-devel
       1 perl-Devel-CheckLib
       1 perl-Devel-GlobalDestruction
+      1 perl-Devel-Peek
+      1 perl-Devel-PPPort
+      1 perl-Devel-SelfStubber
+      1 perl-Devel-Size
       1 perl-Devel-StackTrace
+      1 perl-Digest
       1 perl-Digest-HMAC
+      1 perl-Digest-MD5
+      1 perl-Digest-SHA
       1 perl-Digest-SHA1
       1 perl-Dist-CheckConflicts
       1 perl-Email-Address
+      1 perl-encoding
+      1 perl-Env
       1 perl-Exception-Class
       1 perl-Expect
+      1 perl-experimental
       1 perl-Exporter-Tiny
+      1 perl-ExtUtils-CBuilder
+      1 perl-ExtUtils-Command
+      1 perl-ExtUtils-Embed
+      1 perl-ExtUtils-Install
+      1 perl-ExtUtils-MakeMaker
+      1 perl-ExtUtils-Manifest
+      1 perl-ExtUtils-Miniperl
+      1 perl-ExtUtils-MM-Utils
+      1 perl-ExtUtils-ParseXS
+      1 perl-File-Fetch
       1 perl-File-Find-Rule
       1 perl-File-Find-Rule-Perl
+      1 perl-File-HomeDir
       1 perl-File-Listing
       1 perl-File-ShareDir
       1 perl-File-Slurp
       1 perl-File-Slurp-Tiny
+      1 perl-File-Which
+      1 perl-Filter
+      1 perl-Filter-Simple
       1 perl-GD
       1 perl-GD-Barcode
       1 perl-Getopt-Long-Descriptive
@@ -454,33 +508,65 @@
       1 perl-Image-Xbm
       1 perl-Image-Xpm
       1 perl-Import-Into
+      1 perl-inc-latest
+      1 perl-IO-Compress
+      1 perl-IO-Socket-IP
       1 perl-IO-Socket-SSL
       1 perl-IO-String
       1 perl-IO-stringy
       1 perl-IO-Tty
+      1 perl-IO-Zlib
+      1 perl-IPC-Cmd
       1 perl-IPC-Run
       1 perl-IPC-Run3
+      1 perl-IPC-System-Simple
+      1 perl-IPC-SysV
+      1 perl-JSON-PP
+      1 perl-libnet
+      1 perl-libnetcfg
       1 perl-libwww-perl
       1 perl-Lingua-EN-Inflect
       1 perl-List-MoreUtils
+      1 perl-Locale-Codes
       1 perl-Locale-gettext
+      1 perl-Locale-Maketext
+      1 perl-Locale-Maketext-Simple
+      1 perl-local-lib
+      1 perl-Math-BigInt
+      1 perl-Math-BigInt-FastCalc
+      1 perl-Math-BigRat
+      1 perl-Math-Complex
       1 perl-MCE
+      1 perl-Memoize
       1 perl-Mixin-Linewise
+      1 perl-Module-Build
+      1 perl-Module-CoreList
+      1 perl-Module-CoreList-tools
       1 perl-Module-Implementation
+      1 perl-Module-Load
+      1 perl-Module-Load-Conditional
+      1 perl-Module-Loaded
+      1 perl-Module-Metadata
       1 perl-Module-Pluggable
       1 perl-Module-Refresh
       1 perl-Module-Runtime
       1 perl-Module-Signature
       1 perl-Moo
       1 perl-MooX-HandlesVia
+      1 perl-MRO-Compat
       1 perl-namespace-autoclean
       1 perl-namespace-clean
       1 perl-Net-HTTP
+      1 perl-Net-Ping
       1 perl-Net-SSLeay
       1 perl-NTLM
       1 perl-Number-Compare
+      1 perl-open
+      1 perl-Package-Generator
       1 perl-Package-Stash
       1 perl-Package-Stash-XS
+      1 perl-Params-Check
+      1 perl-Params-Util
       1 perl-Params-Validate
       1 perl-PAR-Dist
       1 perl-Parse-Yapp
@@ -488,12 +574,18 @@
       1 perl-Perl-Critic
       1 perl-Perl-Critic-Deprecated
       1 perl-Perl-Critic-Lax
+      1 perl-perlfaq
       1 perl-perlindex
       1 perl-PerlIO-utf8_strict
+      1 perl-PerlIO-via-QuotedPrint
       1 perl-Perl-MinimumVersion
+      1 perl-Perl-OSType
       1 perl-Perl-Version
+      1 perl-Pod-Checker
       1 perl-Pod-Coverage-TrustPod
       1 perl-Pod-Eventual
+      1 perl-Pod-Html
+      1 perl-Pod-Parser
       1 perl-Pod-POM
       1 perl-Pod-Readme
       1 perl-Pod-Spell
@@ -502,24 +594,31 @@
       1 perl-PPIx-Utilities
       1 perl-Readonly
       1 perl-Role-Tiny
+      1 perl-SelfLoader
       1 perl-Sereal
       1 perl-Sereal-Decoder
       1 perl-Sereal-Encoder
       1 perl-Socket6
+      1 perl-Software-License
       1 perl-Software-License-CCpack
       1 perl-Sort-Versions
       1 perl-strictures
       1 perl-String-Format
+      1 perl-Sub-Exporter
       1 perl-Sub-Exporter-Progressive
       1 perl-Sub-Identify
+      1 perl-Sub-Install
       1 perl-Sub-Quote
       1 perl-SUPER
+      1 perl-Sys-Syslog
       1 perl-TAP-Formatter-HTML
       1 perl-Task-Weaken
       1 perl-Template-Toolkit
+      1 perl-Test
       1 perl-Test-CPAN-Meta
       1 perl-Test-Distribution
       1 perl-Test-FailWarnings
+      1 perl-Test-Harness
       1 perl-Test-LeakTrace
       1 perl-Test-MinimumVersion
       1 perl-Test-MockModule
@@ -527,17 +626,28 @@
       1 perl-Test-Output
       1 perl-Test-Perl-Critic
       1 perl-Test-Portability-Files
+      1 perl-Test-Simple
       1 perl-Test-Spelling
       1 perl-Test-Taint
       1 perl-Test-Version
+      1 perl-Text-Balanced
+      1 perl-Text-Diff
+      1 perl-Text-Glob
+      1 perl-Text-Template
       1 perltidy
       1 perl-Tie-IxHash
+      1 perl-Time-HiRes
+      1 perl-Time-Piece
       1 perl-Tk
       1 perl-Tk-Pod
       1 perl-Try-Tiny
       1 perl-Type-Tiny
+      1 perl-Unicode-Collate
       1 perl-Unicode-UTF8
+      1 perl-URI
+      1 perl-utils
       1 perl-Variable-Magic
+      1 perl-version
       1 perl-WWW-RobotRules
       1 perl-XML-LibXML
       1 perl-XML-NamespaceSupport
@@ -552,8 +662,6 @@
       1 plexus-cli
       1 plexus-containers-component-metadata
       1 po4a
-      1 polkit-devel
-      1 polkit-docs
       1 ppp
       1 ppp-devel
       1 pps-tools-devel
@@ -588,6 +696,7 @@
       1 python2-pytest-httpbin
       1 python2-pytest-mock
       1 python2-python-etcd
+      1 python2-pyudev
       1 python2-requests
       1 python2-singledispatch
       1 python2-subunit
@@ -596,6 +705,7 @@
       1 python2-tornado
       1 python2-tox
       1 python2-traceback2
+      1 python2-typing
       1 python2-unittest2
       1 python2-urllib3
       1 python2-waitress
@@ -629,12 +739,15 @@
       1 python3-pyflakes
       1 python3-pyldap
       1 python3-pylint
+      1 python3-pyparsing
       1 python3-pytest-cov
       1 python3-pytest-httpbin
       1 python3-pytest-mock
       1 python3-pytest-runner
       1 python3-python-etcd
       1 python3-pyusb
+      1 python3-pywbem
+      1 python3-PyYAML
       1 python3-talloc
       1 python3-talloc-devel
       1 python3-tdb
@@ -661,7 +774,9 @@
       1 python-testtools
       1 python-webtest
       1 pytz
+      1 pywbem
       1 pyxattr
+      1 PyYAML
       1 quota-devel
       1 regexp
       1 relaxngcc
@@ -690,6 +805,7 @@
       1 spymemcached
       1 stream-lib
       1 svrcore
+      1 systemtap-sdt-devel
       1 teamd-devel
       1 testng
       1 texinfo-tex
@@ -709,7 +825,6 @@
       1 uuid
       1 uuid-devel
       1 vala-devel
-      1 valgrind
       1 valgrind-devel
       1 web-assets-devel
       1 web-assets-filesystem
@@ -733,12 +848,13 @@
       1 xml-stylebook
       1 xnio
       1 yajl
+      1 yajl-devel
       1 yasm
+      1 yelp-tools
+      1 yelp-xsl
       1 zopfli
       2 ant-junit
       2 apache-commons-cli
-      2 autoconf
-      2 automake
       2 bind-libs
       2 bind-libs-lite
       2 bind-license
@@ -754,9 +870,8 @@
       2 copy-jdk-configs
       2 dbus-x11
       2 diffstat
-      2 docbook-style-dsssl
-      2 docbook-utils
       2 e2fsprogs-devel
+      2 elinks
       2 expect
       2 fontawesome-fonts
       2 GeoIP
@@ -767,7 +882,8 @@
       2 gperf
       2 gperftools-devel
       2 gperftools-libs
-      2 groff-base
+      2 gpm-libs
+      2 gtk-doc
       2 help2man
       2 hesiod-devel
       2 http-parser-devel
@@ -779,15 +895,14 @@
       2 javapackages-tools
       2 jaxen
       2 jdom
-      2 libacl-devel
+      2 js
       2 libarchive-devel
-      2 libattr-devel
+      2 libblkid-devel
       2 libdhash-devel
       2 libedit-devel
       2 libevent-devel
       2 libfabric
-      2 libgcrypt-devel
-      2 libgpg-error-devel
+      2 libgudev-devel
       2 libibumad
       2 libibverbs
       2 libnfsidmap-devel
@@ -796,7 +911,6 @@
       2 libsmbclient-devel
       2 libtalloc
       2 libtevent
-      2 libtool
       2 libunwind-devel
       2 libXaw-devel
       2 libXdmcp
@@ -818,62 +932,28 @@
       2 munge
       2 munge-libs
       2 netpbm-progs
-      2 openjade
       2 openmpi
       2 openmpi-devel
       2 opensm-libs
-      2 perl-Carp
-      2 perl-constant
-      2 perl-Data-Dumper
       2 perl-Devel-Symdump
-      2 perl-Encode
       2 perl-Encode-Locale
-      2 perl-Errno
-      2 perl-Exporter
       2 perl-Fedora-VSP
-      2 perl-File-Path
-      2 perl-File-Temp
       2 perl-generators
-      2 perl-Getopt-Long
       2 perl-HTML-Parser
       2 perl-HTML-Tagset
       2 perl-HTTP-Date
       2 perl-HTTP-Message
-      2 perl-HTTP-Tiny
-      2 perl-interpreter
-      2 perl-IO
       2 perl-IO-HTML
       2 perl-libintl-perl
-      2 perl-libs
       2 perl-LWP-MediaTypes
-      2 perl-macros
-      2 perl-MIME-Base64
-      2 perl-parent
-      2 perl-PathTools
       2 perl-Pod-Coverage
-      2 perl-Pod-Escapes
-      2 perl-podlators
-      2 perl-Pod-Perldoc
-      2 perl-Pod-Simple
-      2 perl-Pod-Usage
-      2 perl-Scalar-List-Utils
-      2 perl-SGMLSpm
-      2 perl-Socket
-      2 perl-Storable
-      2 perl-Term-ANSIColor
-      2 perl-Term-Cap
       2 perl-Test-Pod
       2 perl-Test-Pod-Coverage
-      2 perl-Text-ParseWords
-      2 perl-Text-Tabs+Wrap
-      2 perl-Thread-Queue
-      2 perl-threads
-      2 perl-threads-shared
       2 perl-TimeDate
-      2 perl-Time-Local
       2 perl-Unicode-EastAsianWidth
-      2 perl-Unicode-Normalize
       2 policycoreutils-devel
+      2 polkit-devel
+      2 polkit-docs
       2 psutils
       2 python2-coverage
       2 python2-Cython
@@ -1109,7 +1189,7 @@
       2 uid_wrapper
       2 unixODBC
       2 ustr
-      2 vala
+      2 valgrind
       2 velocity
       2 xalan-j2
       2 xcb-proto
@@ -1145,6 +1225,8 @@
       3 at-spi2-atk-devel
       3 at-spi2-core-devel
       3 audit-libs-devel
+      3 autoconf
+      3 automake
       3 avahi
       3 avahi-devel
       3 avahi-glib
@@ -1159,9 +1241,9 @@
       3 cairo-gobject-devel
       3 cdi-api
       3 cdparanoia-libs
-      3 check
-      3 check-devel
       3 dain-snappy
+      3 docbook-style-dsssl
+      3 docbook-utils
       3 elfutils-devel
       3 emacs
       3 emacs-common
@@ -1188,6 +1270,7 @@
       3 google-guice
       3 google-roboto-slab-fonts
       3 gpars
+      3 groff-base
       3 groovy-lib
       3 gstreamer1
       3 gstreamer1-plugins-base
@@ -1211,12 +1294,16 @@
       3 kxml
       3 lato-fonts
       3 lcms2-devel
+      3 libacl-devel
+      3 libattr-devel
       3 libbasicobjects-devel
       3 libcollection-devel
       3 libepoxy-devel
       3 libexif
+      3 libgcrypt-devel
       3 libgdiplus
       3 libglade2
+      3 libgpg-error-devel
       3 libini_config-devel
       3 libjpeg-turbo-devel
       3 liblockfile
@@ -1226,6 +1313,7 @@
       3 libotf
       3 libref_array-devel
       3 libtheora
+      3 libtool
       3 libunistring-devel
       3 libusbx-devel
       3 libvisual
@@ -1313,7 +1401,7 @@
       3 nss_wrapper
       3 numactl-libs
       3 objectweb-asm
-      3 opensp
+      3 openjade
       3 opus
       3 orc
       3 osgi-annotation
@@ -1321,6 +1409,41 @@
       3 osgi-core
       3 parboiled
       3 pegdown
+      3 perl-Carp
+      3 perl-constant
+      3 perl-Data-Dumper
+      3 perl-Encode
+      3 perl-Errno
+      3 perl-Exporter
+      3 perl-File-Path
+      3 perl-File-Temp
+      3 perl-Getopt-Long
+      3 perl-HTTP-Tiny
+      3 perl-interpreter
+      3 perl-IO
+      3 perl-libs
+      3 perl-macros
+      3 perl-MIME-Base64
+      3 perl-parent
+      3 perl-PathTools
+      3 perl-Pod-Escapes
+      3 perl-podlators
+      3 perl-Pod-Perldoc
+      3 perl-Pod-Simple
+      3 perl-Pod-Usage
+      3 perl-Scalar-List-Utils
+      3 perl-SGMLSpm
+      3 perl-Socket
+      3 perl-Storable
+      3 perl-Term-ANSIColor
+      3 perl-Term-Cap
+      3 perl-Text-ParseWords
+      3 perl-Text-Tabs+Wrap
+      3 perl-Thread-Queue
+      3 perl-threads
+      3 perl-threads-shared
+      3 perl-Time-Local
+      3 perl-Unicode-Normalize
       3 plexus-archiver
       3 plexus-build-api
       3 plexus-cipher
@@ -1358,7 +1481,6 @@
       3 python3-gobject
       3 python3-javapackages
       3 python-gobject
-      3 python-libxml2
       3 python-sphinx-locale
       3 python-xpyb
       3 qdox
@@ -1369,8 +1491,6 @@
       3 samba-devel
       3 sisu-inject
       3 sisu-plexus
-      3 subunit
-      3 subunit-devel
       3 svrcore-devel
       3 tcl-devel
       3 teckit
@@ -1432,12 +1552,12 @@
       3 texlive-xetexconfig
       3 texlive-xetex-def
       3 tk
+      3 vala
       3 vim-filesystem
       3 wayland-devel
       3 wayland-protocols-devel
       3 webkitgtk4
       3 webkitgtk4-jsc
-      3 which
       3 xbean
       3 xmlgraphics-commons
       3 xmltoman
@@ -1478,7 +1598,8 @@
       4 boost-timer
       4 boost-type_erasure
       4 boost-wave
-      4 ctags
+      4 check
+      4 check-devel
       4 cups-devel
       4 dbus-glib-devel
       4 dejavu-sans-mono-fonts
@@ -1518,6 +1639,7 @@
       4 mesa-libGL-devel
       4 mesa-libGLU-devel
       4 OpenEXR-libs
+      4 opensp
       4 perl-Error
       4 perl-Git
       4 perl-TermReadKey
@@ -1531,15 +1653,18 @@
       4 python3-cryptography
       4 python3-idna
       4 python3-pycparser
+      4 python-libxml2
       4 qt
       4 qt-common
       4 qt-devel
       4 qt-settings
       4 qt-x11
       4 rhino
-      4 source-highlight
+      4 subunit
+      4 subunit-devel
       4 tcp_wrappers-devel
       4 texlive-fancyhdr
+      4 which
       4 xemacs-filesystem
       5 adwaita-cursor-theme
       5 adwaita-icon-theme
@@ -1548,49 +1673,35 @@
       5 bison
       5 cairo-gobject
       5 colord-libs
-      5 cryptopp
+      5 ctags
       5 dejavu-fonts-common
       5 dos2unix
-      5 gnutls-c++
-      5 gnutls-dane
-      5 gnutls-devel
-      5 gobject-introspection-devel
       5 gtk3
-      5 intltool
       5 libcmocka
       5 libcmocka-devel
       5 libepoxy
-      5 libffi-devel
       5 libgfortran
       5 libgusb
       5 libquadmath
       5 libquadmath-devel
       5 libsoup
       5 libtalloc-devel
-      5 libtasn1-devel
       5 libtevent-devel
       5 libwayland-cursor
       5 libxkbcommon
       5 libxkbcommon-x11
       5 mesa-libGLU
       5 mesa-libwayland-egl
-      5 nettle-devel
       5 perl-Text-Unidecode
       5 perl-XML-XPath
-      5 pycryptopp
-      5 python2-markupsafe
-      5 python2-paste
-      5 python2-pyOpenSSL
       5 python3-beautifulsoup4
       5 python3-cssselect
       5 python3-html5lib
       5 python3-lxml
       5 python3-py
       5 python3-pytest
-      5 python-beaker
-      5 python-mako
-      5 python-tempita
       5 rest
+      5 source-highlight
       5 texlive-base
       5 texlive-kpathsea
       5 texlive-kpathsea-bin
@@ -1601,34 +1712,33 @@
       5 texlive-tetex-bin
       5 texlive-texlive.infra
       5 texlive-texlive.infra-bin
-      5 unbound-libs
       5 xkeyboard-config
       6 atk-devel
-      6 boost-regex
       6 cairo-devel
-      6 cmake
-      6 cmake-data
+      6 cryptopp
       6 dbus-devel
       6 dbus-python
       6 freetype
       6 gdk-pixbuf2-devel
-      6 gmp-c++
-      6 gmp-devel
+      6 gnutls-c++
+      6 gnutls-dane
+      6 gnutls-devel
+      6 gobject-introspection-devel
       6 graphite2-devel
       6 graphviz
       6 gtk2-devel
       6 gts
       6 harfbuzz-devel
-      6 jsoncpp
+      6 intltool
       6 lasi
       6 libcap-devel
       6 libdrm
+      6 libffi-devel
       6 libglvnd
       6 libglvnd-egl
       6 libglvnd-glx
       6 libpng
-      6 libuuid-devel
-      6 libuv
+      6 libtasn1-devel
       6 libwayland-client
       6 libwayland-server
       6 libXcomposite-devel
@@ -1638,60 +1748,71 @@
       6 mesa-libgbm
       6 mesa-libGL
       6 mesa-libglapi
-      6 p11-kit-devel
+      6 nettle-devel
       6 pango-devel
       6 pixman-devel
+      6 pycryptopp
+      6 python2-markupsafe
+      6 python2-paste
+      6 python2-pyOpenSSL
       6 python3-nose
       6 python3-ply
-      6 rhash
-      6 sqlite-devel
+      6 python-beaker
+      6 python-mako
+      6 python-tempita
+      6 unbound-libs
       6 xmlto
       6 xorg-x11-fonts-ISO8859-1-100dpi
       7 aajohan-comfortaa-fonts
+      7 boost-regex
+      7 cmake
+      7 cmake-data
       7 doxygen
       7 gd
+      7 gmp-c++
+      7 gmp-devel
       7 java-1.8.0-openjdk
       7 java-1.8.0-openjdk-devel
+      7 jsoncpp
+      7 libuuid-devel
+      7 libuv
       7 libXcursor-devel
       7 libXfixes-devel
       7 libXi-devel
       7 libXinerama-devel
       7 libXrandr-devel
       7 libXxf86vm
+      7 p11-kit-devel
       7 pam-devel
       7 popt-devel
-      7 python2-asn1crypto
-      7 python2-cffi
-      7 python2-cryptography
-      7 python2-idna
       7 python2-nose
-      7 python2-ply
-      7 python2-pycparser
-      7 python2-six
-      7 python-enum34
-      7 python-ipaddress
-      7 sqlite
+      7 rhash
+      7 sqlite-devel
       7 ttmkfdir
       7 xapian-core-libs
       7 xorg-x11-fonts-Type1
       8 avahi-libs
-      8 gettext-common-devel
-      8 gettext-devel
       8 harfbuzz-icu
       8 libICE-devel
       8 libSM-devel
       8 libXext-devel
-      8 libxml2-devel
       8 libXt-devel
       8 netpbm
-      8 openssl-devel
-      8 perl-XML-Parser
+      8 python2-asn1crypto
+      8 python2-cffi
+      8 python2-cryptography
+      8 python2-idna
+      8 python2-ply
+      8 python2-pycparser
+      8 python2-six
+      8 python-enum34
+      8 python-ipaddress
       8 readline-devel
-      9 curl-minimal
+      8 sqlite
       9 fontconfig-devel
       9 freetype-devel
-      9 gettext
-      9 gettext-libs
+      9 gettext-common-devel
+      9 gettext-devel
       9 giflib
       9 gtk2
       9 libicu-devel
@@ -1699,9 +1820,11 @@
       9 librsvg2
       9 libXaw
       9 libXft-devel
+      9 libxml2-devel
       9 libXpm
       9 libXrender-devel
       9 libXtst
       9 ncurses-c++-libs
       9 ncurses-devel
-      9 xz-devel
+      9 openssl-devel
+      9 perl-XML-Parser

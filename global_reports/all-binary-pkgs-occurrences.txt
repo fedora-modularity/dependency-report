@@ -93,7 +93,7 @@ cronie                               storage-devices
 cronie-noanacron                     storage-devices
 crontabs                             storage-devices
 crypto-policies                      platform
-cryptsetup                           storage-devices
+cryptsetup                           storaged, storage-devices
 cryptsetup-libs                      platform
 cups-client                          storage-devices
 cups-libs                            samba, storage-devices
@@ -320,6 +320,7 @@ libaio-devel                         platform-placeholder
 libarchive                           platform
 libasan                              platform
 libassuan                            platform
+libatasmart                          storaged
 libatomic                            platform
 libatomic_ops                        platform
 libattr                              platform
@@ -388,7 +389,7 @@ libgcc                               platform
 libgcrypt                            platform
 libgomp                              platform
 libgpg-error                         platform
-libgudev                             networking-base
+libgudev                             networking-base, storaged
 libicu                               platform-placeholder
 libidn                               platform
 libidn2                              platform
@@ -470,6 +471,9 @@ libsss_idmap                         sssd
 libsss_nss_idmap                     sssd
 libstdc++                            platform
 libstdc++-devel                      platform
+libstoraged                          storaged
+libstoraged-devel                    storaged
+libstoragemgmt                       storaged
 libsysfs                             platform-placeholder
 libtalloc                            samba
 libtar                               installer
@@ -576,6 +580,8 @@ nss-softokn-freebl                   platform
 nss-sysinit                          platform
 nss-tools                            389-ds, httpd, pki
 nss-util                             platform
+ntfs-3g                              storaged
+ntfsprogs                            storaged
 ntp                                  freeipa
 nuxwdog                              pki
 nuxwdog-client-java                  pki
@@ -866,6 +872,8 @@ python3-libcomps                     platform
 python3-libnl3                       platform-placeholder
 python3-librepo                      platform
 python3-libs                         platform
+python3-libstoragemgmt               storaged
+python3-libstoragemgmt-clibs         storaged
 python3-meh                          installer
 python3-ntplib                       installer
 python3-ordered-set                  installer
@@ -1006,6 +1014,13 @@ sssd-krb5-common                     sssd
 sssd-ldap                            sssd
 stax2-api                            resteasy
 stax-ex                              resteasy
+storaged                             storaged
+storaged-bcache                      storaged
+storaged-btrfs                       storaged
+storaged-iscsi                       storaged
+storaged-lsm                         storaged
+storaged-lvm2                        storaged
+storaged-zram                        storaged
 sudo                                 platform
 svrcore                              389-ds
 sysfsutils                           platform-placeholder
@@ -1067,6 +1082,7 @@ xmlstreambuffer                      resteasy
 xsom                                 resteasy
 xz                                   platform
 xz-libs                              platform
+yajl                                 storaged
 zip                                  platform
 zlib                                 platform
 zstd                                 platform

@@ -80,7 +80,6 @@
       1 cronie-noanacron
       1 crontabs
       1 crypto-policies
-      1 cryptsetup
       1 cryptsetup-libs
       1 cups-client
       1 curl
@@ -290,6 +289,7 @@
       1 libarchive
       1 libasan
       1 libassuan
+      1 libatasmart
       1 libatomic
       1 libatomic_ops
       1 libattr
@@ -356,7 +356,6 @@
       1 libgcrypt
       1 libgomp
       1 libgpg-error
-      1 libgudev
       1 libicu
       1 libidn
       1 libidn2
@@ -432,6 +431,9 @@
       1 libsss_nss_idmap
       1 libstdc++
       1 libstdc++-devel
+      1 libstoraged
+      1 libstoraged-devel
+      1 libstoragemgmt
       1 libsysfs
       1 libtalloc
       1 libtar
@@ -517,6 +519,8 @@
       1 nss-softokn-freebl
       1 nss-sysinit
       1 nss-util
+      1 ntfs-3g
+      1 ntfsprogs
       1 ntp
       1 nuxwdog
       1 nuxwdog-client-java
@@ -664,6 +668,8 @@
       1 python3-libnl3
       1 python3-librepo
       1 python3-libs
+      1 python3-libstoragemgmt
+      1 python3-libstoragemgmt-clibs
       1 python3-meh
       1 python3-ntplib
       1 python3-ordered-set
@@ -791,6 +797,13 @@
       1 sssd-ldap
       1 stax2-api
       1 stax-ex
+      1 storaged
+      1 storaged-bcache
+      1 storaged-btrfs
+      1 storaged-iscsi
+      1 storaged-lsm
+      1 storaged-lvm2
+      1 storaged-zram
       1 sudo
       1 svrcore
       1 sysfsutils
@@ -846,6 +859,7 @@
       1 xsom
       1 xz
       1 xz-libs
+      1 yajl
       1 zip
       1 zlib
       1 zstd
@@ -857,6 +871,7 @@
       2 bind-utils
       2 boost-iostreams
       2 boost-random
+      2 cryptsetup
       2 cups-libs
       2 cyrus-sasl-gssapi
       2 firewalld
@@ -870,6 +885,7 @@
       2 gperftools-libs
       2 libcroco
       2 libdb-devel
+      2 libgudev
       2 libkadm5
       2 libndp
       2 libpsl

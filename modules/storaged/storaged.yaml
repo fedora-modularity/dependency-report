@@ -1,0 +1,38 @@
+document: modulemd
+version: 1
+data:
+    summary: storaged module
+    description: This storaged has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/storaged
+        tracker: https://github.com/modularity-modules/storaged
+    components:
+        rpms:
+            libatasmart:
+                rationale: Generated.
+                ref: master.
+            libgudev:
+                rationale: Generated.
+                ref: master.
+            libstoragemgmt:
+                rationale: Generated.
+                ref: master.
+            ntfs-3g:
+                rationale: Generated.
+                ref: master.
+            storaged:
+                rationale: Generated.
+                ref: master.
+            yajl:
+                rationale: Generated.
+                ref: master.

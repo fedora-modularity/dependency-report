@@ -127,6 +127,10 @@ digraph G {
   "sssd" -> "platform-placeholder" [color="#aa0000"];
   "sssd" -> "autotools" [color="#aa0000"];
   "sssd" -> "perl" [color="#aa0000"];
+  "storaged" -> "platform" [color="#009900"];
+  "storaged" -> "platform-placeholder" [color="#009900"];
+  "storaged" -> "platform" [color="#aa0000"];
+  "storaged" -> "platform-placeholder" [color="#aa0000"];
   "storage-devices" -> "platform" [color="#009900"];
   "storage-devices" -> "platform-placeholder" [color="#009900"];
   "storage-devices" -> "platform" [color="#aa0000"];
