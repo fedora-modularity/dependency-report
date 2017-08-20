@@ -57,3 +57,5 @@ python3-ecosystem: platform platform-placeholder
 python3-ecosystem-bootstrap: platform platform-placeholder
 
 python2: platform platform-placeholder
+
+storaged: platform platform-placeholder
