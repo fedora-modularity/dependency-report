@@ -29,14 +29,14 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**bind**](../modules/bind) | **12** pkgs | [**30** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
 | [**freeipa**](../modules/freeipa) | **67** pkgs | [**227** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **12** pkgs | [**115** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
-| [**installer**](../modules/installer) | **65** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
+| [**installer**](../modules/installer) | **65** pkgs | [**0** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | **9** pkgs | [**142** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **5** pkgs | [**1** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
 | [**networking-base**](../modules/networking-base) | **61** pkgs | [**311** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
 | [**perl**](../modules/perl) | **141** pkgs | [**643** pkgs missing](../modules/perl/all/buildtime-binary-packages-short.txt) |
 | [**pki**](../modules/pki) | **36** pkgs | [**299** pkgs missing](../modules/pki/all/buildtime-binary-packages-short.txt) |
-| [**platform**](../modules/platform) | **299** pkgs | [**1** pkgs missing](../modules/platform/all/buildtime-binary-packages-short.txt) |
-| [**platform-placeholder**](../modules/platform-placeholder) | **359** pkgs | [**1** pkgs missing](../modules/platform-placeholder/all/buildtime-binary-packages-short.txt) |
+| [**platform**](../modules/platform) | **299** pkgs | [**0** pkgs missing](../modules/platform/all/buildtime-binary-packages-short.txt) |
+| [**platform-placeholder**](../modules/platform-placeholder) | **359** pkgs | [**0** pkgs missing](../modules/platform-placeholder/all/buildtime-binary-packages-short.txt) |
 | [**postgresql**](../modules/postgresql) | **2** pkgs | [**44** pkgs missing](../modules/postgresql/all/buildtime-binary-packages-short.txt) |
 | [**python2**](../modules/python2) | **23** pkgs | [**146** pkgs missing](../modules/python2/all/buildtime-binary-packages-short.txt) |
 | [**python3**](../modules/python3) | **22** pkgs | [**145** pkgs missing](../modules/python3/all/buildtime-binary-packages-short.txt) |
