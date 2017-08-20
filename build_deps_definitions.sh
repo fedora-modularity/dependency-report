@@ -1,5 +1,6 @@
 #!/bin/sh
 
+./build_deps.sh installer   bootstrap
 ./build_deps.sh 389-ds      platform platform-placeholder perl autotools
 ./build_deps.sh autotools   platform platform-placeholder java perl
 ./build_deps.sh bind        platform platform-placeholder autotools perl
@@ -25,7 +26,7 @@
 ./build_deps.sh storaged    platform platform-placeholder python2 python3 perl autotools
 
 # I don't need build deps for these...
-excluded="platform platform-placeholder installer"
+excluded="platform platform-placeholder bootstrap"
 arches=$(cat arches.txt)
 
 for module in $excluded; do

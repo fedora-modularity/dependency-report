@@ -1,7 +1,9 @@
 #!/bin/sh
 
 arches=$(cat arches.txt)
-modules=$(ls modules | sed -e "s/^platform$//g")
+modules=$(ls modules | sed i\
+                        -e "s/^bootstrap$//g" \
+                        -e "s/^platform$//g")
 
 echo "Drawing graphs:"
 for module in $modules; do

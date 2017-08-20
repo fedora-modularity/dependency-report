@@ -6,6 +6,7 @@ case "$WHAT" in
     buildtime)
         modules=$(ls modules \
             | sed \
+                -e "s/^bootstrap$//g" \
                 -e "s/^platform$//g" \
                 -e "s/^platform-placeholder$//g" \
                 -e "s/^installer$//g")
@@ -17,6 +18,7 @@ case "$WHAT" in
     runtime)
         modules=$(ls modules \
             | sed \
+                -e "s/^bootstrap$//g" \
                 -e "s/^platform$//g")
         get_toplevel_pkgs() {
             local modulearchroot="$1"
