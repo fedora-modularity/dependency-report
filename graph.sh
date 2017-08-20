@@ -1,7 +1,7 @@
 #!/bin/sh
 
 arches=$(cat arches.txt)
-modules=$(ls modules | sed i\
+modules=$(ls modules | sed \
                         -e "s/^bootstrap$//g" \
                         -e "s/^platform$//g")
 
