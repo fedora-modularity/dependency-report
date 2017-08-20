@@ -50,11 +50,11 @@ echo ""
 echo "Generating README in the global_reports directory..."
 
 {
-    echo "# Global reports"
+    echo "# Dependency reports"
     echo ""
     echo "This directory contains global reports - a view on all modules at once."
     echo ""
-    echo "For more details **individual modules** and **architecture-specific** information, please see the table below."
+    echo "For more details **individual modules** and **architecture-specific** information, please click on individual module names in thee table below."
     echo ""
     echo "## Files"
     echo ""

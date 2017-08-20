@@ -22,7 +22,7 @@
 ./build_deps.sh python3-ecosystem    platform platform-placeholder
 ./build_deps.sh python3-ecosystem-bootstrap    platform platform-placeholder python3-ecosystem-bootstrap
 ./build_deps.sh python2     platform platform-placeholder
-./build_deps.sh storaged    platform platform-placeholder
+./build_deps.sh storaged    platform platform-placeholder python2 python3 perl autotools
 
 # I don't need build deps for these...
 excluded="platform platform-placeholder installer"
