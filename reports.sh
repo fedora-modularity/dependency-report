@@ -100,7 +100,13 @@ done
 
 echo ""
 echo "Generating modulemd files..."
-for module in $(ls modules); do
+
+modulemd_modules=$(ls modules \
+    | sed \
+        -e "s/^bootstrap$//g" \
+        -e "s/^platform$//g" \
+        -e "s/^platform-placeholder$//g")
+for module in $modulemd_modules; do
     {
         cat << EOF
 document: modulemd
