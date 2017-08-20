@@ -2,7 +2,7 @@ all: $(notdir $(wildcard modules/*)) ;
 
 platform:
 	@echo Configuring platform.
-	@./add_platform.sh
+	@./add_hp_and_bootstrap.sh
 
 %::
 	@echo Generating $@.
