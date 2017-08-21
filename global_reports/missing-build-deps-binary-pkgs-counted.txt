@@ -1,6 +1,5 @@
      10 atk
      10 cups-libs
-     10 curl-minimal
      10 cyrus-sasl
      10 cyrus-sasl-devel
      10 gdk-pixbuf2-modules
@@ -63,16 +62,16 @@
      14 krb5-devel
      14 libcom_err-devel
      14 libverto-devel
+     14 python2-devel
+     14 python2-rpm-macros
      15 libICE
      15 libSM
      15 libXext
-     15 python2-devel
-     15 python2-rpm-macros
      16 libcroco
-     17 python3-devel
-     17 python3-rpm-generators
-     17 python3-rpm-macros
-     17 python-rpm-macros
+     16 python3-devel
+     16 python3-rpm-generators
+     16 python3-rpm-macros
+     16 python-rpm-macros
      17 zlib-devel
       1 aesh
       1 ant-antlr
@@ -200,7 +199,6 @@
       1 gcc-objc
       1 gcc-objc++
       1 gc-devel
-      1 gdbm-devel
       1 geronimo-interceptor
       1 geronimo-jaxrpc
       1 geronimo-jpa
@@ -208,6 +206,7 @@
       1 glassfish-dtd-parser
       1 glassfish-el
       1 glassfish-jsp-api
+      1 glibc-minimal-langpack
       1 glusterfs
       1 glusterfs-api
       1 glusterfs-api-devel
@@ -325,7 +324,6 @@
       1 libcephfs1
       1 libcephfs-devel
       1 libcroco-devel
-      1 libdb-devel
       1 libdbi
       1 libdhash
       1 libdwarf-devel
@@ -419,17 +417,9 @@
       1 oniguruma
       1 oniguruma-devel
       1 optipng
-      1 perl
       1 perl-accessors
-      1 perl-Algorithm-Diff
       1 perl-AppConfig
-      1 perl-Archive-Tar
-      1 perl-Archive-Zip
-      1 perl-Attribute-Handlers
-      1 perl-autodie
-      1 perl-B-Debug
       1 perl-B-Hooks-EndOfScope
-      1 perl-bignum
       1 perl-B-Keywords
       1 perl-BSD-Resource
       1 perl-Business-ISBN
@@ -442,62 +432,26 @@
       1 perl-Class-Tiny
       1 perl-Class-XSAccessor
       1 perl-Clone
-      1 perl-Compress-Bzip2
-      1 perl-Compress-Raw-Bzip2
-      1 perl-Compress-Raw-Zlib
-      1 perl-Config-Perl-V
       1 perl-Config-Tiny
-      1 perl-CPAN
       1 perl-CPAN-Changes
-      1 perl-CPAN-Meta
-      1 perl-CPAN-Meta-Requirements
-      1 perl-CPAN-Meta-YAML
       1 perl-Data-Dump
-      1 perl-Data-OptList
       1 perl-Data-Perl
-      1 perl-Data-Section
-      1 perl-DB_File
-      1 perl-devel
       1 perl-Devel-CheckLib
       1 perl-Devel-GlobalDestruction
-      1 perl-Devel-Peek
-      1 perl-Devel-PPPort
-      1 perl-Devel-SelfStubber
-      1 perl-Devel-Size
       1 perl-Devel-StackTrace
-      1 perl-Digest
       1 perl-Digest-HMAC
-      1 perl-Digest-MD5
-      1 perl-Digest-SHA
       1 perl-Digest-SHA1
       1 perl-Dist-CheckConflicts
       1 perl-Email-Address
-      1 perl-encoding
-      1 perl-Env
       1 perl-Exception-Class
       1 perl-Expect
-      1 perl-experimental
       1 perl-Exporter-Tiny
-      1 perl-ExtUtils-CBuilder
-      1 perl-ExtUtils-Command
-      1 perl-ExtUtils-Embed
-      1 perl-ExtUtils-Install
-      1 perl-ExtUtils-MakeMaker
-      1 perl-ExtUtils-Manifest
-      1 perl-ExtUtils-Miniperl
-      1 perl-ExtUtils-MM-Utils
-      1 perl-ExtUtils-ParseXS
-      1 perl-File-Fetch
       1 perl-File-Find-Rule
       1 perl-File-Find-Rule-Perl
-      1 perl-File-HomeDir
       1 perl-File-Listing
       1 perl-File-ShareDir
       1 perl-File-Slurp
       1 perl-File-Slurp-Tiny
-      1 perl-File-Which
-      1 perl-Filter
-      1 perl-Filter-Simple
       1 perl-GD
       1 perl-GD-Barcode
       1 perl-Getopt-Long-Descriptive
@@ -508,65 +462,33 @@
       1 perl-Image-Xbm
       1 perl-Image-Xpm
       1 perl-Import-Into
-      1 perl-inc-latest
-      1 perl-IO-Compress
-      1 perl-IO-Socket-IP
       1 perl-IO-Socket-SSL
       1 perl-IO-String
       1 perl-IO-stringy
       1 perl-IO-Tty
-      1 perl-IO-Zlib
-      1 perl-IPC-Cmd
       1 perl-IPC-Run
       1 perl-IPC-Run3
-      1 perl-IPC-System-Simple
-      1 perl-IPC-SysV
-      1 perl-JSON-PP
-      1 perl-libnet
-      1 perl-libnetcfg
       1 perl-libwww-perl
       1 perl-Lingua-EN-Inflect
       1 perl-List-MoreUtils
-      1 perl-Locale-Codes
       1 perl-Locale-gettext
-      1 perl-Locale-Maketext
-      1 perl-Locale-Maketext-Simple
-      1 perl-local-lib
-      1 perl-Math-BigInt
-      1 perl-Math-BigInt-FastCalc
-      1 perl-Math-BigRat
-      1 perl-Math-Complex
       1 perl-MCE
-      1 perl-Memoize
       1 perl-Mixin-Linewise
-      1 perl-Module-Build
-      1 perl-Module-CoreList
-      1 perl-Module-CoreList-tools
       1 perl-Module-Implementation
-      1 perl-Module-Load
-      1 perl-Module-Load-Conditional
-      1 perl-Module-Loaded
-      1 perl-Module-Metadata
       1 perl-Module-Pluggable
       1 perl-Module-Refresh
       1 perl-Module-Runtime
       1 perl-Module-Signature
       1 perl-Moo
       1 perl-MooX-HandlesVia
-      1 perl-MRO-Compat
       1 perl-namespace-autoclean
       1 perl-namespace-clean
       1 perl-Net-HTTP
-      1 perl-Net-Ping
       1 perl-Net-SSLeay
       1 perl-NTLM
       1 perl-Number-Compare
-      1 perl-open
-      1 perl-Package-Generator
       1 perl-Package-Stash
       1 perl-Package-Stash-XS
-      1 perl-Params-Check
-      1 perl-Params-Util
       1 perl-Params-Validate
       1 perl-PAR-Dist
       1 perl-Parse-Yapp
@@ -574,18 +496,12 @@
       1 perl-Perl-Critic
       1 perl-Perl-Critic-Deprecated
       1 perl-Perl-Critic-Lax
-      1 perl-perlfaq
       1 perl-perlindex
       1 perl-PerlIO-utf8_strict
-      1 perl-PerlIO-via-QuotedPrint
       1 perl-Perl-MinimumVersion
-      1 perl-Perl-OSType
       1 perl-Perl-Version
-      1 perl-Pod-Checker
       1 perl-Pod-Coverage-TrustPod
       1 perl-Pod-Eventual
-      1 perl-Pod-Html
-      1 perl-Pod-Parser
       1 perl-Pod-POM
       1 perl-Pod-Readme
       1 perl-Pod-Spell
@@ -594,31 +510,24 @@
       1 perl-PPIx-Utilities
       1 perl-Readonly
       1 perl-Role-Tiny
-      1 perl-SelfLoader
       1 perl-Sereal
       1 perl-Sereal-Decoder
       1 perl-Sereal-Encoder
       1 perl-Socket6
-      1 perl-Software-License
       1 perl-Software-License-CCpack
       1 perl-Sort-Versions
       1 perl-strictures
       1 perl-String-Format
-      1 perl-Sub-Exporter
       1 perl-Sub-Exporter-Progressive
       1 perl-Sub-Identify
-      1 perl-Sub-Install
       1 perl-Sub-Quote
       1 perl-SUPER
-      1 perl-Sys-Syslog
       1 perl-TAP-Formatter-HTML
       1 perl-Task-Weaken
       1 perl-Template-Toolkit
-      1 perl-Test
       1 perl-Test-CPAN-Meta
       1 perl-Test-Distribution
       1 perl-Test-FailWarnings
-      1 perl-Test-Harness
       1 perl-Test-LeakTrace
       1 perl-Test-MinimumVersion
       1 perl-Test-MockModule
@@ -626,28 +535,17 @@
       1 perl-Test-Output
       1 perl-Test-Perl-Critic
       1 perl-Test-Portability-Files
-      1 perl-Test-Simple
       1 perl-Test-Spelling
       1 perl-Test-Taint
       1 perl-Test-Version
-      1 perl-Text-Balanced
-      1 perl-Text-Diff
-      1 perl-Text-Glob
-      1 perl-Text-Template
       1 perltidy
       1 perl-Tie-IxHash
-      1 perl-Time-HiRes
-      1 perl-Time-Piece
       1 perl-Tk
       1 perl-Tk-Pod
       1 perl-Try-Tiny
       1 perl-Type-Tiny
-      1 perl-Unicode-Collate
       1 perl-Unicode-UTF8
-      1 perl-URI
-      1 perl-utils
       1 perl-Variable-Magic
-      1 perl-version
       1 perl-WWW-RobotRules
       1 perl-XML-LibXML
       1 perl-XML-NamespaceSupport
@@ -739,7 +637,6 @@
       1 python3-pyflakes
       1 python3-pyldap
       1 python3-pylint
-      1 python3-pyparsing
       1 python3-pytest-cov
       1 python3-pytest-httpbin
       1 python3-pytest-mock
@@ -805,7 +702,6 @@
       1 spymemcached
       1 stream-lib
       1 svrcore
-      1 systemtap-sdt-devel
       1 teamd-devel
       1 testng
       1 texinfo-tex
@@ -855,6 +751,8 @@
       1 zopfli
       2 ant-junit
       2 apache-commons-cli
+      2 autoconf
+      2 automake
       2 bind-libs
       2 bind-libs-lite
       2 bind-license
@@ -883,6 +781,7 @@
       2 gperftools-devel
       2 gperftools-libs
       2 gpm-libs
+      2 groff-base
       2 gtk-doc
       2 help2man
       2 hesiod-devel
@@ -911,6 +810,7 @@
       2 libsmbclient-devel
       2 libtalloc
       2 libtevent
+      2 libtool
       2 libunwind-devel
       2 libXaw-devel
       2 libXdmcp
@@ -935,22 +835,56 @@
       2 openmpi
       2 openmpi-devel
       2 opensm-libs
+      2 perl-Carp
+      2 perl-constant
+      2 perl-Data-Dumper
       2 perl-Devel-Symdump
+      2 perl-Encode
       2 perl-Encode-Locale
+      2 perl-Errno
+      2 perl-Exporter
       2 perl-Fedora-VSP
+      2 perl-File-Path
+      2 perl-File-Temp
       2 perl-generators
+      2 perl-Getopt-Long
       2 perl-HTML-Parser
       2 perl-HTML-Tagset
       2 perl-HTTP-Date
       2 perl-HTTP-Message
+      2 perl-HTTP-Tiny
+      2 perl-interpreter
+      2 perl-IO
       2 perl-IO-HTML
       2 perl-libintl-perl
+      2 perl-libs
       2 perl-LWP-MediaTypes
+      2 perl-macros
+      2 perl-MIME-Base64
+      2 perl-parent
+      2 perl-PathTools
       2 perl-Pod-Coverage
+      2 perl-Pod-Escapes
+      2 perl-podlators
+      2 perl-Pod-Perldoc
+      2 perl-Pod-Simple
+      2 perl-Pod-Usage
+      2 perl-Scalar-List-Utils
+      2 perl-Socket
+      2 perl-Storable
+      2 perl-Term-ANSIColor
+      2 perl-Term-Cap
       2 perl-Test-Pod
       2 perl-Test-Pod-Coverage
+      2 perl-Text-ParseWords
+      2 perl-Text-Tabs+Wrap
+      2 perl-Thread-Queue
+      2 perl-threads
+      2 perl-threads-shared
       2 perl-TimeDate
+      2 perl-Time-Local
       2 perl-Unicode-EastAsianWidth
+      2 perl-Unicode-Normalize
       2 policycoreutils-devel
       2 polkit-devel
       2 polkit-docs
@@ -1225,8 +1159,6 @@
       3 at-spi2-atk-devel
       3 at-spi2-core-devel
       3 audit-libs-devel
-      3 autoconf
-      3 automake
       3 avahi
       3 avahi-devel
       3 avahi-glib
@@ -1270,7 +1202,6 @@
       3 google-guice
       3 google-roboto-slab-fonts
       3 gpars
-      3 groff-base
       3 groovy-lib
       3 gstreamer1
       3 gstreamer1-plugins-base
@@ -1313,7 +1244,6 @@
       3 libotf
       3 libref_array-devel
       3 libtheora
-      3 libtool
       3 libunistring-devel
       3 libusbx-devel
       3 libvisual
@@ -1409,41 +1339,7 @@
       3 osgi-core
       3 parboiled
       3 pegdown
-      3 perl-Carp
-      3 perl-constant
-      3 perl-Data-Dumper
-      3 perl-Encode
-      3 perl-Errno
-      3 perl-Exporter
-      3 perl-File-Path
-      3 perl-File-Temp
-      3 perl-Getopt-Long
-      3 perl-HTTP-Tiny
-      3 perl-interpreter
-      3 perl-IO
-      3 perl-libs
-      3 perl-macros
-      3 perl-MIME-Base64
-      3 perl-parent
-      3 perl-PathTools
-      3 perl-Pod-Escapes
-      3 perl-podlators
-      3 perl-Pod-Perldoc
-      3 perl-Pod-Simple
-      3 perl-Pod-Usage
-      3 perl-Scalar-List-Utils
       3 perl-SGMLSpm
-      3 perl-Socket
-      3 perl-Storable
-      3 perl-Term-ANSIColor
-      3 perl-Term-Cap
-      3 perl-Text-ParseWords
-      3 perl-Text-Tabs+Wrap
-      3 perl-Thread-Queue
-      3 perl-threads
-      3 perl-threads-shared
-      3 perl-Time-Local
-      3 perl-Unicode-Normalize
       3 plexus-archiver
       3 plexus-build-api
       3 plexus-cipher
@@ -1809,6 +1705,7 @@
       8 python-ipaddress
       8 readline-devel
       8 sqlite
+      9 curl-minimal
       9 fontconfig-devel
       9 freetype-devel
       9 gettext-common-devel

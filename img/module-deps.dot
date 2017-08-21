@@ -48,6 +48,7 @@ digraph G {
   "httpd" -> "perl" [color="#aa0000"];
   "installer" -> "platform" [color="#009900"];
   "installer" -> "platform-placeholder" [color="#009900"];
+  "installer" -> "bootstrap" [color="#aa0000"];
   "java" -> "platform" [color="#009900"];
   "java" -> "platform-placeholder" [color="#009900"];
   "java" -> "platform" [color="#aa0000"];
@@ -131,6 +132,10 @@ digraph G {
   "storaged" -> "platform-placeholder" [color="#009900"];
   "storaged" -> "platform" [color="#aa0000"];
   "storaged" -> "platform-placeholder" [color="#aa0000"];
+  "storaged" -> "python2" [color="#aa0000"];
+  "storaged" -> "python3" [color="#aa0000"];
+  "storaged" -> "perl" [color="#aa0000"];
+  "storaged" -> "autotools" [color="#aa0000"];
   "storage-devices" -> "platform" [color="#009900"];
   "storage-devices" -> "platform-placeholder" [color="#009900"];
   "storage-devices" -> "platform" [color="#aa0000"];

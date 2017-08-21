@@ -1,0 +1,56 @@
+document: modulemd
+version: 1
+data:
+    summary: Bootstrap the modularity infrastructure
+    description: >-
+        The purpose of this module is to provide a bootstrapping mechanism
+        for new distributions or architectures as well as the entire build
+        environment for the Host & Platform modules.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: master
+    references:
+        community: https://fedoraproject.org/wiki/Host_and_Platform
+        documentation: https://github.com/fedora-modularity/hp
+        tracker: https://github.com/fedora-modularity/hp/issues
+    profiles:
+        buildroot:
+            rpms:
+                - bash
+                - bzip2
+                - coreutils
+                - cpio
+                - diffutils
+                - fedora-release
+                - findutils
+                - gawk
+                - gcc
+                - gcc-c++
+                - grep
+                - gzip
+                - info
+                - make
+                - patch
+                - redhat-rpm-config
+                - rpm-build
+                - sed
+                - shadow-utils
+                - tar
+                - unzip
+                - util-linux
+                - which
+                - xz
+        srpm-buildroot:
+            rpms:
+                - bash
+                - fedora-release
+                - fedpkg-minimal
+                - gnupg2
+                - redhat-rpm-config
+                - rpm-build
+                - shadow-utils
+    components:
+        rpms:
+[% INCLUDE components.tmpl -%]

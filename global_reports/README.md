@@ -1,8 +1,8 @@
-# Global reports
+# Dependency reports
 
 This directory contains global reports - a view on all modules at once.
 
-For more details **individual modules** and **architecture-specific** information, please see the table below.
+For more details **individual modules** and **architecture-specific** information, please click on individual module names in thee table below.
 
 ## Files
 
@@ -18,7 +18,7 @@ For more details **individual modules** and **architecture-specific** informatio
 * [**missing-build-deps-binary-pkgs-counted.txt**](missing-build-deps-binary-pkgs-counted.txt) - Missing build dependencies of all modules. Some of these packages might be already modularized, the build dependency just need to be defined. With a number representing how many modules are missing such dependency.
 * [**missing-build-deps-binary-pkgs-unmodularized.txt**](missing-build-deps-binary-pkgs-unmodularized.txt) - Missing build dependencies of all modules. None of these packages are included in modules, so they need to get modularized.
 
-## There are 26 modules:
+## There are 27 modules:
 
 ![module-deps](../img/module-deps.png)
 
@@ -29,7 +29,7 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**bind**](../modules/bind) | **12** pkgs | [**30** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
 | [**freeipa**](../modules/freeipa) | **67** pkgs | [**227** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **12** pkgs | [**115** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
-| [**installer**](../modules/installer) | **65** pkgs | [**0** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
+| [**installer**](../modules/installer) | **65** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | **9** pkgs | [**142** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **5** pkgs | [**1** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
 | [**networking-base**](../modules/networking-base) | **61** pkgs | [**311** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
@@ -46,7 +46,7 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**resteasy**](../modules/resteasy) | **39** pkgs | [**483** pkgs missing](../modules/resteasy/all/buildtime-binary-packages-short.txt) |
 | [**samba**](../modules/samba) | **27** pkgs | [**556** pkgs missing](../modules/samba/all/buildtime-binary-packages-short.txt) |
 | [**sssd**](../modules/sssd) | **24** pkgs | [**71** pkgs missing](../modules/sssd/all/buildtime-binary-packages-short.txt) |
-| [**storaged**](../modules/storaged) | **18** pkgs | [**248** pkgs missing](../modules/storaged/all/buildtime-binary-packages-short.txt) |
+| [**storaged**](../modules/storaged) | **18** pkgs | [**99** pkgs missing](../modules/storaged/all/buildtime-binary-packages-short.txt) |
 | [**storage-devices**](../modules/storage-devices) | **78** pkgs | [**485** pkgs missing](../modules/storage-devices/all/buildtime-binary-packages-short.txt) |
 | [**systemtap**](../modules/systemtap) | **14** pkgs | [**254** pkgs missing](../modules/systemtap/all/buildtime-binary-packages-short.txt) |
 | [**tomcat**](../modules/tomcat) | **23** pkgs | [**309** pkgs missing](../modules/tomcat/all/buildtime-binary-packages-short.txt) |
