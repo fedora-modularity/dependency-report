@@ -23,11 +23,7 @@ This list might not be complete. There might be other packages in the *Binary RP
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
-* [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
-* [389-ds](../389-ds)
-* [autotools](../autotools)
-* [perl](../perl)
+* [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). They should be either:
 * split into other modules and be used as modular dependncies
@@ -43,7 +39,6 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `custodia` | X | X | X | X | X | X | X |
 | `dbus-python` | X | X | X | X | X | X | X |
 | `fontawesome-fonts` | X | X | X | X | X | X | X |
-| `fontpackages-filesystem` | X | X | X | X | X | X | X |
 | `freeipa-client` | X | X | X | X | X | X | X |
 | `freeipa-client-common` | X | X | X | X | X | X | X |
 | `freeipa-common` | X | X | X | X | X | X | X |

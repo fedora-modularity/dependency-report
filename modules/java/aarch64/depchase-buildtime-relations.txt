@@ -1,6 +1,12 @@
 INFO:depchase:DEPENDENCY INFORMATION                                                          
 INFO                                                             MATCH
 copy-jdk-configs-2.3-1.fc27.src                                  
+giflib-4.1.6-17.fc27.src                                         
+├─perl-generators                                                perl-generators-1.10-5.fc27.noarch
+├─libX11-devel                                                   libX11-devel-1.6.5-4.fc27.aarch64
+├─libXt-devel                                                    libXt-devel-1.1.5-6.fc27.aarch64
+├─libSM-devel                                                    libSM-devel-1.2.2-7.fc27.aarch64
+└─libICE-devel                                                   libICE-devel-1.0.9-11.fc27.aarch64
 java-1.8.0-openjdk-1:1.8.0.131-7.b12.fc27.src                    
 ├─desktop-file-utils                                             desktop-file-utils-0.23-3.fc26.aarch64
 ├─autoconf                                                       autoconf-2.69-24.fc26.noarch
@@ -44,11 +50,69 @@ javapackages-tools-5.0.0-4.fc27.src
 ├─xmlto                                                          xmlto-0.0.28-3.fc26.aarch64
 ├─python3-lxml                                                   python3-lxml-3.7.2-2.fc26.aarch64
 └─which                                                          which-2.21-4.fc27.aarch64
+libfontenc-1.1.3-4.fc26.src                                      
+├─zlib-devel                                                     zlib-devel-1.2.11-4.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+└─xorg-x11-font-utils                                            xorg-x11-font-utils-1:7.5-33.fc26.aarch64
+libXcomposite-0.4.4-9.fc26.src                                   
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+├─pkgconfig(xext)                                                libXext-devel-1.3.3-7.fc27.aarch64
+├─pkgconfig(xfixes)                                              libXfixes-devel-5.0.3-2.fc26.aarch64
+└─pkgconfig(compositeproto) >= 0.4                               xorg-x11-proto-devel-7.7-22.fc27.noarch
+libXfont-1.5.2-2.fc26.src                                        
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─freetype-devel                                                 freetype-devel-2.8-5.fc27.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+├─libfontenc-devel                                               libfontenc-devel-1.1.3-4.fc26.aarch64
+├─pkgconfig(fontsproto)                                          xorg-x11-proto-devel-7.7-22.fc27.noarch
+└─xorg-x11-xtrans-devel >= 1.0.3-3                               xorg-x11-xtrans-devel-1.3.5-4.fc26.noarch
+libXtst-1.2.3-2.fc26.src                                         
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libXext-devel                                                  libXext-devel-1.3.3-7.fc27.aarch64
+├─xmlto                                                          xmlto-0.0.28-3.fc26.aarch64
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libXi-devel                                                    libXi-devel-1.7.9-4.fc27.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+└─libX11-devel >= 1.5.99.902                                     libX11-devel-1.6.5-4.fc27.aarch64
 lua-posix-33.3.1-4.fc26.src                                      
 ├─perl                                                           perl-4:5.26.0-398.fc27.aarch64
 ├─ncurses-devel                                                  ncurses-devel-6.0-13.20170722.fc27.aarch64
 ├─lua-devel                                                      lua-devel-5.3.4-5.fc27.aarch64
 └─lua-lunit                                                      lua-lunit-0.5-11.fc26.noarch
+ttmkfdir-3.0.9-49.fc26.src                                       
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─zlib-devel                                                     zlib-devel-1.2.11-4.fc27.aarch64
+├─flex                                                           flex-2.6.1-3.fc26.aarch64
+├─bzip2-devel                                                    bzip2-devel-1.0.6-24.fc27.aarch64
+└─freetype-devel >= 2.0                                          freetype-devel-2.8-5.fc27.aarch64
+xorg-x11-fonts-7.5-17.fc26.src                                   
+├─bdftopcf                                                       xorg-x11-font-utils-1:7.5-33.fc26.aarch64
+├─ucs2any                                                        xorg-x11-font-utils-1:7.5-33.fc26.aarch64
+├─font-util >= 1.1.0                                             xorg-x11-font-utils-1:7.5-33.fc26.aarch64
+└─pkgconfig(xorg-macros) >= 1.3                                  xorg-x11-util-macros-1.19.0-6.fc26.noarch
+xorg-x11-font-utils-1:7.5-33.fc26.src                            
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─zlib-devel                                                     zlib-devel-1.2.11-4.fc27.aarch64
+├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
+├─pkgconfig(freetype2)                                           freetype-devel-2.8-5.fc27.aarch64
+├─pkgconfig(fontenc)                                             libfontenc-devel-1.1.3-4.fc26.aarch64
+├─pkgconfig(xfont)                                               libXfont-devel-1.5.2-2.fc26.aarch64
+└─pkgconfig(xorg-macros) >= 1.8                                  xorg-x11-util-macros-1.19.0-6.fc26.noarch
+perl-generators-1.10-5.fc27.noarch                               
+├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
+├─/usr/bin/perl                                                  perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl-macros                                                    perl-macros-4:5.26.0-398.fc27.aarch64
+├─perl(Fedora::VSP)                                              perl-Fedora-VSP-0.001-7.fc27.noarch
+└─perl-interpreter >= 4:5.22.0-351                               perl-interpreter-4:5.26.0-398.fc27.aarch64
 alsa-lib-devel-1.1.4.1-1.fc27.aarch64                            
 ├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
@@ -330,9 +394,63 @@ xmlto-0.0.28-3.fc26.aarch64
 ├─docbook-dtds                                                   docbook-dtds-1.0-66.fc26.noarch
 ├─flex                                                           flex-2.6.1-3.fc26.aarch64
 └─docbook-xsl                                                    docbook-style-xsl-1.79.2-4.fc26.noarch
+xorg-x11-font-utils-1:7.5-33.fc26.aarch64                        
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
+├─libfontenc.so.1()(64bit)                                       libfontenc-1.1.3-4.fc26.aarch64
+└─libXfont.so.1()(64bit)                                         libXfont-1.5.2-2.fc26.aarch64
+xorg-x11-util-macros-1.19.0-6.fc26.noarch                        
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+└─autoconf                                                       autoconf-2.69-24.fc26.noarch
+libXfixes-devel-5.0.3-2.fc26.aarch64                             
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libXfixes.so.3()(64bit)                                        libXfixes-5.0.3-2.fc26.aarch64
+├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libXfixes = 5.0.3-2.fc26                                       libXfixes-5.0.3-2.fc26.aarch64
+└─pkgconfig(fixesproto) >= 5.0                                   xorg-x11-proto-devel-7.7-22.fc27.noarch
+libfontenc-devel-1.1.3-4.fc26.aarch64                            
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libfontenc.so.1()(64bit)                                       libfontenc-1.1.3-4.fc26.aarch64
+└─libfontenc = 1.1.3-4.fc26                                      libfontenc-1.1.3-4.fc26.aarch64
+xorg-x11-xtrans-devel-1.3.5-4.fc26.noarch                        
+└─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 lua-lunit-0.5-11.fc26.noarch                                     
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
 └─lua >= 5.2                                                     lua-5.3.4-5.fc27.aarch64
+flex-2.6.1-3.fc26.aarch64                                        
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+└─m4                                                             m4-1.4.18-3.fc26.aarch64
+libXfont-devel-1.5.2-2.fc26.aarch64                              
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─pkgconfig(freetype2)                                           freetype-devel-2.8-5.fc27.aarch64
+├─pkgconfig(fontsproto)                                          xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libXfont.so.1()(64bit)                                         libXfont-1.5.2-2.fc26.aarch64
+├─libfontenc-devel(aarch-64)                                     libfontenc-devel-1.1.3-4.fc26.aarch64
+├─pkgconfig(fontenc)                                             libfontenc-devel-1.1.3-4.fc26.aarch64
+└─libXfont(aarch-64) = 1.5.2-2.fc26                              libXfont-1.5.2-2.fc26.aarch64
+perl-Fedora-VSP-0.001-7.fc27.noarch                              
+├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
+└─perl(warnings)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
 alsa-lib-1.1.4.1-1.fc27.aarch64                                  
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -576,14 +694,6 @@ libXfixes-5.0.3-2.fc26.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 ├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
 └─libX11 >= 1.6                                                  libX11-1.6.5-4.fc27.aarch64
-libXfixes-devel-5.0.3-2.fc26.aarch64                             
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libXfixes.so.3()(64bit)                                        libXfixes-5.0.3-2.fc26.aarch64
-├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
-├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─libXfixes = 5.0.3-2.fc26                                       libXfixes-5.0.3-2.fc26.aarch64
-└─pkgconfig(fixesproto) >= 5.0                                   xorg-x11-proto-devel-7.7-22.fc27.noarch
 libXinerama-1.1.3-7.fc26.aarch64                                 
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -797,14 +907,22 @@ python3-html5lib-1:0.999-13.fc26.noarch
 docbook-dtds-1.0-66.fc26.noarch                                  
 ├─xml-common                                                     xml-common-0.6.3-46.fc27.noarch
 └─sgml-common                                                    sgml-common-0.6.3-46.fc27.noarch
-flex-2.6.1-3.fc26.aarch64                                        
+libXfont-1.5.2-2.fc26.aarch64                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-└─m4                                                             m4-1.4.18-3.fc26.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
+└─libfontenc.so.1()(64bit)                                       libfontenc-1.1.3-4.fc26.aarch64
+libfontenc-1.1.3-4.fc26.aarch64                                  
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
 avahi-libs-0.7-1.fc27.aarch64                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -1123,19 +1241,6 @@ ttmkfdir-3.0.9-49.fc26.aarch64
 ├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
 ├─libstdc++.so.6(CXXABI_1.3.8)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
 └─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
-xorg-x11-font-utils-1:7.5-33.fc26.aarch64                        
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
-├─libfontenc.so.1()(64bit)                                       libfontenc-1.1.3-4.fc26.aarch64
-└─libXfont.so.1()(64bit)                                         libXfont-1.5.2-2.fc26.aarch64
 libwebp-0.6.0-2.fc26.aarch64                                     
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -1172,22 +1277,520 @@ lua-posix-33.3.1-4.fc26.aarch64
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                               libcrypt-2.26-1.fc27.1.aarch64
 ├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.aarch64
 └─lua(abi) = 5.3                                                 lua-5.3.4-5.fc27.aarch64
-libXfont-1.5.2-2.fc26.aarch64                                    
+aajohan-comfortaa-fonts-2.004-8.fc27.src                         
+└─fontpackages-devel                                             fontpackages-devel-1.44-19.fc27.noarch
+fontconfig-2.12.4-4.fc27.src                                     
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─expat-devel                                                    expat-devel-2.2.3-1.fc27.aarch64
+├─gperf                                                          gperf-3.1-2.fc26.aarch64
+├─fontpackages-devel                                             fontpackages-devel-1.44-19.fc27.noarch
+└─freetype-devel >= 2.1.4                                        freetype-devel-2.8-5.fc27.aarch64
+gperf-3.1-2.fc26.aarch64                                         
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6()(64bit)                                        libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3)(64bit)                              libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                             libstdc++-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.aarch64
 ├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
-└─libfontenc.so.1()(64bit)                                       libfontenc-1.1.3-4.fc26.aarch64
-libfontenc-1.1.3-4.fc26.aarch64                                  
+├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+└─libstdc++.so.6(CXXABI_1.3.8)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+fontpackages-1.44-19.fc27.src                                    
+└─perl-generators                                                perl-generators-1.10-5.fc27.noarch
+libICE-1.0.9-11.fc27.src                                         
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+└─xorg-x11-xtrans-devel >= 1.0.3-5                               xorg-x11-xtrans-devel-1.3.5-4.fc26.noarch
+libSM-1.2.2-7.fc27.src                                           
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─xmlto                                                          xmlto-0.0.28-3.fc26.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+├─libuuid-devel                                                  libuuid-devel-2.30.1-1.fc27.aarch64
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libICE-devel                                                   libICE-devel-1.0.9-11.fc27.aarch64
+└─xorg-x11-xtrans-devel >= 1.0.3-4                               xorg-x11-xtrans-devel-1.3.5-4.fc26.noarch
+libX11-1.6.5-4.fc27.src                                          
+├─pkgconfig(xau)                                                 libXau-devel-1.0.8-9.fc27.aarch64
+├─perl(Pod::Usage)                                               perl-Pod-Usage-4:1.69-394.fc27.noarch
+├─pkgconfig(xdmcp)                                               libXdmcp-devel-1.1.2-6.fc27.aarch64
+├─xorg-x11-xtrans-devel >= 1.0.3-4                               xorg-x11-xtrans-devel-1.3.5-4.fc26.noarch
+├─pkgconfig(xproto) >= 7.0.15                                    xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libxcb-devel >= 1.2                                            libxcb-devel-1.12-5.fc27.aarch64
+└─xorg-x11-util-macros >= 1.11                                   xorg-x11-util-macros-1.19.0-6.fc26.noarch
+libXdmcp-devel-1.1.2-6.fc27.aarch64                              
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libXdmcp.so.6()(64bit)                                         libXdmcp-1.1.2-6.fc27.aarch64
+└─libXdmcp = 1.1.2-6.fc27                                        libXdmcp-1.1.2-6.fc27.aarch64
+libXdmcp-1.1.2-6.fc27.aarch64                                    
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+libXau-1.0.8-9.fc27.src                                          
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+└─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+libxcb-1.12-5.fc27.src                                           
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─python                                                         python2-2.7.13-16.fc27.aarch64
+├─libxslt                                                        libxslt-1.1.29-2.fc27.aarch64
+├─doxygen                                                        doxygen-1:1.8.13-10.fc27.aarch64
+├─graphviz                                                       graphviz-2.40.1-7.fc27.aarch64
+├─pkgconfig(xau) >= 0.99.2                                       libXau-devel-1.0.8-9.fc27.aarch64
+├─pkgconfig(xcb-proto) >= 1.12                                   xcb-proto-1.12-3.fc26.noarch
+└─pkgconfig(xorg-macros) >= 1.18                                 xorg-x11-util-macros-1.19.0-6.fc26.noarch
+doxygen-1:1.8.13-10.fc27.aarch64                                 
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6()(64bit)                                        libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3)(64bit)                              libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                             libstdc++-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.21)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.9)(64bit)                           libstdc++-7.1.1-7.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.11)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3.8)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─perl-interpreter                                               perl-interpreter-4:5.26.0-398.fc27.aarch64
+└─libxapian.so.30()(64bit)                                       xapian-core-libs-1.4.4-1.fc27.aarch64
+xcb-proto-1.12-3.fc26.noarch                                     
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+└─python(abi) = 2.7                                              python2-2.7.13-16.fc27.aarch64
+xapian-core-libs-1.4.4-1.fc27.aarch64                            
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libgcc_s.so.1()(64bit)                                         libgcc-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6()(64bit)                                        libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3)(64bit)                              libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                             libstdc++-7.1.1-7.fc27.1.aarch64
+├─libgcc_s.so.1(GCC_3.0)(64bit)                                  libgcc-7.1.1-7.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.21)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.9)(64bit)                           libstdc++-7.1.1-7.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.11)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.15)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libstdc++.so.6(CXXABI_1.3.8)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libstdc++.so.6(GLIBCXX_3.4.18)(64bit)                          libstdc++-7.1.1-7.fc27.1.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+├─libstdc++.so.6(CXXABI_1.3.5)(64bit)                            libstdc++-7.1.1-7.fc27.1.aarch64
+├─librt.so.1(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+└─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
+libXext-1.3.3-7.fc27.src                                         
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─xmlto                                                          xmlto-0.0.28-3.fc26.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+├─libXau-devel                                                   libXau-devel-1.0.8-9.fc27.aarch64
+├─libX11-devel >= 1.5.99.902                                     libX11-devel-1.6.5-4.fc27.aarch64
+└─xorg-x11-proto-devel >= 7.4-23                                 xorg-x11-proto-devel-7.7-22.fc27.noarch
+libXi-1.7.9-4.fc27.src                                           
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─xmlto                                                          xmlto-0.0.28-3.fc26.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libXext-devel                                                  libXext-devel-1.3.3-7.fc27.aarch64
+├─libXfixes-devel                                                libXfixes-devel-5.0.3-2.fc26.aarch64
+├─libX11-devel >= 1.5.99.902                                     libX11-devel-1.6.5-4.fc27.aarch64
+├─asciidoc >= 8.4.5                                              asciidoc-8.6.8-11.fc26.noarch
+└─pkgconfig(inputproto) >= 2.2.99.1                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+libXrender-0.9.10-4.fc27.src                                     
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+├─libtool                                                        libtool-2.4.6-20.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─xorg-x11-util-macros                                           xorg-x11-util-macros-1.19.0-6.fc26.noarch
+└─libX11-devel >= 1.5.99.902                                     libX11-devel-1.6.5-4.fc27.aarch64
+libXau-devel-1.0.8-9.fc27.aarch64                                
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libXau.so.6()(64bit)                                           libXau-1.0.8-9.fc27.aarch64
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+└─libXau = 1.0.8-9.fc27                                          libXau-1.0.8-9.fc27.aarch64
+libXau-1.0.8-9.fc27.aarch64                                      
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+libtool-2.4.6-20.fc27.aarch64                                    
+├─sed                                                            sed-4.4-3.fc27.aarch64
+├─tar                                                            tar-2:1.29-7.fc27.aarch64
+├─findutils                                                      findutils-1:4.6.0-14.fc27.aarch64
+├─autoconf                                                       autoconf-2.69-24.fc26.noarch
+├─automake                                                       automake-1.15-9.fc26.noarch
+└─gcc(major) = 7                                                 gcc-7.1.1-7.fc27.1.aarch64
+python2-2.7.13-16.fc27.aarch64                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
+├─libpython2.7.so.1.0()(64bit)                                   python2-libs-2.7.13-16.fc27.aarch64
+├─python2-setuptools                                             python2-setuptools-36.2.0-3.fc27.noarch
+├─python2-pip                                                    python2-pip-9.0.1-11.fc27.noarch
+└─python2-libs(aarch-64) = 2.7.13-16.fc27                        python2-libs-2.7.13-16.fc27.aarch64
+python2-libs-2.7.13-16.fc27.aarch64                              
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.aarch64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.aarch64
+├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.aarch64
+├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.aarch64
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.aarch64
+├─libcrypt.so.1(GLIBC_2.17)(64bit)                               libcrypt-2.26-1.fc27.1.aarch64
+├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.aarch64
+├─/usr/bin/env                                                   coreutils-8.27-14.fc27.aarch64
+├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.aarch64
+├─libnsl.so.1(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1(ZLIB_1.2.0)(64bit)                                   zlib-1.2.11-4.fc27.aarch64
+├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.aarch64
+├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.aarch64
+├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.aarch64
+├─libpanelw.so.6()(64bit)                                        ncurses-libs-6.0-13.20170722.fc27.aarch64
+├─libutil.so.1(GLIBC_2.17)(64bit)                                glibc-2.26-1.fc27.1.aarch64
+├─expat >= 2.1.0                                                 expat-2.2.3-1.fc27.aarch64
+└─glibc(aarch-64) >= 2.24.90-26                                  glibc-2.26-1.fc27.1.aarch64
+libX11-devel-1.6.5-4.fc27.aarch64                                
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libX11-xcb.so.1()(64bit)                                       libX11-xcb-1.6.5-4.fc27.aarch64
+├─pkgconfig(kbproto)                                             xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libX11 = 1.6.5-4.fc27                                          libX11-1.6.5-4.fc27.aarch64
+├─libX11-xcb = 1.6.5-4.fc27                                      libX11-xcb-1.6.5-4.fc27.aarch64
+└─pkgconfig(xcb) >= 1.11.1                                       libxcb-devel-1.12-5.fc27.aarch64
+libX11-1.6.5-4.fc27.aarch64                                      
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+├─libxcb.so.1()(64bit)                                           libxcb-1.12-5.fc27.aarch64
+└─libX11-common >= 1.6.5-4.fc27                                  libX11-common-1.6.5-4.fc27.noarch
+libX11-xcb-1.6.5-4.fc27.aarch64                                  
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+└─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+libX11-common-1.6.5-4.fc27.noarch                                
+libXext-devel-1.3.3-7.fc27.aarch64                               
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
+├─libXext.so.6()(64bit)                                          libXext-1.3.3-7.fc27.aarch64
+├─pkgconfig(xextproto)                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+└─libXext = 1.3.3-7.fc27                                         libXext-1.3.3-7.fc27.aarch64
+libXext-1.3.3-7.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
+└─libX11 >= 1.5.99.902                                           libX11-1.6.5-4.fc27.aarch64
+libxcb-devel-1.12-5.fc27.aarch64                                 
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libxcb.so.1()(64bit)                                           libxcb-1.12-5.fc27.aarch64
+├─libxcb-render.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
+├─libxcb-shm.so.0()(64bit)                                       libxcb-1.12-5.fc27.aarch64
+├─libxcb-composite.so.0()(64bit)                                 libxcb-1.12-5.fc27.aarch64
+├─libxcb-damage.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
+├─libxcb-dpms.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
+├─libxcb-dri2.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
+├─libxcb-dri3.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
+├─libxcb-glx.so.0()(64bit)                                       libxcb-1.12-5.fc27.aarch64
+├─libxcb-present.so.0()(64bit)                                   libxcb-1.12-5.fc27.aarch64
+├─libxcb-randr.so.0()(64bit)                                     libxcb-1.12-5.fc27.aarch64
+├─libxcb-record.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
+├─libxcb-res.so.0()(64bit)                                       libxcb-1.12-5.fc27.aarch64
+├─libxcb-screensaver.so.0()(64bit)                               libxcb-1.12-5.fc27.aarch64
+├─libxcb-shape.so.0()(64bit)                                     libxcb-1.12-5.fc27.aarch64
+├─libxcb-sync.so.1()(64bit)                                      libxcb-1.12-5.fc27.aarch64
+├─libxcb-xf86dri.so.0()(64bit)                                   libxcb-1.12-5.fc27.aarch64
+├─libxcb-xfixes.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
+├─libxcb-xinerama.so.0()(64bit)                                  libxcb-1.12-5.fc27.aarch64
+├─libxcb-xinput.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
+├─libxcb-xkb.so.1()(64bit)                                       libxcb-1.12-5.fc27.aarch64
+├─libxcb-xselinux.so.0()(64bit)                                  libxcb-1.12-5.fc27.aarch64
+├─libxcb-xtest.so.0()(64bit)                                     libxcb-1.12-5.fc27.aarch64
+├─libxcb-xv.so.0()(64bit)                                        libxcb-1.12-5.fc27.aarch64
+├─libxcb-xvmc.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
+├─libxcb(aarch-64) = 1.12-5.fc27                                 libxcb-1.12-5.fc27.aarch64
+└─pkgconfig(xau) >= 0.99.2                                       libXau-devel-1.0.8-9.fc27.aarch64
+libxcb-1.12-5.fc27.aarch64                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libXau.so.6()(64bit)                                           libXau-1.0.8-9.fc27.aarch64
+perl-Pod-Usage-4:1.69-394.fc27.noarch                            
+├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
+├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─/usr/bin/perl                                                  perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Config)                                                   perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Getopt::Long)                                             perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─perl-Pod-Perldoc                                               perl-Pod-Perldoc-3.28-395.fc27.noarch
+├─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(File::Spec) >= 0.82                                       perl-PathTools-3.67-395.fc27.aarch64
+└─perl(Pod::Text) >= 4                                           perl-podlators-4.09-394.fc27.noarch
+libICE-devel-1.0.9-11.fc27.aarch64                               
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libICE.so.6()(64bit)                                           libICE-1.0.9-11.fc27.aarch64
+└─libICE(aarch-64) = 1.0.9-11.fc27                               libICE-1.0.9-11.fc27.aarch64
+libICE-1.0.9-11.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+libuuid-devel-2.30.1-1.fc27.aarch64                              
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+└─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
+libuuid-2.30.1-1.fc27.aarch64                                    
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+util-linux-2.30.1-1.fc27.aarch64                                 
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.aarch64
+├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.aarch64
+├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.aarch64
+├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.aarch64
+├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.aarch64
+├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
+├─libcrypt.so.1(GLIBC_2.17)(64bit)                               libcrypt-2.26-1.fc27.1.aarch64
+├─librt.so.1(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libcap-ng.so.0()(64bit)                                        libcap-ng-0.7.8-5.fc27.aarch64
+├─libmount.so.1()(64bit)                                         libmount-2.30.1-1.fc27.aarch64
+├─libpam.so.0()(64bit)                                           pam-1.3.0-5.fc27.aarch64
+├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.aarch64
+├─libpam.so.0(LIBPAM_1.0)(64bit)                                 pam-1.3.0-5.fc27.aarch64
+├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                         systemd-libs-234-5.fc27.aarch64
+├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.aarch64
+├─libmount.so.1(MOUNT_2.19)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.aarch64
+├─libpam_misc.so.0()(64bit)                                      pam-1.3.0-5.fc27.aarch64
+├─libutil.so.1(GLIBC_2.17)(64bit)                                glibc-2.26-1.fc27.1.aarch64
+├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.aarch64
+├─libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit)                       pam-1.3.0-5.fc27.aarch64
+├─libblkid.so.1(BLKID_2.18)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.20)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.24)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.21)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libfdisk.so.1()(64bit)                                         libfdisk-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.21)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.22)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.23)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libsmartcols.so.1()(64bit)                                     libsmartcols-2.30.1-1.fc27.aarch64
+├─libutempter.so.0()(64bit)                                      libutempter-1.1.6-11.fc27.aarch64
+├─libblkid.so.1(BLKID_2.20)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.25)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.30)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libfdisk.so.1(FDISK_2.26)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
+├─libfdisk.so.1(FDISK_2.27)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
+├─libfdisk.so.1(FDISK_2.28)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
+├─libfdisk.so.1(FDISK_2.29)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
+├─libfdisk.so.1(FDISK_2.30)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.25)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libmount.so.1(MOUNT_2.30)(64bit)                               libmount-2.30.1-1.fc27.aarch64
+├─libsmartcols.so.1(SMARTCOLS_2.25)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
+├─libsmartcols.so.1(SMARTCOLS_2.27)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
+├─libsmartcols.so.1(SMARTCOLS_2.28)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
+├─libsmartcols.so.1(SMARTCOLS_2.29)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
+├─libsmartcols.so.1(SMARTCOLS_2.30)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
+├─libutempter.so.0(UTEMPTER_1.1)(64bit)                          libutempter-1.1.6-11.fc27.aarch64
+├─/etc/pam.d/system-auth                                         pam-1.3.0-5.fc27.aarch64
+├─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
+├─libblkid = 2.30.1-1.fc27                                       libblkid-2.30.1-1.fc27.aarch64
+├─libmount = 2.30.1-1.fc27                                       libmount-2.30.1-1.fc27.aarch64
+├─libfdisk = 2.30.1-1.fc27                                       libfdisk-2.30.1-1.fc27.aarch64
+├─libsmartcols = 2.30.1-1.fc27                                   libsmartcols-2.30.1-1.fc27.aarch64
+├─audit-libs >= 1.0.6                                            audit-libs-2.7.7-5.fc27.aarch64
+└─pam >= 1.1.3-7                                                 pam-1.3.0-5.fc27.aarch64
+libblkid-2.30.1-1.fc27.aarch64                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─/sbin/ldconfig                                                 glibc-2.26-1.fc27.1.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
+└─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
+libmount-2.30.1-1.fc27.aarch64                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.aarch64
+├─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
+└─libblkid = 2.30.1-1.fc27                                       libblkid-2.30.1-1.fc27.aarch64
+libfdisk-2.30.1-1.fc27.aarch64                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.aarch64
+├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+└─libblkid.so.1(BLKID_2.21)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
+libsmartcols-2.30.1-1.fc27.aarch64                               
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+expat-devel-2.2.3-1.fc27.aarch64                                 
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.aarch64
+└─expat(aarch-64) = 2.2.3-1.fc27                                 expat-2.2.3-1.fc27.aarch64
+expat-2.2.3-1.fc27.aarch64                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+fontpackages-devel-1.44-19.fc27.noarch                           
+├─fontconfig                                                     fontconfig-2.12.4-4.fc27.aarch64
+├─rpmdevtools                                                    rpmdevtools-8.10-2.fc26.noarch
+└─fontpackages-filesystem = 1.44-19.fc27                         fontpackages-filesystem-1.44-19.fc27.noarch
+rpmdevtools-8.10-2.fc26.noarch                                   
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─/usr/bin/perl                                                  perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─/bin/bash                                                      bash-4.4.12-9.fc27.aarch64
+├─/usr/bin/python3                                               python3-3.6.2-6.fc27.aarch64
+├─perl(Getopt::Long)                                             perl-Getopt-Long-1:2.50-3.fc27.noarch
+├─perl(File::Spec)                                               perl-PathTools-3.67-395.fc27.aarch64
+├─perl(File::Temp)                                               perl-File-Temp-0.230.400-394.fc27.noarch
+├─perl(FileHandle)                                               perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─sed                                                            sed-4.4-3.fc27.aarch64
+├─grep                                                           grep-3.1-3.fc27.aarch64
+├─curl                                                           curl-minimal-7.55.0-1.fc27.aarch64
+├─gawk                                                           gawk-4.1.4-5.fc27.aarch64
+├─findutils                                                      findutils-1:4.6.0-14.fc27.aarch64
+├─emacs-filesystem                                               emacs-filesystem-1:25.2-2.fc27.noarch
+├─diffutils                                                      diffutils-3.6-3.fc27.aarch64
+├─file                                                           file-5.31-7.fc27.aarch64
+├─rpm-python3                                                    python3-rpm-4.13.0.1-41.fc27.aarch64
+├─xemacs-filesystem                                              xemacs-filesystem-21.5.34-22.20170124hgf412e9f093d4.fc26.noarch
+├─fakeroot                                                       fakeroot-1.21-5.fc27.aarch64
+└─rpm-build >= 4.4.2.3                                           rpm-build-4.13.0.1-41.fc27.aarch64
+fontpackages-filesystem-1.44-19.fc27.noarch                      
+xemacs-filesystem-21.5.34-22.20170124hgf412e9f093d4.fc26.noarch  
+freetype-devel-2.8-5.fc27.aarch64                                
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
+├─pkgconfig(zlib)                                                zlib-devel-1.2.11-4.fc27.aarch64
+├─pkgconfig(libpng)                                              libpng-devel-2:1.6.31-1.fc27.aarch64
+├─pkgconfig(bzip2)                                               bzip2-devel-1.0.6-24.fc27.aarch64
+└─freetype = 2.8-5.fc27                                          freetype-2.8-5.fc27.aarch64
+freetype-2.8-5.fc27.aarch64                                      
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libpng16.so.16()(64bit)                                        libpng-2:1.6.31-1.fc27.aarch64
+└─libpng16.so.16(PNG16_0)(64bit)                                 libpng-2:1.6.31-1.fc27.aarch64
+zlib-devel-1.2.11-4.fc27.aarch64                                 
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+└─zlib(aarch-64) = 1.2.11-4.fc27                                 zlib-1.2.11-4.fc27.aarch64
+zlib-1.2.11-4.fc27.aarch64                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+bzip2-devel-1.0.6-24.fc27.aarch64                                
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+└─bzip2-libs = 1.0.6-24.fc27                                     bzip2-libs-1.0.6-24.fc27.aarch64
+bzip2-libs-1.0.6-24.fc27.aarch64                                 
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 lua-devel-5.3.4-5.fc27.aarch64                                   
 ├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
@@ -2499,6 +3102,24 @@ perl-Sub-Install-0.928-12.fc27.noarch
 ├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
 ├─perl(Scalar::Util)                                             perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
 └─perl(B)                                                        perl-interpreter-4:5.26.0-398.fc27.aarch64
+libXi-devel-1.7.9-4.fc27.aarch64                                 
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
+├─pkgconfig(xext)                                                libXext-devel-1.3.3-7.fc27.aarch64
+├─libXi.so.6()(64bit)                                            libXi-1.7.9-4.fc27.aarch64
+├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─pkgconfig(inputproto)                                          xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─pkgconfig(xfixes)                                              libXfixes-devel-5.0.3-2.fc26.aarch64
+└─libXi = 1.7.9-4.fc27                                           libXi-1.7.9-4.fc27.aarch64
+libXi-1.7.9-4.fc27.aarch64                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
+├─libXext.so.6()(64bit)                                          libXext-1.3.3-7.fc27.aarch64
+└─libX11 >= 1.5.99.902                                           libX11-1.6.5-4.fc27.aarch64
 make-1:4.2.1-4.fc27.aarch64                                      
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -2581,6 +3202,174 @@ system-python-3.6.2-6.fc27.aarch64
 ├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
 ├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.aarch64
 └─system-python-libs(aarch-64) = 3.6.2-6.fc27                    system-python-libs-3.6.2-6.fc27.aarch64
+python3-rpm-4.13.0.1-41.fc27.aarch64                             
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libpython3.6m.so.1.0()(64bit)                                  system-python-libs-3.6.2-6.fc27.aarch64
+├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
+├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
+├─librpmbuild.so.7()(64bit)                                      rpm-build-libs-4.13.0.1-41.fc27.aarch64
+├─librpmsign.so.7()(64bit)                                       rpm-build-libs-4.13.0.1-41.fc27.aarch64
+├─rpm-libs(aarch-64) = 4.13.0.1-41.fc27                          rpm-libs-4.13.0.1-41.fc27.aarch64
+└─system-python(abi) = 3.6                                       system-python-3.6.2-6.fc27.aarch64
+rpm-libs-4.13.0.1-41.fc27.aarch64                                
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
+├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
+├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
+├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
+├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
+├─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
+├─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
+├─rpm = 4.13.0.1-41.fc27                                         rpm-4.13.0.1-41.fc27.aarch64
+├─rpm-plugin-selinux(aarch-64) = 4.13.0.1-41.fc27                rpm-plugin-selinux-4.13.0.1-41.fc27.aarch64
+└─libcap(aarch-64) >= 2.16                                       libcap-2.25-7.fc27.aarch64
+rpm-4.13.0.1-41.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─coreutils                                                      coreutils-8.27-14.fc27.aarch64
+├─/bin/bash                                                      bash-4.4.12-9.fc27.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
+├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
+├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
+├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
+├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
+├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
+├─curl                                                           curl-minimal-7.55.0-1.fc27.aarch64
+├─libarchive.so.13()(64bit)                                      libarchive-3.3.1-3.fc27.aarch64
+├─/usr/bin/db_stat                                               libdb-utils-5.3.28-26.fc27.aarch64
+└─popt(aarch-64) >= 1.10.2.1                                     popt-1.16-11.fc27.aarch64
+rpm-plugin-selinux-4.13.0.1-41.fc27.aarch64                      
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
+├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
+├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
+├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
+├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
+└─rpm-libs(aarch-64) = 4.13.0.1-41.fc27                          rpm-libs-4.13.0.1-41.fc27.aarch64
+rpm-build-libs-4.13.0.1-41.fc27.aarch64                          
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
+├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
+├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
+├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
+├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
+├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
+├─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
+├─libdw.so.1()(64bit)                                            elfutils-libs-0.170-1.fc27.aarch64
+├─libmagic.so.1()(64bit)                                         file-libs-5.31-7.fc27.aarch64
+├─libdw.so.1(ELFUTILS_0.159)(64bit)                              elfutils-libs-0.170-1.fc27.aarch64
+├─/usr/bin/gpg2                                                  gnupg2-2.1.22-1.fc27.aarch64
+└─rpm-libs(aarch-64) = 4.13.0.1-41.fc27                          rpm-libs-4.13.0.1-41.fc27.aarch64
+rpm-build-4.13.0.1-41.fc27.aarch64                               
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─/bin/bash                                                      bash-4.4.12-9.fc27.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
+├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
+├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
+├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
+├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
+├─grep                                                           grep-3.1-3.fc27.aarch64
+├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
+├─gawk                                                           gawk-4.1.4-5.fc27.aarch64
+├─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
+├─sed                                                            sed-4.4-3.fc27.aarch64
+├─file                                                           file-5.31-7.fc27.aarch64
+├─libdw.so.1()(64bit)                                            elfutils-libs-0.170-1.fc27.aarch64
+├─xz                                                             xz-5.2.3-4.fc27.aarch64
+├─binutils                                                       binutils-2.29-6.fc27.aarch64
+├─bzip2                                                          bzip2-1.0.6-24.fc27.aarch64
+├─diffutils                                                      diffutils-3.6-3.fc27.aarch64
+├─libmagic.so.1()(64bit)                                         file-libs-5.31-7.fc27.aarch64
+├─tar                                                            tar-2:1.29-7.fc27.aarch64
+├─findutils                                                      findutils-1:4.6.0-14.fc27.aarch64
+├─gzip                                                           gzip-1.8-4.fc27.aarch64
+├─librpmbuild.so.7()(64bit)                                      rpm-build-libs-4.13.0.1-41.fc27.aarch64
+├─unzip                                                          unzip-6.0-36.fc27.aarch64
+├─cpio                                                           cpio-2.12-6.fc27.aarch64
+├─libelf.so.1(ELFUTILS_1.3)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
+├─libelf.so.1(ELFUTILS_1.6)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
+├─libdw.so.1(ELFUTILS_0.167)(64bit)                              elfutils-libs-0.170-1.fc27.aarch64
+├─system-rpm-config                                              redhat-rpm-config-67-1.fc27.noarch
+├─/usr/bin/gdb-add-index                                         gdb-headless-8.0-17.fc27.aarch64
+├─rpm = 4.13.0.1-41.fc27                                         rpm-4.13.0.1-41.fc27.aarch64
+├─elfutils >= 0.128                                              elfutils-0.170-1.fc27.aarch64
+├─patch >= 2.5                                                   patch-2.7.5-6.fc27.aarch64
+└─pkgconfig >= 1:0.24                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 python3-setuptools-36.2.0-3.fc27.noarch                          
 ├─/usr/bin/python3                                               python3-3.6.2-6.fc27.aarch64
 └─python(abi) = 3.6                                              python3-3.6.2-6.fc27.aarch64
@@ -2681,24 +3470,6 @@ fontconfig-devel-2.12.4-4.fc27.aarch64
 ├─pkgconfig(expat)                                               expat-devel-2.2.3-1.fc27.aarch64
 ├─fontconfig(aarch-64) = 2.12.4-4.fc27                           fontconfig-2.12.4-4.fc27.aarch64
 └─freetype-devel >= 2.1.4                                        freetype-devel-2.8-5.fc27.aarch64
-freetype-devel-2.8-5.fc27.aarch64                                
-├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libfreetype.so.6()(64bit)                                      freetype-2.8-5.fc27.aarch64
-├─pkgconfig(zlib)                                                zlib-devel-1.2.11-4.fc27.aarch64
-├─pkgconfig(libpng)                                              libpng-devel-2:1.6.31-1.fc27.aarch64
-├─pkgconfig(bzip2)                                               bzip2-devel-1.0.6-24.fc27.aarch64
-└─freetype = 2.8-5.fc27                                          freetype-2.8-5.fc27.aarch64
-freetype-2.8-5.fc27.aarch64                                      
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-├─libpng16.so.16()(64bit)                                        libpng-2:1.6.31-1.fc27.aarch64
-└─libpng16.so.16(PNG16_0)(64bit)                                 libpng-2:1.6.31-1.fc27.aarch64
 gcc-7.1.1-7.fc27.1.aarch64                                       
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -2791,47 +3562,6 @@ lcms2-2.8-5.fc27.aarch64
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
 └─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-libX11-devel-1.6.5-4.fc27.aarch64                                
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
-├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─libX11-xcb.so.1()(64bit)                                       libX11-xcb-1.6.5-4.fc27.aarch64
-├─pkgconfig(kbproto)                                             xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─libX11 = 1.6.5-4.fc27                                          libX11-1.6.5-4.fc27.aarch64
-├─libX11-xcb = 1.6.5-4.fc27                                      libX11-xcb-1.6.5-4.fc27.aarch64
-└─pkgconfig(xcb) >= 1.11.1                                       libxcb-devel-1.12-5.fc27.aarch64
-libX11-1.6.5-4.fc27.aarch64                                      
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
-├─libxcb.so.1()(64bit)                                           libxcb-1.12-5.fc27.aarch64
-└─libX11-common >= 1.6.5-4.fc27                                  libX11-common-1.6.5-4.fc27.noarch
-libX11-xcb-1.6.5-4.fc27.aarch64                                  
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-└─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-libX11-common-1.6.5-4.fc27.noarch                                
-libXi-devel-1.7.9-4.fc27.aarch64                                 
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
-├─pkgconfig(xext)                                                libXext-devel-1.3.3-7.fc27.aarch64
-├─libXi.so.6()(64bit)                                            libXi-1.7.9-4.fc27.aarch64
-├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─pkgconfig(inputproto)                                          xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─pkgconfig(xfixes)                                              libXfixes-devel-5.0.3-2.fc26.aarch64
-└─libXi = 1.7.9-4.fc27                                           libXi-1.7.9-4.fc27.aarch64
-libXi-1.7.9-4.fc27.aarch64                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
-├─libXext.so.6()(64bit)                                          libXext-1.3.3-7.fc27.aarch64
-└─libX11 >= 1.5.99.902                                           libX11-1.6.5-4.fc27.aarch64
 libXt-devel-1.1.5-6.fc27.aarch64                                 
 ├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─libXt.so.6()(64bit)                                            libXt-1.1.5-6.fc27.aarch64
@@ -3023,6 +3753,20 @@ zip-3.0-20.fc27.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 ├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
 └─unzip                                                          unzip-6.0-36.fc27.aarch64
+libSM-devel-1.2.2-7.fc27.aarch64                                 
+├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
+├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
+├─libSM.so.6()(64bit)                                            libSM-1.2.2-7.fc27.aarch64
+├─pkgconfig(ice)                                                 libICE-devel-1.0.9-11.fc27.aarch64
+└─libSM = 1.2.2-7.fc27                                           libSM-1.2.2-7.fc27.aarch64
+libSM-1.2.2-7.fc27.aarch64                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
+├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
+└─libICE.so.6()(64bit)                                           libICE-1.0.9-11.fc27.aarch64
 bash-4.4.12-9.fc27.aarch64                                       
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -3065,127 +3809,6 @@ glibc-headers-2.26-1.fc27.1.aarch64
 ├─glibc = 2.26-1.fc27.1                                          glibc-2.26-1.fc27.1.aarch64
 └─kernel-headers >= 2.2.1                                        kernel-headers-4.13.0-0.rc1.git1.1.fc27.aarch64
 kernel-headers-4.13.0-0.rc1.git1.1.fc27.aarch64                  
-zlib-1.2.11-4.fc27.aarch64                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-zlib-devel-1.2.11-4.fc27.aarch64                                 
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-└─zlib(aarch-64) = 1.2.11-4.fc27                                 zlib-1.2.11-4.fc27.aarch64
-util-linux-2.30.1-1.fc27.aarch64                                 
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
-├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.aarch64
-├─libsystemd.so.0()(64bit)                                       systemd-libs-234-5.fc27.aarch64
-├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
-├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libaudit.so.1()(64bit)                                         audit-libs-2.7.7-5.fc27.aarch64
-├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.aarch64
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.aarch64
-├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
-├─libcrypt.so.1(GLIBC_2.17)(64bit)                               libcrypt-2.26-1.fc27.1.aarch64
-├─librt.so.1(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
-├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libcap-ng.so.0()(64bit)                                        libcap-ng-0.7.8-5.fc27.aarch64
-├─libmount.so.1()(64bit)                                         libmount-2.30.1-1.fc27.aarch64
-├─libpam.so.0()(64bit)                                           pam-1.3.0-5.fc27.aarch64
-├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.aarch64
-├─libpam.so.0(LIBPAM_1.0)(64bit)                                 pam-1.3.0-5.fc27.aarch64
-├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                         systemd-libs-234-5.fc27.aarch64
-├─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.aarch64
-├─libmount.so.1(MOUNT_2.19)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.aarch64
-├─libpam_misc.so.0()(64bit)                                      pam-1.3.0-5.fc27.aarch64
-├─libutil.so.1(GLIBC_2.17)(64bit)                                glibc-2.26-1.fc27.1.aarch64
-├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.aarch64
-├─libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit)                       pam-1.3.0-5.fc27.aarch64
-├─libblkid.so.1(BLKID_2.18)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.20)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.24)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.21)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libfdisk.so.1()(64bit)                                         libfdisk-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.21)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.22)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.23)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libsmartcols.so.1()(64bit)                                     libsmartcols-2.30.1-1.fc27.aarch64
-├─libutempter.so.0()(64bit)                                      libutempter-1.1.6-11.fc27.aarch64
-├─libblkid.so.1(BLKID_2.20)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.25)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.30)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libfdisk.so.1(FDISK_2.26)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
-├─libfdisk.so.1(FDISK_2.27)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
-├─libfdisk.so.1(FDISK_2.28)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
-├─libfdisk.so.1(FDISK_2.29)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
-├─libfdisk.so.1(FDISK_2.30)(64bit)                               libfdisk-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.25)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libmount.so.1(MOUNT_2.30)(64bit)                               libmount-2.30.1-1.fc27.aarch64
-├─libsmartcols.so.1(SMARTCOLS_2.25)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
-├─libsmartcols.so.1(SMARTCOLS_2.27)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
-├─libsmartcols.so.1(SMARTCOLS_2.28)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
-├─libsmartcols.so.1(SMARTCOLS_2.29)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
-├─libsmartcols.so.1(SMARTCOLS_2.30)(64bit)                       libsmartcols-2.30.1-1.fc27.aarch64
-├─libutempter.so.0(UTEMPTER_1.1)(64bit)                          libutempter-1.1.6-11.fc27.aarch64
-├─/etc/pam.d/system-auth                                         pam-1.3.0-5.fc27.aarch64
-├─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
-├─libblkid = 2.30.1-1.fc27                                       libblkid-2.30.1-1.fc27.aarch64
-├─libmount = 2.30.1-1.fc27                                       libmount-2.30.1-1.fc27.aarch64
-├─libfdisk = 2.30.1-1.fc27                                       libfdisk-2.30.1-1.fc27.aarch64
-├─libsmartcols = 2.30.1-1.fc27                                   libsmartcols-2.30.1-1.fc27.aarch64
-├─audit-libs >= 1.0.6                                            audit-libs-2.7.7-5.fc27.aarch64
-└─pam >= 1.1.3-7                                                 pam-1.3.0-5.fc27.aarch64
-libblkid-2.30.1-1.fc27.aarch64                                   
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─/sbin/ldconfig                                                 glibc-2.26-1.fc27.1.aarch64
-├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
-└─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
-libfdisk-2.30.1-1.fc27.aarch64                                   
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.aarch64
-├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-└─libblkid.so.1(BLKID_2.21)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-libmount-2.30.1-1.fc27.aarch64                                   
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
-├─librt.so.1()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libblkid.so.1()(64bit)                                         libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.15)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_2.17)(64bit)                               libblkid-2.30.1-1.fc27.aarch64
-├─libblkid.so.1(BLKID_1.0)(64bit)                                libblkid-2.30.1-1.fc27.aarch64
-├─libuuid = 2.30.1-1.fc27                                        libuuid-2.30.1-1.fc27.aarch64
-└─libblkid = 2.30.1-1.fc27                                       libblkid-2.30.1-1.fc27.aarch64
-libsmartcols-2.30.1-1.fc27.aarch64                               
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-libuuid-2.30.1-1.fc27.aarch64                                    
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 glib2-2.53.5-1.fc27.aarch64                                      
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -3251,17 +3874,105 @@ libxml2-2.9.4-4.fc27.aarch64
 ├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
 ├─libz.so.1(ZLIB_1.2.2.3)(64bit)                                 zlib-1.2.11-4.fc27.aarch64
 └─libz.so.1(ZLIB_1.2.3.3)(64bit)                                 zlib-1.2.11-4.fc27.aarch64
-perl-Carp-1.42-394.fc27.noarch                                   
-├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
-└─perl(warnings)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
-perl-constant-1.33-395.fc27.noarch                               
+diffutils-3.6-3.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+fakeroot-1.21-5.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─/usr/bin/getopt                                                util-linux-2.30.1-1.fc27.aarch64
+└─fakeroot-libs = 1.21-5.fc27                                    fakeroot-libs-1.21-5.fc27.aarch64
+fakeroot-libs-1.21-5.fc27.aarch64                                
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+└─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+file-5.31-7.fc27.aarch64                                         
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libmagic.so.1()(64bit)                                         file-libs-5.31-7.fc27.aarch64
+└─file-libs = 5.31-7.fc27                                        file-libs-5.31-7.fc27.aarch64
+file-libs-5.31-7.fc27.aarch64                                    
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+findutils-1:4.6.0-14.fc27.aarch64                                
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+└─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+gawk-4.1.4-5.fc27.aarch64                                        
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─libgmp.so.10()(64bit)                                          gmp-1:6.1.2-6.fc27.aarch64
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.aarch64
+├─libmpfr.so.4()(64bit)                                          mpfr-3.1.5-5.fc27.aarch64
+├─libsigsegv                                                     libsigsegv-2.11-3.fc27.aarch64
+├─mpfr                                                           mpfr-3.1.5-5.fc27.aarch64
+├─readline                                                       readline-7.0-7.fc27.aarch64
+├─libsigsegv.so.2()(64bit)                                       libsigsegv-2.11-3.fc27.aarch64
+└─filesystem >= 3                                                filesystem-3.3-3.fc27.aarch64
+grep-3.1-3.fc27.aarch64                                          
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+└─libpcre.so.1()(64bit)                                          pcre-8.41-1.fc27.2.aarch64
+perl-File-Temp-0.230.400-394.fc27.noarch                         
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
-├─perl(warnings::register)                                       perl-interpreter-4:5.26.0-398.fc27.aarch64
-└─perl(:VERSION) >= 5.8.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(constant)                                                 perl-constant-1.33-395.fc27.noarch
+├─perl(overload)                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Cwd)                                                      perl-PathTools-3.67-395.fc27.aarch64
+├─perl(POSIX)                                                    perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Scalar::Util)                                             perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
+├─perl(IO::Handle)                                               perl-IO-1.38-398.fc27.aarch64
+├─perl(Errno)                                                    perl-Errno-1.28-398.fc27.aarch64
+├─perl(IO::Seekable)                                             perl-IO-1.38-398.fc27.aarch64
+├─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Exporter) >= 5.57                                         perl-Exporter-5.72-395.fc27.noarch
+├─perl(File::Spec) >= 0.8                                        perl-PathTools-3.67-395.fc27.aarch64
+├─perl(parent) >= 0.221                                          perl-parent-1:0.236-394.fc27.noarch
+├─perl(File::Path) >= 2.06                                       perl-File-Path-2.15-1.fc27.noarch
+└─perl(Fcntl) >= 1.03                                            perl-interpreter-4:5.26.0-398.fc27.aarch64
+perl-Getopt-Long-1:2.50-3.fc27.noarch                            
+├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
+├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(warnings)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(constant)                                                 perl-constant-1.33-395.fc27.noarch
+├─perl(overload)                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Text::ParseWords)                                         perl-Text-ParseWords-3.30-394.fc27.noarch
+├─perl(:VERSION) >= 5.4.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
+└─perl(Pod::Usage) >= 1.14                                       perl-Pod-Usage-4:1.69-394.fc27.noarch
 perl-PathTools-3.67-395.fc27.aarch64                             
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -3275,6 +3986,25 @@ perl-PathTools-3.67-395.fc27.aarch64
 ├─libperl.so.5.26()(64bit)                                       perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(constant)                                                 perl-constant-1.33-395.fc27.noarch
 └─perl(Scalar::Util)                                             perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
+sed-4.4-3.fc27.aarch64                                           
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+└─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
+perl-Carp-1.42-394.fc27.noarch                                   
+├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
+└─perl(warnings)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
+perl-constant-1.33-395.fc27.noarch                               
+├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
+├─perl(warnings::register)                                       perl-interpreter-4:5.26.0-398.fc27.aarch64
+└─perl(:VERSION) >= 5.8.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
 perl-Exporter-5.72-395.fc27.noarch                               
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
@@ -3333,6 +4063,8 @@ perl-File-Path-2.15-1.fc27.noarch
 ├─perl(File::Basename)                                           perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(Cwd)                                                      perl-PathTools-3.67-395.fc27.aarch64
 └─perl(:VERSION) >= 5.5.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
+perl-macros-4:5.26.0-398.fc27.aarch64                            
+└─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 perl-IPC-System-Simple-1.25-16.fc27.noarch                       
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
@@ -3452,25 +4184,6 @@ perl-SelfLoader-1.23-398.fc27.noarch
 ├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(IO::Handle)                                               perl-IO-1.38-398.fc27.aarch64
 └─perl(:VERSION) >= 5.8.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
-perl-File-Temp-0.230.400-394.fc27.noarch                         
-├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
-├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(constant)                                                 perl-constant-1.33-395.fc27.noarch
-├─perl(overload)                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Cwd)                                                      perl-PathTools-3.67-395.fc27.aarch64
-├─perl(POSIX)                                                    perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Scalar::Util)                                             perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
-├─perl(IO::Handle)                                               perl-IO-1.38-398.fc27.aarch64
-├─perl(Errno)                                                    perl-Errno-1.28-398.fc27.aarch64
-├─perl(IO::Seekable)                                             perl-IO-1.38-398.fc27.aarch64
-├─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Exporter) >= 5.57                                         perl-Exporter-5.72-395.fc27.noarch
-├─perl(File::Spec) >= 0.8                                        perl-PathTools-3.67-395.fc27.aarch64
-├─perl(parent) >= 0.221                                          perl-parent-1:0.236-394.fc27.noarch
-├─perl(File::Path) >= 2.06                                       perl-File-Path-2.15-1.fc27.noarch
-└─perl(Fcntl) >= 1.03                                            perl-interpreter-4:5.26.0-398.fc27.aarch64
 perl-Storable-1:2.62-395.fc27.aarch64                            
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -3491,36 +4204,12 @@ perl-Term-ANSIColor-4.06-395.fc27.noarch
 ├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
 ├─perl(warnings)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
 └─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
-perl-Getopt-Long-1:2.50-3.fc27.noarch                            
-├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(warnings)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(constant)                                                 perl-constant-1.33-395.fc27.noarch
-├─perl(overload)                                                 perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Text::ParseWords)                                         perl-Text-ParseWords-3.30-394.fc27.noarch
-├─perl(:VERSION) >= 5.4.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
-└─perl(Pod::Usage) >= 1.14                                       perl-Pod-Usage-4:1.69-394.fc27.noarch
 perl-Text-ParseWords-3.30-394.fc27.noarch                        
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
 └─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
-perl-Pod-Usage-4:1.69-394.fc27.noarch                            
-├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
-├─perl(Exporter)                                                 perl-Exporter-5.72-395.fc27.noarch
-├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─/usr/bin/perl                                                  perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Config)                                                   perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Getopt::Long)                                             perl-Getopt-Long-1:2.50-3.fc27.noarch
-├─perl-Pod-Perldoc                                               perl-Pod-Perldoc-3.28-395.fc27.noarch
-├─perl(:VERSION) >= 5.6.0                                        perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(File::Spec) >= 0.82                                       perl-PathTools-3.67-395.fc27.aarch64
-└─perl(Pod::Text) >= 4                                           perl-podlators-4.09-394.fc27.noarch
 perl-Pod-Simple-1:3.35-394.fc27.noarch                           
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
@@ -3621,17 +4310,17 @@ libdb-5.3.28-26.fc27.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
 └─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
-libdb-devel-5.3.28-26.fc27.aarch64                               
-└─libdb(aarch-64) = 5.3.28-26.fc27                               libdb-5.3.28-26.fc27.aarch64
-bzip2-libs-1.0.6-24.fc27.aarch64                                 
+libdb-utils-5.3.28-26.fc27.aarch64                               
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-bzip2-devel-1.0.6-24.fc27.aarch64                                
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-└─bzip2-libs = 1.0.6-24.fc27                                     bzip2-libs-1.0.6-24.fc27.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
+└─libdb(aarch-64) = 5.3.28-26.fc27                               libdb-5.3.28-26.fc27.aarch64
+libdb-devel-5.3.28-26.fc27.aarch64                               
+└─libdb(aarch-64) = 5.3.28-26.fc27                               libdb-5.3.28-26.fc27.aarch64
 perl-Digest-MD5-2.55-395.fc27.aarch64                            
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -3804,27 +4493,19 @@ xz-libs-5.2.3-4.fc27.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
 └─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
-libXext-devel-1.3.3-7.fc27.aarch64                               
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig(x11)                                                 libX11-devel-1.6.5-4.fc27.aarch64
-├─libXext.so.6()(64bit)                                          libXext-1.3.3-7.fc27.aarch64
-├─pkgconfig(xextproto)                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
-└─libXext = 1.3.3-7.fc27                                         libXext-1.3.3-7.fc27.aarch64
-libXext-1.3.3-7.fc27.aarch64                                     
+xz-5.2.3-4.fc27.aarch64                                          
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libX11.so.6()(64bit)                                           libX11-1.6.5-4.fc27.aarch64
-└─libX11 >= 1.5.99.902                                           libX11-1.6.5-4.fc27.aarch64
-findutils-1:4.6.0-14.fc27.aarch64                                
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-└─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
+├─liblzma.so.5(XZ_5.2)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
+├─xz-libs(aarch-64) = 5.2.3-4.fc27                               xz-libs-5.2.3-4.fc27.aarch64
+└─grep >= 2.20-5                                                 grep-3.1-3.fc27.aarch64
 ca-certificates-2017.2.16-3.fc27.noarch                          
 ├─p11-kit >= 0.23.4                                              p11-kit-0.23.7-3.fc27.aarch64
 └─p11-kit-trust >= 0.23.4                                        p11-kit-trust-0.23.7-3.fc27.aarch64
@@ -3837,55 +4518,6 @@ chkconfig-1.10-3.fc27.aarch64
 ├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
 ├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
 └─libsepol.so.1()(64bit)                                         libsepol-2.7-1.fc27.aarch64
-python2-2.7.13-16.fc27.aarch64                                   
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
-├─libpython2.7.so.1.0()(64bit)                                   python2-libs-2.7.13-16.fc27.aarch64
-├─python2-setuptools                                             python2-setuptools-36.2.0-3.fc27.noarch
-├─python2-pip                                                    python2-pip-9.0.1-11.fc27.noarch
-└─python2-libs(aarch-64) = 2.7.13-16.fc27                        python2-libs-2.7.13-16.fc27.aarch64
-python2-libs-2.7.13-16.fc27.aarch64                              
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.aarch64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libutil.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
-├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.aarch64
-├─libnsl.so.1()(64bit)                                           glibc-2.26-1.fc27.1.aarch64
-├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.aarch64
-├─libtinfo.so.6()(64bit)                                         ncurses-libs-6.0-13.20170722.fc27.aarch64
-├─libcrypt.so.1(GLIBC_2.17)(64bit)                               libcrypt-2.26-1.fc27.1.aarch64
-├─libffi.so.6()(64bit)                                           libffi-3.1-14.fc27.aarch64
-├─/usr/bin/env                                                   coreutils-8.27-14.fc27.aarch64
-├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                            openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.aarch64
-├─libnsl.so.1(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1(ZLIB_1.2.0)(64bit)                                   zlib-1.2.11-4.fc27.aarch64
-├─libgdbm.so.4()(64bit)                                          gdbm-1.13-3.fc27.aarch64
-├─libgdbm_compat.so.4()(64bit)                                   gdbm-1.13-3.fc27.aarch64
-├─libncursesw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.aarch64
-├─libpanelw.so.6()(64bit)                                        ncurses-libs-6.0-13.20170722.fc27.aarch64
-├─libutil.so.1(GLIBC_2.17)(64bit)                                glibc-2.26-1.fc27.1.aarch64
-├─expat >= 2.1.0                                                 expat-2.2.3-1.fc27.aarch64
-└─glibc(aarch-64) >= 2.24.90-26                                  glibc-2.26-1.fc27.1.aarch64
 libtiff-4.0.8-3.fc27.aarch64                                     
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -3902,39 +4534,6 @@ libtiff-4.0.8-3.fc27.aarch64
 ├─libjpeg.so.62()(64bit)                                         libjpeg-turbo-1.5.1-4.fc27.aarch64
 ├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                              libjpeg-turbo-1.5.1-4.fc27.aarch64
 └─libjbig.so.2.1()(64bit)                                        jbigkit-libs-2.1-8.fc27.aarch64
-expat-2.2.3-1.fc27.aarch64                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-expat-devel-2.2.3-1.fc27.aarch64                                 
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libexpat.so.1()(64bit)                                         expat-2.2.3-1.fc27.aarch64
-└─expat(aarch-64) = 2.2.3-1.fc27                                 expat-2.2.3-1.fc27.aarch64
-libICE-1.0.9-11.fc27.aarch64                                     
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-libICE-devel-1.0.9-11.fc27.aarch64                               
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─libICE.so.6()(64bit)                                           libICE-1.0.9-11.fc27.aarch64
-└─libICE(aarch-64) = 1.0.9-11.fc27                               libICE-1.0.9-11.fc27.aarch64
-libSM-1.2.2-7.fc27.aarch64                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libuuid.so.1()(64bit)                                          libuuid-2.30.1-1.fc27.aarch64
-├─libuuid.so.1(UUID_1.0)(64bit)                                  libuuid-2.30.1-1.fc27.aarch64
-└─libICE.so.6()(64bit)                                           libICE-1.0.9-11.fc27.aarch64
-libSM-devel-1.2.2-7.fc27.aarch64                                 
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─libSM.so.6()(64bit)                                            libSM-1.2.2-7.fc27.aarch64
-├─pkgconfig(ice)                                                 libICE-devel-1.0.9-11.fc27.aarch64
-└─libSM = 1.2.2-7.fc27                                           libSM-1.2.2-7.fc27.aarch64
 libXaw-1.0.13-7.fc27.aarch64                                     
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -4179,14 +4778,6 @@ ncurses-6.0-13.20170722.fc27.aarch64
 ├─libtic.so.6()(64bit)                                           ncurses-libs-6.0-13.20170722.fc27.aarch64
 └─ncurses-libs(aarch-64) = 6.0-13.20170722.fc27                  ncurses-libs-6.0-13.20170722.fc27.aarch64
 coreutils-common-8.27-14.fc27.aarch64                            
-sed-4.4-3.fc27.aarch64                                           
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
-├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
-└─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
 sgml-common-0.6.3-46.fc27.noarch                                 
 ├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
 └─/bin/basename                                                  coreutils-8.27-14.fc27.aarch64
@@ -4473,12 +5064,6 @@ pam-1.3.0-5.fc27.aarch64
 ├─glibc >= 2.3.90-37                                             glibc-2.26-1.fc27.1.aarch64
 ├─libpwquality >= 0.9.9                                          libpwquality-1.4.0-3.fc27.aarch64
 └─libselinux >= 1.33.2                                           libselinux-2.7-1.fc27.aarch64
-grep-3.1-3.fc27.aarch64                                          
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libpcre.so.1()(64bit)                                          pcre-8.41-1.fc27.2.aarch64
 lz4-libs-1.7.5-6.fc27.aarch64                                    
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -4631,6 +5216,134 @@ libsemanage-2.7-1.fc27.aarch64
 └─libsepol.so.1(LIBSEPOL_1.1)(64bit)                             libsepol-2.7-1.fc27.aarch64
 setup-2.10.5-3.fc27.noarch                                       
 └─system-release                                                 fedora-release-27-0.2.noarch
+popt-1.16-11.fc27.aarch64                                        
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+gnupg2-2.1.22-1.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
+├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.aarch64
+├─libgpg-error.so.0()(64bit)                                     libgpg-error-1.27-3.fc27.aarch64
+├─libsqlite3.so.0()(64bit)                                       sqlite-libs-3.20.0-1.fc27.aarch64
+├─liblber-2.4.so.2()(64bit)                                      openldap-2.4.45-3.fc27.aarch64
+├─libldap-2.4.so.2()(64bit)                                      openldap-2.4.45-3.fc27.aarch64
+├─libgcrypt.so.20()(64bit)                                       libgcrypt-1.7.8-3.fc27.aarch64
+├─libgcrypt.so.20(GCRYPT_1.6)(64bit)                             libgcrypt-1.7.8-3.fc27.aarch64
+├─libgpg-error.so.0(GPG_ERROR_1.0)(64bit)                        libgpg-error-1.27-3.fc27.aarch64
+├─libassuan.so.0()(64bit)                                        libassuan-2.4.3-6.fc27.aarch64
+├─libgnutls.so.30()(64bit)                                       gnutls-3.5.14-3.fc27.aarch64
+├─libresolv.so.2(GLIBC_2.17)(64bit)                              glibc-2.26-1.fc27.1.aarch64
+├─libgnutls.so.30(GNUTLS_3_4)(64bit)                             gnutls-3.5.14-3.fc27.aarch64
+├─libassuan.so.0(LIBASSUAN_1.0)(64bit)                           libassuan-2.4.3-6.fc27.aarch64
+├─libksba.so.8()(64bit)                                          libksba-1.3.5-5.fc27.aarch64
+├─libksba.so.8(KSBA_0.9)(64bit)                                  libksba-1.3.5-5.fc27.aarch64
+├─libnpth.so.0()(64bit)                                          npth-1.5-3.fc27.aarch64
+├─libusb-1.0.so.0()(64bit)                                       libusbx-1.0.21-4.fc27.aarch64
+├─libnpth.so.0(NPTH_1.0)(64bit)                                  npth-1.5-3.fc27.aarch64
+└─libgcrypt >= 1.7.0                                             libgcrypt-1.7.8-3.fc27.aarch64
+bzip2-1.0.6-24.fc27.aarch64                                      
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+└─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+cpio-2.12-6.fc27.aarch64                                         
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+gzip-1.8-4.fc27.aarch64                                          
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─/sbin/install-info                                             info-6.4-3.fc27.aarch64
+└─coreutils                                                      coreutils-8.27-14.fc27.aarch64
+patch-2.7.5-6.fc27.aarch64                                       
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─libattr.so.1()(64bit)                                          libattr-2.4.47-21.fc27.aarch64
+└─libattr.so.1(ATTR_1.1)(64bit)                                  libattr-2.4.47-21.fc27.aarch64
+redhat-rpm-config-67-1.fc27.noarch                               
+├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
+├─coreutils                                                      coreutils-8.27-14.fc27.aarch64
+├─/bin/bash                                                      bash-4.4.12-9.fc27.aarch64
+├─python-srpm-macros                                             python-srpm-macros-3-21.fc27.noarch
+├─zip                                                            zip-3.0-20.fc27.aarch64
+├─fedora-rpm-macros                                              fedora-rpm-macros-26-3.fc27.noarch
+├─fpc-srpm-macros                                                fpc-srpm-macros-1.1-3.fc27.noarch
+├─ghc-srpm-macros                                                ghc-srpm-macros-1.4.2-6.fc27.noarch
+├─gnat-srpm-macros                                               gnat-srpm-macros-4-4.fc27.noarch
+├─go-srpm-macros                                                 go-srpm-macros-2-10.fc27.noarch
+├─ocaml-srpm-macros                                              ocaml-srpm-macros-5-2.fc27.noarch
+├─openblas-srpm-macros                                           openblas-srpm-macros-2-2.fc27.noarch
+├─perl-srpm-macros                                               perl-srpm-macros-1-24.fc27.noarch
+├─qt5-srpm-macros                                                qt5-srpm-macros-5.9.1-2.fc27.noarch
+├─rust-srpm-macros                                               rust-srpm-macros-4-3.fc27.noarch
+├─rpm >= 4.11.0                                                  rpm-4.13.0.1-41.fc27.aarch64
+└─dwz >= 0.4                                                     dwz-0.12-5.fc27.aarch64
+tar-2:1.29-7.fc27.aarch64                                        
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+└─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
+libarchive-3.3.1-3.fc27.aarch64                                  
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
+├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
+├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
+├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.aarch64
+├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
+├─libxml2.so.2()(64bit)                                          libxml2-2.9.4-4.fc27.aarch64
+├─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
+├─liblz4.so.1()(64bit)                                           lz4-libs-1.7.5-6.fc27.aarch64
+├─libxml2.so.2(LIBXML2_2.4.30)(64bit)                            libxml2-2.9.4-4.fc27.aarch64
+├─libxml2.so.2(LIBXML2_2.6.0)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
+├─libxml2.so.2(LIBXML2_2.5.0)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
+├─libxml2.so.2(LIBXML2_2.5.2)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
+├─libxml2.so.2(LIBXML2_2.6.5)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
+└─liblzma.so.5(XZ_5.2)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
+dwz-0.12-5.fc27.aarch64                                          
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
+└─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
+fedora-rpm-macros-26-3.fc27.noarch                               
+fpc-srpm-macros-1.1-3.fc27.noarch                                
+ghc-srpm-macros-1.4.2-6.fc27.noarch                              
+gnat-srpm-macros-4-4.fc27.noarch                                 
+go-srpm-macros-2-10.fc27.noarch                                  
+ocaml-srpm-macros-5-2.fc27.noarch                                
+openblas-srpm-macros-2-2.fc27.noarch                             
+perl-srpm-macros-1-24.fc27.noarch                                
+python-srpm-macros-3-21.fc27.noarch                              
+qt5-srpm-macros-5.9.1-2.fc27.noarch                              
+rust-srpm-macros-4-3.fc27.noarch                                 
 python-rpm-macros-3-21.fc27.noarch                               
 └─python-srpm-macros                                             python-srpm-macros-3-21.fc27.noarch
 python3-rpm-generators-4.13.0.1-2.fc27.1.noarch                  
@@ -4650,15 +5363,12 @@ python2-pip-9.0.1-11.fc27.noarch
 python2-setuptools-36.2.0-3.fc27.noarch                          
 ├─/usr/bin/python2                                               python2-2.7.13-16.fc27.aarch64
 └─python(abi) = 2.7                                              python2-2.7.13-16.fc27.aarch64
-python-srpm-macros-3-21.fc27.noarch                              
 perl-Term-Cap-1.17-394.fc27.noarch                               
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(Carp)                                                     perl-Carp-1.42-394.fc27.noarch
 ├─perl(vars)                                                     perl-interpreter-4:5.26.0-398.fc27.aarch64
 └─ncurses                                                        ncurses-6.0-13.20170722.fc27.aarch64
-perl-macros-4:5.26.0-398.fc27.aarch64                            
-└─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 perl-Pod-Perldoc-3.28-395.fc27.noarch                            
 ├─perl(:MODULE_COMPAT_5.26.0)                                    perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                   perl-libs-4:5.26.0-398.fc27.aarch64
@@ -4915,63 +5625,6 @@ keyutils-libs-1.5.10-3.fc27.aarch64
 keyutils-libs-devel-1.5.10-3.fc27.aarch64                        
 ├─libkeyutils.so.1()(64bit)                                      keyutils-libs-1.5.10-3.fc27.aarch64
 └─keyutils-libs = 1.5.10-3.fc27                                  keyutils-libs-1.5.10-3.fc27.aarch64
-popt-1.16-11.fc27.aarch64                                        
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-libxcb-devel-1.12-5.fc27.aarch64                                 
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─libxcb.so.1()(64bit)                                           libxcb-1.12-5.fc27.aarch64
-├─libxcb-render.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
-├─libxcb-shm.so.0()(64bit)                                       libxcb-1.12-5.fc27.aarch64
-├─libxcb-composite.so.0()(64bit)                                 libxcb-1.12-5.fc27.aarch64
-├─libxcb-damage.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
-├─libxcb-dpms.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
-├─libxcb-dri2.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
-├─libxcb-dri3.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
-├─libxcb-glx.so.0()(64bit)                                       libxcb-1.12-5.fc27.aarch64
-├─libxcb-present.so.0()(64bit)                                   libxcb-1.12-5.fc27.aarch64
-├─libxcb-randr.so.0()(64bit)                                     libxcb-1.12-5.fc27.aarch64
-├─libxcb-record.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
-├─libxcb-res.so.0()(64bit)                                       libxcb-1.12-5.fc27.aarch64
-├─libxcb-screensaver.so.0()(64bit)                               libxcb-1.12-5.fc27.aarch64
-├─libxcb-shape.so.0()(64bit)                                     libxcb-1.12-5.fc27.aarch64
-├─libxcb-sync.so.1()(64bit)                                      libxcb-1.12-5.fc27.aarch64
-├─libxcb-xf86dri.so.0()(64bit)                                   libxcb-1.12-5.fc27.aarch64
-├─libxcb-xfixes.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
-├─libxcb-xinerama.so.0()(64bit)                                  libxcb-1.12-5.fc27.aarch64
-├─libxcb-xinput.so.0()(64bit)                                    libxcb-1.12-5.fc27.aarch64
-├─libxcb-xkb.so.1()(64bit)                                       libxcb-1.12-5.fc27.aarch64
-├─libxcb-xselinux.so.0()(64bit)                                  libxcb-1.12-5.fc27.aarch64
-├─libxcb-xtest.so.0()(64bit)                                     libxcb-1.12-5.fc27.aarch64
-├─libxcb-xv.so.0()(64bit)                                        libxcb-1.12-5.fc27.aarch64
-├─libxcb-xvmc.so.0()(64bit)                                      libxcb-1.12-5.fc27.aarch64
-├─libxcb(aarch-64) = 1.12-5.fc27                                 libxcb-1.12-5.fc27.aarch64
-└─pkgconfig(xau) >= 0.99.2                                       libXau-devel-1.0.8-9.fc27.aarch64
-libxcb-1.12-5.fc27.aarch64                                       
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-└─libXau.so.6()(64bit)                                           libXau-1.0.8-9.fc27.aarch64
-gawk-4.1.4-5.fc27.aarch64                                        
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libgmp.so.10()(64bit)                                          gmp-1:6.1.2-6.fc27.aarch64
-├─libreadline.so.7()(64bit)                                      readline-7.0-7.fc27.aarch64
-├─libmpfr.so.4()(64bit)                                          mpfr-3.1.5-5.fc27.aarch64
-├─libsigsegv                                                     libsigsegv-2.11-3.fc27.aarch64
-├─mpfr                                                           mpfr-3.1.5-5.fc27.aarch64
-├─readline                                                       readline-7.0-7.fc27.aarch64
-├─libsigsegv.so.2()(64bit)                                       libsigsegv-2.11-3.fc27.aarch64
-└─filesystem >= 3                                                filesystem-3.3-3.fc27.aarch64
 libverto-0.2.6-11.fc27.aarch64                                   
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -5114,6 +5767,73 @@ libidn2-2.0.3-1.fc27.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
 └─libunistring.so.2()(64bit)                                     libunistring-0.9.7-3.fc27.aarch64
+libassuan-2.4.3-6.fc27.aarch64                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libgpg-error.so.0()(64bit)                                     libgpg-error-1.27-3.fc27.aarch64
+└─libgpg-error.so.0(GPG_ERROR_1.0)(64bit)                        libgpg-error-1.27-3.fc27.aarch64
+libksba-1.3.5-5.fc27.aarch64                                     
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libgpg-error.so.0()(64bit)                                     libgpg-error-1.27-3.fc27.aarch64
+└─libgpg-error.so.0(GPG_ERROR_1.0)(64bit)                        libgpg-error-1.27-3.fc27.aarch64
+libusbx-1.0.21-4.fc27.aarch64                                    
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libudev.so.1()(64bit)                                          systemd-libs-234-5.fc27.aarch64
+└─libudev.so.1(LIBUDEV_183)(64bit)                               systemd-libs-234-5.fc27.aarch64
+npth-1.5-3.fc27.aarch64                                          
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+└─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+openldap-2.4.45-3.fc27.aarch64                                   
+├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─/sbin/ldconfig                                                 glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
+├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
+├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
+├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.aarch64
+├─libnspr4.so()(64bit)                                           nspr-4.16.0-1.fc27.aarch64
+├─libplc4.so()(64bit)                                            nspr-4.16.0-1.fc27.aarch64
+├─libplds4.so()(64bit)                                           nspr-4.16.0-1.fc27.aarch64
+├─libnssutil3.so()(64bit)                                        nss-util-3.32.0-2.fc27.aarch64
+├─libresolv.so.2(GLIBC_2.17)(64bit)                              glibc-2.26-1.fc27.1.aarch64
+├─libnss3.so()(64bit)                                            nss-3.32.0-2.fc27.aarch64
+├─libsasl2.so.3()(64bit)                                         cyrus-sasl-lib-2.1.26-34.fc27.aarch64
+├─libsmime3.so()(64bit)                                          nss-3.32.0-2.fc27.aarch64
+├─libssl3.so()(64bit)                                            nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.2)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.3)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.12)(64bit)                                    nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.4)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.8)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.10)(64bit)                                    nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.11)(64bit)                                    nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.12.1)(64bit)                                  nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.12.9)(64bit)                                  nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.6)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.9.2)(64bit)                                   nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.9.3)(64bit)                                   nss-3.32.0-2.fc27.aarch64
+├─libssl3.so(NSS_3.14)(64bit)                                    nss-3.32.0-2.fc27.aarch64
+├─libssl3.so(NSS_3.2)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libssl3.so(NSS_3.4)(64bit)                                     nss-3.32.0-2.fc27.aarch64
+├─libssl3.so(NSS_3.7.4)(64bit)                                   nss-3.32.0-2.fc27.aarch64
+├─libnss3.so(NSS_3.11.1)(64bit)                                  nss-3.32.0-2.fc27.aarch64
+└─libnss3.so(NSS_3.12.5)(64bit)                                  nss-3.32.0-2.fc27.aarch64
 tzdata-2017b-2.fc27.noarch                                       
 basesystem-11-4.fc27.noarch                                      
 libmpc-1.0.2-8.fc27.aarch64                                      
@@ -5193,7 +5913,6 @@ libsigsegv-2.11-3.fc27.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 └─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-fontpackages-filesystem-1.44-19.fc27.noarch                      
 elfutils-default-yama-scope-0.170-1.fc27.noarch                  
 device-mapper-libs-1.02.142-4.fc27.aarch64                       
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
@@ -5234,13 +5953,6 @@ device-mapper-1.02.142-4.fc27.aarch64
 ├─device-mapper-libs = 1.02.142-4.fc27                           device-mapper-libs-1.02.142-4.fc27.aarch64
 ├─systemd >= 189-3                                               systemd-234-5.fc27.aarch64
 └─util-linux >= 2.24                                             util-linux-2.30.1-1.fc27.aarch64
-gzip-1.8-4.fc27.aarch64                                          
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─/sbin/install-info                                             info-6.4-3.fc27.aarch64
-└─coreutils                                                      coreutils-8.27-14.fc27.aarch64
 pixman-devel-0.34.0-3.fc26.aarch64                               
 ├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
 ├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
@@ -5254,136 +5966,21 @@ pixman-0.34.0-3.fc26.aarch64
 ├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
 └─libm.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-rpm-4.13.0.1-41.fc27.aarch64                                     
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
-├─/bin/sh                                                        bash-4.4.12-9.fc27.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─coreutils                                                      coreutils-8.27-14.fc27.aarch64
-├─/bin/bash                                                      bash-4.4.12-9.fc27.aarch64
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
-├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
-├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
-├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
-├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
-├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
-├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
-├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
-├─curl                                                           curl-minimal-7.55.0-1.fc27.aarch64
-├─libarchive.so.13()(64bit)                                      libarchive-3.3.1-3.fc27.aarch64
-├─/usr/bin/db_stat                                               libdb-utils-5.3.28-26.fc27.aarch64
-└─popt(aarch-64) >= 1.10.2.1                                     popt-1.16-11.fc27.aarch64
-libdb-utils-5.3.28-26.fc27.aarch64                               
+cyrus-sasl-lib-2.1.26-34.fc27.aarch64                            
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
-└─libdb(aarch-64) = 5.3.28-26.fc27                               libdb-5.3.28-26.fc27.aarch64
-rpm-libs-4.13.0.1-41.fc27.aarch64                                
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
 ├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
 ├─libdl.so.2(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.aarch64
-├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
-├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
-├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
+├─libresolv.so.2()(64bit)                                        glibc-2.26-1.fc27.1.aarch64
+├─libcrypt.so.1()(64bit)                                         libcrypt-2.26-1.fc27.1.aarch64
+├─libcom_err.so.2()(64bit)                                       libcom_err-1.43.4-4.fc27.aarch64
+├─libgssapi_krb5.so.2()(64bit)                                   krb5-libs-1.15.1-21.fc27.aarch64
+├─libkrb5.so.3()(64bit)                                          krb5-libs-1.15.1-21.fc27.aarch64
+├─libk5crypto.so.3()(64bit)                                      krb5-libs-1.15.1-21.fc27.aarch64
 ├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
-├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
-├─libpopt.so.0(LIBPOPT_0)(64bit)                                 popt-1.16-11.fc27.aarch64
-├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
-├─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
-├─libelf.so.1(ELFUTILS_1.0)(64bit)                               elfutils-libelf-0.170-1.fc27.aarch64
-├─rpm = 4.13.0.1-41.fc27                                         rpm-4.13.0.1-41.fc27.aarch64
-├─rpm-plugin-selinux(aarch-64) = 4.13.0.1-41.fc27                rpm-plugin-selinux-4.13.0.1-41.fc27.aarch64
-└─libcap(aarch-64) >= 2.16                                       libcap-2.25-7.fc27.aarch64
-rpm-plugin-selinux-4.13.0.1-41.fc27.aarch64                      
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0()(64bit)                                       glibc-2.26-1.fc27.1.aarch64
-├─libpthread.so.0(GLIBC_2.17)(64bit)                             glibc-2.26-1.fc27.1.aarch64
-├─libdl.so.2()(64bit)                                            glibc-2.26-1.fc27.1.aarch64
-├─libm.so.6()(64bit)                                             glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libselinux.so.1()(64bit)                                       libselinux-2.7-1.fc27.aarch64
-├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
-├─libelf.so.1()(64bit)                                           elfutils-libelf-0.170-1.fc27.aarch64
-├─libpopt.so.0()(64bit)                                          popt-1.16-11.fc27.aarch64
-├─libcap.so.2()(64bit)                                           libcap-2.25-7.fc27.aarch64
-├─libdb-5.3.so()(64bit)                                          libdb-5.3.28-26.fc27.aarch64
-├─librpm.so.7()(64bit)                                           rpm-libs-4.13.0.1-41.fc27.aarch64
-├─librpmio.so.7()(64bit)                                         rpm-libs-4.13.0.1-41.fc27.aarch64
-├─liblua-5.3.so()(64bit)                                         lua-libs-5.3.4-5.fc27.aarch64
-└─rpm-libs(aarch-64) = 4.13.0.1-41.fc27                          rpm-libs-4.13.0.1-41.fc27.aarch64
-libXau-devel-1.0.8-9.fc27.aarch64                                
-├─/usr/bin/pkg-config                                            pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig                                                      pkgconf-pkg-config-1.3.8-1.fc27.aarch64
-├─pkgconfig(xproto)                                              xorg-x11-proto-devel-7.7-22.fc27.noarch
-├─libXau.so.6()(64bit)                                           libXau-1.0.8-9.fc27.aarch64
-├─xorg-x11-proto-devel                                           xorg-x11-proto-devel-7.7-22.fc27.noarch
-└─libXau = 1.0.8-9.fc27                                          libXau-1.0.8-9.fc27.aarch64
-libXau-1.0.8-9.fc27.aarch64                                      
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-└─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-libarchive-3.3.1-3.fc27.aarch64                                  
-├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libz.so.1()(64bit)                                             zlib-1.2.11-4.fc27.aarch64
-├─libcrypto.so.1.1()(64bit)                                      openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─liblzma.so.5()(64bit)                                          xz-libs-5.2.3-4.fc27.aarch64
-├─libbz2.so.1()(64bit)                                           bzip2-libs-1.0.6-24.fc27.aarch64
-├─libacl.so.1()(64bit)                                           libacl-2.2.52-18.fc27.aarch64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                         openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─liblzma.so.5(XZ_5.0)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
-├─libxml2.so.2()(64bit)                                          libxml2-2.9.4-4.fc27.aarch64
-├─libacl.so.1(ACL_1.0)(64bit)                                    libacl-2.2.52-18.fc27.aarch64
-├─liblz4.so.1()(64bit)                                           lz4-libs-1.7.5-6.fc27.aarch64
-├─libxml2.so.2(LIBXML2_2.4.30)(64bit)                            libxml2-2.9.4-4.fc27.aarch64
-├─libxml2.so.2(LIBXML2_2.6.0)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
-├─libxml2.so.2(LIBXML2_2.5.0)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
-├─libxml2.so.2(LIBXML2_2.5.2)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
-├─libxml2.so.2(LIBXML2_2.6.5)(64bit)                             libxml2-2.9.4-4.fc27.aarch64
-└─liblzma.so.5(XZ_5.2)(64bit)                                    xz-libs-5.2.3-4.fc27.aarch64
-libcrypt-2.26-1.fc27.1.aarch64                                   
-├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
-├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
-└─glibc(aarch-64) = 2.26-1.fc27.1                                glibc-2.26-1.fc27.1.aarch64
-fedora-release-27-0.2.noarch                                     
-└─fedora-repos(27)                                               fedora-repos-27-0.2.noarch
-fedora-repos-27-0.2.noarch                                       
-├─system-release(27)                                             fedora-release-27-0.2.noarch
-└─fedora-repos-rawhide = 27-0.2                                  fedora-repos-rawhide-27-0.2.noarch
-fedora-repos-rawhide-27-0.2.noarch                               
-└─fedora-repos = 27-0.2                                          fedora-repos-27-0.2.noarch
+└─libkrb5support.so.0()(64bit)                                   krb5-libs-1.15.1-21.fc27.aarch64
 curl-minimal-7.55.0-1.fc27.aarch64                               
 ├─rtld(GNU_HASH)                                                 glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
@@ -5396,6 +5993,18 @@ curl-minimal-7.55.0-1.fc27.aarch64
 ├─libssl.so.1.1()(64bit)                                         openssl-libs-1:1.1.0f-9.fc27.aarch64
 ├─libcurl.so.4()(64bit)                                          libcurl-minimal-7.55.0-1.fc27.aarch64
 └─libcurl(aarch-64) >= 7.55.0-1.fc27                             libcurl-minimal-7.55.0-1.fc27.aarch64
+libcrypt-2.26-1.fc27.1.aarch64                                   
+├─ld-linux-aarch64.so.1()(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                       glibc-2.26-1.fc27.1.aarch64
+├─libc.so.6(GLIBC_2.25)(64bit)                                   glibc-2.26-1.fc27.1.aarch64
+└─glibc(aarch-64) = 2.26-1.fc27.1                                glibc-2.26-1.fc27.1.aarch64
+fedora-release-27-0.2.noarch                                     
+└─fedora-repos(27)                                               fedora-repos-27-0.2.noarch
+fedora-repos-27-0.2.noarch                                       
+├─system-release(27)                                             fedora-release-27-0.2.noarch
+└─fedora-repos-rawhide = 27-0.2                                  fedora-repos-rawhide-27-0.2.noarch
+fedora-repos-rawhide-27-0.2.noarch                               
+└─fedora-repos = 27-0.2                                          fedora-repos-27-0.2.noarch
 glibc-minimal-langpack-2.26-1.fc27.1.aarch64                     
 ├─glibc = 2.26-1.fc27.1                                          glibc-2.26-1.fc27.1.aarch64
 └─glibc-common = 2.26-1.fc27.1                                   glibc-common-2.26-1.fc27.1.aarch64

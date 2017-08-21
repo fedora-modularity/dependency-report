@@ -7,11 +7,7 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            389-ds: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
             platform-placeholder: master
@@ -52,9 +48,6 @@ data:
                 rationale: Generated.
                 ref: master.
             fontawesome-fonts:
-                rationale: Generated.
-                ref: master.
-            fontpackages:
                 rationale: Generated.
                 ref: master.
             freeipa:

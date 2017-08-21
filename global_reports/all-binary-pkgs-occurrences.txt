@@ -1,6 +1,6 @@
 389-ds-base                          389-ds
 389-ds-base-libs                     389-ds
-aajohan-comfortaa-fonts              python2, python3
+aajohan-comfortaa-fonts              java, python2, python3
 acl                                  platform
 alsa-lib                             platform-placeholder
 anaconda-core                        installer
@@ -172,8 +172,8 @@ firewalld                            installer, networking-base
 firewalld-filesystem                 installer, networking-base
 flex                                 platform
 fontawesome-fonts                    freeipa
-fontconfig                           python2, python3
-fontpackages-filesystem              freeipa, python2, python3
+fontconfig                           java, python2, python3
+fontpackages-filesystem              java, python2, python3
 fpc-srpm-macros                      platform
 freeipa-client                       freeipa
 freeipa-client-common                freeipa
@@ -199,6 +199,7 @@ GeoIP-GeoLite-data                   389-ds, bind
 gettext                              platform, storage-devices
 gettext-libs                         platform, storage-devices
 ghc-srpm-macros                      platform
+giflib                               java
 glassfish-fastinfoset                resteasy
 glassfish-jaxb-api                   resteasy
 glassfish-jaxb-core                  resteasy
@@ -267,6 +268,8 @@ istack-commons-runtime               resteasy
 jackson                              resteasy
 jakarta-commons-httpclient           pki
 jansson                              platform-placeholder
+java-1.8.0-openjdk                   java
+java-1.8.0-openjdk-devel             java
 java-1.8.0-openjdk-headless          java, resteasy, tomcat
 javapackages-tools                   java, resteasy, tomcat
 javassist                            pki
@@ -385,11 +388,13 @@ libevent                             platform
 libfastjson                          platform
 libfdisk                             platform
 libffi                               platform
+libfontenc                           java
 libgcc                               platform
 libgcrypt                            platform
 libgomp                              platform
 libgpg-error                         platform
 libgudev                             networking-base, storaged
+libICE                               java
 libicu                               platform-placeholder
 libidn                               platform
 libidn2                              platform
@@ -459,6 +464,7 @@ libsemanage-python3                  platform-placeholder
 libsepol                             platform
 libsepol-devel                       platform-placeholder
 libsigsegv                           platform
+libSM                                java
 libsmartcols                         platform
 libsmbclient                         samba
 libsolv                              platform
@@ -498,14 +504,19 @@ libuuid                              platform
 libverto                             platform
 libverto-libev                       platform-placeholder
 libwbclient                          samba
-libX11                               python2, python3
-libX11-common                        python2, python3
-libXau                               python2, python3
-libxcb                               python2, python3
+libX11                               java, python2, python3
+libX11-common                        java, python2, python3
+libXau                               java, python2, python3
+libxcb                               java, python2, python3
+libXcomposite                        java
+libXext                              java
+libXfont                             java
 libXft                               python2, python3
+libXi                                java
 libxml2                              platform
-libXrender                           python2, python3
+libXrender                           java, python2, python3
 libxslt                              platform-placeholder
+libXtst                              java
 libyaml                              platform-placeholder
 linux-firmware                       platform
 lksctp-tools                         platform-placeholder
@@ -1055,6 +1066,7 @@ tomcat-jsp-2.3-api                   tomcat
 tomcatjss                            tomcat
 tomcat-lib                           tomcat
 tomcat-servlet-3.1-api               tomcat
+ttmkfdir                             java
 tzdata                               platform
 tzdata-java                          java, resteasy, tomcat
 uboot-tools                          platform
@@ -1079,6 +1091,8 @@ xml-commons-resolver                 pki
 xmlrpc-c                             platform-placeholder
 xmlrpc-c-client                      freeipa, installer, networking-base
 xmlstreambuffer                      resteasy
+xorg-x11-fonts-Type1                 java
+xorg-x11-font-utils                  java
 xsom                                 resteasy
 xz                                   platform
 xz-libs                              platform

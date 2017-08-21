@@ -172,6 +172,7 @@
       1 gdbm
       1 gdisk
       1 ghc-srpm-macros
+      1 giflib
       1 glassfish-fastinfoset
       1 glassfish-jaxb-api
       1 glassfish-jaxb-core
@@ -238,6 +239,8 @@
       1 jackson
       1 jakarta-commons-httpclient
       1 jansson
+      1 java-1.8.0-openjdk
+      1 java-1.8.0-openjdk-devel
       1 javassist
       1 jbigkit
       1 jbigkit-libs
@@ -352,10 +355,12 @@
       1 libfastjson
       1 libfdisk
       1 libffi
+      1 libfontenc
       1 libgcc
       1 libgcrypt
       1 libgomp
       1 libgpg-error
+      1 libICE
       1 libicu
       1 libidn
       1 libidn2
@@ -419,6 +424,7 @@
       1 libsepol
       1 libsepol-devel
       1 libsigsegv
+      1 libSM
       1 libsmartcols
       1 libsmbclient
       1 libsolv
@@ -456,8 +462,13 @@
       1 libverto
       1 libverto-libev
       1 libwbclient
+      1 libXcomposite
+      1 libXext
+      1 libXfont
+      1 libXi
       1 libxml2
       1 libxslt
+      1 libXtst
       1 libyaml
       1 linux-firmware
       1 lksctp-tools
@@ -835,6 +846,7 @@
       1 tomcatjss
       1 tomcat-lib
       1 tomcat-servlet-3.1-api
+      1 ttmkfdir
       1 tzdata
       1 uboot-tools
       1 unzip
@@ -856,6 +868,8 @@
       1 xml-commons-resolver
       1 xmlrpc-c
       1 xmlstreambuffer
+      1 xorg-x11-fonts-Type1
+      1 xorg-x11-font-utils
       1 xsom
       1 xz
       1 xz-libs
@@ -863,7 +877,6 @@
       1 zip
       1 zlib
       1 zstd
-      2 aajohan-comfortaa-fonts
       2 apache-commons-logging
       2 bind-libs
       2 bind-libs-lite
@@ -876,7 +889,6 @@
       2 cyrus-sasl-gssapi
       2 firewalld
       2 firewalld-filesystem
-      2 fontconfig
       2 gdbm-devel
       2 GeoIP
       2 GeoIP-GeoLite-data
@@ -893,12 +905,7 @@
       2 libsemanage-python
       2 libteam
       2 libunwind
-      2 libX11
-      2 libX11-common
-      2 libXau
-      2 libxcb
       2 libXft
-      2 libXrender
       2 lttng-ust
       2 mariadb-common
       2 mariadb-config
@@ -1048,15 +1055,22 @@
       2 systemtap-sdt-devel
       2 teamd
       2 tk
+      3 aajohan-comfortaa-fonts
       3 authconfig
       3 avahi-libs
       3 boost-system
       3 boost-thread
       3 copy-jdk-configs
+      3 fontconfig
       3 fontpackages-filesystem
       3 groff-base
       3 java-1.8.0-openjdk-headless
       3 javapackages-tools
+      3 libX11
+      3 libX11-common
+      3 libXau
+      3 libxcb
+      3 libXrender
       3 lua
       3 lua-posix
       3 nss-tools

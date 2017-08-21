@@ -7,10 +7,7 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
             platform-placeholder: master
@@ -20,10 +17,22 @@ data:
         tracker: https://github.com/modularity-modules/java
     components:
         rpms:
+            aajohan-comfortaa-fonts:
+                rationale: Generated.
+                ref: master.
             copy-jdk-configs:
                 rationale: Generated.
                 ref: master.
+            fontconfig:
+                rationale: Generated.
+                ref: master.
+            fontpackages:
+                rationale: Generated.
+                ref: master.
             freetype:
+                rationale: Generated.
+                ref: master.
+            giflib:
                 rationale: Generated.
                 ref: master.
             java-1.8.0-openjdk:
@@ -32,12 +41,57 @@ data:
             javapackages-tools:
                 rationale: Generated.
                 ref: master.
+            libfontenc:
+                rationale: Generated.
+                ref: master.
+            libICE:
+                rationale: Generated.
+                ref: master.
             libpng:
+                rationale: Generated.
+                ref: master.
+            libSM:
+                rationale: Generated.
+                ref: master.
+            libX11:
+                rationale: Generated.
+                ref: master.
+            libXau:
+                rationale: Generated.
+                ref: master.
+            libxcb:
+                rationale: Generated.
+                ref: master.
+            libXcomposite:
+                rationale: Generated.
+                ref: master.
+            libXext:
+                rationale: Generated.
+                ref: master.
+            libXfont:
+                rationale: Generated.
+                ref: master.
+            libXi:
+                rationale: Generated.
+                ref: master.
+            libXrender:
+                rationale: Generated.
+                ref: master.
+            libXtst:
                 rationale: Generated.
                 ref: master.
             lua-posix:
                 rationale: Generated.
                 ref: master.
+            ttmkfdir:
+                rationale: Generated.
+                ref: master.
             which:
+                rationale: Generated.
+                ref: master.
+            xorg-x11-fonts:
+                rationale: Generated.
+                ref: master.
+            xorg-x11-font-utils:
                 rationale: Generated.
                 ref: master.
