@@ -8,8 +8,7 @@ case "$WHAT" in
             | sed \
                 -e "s/^bootstrap$//g" \
                 -e "s/^platform$//g" \
-                -e "s/^platform-placeholder$//g" \
-                -e "s/^installer$//g")
+                -e "s/^platform-placeholder$//g")
         get_toplevel_pkgs() {
             local modulearchroot="$1"
             sed -e "s/$/.src/g" < "$modulearchroot/runtime-source-packages-short.txt"

@@ -17,7 +17,7 @@ echo ""
 echo "Producing 'all-binary-pkgs-counted' list..."
 
 for module in $modules; do
-    cat modules/$modules/all/runtime-binary-packages-short.txt
+    cat modules/$module/all/runtime-binary-packages-short.txt
 done | sort | uniq -c | sort > global_reports/all-binary-pkgs-counted.txt
 
 echo ""
