@@ -7,134 +7,21 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
+            bootstrap: master
         requires:
+            platform: master
+            platform-placeholder: master
+            python2: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python2-ecosystem
         tracker: https://github.com/modularity-modules/python2-ecosystem
     components:
         rpms:
-            acl:
-                rationale: Generated.
-                ref: master.
-            attr:
-                rationale: Generated.
-                ref: master.
-            basesystem:
-                rationale: Generated.
-                ref: master.
-            bash:
-                rationale: Generated.
-                ref: master.
-            bzip2:
-                rationale: Generated.
-                ref: master.
-            ca-certificates:
-                rationale: Generated.
-                ref: master.
-            chkconfig:
-                rationale: Generated.
-                ref: master.
-            coreutils:
-                rationale: Generated.
-                ref: master.
-            crypto-policies:
-                rationale: Generated.
-                ref: master.
-            expat:
-                rationale: Generated.
-                ref: master.
-            fedora-release:
-                rationale: Generated.
-                ref: master.
-            fedora-repos:
-                rationale: Generated.
-                ref: master.
-            filesystem:
-                rationale: Generated.
-                ref: master.
-            gc:
-                rationale: Generated.
-                ref: master.
-            gcc:
-                rationale: Generated.
-                ref: master.
-            gdbm:
-                rationale: Generated.
-                ref: master.
-            glibc:
-                rationale: Generated.
-                ref: master.
-            gmp:
-                rationale: Generated.
-                ref: master.
-            grep:
-                rationale: Generated.
-                ref: master.
-            guile:
-                rationale: Generated.
-                ref: master.
-            libatomic_ops:
-                rationale: Generated.
-                ref: master.
-            libbytesize:
-                rationale: Generated.
-                ref: master.
-            libcap:
-                rationale: Generated.
-                ref: master.
-            libdb:
-                rationale: Generated.
-                ref: master.
-            libffi:
-                rationale: Generated.
-                ref: master.
-            libselinux:
-                rationale: Generated.
-                ref: master.
-            libsepol:
-                rationale: Generated.
-                ref: master.
-            libtasn1:
-                rationale: Generated.
-                ref: master.
-            libtool:
-                rationale: Generated.
-                ref: master.
-            libunistring:
-                rationale: Generated.
-                ref: master.
-            make:
-                rationale: Generated.
-                ref: master.
-            mpfr:
-                rationale: Generated.
-                ref: master.
-            ncurses:
-                rationale: Generated.
-                ref: master.
-            openssl:
-                rationale: Generated.
-                ref: master.
-            p11-kit:
-                rationale: Generated.
-                ref: master.
-            pcre:
-                rationale: Generated.
-                ref: master.
-            pcre2:
-                rationale: Generated.
-                ref: master.
-            popt:
-                rationale: Generated.
-                ref: master.
             pyOpenSSL:
                 rationale: Generated.
                 ref: master.
             pyparsing:
-                rationale: Generated.
-                ref: master.
-            python2:
                 rationale: Generated.
                 ref: master.
             python-asn1crypto:
@@ -167,19 +54,10 @@ data:
             python-idna:
                 rationale: Generated.
                 ref: master.
-            python-iniparse:
-                rationale: Generated.
-                ref: master.
             python-ipaddress:
                 rationale: Generated.
                 ref: master.
-            python-IPy:
-                rationale: Generated.
-                ref: master.
             python-ordered-set:
-                rationale: Generated.
-                ref: master.
-            python-pip:
                 rationale: Generated.
                 ref: master.
             python-ply:
@@ -200,36 +78,9 @@ data:
             python-requests-ftp:
                 rationale: Generated.
                 ref: master.
-            python-setuptools:
-                rationale: Generated.
-                ref: master.
-            python-six:
-                rationale: Generated.
-                ref: master.
             python-urllib3:
                 rationale: Generated.
                 ref: master.
             pytz:
-                rationale: Generated.
-                ref: master.
-            readline:
-                rationale: Generated.
-                ref: master.
-            sed:
-                rationale: Generated.
-                ref: master.
-            setup:
-                rationale: Generated.
-                ref: master.
-            sqlite:
-                rationale: Generated.
-                ref: master.
-            texinfo:
-                rationale: Generated.
-                ref: master.
-            tzdata:
-                rationale: Generated.
-                ref: master.
-            zlib:
                 rationale: Generated.
                 ref: master.
