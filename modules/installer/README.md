@@ -14,7 +14,7 @@ Please see the **missing RPM build dependencies ([source](all/buildtime-source-p
 * [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [installer top-level package set](installer.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this installer module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |

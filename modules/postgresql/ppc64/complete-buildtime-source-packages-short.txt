@@ -1,8 +1,11 @@
 acl
 attr
 audit
+autoconf
+automake
 basesystem
 bash
+binutils
 bison
 bzip2
 ca-certificates
@@ -27,6 +30,7 @@ fedora-release
 fedora-repos
 fedora-rpm-macros
 filesystem
+findutils
 flex
 fpc-srpm-macros
 gawk
@@ -45,6 +49,7 @@ groff
 gzip
 help2man
 iptables
+isl
 js
 kernel
 keyutils
@@ -61,6 +66,7 @@ libgcrypt
 libgpg-error
 libidn
 libidn2
+libmpc
 libpcap
 libpwquality
 libseccomp
@@ -69,6 +75,7 @@ libsemanage
 libsepol
 libsigsegv
 libtasn1
+libtool
 libunistring
 libutempter
 libverto
@@ -101,6 +108,9 @@ perl
 perl-Carp
 perl-constant
 perl-Data-Dumper
+perl-Data-UUID
+perl-Digest
+perl-Digest-MD5
 perl-Encode
 perl-Exporter
 perl-ExtUtils-Install
@@ -129,8 +139,10 @@ perl-Storable
 perl-Term-ANSIColor
 perl-Term-Cap
 perl-Test-Harness
+perl-Test-Simple
 perl-Text-ParseWords
 perl-Text-Tabs+Wrap
+perl-Thread-Queue
 perl-threads
 perl-threads-shared
 perl-Time-Local
@@ -158,6 +170,7 @@ shadow-utils
 sqlite
 systemd
 systemtap
+tar
 tcl
 texinfo
 tzdata

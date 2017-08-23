@@ -70,8 +70,8 @@ perl-Thread-Queue-3.12-393.fc27.noarch
 └─perl(threads::shared) >= 1.21                 perl-threads-shared-1.57-4.fc27.ppc64le
 libtool-2.4.6-20.fc27.ppc64le                   
 ├─sed                                           sed-4.4-3.fc27.ppc64le
-├─tar                                           tar-2:1.29-7.fc27.ppc64le
 ├─findutils                                     findutils-1:4.6.0-14.fc27.ppc64le
+├─tar                                           tar-2:1.29-7.fc27.ppc64le
 ├─autoconf                                      autoconf-2.69-24.fc26.noarch
 ├─automake                                      automake-1.15-9.fc26.noarch
 └─gcc(major) = 7                                gcc-7.1.1-7.fc27.1.ppc64le
@@ -95,8 +95,8 @@ gcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1()(64bit)                            zlib-1.2.11-4.fc27.ppc64le
 ├─libdl.so.2(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─ld64.so.2()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
 ├─ld64.so.2(GLIBC_2.22)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
 ├─libgmp.so.10()(64bit)                         gmp-1:6.1.2-6.fc27.ppc64le
@@ -131,8 +131,8 @@ libgcc-7.1.1-7.fc27.1.ppc64le
 libgomp-7.1.1-7.fc27.1.ppc64le                  
 ├─rtld(GNU_HASH)                                glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                      glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0(GLIBC_2.17)(64bit)            glibc-2.26-1.fc27.1.ppc64le
 ├─libdl.so.2()(64bit)                           glibc-2.26-1.fc27.1.ppc64le
 └─libdl.so.2(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.ppc64le
@@ -163,8 +163,8 @@ glibc-common-2.26-1.fc27.1.ppc64le
 glibc-devel-2.26-1.fc27.1.ppc64le               
 ├─libdl.so.2()(64bit)                           glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
-├─libresolv.so.2()(64bit)                       glibc-2.26-1.fc27.1.ppc64le
 ├─librt.so.1()(64bit)                           glibc-2.26-1.fc27.1.ppc64le
+├─libresolv.so.2()(64bit)                       glibc-2.26-1.fc27.1.ppc64le
 ├─libutil.so.1()(64bit)                         glibc-2.26-1.fc27.1.ppc64le
 ├─libnsl.so.1()(64bit)                          glibc-2.26-1.fc27.1.ppc64le
 ├─libcrypt(ppc-64)                              libcrypt-2.26-1.fc27.1.ppc64le
@@ -177,8 +177,8 @@ glibc-devel-2.26-1.fc27.1.ppc64le
 └─glibc-headers = 2.26-1.fc27.1                 glibc-headers-2.26-1.fc27.1.ppc64le
 glibc-headers-2.26-1.fc27.1.ppc64le             
 ├─glibc = 2.26-1.fc27.1                         glibc-2.26-1.fc27.1.ppc64le
-└─kernel-headers >= 2.2.1                       kernel-headers-4.13.0-0.rc1.git1.1.fc27.ppc64le
-kernel-headers-4.13.0-0.rc1.git1.1.fc27.ppc64le 
+└─kernel-headers >= 2.2.1                       kernel-headers-4.13.0-0.rc6.git0.1.fc28.ppc64le
+kernel-headers-4.13.0-0.rc6.git0.1.fc28.ppc64le 
 libselinux-2.7-1.fc27.ppc64le                   
 ├─rtld(GNU_HASH)                                glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
@@ -219,8 +219,8 @@ libasan-7.1.1-7.fc27.1.ppc64le
 ├─libdl.so.2()(64bit)                           glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
 ├─libdl.so.2(GLIBC_2.17)(64bit)                 glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                 libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6()(64bit)                       libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(CXXABI_1.3)(64bit)             libstdc++-7.1.1-7.fc27.1.ppc64le
@@ -319,14 +319,14 @@ perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(Carp)                                    perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                perl-Exporter-5.72-395.fc27.noarch
 ├─libresolv.so.2()(64bit)                       glibc-2.26-1.fc27.1.ppc64le
-├─perl(warnings)                                perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libcrypt.so.1()(64bit)                        libcrypt-2.26-1.fc27.1.ppc64le
-├─libperl.so.5.26()(64bit)                      perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(warnings)                                perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libutil.so.1()(64bit)                         glibc-2.26-1.fc27.1.ppc64le
+├─libperl.so.5.26()(64bit)                      perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libnsl.so.1()(64bit)                          glibc-2.26-1.fc27.1.ppc64le
 ├─perl(File::Spec)                              perl-PathTools-3.67-395.fc27.ppc64le
-├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(Cwd)                                     perl-PathTools-3.67-395.fc27.ppc64le
 ├─libgdbm.so.4()(64bit)                         gdbm-1.13-3.fc27.ppc64le
 ├─libgdbm_compat.so.4()(64bit)                  gdbm-1.13-3.fc27.ppc64le
@@ -464,8 +464,8 @@ perl-Data-Dumper-2.167-396.fc27.ppc64le
 ├─perl(Carp)                                    perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                perl-Exporter-5.72-395.fc27.noarch
 ├─libperl.so.5.26()(64bit)                      perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(Scalar::Util)                            perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64le
 ├─perl(bytes)                                   perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(B::Deparse)                              perl-interpreter-4:5.26.0-398.fc27.ppc64le
@@ -538,8 +538,8 @@ perl-Pod-Usage-4:1.69-394.fc27.noarch
 libstdc++-7.1.1-7.fc27.1.ppc64le                
 ├─rtld(GNU_HASH)                                glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                 libgcc-7.1.1-7.fc27.1.ppc64le
 ├─ld64.so.2()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
 ├─ld64.so.2(GLIBC_2.22)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
@@ -620,8 +620,8 @@ groff-base-1.22.3-11.fc27.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
 ├─/bin/sh                                       bash-4.4.12-9.fc27.ppc64le
 ├─libm.so.6()(64bit)                            glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                  glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                        libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                 libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6()(64bit)                       libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(CXXABI_1.3)(64bit)             libstdc++-7.1.1-7.fc27.1.ppc64le
@@ -639,8 +639,8 @@ perl-Encode-4:2.92-14.fc27.ppc64le
 ├─perl(warnings)                                perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libperl.so.5.26()(64bit)                      perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─/usr/bin/perl                                 perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(File::Basename)                          perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(overload)                                perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(Getopt::Long)                            perl-Getopt-Long-1:2.50-3.fc27.noarch
@@ -661,8 +661,8 @@ perl-File-Temp-0.230.400-394.fc27.noarch
 ├─perl(vars)                                    perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(constant)                                perl-constant-1.33-395.fc27.noarch
 ├─perl(overload)                                perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Cwd)                                     perl-PathTools-3.67-395.fc27.ppc64le
 ├─perl(POSIX)                                   perl-interpreter-4:5.26.0-398.fc27.ppc64le
+├─perl(Cwd)                                     perl-PathTools-3.67-395.fc27.ppc64le
 ├─perl(Scalar::Util)                            perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64le
 ├─perl(IO::Handle)                              perl-IO-1.38-398.fc27.ppc64le
 ├─perl(Errno)                                   perl-Errno-1.28-398.fc27.ppc64le

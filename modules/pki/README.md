@@ -15,10 +15,13 @@ This list might not be complete. There might be other packages in the *Binary RP
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
-* [bootstrap](../bootstrap)
+* [platform](../platform)
+* [platform-placeholder](../platform-placeholder)
+* [java](../java)
+* [perl](../perl)
 ## Binary RPM packages
 These are RPM dependencies of the [pki top-level package set](pki.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this pki module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
@@ -48,10 +51,10 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `python2-lxml` | X | X | X | X | X | X | X |
 | `python2-pyasn1` | X | X | X | X | X | X | X |
 | `python2-pyasn1-modules` | X | X | X | X | X | X | X |
+| `python2-setools` | X | X | X | X | X | X | X |
 | `python-beautifulsoup4` | X | X | X | X | X | X | X |
 | `python-ldap` | X | X | X | X | X | X | X |
 | `python-nss` | X | X | X | X | X | X | X |
-| `setools-python` | X | X | X | X | X | X | X |
 | `slf4j` | X | X | X | X | X | X | X |
 | `slf4j-jdk14` | X | X | X | X | X | X | X |
 | `velocity` | X | X | X | X | X | X | X |

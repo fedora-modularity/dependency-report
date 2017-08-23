@@ -1,13 +1,17 @@
 acl-2.2.52-18.fc27.armv7hl
 audit-libs-2.7.7-5.fc27.armv7hl
+autoconf-2.69-24.fc26.noarch
+automake-1.15-9.fc26.noarch
 basesystem-11-4.fc27.noarch
 bash-4.4.12-9.fc27.armv7hl
+binutils-2.29-6.fc27.armv7hl
 bison-3.0.4-6.fc26.armv7hl
 bzip2-libs-1.0.6-24.fc27.armv7hl
 ca-certificates-2017.2.16-3.fc27.noarch
 chkconfig-1.10-3.fc27.armv7hl
 coreutils-8.27-14.fc27.armv7hl
 coreutils-common-8.27-14.fc27.armv7hl
+cpp-7.1.1-7.fc27.1.armv7hl
 cracklib-2.9.6-7.fc27.armv7hl
 crypto-policies-20170802-1.git9300620.fc27.noarch
 cryptsetup-libs-1.7.5-3.fc27.armv7hl
@@ -34,9 +38,11 @@ fedora-repos-27-0.2.noarch
 fedora-repos-rawhide-27-0.2.noarch
 fedora-rpm-macros-26-3.fc27.noarch
 filesystem-3.3-3.fc27.armv7hl
+findutils-1:4.6.0-14.fc27.armv7hl
 flex-2.6.1-3.fc26.armv7hl
 fpc-srpm-macros-1.1-3.fc27.noarch
 gawk-4.1.4-5.fc27.armv7hl
+gcc-7.1.1-7.fc27.1.armv7hl
 gdbm-1.13-3.fc27.armv7hl
 gdbm-devel-1.13-3.fc27.armv7hl
 gettext-0.19.8.1-9.fc27.armv7hl
@@ -58,8 +64,9 @@ gzip-1.8-4.fc27.armv7hl
 help2man-1.47.4-2.fc26.noarch
 info-6.4-3.fc27.armv7hl
 iptables-libs-1.6.1-4.fc27.armv7hl
+isl-0.16.1-3.fc27.armv7hl
 js-1:1.8.5-27.fc27.armv7hl
-kernel-headers-4.13.0-0.rc1.git1.1.fc27.armv7hl
+kernel-headers-4.13.0-0.rc6.git0.1.fc28.armv7hl
 keyutils-libs-1.5.10-3.fc27.armv7hl
 keyutils-libs-devel-1.5.10-3.fc27.armv7hl
 kmod-libs-24-3.fc27.armv7hl
@@ -67,6 +74,8 @@ krb5-devel-1.15.1-21.fc27.armv7hl
 krb5-libs-1.15.1-21.fc27.armv7hl
 libacl-2.2.52-18.fc27.armv7hl
 libarchive-3.3.1-3.fc27.armv7hl
+libasan-7.1.1-7.fc27.1.armv7hl
+libatomic-7.1.1-7.fc27.1.armv7hl
 libattr-2.4.47-21.fc27.armv7hl
 libblkid-2.30.1-1.fc27.armv7hl
 libcap-2.25-7.fc27.armv7hl
@@ -92,6 +101,7 @@ libidn-1.33-4.fc27.armv7hl
 libidn2-2.0.3-1.fc27.armv7hl
 libkadm5-1.15.1-21.fc27.armv7hl
 libmount-2.30.1-1.fc27.armv7hl
+libmpc-1.0.2-8.fc27.armv7hl
 libnghttp2-1.24.0-4.fc27.armv7hl
 libpcap-14:1.8.1-6.fc27.armv7hl
 libpkgconf-1.3.8-1.fc27.armv7hl
@@ -106,6 +116,8 @@ libsigsegv-2.11-3.fc27.armv7hl
 libsmartcols-2.30.1-1.fc27.armv7hl
 libstdc++-7.1.1-7.fc27.1.armv7hl
 libtasn1-4.12-3.fc27.armv7hl
+libtool-2.4.6-20.fc27.armv7hl
+libubsan-7.1.1-7.fc27.1.armv7hl
 libunistring-0.9.7-3.fc27.armv7hl
 libutempter-1.1.6-11.fc27.armv7hl
 libuuid-2.30.1-1.fc27.armv7hl
@@ -149,7 +161,10 @@ pcre-8.41-1.fc27.2.armv7hl
 perl-Carp-1.42-394.fc27.noarch
 perl-constant-1.33-395.fc27.noarch
 perl-Data-Dumper-2.167-396.fc27.armv7hl
+perl-Data-UUID-1.221-7.fc27.armv7hl
 perl-devel-4:5.26.0-398.fc27.armv7hl
+perl-Digest-1.17-394.fc27.noarch
+perl-Digest-MD5-2.55-395.fc27.armv7hl
 perl-Encode-4:2.92-14.fc27.armv7hl
 perl-Errno-1.28-398.fc27.armv7hl
 perl-Exporter-5.72-395.fc27.noarch
@@ -185,8 +200,10 @@ perl-Storable-1:2.62-395.fc27.armv7hl
 perl-Term-ANSIColor-4.06-395.fc27.noarch
 perl-Term-Cap-1.17-394.fc27.noarch
 perl-Test-Harness-1:3.39-3.fc27.noarch
+perl-Test-Simple-1:1.302086-1.fc27.noarch
 perl-Text-ParseWords-3.30-394.fc27.noarch
 perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch
+perl-Thread-Queue-3.12-393.fc27.noarch
 perl-threads-1:2.16-4.fc27.armv7hl
 perl-threads-shared-1.57-4.fc27.armv7hl
 perl-Time-Local-1:1.250-394.fc27.noarch
@@ -231,6 +248,7 @@ systemd-libs-234-5.fc27.armv7hl
 systemd-pam-234-5.fc27.armv7hl
 system-python-libs-3.6.2-6.fc27.armv7hl
 systemtap-sdt-devel-3.2-0.20170512gitc67d8f274b21.fc27.armv7hl
+tar-2:1.29-7.fc27.armv7hl
 tcl-1:8.6.6-4.fc27.armv7hl
 tcl-devel-1:8.6.6-4.fc27.armv7hl
 tzdata-2017b-2.fc27.noarch

@@ -7,7 +7,8 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            bootstrap: master
+            platform: master
+            platform-placeholder: master
         requires:
             platform: master
             platform-placeholder: master
@@ -17,3 +18,57 @@ data:
         tracker: https://github.com/modularity-modules/python3-ecosystem
     components:
         rpms:
+            pyOpenSSL:
+                rationale: Generated.
+                ref: master.
+            pyparsing:
+                rationale: Generated.
+                ref: master.
+            python-asn1crypto:
+                rationale: Generated.
+                ref: master.
+            python-cffi:
+                rationale: Generated.
+                ref: master.
+            python-chardet:
+                rationale: Generated.
+                ref: master.
+            python-coverage:
+                rationale: Generated.
+                ref: master.
+            python-cryptography:
+                rationale: Generated.
+                ref: master.
+            python-decorator:
+                rationale: Generated.
+                ref: master.
+            python-idna:
+                rationale: Generated.
+                ref: master.
+            python-ordered-set:
+                rationale: Generated.
+                ref: master.
+            python-ply:
+                rationale: Generated.
+                ref: master.
+            python-pycparser:
+                rationale: Generated.
+                ref: master.
+            python-pysocks:
+                rationale: Generated.
+                ref: master.
+            python-requests:
+                rationale: Generated.
+                ref: master.
+            python-requests-file:
+                rationale: Generated.
+                ref: master.
+            python-requests-ftp:
+                rationale: Generated.
+                ref: master.
+            python-urllib3:
+                rationale: Generated.
+                ref: master.
+            pytz:
+                rationale: Generated.
+                ref: master.

@@ -27,11 +27,6 @@ GeoIP-1.6.11-1.fc27.src
 ├─gcc                                             gcc-7.1.1-7.fc27.1.x86_64
 └─sed                                             sed-4.4-3.fc27.x86_64
 GeoIP-GeoLite-data-2017.06-1.fc27.src             
-python-ply-3.9-3.fc27.src                         
-├─python2-devel                                   python2-devel-2.7.13-16.fc27.x86_64
-├─python3-devel                                   python3-devel-3.6.2-6.fc27.x86_64
-├─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
-└─python2-setuptools                              python2-setuptools-36.2.0-3.fc27.noarch
 GeoIP-devel-1.6.11-1.fc27.x86_64                  
 ├─/usr/bin/pkg-config                             pkgconf-pkg-config-1.3.8-1.fc27.x86_64
 ├─libGeoIP.so.1()(64bit)                          GeoIP-1.6.11-1.fc27.x86_64
@@ -176,129 +171,6 @@ libpkgconf-1.3.8-1.fc27.x86_64
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
 └─libc.so.6(GLIBC_2.4)(64bit)                     glibc-2.26-1.fc27.1.x86_64
 mariadb-config-3:10.2.7-2.fc27.x86_64             
-python2-devel-2.7.13-16.fc27.x86_64               
-├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
-├─/usr/bin/pkg-config                             pkgconf-pkg-config-1.3.8-1.fc27.x86_64
-├─pkgconfig                                       pkgconf-pkg-config-1.3.8-1.fc27.x86_64
-├─libpython2.7.so.1.0()(64bit)                    python2-libs-2.7.13-16.fc27.x86_64
-├─python-rpm-macros                               python-rpm-macros-3-21.fc27.noarch
-├─python3-rpm-generators                          python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
-├─python2-rpm-macros                              python2-rpm-macros-3-21.fc27.noarch
-├─/usr/bin/python2.7                              python2-2.7.13-16.fc27.x86_64
-└─python2(x86-64) = 2.7.13-16.fc27                python2-2.7.13-16.fc27.x86_64
-python2-2.7.13-16.fc27.x86_64                     
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
-├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
-├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
-├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
-├─libpython2.7.so.1.0()(64bit)                    python2-libs-2.7.13-16.fc27.x86_64
-├─libc.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
-├─python2-setuptools                              python2-setuptools-36.2.0-3.fc27.noarch
-├─python2-pip                                     python2-pip-9.0.1-11.fc27.noarch
-└─python2-libs(x86-64) = 2.7.13-16.fc27           python2-libs-2.7.13-16.fc27.x86_64
-python2-libs-2.7.13-16.fc27.x86_64                
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
-├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
-├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
-├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
-├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
-├─libz.so.1()(64bit)                              zlib-1.2.11-4.fc27.x86_64
-├─libdl.so.2(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
-├─libm.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
-├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libc.so.6(GLIBC_2.15)(64bit)                    glibc-2.26-1.fc27.1.x86_64
-├─libbz2.so.1()(64bit)                            bzip2-libs-1.0.6-24.fc27.x86_64
-├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.x86_64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
-├─libdb-5.3.so()(64bit)                           libdb-5.3.28-26.fc27.x86_64
-├─libreadline.so.7()(64bit)                       readline-7.0-7.fc27.x86_64
-├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.x86_64
-├─libsqlite3.so.0()(64bit)                        sqlite-libs-3.20.0-1.fc27.x86_64
-├─libtinfo.so.6()(64bit)                          ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libcrypt.so.1(GLIBC_2.2.5)(64bit)               libcrypt-2.26-1.fc27.1.x86_64
-├─libffi.so.6()(64bit)                            libffi-3.1-14.fc27.x86_64
-├─/usr/bin/env                                    coreutils-8.27-14.fc27.x86_64
-├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libexpat.so.1()(64bit)                          expat-2.2.3-1.fc27.x86_64
-├─libnsl.so.1(GLIBC_2.2.5)(64bit)                 glibc-2.26-1.fc27.1.x86_64
-├─libz.so.1(ZLIB_1.2.0)(64bit)                    zlib-1.2.11-4.fc27.x86_64
-├─libgdbm.so.4()(64bit)                           gdbm-1.13-3.fc27.x86_64
-├─libgdbm_compat.so.4()(64bit)                    gdbm-1.13-3.fc27.x86_64
-├─libncursesw.so.6()(64bit)                       ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libpanelw.so.6()(64bit)                         ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libutil.so.1(GLIBC_2.2.5)(64bit)                glibc-2.26-1.fc27.1.x86_64
-├─expat >= 2.1.0                                  expat-2.2.3-1.fc27.x86_64
-└─glibc(x86-64) >= 2.24.90-26                     glibc-2.26-1.fc27.1.x86_64
-python2-setuptools-36.2.0-3.fc27.noarch           
-├─/usr/bin/python2                                python2-2.7.13-16.fc27.x86_64
-└─python(abi) = 2.7                               python2-2.7.13-16.fc27.x86_64
-python3-devel-3.6.2-6.fc27.x86_64                 
-├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
-├─/usr/bin/pkg-config                             pkgconf-pkg-config-1.3.8-1.fc27.x86_64
-├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
-├─python-rpm-macros                               python-rpm-macros-3-21.fc27.noarch
-├─python3-rpm-generators                          python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
-├─python3-rpm-macros                              python3-rpm-macros-3-21.fc27.noarch
-├─python3 = 3.6.2-6.fc27                          python3-3.6.2-6.fc27.x86_64
-└─python3-libs(x86-64) = 3.6.2-6.fc27             python3-libs-3.6.2-6.fc27.x86_64
-python3-3.6.2-6.fc27.x86_64                       
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
-├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
-├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
-├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
-├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
-├─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
-├─libc.so.6(GLIBC_2.3.4)(64bit)                   glibc-2.26-1.fc27.1.x86_64
-├─python3-pip                                     python3-pip-9.0.1-11.fc27.noarch
-└─python3-libs(x86-64) = 3.6.2-6.fc27             python3-libs-3.6.2-6.fc27.x86_64
-python3-libs-3.6.2-6.fc27.x86_64                  
-├─expat >= 2.1.0                                  expat-2.2.3-1.fc27.x86_64
-└─system-python-libs(x86-64) = 3.6.2-6.fc27       system-python-libs-3.6.2-6.fc27.x86_64
-system-python-libs-3.6.2-6.fc27.x86_64            
-├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
-├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
-├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
-├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
-├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
-├─libz.so.1()(64bit)                              zlib-1.2.11-4.fc27.x86_64
-├─libdl.so.2(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
-├─libm.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
-├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libpthread.so.0(GLIBC_2.3.2)(64bit)             glibc-2.26-1.fc27.1.x86_64
-├─liblzma.so.5()(64bit)                           xz-libs-5.2.3-4.fc27.x86_64
-├─libbz2.so.1()(64bit)                            bzip2-libs-1.0.6-24.fc27.x86_64
-├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.x86_64
-├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
-├─libc.so.6(GLIBC_2.25)(64bit)                    glibc-2.26-1.fc27.1.x86_64
-├─libreadline.so.7()(64bit)                       readline-7.0-7.fc27.x86_64
-├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.x86_64
-├─libsqlite3.so.0()(64bit)                        sqlite-libs-3.20.0-1.fc27.x86_64
-├─libtinfo.so.6()(64bit)                          ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libcrypt.so.1(GLIBC_2.2.5)(64bit)               libcrypt-2.26-1.fc27.1.x86_64
-├─libffi.so.6()(64bit)                            libffi-3.1-14.fc27.x86_64
-├─liblzma.so.5(XZ_5.0)(64bit)                     xz-libs-5.2.3-4.fc27.x86_64
-├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.x86_64
-├─libexpat.so.1()(64bit)                          expat-2.2.3-1.fc27.x86_64
-├─libnsl.so.1(GLIBC_2.2.5)(64bit)                 glibc-2.26-1.fc27.1.x86_64
-├─libz.so.1(ZLIB_1.2.0)(64bit)                    zlib-1.2.11-4.fc27.x86_64
-├─libgdbm.so.4()(64bit)                           gdbm-1.13-3.fc27.x86_64
-├─libgdbm_compat.so.4()(64bit)                    gdbm-1.13-3.fc27.x86_64
-├─libncursesw.so.6()(64bit)                       ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libpanelw.so.6()(64bit)                         ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libutil.so.1(GLIBC_2.2.5)(64bit)                glibc-2.26-1.fc27.1.x86_64
-├─expat >= 2.1.0                                  expat-2.2.3-1.fc27.x86_64
-└─glibc(x86-64) >= 2.24.90-26                     glibc-2.26-1.fc27.1.x86_64
-python3-setuptools-36.2.0-3.fc27.noarch           
-├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
-└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
 krb5-devel-1.15.1-21.fc27.x86_64                  
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
 ├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
@@ -313,8 +185,8 @@ krb5-devel-1.15.1-21.fc27.x86_64
 ├─libk5crypto.so.3()(64bit)                       krb5-libs-1.15.1-21.fc27.x86_64
 ├─libkrb5support.so.0()(64bit)                    krb5-libs-1.15.1-21.fc27.x86_64
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)   krb5-libs-1.15.1-21.fc27.x86_64
-├─libkeyutils.so.1()(64bit)                       keyutils-libs-1.5.10-3.fc27.x86_64
 ├─libkrb5.so.3(krb5_3_MIT)(64bit)                 krb5-libs-1.15.1-21.fc27.x86_64
+├─libkeyutils.so.1()(64bit)                       keyutils-libs-1.5.10-3.fc27.x86_64
 ├─libgssrpc.so.4()(64bit)                         krb5-libs-1.15.1-21.fc27.x86_64
 ├─libkdb5.so.8()(64bit)                           krb5-libs-1.15.1-21.fc27.x86_64
 ├─keyutils-libs-devel                             keyutils-libs-devel-1.5.10-3.fc27.x86_64
@@ -359,8 +231,8 @@ libkadm5-1.15.1-21.fc27.x86_64
 ├─libk5crypto.so.3()(64bit)                       krb5-libs-1.15.1-21.fc27.x86_64
 ├─libkrb5support.so.0()(64bit)                    krb5-libs-1.15.1-21.fc27.x86_64
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)   krb5-libs-1.15.1-21.fc27.x86_64
-├─libkeyutils.so.1()(64bit)                       keyutils-libs-1.5.10-3.fc27.x86_64
 ├─libkrb5.so.3(krb5_3_MIT)(64bit)                 krb5-libs-1.15.1-21.fc27.x86_64
+├─libkeyutils.so.1()(64bit)                       keyutils-libs-1.5.10-3.fc27.x86_64
 ├─libgssrpc.so.4()(64bit)                         krb5-libs-1.15.1-21.fc27.x86_64
 ├─libk5crypto.so.3(k5crypto_3_MIT)(64bit)         krb5-libs-1.15.1-21.fc27.x86_64
 ├─libkdb5.so.8()(64bit)                           krb5-libs-1.15.1-21.fc27.x86_64
@@ -394,8 +266,8 @@ libidn-1.33-4.fc27.x86_64
 └─emacs-filesystem >= 25.2                        emacs-filesystem-1:25.2-2.fc27.noarch
 libtool-2.4.6-20.fc27.x86_64                      
 ├─sed                                             sed-4.4-3.fc27.x86_64
-├─tar                                             tar-2:1.29-7.fc27.x86_64
 ├─findutils                                       findutils-1:4.6.0-14.fc27.x86_64
+├─tar                                             tar-2:1.29-7.fc27.x86_64
 ├─autoconf                                        autoconf-2.69-24.fc26.noarch
 ├─automake                                        automake-1.15-9.fc26.noarch
 └─gcc(major) = 7                                  gcc-7.1.1-7.fc27.1.x86_64
@@ -461,8 +333,8 @@ openldap-devel-2.4.45-3.fc27.x86_64
 openldap-2.4.45-3.fc27.x86_64                     
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
 ├─libc.so.6(GLIBC_2.14)(64bit)                    glibc-2.26-1.fc27.1.x86_64
-├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
+├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
 ├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0(GLIBC_2.3.2)(64bit)             glibc-2.26-1.fc27.1.x86_64
@@ -512,6 +384,66 @@ openssl-libs-1:1.1.0f-9.fc27.x86_64
 ├─libc.so.6(GLIBC_2.17)(64bit)                    glibc-2.26-1.fc27.1.x86_64
 ├─crypto-policies                                 crypto-policies-20170802-1.git9300620.fc27.noarch
 └─ca-certificates >= 2008-5                       ca-certificates-2017.2.16-3.fc27.noarch
+python3-devel-3.6.2-6.fc27.x86_64                 
+├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
+├─/usr/bin/pkg-config                             pkgconf-pkg-config-1.3.8-1.fc27.x86_64
+├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
+├─python-rpm-macros                               python-rpm-macros-3-21.fc27.noarch
+├─python3-rpm-generators                          python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
+├─python3-rpm-macros                              python3-rpm-macros-3-21.fc27.noarch
+├─python3 = 3.6.2-6.fc27                          python3-3.6.2-6.fc27.x86_64
+└─python3-libs(x86-64) = 3.6.2-6.fc27             python3-libs-3.6.2-6.fc27.x86_64
+python3-3.6.2-6.fc27.x86_64                       
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
+├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
+├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
+├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
+├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
+├─libpython3.6m.so.1.0()(64bit)                   system-python-libs-3.6.2-6.fc27.x86_64
+├─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
+├─libc.so.6(GLIBC_2.3.4)(64bit)                   glibc-2.26-1.fc27.1.x86_64
+├─python3-pip                                     python3-pip-9.0.1-11.fc27.noarch
+└─python3-libs(x86-64) = 3.6.2-6.fc27             python3-libs-3.6.2-6.fc27.x86_64
+python3-libs-3.6.2-6.fc27.x86_64                  
+├─expat >= 2.1.0                                  expat-2.2.3-1.fc27.x86_64
+└─system-python-libs(x86-64) = 3.6.2-6.fc27       system-python-libs-3.6.2-6.fc27.x86_64
+system-python-libs-3.6.2-6.fc27.x86_64            
+├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
+├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
+├─/bin/sh                                         bash-4.4.12-9.fc27.x86_64
+├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
+├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
+├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
+├─libz.so.1()(64bit)                              zlib-1.2.11-4.fc27.x86_64
+├─libdl.so.2(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
+├─libm.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
+├─libcrypto.so.1.1()(64bit)                       openssl-libs-1:1.1.0f-9.fc27.x86_64
+├─libpthread.so.0(GLIBC_2.3.2)(64bit)             glibc-2.26-1.fc27.1.x86_64
+├─liblzma.so.5()(64bit)                           xz-libs-5.2.3-4.fc27.x86_64
+├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.x86_64
+├─libbz2.so.1()(64bit)                            bzip2-libs-1.0.6-24.fc27.x86_64
+├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.x86_64
+├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
+├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.x86_64
+├─libc.so.6(GLIBC_2.25)(64bit)                    glibc-2.26-1.fc27.1.x86_64
+├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.x86_64
+├─libreadline.so.7()(64bit)                       readline-7.0-7.fc27.x86_64
+├─libsqlite3.so.0()(64bit)                        sqlite-libs-3.20.0-1.fc27.x86_64
+├─libtinfo.so.6()(64bit)                          ncurses-libs-6.0-13.20170722.fc27.x86_64
+├─libcrypt.so.1(GLIBC_2.2.5)(64bit)               libcrypt-2.26-1.fc27.1.x86_64
+├─liblzma.so.5(XZ_5.0)(64bit)                     xz-libs-5.2.3-4.fc27.x86_64
+├─libffi.so.6()(64bit)                            libffi-3.1-14.fc27.x86_64
+├─libutil.so.1(GLIBC_2.2.5)(64bit)                glibc-2.26-1.fc27.1.x86_64
+├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.x86_64
+├─libexpat.so.1()(64bit)                          expat-2.2.3-1.fc27.x86_64
+├─libnsl.so.1(GLIBC_2.2.5)(64bit)                 glibc-2.26-1.fc27.1.x86_64
+├─libz.so.1(ZLIB_1.2.0)(64bit)                    zlib-1.2.11-4.fc27.x86_64
+├─libncursesw.so.6()(64bit)                       ncurses-libs-6.0-13.20170722.fc27.x86_64
+├─libpanelw.so.6()(64bit)                         ncurses-libs-6.0-13.20170722.fc27.x86_64
+├─libgdbm.so.4()(64bit)                           gdbm-1.13-3.fc27.x86_64
+├─libgdbm_compat.so.4()(64bit)                    gdbm-1.13-3.fc27.x86_64
+├─expat >= 2.1.0                                  expat-2.2.3-1.fc27.x86_64
+└─glibc(x86-64) >= 2.24.90-26                     glibc-2.26-1.fc27.1.x86_64
 sqlite-devel-3.20.0-1.fc27.x86_64                 
 ├─/usr/bin/pkg-config                             pkgconf-pkg-config-1.3.8-1.fc27.x86_64
 ├─pkgconfig                                       pkgconf-pkg-config-1.3.8-1.fc27.x86_64
@@ -551,15 +483,15 @@ systemd-234-5.fc27.x86_64
 ├─librt.so.1()(64bit)                             glibc-2.26-1.fc27.1.x86_64
 ├─/bin/bash                                       bash-4.4.12-9.fc27.x86_64
 ├─liblzma.so.5()(64bit)                           xz-libs-5.2.3-4.fc27.x86_64
-├─libbz2.so.1()(64bit)                            bzip2-libs-1.0.6-24.fc27.x86_64
 ├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.x86_64
+├─libbz2.so.1()(64bit)                            bzip2-libs-1.0.6-24.fc27.x86_64
 ├─libacl.so.1()(64bit)                            libacl-2.2.52-18.fc27.x86_64
 ├─libelf.so.1()(64bit)                            elfutils-libelf-0.170-1.fc27.x86_64
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                 libgcc-7.1.1-7.fc27.1.x86_64
 ├─libcap.so.2()(64bit)                            libcap-2.25-7.fc27.x86_64
 ├─util-linux                                      util-linux-2.30.1-1.fc27.x86_64
-├─libc.so.6(GLIBC_2.25)(64bit)                    glibc-2.26-1.fc27.1.x86_64
 ├─libaudit.so.1()(64bit)                          audit-libs-2.7.7-5.fc27.x86_64
+├─libc.so.6(GLIBC_2.25)(64bit)                    glibc-2.26-1.fc27.1.x86_64
 ├─libblkid.so.1()(64bit)                          libblkid-2.30.1-1.fc27.x86_64
 ├─libgpg-error.so.0()(64bit)                      libgpg-error-1.27-3.fc27.x86_64
 ├─libcrypt.so.1(GLIBC_2.2.5)(64bit)               libcrypt-2.26-1.fc27.1.x86_64
@@ -567,15 +499,15 @@ systemd-234-5.fc27.x86_64
 ├─libblkid.so.1(BLKID_2.15)(64bit)                libblkid-2.30.1-1.fc27.x86_64
 ├─libblkid.so.1(BLKID_2.17)(64bit)                libblkid-2.30.1-1.fc27.x86_64
 ├─libmount.so.1()(64bit)                          libmount-2.30.1-1.fc27.x86_64
-├─libacl.so.1(ACL_1.0)(64bit)                     libacl-2.2.52-18.fc27.x86_64
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                elfutils-libelf-0.170-1.fc27.x86_64
+├─libpam.so.0()(64bit)                            pam-1.3.0-5.fc27.x86_64
+├─libacl.so.1(ACL_1.0)(64bit)                     libacl-2.2.52-18.fc27.x86_64
 ├─libgcrypt.so.20()(64bit)                        libgcrypt-1.7.8-3.fc27.x86_64
 ├─libgcrypt.so.20(GCRYPT_1.6)(64bit)              libgcrypt-1.7.8-3.fc27.x86_64
 ├─libgpg-error.so.0(GPG_ERROR_1.0)(64bit)         libgpg-error-1.27-3.fc27.x86_64
-├─libpam.so.0()(64bit)                            pam-1.3.0-5.fc27.x86_64
 ├─libpam.so.0(LIBPAM_1.0)(64bit)                  pam-1.3.0-5.fc27.x86_64
-├─libcryptsetup.so.4()(64bit)                     cryptsetup-libs-1.7.5-3.fc27.x86_64
 ├─libdw.so.1()(64bit)                             elfutils-libs-0.170-1.fc27.x86_64
+├─libcryptsetup.so.4()(64bit)                     cryptsetup-libs-1.7.5-3.fc27.x86_64
 ├─libcryptsetup.so.4(CRYPTSETUP_1.0)(64bit)       cryptsetup-libs-1.7.5-3.fc27.x86_64
 ├─liblz4.so.1()(64bit)                            lz4-libs-1.7.5-6.fc27.x86_64
 ├─libidn.so.11()(64bit)                           libidn-1.33-4.fc27.x86_64
@@ -583,16 +515,16 @@ systemd-234-5.fc27.x86_64
 ├─libidn.so.11(LIBIDN_1.0)(64bit)                 libidn-1.33-4.fc27.x86_64
 ├─libseccomp.so.2()(64bit)                        libseccomp-2.3.2-5.fc27.x86_64
 ├─libblkid.so.1(BLKID_2.18)(64bit)                libblkid-2.30.1-1.fc27.x86_64
+├─libdw.so.1(ELFUTILS_0.122)(64bit)               elfutils-libs-0.170-1.fc27.x86_64
 ├─libkmod.so.2()(64bit)                           kmod-libs-24-3.fc27.x86_64
 ├─libmount.so.1(MOUNT_2.20)(64bit)                libmount-2.30.1-1.fc27.x86_64
-├─libdw.so.1(ELFUTILS_0.122)(64bit)               elfutils-libs-0.170-1.fc27.x86_64
+├─libdw.so.1(ELFUTILS_0.130)(64bit)               elfutils-libs-0.170-1.fc27.x86_64
+├─libdw.so.1(ELFUTILS_0.158)(64bit)               elfutils-libs-0.170-1.fc27.x86_64
 ├─libip4tc.so.0()(64bit)                          iptables-libs-1.6.1-4.fc27.x86_64
 ├─libkmod.so.2(LIBKMOD_5)(64bit)                  kmod-libs-24-3.fc27.x86_64
 ├─libm.so.6(GLIBC_2.15)(64bit)                    glibc-2.26-1.fc27.1.x86_64
 ├─libqrencode.so.3()(64bit)                       qrencode-libs-3.4.4-3.fc27.x86_64
 ├─librt.so.1(GLIBC_2.3.4)(64bit)                  glibc-2.26-1.fc27.1.x86_64
-├─libdw.so.1(ELFUTILS_0.130)(64bit)               elfutils-libs-0.170-1.fc27.x86_64
-├─libdw.so.1(ELFUTILS_0.158)(64bit)               elfutils-libs-0.170-1.fc27.x86_64
 ├─libmount.so.1(MOUNT_2.26)(64bit)                libmount-2.30.1-1.fc27.x86_64
 ├─systemd-pam = 234-5.fc27                        systemd-pam-234-5.fc27.x86_64
 ├─systemd-libs = 234-5.fc27                       systemd-libs-234-5.fc27.x86_64
@@ -615,8 +547,8 @@ dbus-1:1.11.14-1.fc27.x86_64
 └─libselinux(x86-64) >= 2.0.86                    libselinux-2.7-1.fc27.x86_64
 systemd-libs-234-5.fc27.x86_64                    
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
+├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
 ├─libgcc_s.so.1()(64bit)                          libgcc-7.1.1-7.fc27.1.x86_64
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                   libgcc-7.1.1-7.fc27.1.x86_64
@@ -697,8 +629,8 @@ cpp-7.1.1-7.fc27.1.x86_64
 libgcc-7.1.1-7.fc27.1.x86_64                      
 libgomp-7.1.1-7.fc27.1.x86_64                     
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
+├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
 ├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
 ├─libdl.so.2(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
@@ -741,8 +673,8 @@ glibc-common-2.26-1.fc27.1.x86_64
 └─tzdata >= 2003a                                 tzdata-2017b-2.fc27.noarch
 glibc-devel-2.26-1.fc27.1.x86_64                  
 ├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
-├─libresolv.so.2()(64bit)                         glibc-2.26-1.fc27.1.x86_64
 ├─librt.so.1()(64bit)                             glibc-2.26-1.fc27.1.x86_64
+├─libresolv.so.2()(64bit)                         glibc-2.26-1.fc27.1.x86_64
 ├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
 ├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.x86_64
 ├─libcrypt(x86-64)                                libcrypt-2.26-1.fc27.1.x86_64
@@ -756,8 +688,7 @@ glibc-devel-2.26-1.fc27.1.x86_64
 └─glibc-headers = 2.26-1.fc27.1                   glibc-headers-2.26-1.fc27.1.x86_64
 glibc-headers-2.26-1.fc27.1.x86_64                
 ├─glibc = 2.26-1.fc27.1                           glibc-2.26-1.fc27.1.x86_64
-└─kernel-headers >= 2.2.1                         kernel-headers-4.13.0-0.rc1.git1.1.fc27.x86_64
-kernel-headers-4.13.0-0.rc1.git1.1.fc27.x86_64    
+└─kernel-headers >= 2.2.1                         kernel-headers-4.13.0-0.rc6.git0.1.fc28.x86_64
 bash-4.4.12-9.fc27.x86_64                         
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
 ├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
@@ -802,20 +733,20 @@ perl-interpreter-4:5.26.0-398.fc27.x86_64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
 ├─libdl.so.2()(64bit)                             glibc-2.26-1.fc27.1.x86_64
 ├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
-├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
 ├─libm.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
+├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
 ├─perl(strict)                                    perl-libs-4:5.26.0-398.fc27.x86_64
 ├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
 ├─libresolv.so.2()(64bit)                         glibc-2.26-1.fc27.1.x86_64
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
 ├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.x86_64
-├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
+├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
 ├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
+├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
 ├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.x86_64
 ├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.x86_64
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.x86_64
 ├─libgdbm.so.4()(64bit)                           gdbm-1.13-3.fc27.x86_64
 ├─libgdbm_compat.so.4()(64bit)                    gdbm-1.13-3.fc27.x86_64
@@ -1066,8 +997,8 @@ perl-Data-Dumper-2.167-396.fc27.x86_64
 ├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
 ├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
 ├─perl(bytes)                                     perl-interpreter-4:5.26.0-398.fc27.x86_64
 ├─perl(B::Deparse)                                perl-interpreter-4:5.26.0-398.fc27.x86_64
@@ -1090,8 +1021,8 @@ pam-1.3.0-5.fc27.x86_64
 ├─libaudit.so.1()(64bit)                          audit-libs-2.7.7-5.fc27.x86_64
 ├─libnsl.so.1()(64bit)                            glibc-2.26-1.fc27.1.x86_64
 ├─libcrypt.so.1(GLIBC_2.2.5)(64bit)               libcrypt-2.26-1.fc27.1.x86_64
-├─libnsl.so.1(GLIBC_2.2.5)(64bit)                 glibc-2.26-1.fc27.1.x86_64
 ├─libutil.so.1(GLIBC_2.2.5)(64bit)                glibc-2.26-1.fc27.1.x86_64
+├─libnsl.so.1(GLIBC_2.2.5)(64bit)                 glibc-2.26-1.fc27.1.x86_64
 ├─libcrack.so.2()(64bit)                          cracklib-2.9.6-7.fc27.x86_64
 ├─audit-libs >= 1.0.8                             audit-libs-2.7.7-5.fc27.x86_64
 ├─glibc >= 2.3.90-37                              glibc-2.26-1.fc27.1.x86_64
@@ -1199,29 +1130,29 @@ util-linux-2.30.1-1.fc27.x86_64
 ├─ld-linux-x86-64.so.2(GLIBC_2.3)(64bit)          glibc-2.26-1.fc27.1.x86_64
 ├─librt.so.1()(64bit)                             glibc-2.26-1.fc27.1.x86_64
 ├─libcrypt.so.1()(64bit)                          libcrypt-2.26-1.fc27.1.x86_64
-├─librt.so.1(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
-├─libsystemd.so.0()(64bit)                        systemd-libs-234-5.fc27.x86_64
 ├─libutil.so.1()(64bit)                           glibc-2.26-1.fc27.1.x86_64
+├─libsystemd.so.0()(64bit)                        systemd-libs-234-5.fc27.x86_64
+├─librt.so.1(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
 ├─libuuid.so.1()(64bit)                           libuuid-2.30.1-1.fc27.x86_64
-├─libc.so.6(GLIBC_2.25)(64bit)                    glibc-2.26-1.fc27.1.x86_64
 ├─libaudit.so.1()(64bit)                          audit-libs-2.7.7-5.fc27.x86_64
+├─libc.so.6(GLIBC_2.25)(64bit)                    glibc-2.26-1.fc27.1.x86_64
 ├─libblkid.so.1()(64bit)                          libblkid-2.30.1-1.fc27.x86_64
 ├─libtinfo.so.6()(64bit)                          ncurses-libs-6.0-13.20170722.fc27.x86_64
-├─libuuid.so.1(UUID_1.0)(64bit)                   libuuid-2.30.1-1.fc27.x86_64
 ├─libcrypt.so.1(GLIBC_2.2.5)(64bit)               libcrypt-2.26-1.fc27.1.x86_64
+├─libuuid.so.1(UUID_1.0)(64bit)                   libuuid-2.30.1-1.fc27.x86_64
+├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)          systemd-libs-234-5.fc27.x86_64
 ├─libblkid.so.1(BLKID_2.15)(64bit)                libblkid-2.30.1-1.fc27.x86_64
 ├─libblkid.so.1(BLKID_2.17)(64bit)                libblkid-2.30.1-1.fc27.x86_64
 ├─libcap-ng.so.0()(64bit)                         libcap-ng-0.7.8-5.fc27.x86_64
 ├─libmount.so.1()(64bit)                          libmount-2.30.1-1.fc27.x86_64
 ├─libpam.so.0()(64bit)                            pam-1.3.0-5.fc27.x86_64
-├─libudev.so.1()(64bit)                           systemd-libs-234-5.fc27.x86_64
 ├─libpam.so.0(LIBPAM_1.0)(64bit)                  pam-1.3.0-5.fc27.x86_64
-├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)          systemd-libs-234-5.fc27.x86_64
+├─libudev.so.1()(64bit)                           systemd-libs-234-5.fc27.x86_64
+├─libutil.so.1(GLIBC_2.2.5)(64bit)                glibc-2.26-1.fc27.1.x86_64
 ├─libudev.so.1(LIBUDEV_183)(64bit)                systemd-libs-234-5.fc27.x86_64
 ├─libmount.so.1(MOUNT_2.19)(64bit)                libmount-2.30.1-1.fc27.x86_64
 ├─libncursesw.so.6()(64bit)                       ncurses-libs-6.0-13.20170722.fc27.x86_64
 ├─libpam_misc.so.0()(64bit)                       pam-1.3.0-5.fc27.x86_64
-├─libutil.so.1(GLIBC_2.2.5)(64bit)                glibc-2.26-1.fc27.1.x86_64
 ├─libblkid.so.1(BLKID_1.0)(64bit)                 libblkid-2.30.1-1.fc27.x86_64
 ├─libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit)        pam-1.3.0-5.fc27.x86_64
 ├─libblkid.so.1(BLKID_2.18)(64bit)                libblkid-2.30.1-1.fc27.x86_64
@@ -1330,19 +1261,17 @@ python-rpm-macros-3-21.fc27.noarch
 └─python-srpm-macros                              python-srpm-macros-3-21.fc27.noarch
 python3-rpm-generators-4.13.0.1-2.fc27.1.noarch   
 ├─/bin/bash                                       bash-4.4.12-9.fc27.x86_64
-├─rpm                                             rpm-4.13.0.1-41.fc27.x86_64
 ├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
+├─rpm                                             rpm-4.13.0.1-41.fc27.x86_64
 └─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
 python3-rpm-macros-3-21.fc27.noarch               
 python3-pip-9.0.1-11.fc27.noarch                  
 ├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
 ├─python3-setuptools                              python3-setuptools-36.2.0-3.fc27.noarch
 └─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
-python2-rpm-macros-3-21.fc27.noarch               
-python2-pip-9.0.1-11.fc27.noarch                  
-├─python-setuptools                               python2-setuptools-36.2.0-3.fc27.noarch
-├─/usr/bin/python2                                python2-2.7.13-16.fc27.x86_64
-└─python(abi) = 2.7                               python2-2.7.13-16.fc27.x86_64
+python3-setuptools-36.2.0-3.fc27.noarch           
+├─/usr/bin/python3                                python3-3.6.2-6.fc27.x86_64
+└─python(abi) = 3.6                               python3-3.6.2-6.fc27.x86_64
 python-srpm-macros-3-21.fc27.noarch               
 perl-Text-Tabs+Wrap-2013.0523-394.fc27.noarch     
 ├─perl(:MODULE_COMPAT_5.26.0)                     perl-libs-4:5.26.0-398.fc27.x86_64
@@ -1594,8 +1523,8 @@ gc-7.6.0-7.fc27.x86_64
 └─libatomic_ops.so.1()(64bit)                     libatomic_ops-7.4.6-3.fc27.x86_64
 guile-5:2.0.14-3.fc27.x86_64                      
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
-├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0()(64bit)                        glibc-2.26-1.fc27.1.x86_64
+├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.x86_64
 ├─libpthread.so.0(GLIBC_2.2.5)(64bit)             glibc-2.26-1.fc27.1.x86_64
 ├─libm.so.6()(64bit)                              glibc-2.26-1.fc27.1.x86_64
 ├─libm.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
@@ -1697,6 +1626,7 @@ libtool-ltdl-2.4.6-20.fc27.x86_64
 libunistring-0.9.7-3.fc27.x86_64                  
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.x86_64
 └─libc.so.6(GLIBC_2.14)(64bit)                    glibc-2.26-1.fc27.1.x86_64
+kernel-headers-4.13.0-0.rc6.git0.1.fc28.x86_64    
 tzdata-2017b-2.fc27.noarch                        
 basesystem-11-4.fc27.noarch                       
 binutils-2.29-6.fc27.x86_64                       
@@ -1754,8 +1684,8 @@ device-mapper-libs-1.02.142-4.fc27.x86_64
 ├─libm.so.6(GLIBC_2.2.5)(64bit)                   glibc-2.26-1.fc27.1.x86_64
 ├─libselinux.so.1()(64bit)                        libselinux-2.7-1.fc27.x86_64
 ├─librt.so.1()(64bit)                             glibc-2.26-1.fc27.1.x86_64
-├─librt.so.1(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
 ├─libsystemd.so.0()(64bit)                        systemd-libs-234-5.fc27.x86_64
+├─librt.so.1(GLIBC_2.2.5)(64bit)                  glibc-2.26-1.fc27.1.x86_64
 ├─libsepol.so.1()(64bit)                          libsepol-2.7-1.fc27.x86_64
 ├─libudev.so.1()(64bit)                           systemd-libs-234-5.fc27.x86_64
 ├─libudev.so.1(LIBUDEV_183)(64bit)                systemd-libs-234-5.fc27.x86_64
@@ -1868,9 +1798,9 @@ rpm-libs-4.13.0.1-41.fc27.x86_64
 ├─libdb-5.3.so()(64bit)                           libdb-5.3.28-26.fc27.x86_64
 ├─liblzma.so.5(XZ_5.0)(64bit)                     xz-libs-5.2.3-4.fc27.x86_64
 ├─libpopt.so.0(LIBPOPT_0)(64bit)                  popt-1.16-11.fc27.x86_64
+├─libelf.so.1(ELFUTILS_1.0)(64bit)                elfutils-libelf-0.170-1.fc27.x86_64
 ├─liblua-5.3.so()(64bit)                          lua-libs-5.3.4-5.fc27.x86_64
 ├─libacl.so.1(ACL_1.0)(64bit)                     libacl-2.2.52-18.fc27.x86_64
-├─libelf.so.1(ELFUTILS_1.0)(64bit)                elfutils-libelf-0.170-1.fc27.x86_64
 ├─rpm = 4.13.0.1-41.fc27                          rpm-4.13.0.1-41.fc27.x86_64
 ├─rpm-plugin-selinux(x86-64) = 4.13.0.1-41.fc27   rpm-plugin-selinux-4.13.0.1-41.fc27.x86_64
 └─libcap(x86-64) >= 2.16                          libcap-2.25-7.fc27.x86_64
@@ -1968,8 +1898,8 @@ perl-Encode-4:2.92-14.fc27.x86_64
 ├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.x86_64
 ├─libperl.so.5.26()(64bit)                        perl-libs-4:5.26.0-398.fc27.x86_64
 ├─/usr/bin/perl                                   perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.x86_64
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(File::Basename)                            perl-interpreter-4:5.26.0-398.fc27.x86_64
 ├─perl(overload)                                  perl-interpreter-4:5.26.0-398.fc27.x86_64
 ├─perl(Getopt::Long)                              perl-Getopt-Long-1:2.50-3.fc27.noarch
@@ -1990,8 +1920,8 @@ perl-File-Temp-0.230.400-394.fc27.noarch
 ├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.x86_64
 ├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(overload)                                  perl-interpreter-4:5.26.0-398.fc27.x86_64
-├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.x86_64
 ├─perl(POSIX)                                     perl-interpreter-4:5.26.0-398.fc27.x86_64
+├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.x86_64
 ├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.x86_64
 ├─perl(IO::Handle)                                perl-IO-1.38-398.fc27.x86_64
 ├─perl(Errno)                                     perl-Errno-1.28-398.fc27.x86_64
@@ -2143,8 +2073,8 @@ libcurl-minimal-7.55.0-1.fc27.x86_64
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)          openssl-libs-1:1.1.0f-9.fc27.x86_64
 ├─libgssapi_krb5.so.2()(64bit)                    krb5-libs-1.15.1-21.fc27.x86_64
 ├─libkrb5.so.3()(64bit)                           krb5-libs-1.15.1-21.fc27.x86_64
-├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.x86_64
 ├─libk5crypto.so.3()(64bit)                       krb5-libs-1.15.1-21.fc27.x86_64
+├─libssl.so.1.1()(64bit)                          openssl-libs-1:1.1.0f-9.fc27.x86_64
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)   krb5-libs-1.15.1-21.fc27.x86_64
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)             openssl-libs-1:1.1.0f-9.fc27.x86_64
 ├─libnghttp2.so.14()(64bit)                       libnghttp2-1.24.0-4.fc27.x86_64

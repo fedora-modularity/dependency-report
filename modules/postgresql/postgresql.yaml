@@ -7,7 +7,9 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            bootstrap: master
+            platform: master
+            platform-placeholder: master
+            perl: master
         requires:
             platform: master
             platform-placeholder: master
@@ -18,5 +20,8 @@ data:
     components:
         rpms:
             postgresql:
+                rationale: Generated.
+                ref: master.
+            uuid:
                 rationale: Generated.
                 ref: master.

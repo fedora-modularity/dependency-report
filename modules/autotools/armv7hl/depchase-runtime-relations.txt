@@ -78,8 +78,8 @@ perl-Thread-Queue-3.12-393.fc27.noarch
 └─perl(threads::shared) >= 1.21                   perl-threads-shared-1.57-4.fc27.armv7hl
 libtool-2.4.6-20.fc27.armv7hl                     
 ├─sed                                             sed-4.4-3.fc27.armv7hl
-├─tar                                             tar-2:1.29-7.fc27.armv7hl
 ├─findutils                                       findutils-1:4.6.0-14.fc27.armv7hl
+├─tar                                             tar-2:1.29-7.fc27.armv7hl
 ├─autoconf                                        autoconf-2.69-24.fc26.noarch
 ├─automake                                        automake-1.15-9.fc26.noarch
 └─gcc(major) = 7                                  gcc-7.1.1-7.fc27.1.armv7hl
@@ -149,8 +149,8 @@ libgomp-7.1.1-7.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3                             glibc-2.26-1.fc27.1.armv7hl
 ├─ld-linux-armhf.so.3(GLIBC_2.4)                  glibc-2.26-1.fc27.1.armv7hl
 ├─libgcc_s.so.1(GCC_3.5)                          libgcc-7.1.1-7.fc27.1.armv7hl
-├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0                                 glibc-2.26-1.fc27.1.armv7hl
+├─/sbin/ldconfig                                  glibc-2.26-1.fc27.1.armv7hl
 ├─libpthread.so.0(GLIBC_2.4)                      glibc-2.26-1.fc27.1.armv7hl
 ├─libdl.so.2                                      glibc-2.26-1.fc27.1.armv7hl
 └─libc.so.6(GLIBC_2.17)                           glibc-2.26-1.fc27.1.armv7hl
@@ -205,8 +205,8 @@ glibc-devel-2.26-1.fc27.1.armv7hl
 └─glibc-headers = 2.26-1.fc27.1                   glibc-headers-2.26-1.fc27.1.armv7hl
 glibc-headers-2.26-1.fc27.1.armv7hl               
 ├─glibc = 2.26-1.fc27.1                           glibc-2.26-1.fc27.1.armv7hl
-└─kernel-headers >= 2.2.1                         kernel-headers-4.13.0-0.rc1.git1.1.fc27.armv7hl
-kernel-headers-4.13.0-0.rc1.git1.1.fc27.armv7hl   
+└─kernel-headers >= 2.2.1                         kernel-headers-4.13.0-0.rc6.git0.1.fc28.armv7hl
+kernel-headers-4.13.0-0.rc6.git0.1.fc28.armv7hl   
 libselinux-2.7-1.fc27.armv7hl                     
 ├─rtld(GNU_HASH)                                  glibc-2.26-1.fc27.1.armv7hl
 ├─libgcc_s.so.1                                   libgcc-7.1.1-7.fc27.1.armv7hl
@@ -411,14 +411,14 @@ perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
 ├─libresolv.so.2                                  glibc-2.26-1.fc27.1.armv7hl
-├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─libcrypt.so.1                                   libcrypt-2.26-1.fc27.1.armv7hl
-├─libperl.so.5.26                                 perl-libs-4:5.26.0-398.fc27.armv7hl
+├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─libutil.so.1                                    glibc-2.26-1.fc27.1.armv7hl
+├─libperl.so.5.26                                 perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─libnsl.so.1                                     glibc-2.26-1.fc27.1.armv7hl
 ├─perl(File::Spec)                                perl-PathTools-3.67-395.fc27.armv7hl
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.armv7hl
 ├─libgdbm.so.4                                    gdbm-1.13-3.fc27.armv7hl
 ├─libgdbm_compat.so.4                             gdbm-1.13-3.fc27.armv7hl
@@ -576,8 +576,8 @@ perl-Data-Dumper-2.167-396.fc27.armv7hl
 ├─perl(Carp)                                      perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                  perl-Exporter-5.72-395.fc27.noarch
 ├─libperl.so.5.26                                 perl-libs-4:5.26.0-398.fc27.armv7hl
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.armv7hl
 ├─perl(bytes)                                     perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─perl(B::Deparse)                                perl-interpreter-4:5.26.0-398.fc27.armv7hl
@@ -796,8 +796,8 @@ perl-Encode-4:2.92-14.fc27.armv7hl
 ├─perl(warnings)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─libperl.so.5.26                                 perl-libs-4:5.26.0-398.fc27.armv7hl
 ├─/usr/bin/perl                                   perl-interpreter-4:5.26.0-398.fc27.armv7hl
-├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                  perl-libs-4:5.26.0-398.fc27.armv7hl
+├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(File::Basename)                            perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─perl(overload)                                  perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─perl(Getopt::Long)                              perl-Getopt-Long-1:2.50-3.fc27.noarch
@@ -818,8 +818,8 @@ perl-File-Temp-0.230.400-394.fc27.noarch
 ├─perl(vars)                                      perl-interpreter-4:5.26.0-398.fc27.armv7hl
 ├─perl(constant)                                  perl-constant-1.33-395.fc27.noarch
 ├─perl(overload)                                  perl-interpreter-4:5.26.0-398.fc27.armv7hl
-├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.armv7hl
 ├─perl(POSIX)                                     perl-interpreter-4:5.26.0-398.fc27.armv7hl
+├─perl(Cwd)                                       perl-PathTools-3.67-395.fc27.armv7hl
 ├─perl(Scalar::Util)                              perl-Scalar-List-Utils-3:1.48-1.fc27.armv7hl
 ├─perl(IO::Handle)                                perl-IO-1.38-398.fc27.armv7hl
 ├─perl(Errno)                                     perl-Errno-1.28-398.fc27.armv7hl
@@ -948,8 +948,8 @@ coreutils-8.27-14.fc27.armv7hl
 ├─librt.so.1                                      glibc-2.26-1.fc27.1.armv7hl
 ├─libacl.so.1                                     libacl-2.2.52-18.fc27.armv7hl
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)                 openssl-libs-1:1.1.0f-9.fc27.armv7hl
-├─libgmp.so.10                                    gmp-1:6.1.2-6.fc27.armv7hl
 ├─librt.so.1(GLIBC_2.4)                           glibc-2.26-1.fc27.1.armv7hl
+├─libgmp.so.10                                    gmp-1:6.1.2-6.fc27.armv7hl
 ├─libcap.so.2                                     libcap-2.25-7.fc27.armv7hl
 ├─ncurses                                         ncurses-6.0-13.20170722.fc27.armv7hl
 ├─libacl.so.1(ACL_1.0)                            libacl-2.2.52-18.fc27.armv7hl

@@ -12,7 +12,7 @@ This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
 ## Binary RPM packages
 These are RPM dependencies of the [platform-placeholder top-level package set](platform-placeholder.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this platform-placeholder module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
@@ -338,6 +338,7 @@ These are RPM dependencies of the [platform-placeholder top-level package set](p
 | `python3-libnl3` | X | X | X | X | X | X | X |
 | `python3-pyparsing` | - | - | - | - | - | X | - |
 | `python3-pyudev` | X | X | X | X | X | X | X |
+| `python3-setools` | X | X | X | X | X | X | X |
 | `python-gobject-base` | X | X | X | X | X | X | X |
 | `python-iscsi-initiator-utils` | X | X | X | X | X | X | X |
 | `python-libnl3` | X | X | X | X | X | X | X |
@@ -358,7 +359,6 @@ These are RPM dependencies of the [platform-placeholder top-level package set](p
 | `selinux-policy-mls` | X | X | X | X | X | X | X |
 | `selinux-policy-sandbox` | X | X | X | X | X | X | X |
 | `selinux-policy-targeted` | X | X | X | X | X | X | X |
-| `setools-python3` | X | X | X | X | X | X | X |
 | `sg3_utils` | X | X | X | X | X | X | X |
 | `sg3_utils-libs` | X | X | X | X | X | X | X |
 | `sgpio` | X | X | X | X | X | X | X |

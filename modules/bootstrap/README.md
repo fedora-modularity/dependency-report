@@ -11,7 +11,7 @@ This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
 ## Binary RPM packages
 These are RPM dependencies of the [bootstrap top-level package set](bootstrap.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this bootstrap module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
@@ -4408,6 +4408,7 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `python2-scour` | X | X | X | X | X | X | X |
 | `python2-SecretStorage` | X | X | X | X | X | X | X |
 | `python2-service-identity` | X | X | X | X | X | X | X |
+| `python2-setools` | X | X | X | X | X | X | X |
 | `python2-setuptools` | X | X | X | X | X | X | X |
 | `python2-setuptools_scm` | X | X | X | X | X | X | X |
 | `python2-simplejson` | X | X | X | X | X | X | X |
@@ -4606,6 +4607,7 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `python3-rtslib` | X | X | X | X | X | X | X |
 | `python3-SecretStorage` | X | X | X | X | X | X | X |
 | `python3-service-identity` | X | X | X | X | X | X | X |
+| `python3-setools` | X | X | X | X | X | X | X |
 | `python3-setuptools` | X | X | X | X | X | X | X |
 | `python3-setuptools_scm` | X | X | X | X | X | X | X |
 | `python3-simplejson` | X | X | X | X | X | X | X |
@@ -5124,8 +5126,6 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `sendmail` | X | X | X | X | X | X | X |
 | `serp` | X | X | X | X | X | X | X |
 | `setools-console` | X | X | X | X | X | X | X |
-| `setools-python` | X | X | X | X | X | X | X |
-| `setools-python3` | X | X | X | X | X | X | X |
 | `setup` | X | X | X | X | X | X | X |
 | `sg3_utils` | - | - | - | - | - | X | - |
 | `sg3_utils-devel` | - | - | - | X | X | - | - |

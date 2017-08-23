@@ -17,7 +17,7 @@ autofs-1:5.1.3-2.fc27.src
 ├─cyrus-sasl-devel                                                    cyrus-sasl-devel-2.1.26-34.fc27.ppc64le
 ├─util-linux                                                          util-linux-2.30.1-1.fc27.ppc64le
 ├─e2fsprogs                                                           e2fsprogs-1.43.4-4.fc27.ppc64le
-├─libtirpc-devel                                                      libtirpc-devel-1.0.1-4.rc3.fc27.ppc64le
+├─libtirpc-devel                                                      libtirpc-devel-1.0.2-3.fc28.ppc64le
 ├─hesiod-devel                                                        hesiod-devel-3.2.1-7.fc26.ppc64le
 ├─module-init-tools                                                   kmod-24-3.fc27.ppc64le
 └─libsss_autofs                                                       libsss_autofs-1.15.3-0.beta.5.fc27.ppc64le
@@ -335,7 +335,7 @@ slapi-nis-0.56.1-2.fc26.src
 ├─nss-devel                                                           nss-devel-3.32.0-2.fc27.ppc64le
 ├─tcp_wrappers-devel                                                  tcp_wrappers-devel-7.6-87.fc27.ppc64le
 ├─nspr-devel                                                          nspr-devel-4.16.0-1.fc27.ppc64le
-├─libtirpc-devel                                                      libtirpc-devel-1.0.1-4.rc3.fc27.ppc64le
+├─libtirpc-devel                                                      libtirpc-devel-1.0.2-3.fc28.ppc64le
 ├─libsss_nss_idmap-devel                                              libsss_nss_idmap-devel-1.15.3-0.beta.5.fc27.ppc64le
 ├─/usr/bin/rpcgen                                                     glibc-common-2.26-1.fc27.1.ppc64le
 └─389-ds-base-devel >= 1.3.5.6                                        389-ds-base-devel-1.3.7.1-2.fc27.ppc64le
@@ -431,12 +431,6 @@ hesiod-devel-3.2.1-7.fc26.ppc64le
 libsss_autofs-1.15.3-0.beta.5.fc27.ppc64le                            
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 └─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-libtirpc-devel-1.0.1-4.rc3.fc27.ppc64le                               
-├─/usr/bin/pkg-config                                                 pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
-├─pkgconfig                                                           pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
-├─libtirpc.so.3()(64bit)                                              libtirpc-1.0.1-4.rc3.fc27.ppc64le
-├─man-db                                                              man-db-2.7.6.1-2.fc26.ppc64le
-└─libtirpc(ppc-64) = 1.0.1-4.rc3.fc27                                 libtirpc-1.0.1-4.rc3.fc27.ppc64le
 perl-generators-1.10-5.fc27.noarch                                    
 ├─perl(:MODULE_COMPAT_5.26.0)                                         perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─/usr/bin/perl                                                       perl-interpreter-4:5.26.0-398.fc27.ppc64le
@@ -1329,27 +1323,6 @@ hesiod-3.2.1-7.fc26.ppc64le
 ├─libresolv.so.2(GLIBC_2.17)(64bit)                                   glibc-2.26-1.fc27.1.ppc64le
 ├─libidn.so.11()(64bit)                                               libidn-1.33-4.fc27.ppc64le
 └─libidn.so.11(LIBIDN_1.0)(64bit)                                     libidn-1.33-4.fc27.ppc64le
-libtirpc-1.0.1-4.rc3.fc27.ppc64le                                     
-├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
-├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
-├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
-├─libcom_err.so.2()(64bit)                                            libcom_err-1.43.4-4.fc27.ppc64le
-├─libkrb5.so.3()(64bit)                                               krb5-libs-1.15.1-21.fc27.ppc64le
-├─libk5crypto.so.3()(64bit)                                           krb5-libs-1.15.1-21.fc27.ppc64le
-├─libgssapi_krb5.so.2()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
-└─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                       krb5-libs-1.15.1-21.fc27.ppc64le
-man-db-2.7.6.1-2.fc26.ppc64le                                         
-├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
-├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
-├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
-├─grep                                                                grep-3.1-3.fc27.ppc64le
-├─gzip                                                                gzip-1.8-4.fc27.ppc64le
-├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
-├─less                                                                less-487-3.fc27.ppc64le
-├─groff-base                                                          groff-base-1.22.3-11.fc27.ppc64le
-└─libpipeline.so.1()(64bit)                                           libpipeline-1.4.2-1.fc27.ppc64le
 perl-Fedora-VSP-0.001-7.fc27.noarch                                   
 ├─perl(strict)                                                        perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─perl(:MODULE_COMPAT_5.26.0)                                         perl-libs-4:5.26.0-398.fc27.ppc64le
@@ -2642,14 +2615,6 @@ cppunit-1.14.0-1.fc27.ppc64le
 ├─libstdc++.so.6(GLIBCXX_3.4.9)(64bit)                                libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(GLIBCXX_3.4.20)(64bit)                               libstdc++-7.1.1-7.fc27.1.ppc64le
 └─libdl.so.2(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
-less-487-3.fc27.ppc64le                                               
-├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
-├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64le
-└─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64le
-libpipeline-1.4.2-1.fc27.ppc64le                                      
-├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
-└─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 GeoIP-1.6.11-1.fc27.ppc64le                                           
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
@@ -2991,6 +2956,11 @@ fontawesome-fonts-web-4.7.0-2.fc26.noarch
 google-roboto-slab-fonts-1.100263-0.5.20150923git.fc26.noarch         
 lato-fonts-2.015-3.fc26.noarch                                        
 └─fontpackages-filesystem                                             fontpackages-filesystem-1.44-19.fc27.noarch
+less-487-3.fc27.ppc64le                                               
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64le
+└─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64le
 openssh-clients-7.5p1-3.fc27.ppc64le                                  
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64le
@@ -3293,8 +3263,8 @@ gcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
 ├─libdl.so.2(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─ld64.so.2()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─ld64.so.2(GLIBC_2.22)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libgmp.so.10()(64bit)                                               gmp-1:6.1.2-6.fc27.ppc64le
@@ -3314,8 +3284,8 @@ gcc-7.1.1-7.fc27.1.ppc64le
 libstdc++-7.1.1-7.fc27.1.ppc64le                                      
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64le
 ├─ld64.so.2()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─ld64.so.2(GLIBC_2.22)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
@@ -3345,8 +3315,8 @@ libgcc-7.1.1-7.fc27.1.ppc64le
 libgomp-7.1.1-7.fc27.1.ppc64le                                        
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 └─libdl.so.2(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
@@ -3357,8 +3327,8 @@ libitm-devel-7.1.1-7.fc27.1.ppc64le
 libitm-7.1.1-7.fc27.1.ppc64le                                         
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 └─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
 nss-devel-3.32.0-2.fc27.ppc64le                                       
 ├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64le
@@ -3570,8 +3540,8 @@ openssl-1:1.1.0f-9.fc27.ppc64le
 ├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
 ├─libcrypto.so.1.1()(64bit)                                           openssl-libs-1:1.1.0f-9.fc27.ppc64le
-├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
 ├─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64le
+├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                                 openssl-libs-1:1.1.0f-9.fc27.ppc64le
@@ -3627,8 +3597,8 @@ glibc-2.26-1.fc27.1.ppc64le
 glibc-devel-2.26-1.fc27.1.ppc64le                                     
 ├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
-├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
 ├─librt.so.1()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
+├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
 ├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
 ├─libnsl.so.1()(64bit)                                                glibc-2.26-1.fc27.1.ppc64le
 ├─libcrypt(ppc-64)                                                    libcrypt-2.26-1.fc27.1.ppc64le
@@ -3641,8 +3611,37 @@ glibc-devel-2.26-1.fc27.1.ppc64le
 └─glibc-headers = 2.26-1.fc27.1                                       glibc-headers-2.26-1.fc27.1.ppc64le
 glibc-headers-2.26-1.fc27.1.ppc64le                                   
 ├─glibc = 2.26-1.fc27.1                                               glibc-2.26-1.fc27.1.ppc64le
-└─kernel-headers >= 2.2.1                                             kernel-headers-4.13.0-0.rc1.git1.1.fc27.ppc64le
-kernel-headers-4.13.0-0.rc1.git1.1.fc27.ppc64le                       
+└─kernel-headers >= 2.2.1                                             kernel-headers-4.13.0-0.rc6.git0.1.fc28.ppc64le
+libtirpc-devel-1.0.2-3.fc28.ppc64le                                   
+├─/usr/bin/pkg-config                                                 pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
+├─pkgconfig                                                           pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
+├─libtirpc.so.3()(64bit)                                              libtirpc-1.0.2-3.fc28.ppc64le
+├─man-db                                                              man-db-2.7.6.1-2.fc26.ppc64le
+└─libtirpc(ppc-64) = 1.0.2-3.fc28                                     libtirpc-1.0.2-3.fc28.ppc64le
+man-db-2.7.6.1-2.fc26.ppc64le                                         
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
+├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
+├─grep                                                                grep-3.1-3.fc27.ppc64le
+├─gzip                                                                gzip-1.8-4.fc27.ppc64le
+├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
+├─less                                                                less-487-3.fc27.ppc64le
+├─groff-base                                                          groff-base-1.22.3-11.fc27.ppc64le
+└─libpipeline.so.1()(64bit)                                           libpipeline-1.4.2-1.fc27.ppc64le
+libtirpc-1.0.2-3.fc28.ppc64le                                         
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
+├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
+├─libcom_err.so.2()(64bit)                                            libcom_err-1.43.4-4.fc27.ppc64le
+├─libgssapi_krb5.so.2()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
+├─libkrb5.so.3()(64bit)                                               krb5-libs-1.15.1-21.fc27.ppc64le
+├─libk5crypto.so.3()(64bit)                                           krb5-libs-1.15.1-21.fc27.ppc64le
+└─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                       krb5-libs-1.15.1-21.fc27.ppc64le
+libpipeline-1.4.2-1.fc27.ppc64le                                      
+├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
+└─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 openldap-devel-2.4.45-3.fc27.ppc64le                                  
 ├─liblber-2.4.so.2()(64bit)                                           openldap-2.4.45-3.fc27.ppc64le
 ├─libldap-2.4.so.2()(64bit)                                           openldap-2.4.45-3.fc27.ppc64le
@@ -3653,8 +3652,8 @@ openldap-devel-2.4.45-3.fc27.ppc64le
 openldap-2.4.45-3.fc27.ppc64le                                        
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 ├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
@@ -3702,8 +3701,8 @@ pam-1.3.0-5.fc27.ppc64le
 ├─libaudit.so.1()(64bit)                                              audit-libs-2.7.7-5.fc27.ppc64le
 ├─libnsl.so.1()(64bit)                                                glibc-2.26-1.fc27.1.ppc64le
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                                    libcrypt-2.26-1.fc27.1.ppc64le
-├─libnsl.so.1(GLIBC_2.17)(64bit)                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
+├─libnsl.so.1(GLIBC_2.17)(64bit)                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libcrack.so.2()(64bit)                                              cracklib-2.9.6-7.fc27.ppc64le
 ├─audit-libs >= 1.0.8                                                 audit-libs-2.7.7-5.fc27.ppc64le
 ├─glibc >= 2.3.90-37                                                  glibc-2.26-1.fc27.1.ppc64le
@@ -3750,28 +3749,28 @@ python2-libs-2.7.13-16.fc27.ppc64le
 ├─libdl.so.2(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libcrypto.so.1.1()(64bit)                                           openssl-libs-1:1.1.0f-9.fc27.ppc64le
-├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libcrypt.so.1()(64bit)                                              libcrypt-2.26-1.fc27.1.ppc64le
+├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
-├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
+├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libdb-5.3.so()(64bit)                                               libdb-5.3.28-26.fc27.ppc64le
-├─libreadline.so.7()(64bit)                                           readline-7.0-7.fc27.ppc64le
 ├─libnsl.so.1()(64bit)                                                glibc-2.26-1.fc27.1.ppc64le
+├─libreadline.so.7()(64bit)                                           readline-7.0-7.fc27.ppc64le
 ├─libsqlite3.so.0()(64bit)                                            sqlite-libs-3.20.0-1.fc27.ppc64le
 ├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64le
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                                    libcrypt-2.26-1.fc27.1.ppc64le
-├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64le
 ├─/usr/bin/env                                                        coreutils-8.27-14.fc27.ppc64le
+├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64le
+├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                                 openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libexpat.so.1()(64bit)                                              expat-2.2.3-1.fc27.ppc64le
 ├─libnsl.so.1(GLIBC_2.17)(64bit)                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1(ZLIB_1.2.0)(64bit)                                        zlib-1.2.11-4.fc27.ppc64le
-├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
-├─libgdbm_compat.so.4()(64bit)                                        gdbm-1.13-3.fc27.ppc64le
 ├─libncursesw.so.6()(64bit)                                           ncurses-libs-6.0-13.20170722.fc27.ppc64le
 ├─libpanelw.so.6()(64bit)                                             ncurses-libs-6.0-13.20170722.fc27.ppc64le
-├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
+├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
+├─libgdbm_compat.so.4()(64bit)                                        gdbm-1.13-3.fc27.ppc64le
 ├─expat >= 2.1.0                                                      expat-2.2.3-1.fc27.ppc64le
 └─glibc(ppc-64) >= 2.24.90-26                                         glibc-2.26-1.fc27.1.ppc64le
 python3-devel-3.6.2-6.fc27.ppc64le                                    
@@ -3809,28 +3808,28 @@ system-python-libs-3.6.2-6.fc27.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libcrypto.so.1.1()(64bit)                                           openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─liblzma.so.5()(64bit)                                               xz-libs-5.2.3-4.fc27.ppc64le
-├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libcrypt.so.1()(64bit)                                              libcrypt-2.26-1.fc27.1.ppc64le
+├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
-├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
+├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libc.so.6(GLIBC_2.25)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─libreadline.so.7()(64bit)                                           readline-7.0-7.fc27.ppc64le
 ├─libnsl.so.1()(64bit)                                                glibc-2.26-1.fc27.1.ppc64le
+├─libreadline.so.7()(64bit)                                           readline-7.0-7.fc27.ppc64le
 ├─libsqlite3.so.0()(64bit)                                            sqlite-libs-3.20.0-1.fc27.ppc64le
 ├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64le
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                                    libcrypt-2.26-1.fc27.1.ppc64le
-├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64le
 ├─liblzma.so.5(XZ_5.0)(64bit)                                         xz-libs-5.2.3-4.fc27.ppc64le
+├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64le
+├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                                 openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libexpat.so.1()(64bit)                                              expat-2.2.3-1.fc27.ppc64le
 ├─libnsl.so.1(GLIBC_2.17)(64bit)                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1(ZLIB_1.2.0)(64bit)                                        zlib-1.2.11-4.fc27.ppc64le
-├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
-├─libgdbm_compat.so.4()(64bit)                                        gdbm-1.13-3.fc27.ppc64le
 ├─libncursesw.so.6()(64bit)                                           ncurses-libs-6.0-13.20170722.fc27.ppc64le
 ├─libpanelw.so.6()(64bit)                                             ncurses-libs-6.0-13.20170722.fc27.ppc64le
-├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
+├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
+├─libgdbm_compat.so.4()(64bit)                                        gdbm-1.13-3.fc27.ppc64le
 ├─expat >= 2.1.0                                                      expat-2.2.3-1.fc27.ppc64le
 └─glibc(ppc-64) >= 2.24.90-26                                         glibc-2.26-1.fc27.1.ppc64le
 system-python-3.6.2-6.fc27.ppc64le                                    
@@ -3855,8 +3854,8 @@ systemd-devel-234-5.fc27.ppc64le
 └─systemd-libs(ppc-64) = 234-5.fc27                                   systemd-libs-234-5.fc27.ppc64le
 systemd-libs-234-5.fc27.ppc64le                                       
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64le
@@ -3898,8 +3897,8 @@ systemd-234-5.fc27.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
 ├─libdl.so.2(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64le
 ├─ld64.so.2()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
@@ -3907,15 +3906,15 @@ systemd-234-5.fc27.ppc64le
 ├─librt.so.1()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 ├─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64le
 ├─liblzma.so.5()(64bit)                                               xz-libs-5.2.3-4.fc27.ppc64le
-├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libcrypt.so.1()(64bit)                                              libcrypt-2.26-1.fc27.1.ppc64le
+├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libacl.so.1()(64bit)                                                libacl-2.2.52-18.fc27.ppc64le
 ├─libelf.so.1()(64bit)                                                elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libgcc_s.so.1(GCC_3.3.1)(64bit)                                     libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libcap.so.2()(64bit)                                                libcap-2.25-7.fc27.ppc64le
 ├─util-linux                                                          util-linux-2.30.1-1.fc27.ppc64le
-├─libc.so.6(GLIBC_2.25)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libaudit.so.1()(64bit)                                              audit-libs-2.7.7-5.fc27.ppc64le
+├─libc.so.6(GLIBC_2.25)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libblkid.so.1()(64bit)                                              libblkid-2.30.1-1.fc27.ppc64le
 ├─libgpg-error.so.0()(64bit)                                          libgpg-error-1.27-3.fc27.ppc64le
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                                    libcrypt-2.26-1.fc27.1.ppc64le
@@ -3924,15 +3923,15 @@ systemd-234-5.fc27.ppc64le
 ├─libblkid.so.1(BLKID_2.15)(64bit)                                    libblkid-2.30.1-1.fc27.ppc64le
 ├─libblkid.so.1(BLKID_2.17)(64bit)                                    libblkid-2.30.1-1.fc27.ppc64le
 ├─libmount.so.1()(64bit)                                              libmount-2.30.1-1.fc27.ppc64le
-├─libacl.so.1(ACL_1.0)(64bit)                                         libacl-2.2.52-18.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
+├─libpam.so.0()(64bit)                                                pam-1.3.0-5.fc27.ppc64le
+├─libacl.so.1(ACL_1.0)(64bit)                                         libacl-2.2.52-18.fc27.ppc64le
 ├─libgcrypt.so.20()(64bit)                                            libgcrypt-1.7.8-3.fc27.ppc64le
 ├─libgcrypt.so.20(GCRYPT_1.6)(64bit)                                  libgcrypt-1.7.8-3.fc27.ppc64le
 ├─libgpg-error.so.0(GPG_ERROR_1.0)(64bit)                             libgpg-error-1.27-3.fc27.ppc64le
-├─libpam.so.0()(64bit)                                                pam-1.3.0-5.fc27.ppc64le
 ├─libpam.so.0(LIBPAM_1.0)(64bit)                                      pam-1.3.0-5.fc27.ppc64le
-├─libcryptsetup.so.4()(64bit)                                         cryptsetup-libs-1.7.5-3.fc27.ppc64le
 ├─libdw.so.1()(64bit)                                                 elfutils-libs-0.170-1.fc27.ppc64le
+├─libcryptsetup.so.4()(64bit)                                         cryptsetup-libs-1.7.5-3.fc27.ppc64le
 ├─libcryptsetup.so.4(CRYPTSETUP_1.0)(64bit)                           cryptsetup-libs-1.7.5-3.fc27.ppc64le
 ├─liblz4.so.1()(64bit)                                                lz4-libs-1.7.5-6.fc27.ppc64le
 ├─libidn.so.11()(64bit)                                               libidn-1.33-4.fc27.ppc64le
@@ -3940,14 +3939,14 @@ systemd-234-5.fc27.ppc64le
 ├─libidn.so.11(LIBIDN_1.0)(64bit)                                     libidn-1.33-4.fc27.ppc64le
 ├─libseccomp.so.2()(64bit)                                            libseccomp-2.3.2-5.fc27.ppc64le
 ├─libblkid.so.1(BLKID_2.18)(64bit)                                    libblkid-2.30.1-1.fc27.ppc64le
+├─libdw.so.1(ELFUTILS_0.122)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libkmod.so.2()(64bit)                                               kmod-libs-24-3.fc27.ppc64le
 ├─libmount.so.1(MOUNT_2.20)(64bit)                                    libmount-2.30.1-1.fc27.ppc64le
-├─libdw.so.1(ELFUTILS_0.122)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
+├─libdw.so.1(ELFUTILS_0.130)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
+├─libdw.so.1(ELFUTILS_0.158)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libip4tc.so.0()(64bit)                                              iptables-libs-1.6.1-4.fc27.ppc64le
 ├─libkmod.so.2(LIBKMOD_5)(64bit)                                      kmod-libs-24-3.fc27.ppc64le
 ├─libqrencode.so.3()(64bit)                                           qrencode-libs-3.4.4-3.fc27.ppc64le
-├─libdw.so.1(ELFUTILS_0.130)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
-├─libdw.so.1(ELFUTILS_0.158)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libmount.so.1(MOUNT_2.26)(64bit)                                    libmount-2.30.1-1.fc27.ppc64le
 ├─systemd-pam = 234-5.fc27                                            systemd-pam-234-5.fc27.ppc64le
 ├─systemd-libs = 234-5.fc27                                           systemd-libs-234-5.fc27.ppc64le
@@ -3957,8 +3956,8 @@ python2-coverage-4.4.1-2.fc27.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
 ├─libpython2.7.so.1.0()(64bit)                                        python2-libs-2.7.13-16.fc27.ppc64le
-├─python2-setuptools                                                  python2-setuptools-36.2.0-3.fc27.noarch
 ├─/usr/bin/python2                                                    python2-2.7.13-16.fc27.ppc64le
+├─python2-setuptools                                                  python2-setuptools-36.2.0-3.fc27.noarch
 └─python(abi) = 2.7                                                   python2-2.7.13-16.fc27.ppc64le
 python3-coverage-4.4.1-2.fc27.ppc64le                                 
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
@@ -3982,8 +3981,8 @@ krb5-devel-1.15.1-21.fc27.ppc64le
 ├─libk5crypto.so.3()(64bit)                                           krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libkrb5support.so.0()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                       krb5-libs-1.15.1-21.fc27.ppc64le
-├─libkeyutils.so.1()(64bit)                                           keyutils-libs-1.5.10-3.fc27.ppc64le
 ├─libkrb5.so.3(krb5_3_MIT)(64bit)                                     krb5-libs-1.15.1-21.fc27.ppc64le
+├─libkeyutils.so.1()(64bit)                                           keyutils-libs-1.5.10-3.fc27.ppc64le
 ├─libgssrpc.so.4()(64bit)                                             krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libkdb5.so.8()(64bit)                                               krb5-libs-1.15.1-21.fc27.ppc64le
 ├─keyutils-libs-devel                                                 keyutils-libs-devel-1.5.10-3.fc27.ppc64le
@@ -4028,8 +4027,8 @@ libkadm5-1.15.1-21.fc27.ppc64le
 ├─libk5crypto.so.3()(64bit)                                           krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libkrb5support.so.0()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                       krb5-libs-1.15.1-21.fc27.ppc64le
-├─libkeyutils.so.1()(64bit)                                           keyutils-libs-1.5.10-3.fc27.ppc64le
 ├─libkrb5.so.3(krb5_3_MIT)(64bit)                                     krb5-libs-1.15.1-21.fc27.ppc64le
+├─libkeyutils.so.1()(64bit)                                           keyutils-libs-1.5.10-3.fc27.ppc64le
 ├─libgssrpc.so.4()(64bit)                                             krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libk5crypto.so.3(k5crypto_3_MIT)(64bit)                             krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libkdb5.so.8()(64bit)                                               krb5-libs-1.15.1-21.fc27.ppc64le
@@ -4046,14 +4045,14 @@ krb5-server-1.15.1-21.fc27.ppc64le
 ├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64le
 ├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
 ├─libcom_err.so.2()(64bit)                                            libcom_err-1.43.4-4.fc27.ppc64le
+├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
 ├─libgssapi_krb5.so.2()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libkrb5.so.3()(64bit)                                               krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libk5crypto.so.3()(64bit)                                           krb5-libs-1.15.1-21.fc27.ppc64le
-├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
 ├─libkrb5support.so.0()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                       krb5-libs-1.15.1-21.fc27.ppc64le
-├─libkeyutils.so.1()(64bit)                                           keyutils-libs-1.5.10-3.fc27.ppc64le
 ├─libkrb5.so.3(krb5_3_MIT)(64bit)                                     krb5-libs-1.15.1-21.fc27.ppc64le
+├─libkeyutils.so.1()(64bit)                                           keyutils-libs-1.5.10-3.fc27.ppc64le
 ├─libverto.so.1()(64bit)                                              libverto-0.2.6-11.fc27.ppc64le
 ├─libgssrpc.so.4()(64bit)                                             krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libk5crypto.so.3(k5crypto_3_MIT)(64bit)                             krb5-libs-1.15.1-21.fc27.ppc64le
@@ -4085,8 +4084,8 @@ logrotate-3.12.3-1.fc27.ppc64le
 words-3.0-26.fc26.noarch                                              
 libtool-2.4.6-20.fc27.ppc64le                                         
 ├─sed                                                                 sed-4.4-3.fc27.ppc64le
-├─tar                                                                 tar-2:1.29-7.fc27.ppc64le
 ├─findutils                                                           findutils-1:4.6.0-14.fc27.ppc64le
+├─tar                                                                 tar-2:1.29-7.fc27.ppc64le
 ├─autoconf                                                            autoconf-2.69-24.fc26.noarch
 ├─automake                                                            automake-1.15-9.fc26.noarch
 └─gcc(major) = 7                                                      gcc-7.1.1-7.fc27.1.ppc64le
@@ -4777,14 +4776,14 @@ perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(Carp)                                                          perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                                      perl-Exporter-5.72-395.fc27.noarch
 ├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
-├─perl(warnings)                                                      perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libcrypt.so.1()(64bit)                                              libcrypt-2.26-1.fc27.1.ppc64le
-├─libperl.so.5.26()(64bit)                                            perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(warnings)                                                      perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
+├─libperl.so.5.26()(64bit)                                            perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libnsl.so.1()(64bit)                                                glibc-2.26-1.fc27.1.ppc64le
 ├─perl(File::Spec)                                                    perl-PathTools-3.67-395.fc27.ppc64le
-├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                                      perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(Cwd)                                                           perl-PathTools-3.67-395.fc27.ppc64le
 ├─libgdbm.so.4()(64bit)                                               gdbm-1.13-3.fc27.ppc64le
 ├─libgdbm_compat.so.4()(64bit)                                        gdbm-1.13-3.fc27.ppc64le
@@ -5150,9 +5149,9 @@ rpm-libs-4.13.0.1-41.fc27.ppc64le
 ├─libdb-5.3.so()(64bit)                                               libdb-5.3.28-26.fc27.ppc64le
 ├─liblzma.so.5(XZ_5.0)(64bit)                                         xz-libs-5.2.3-4.fc27.ppc64le
 ├─libpopt.so.0(LIBPOPT_0)(64bit)                                      popt-1.16-11.fc27.ppc64le
+├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─liblua-5.3.so()(64bit)                                              lua-libs-5.3.4-5.fc27.ppc64le
 ├─libacl.so.1(ACL_1.0)(64bit)                                         libacl-2.2.52-18.fc27.ppc64le
-├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─rpm = 4.13.0.1-41.fc27                                              rpm-4.13.0.1-41.fc27.ppc64le
 ├─rpm-plugin-selinux(ppc-64) = 4.13.0.1-41.fc27                       rpm-plugin-selinux-4.13.0.1-41.fc27.ppc64le
 └─libcap(ppc-64) >= 2.16                                              libcap-2.25-7.fc27.ppc64le
@@ -5166,8 +5165,8 @@ rpm-4.13.0.1-41.fc27.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
 ├─libcrypto.so.1.1()(64bit)                                           openssl-libs-1:1.1.0f-9.fc27.ppc64le
-├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
 ├─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64le
+├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
 ├─liblzma.so.5()(64bit)                                               xz-libs-5.2.3-4.fc27.ppc64le
 ├─libbz2.so.1()(64bit)                                                bzip2-libs-1.0.6-24.fc27.ppc64le
 ├─libacl.so.1()(64bit)                                                libacl-2.2.52-18.fc27.ppc64le
@@ -5223,8 +5222,8 @@ rpm-build-libs-4.13.0.1-41.fc27.ppc64le
 ├─librpm.so.7()(64bit)                                                rpm-libs-4.13.0.1-41.fc27.ppc64le
 ├─librpmio.so.7()(64bit)                                              rpm-libs-4.13.0.1-41.fc27.ppc64le
 ├─libpopt.so.0(LIBPOPT_0)(64bit)                                      popt-1.16-11.fc27.ppc64le
-├─liblua-5.3.so()(64bit)                                              lua-libs-5.3.4-5.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
+├─liblua-5.3.so()(64bit)                                              lua-libs-5.3.4-5.fc27.ppc64le
 ├─libdw.so.1()(64bit)                                                 elfutils-libs-0.170-1.fc27.ppc64le
 ├─libmagic.so.1()(64bit)                                              file-libs-5.31-7.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.159)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
@@ -5250,11 +5249,11 @@ rpm-build-4.13.0.1-41.fc27.ppc64le
 ├─libdb-5.3.so()(64bit)                                               libdb-5.3.28-26.fc27.ppc64le
 ├─librpm.so.7()(64bit)                                                rpm-libs-4.13.0.1-41.fc27.ppc64le
 ├─librpmio.so.7()(64bit)                                              rpm-libs-4.13.0.1-41.fc27.ppc64le
-├─libpopt.so.0(LIBPOPT_0)(64bit)                                      popt-1.16-11.fc27.ppc64le
 ├─grep                                                                grep-3.1-3.fc27.ppc64le
+├─libpopt.so.0(LIBPOPT_0)(64bit)                                      popt-1.16-11.fc27.ppc64le
+├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─liblua-5.3.so()(64bit)                                              lua-libs-5.3.4-5.fc27.ppc64le
 ├─gawk                                                                gawk-4.1.4-5.fc27.ppc64le
-├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─sed                                                                 sed-4.4-3.fc27.ppc64le
 ├─file                                                                file-5.31-7.fc27.ppc64le
 ├─libdw.so.1()(64bit)                                                 elfutils-libs-0.170-1.fc27.ppc64le
@@ -5262,15 +5261,15 @@ rpm-build-4.13.0.1-41.fc27.ppc64le
 ├─binutils                                                            binutils-2.29-6.fc27.ppc64le
 ├─bzip2                                                               bzip2-1.0.6-24.fc27.ppc64le
 ├─diffutils                                                           diffutils-3.6-3.fc27.ppc64le
-├─libmagic.so.1()(64bit)                                              file-libs-5.31-7.fc27.ppc64le
-├─tar                                                                 tar-2:1.29-7.fc27.ppc64le
 ├─findutils                                                           findutils-1:4.6.0-14.fc27.ppc64le
 ├─gzip                                                                gzip-1.8-4.fc27.ppc64le
+├─libmagic.so.1()(64bit)                                              file-libs-5.31-7.fc27.ppc64le
+├─tar                                                                 tar-2:1.29-7.fc27.ppc64le
+├─libelf.so.1(ELFUTILS_1.3)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
+├─libelf.so.1(ELFUTILS_1.6)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─librpmbuild.so.7()(64bit)                                           rpm-build-libs-4.13.0.1-41.fc27.ppc64le
 ├─unzip                                                               unzip-6.0-36.fc27.ppc64le
 ├─cpio                                                                cpio-2.12-6.fc27.ppc64le
-├─libelf.so.1(ELFUTILS_1.3)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
-├─libelf.so.1(ELFUTILS_1.6)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.167)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─system-rpm-config                                                   redhat-rpm-config-67-1.fc27.noarch
 ├─/usr/bin/gdb-add-index                                              gdb-headless-8.0-17.fc27.ppc64le
@@ -5443,29 +5442,29 @@ util-linux-2.30.1-1.fc27.ppc64le
 ├─ld64.so.2(GLIBC_2.22)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─librt.so.1()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 ├─libcrypt.so.1()(64bit)                                              libcrypt-2.26-1.fc27.1.ppc64le
-├─libsystemd.so.0()(64bit)                                            systemd-libs-234-5.fc27.ppc64le
 ├─libutil.so.1()(64bit)                                               glibc-2.26-1.fc27.1.ppc64le
+├─libsystemd.so.0()(64bit)                                            systemd-libs-234-5.fc27.ppc64le
 ├─libuuid.so.1()(64bit)                                               libuuid-2.30.1-1.fc27.ppc64le
-├─libc.so.6(GLIBC_2.25)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libaudit.so.1()(64bit)                                              audit-libs-2.7.7-5.fc27.ppc64le
+├─libc.so.6(GLIBC_2.25)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libblkid.so.1()(64bit)                                              libblkid-2.30.1-1.fc27.ppc64le
 ├─libtinfo.so.6()(64bit)                                              ncurses-libs-6.0-13.20170722.fc27.ppc64le
-├─libuuid.so.1(UUID_1.0)(64bit)                                       libuuid-2.30.1-1.fc27.ppc64le
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                                    libcrypt-2.26-1.fc27.1.ppc64le
+├─libuuid.so.1(UUID_1.0)(64bit)                                       libuuid-2.30.1-1.fc27.ppc64le
 ├─librt.so.1(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
+├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                              systemd-libs-234-5.fc27.ppc64le
 ├─libblkid.so.1(BLKID_2.15)(64bit)                                    libblkid-2.30.1-1.fc27.ppc64le
 ├─libblkid.so.1(BLKID_2.17)(64bit)                                    libblkid-2.30.1-1.fc27.ppc64le
 ├─libcap-ng.so.0()(64bit)                                             libcap-ng-0.7.8-5.fc27.ppc64le
 ├─libmount.so.1()(64bit)                                              libmount-2.30.1-1.fc27.ppc64le
 ├─libpam.so.0()(64bit)                                                pam-1.3.0-5.fc27.ppc64le
-├─libudev.so.1()(64bit)                                               systemd-libs-234-5.fc27.ppc64le
 ├─libpam.so.0(LIBPAM_1.0)(64bit)                                      pam-1.3.0-5.fc27.ppc64le
-├─libsystemd.so.0(LIBSYSTEMD_209)(64bit)                              systemd-libs-234-5.fc27.ppc64le
+├─libudev.so.1()(64bit)                                               systemd-libs-234-5.fc27.ppc64le
+├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
 ├─libudev.so.1(LIBUDEV_183)(64bit)                                    systemd-libs-234-5.fc27.ppc64le
 ├─libmount.so.1(MOUNT_2.19)(64bit)                                    libmount-2.30.1-1.fc27.ppc64le
 ├─libncursesw.so.6()(64bit)                                           ncurses-libs-6.0-13.20170722.fc27.ppc64le
 ├─libpam_misc.so.0()(64bit)                                           pam-1.3.0-5.fc27.ppc64le
-├─libutil.so.1(GLIBC_2.17)(64bit)                                     glibc-2.26-1.fc27.1.ppc64le
 ├─libblkid.so.1(BLKID_1.0)(64bit)                                     libblkid-2.30.1-1.fc27.ppc64le
 ├─libpam_misc.so.0(LIBPAM_MISC_1.0)(64bit)                            pam-1.3.0-5.fc27.ppc64le
 ├─libblkid.so.1(BLKID_2.18)(64bit)                                    libblkid-2.30.1-1.fc27.ppc64le
@@ -5670,16 +5669,16 @@ glib2-devel-2.53.5-1.fc27.ppc64le
 ├─/usr/bin/pkg-config                                                 pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
 ├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
 ├─libselinux.so.1()(64bit)                                            libselinux-2.7-1.fc27.ppc64le
-├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
 ├─libglib-2.0.so.0()(64bit)                                           glib2-2.53.5-1.fc27.ppc64le
-├─libelf.so.1()(64bit)                                                elfutils-libelf-0.170-1.fc27.ppc64le
-├─/usr/bin/python3                                                    python3-3.6.2-6.fc27.ppc64le
+├─libresolv.so.2()(64bit)                                             glibc-2.26-1.fc27.1.ppc64le
 ├─libgobject-2.0.so.0()(64bit)                                        glib2-2.53.5-1.fc27.ppc64le
 ├─libgio-2.0.so.0()(64bit)                                            glib2-2.53.5-1.fc27.ppc64le
+├─/usr/bin/python3                                                    python3-3.6.2-6.fc27.ppc64le
+├─libelf.so.1()(64bit)                                                elfutils-libelf-0.170-1.fc27.ppc64le
+├─libgmodule-2.0.so.0()(64bit)                                        glib2-2.53.5-1.fc27.ppc64le
+├─/usr/bin/env                                                        coreutils-8.27-14.fc27.ppc64le
 ├─libffi.so.6()(64bit)                                                libffi-3.1-14.fc27.ppc64le
 ├─libmount.so.1()(64bit)                                              libmount-2.30.1-1.fc27.ppc64le
-├─/usr/bin/env                                                        coreutils-8.27-14.fc27.ppc64le
-├─libgmodule-2.0.so.0()(64bit)                                        glib2-2.53.5-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libpcre.so.1()(64bit)                                               pcre-8.41-1.fc27.2.ppc64le
 ├─libelf.so.1(ELFUTILS_1.5)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
@@ -5911,8 +5910,8 @@ perl-File-Temp-0.230.400-394.fc27.noarch
 ├─perl(vars)                                                          perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(overload)                                                      perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(Cwd)                                                           perl-PathTools-3.67-395.fc27.ppc64le
 ├─perl(POSIX)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
+├─perl(Cwd)                                                           perl-PathTools-3.67-395.fc27.ppc64le
 ├─perl(Scalar::Util)                                                  perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64le
 ├─perl(IO::Handle)                                                    perl-IO-1.38-398.fc27.ppc64le
 ├─perl(Errno)                                                         perl-Errno-1.28-398.fc27.ppc64le
@@ -5985,8 +5984,8 @@ libtiff-4.0.8-3.fc27.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libz.so.1()(64bit)                                                  zlib-1.2.11-4.fc27.ppc64le
-├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6()(64bit)                                             libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(GLIBCXX_3.4)(64bit)                                  libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(CXXABI_1.3.9)(64bit)                                 libstdc++-7.1.1-7.fc27.1.ppc64le
@@ -6180,8 +6179,8 @@ perl-Data-Dumper-2.167-396.fc27.ppc64le
 ├─perl(Carp)                                                          perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                                      perl-Exporter-5.72-395.fc27.noarch
 ├─libperl.so.5.26()(64bit)                                            perl-libs-4:5.26.0-398.fc27.ppc64le
-├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                                      perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(Scalar::Util)                                                  perl-Scalar-List-Utils-3:1.48-1.fc27.ppc64le
 ├─perl(bytes)                                                         perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(B::Deparse)                                                    perl-interpreter-4:5.26.0-398.fc27.ppc64le
@@ -6196,8 +6195,8 @@ perl-Encode-4:2.92-14.fc27.ppc64le
 ├─perl(warnings)                                                      perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─libperl.so.5.26()(64bit)                                            perl-libs-4:5.26.0-398.fc27.ppc64le
 ├─/usr/bin/perl                                                       perl-interpreter-4:5.26.0-398.fc27.ppc64le
-├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                                      perl-libs-4:5.26.0-398.fc27.ppc64le
+├─perl(constant)                                                      perl-constant-1.33-395.fc27.noarch
 ├─perl(File::Basename)                                                perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(overload)                                                      perl-interpreter-4:5.26.0-398.fc27.ppc64le
 ├─perl(Getopt::Long)                                                  perl-Getopt-Long-1:2.50-3.fc27.noarch
@@ -6472,8 +6471,8 @@ groff-base-1.22.3-11.fc27.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6()(64bit)                                             libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(CXXABI_1.3)(64bit)                                   libstdc++-7.1.1-7.fc27.1.ppc64le
@@ -6608,8 +6607,8 @@ gc-7.6.0-7.fc27.ppc64le
 guile-5:2.0.14-3.fc27.ppc64le                                         
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
@@ -6636,8 +6635,8 @@ libbabeltrace-1.5.3-1.fc27.ppc64le
 ├─libelf.so.1()(64bit)                                                elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libpopt.so.0()(64bit)                                               popt-1.16-11.fc27.ppc64le
 ├─libuuid.so.1()(64bit)                                               libuuid-2.30.1-1.fc27.ppc64le
-├─libuuid.so.1(UUID_1.0)(64bit)                                       libuuid-2.30.1-1.fc27.ppc64le
 ├─libgmodule-2.0.so.0()(64bit)                                        glib2-2.53.5-1.fc27.ppc64le
+├─libuuid.so.1(UUID_1.0)(64bit)                                       libuuid-2.30.1-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libdw.so.1()(64bit)                                                 elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.122)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
@@ -6752,16 +6751,16 @@ elfutils-0.170-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.3)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.5)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.6)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
-├─libasm.so.1()(64bit)                                                elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.130)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.158)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
+├─libasm.so.1()(64bit)                                                elfutils-libs-0.170-1.fc27.ppc64le
+├─libdw.so.1(ELFUTILS_0.126)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
+├─libdw.so.1(ELFUTILS_0.127)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.167)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.1.1)(64bit)                                  elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.4)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libelf.so.1(ELFUTILS_1.7)(64bit)                                    elfutils-libelf-0.170-1.fc27.ppc64le
 ├─libasm.so.1(ELFUTILS_1.0)(64bit)                                    elfutils-libs-0.170-1.fc27.ppc64le
-├─libdw.so.1(ELFUTILS_0.126)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
-├─libdw.so.1(ELFUTILS_0.127)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.138)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.148)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
 ├─libdw.so.1(ELFUTILS_0.149)(64bit)                                   elfutils-libs-0.170-1.fc27.ppc64le
@@ -6850,8 +6849,8 @@ cpio-2.12-6.fc27.ppc64le
 └─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 redhat-rpm-config-67-1.fc27.noarch                                    
 ├─/bin/sh                                                             bash-4.4.12-9.fc27.ppc64le
-├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
 ├─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64le
+├─coreutils                                                           coreutils-8.27-14.fc27.ppc64le
 ├─python-srpm-macros                                                  python-srpm-macros-3-21.fc27.noarch
 ├─zip                                                                 zip-3.0-20.fc27.ppc64le
 ├─fedora-rpm-macros                                                   fedora-rpm-macros-26-3.fc27.noarch
@@ -6902,8 +6901,8 @@ python-rpm-macros-3-21.fc27.noarch
 └─python-srpm-macros                                                  python-srpm-macros-3-21.fc27.noarch
 python3-rpm-generators-4.13.0.1-2.fc27.1.noarch                       
 ├─/bin/bash                                                           bash-4.4.12-9.fc27.ppc64le
-├─rpm                                                                 rpm-4.13.0.1-41.fc27.ppc64le
 ├─/usr/bin/python3                                                    python3-3.6.2-6.fc27.ppc64le
+├─rpm                                                                 rpm-4.13.0.1-41.fc27.ppc64le
 └─python3-setuptools                                                  python3-setuptools-36.2.0-3.fc27.noarch
 python3-rpm-macros-3-21.fc27.noarch                                   
 python3-pip-9.0.1-11.fc27.noarch                                      
@@ -7138,6 +7137,7 @@ npth-1.5-3.fc27.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
 └─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
+kernel-headers-4.13.0-0.rc6.git0.1.fc28.ppc64le                       
 basesystem-11-4.fc27.noarch                                           
 libmpc-1.0.2-8.fc27.ppc64le                                           
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
@@ -7164,8 +7164,8 @@ libasan-7.1.1-7.fc27.1.ppc64le
 ├─libdl.so.2()(64bit)                                                 glibc-2.26-1.fc27.1.ppc64le
 ├─libm.so.6()(64bit)                                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libdl.so.2(GLIBC_2.17)(64bit)                                       glibc-2.26-1.fc27.1.ppc64le
-├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libm.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
+├─libgcc_s.so.1()(64bit)                                              libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libgcc_s.so.1(GCC_3.0)(64bit)                                       libgcc-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6()(64bit)                                             libstdc++-7.1.1-7.fc27.1.ppc64le
 ├─libstdc++.so.6(CXXABI_1.3)(64bit)                                   libstdc++-7.1.1-7.fc27.1.ppc64le
@@ -7213,8 +7213,8 @@ libpng-2:1.6.31-1.fc27.ppc64le
 fontconfig-2.12.4-4.fc27.ppc64le                                      
 ├─rtld(GNU_HASH)                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libc.so.6(GLIBC_2.17)(64bit)                                        glibc-2.26-1.fc27.1.ppc64le
-├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0()(64bit)                                            glibc-2.26-1.fc27.1.ppc64le
+├─/sbin/ldconfig                                                      glibc-2.26-1.fc27.1.ppc64le
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                                  glibc-2.26-1.fc27.1.ppc64le
 ├─libfreetype.so.6()(64bit)                                           freetype-2.8-5.fc27.ppc64le
 ├─libexpat.so.1()(64bit)                                              expat-2.2.3-1.fc27.ppc64le
@@ -7298,8 +7298,8 @@ libcurl-minimal-7.55.0-1.fc27.ppc64le
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libgssapi_krb5.so.2()(64bit)                                        krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libkrb5.so.3()(64bit)                                               krb5-libs-1.15.1-21.fc27.ppc64le
-├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libk5crypto.so.3()(64bit)                                           krb5-libs-1.15.1-21.fc27.ppc64le
+├─libssl.so.1.1()(64bit)                                              openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)                       krb5-libs-1.15.1-21.fc27.ppc64le
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                                 openssl-libs-1:1.1.0f-9.fc27.ppc64le
 ├─libnghttp2.so.14()(64bit)                                           libnghttp2-1.24.0-4.fc27.ppc64le

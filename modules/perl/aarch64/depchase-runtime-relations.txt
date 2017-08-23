@@ -1171,20 +1171,20 @@ perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─libpthread.so.0()(64bit)                                     glibc-2.26-1.fc27.1.aarch64
 ├─libdl.so.2()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6()(64bit)                                           glibc-2.26-1.fc27.1.aarch64
-├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.aarch64
 ├─libm.so.6(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
+├─perl(:MODULE_COMPAT_5.26.0)                                  perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(strict)                                                 perl-libs-4:5.26.0-398.fc27.aarch64
 ├─perl(Carp)                                                   perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                               perl-Exporter-5.72-395.fc27.noarch
 ├─libresolv.so.2()(64bit)                                      glibc-2.26-1.fc27.1.aarch64
-├─perl(warnings)                                               perl-libs-4:5.26.0-398.fc27.aarch64
 ├─libcrypt.so.1()(64bit)                                       libcrypt-2.26-1.fc27.1.aarch64
-├─libperl.so.5.26()(64bit)                                     perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(warnings)                                               perl-libs-4:5.26.0-398.fc27.aarch64
 ├─libutil.so.1()(64bit)                                        glibc-2.26-1.fc27.1.aarch64
+├─libperl.so.5.26()(64bit)                                     perl-libs-4:5.26.0-398.fc27.aarch64
 ├─libnsl.so.1()(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 ├─perl(File::Spec)                                             perl-PathTools-3.67-395.fc27.aarch64
-├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                               perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(Cwd)                                                    perl-PathTools-3.67-395.fc27.aarch64
 ├─libgdbm.so.4()(64bit)                                        gdbm-1.13-3.fc27.aarch64
 ├─libgdbm_compat.so.4()(64bit)                                 gdbm-1.13-3.fc27.aarch64
@@ -1280,8 +1280,8 @@ perl-Data-Dumper-2.167-396.fc27.aarch64
 ├─perl(Carp)                                                   perl-Carp-1.42-394.fc27.noarch
 ├─perl(Exporter)                                               perl-Exporter-5.72-395.fc27.noarch
 ├─libperl.so.5.26()(64bit)                                     perl-libs-4:5.26.0-398.fc27.aarch64
-├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                               perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(Scalar::Util)                                           perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
 ├─perl(bytes)                                                  perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(B::Deparse)                                             perl-interpreter-4:5.26.0-398.fc27.aarch64
@@ -1317,8 +1317,8 @@ perl-Encode-4:2.92-14.fc27.aarch64
 ├─perl(warnings)                                               perl-libs-4:5.26.0-398.fc27.aarch64
 ├─libperl.so.5.26()(64bit)                                     perl-libs-4:5.26.0-398.fc27.aarch64
 ├─/usr/bin/perl                                                perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(XSLoader)                                               perl-libs-4:5.26.0-398.fc27.aarch64
+├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(File::Basename)                                         perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(overload)                                               perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(Getopt::Long)                                           perl-Getopt-Long-1:2.50-3.fc27.noarch
@@ -1355,8 +1355,8 @@ perl-File-Temp-0.230.400-394.fc27.noarch
 ├─perl(vars)                                                   perl-interpreter-4:5.26.0-398.fc27.aarch64
 ├─perl(constant)                                               perl-constant-1.33-395.fc27.noarch
 ├─perl(overload)                                               perl-interpreter-4:5.26.0-398.fc27.aarch64
-├─perl(Cwd)                                                    perl-PathTools-3.67-395.fc27.aarch64
 ├─perl(POSIX)                                                  perl-interpreter-4:5.26.0-398.fc27.aarch64
+├─perl(Cwd)                                                    perl-PathTools-3.67-395.fc27.aarch64
 ├─perl(Scalar::Util)                                           perl-Scalar-List-Utils-3:1.48-1.fc27.aarch64
 ├─perl(IO::Handle)                                             perl-IO-1.38-398.fc27.aarch64
 ├─perl(Errno)                                                  perl-Errno-1.28-398.fc27.aarch64
@@ -1444,8 +1444,8 @@ glibc-common-2.26-1.fc27.1.aarch64
 glibc-devel-2.26-1.fc27.1.aarch64                              
 ├─libdl.so.2()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6()(64bit)                                           glibc-2.26-1.fc27.1.aarch64
-├─libresolv.so.2()(64bit)                                      glibc-2.26-1.fc27.1.aarch64
 ├─librt.so.1()(64bit)                                          glibc-2.26-1.fc27.1.aarch64
+├─libresolv.so.2()(64bit)                                      glibc-2.26-1.fc27.1.aarch64
 ├─libutil.so.1()(64bit)                                        glibc-2.26-1.fc27.1.aarch64
 ├─libnsl.so.1()(64bit)                                         glibc-2.26-1.fc27.1.aarch64
 ├─libcrypt(aarch-64)                                           libcrypt-2.26-1.fc27.1.aarch64
@@ -1458,7 +1458,7 @@ glibc-devel-2.26-1.fc27.1.aarch64
 └─glibc-headers = 2.26-1.fc27.1                                glibc-headers-2.26-1.fc27.1.aarch64
 glibc-headers-2.26-1.fc27.1.aarch64                            
 ├─glibc = 2.26-1.fc27.1                                        glibc-2.26-1.fc27.1.aarch64
-└─kernel-headers >= 2.2.1                                      kernel-headers-4.13.0-0.rc1.git1.1.fc27.aarch64
+└─kernel-headers >= 2.2.1                                      kernel-headers-4.13.0-0.rc6.git0.1.fc28.aarch64
 info-6.4-3.fc27.aarch64                                        
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
@@ -1466,7 +1466,6 @@ info-6.4-3.fc27.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                     glibc-2.26-1.fc27.1.aarch64
 ├─libz.so.1()(64bit)                                           zlib-1.2.11-4.fc27.aarch64
 └─libtinfo.so.6()(64bit)                                       ncurses-libs-6.0-13.20170722.fc27.aarch64
-kernel-headers-4.13.0-0.rc1.git1.1.fc27.aarch64                
 gdbm-1.13-3.fc27.aarch64                                       
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
@@ -1892,6 +1891,7 @@ bash-4.4.12-9.fc27.aarch64
 ├─libdl.so.2(GLIBC_2.17)(64bit)                                glibc-2.26-1.fc27.1.aarch64
 ├─libtinfo.so.6()(64bit)                                       ncurses-libs-6.0-13.20170722.fc27.aarch64
 └─filesystem >= 3                                              filesystem-3.3-3.fc27.aarch64
+kernel-headers-4.13.0-0.rc6.git0.1.fc28.aarch64                
 libgcc-7.1.1-7.fc27.1.aarch64                                  
 libselinux-2.7-1.fc27.aarch64                                  
 ├─rtld(GNU_HASH)                                               glibc-2.26-1.fc27.1.aarch64
@@ -1969,28 +1969,28 @@ system-python-libs-3.6.2-6.fc27.aarch64
 ├─libm.so.6(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─libcrypto.so.1.1()(64bit)                                    openssl-libs-1:1.1.0f-9.fc27.aarch64
 ├─liblzma.so.5()(64bit)                                        xz-libs-5.2.3-4.fc27.aarch64
-├─libbz2.so.1()(64bit)                                         bzip2-libs-1.0.6-24.fc27.aarch64
 ├─libcrypt.so.1()(64bit)                                       libcrypt-2.26-1.fc27.1.aarch64
+├─libbz2.so.1()(64bit)                                         bzip2-libs-1.0.6-24.fc27.aarch64
 ├─libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)                       openssl-libs-1:1.1.0f-9.fc27.aarch64
-├─libssl.so.1.1()(64bit)                                       openssl-libs-1:1.1.0f-9.fc27.aarch64
 ├─libutil.so.1()(64bit)                                        glibc-2.26-1.fc27.1.aarch64
+├─libssl.so.1.1()(64bit)                                       openssl-libs-1:1.1.0f-9.fc27.aarch64
 ├─libc.so.6(GLIBC_2.25)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
-├─libreadline.so.7()(64bit)                                    readline-7.0-7.fc27.aarch64
 ├─libnsl.so.1()(64bit)                                         glibc-2.26-1.fc27.1.aarch64
+├─libreadline.so.7()(64bit)                                    readline-7.0-7.fc27.aarch64
 ├─libsqlite3.so.0()(64bit)                                     sqlite-libs-3.20.0-1.fc27.aarch64
 ├─libtinfo.so.6()(64bit)                                       ncurses-libs-6.0-13.20170722.fc27.aarch64
 ├─libcrypt.so.1(GLIBC_2.17)(64bit)                             libcrypt-2.26-1.fc27.1.aarch64
-├─libffi.so.6()(64bit)                                         libffi-3.1-14.fc27.aarch64
 ├─liblzma.so.5(XZ_5.0)(64bit)                                  xz-libs-5.2.3-4.fc27.aarch64
+├─libffi.so.6()(64bit)                                         libffi-3.1-14.fc27.aarch64
+├─libutil.so.1(GLIBC_2.17)(64bit)                              glibc-2.26-1.fc27.1.aarch64
 ├─libssl.so.1.1(OPENSSL_1_1_0)(64bit)                          openssl-libs-1:1.1.0f-9.fc27.aarch64
 ├─libexpat.so.1()(64bit)                                       expat-2.2.3-1.fc27.aarch64
 ├─libnsl.so.1(GLIBC_2.17)(64bit)                               glibc-2.26-1.fc27.1.aarch64
 ├─libz.so.1(ZLIB_1.2.0)(64bit)                                 zlib-1.2.11-4.fc27.aarch64
-├─libgdbm.so.4()(64bit)                                        gdbm-1.13-3.fc27.aarch64
-├─libgdbm_compat.so.4()(64bit)                                 gdbm-1.13-3.fc27.aarch64
 ├─libncursesw.so.6()(64bit)                                    ncurses-libs-6.0-13.20170722.fc27.aarch64
 ├─libpanelw.so.6()(64bit)                                      ncurses-libs-6.0-13.20170722.fc27.aarch64
-├─libutil.so.1(GLIBC_2.17)(64bit)                              glibc-2.26-1.fc27.1.aarch64
+├─libgdbm.so.4()(64bit)                                        gdbm-1.13-3.fc27.aarch64
+├─libgdbm_compat.so.4()(64bit)                                 gdbm-1.13-3.fc27.aarch64
 ├─expat >= 2.1.0                                               expat-2.2.3-1.fc27.aarch64
 └─glibc(aarch-64) >= 2.24.90-26                                glibc-2.26-1.fc27.1.aarch64
 perl-IPC-System-Simple-1.25-16.fc27.noarch                     
@@ -2112,8 +2112,8 @@ guile-5:2.0.14-3.fc27.aarch64
 ├─libc.so.6(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1()(64bit)                               glibc-2.26-1.fc27.1.aarch64
 ├─ld-linux-aarch64.so.1(GLIBC_2.17)(64bit)                     glibc-2.26-1.fc27.1.aarch64
-├─/sbin/ldconfig                                               glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0()(64bit)                                     glibc-2.26-1.fc27.1.aarch64
+├─/sbin/ldconfig                                               glibc-2.26-1.fc27.1.aarch64
 ├─libpthread.so.0(GLIBC_2.17)(64bit)                           glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6()(64bit)                                           glibc-2.26-1.fc27.1.aarch64
 ├─libm.so.6(GLIBC_2.17)(64bit)                                 glibc-2.26-1.fc27.1.aarch64

@@ -11,16 +11,6 @@ augeas-1.8.0-1.fc27.ppc64le
 bc-1.07.1-1.fc27.ppc64le                                           
 bluez-5.45-1.fc27.ppc64le                                          
 chrpath-0.16-4.fc26.ppc64le                                        
-cockpit-bridge-145-1.fc27.ppc64le                                  
-├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.ppc64le
-├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.ppc64le
-├─libpolkit-agent-1.so.0()(64bit)                                  polkit-libs-0.113-13.fc27.ppc64le
-└─glib-networking                                                  glib-networking-2.50.0-2.fc26.ppc64le
-cockpit-system-145-1.fc27.noarch                                   
-└─cockpit-bridge >= 145-1.fc27                                     cockpit-bridge-145-1.fc27.ppc64le
-cockpit-ws-145-1.fc27.ppc64le                                      
-├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.ppc64le
-├─glib-networking                                                  glib-networking-2.50.0-2.fc26.ppc64le
 compat-openssl10-1:1.0.2j-6.fc26.ppc64le                           
 dbus-glib-0.108-2.fc26.ppc64le                                     
 debugmode-9.72-1.fc27.ppc64le                                      
@@ -285,7 +275,6 @@ libssh-0.7.5-1.fc27.ppc64le
 ├─libcrypto.so.10()(64bit)                                         compat-openssl10-1:1.0.2j-6.fc26.ppc64le
 ├─libcrypto.so.10(libcrypto.so.10)(64bit)                          compat-openssl10-1:1.0.2j-6.fc26.ppc64le
 └─libcrypto.so.10(OPENSSL_1.0.1_EC)(64bit)                         compat-openssl10-1:1.0.2j-6.fc26.ppc64le
-libtirpc-1.0.1-4.rc3.fc27.ppc64le                                  
 libusb-1:0.1.5-8.fc26.ppc64le                                      
 libxslt-1.1.29-2.fc27.ppc64le                                      
 libyaml-0.1.7-2.fc26.ppc64le                                       
@@ -345,10 +334,10 @@ quota-1:4.03-9.fc27.ppc64le
 ├─tcp_wrappers                                                     tcp_wrappers-7.6-87.fc27.ppc64le
 └─quota-nls = 1:4.03-9.fc27                                        quota-nls-1:4.03-9.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.ppc64le                                   
-├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.1-4.rc3.fc27.ppc64le
-├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.1-4.rc3.fc27.ppc64le
-├─libtirpc.so.3(TIRPC_0.3.3)(64bit)                                libtirpc-1.0.1-4.rc3.fc27.ppc64le
-└─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.1-4.rc3.fc27.ppc64le
+├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.2-3.fc28.ppc64le
+├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.2-3.fc28.ppc64le
+├─libtirpc.so.3(TIRPC_0.3.3)(64bit)                                libtirpc-1.0.2-3.fc28.ppc64le
+└─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.2-3.fc28.ppc64le
 rsync-3.1.2-5.fc27.ppc64le                                         
 sg3_utils-1.42-1.fc26.ppc64le                                      
 ├─libsgutils2.so.2()(64bit)                                        sg3_utils-libs-1.42-1.fc26.ppc64le
@@ -369,11 +358,6 @@ volume_key-0.3.9-13.fc27.ppc64le
 └─volume_key-libs(ppc-64) = 0.3.9-13.fc27                          volume_key-libs-0.3.9-13.fc27.ppc64le
 xmlrpc-c-1.48.0-5.fc27.ppc64le                                     
 augeas-libs-1.8.0-1.fc27.ppc64le                                   
-glib-networking-2.50.0-2.fc26.ppc64le                              
-├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.ppc64le
-├─gsettings-desktop-schemas                                        gsettings-desktop-schemas-3.24.0-1.fc27.ppc64le
-json-glib-1.3.2-1.fc27.ppc64le                                     
-polkit-libs-0.113-13.fc27.ppc64le                                  
 dmraid-events-1.0.0.rc16-31.fc26.ppc64le                           
 ├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
 ├─device-mapper-event                                              device-mapper-event-1.02.142-4.fc27.ppc64le
@@ -419,11 +403,26 @@ python-gobject-base-3.24.1-1.fc27.ppc64le
 python3-gobject-base-3.24.1-1.fc27.ppc64le                         
 quota-nls-1:4.03-9.fc27.noarch                                     
 sg3_utils-libs-1.42-1.fc26.ppc64le                                 
-gsettings-desktop-schemas-3.24.0-1.fc27.ppc64le                    
 libpath_utils-0.2.1-30.fc26.ppc64le                                
 gnupg-1.4.21-4.fc27.ppc64le                                        
 └─libusb-0.1.so.4()(64bit)                                         libusb-1:0.1.5-8.fc26.ppc64le
 checkpolicy-2.7-1.fc27.ppc64le                                     
+cockpit-bridge-149-1.fc28.ppc64le                                  
+├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.ppc64le
+├─glib-networking                                                  glib-networking-2.50.0-2.fc26.ppc64le
+├─libpolkit-agent-1.so.0()(64bit)                                  polkit-libs-0.113-13.fc27.ppc64le
+└─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.ppc64le
+glib-networking-2.50.0-2.fc26.ppc64le                              
+├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.ppc64le
+├─gsettings-desktop-schemas                                        gsettings-desktop-schemas-3.24.0-1.fc27.ppc64le
+json-glib-1.3.2-1.fc27.ppc64le                                     
+polkit-libs-0.113-13.fc27.ppc64le                                  
+gsettings-desktop-schemas-3.24.0-1.fc27.ppc64le                    
+cockpit-system-149-1.fc28.noarch                                   
+└─cockpit-bridge >= 149-1.fc28                                     cockpit-bridge-149-1.fc28.ppc64le
+cockpit-ws-149-1.fc28.ppc64le                                      
+├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.ppc64le
+├─glib-networking                                                  glib-networking-2.50.0-2.fc26.ppc64le
 glib2-devel-2.53.5-1.fc27.ppc64le                                  
 ├─pkgconfig(libpcre)                                               pcre-devel-8.41-1.fc27.2.ppc64le
 icu-57.1-4.fc26.ppc64le                                            
@@ -444,18 +443,19 @@ libtiff-4.0.8-3.fc27.ppc64le
 ├─libjpeg.so.62()(64bit)                                           libjpeg-turbo-1.5.1-4.fc27.ppc64le
 ├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                                libjpeg-turbo-1.5.1-4.fc27.ppc64le
 └─libjbig.so.2.1()(64bit)                                          jbigkit-libs-2.1-8.fc27.ppc64le
+libtirpc-1.0.2-3.fc28.ppc64le                                      
 libuser-0.62-9.fc27.ppc64le                                        
 nfs-utils-1:2.1.1-6.rc5.fc27.ppc64le                               
 ├─keyutils                                                         keyutils-1.5.10-3.fc27.ppc64le
-├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.1-4.rc3.fc27.ppc64le
-├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.1-4.rc3.fc27.ppc64le
+├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.2-3.fc28.ppc64le
+├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.2-3.fc28.ppc64le
+├─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.2-3.fc28.ppc64le
 ├─libnfsidmap                                                      libnfsidmap-0.27-1.fc26.ppc64le
 ├─libnfsidmap.so.0()(64bit)                                        libnfsidmap-0.27-1.fc26.ppc64le
-├─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.1-4.rc3.fc27.ppc64le
 ├─quota                                                            quota-1:4.03-9.fc27.ppc64le
 ├─rpcbind                                                          rpcbind-0.2.4-7.rc2.fc27.ppc64le
 ├─gssproxy >= 0.7.0-3                                              gssproxy-0.7.0-10.fc27.ppc64le
-└─libtirpc >= 0.2.3-1                                              libtirpc-1.0.1-4.rc3.fc27.ppc64le
+└─libtirpc >= 0.2.3-1                                              libtirpc-1.0.2-3.fc28.ppc64le
 openjpeg2-2.2.0-1.fc27.ppc64le                                     
 parted-3.2-28.fc27.ppc64le                                         
 policycoreutils-2.7-1.fc27.ppc64le                                 
@@ -477,15 +477,14 @@ policycoreutils-python-utils-2.7-1.fc27.ppc64le
 policycoreutils-python3-2.7-1.fc27.ppc64le                         
 ├─checkpolicy                                                      checkpolicy-2.7-1.fc27.ppc64le
 ├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.ppc64le
+├─setools-python3                                                  python3-setools-4.1.1-4.fc28.ppc64le
 ├─libcgroup                                                        libcgroup-0.41-11.fc26.ppc64le
 ├─python3-IPy                                                      python3-IPy-0.81-19.fc27.noarch
-├─setools-python3                                                  setools-python3-4.1.0-3.fc27.ppc64le
 ├─policycoreutils = 2.7-1.fc27                                     policycoreutils-2.7-1.fc27.ppc64le
 ├─audit-libs-python3 >= 2.1.3-4                                    audit-libs-python3-2.7.7-5.fc27.ppc64le
 └─libsemanage-python3 >= 2.7-1                                     libsemanage-python3-2.7-1.fc27.ppc64le
 libselinux-python3-2.7-1.fc27.ppc64le                              
 python3-IPy-0.81-19.fc27.noarch                                    
-setools-python3-4.1.0-3.fc27.ppc64le                               
 libsemanage-python3-2.7-1.fc27.ppc64le                             
 ├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.ppc64le
 systemd-devel-234-5.fc27.ppc64le                                   
@@ -493,6 +492,7 @@ tcp_wrappers-7.6-87.fc27.ppc64le
 audit-libs-python3-2.7.7-5.fc27.ppc64le                            
 └─audit(ppc-64) = 2.7.7-5.fc27                                     audit-2.7.7-5.fc27.ppc64le
 audit-2.7.7-5.fc27.ppc64le                                         
+python3-setools-4.1.1-4.fc28.ppc64le                               
 device-mapper-event-1.02.142-4.fc27.ppc64le                        
 ├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.ppc64le
 ├─libdevmapper-event.so.1.02(Base)(64bit)                          device-mapper-event-libs-1.02.142-4.fc27.ppc64le

@@ -11,16 +11,6 @@ augeas-1.8.0-1.fc27.aarch64
 bc-1.07.1-1.fc27.aarch64                                           
 bluez-5.45-1.fc27.aarch64                                          
 chrpath-0.16-4.fc26.aarch64                                        
-cockpit-bridge-145-1.fc27.aarch64                                  
-├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.aarch64
-├─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.aarch64
-├─libpolkit-agent-1.so.0()(64bit)                                  polkit-libs-0.113-13.fc27.aarch64
-└─glib-networking                                                  glib-networking-2.50.0-2.fc26.aarch64
-cockpit-system-145-1.fc27.noarch                                   
-└─cockpit-bridge >= 145-1.fc27                                     cockpit-bridge-145-1.fc27.aarch64
-cockpit-ws-145-1.fc27.aarch64                                      
-├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.aarch64
-├─glib-networking                                                  glib-networking-2.50.0-2.fc26.aarch64
 compat-openssl10-1:1.0.2j-6.fc26.aarch64                           
 dbus-glib-0.108-2.fc26.aarch64                                     
 debugmode-9.72-1.fc27.aarch64                                      
@@ -285,7 +275,6 @@ libssh-0.7.5-1.fc27.aarch64
 ├─libcrypto.so.10()(64bit)                                         compat-openssl10-1:1.0.2j-6.fc26.aarch64
 ├─libcrypto.so.10(libcrypto.so.10)(64bit)                          compat-openssl10-1:1.0.2j-6.fc26.aarch64
 └─libcrypto.so.10(OPENSSL_1.0.1_EC)(64bit)                         compat-openssl10-1:1.0.2j-6.fc26.aarch64
-libtirpc-1.0.1-4.rc3.fc27.aarch64                                  
 libusb-1:0.1.5-8.fc26.aarch64                                      
 libxslt-1.1.29-2.fc27.aarch64                                      
 libyaml-0.1.7-2.fc26.aarch64                                       
@@ -345,10 +334,10 @@ quota-1:4.03-9.fc27.aarch64
 ├─tcp_wrappers                                                     tcp_wrappers-7.6-87.fc27.aarch64
 └─quota-nls = 1:4.03-9.fc27                                        quota-nls-1:4.03-9.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.aarch64                                   
-├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.1-4.rc3.fc27.aarch64
-├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.1-4.rc3.fc27.aarch64
-├─libtirpc.so.3(TIRPC_0.3.3)(64bit)                                libtirpc-1.0.1-4.rc3.fc27.aarch64
-└─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.1-4.rc3.fc27.aarch64
+├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.2-3.fc28.aarch64
+├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.2-3.fc28.aarch64
+├─libtirpc.so.3(TIRPC_0.3.3)(64bit)                                libtirpc-1.0.2-3.fc28.aarch64
+└─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.2-3.fc28.aarch64
 rsync-3.1.2-5.fc27.aarch64                                         
 sg3_utils-1.42-1.fc26.aarch64                                      
 ├─libsgutils2.so.2()(64bit)                                        sg3_utils-libs-1.42-1.fc26.aarch64
@@ -369,11 +358,6 @@ volume_key-0.3.9-13.fc27.aarch64
 └─volume_key-libs(aarch-64) = 0.3.9-13.fc27                        volume_key-libs-0.3.9-13.fc27.aarch64
 xmlrpc-c-1.48.0-5.fc27.aarch64                                     
 augeas-libs-1.8.0-1.fc27.aarch64                                   
-glib-networking-2.50.0-2.fc26.aarch64                              
-├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.aarch64
-├─gsettings-desktop-schemas                                        gsettings-desktop-schemas-3.24.0-1.fc27.aarch64
-json-glib-1.3.2-1.fc27.aarch64                                     
-polkit-libs-0.113-13.fc27.aarch64                                  
 dmraid-events-1.0.0.rc16-31.fc26.aarch64                           
 ├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.aarch64
 ├─device-mapper-event                                              device-mapper-event-1.02.142-4.fc27.aarch64
@@ -419,11 +403,26 @@ python-gobject-base-3.24.1-1.fc27.aarch64
 python3-gobject-base-3.24.1-1.fc27.aarch64                         
 quota-nls-1:4.03-9.fc27.noarch                                     
 sg3_utils-libs-1.42-1.fc26.aarch64                                 
-gsettings-desktop-schemas-3.24.0-1.fc27.aarch64                    
 libpath_utils-0.2.1-30.fc26.aarch64                                
 gnupg-1.4.21-4.fc27.aarch64                                        
 └─libusb-0.1.so.4()(64bit)                                         libusb-1:0.1.5-8.fc26.aarch64
 checkpolicy-2.7-1.fc27.aarch64                                     
+cockpit-bridge-149-1.fc28.aarch64                                  
+├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.aarch64
+├─glib-networking                                                  glib-networking-2.50.0-2.fc26.aarch64
+├─libpolkit-agent-1.so.0()(64bit)                                  polkit-libs-0.113-13.fc27.aarch64
+└─libpolkit-gobject-1.so.0()(64bit)                                polkit-libs-0.113-13.fc27.aarch64
+glib-networking-2.50.0-2.fc26.aarch64                              
+├─libproxy.so.1()(64bit)                                           libproxy-0.4.15-2.fc27.aarch64
+├─gsettings-desktop-schemas                                        gsettings-desktop-schemas-3.24.0-1.fc27.aarch64
+json-glib-1.3.2-1.fc27.aarch64                                     
+polkit-libs-0.113-13.fc27.aarch64                                  
+gsettings-desktop-schemas-3.24.0-1.fc27.aarch64                    
+cockpit-system-149-1.fc28.noarch                                   
+└─cockpit-bridge >= 149-1.fc28                                     cockpit-bridge-149-1.fc28.aarch64
+cockpit-ws-149-1.fc28.aarch64                                      
+├─libjson-glib-1.0.so.0()(64bit)                                   json-glib-1.3.2-1.fc27.aarch64
+├─glib-networking                                                  glib-networking-2.50.0-2.fc26.aarch64
 glib2-devel-2.53.5-1.fc27.aarch64                                  
 ├─pkgconfig(libpcre)                                               pcre-devel-8.41-1.fc27.2.aarch64
 icu-57.1-4.fc26.aarch64                                            
@@ -444,18 +443,19 @@ libtiff-4.0.8-3.fc27.aarch64
 ├─libjpeg.so.62()(64bit)                                           libjpeg-turbo-1.5.1-4.fc27.aarch64
 ├─libjpeg.so.62(LIBJPEG_6.2)(64bit)                                libjpeg-turbo-1.5.1-4.fc27.aarch64
 └─libjbig.so.2.1()(64bit)                                          jbigkit-libs-2.1-8.fc27.aarch64
+libtirpc-1.0.2-3.fc28.aarch64                                      
 libuser-0.62-9.fc27.aarch64                                        
 nfs-utils-1:2.1.1-6.rc5.fc27.aarch64                               
 ├─keyutils                                                         keyutils-1.5.10-3.fc27.aarch64
-├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.1-4.rc3.fc27.aarch64
-├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.1-4.rc3.fc27.aarch64
+├─libtirpc.so.3()(64bit)                                           libtirpc-1.0.2-3.fc28.aarch64
+├─libtirpc.so.3(TIRPC_0.3.0)(64bit)                                libtirpc-1.0.2-3.fc28.aarch64
+├─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.2-3.fc28.aarch64
 ├─libnfsidmap                                                      libnfsidmap-0.27-1.fc26.aarch64
 ├─libnfsidmap.so.0()(64bit)                                        libnfsidmap-0.27-1.fc26.aarch64
-├─libtirpc.so.3(TIRPC_PRIVATE)(64bit)                              libtirpc-1.0.1-4.rc3.fc27.aarch64
 ├─quota                                                            quota-1:4.03-9.fc27.aarch64
 ├─rpcbind                                                          rpcbind-0.2.4-7.rc2.fc27.aarch64
 ├─gssproxy >= 0.7.0-3                                              gssproxy-0.7.0-10.fc27.aarch64
-└─libtirpc >= 0.2.3-1                                              libtirpc-1.0.1-4.rc3.fc27.aarch64
+└─libtirpc >= 0.2.3-1                                              libtirpc-1.0.2-3.fc28.aarch64
 openjpeg2-2.2.0-1.fc27.aarch64                                     
 parted-3.2-28.fc27.aarch64                                         
 policycoreutils-2.7-1.fc27.aarch64                                 
@@ -477,15 +477,14 @@ policycoreutils-python-utils-2.7-1.fc27.aarch64
 policycoreutils-python3-2.7-1.fc27.aarch64                         
 ├─checkpolicy                                                      checkpolicy-2.7-1.fc27.aarch64
 ├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.aarch64
+├─setools-python3                                                  python3-setools-4.1.1-4.fc28.aarch64
 ├─libcgroup                                                        libcgroup-0.41-11.fc26.aarch64
 ├─python3-IPy                                                      python3-IPy-0.81-19.fc27.noarch
-├─setools-python3                                                  setools-python3-4.1.0-3.fc27.aarch64
 ├─policycoreutils = 2.7-1.fc27                                     policycoreutils-2.7-1.fc27.aarch64
 ├─audit-libs-python3 >= 2.1.3-4                                    audit-libs-python3-2.7.7-5.fc27.aarch64
 └─libsemanage-python3 >= 2.7-1                                     libsemanage-python3-2.7-1.fc27.aarch64
 libselinux-python3-2.7-1.fc27.aarch64                              
 python3-IPy-0.81-19.fc27.noarch                                    
-setools-python3-4.1.0-3.fc27.aarch64                               
 libsemanage-python3-2.7-1.fc27.aarch64                             
 ├─libselinux-python3                                               libselinux-python3-2.7-1.fc27.aarch64
 systemd-devel-234-5.fc27.aarch64                                   
@@ -493,6 +492,7 @@ tcp_wrappers-7.6-87.fc27.aarch64
 audit-libs-python3-2.7.7-5.fc27.aarch64                            
 └─audit(aarch-64) = 2.7.7-5.fc27                                   audit-2.7.7-5.fc27.aarch64
 audit-2.7.7-5.fc27.aarch64                                         
+python3-setools-4.1.1-4.fc28.aarch64                               
 device-mapper-event-1.02.142-4.fc27.aarch64                        
 ├─libdevmapper-event.so.1.02()(64bit)                              device-mapper-event-libs-1.02.142-4.fc27.aarch64
 ├─libdevmapper-event.so.1.02(Base)(64bit)                          device-mapper-event-libs-1.02.142-4.fc27.aarch64

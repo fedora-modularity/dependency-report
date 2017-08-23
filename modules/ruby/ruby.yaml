@@ -1,0 +1,29 @@
+document: modulemd
+version: 1
+data:
+    summary: ruby module
+    description: This ruby has been generated
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            platform: master
+            platform-placeholder: master
+        requires:
+            platform: master
+            platform-placeholder: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/ruby
+        tracker: https://github.com/modularity-modules/ruby
+    components:
+        rpms:
+            ruby:
+                rationale: Generated.
+                ref: master.
+            rubygem-bundler:
+                rationale: Generated.
+                ref: master.
+            rubypick:
+                rationale: Generated.
+                ref: master.

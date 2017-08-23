@@ -1,13 +1,17 @@
 acl
 audit-libs
+autoconf
+automake
 basesystem
 bash
+binutils
 bison
 bzip2-libs
 ca-certificates
 chkconfig
 coreutils
 coreutils-common
+cpp
 cracklib
 crypto-policies
 cryptsetup-libs
@@ -34,9 +38,11 @@ fedora-repos
 fedora-repos-rawhide
 fedora-rpm-macros
 filesystem
+findutils
 flex
 fpc-srpm-macros
 gawk
+gcc
 gdbm
 gdbm-devel
 gettext
@@ -58,6 +64,7 @@ gzip
 help2man
 info
 iptables-libs
+isl
 js
 kernel-headers
 keyutils-libs
@@ -67,6 +74,8 @@ krb5-devel
 krb5-libs
 libacl
 libarchive
+libasan
+libatomic
 libattr
 libblkid
 libcap
@@ -92,6 +101,7 @@ libidn
 libidn2
 libkadm5
 libmount
+libmpc
 libnghttp2
 libpcap
 libpkgconf
@@ -106,6 +116,8 @@ libsigsegv
 libsmartcols
 libstdc++
 libtasn1
+libtool
+libubsan
 libunistring
 libutempter
 libuuid
@@ -149,7 +161,10 @@ pcre2
 perl-Carp
 perl-constant
 perl-Data-Dumper
+perl-Data-UUID
 perl-devel
+perl-Digest
+perl-Digest-MD5
 perl-Encode
 perl-Errno
 perl-Exporter
@@ -185,8 +200,10 @@ perl-Storable
 perl-Term-ANSIColor
 perl-Term-Cap
 perl-Test-Harness
+perl-Test-Simple
 perl-Text-ParseWords
 perl-Text-Tabs+Wrap
+perl-Thread-Queue
 perl-threads
 perl-threads-shared
 perl-Time-Local
@@ -231,6 +248,7 @@ systemd-libs
 systemd-pam
 system-python-libs
 systemtap-sdt-devel
+tar
 tcl
 tcl-devel
 tzdata

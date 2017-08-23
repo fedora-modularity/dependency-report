@@ -7,10 +7,15 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            bootstrap: master
+            platform: master
+            platform-placeholder: master
+            autotools: master
+            perl: master
         requires:
             platform: master
             platform-placeholder: master
+            python3: master
+            python3-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/bind
@@ -24,8 +29,5 @@ data:
                 rationale: Generated.
                 ref: master.
             GeoIP-GeoLite-data:
-                rationale: Generated.
-                ref: master.
-            python-ply:
                 rationale: Generated.
                 ref: master.
