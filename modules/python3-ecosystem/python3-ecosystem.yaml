@@ -2,19 +2,117 @@ document: modulemd
 version: 1
 data:
     summary: python3-ecosystem module
-    description: This python3-ecosystem has been generated
+    description: This python3-ecosystem module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python3-ecosystem
         tracker: https://github.com/modularity-modules/python3-ecosystem
+    api:
+        rpms:
+            - python3-asn1crypto
+            - python3-bytesize
+            - python3-cffi
+            - python3-chardet
+            - python3-coverage
+            - python3-cryptography
+            - python3-decorator
+            - python3-iniparse
+            - python3-IPy
+            - python3-ordered-set
+            - python3-ply
+            - python3-pycparser
+            - python3-pyOpenSSL
+            - python3-pyparsing
+            - python3-pytz
+            - python3-requests
+            - python3-requests-file
+            - python3-requests-ftp
+            - python3-six
+            - python3-urllib3
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - python3-asn1crypto
+                - python3-bytesize
+                - python3-cffi
+                - python3-chardet
+                - python3-coverage
+                - python3-cryptography
+                - python3-decorator
+                - python3-iniparse
+                - python3-IPy
+                - python3-ordered-set
+                - python3-ply
+                - python3-pycparser
+                - python3-pyOpenSSL
+                - python3-pyparsing
+                - python3-pytz
+                - python3-requests
+                - python3-requests-file
+                - python3-requests-ftp
+                - python3-six
+                - python3-urllib3
     components:
         rpms:
+            pyOpenSSL:
+                rationale: Generated.
+                ref: f27
+            pyparsing:
+                rationale: Generated.
+                ref: f27
+            python-asn1crypto:
+                rationale: Generated.
+                ref: f27
+            python-cffi:
+                rationale: Generated.
+                ref: f27
+            python-chardet:
+                rationale: Generated.
+                ref: f27
+            python-coverage:
+                rationale: Generated.
+                ref: f27
+            python-cryptography:
+                rationale: Generated.
+                ref: f27
+            python-decorator:
+                rationale: Generated.
+                ref: f27
+            python-idna:
+                rationale: Generated.
+                ref: f27
+            python-ordered-set:
+                rationale: Generated.
+                ref: f27
+            python-ply:
+                rationale: Generated.
+                ref: f27
+            python-pycparser:
+                rationale: Generated.
+                ref: f27
+            python-pysocks:
+                rationale: Generated.
+                ref: f27
+            python-requests:
+                rationale: Generated.
+                ref: f27
+            python-requests-file:
+                rationale: Generated.
+                ref: f27
+            python-requests-ftp:
+                rationale: Generated.
+                ref: f27
+            python-urllib3:
+                rationale: Generated.
+                ref: f27
+            pytz:
+                rationale: Generated.
+                ref: f27

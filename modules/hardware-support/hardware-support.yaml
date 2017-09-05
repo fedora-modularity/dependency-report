@@ -1,0 +1,24 @@
+document: modulemd
+version: 1
+data:
+    summary: hardware-support module
+    description: This hardware-support module has been generated.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/hardware-support
+        tracker: https://github.com/modularity-modules/hardware-support
+    api:
+        rpms:
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+    components:
+        rpms:

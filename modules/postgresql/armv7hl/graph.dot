@@ -1,4 +1,13 @@
 strict digraph G {
 node [fontname=monospace];
+  "postgresql-contrib" -> "postgresql";
+  "postgresql-contrib" -> "postgresql-libs";
+  "postgresql-contrib" -> "uuid";
+  "postgresql-devel" -> "postgresql-libs";
   "postgresql" -> "postgresql-libs";
+  "postgresql-server" -> "postgresql";
+  "postgresql-server" -> "postgresql-libs";
+  "postgresql-static" -> "postgresql-devel";
+  "postgresql-upgrade" -> "postgresql-libs";
+  "postgresql-upgrade" -> "postgresql-server";
 }

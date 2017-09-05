@@ -2,123 +2,130 @@ document: modulemd
 version: 1
 data:
     summary: networking-base module
-    description: This networking-base has been generated
+    description: This networking-base module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
+            perl: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/networking-base
         tracker: https://github.com/modularity-modules/networking-base
+    api:
+        rpms:
+            - firewalld
+            - firewalld-filesystem
+            - libndp
+            - libproxy
+            - libpsl
+            - libteam
+            - net-snmp
+            - net-snmp-agent-libs
+            - net-snmp-libs
+            - net-snmp-utils
+            - NetworkManager
+            - NetworkManager-adsl
+            - NetworkManager-bluetooth
+            - NetworkManager-libnm
+            - NetworkManager-team
+            - NetworkManager-tui
+            - NetworkManager-wifi
+            - NetworkManager-wwan
+            - psl
+            - realmd
+            - teamd
+            - xmlrpc-c
+            - xmlrpc-c-client
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - firewalld
+                - firewalld-filesystem
+                - libndp
+                - libproxy
+                - libpsl
+                - libteam
+                - net-snmp
+                - net-snmp-agent-libs
+                - net-snmp-libs
+                - net-snmp-utils
+                - NetworkManager
+                - NetworkManager-adsl
+                - NetworkManager-bluetooth
+                - NetworkManager-libnm
+                - NetworkManager-team
+                - NetworkManager-tui
+                - NetworkManager-wifi
+                - NetworkManager-wwan
+                - psl
+                - realmd
+                - teamd
+                - xmlrpc-c
+                - xmlrpc-c-client
     components:
         rpms:
             authconfig:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             firewalld:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libgudev:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libmbim:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libndp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libpsl:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libqmi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libteam:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             lm_sensors:
                 rationale: Generated.
-                ref: master.
-            mariadb:
+                ref: f27
+            mariadb-connector-c:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             ModemManager:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             net-snmp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             NetworkManager:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             newt:
                 rationale: Generated.
-                ref: master.
-            perl:
-                rationale: Generated.
-                ref: master.
-            perl-Carp:
-                rationale: Generated.
-                ref: master.
-            perl-constant:
-                rationale: Generated.
-                ref: master.
-            perl-Data-Dumper:
-                rationale: Generated.
-                ref: master.
-            perl-Exporter:
-                rationale: Generated.
-                ref: master.
-            perl-File-Path:
-                rationale: Generated.
-                ref: master.
-            perl-parent:
-                rationale: Generated.
-                ref: master.
-            perl-PathTools:
-                rationale: Generated.
-                ref: master.
-            perl-Scalar-List-Utils:
-                rationale: Generated.
-                ref: master.
-            perl-Socket:
-                rationale: Generated.
-                ref: master.
-            perl-Text-Tabs+Wrap:
-                rationale: Generated.
-                ref: master.
-            perl-threads:
-                rationale: Generated.
-                ref: master.
-            perl-threads-shared:
-                rationale: Generated.
-                ref: master.
-            perl-Unicode-Normalize:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             python-decorator:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-slip:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             realmd:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             slang:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             sssd:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             wpa_supplicant:
                 rationale: Generated.
-                ref: master.
+                ref: f27

@@ -7,11 +7,11 @@
   "dyninst" -> "boost-system";
   "dyninst" -> "boost-thread";
   "dyninst" -> "libdwarf";
-  "libdwarf" -> "curl-minimal";
   "systemtap-client" -> "avahi-libs";
   "systemtap-client" -> "systemtap-runtime";
   "systemtap-devel" -> "avahi-libs";
   "systemtap-devel" -> "kernel-devel";
+  "systemtap-runtime" -> "curl-minimal";
   "systemtap-runtime" -> "dyninst";
   "systemtap" -> "systemtap-client";
   "systemtap" -> "systemtap-devel";

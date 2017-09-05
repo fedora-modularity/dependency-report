@@ -2,20 +2,23 @@ document: modulemd
 version: 1
 data:
     summary: python3-ecosystem-bootstrap module
-    description: This python3-ecosystem-bootstrap has been generated
+    description: This python3-ecosystem-bootstrap module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            python3-ecosystem-bootstrap: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python3-ecosystem-bootstrap
         tracker: https://github.com/modularity-modules/python3-ecosystem-bootstrap
+    api:
+        rpms:
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
     components:
         rpms:

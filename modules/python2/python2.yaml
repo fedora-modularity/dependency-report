@@ -2,61 +2,69 @@ document: modulemd
 version: 1
 data:
     summary: python2 module
-    description: This python2 has been generated
+    description: This python2 module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
+            fonts: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python2
         tracker: https://github.com/modularity-modules/python2
+    api:
+        rpms:
+            - python2
+            - python2-debug
+            - python2-devel
+            - python2-libs
+            - python2-pip
+            - python2-setuptools
+            - python2-tkinter
+            - python2-tools
+            - python2-wheel
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - python2
+                - python2-debug
+                - python2-devel
+                - python2-libs
+                - python2-pip
+                - python2-setuptools
+                - python2-tkinter
+                - python2-tools
+                - python2-wheel
     components:
         rpms:
-            aajohan-comfortaa-fonts:
-                rationale: Generated.
-                ref: master.
-            fontconfig:
-                rationale: Generated.
-                ref: master.
-            fontpackages:
-                rationale: Generated.
-                ref: master.
-            freetype:
-                rationale: Generated.
-                ref: master.
-            libpng:
-                rationale: Generated.
-                ref: master.
             libX11:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXau:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libxcb:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXft:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXrender:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-rpm-generators:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-wheel:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             tix:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             tk:
                 rationale: Generated.
-                ref: master.
+                ref: f27

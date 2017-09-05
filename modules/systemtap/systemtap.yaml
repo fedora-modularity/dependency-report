@@ -2,34 +2,38 @@ document: modulemd
 version: 1
 data:
     summary: systemtap module
-    description: This systemtap has been generated
+    description: This systemtap module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
             perl: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/systemtap
         tracker: https://github.com/modularity-modules/systemtap
+    api:
+        rpms:
+            - systemtap
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - systemtap
     components:
         rpms:
             avahi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             boost:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             dyninst:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libdwarf:
                 rationale: Generated.
-                ref: master.
+                ref: f27

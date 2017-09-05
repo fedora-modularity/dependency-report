@@ -2,23 +2,41 @@ document: modulemd
 version: 1
 data:
     summary: postgresql module
-    description: This postgresql has been generated
+    description: This postgresql module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/postgresql
         tracker: https://github.com/modularity-modules/postgresql
+    api:
+        rpms:
+            - postgresql
+            - postgresql-contrib
+            - postgresql-devel
+            - postgresql-server
+            - postgresql-static
+            - postgresql-upgrade
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - postgresql
+                - postgresql-contrib
+                - postgresql-devel
+                - postgresql-server
+                - postgresql-static
+                - postgresql-upgrade
     components:
         rpms:
             postgresql:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            uuid:
+                rationale: Generated.
+                ref: f27

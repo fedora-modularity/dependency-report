@@ -2,45 +2,61 @@ document: modulemd
 version: 1
 data:
     summary: httpd module
-    description: This httpd has been generated
+    description: This httpd module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/httpd
         tracker: https://github.com/modularity-modules/httpd
+    api:
+        rpms:
+            - httpd
+            - httpd-filesystem
+            - httpd-tools
+            - mod_http2
+            - mod_nss
+            - mod_session
+            - mod_wsgi
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - httpd
+                - httpd-filesystem
+                - httpd-tools
+                - mod_http2
+                - mod_nss
+                - mod_session
+                - mod_wsgi
     components:
         rpms:
             apr:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             apr-util:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             fedora-logos:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             httpd:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             mailcap:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             mod_http2:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             mod_nss:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             mod_wsgi:
                 rationale: Generated.
-                ref: master.
+                ref: f27

@@ -8,24 +8,19 @@ These are modules identified as dependencies.
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
+* [fonts](../fonts)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
-* [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
+* [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [python2 top-level package set](python2.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this python2 module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
-| `aajohan-comfortaa-fonts` | X | X | X | X | X | X | X |
 | `curl-minimal` | X | X | X | X | X | X | X |
-| `fontconfig` | X | X | X | X | X | X | X |
-| `fontpackages-filesystem` | X | X | X | X | X | X | X |
-| `freetype` | - | X | - | - | - | X | - |
-| `libpng` | - | X | - | - | - | X | - |
 | `libX11` | X | X | X | X | X | X | X |
 | `libX11-common` | X | X | X | X | X | X | X |
 | `libXau` | X | X | X | X | X | X | X |

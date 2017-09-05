@@ -1,0 +1,50 @@
+document: modulemd
+version: 1
+data:
+    summary: fonts module
+    description: This fonts module has been generated.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/fonts
+        tracker: https://github.com/modularity-modules/fonts
+    api:
+        rpms:
+            - aajohan-comfortaa-fonts
+            - fontawesome-fonts
+            - fontconfig
+            - fontpackages-filesystem
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - aajohan-comfortaa-fonts
+                - fontawesome-fonts
+                - fontconfig
+                - fontpackages-filesystem
+    components:
+        rpms:
+            aajohan-comfortaa-fonts:
+                rationale: Generated.
+                ref: f27
+            fontawesome-fonts:
+                rationale: Generated.
+                ref: f27
+            fontconfig:
+                rationale: Generated.
+                ref: f27
+            fontpackages:
+                rationale: Generated.
+                ref: f27
+            freetype:
+                rationale: Generated.
+                ref: f27
+            libpng:
+                rationale: Generated.
+                ref: f27

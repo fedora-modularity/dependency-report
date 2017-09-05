@@ -79,11 +79,8 @@ libpcap
 libpwquality
 libseccomp
 libselinux
-libselinux-python3
 libselinux-utils
 libsemanage
-libsemanage-python
-libsemanage-python3
 libsepol
 libsigsegv
 libsmartcols
@@ -167,14 +164,18 @@ policycoreutils-python-utils
 popt
 python2
 python2-libs
+python2-libsemanage
 python2-pip
 python2-setuptools
 python3
 python3-bind
 python3-IPy
 python3-libs
+python3-libselinux
+python3-libsemanage
 python3-pip
 python3-ply
+python3-setools
 python3-setuptools
 qrencode-libs
 readline
@@ -182,7 +183,6 @@ rpm
 rpm-libs
 rpm-plugin-selinux
 sed
-setools-python3
 setup
 shadow-utils
 sqlite-libs
@@ -190,7 +190,6 @@ svrcore
 systemd
 systemd-libs
 systemd-pam
-system-python-libs
 tcp_wrappers-libs
 tzdata
 util-linux

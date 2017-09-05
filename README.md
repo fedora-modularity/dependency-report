@@ -1,3 +1,7 @@
+This README is currently shared between [dependency-reports-scripts](https://github.com/fedora-modularity/dependency-report-scripts) (the scripts) and [dependency-reports](https://github.com/fedora-modularity/dependency-report) (the output).
+
+---
+
 # Modularity dependency reports
 
 This repository contains scripts to generate dependencies of the initial set of modules in F27.
@@ -40,6 +44,12 @@ Right now, the **following modules are included**. This image is automatically g
 
 ### Installation 
 
+Get the **dependencies** for depchase and the scripts:
+
+```
+$ sudo dnf install "perl(autodie)" "perl(Getopt::Std)" "perl(List::Util)" "perl(Text::CSV_XS)" "perl(Data::Dumper)" "perl(File::Path)" python3-solv python3-smartcols python3-click git findutils /usr/bin/neato /usr/bin/gvmap /usr/bin/sfdp
+```
+
 These scripts require you to have **depchase** installed:
 
 ```
@@ -61,7 +71,7 @@ Add a `repos.cfg` to this `dependency-report` repository. You can find it in the
 ```
 $ ls 
 baseruntime-package-lists    dependency-report
-$ cp baseruntime-package-lists/repo/Fedora-devel-GA-repos.cfg dependency-report/repos.cfg
+$ cp baseruntime-package-lists/repo/Fedora-devel-GA-repos.cfg dependency-report-scripts/repos.cfg
 ```
 
 Now you can run all the scripts in this repo.

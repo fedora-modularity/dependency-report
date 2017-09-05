@@ -2,42 +2,95 @@ document: modulemd
 version: 1
 data:
     summary: java module
-    description: This java has been generated
+    description: This java module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
+            fonts: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/java
         tracker: https://github.com/modularity-modules/java
+    api:
+        rpms:
+            - java-1.8.0-openjdk
+            - java-1.8.0-openjdk-devel
+            - java-1.8.0-openjdk-headless
+            - javapackages-tools
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - java-1.8.0-openjdk
+                - java-1.8.0-openjdk-devel
+                - java-1.8.0-openjdk-headless
+                - javapackages-tools
     components:
         rpms:
             copy-jdk-configs:
                 rationale: Generated.
-                ref: master.
-            freetype:
+                ref: f27
+            giflib:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             java-1.8.0-openjdk:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             javapackages-tools:
                 rationale: Generated.
-                ref: master.
-            libpng:
+                ref: f27
+            libfontenc:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            libICE:
+                rationale: Generated.
+                ref: f27
+            libSM:
+                rationale: Generated.
+                ref: f27
+            libX11:
+                rationale: Generated.
+                ref: f27
+            libXau:
+                rationale: Generated.
+                ref: f27
+            libxcb:
+                rationale: Generated.
+                ref: f27
+            libXcomposite:
+                rationale: Generated.
+                ref: f27
+            libXext:
+                rationale: Generated.
+                ref: f27
+            libXfont:
+                rationale: Generated.
+                ref: f27
+            libXi:
+                rationale: Generated.
+                ref: f27
+            libXrender:
+                rationale: Generated.
+                ref: f27
+            libXtst:
+                rationale: Generated.
+                ref: f27
             lua-posix:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            ttmkfdir:
+                rationale: Generated.
+                ref: f27
             which:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            xorg-x11-fonts:
+                rationale: Generated.
+                ref: f27
+            xorg-x11-font-utils:
+                rationale: Generated.
+                ref: f27

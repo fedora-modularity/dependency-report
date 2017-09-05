@@ -2,59 +2,80 @@ document: modulemd
 version: 1
 data:
     summary: python3 module
-    description: This python3 has been generated
+    description: This python3 module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            python3-bootstrap: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python3
         tracker: https://github.com/modularity-modules/python3
+    api:
+        rpms:
+            - python3
+            - python3-debug
+            - python3-devel
+            - python3-libs
+            - python3-pip
+            - python3-setuptools
+            - python3-tkinter
+            - python3-tools
+            - python3-wheel
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - python3
+                - python3-debug
+                - python3-devel
+                - python3-libs
+                - python3-pip
+                - python3-setuptools
+                - python3-tkinter
+                - python3-tools
+                - python3-wheel
     components:
         rpms:
             aajohan-comfortaa-fonts:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             fontconfig:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             fontpackages:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             freetype:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libpng:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libX11:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXau:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libxcb:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXft:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXrender:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-rpm-generators:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-wheel:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             tk:
                 rationale: Generated.
-                ref: master.
+                ref: f27

@@ -12,27 +12,22 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [tomcat](../tomcat)
 * [resteasy](../resteasy)
 * [storage-devices](../storage-devices)
+* [apache-commons](../apache-commons)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
-* [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
-* [java](../java)
-* [perl](../perl)
+* [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [pki top-level package set](pki.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this pki module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
-| `apache-commons-cli` | X | X | X | X | X | X | X |
 | `audit-libs-python` | X | X | X | X | X | X | X |
 | `jakarta-commons-httpclient` | X | X | X | X | X | X | X |
 | `javassist` | X | X | X | X | X | X | X |
 | `ldapjdk` | X | X | X | X | X | X | X |
-| `libselinux-python` | X | X | X | X | X | X | X |
-| `libsemanage-python` | X | X | X | X | X | X | X |
 | `net-tools` | X | X | X | X | X | X | X |
 | `nss-tools` | X | X | X | X | X | X | X |
 | `nuxwdog` | X | X | X | X | X | X | X |
@@ -44,17 +39,15 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `pki-kra` | X | X | X | X | X | X | X |
 | `pki-server` | X | X | X | X | X | X | X |
 | `pki-tools` | X | X | X | X | X | X | X |
-| `policycoreutils-python` | X | X | X | X | X | X | X |
-| `python2-cssselect` | X | X | X | X | X | X | X |
-| `python2-html5lib` | X | X | X | X | X | X | X |
 | `python2-IPy` | X | X | X | X | X | X | X |
-| `python2-lxml` | X | X | X | X | X | X | X |
+| `python2-ldap` | X | X | X | X | X | X | X |
+| `python2-libselinux` | X | X | X | X | X | X | X |
+| `python2-libsemanage` | X | X | X | X | X | X | X |
+| `python2-nss` | X | X | X | X | X | X | X |
+| `python2-policycoreutils` | X | X | X | X | X | X | X |
 | `python2-pyasn1` | X | X | X | X | X | X | X |
 | `python2-pyasn1-modules` | X | X | X | X | X | X | X |
-| `python-beautifulsoup4` | X | X | X | X | X | X | X |
-| `python-ldap` | X | X | X | X | X | X | X |
-| `python-nss` | X | X | X | X | X | X | X |
-| `setools-python` | X | X | X | X | X | X | X |
+| `python2-setools` | X | X | X | X | X | X | X |
 | `slf4j` | X | X | X | X | X | X | X |
 | `slf4j-jdk14` | X | X | X | X | X | X | X |
 | `velocity` | X | X | X | X | X | X | X |

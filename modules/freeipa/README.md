@@ -23,14 +23,10 @@ This list might not be complete. There might be other packages in the *Binary RP
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
-* [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
-* [389-ds](../389-ds)
-* [autotools](../autotools)
-* [perl](../perl)
+* [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this freeipa module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
@@ -41,9 +37,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `bind-dyndb-ldap` | X | X | X | X | X | X | X |
 | `certmonger` | X | X | X | X | X | X | X |
 | `custodia` | X | X | X | X | X | X | X |
-| `dbus-python` | X | X | X | X | X | X | X |
 | `fontawesome-fonts` | X | X | X | X | X | X | X |
-| `fontpackages-filesystem` | X | X | X | X | X | X | X |
 | `freeipa-client` | X | X | X | X | X | X | X |
 | `freeipa-client-common` | X | X | X | X | X | X | X |
 | `freeipa-common` | X | X | X | X | X | X | X |
@@ -53,6 +47,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `freeipa-server-common` | X | X | X | X | X | X | X |
 | `freeipa-server-dns` | X | X | X | X | X | X | X |
 | `freeipa-server-trust-ad` | X | X | X | X | X | X | X |
+| `hesiod` | X | X | X | X | X | X | X |
 | `ldns` | X | X | X | X | X | X | X |
 | `libitm` | X | X | X | X | X | X | X |
 | `m2crypto` | X | X | X | X | X | X | X |
@@ -71,12 +66,17 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python2-configparser` | X | X | X | X | X | X | X |
 | `python2-custodia` | X | X | X | X | X | X | X |
 | `python2-dateutil` | X | X | X | X | X | X | X |
+| `python2-dbus` | X | X | X | X | X | X | X |
 | `python2-decorator` | X | X | X | X | X | X | X |
+| `python2-gssapi` | X | X | X | X | X | X | X |
 | `python2-ipaclient` | X | X | X | X | X | X | X |
 | `python2-ipalib` | X | X | X | X | X | X | X |
 | `python2-ipaserver` | X | X | X | X | X | X | X |
+| `python2-jwcrypto` | X | X | X | X | X | X | X |
 | `python2-kdcproxy` | X | X | X | X | X | X | X |
+| `python2-netaddr` | X | X | X | X | X | X | X |
 | `python2-netifaces` | X | X | X | X | X | X | X |
+| `python2-pyusb` | X | X | X | X | X | X | X |
 | `python2-systemd` | X | X | X | X | X | X | X |
 | `python2-typing` | X | X | X | X | X | X | X |
 | `python2-yubico` | X | X | X | X | X | X | X |
@@ -93,11 +93,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python3-requests` | X | X | X | X | X | X | X |
 | `python3-systemd` | X | X | X | X | X | X | X |
 | `python3-urllib3` | X | X | X | X | X | X | X |
-| `python-gssapi` | X | X | X | X | X | X | X |
-| `python-jwcrypto` | X | X | X | X | X | X | X |
-| `python-netaddr` | X | X | X | X | X | X | X |
 | `python-qrcode-core` | X | X | X | X | X | X | X |
-| `pyusb` | X | X | X | X | X | X | X |
 | `slapi-nis` | X | X | X | X | X | X | X |
 | `softhsm` | X | X | X | X | X | X | X |
 | `sqlite` | X | X | X | X | X | X | X |
