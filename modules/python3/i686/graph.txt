@@ -1,7 +1,6 @@
   "curl-minimal" -> "libcurl-minimal";
   "libX11" -> "libX11-common";
   "libX11" -> "libxcb";
-  "libxcb" -> "curl-minimal";
   "libxcb" -> "libXau";
   "libXft" -> "libX11";
   "libXft" -> "libXrender";
@@ -15,6 +14,7 @@
   "python3-devel" -> "python3-rpm-generators";
   "python3-devel" -> "python3-rpm-macros";
   "python3-devel" -> "python-rpm-macros";
+  "python3-test" -> "curl-minimal";
   "python3-test" -> "python3-tools";
   "python3-tkinter" -> "libX11";
   "python3-tkinter" -> "tk";

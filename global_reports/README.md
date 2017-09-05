@@ -32,7 +32,7 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**hardware-support**](../modules/hardware-support) | **0** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **12** pkgs | [**2** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
 | [**installer**](../modules/installer) | **67** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
-| [**java**](../modules/java) | **26** pkgs | [**0** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
+| [**java**](../modules/java) | **13** pkgs | [**0** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **2** pkgs | [**0** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
 | [**networking-base**](../modules/networking-base) | **39** pkgs | [**1** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
 | [**perl**](../modules/perl) | **139** pkgs | [**0** pkgs missing](../modules/perl/all/buildtime-binary-packages-short.txt) |

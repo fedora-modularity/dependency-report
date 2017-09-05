@@ -9,6 +9,7 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
 * [fonts](../fonts)
+* [X11-base](../X11-base)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -26,19 +27,6 @@ These are RPM dependencies of the [java top-level package set](java.csv). They s
 | `java-1.8.0-openjdk-devel` | X | X | X | X | X | X | X |
 | `java-1.8.0-openjdk-headless` | X | X | X | X | X | X | X |
 | `javapackages-tools` | X | X | X | X | X | X | X |
-| `libfontenc` | X | X | X | X | X | X | X |
-| `libICE` | X | X | X | X | X | X | X |
-| `libSM` | X | X | X | X | X | X | X |
-| `libX11` | X | X | X | X | X | X | X |
-| `libX11-common` | X | X | X | X | X | X | X |
-| `libXau` | X | X | X | X | X | X | X |
-| `libxcb` | X | X | X | X | X | X | X |
-| `libXcomposite` | X | X | X | X | X | X | X |
-| `libXext` | X | X | X | X | X | X | X |
-| `libXfont` | X | X | X | X | X | X | X |
-| `libXi` | X | X | X | X | X | X | X |
-| `libXrender` | X | X | X | X | X | X | X |
-| `libXtst` | X | X | X | X | X | X | X |
 | `lua` | X | X | X | X | X | X | X |
 | `lua-posix` | X | X | X | X | X | X | X |
 | `ttmkfdir` | X | X | X | X | X | X | X |
