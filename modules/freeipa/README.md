@@ -29,6 +29,11 @@ Please see the **missing RPM build dependencies ([source](all/buildtime-source-p
 * [bootstrap](../bootstrap)
 * [389-ds](../389-ds)
 * [bind](../bind)
+* [sssd](../sssd)
+* [python2](../python2)
+* [python2-ecosystem](../python2-ecosystem)
+* [python3](../python3)
+* [python3-ecosystem](../python3-ecosystem)
 ## Binary RPM packages
 These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). They should be either:
 * split into other modules and be used as modular dependencies

@@ -44,6 +44,11 @@ digraph G {
   "freeipa" -> "bootstrap" [color="#aa0000"];
   "freeipa" -> "389-ds" [color="#aa0000"];
   "freeipa" -> "bind" [color="#aa0000"];
+  "freeipa" -> "sssd" [color="#aa0000"];
+  "freeipa" -> "python2" [color="#aa0000"];
+  "freeipa" -> "python2-ecosystem" [color="#aa0000"];
+  "freeipa" -> "python3" [color="#aa0000"];
+  "freeipa" -> "python3-ecosystem" [color="#aa0000"];
   "hardware-support" -> "platform" [color="#009900"];
   "hardware-support" -> "platform-placeholder" [color="#009900"];
   "hardware-support" -> "bootstrap" [color="#aa0000"];
