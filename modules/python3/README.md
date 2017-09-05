@@ -9,6 +9,7 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
 * [fonts](../fonts)
+* [X11-base](../X11-base)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -21,12 +22,6 @@ These are RPM dependencies of the [python3 top-level package set](python3.csv). 
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
 | `curl-minimal` | X | X | X | X | X | X | X |
-| `libX11` | X | X | X | X | X | X | X |
-| `libX11-common` | X | X | X | X | X | X | X |
-| `libXau` | X | X | X | X | X | X | X |
-| `libxcb` | X | X | X | X | X | X | X |
-| `libXft` | X | X | X | X | X | X | X |
-| `libXrender` | X | X | X | X | X | X | X |
 | `python3-debug` | X | X | X | X | X | X | X |
 | `python3-devel` | X | X | X | X | X | X | X |
 | `python3-rpm-generators` | X | X | X | X | X | X | X |

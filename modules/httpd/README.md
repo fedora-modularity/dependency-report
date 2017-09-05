@@ -8,6 +8,8 @@ These are modules identified as dependencies.
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
+* [python2](../python2)
+* [python2-ecosystem](../python2-ecosystem)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -31,15 +33,5 @@ These are RPM dependencies of the [httpd top-level package set](httpd.csv). They
 | `mod_session` | X | X | X | X | X | X | X |
 | `mod_wsgi` | X | X | X | X | X | X | X |
 | `nss-tools` | X | X | X | X | X | X | X |
-| `python2-asn1crypto` | X | X | X | X | X | X | X |
-| `python2-cffi` | X | X | X | X | X | X | X |
-| `python2-cryptography` | X | X | X | X | X | X | X |
-| `python2-enum34` | X | X | X | X | X | X | X |
-| `python2-idna` | X | X | X | X | X | X | X |
-| `python2-ipaddress` | X | X | X | X | X | X | X |
 | `python2-ndg_httpsclient` | X | X | X | X | X | X | X |
-| `python2-ply` | X | X | X | X | X | X | X |
 | `python2-pyasn1` | X | X | X | X | X | X | X |
-| `python2-pycparser` | X | X | X | X | X | X | X |
-| `python2-pyOpenSSL` | X | X | X | X | X | X | X |
-| `python2-six` | X | X | X | X | X | X | X |

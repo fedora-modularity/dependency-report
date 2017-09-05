@@ -12,6 +12,7 @@ data:
         requires:
             platform: master
             fonts: master
+            X11-base: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python3
@@ -40,21 +41,6 @@ data:
                 - python3-wheel
     components:
         rpms:
-            libX11:
-                rationale: Generated.
-                ref: f27
-            libXau:
-                rationale: Generated.
-                ref: f27
-            libxcb:
-                rationale: Generated.
-                ref: f27
-            libXft:
-                rationale: Generated.
-                ref: f27
-            libXrender:
-                rationale: Generated.
-                ref: f27
             python-rpm-generators:
                 rationale: Generated.
                 ref: f27

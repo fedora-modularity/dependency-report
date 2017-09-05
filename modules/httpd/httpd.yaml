@@ -11,6 +11,8 @@ data:
             bootstrap: master
         requires:
             platform: master
+            python2: master
+            python2-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/httpd
@@ -63,36 +65,9 @@ data:
             mod_wsgi:
                 rationale: Generated.
                 ref: f27
-            pyOpenSSL:
-                rationale: Generated.
-                ref: f27
-            python-asn1crypto:
-                rationale: Generated.
-                ref: f27
-            python-cffi:
-                rationale: Generated.
-                ref: f27
-            python-cryptography:
-                rationale: Generated.
-                ref: f27
-            python-enum34:
-                rationale: Generated.
-                ref: f27
-            python-idna:
-                rationale: Generated.
-                ref: f27
-            python-ipaddress:
-                rationale: Generated.
-                ref: f27
             python-ndg_httpsclient:
                 rationale: Generated.
                 ref: f27
-            python-ply:
-                rationale: Generated.
-                ref: f27
             python-pyasn1:
-                rationale: Generated.
-                ref: f27
-            python-pycparser:
                 rationale: Generated.
                 ref: f27

@@ -475,11 +475,17 @@
       1 libverto
       1 libverto-libev
       1 libwbclient
+      1 libX11
+      1 libX11-common
+      1 libXau
+      1 libxcb
       1 libXcomposite
       1 libXext
       1 libXfont
+      1 libXft
       1 libXi
       1 libxml2
+      1 libXrender
       1 libxslt
       1 libXtst
       1 libyaml
@@ -613,6 +619,7 @@
       1 publicsuffix-list-dafsa
       1 pycryptopp
       1 python2
+      1 python2-asn1crypto
       1 python2-augeas
       1 python2-babel
       1 python2-backports
@@ -620,12 +627,14 @@
       1 python2-beautifulsoup4
       1 python2-blockdev
       1 python2-bytesize
+      1 python2-cffi
       1 python2-chardet
       1 python2-cherrypy
       1 python2-click
       1 python2-configparser
       1 python2-coverage
       1 python2-crypto
+      1 python2-cryptography
       1 python2-cssselect
       1 python2-custodia
       1 python2-dateutil
@@ -634,11 +643,14 @@
       1 python2-decorator
       1 python2-devel
       1 python2-dns
+      1 python2-enum34
       1 python2-flask
       1 python2-gssapi
       1 python2-html5lib
+      1 python2-idna
       1 python2-iniparse
       1 python2-ipaclient
+      1 python2-ipaddress
       1 python2-ipalib
       1 python2-ipaserver
       1 python2-iscsi-initiator-utils
@@ -665,9 +677,12 @@
       1 python2-paste
       1 python2-pecan
       1 python2-pip
+      1 python2-ply
       1 python2-policycoreutils
       1 python2-prettytable
       1 python2-pyasn1-modules
+      1 python2-pycparser
+      1 python2-pyOpenSSL
       1 python2-pyparsing
       1 python2-pysocks
       1 python2-pytz
@@ -681,6 +696,7 @@
       1 python2-setuptools
       1 python2-simplegeneric
       1 python2-singledispatch
+      1 python2-six
       1 python2-sss
       1 python2-sssdconfig
       1 python2-sss-murmur
@@ -1072,19 +1088,9 @@
       2 perl-URI
       2 perl-utils
       2 perl-version
-      2 python2-asn1crypto
-      2 python2-cffi
-      2 python2-cryptography
-      2 python2-enum34
-      2 python2-idna
-      2 python2-ipaddress
       2 python2-IPy
       2 python2-libsemanage
-      2 python2-ply
       2 python2-pyasn1
-      2 python2-pycparser
-      2 python2-pyOpenSSL
-      2 python2-six
       2 python3-asn1crypto
       2 python3-bind
       2 python3-bytesize
@@ -1118,12 +1124,6 @@
       3 authconfig
       3 freetype
       3 libpng
-      3 libX11
-      3 libX11-common
-      3 libXau
-      3 libxcb
-      3 libXft
-      3 libXrender
       3 nss-tools
       3 python3-pyparsing
       3 python3-sssdconfig

@@ -47,6 +47,8 @@ digraph G {
   "hardware-support" -> "bootstrap" [color="#aa0000"];
   "httpd" -> "platform" [color="#009900"];
   "httpd" -> "platform-placeholder" [color="#009900"];
+  "httpd" -> "python2" [color="#009900"];
+  "httpd" -> "python2-ecosystem" [color="#009900"];
   "httpd" -> "bootstrap" [color="#aa0000"];
   "installer" -> "platform" [color="#009900"];
   "installer" -> "platform-placeholder" [color="#009900"];
@@ -84,6 +86,7 @@ digraph G {
   "python2" -> "platform" [color="#009900"];
   "python2" -> "platform-placeholder" [color="#009900"];
   "python2" -> "fonts" [color="#009900"];
+  "python2" -> "X11-base" [color="#009900"];
   "python2" -> "bootstrap" [color="#aa0000"];
   "python2-ecosystem" -> "platform" [color="#009900"];
   "python2-ecosystem" -> "platform-placeholder" [color="#009900"];
@@ -92,6 +95,7 @@ digraph G {
   "python3" -> "platform" [color="#009900"];
   "python3" -> "platform-placeholder" [color="#009900"];
   "python3" -> "fonts" [color="#009900"];
+  "python3" -> "X11-base" [color="#009900"];
   "python3" -> "bootstrap" [color="#aa0000"];
   "python3-bootstrap" -> "platform" [color="#009900"];
   "python3-bootstrap" -> "platform-placeholder" [color="#009900"];

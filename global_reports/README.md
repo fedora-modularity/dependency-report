@@ -30,7 +30,7 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**fonts**](../modules/fonts) | **6** pkgs | [**0** pkgs missing](../modules/fonts/all/buildtime-binary-packages-short.txt) |
 | [**freeipa**](../modules/freeipa) | **56** pkgs | [**20** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**hardware-support**](../modules/hardware-support) | **0** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
-| [**httpd**](../modules/httpd) | **24** pkgs | [**0** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
+| [**httpd**](../modules/httpd) | **14** pkgs | [**0** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
 | [**installer**](../modules/installer) | **67** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | **13** pkgs | [**0** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **2** pkgs | [**0** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
@@ -40,9 +40,9 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**platform**](../modules/platform) | **445** pkgs | [**0** pkgs missing](../modules/platform/all/buildtime-binary-packages-short.txt) |
 | [**platform-placeholder**](../modules/platform-placeholder) | **223** pkgs | [**0** pkgs missing](../modules/platform-placeholder/all/buildtime-binary-packages-short.txt) |
 | [**postgresql**](../modules/postgresql) | **8** pkgs | [**0** pkgs missing](../modules/postgresql/all/buildtime-binary-packages-short.txt) |
-| [**python2**](../modules/python2) | **18** pkgs | [**0** pkgs missing](../modules/python2/all/buildtime-binary-packages-short.txt) |
+| [**python2**](../modules/python2) | **12** pkgs | [**0** pkgs missing](../modules/python2/all/buildtime-binary-packages-short.txt) |
 | [**python2-ecosystem**](../modules/python2-ecosystem) | **29** pkgs | [**0** pkgs missing](../modules/python2-ecosystem/all/buildtime-binary-packages-short.txt) |
-| [**python3**](../modules/python3) | **17** pkgs | [**0** pkgs missing](../modules/python3/all/buildtime-binary-packages-short.txt) |
+| [**python3**](../modules/python3) | **11** pkgs | [**0** pkgs missing](../modules/python3/all/buildtime-binary-packages-short.txt) |
 | [**python3-bootstrap**](../modules/python3-bootstrap) | **0** pkgs | [**0** pkgs missing](../modules/python3-bootstrap/all/buildtime-binary-packages-short.txt) |
 | [**python3-ecosystem**](../modules/python3-ecosystem) | **22** pkgs | [**0** pkgs missing](../modules/python3-ecosystem/all/buildtime-binary-packages-short.txt) |
 | [**python3-ecosystem-bootstrap**](../modules/python3-ecosystem-bootstrap) | **0** pkgs | [**0** pkgs missing](../modules/python3-ecosystem-bootstrap/all/buildtime-binary-packages-short.txt) |
