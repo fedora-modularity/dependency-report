@@ -34,7 +34,12 @@ These are RPM dependencies of the [389-ds top-level package set](389-ds.csv). Th
 | `GeoIP` | X | X | X | X | X | X | X |
 | `GeoIP-GeoLite-data` | X | X | X | X | X | X | X |
 | `gperftools-libs` | X | X | X | - | - | - | X |
+| `nspr-devel` | X | X | X | X | X | X | X |
+| `nss-devel` | X | X | X | X | X | X | X |
+| `nss-softokn-devel` | X | X | X | X | X | X | X |
+| `nss-softokn-freebl-devel` | X | X | X | X | X | X | X |
 | `nss-tools` | X | X | X | X | X | X | X |
+| `nss-util-devel` | X | X | X | X | X | X | X |
 | `openldap-clients` | X | X | X | X | X | X | X |
 | `perl-Mozilla-LDAP` | X | X | X | X | X | X | X |
 | `perl-NetAddr-IP` | X | X | X | X | X | X | X |
@@ -42,3 +47,4 @@ These are RPM dependencies of the [389-ds top-level package set](389-ds.csv). Th
 | `python2-libsemanage` | X | X | X | X | X | X | X |
 | `python3-bind` | X | X | X | X | X | X | X |
 | `svrcore` | X | X | X | X | X | X | X |
+| `svrcore-devel` | X | X | X | X | X | X | X |

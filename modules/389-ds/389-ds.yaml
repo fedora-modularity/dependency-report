@@ -23,12 +23,14 @@ data:
         rpms:
             - 389-ds-base
             - 389-ds-base-libs
+            - svrcore-devel
     profiles:
         default:
             description: A generated profile based on top-lvl package list.
             rpms:
                 - 389-ds-base
                 - 389-ds-base-libs
+                - svrcore-devel
     components:
         rpms:
             389-ds-base:

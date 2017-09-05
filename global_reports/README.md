@@ -23,7 +23,7 @@ For more details **individual modules** and **architecture-specific** informatio
 
 | Module | RPM components | RPMs missing in buildroot |
 |---|---|---|
-| [**389-ds**](../modules/389-ds) | **19** pkgs | [**1** pkgs missing](../modules/389-ds/all/buildtime-binary-packages-short.txt) |
+| [**389-ds**](../modules/389-ds) | **25** pkgs | [**0** pkgs missing](../modules/389-ds/all/buildtime-binary-packages-short.txt) |
 | [**apache-commons**](../modules/apache-commons) | **18** pkgs | [**1** pkgs missing](../modules/apache-commons/all/buildtime-binary-packages-short.txt) |
 | [**autotools**](../modules/autotools) | **3** pkgs | [**0** pkgs missing](../modules/autotools/all/buildtime-binary-packages-short.txt) |
 | [**bind**](../modules/bind) | **11** pkgs | [**0** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |

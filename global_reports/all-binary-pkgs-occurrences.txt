@@ -576,13 +576,18 @@ newt                                 networking-base
 nfs-utils                            platform
 npth                                 platform
 nspr                                 platform, storage-devices
+nspr-devel                           389-ds
 nss                                  platform, storage-devices
+nss-devel                            389-ds
 nss-pem                              platform, storage-devices
 nss-softokn                          platform, storage-devices
+nss-softokn-devel                    389-ds
 nss-softokn-freebl                   platform, storage-devices
+nss-softokn-freebl-devel             389-ds
 nss-sysinit                          platform, storage-devices
 nss-tools                            389-ds, httpd, pki
 nss-util                             platform, storage-devices
+nss-util-devel                       389-ds
 ntfs-3g                              udisks2
 ntfsprogs                            udisks2
 ntp                                  freeipa
@@ -1058,6 +1063,7 @@ stax2-api                            resteasy
 stax-ex                              resteasy
 sudo                                 platform
 svrcore                              389-ds
+svrcore-devel                        389-ds
 sysfsutils                           platform-placeholder
 syslinux                             platform
 syslinux-extlinux                    platform
