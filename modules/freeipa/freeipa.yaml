@@ -22,6 +22,10 @@ data:
             resteasy: master
             httpd: master
             storage-devices: master
+            python2: master
+            python2-ecosystem: master
+            python3: master
+            python3-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/freeipa
@@ -119,9 +123,6 @@ data:
                 rationale: Generated.
                 ref: f27
             python-dateutil:
-                rationale: Generated.
-                ref: f27
-            python-decorator:
                 rationale: Generated.
                 ref: f27
             python-gssapi:

@@ -7,7 +7,10 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
+            bootstrap: master
         requires:
+            platform: master
+            python2: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python2-ecosystem
@@ -60,127 +63,10 @@ data:
                 - python2-urllib3
     components:
         rpms:
-            acl:
-                rationale: Generated.
-                ref: f27
-            attr:
-                rationale: Generated.
-                ref: f27
-            basesystem:
-                rationale: Generated.
-                ref: f27
-            bash:
-                rationale: Generated.
-                ref: f27
-            bzip2:
-                rationale: Generated.
-                ref: f27
-            ca-certificates:
-                rationale: Generated.
-                ref: f27
-            chkconfig:
-                rationale: Generated.
-                ref: f27
-            coreutils:
-                rationale: Generated.
-                ref: f27
-            crypto-policies:
-                rationale: Generated.
-                ref: f27
-            expat:
-                rationale: Generated.
-                ref: f27
-            fedora-release:
-                rationale: Generated.
-                ref: f27
-            fedora-repos:
-                rationale: Generated.
-                ref: f27
-            filesystem:
-                rationale: Generated.
-                ref: f27
-            gc:
-                rationale: Generated.
-                ref: f27
-            gcc:
-                rationale: Generated.
-                ref: f27
-            gdbm:
-                rationale: Generated.
-                ref: f27
-            glibc:
-                rationale: Generated.
-                ref: f27
-            gmp:
-                rationale: Generated.
-                ref: f27
-            grep:
-                rationale: Generated.
-                ref: f27
-            guile:
-                rationale: Generated.
-                ref: f27
-            libatomic_ops:
-                rationale: Generated.
-                ref: f27
-            libbytesize:
-                rationale: Generated.
-                ref: f27
-            libcap:
-                rationale: Generated.
-                ref: f27
-            libdb:
-                rationale: Generated.
-                ref: f27
-            libffi:
-                rationale: Generated.
-                ref: f27
-            libselinux:
-                rationale: Generated.
-                ref: f27
-            libsepol:
-                rationale: Generated.
-                ref: f27
-            libtasn1:
-                rationale: Generated.
-                ref: f27
-            libtool:
-                rationale: Generated.
-                ref: f27
-            libunistring:
-                rationale: Generated.
-                ref: f27
-            make:
-                rationale: Generated.
-                ref: f27
-            mpfr:
-                rationale: Generated.
-                ref: f27
-            ncurses:
-                rationale: Generated.
-                ref: f27
-            openssl:
-                rationale: Generated.
-                ref: f27
-            p11-kit:
-                rationale: Generated.
-                ref: f27
-            pcre:
-                rationale: Generated.
-                ref: f27
-            pcre2:
-                rationale: Generated.
-                ref: f27
-            popt:
-                rationale: Generated.
-                ref: f27
             pyOpenSSL:
                 rationale: Generated.
                 ref: f27
             pyparsing:
-                rationale: Generated.
-                ref: f27
-            python2:
                 rationale: Generated.
                 ref: f27
             python-asn1crypto:
@@ -213,19 +99,10 @@ data:
             python-idna:
                 rationale: Generated.
                 ref: f27
-            python-iniparse:
-                rationale: Generated.
-                ref: f27
             python-ipaddress:
                 rationale: Generated.
                 ref: f27
-            python-IPy:
-                rationale: Generated.
-                ref: f27
             python-ordered-set:
-                rationale: Generated.
-                ref: f27
-            python-pip:
                 rationale: Generated.
                 ref: f27
             python-ply:
@@ -246,36 +123,9 @@ data:
             python-requests-ftp:
                 rationale: Generated.
                 ref: f27
-            python-setuptools:
-                rationale: Generated.
-                ref: f27
-            python-six:
-                rationale: Generated.
-                ref: f27
             python-urllib3:
                 rationale: Generated.
                 ref: f27
             pytz:
-                rationale: Generated.
-                ref: f27
-            readline:
-                rationale: Generated.
-                ref: f27
-            sed:
-                rationale: Generated.
-                ref: f27
-            setup:
-                rationale: Generated.
-                ref: f27
-            sqlite:
-                rationale: Generated.
-                ref: f27
-            texinfo:
-                rationale: Generated.
-                ref: f27
-            tzdata:
-                rationale: Generated.
-                ref: f27
-            zlib:
                 rationale: Generated.
                 ref: f27

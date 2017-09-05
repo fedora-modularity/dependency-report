@@ -1,18 +1,10 @@
-  "aajohan-comfortaa-fonts" -> "fontpackages-filesystem";
-  "fontconfig" -> "aajohan-comfortaa-fonts";
-  "fontconfig" -> "fontpackages-filesystem";
-  "fontconfig" -> "freetype";
-  "freetype" -> "libpng";
   "libSM" -> "libICE";
   "libX11" -> "libX11-common";
   "libX11" -> "libxcb";
   "libxcb" -> "libXau";
   "libXcomposite" -> "libX11";
   "libXext" -> "libX11";
-  "libXfont" -> "freetype";
   "libXfont" -> "libfontenc";
-  "libXft" -> "fontconfig";
-  "libXft" -> "freetype";
   "libXft" -> "libX11";
   "libXft" -> "libXrender";
   "libXi" -> "libX11";

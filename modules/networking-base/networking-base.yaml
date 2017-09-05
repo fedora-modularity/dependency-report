@@ -11,6 +11,8 @@ data:
         requires:
             platform: master
             perl: master
+            python3: master
+            python3-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/networking-base
@@ -109,9 +111,6 @@ data:
                 rationale: Generated.
                 ref: f27
             newt:
-                rationale: Generated.
-                ref: f27
-            python-decorator:
                 rationale: Generated.
                 ref: f27
             python-slip:

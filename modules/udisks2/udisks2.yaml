@@ -1,0 +1,64 @@
+document: modulemd
+version: 1
+data:
+    summary: udisks2 module
+    description: This udisks2 module has been generated.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: master
+        requires:
+            platform: master
+            krb5: master
+            python3: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/udisks2
+        tracker: https://github.com/modularity-modules/udisks2
+    api:
+        rpms:
+            - libudisks2
+            - libudisks2-devel
+            - udisks2
+            - udisks2-bcache
+            - udisks2-btrfs
+            - udisks2-debugsource
+            - udisks2-iscsi
+            - udisks2-lsm
+            - udisks2-lvm2
+            - udisks2-zram
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - libudisks2
+                - libudisks2-devel
+                - udisks2
+                - udisks2-bcache
+                - udisks2-btrfs
+                - udisks2-debugsource
+                - udisks2-iscsi
+                - udisks2-lsm
+                - udisks2-lvm2
+                - udisks2-zram
+    components:
+        rpms:
+            libatasmart:
+                rationale: Generated.
+                ref: f27
+            libgudev:
+                rationale: Generated.
+                ref: f27
+            libstoragemgmt:
+                rationale: Generated.
+                ref: f27
+            ntfs-3g:
+                rationale: Generated.
+                ref: f27
+            udisks2:
+                rationale: Generated.
+                ref: f27
+            yajl:
+                rationale: Generated.
+                ref: f27

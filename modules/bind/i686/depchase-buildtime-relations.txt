@@ -27,11 +27,6 @@ GeoIP-1.6.11-3.fc27.src
 ├─gcc                                                    gcc-7.1.1-7.fc27.1.i686
 └─sed                                                    sed-4.4-3.fc27.i686
 GeoIP-GeoLite-data-2017.08-1.fc27.src                    
-python-ply-3.9-4.fc27.src                                
-├─python2-devel                                          python2-devel-2.7.13-17.fc27.i686
-├─python3-devel                                          python3-devel-3.6.2-11.fc27.i686
-├─python3-setuptools                                     python3-setuptools-36.2.0-7.fc28.noarch
-└─python2-setuptools                                     python2-setuptools-36.2.0-7.fc28.noarch
 GeoIP-devel-1.6.11-3.fc27.i686                           
 ├─/usr/bin/pkg-config                                    pkgconf-pkg-config-1.3.8-1.fc27.i686
 ├─libGeoIP.so.1                                          GeoIP-1.6.11-3.fc27.i686
@@ -303,22 +298,6 @@ zlib-devel-1.2.11-4.fc27.i686
 ├─/usr/bin/pkg-config                                    pkgconf-pkg-config-1.3.8-1.fc27.i686
 ├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
 └─zlib(x86-32) = 1.2.11-4.fc27                           zlib-1.2.11-4.fc27.i686
-python2-devel-2.7.13-17.fc27.i686                        
-├─/bin/sh                                                bash-4.4.12-10.fc28.i686
-├─/usr/bin/pkg-config                                    pkgconf-pkg-config-1.3.8-1.fc27.i686
-├─pkgconfig                                              pkgconf-pkg-config-1.3.8-1.fc27.i686
-├─libpython2.7.so.1.0                                    python2-libs-2.7.13-17.fc27.i686
-├─/usr/bin/python2.7                                     python2-2.7.13-17.fc27.i686
-├─python-rpm-macros                                      python-rpm-macros-3-22.fc27.noarch
-├─python3-rpm-generators                                 python3-rpm-generators-4.13.0.1-4.fc28.noarch
-├─python2-rpm-macros                                     python2-rpm-macros-3-22.fc27.noarch
-└─python2(x86-32) = 2.7.13-17.fc27                       python2-2.7.13-17.fc27.i686
-python2-setuptools-36.2.0-7.fc28.noarch                  
-├─/usr/bin/python2                                       python2-2.7.13-17.fc27.i686
-└─python(abi) = 2.7                                      python2-2.7.13-17.fc27.i686
-python3-setuptools-36.2.0-7.fc28.noarch                  
-├─/usr/bin/python3                                       python3-3.6.2-11.fc27.i686
-└─python(abi) = 3.6                                      python3-3.6.2-11.fc27.i686
 GeoIP-1.6.11-3.fc27.i686                                 
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
 ├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
@@ -1300,66 +1279,6 @@ guile-5:2.0.14-3.fc27.i686
 ├─libffi.so.6                                            libffi-3.1-14.fc27.i686
 ├─libgc.so.1                                             gc-7.6.0-7.fc27.i686
 └─libunistring.so.2                                      libunistring-0.9.7-3.fc27.i686
-python-rpm-macros-3-22.fc27.noarch                       
-└─python-srpm-macros                                     python-srpm-macros-3-22.fc27.noarch
-python2-2.7.13-17.fc27.i686                              
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
-├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
-├─libc.so.6(GLIBC_2.1.3)                                 glibc-2.26.90-9.fc28.i686
-├─libpython2.7.so.1.0                                    python2-libs-2.7.13-17.fc27.i686
-├─libutil.so.1                                           glibc-2.26.90-9.fc28.i686
-├─python2-setuptools                                     python2-setuptools-36.2.0-7.fc28.noarch
-├─python2-pip                                            python2-pip-9.0.1-11.fc27.noarch
-└─python2-libs(x86-32) = 2.7.13-17.fc27                  python2-libs-2.7.13-17.fc27.i686
-python2-libs-2.7.13-17.fc27.i686                         
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
-├─/bin/sh                                                bash-4.4.12-10.fc28.i686
-├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
-├─libm.so.6(GLIBC_2.0)                                   glibc-2.26.90-9.fc28.i686
-├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
-├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
-├─libm.so.6(GLIBC_2.1)                                   glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0(GLIBC_2.1)                             glibc-2.26.90-9.fc28.i686
-├─libc.so.6(GLIBC_2.15)                                  glibc-2.26.90-9.fc28.i686
-├─libdl.so.2(GLIBC_2.0)                                  glibc-2.26.90-9.fc28.i686
-├─/usr/bin/env                                           coreutils-8.27-16.fc28.i686
-├─libdl.so.2(GLIBC_2.1)                                  glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0(GLIBC_2.2)                             glibc-2.26.90-9.fc28.i686
-├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
-├─libutil.so.1                                           glibc-2.26.90-9.fc28.i686
-├─libtinfo.so.6                                          ncurses-libs-6.0-13.20170722.fc27.i686
-├─libssl.so.1.1                                          openssl-libs-1:1.1.0f-9.fc27.i686
-├─libcrypto.so.1.1(OPENSSL_1_1_0)                        openssl-libs-1:1.1.0f-9.fc27.i686
-├─libcrypt.so.1                                          libcrypt-2.26.90-9.fc28.i686
-├─libsqlite3.so.0                                        sqlite-libs-3.20.0-2.fc28.i686
-├─libexpat.so.1                                          expat-2.2.4-1.fc28.i686
-├─libnsl.so.1                                            glibc-2.26.90-9.fc28.i686
-├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
-├─libssl.so.1.1(OPENSSL_1_1_0)                           openssl-libs-1:1.1.0f-9.fc27.i686
-├─libreadline.so.7                                       readline-7.0-7.fc27.i686
-├─libz.so.1(ZLIB_1.2.0)                                  zlib-1.2.11-4.fc27.i686
-├─libutil.so.1(GLIBC_2.0)                                glibc-2.26.90-9.fc28.i686
-├─libcrypt.so.1(GLIBC_2.0)                               libcrypt-2.26.90-9.fc28.i686
-├─libncursesw.so.6                                       ncurses-libs-6.0-13.20170722.fc27.i686
-├─libffi.so.6                                            libffi-3.1-14.fc27.i686
-├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
-├─libpthread.so.0(GLIBC_2.1.1)                           glibc-2.26.90-9.fc28.i686
-├─libgdbm.so.4                                           gdbm-1.13-3.fc27.i686
-├─libnsl.so.1(GLIBC_2.0)                                 glibc-2.26.90-9.fc28.i686
-├─libpanelw.so.6                                         ncurses-libs-6.0-13.20170722.fc27.i686
-├─libgdbm_compat.so.4                                    gdbm-1.13-3.fc27.i686
-├─expat >= 2.1.0                                         expat-2.2.4-1.fc28.i686
-└─glibc(x86-32) >= 2.24.90-26                            glibc-2.26.90-9.fc28.i686
-python2-rpm-macros-3-22.fc27.noarch                      
-python3-rpm-generators-4.13.0.1-4.fc28.noarch            
-├─/bin/bash                                              bash-4.4.12-10.fc28.i686
-├─/usr/bin/python3                                       python3-3.6.2-11.fc27.i686
-├─python3-setuptools                                     python3-setuptools-36.2.0-7.fc28.noarch
-└─rpm                                                    rpm-4.13.90-0.git14002.7.fc28.i686
 GeoIP-GeoLite-data-2017.08-1.fc27.noarch                 
 └─/bin/sh                                                bash-4.4.12-10.fc28.i686
 filesystem-3.3-3.fc27.i686                               
@@ -1792,38 +1711,6 @@ libtool-ltdl-2.4.6-20.fc27.i686
 libunistring-0.9.7-3.fc27.i686                           
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
 └─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
-python-srpm-macros-3-22.fc27.noarch                      
-python2-pip-9.0.1-11.fc27.noarch                         
-├─/usr/bin/python2                                       python2-2.7.13-17.fc27.i686
-├─python-setuptools                                      python2-setuptools-36.2.0-7.fc28.noarch
-└─python(abi) = 2.7                                      python2-2.7.13-17.fc27.i686
-rpm-4.13.90-0.git14002.7.fc28.i686                       
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
-├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
-├─/bin/sh                                                bash-4.4.12-10.fc28.i686
-├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
-├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
-├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
-├─/bin/bash                                              bash-4.4.12-10.fc28.i686
-├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
-├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
-├─coreutils                                              coreutils-8.27-16.fc28.i686
-├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
-├─libpopt.so.0                                           popt-1.16-11.fc27.i686
-├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
-├─libpopt.so.0(LIBPOPT_0)                                popt-1.16-11.fc27.i686
-├─libcap.so.2                                            libcap-2.25-7.fc27.i686
-├─liblua-5.3.so                                          lua-libs-5.3.4-5.fc27.i686
-├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
-├─librpm.so.8                                            rpm-libs-4.13.90-0.git14002.7.fc28.i686
-├─libarchive.so.13                                       libarchive-3.3.1-3.fc27.i686
-├─libelf.so.1                                            elfutils-libelf-0.170-1.fc27.i686
-├─librpmio.so.8                                          rpm-libs-4.13.90-0.git14002.7.fc28.i686
-├─curl                                                   curl-minimal-7.55.1-3.fc28.i686
-├─/usr/bin/db_stat                                       libdb-utils-5.3.28-26.fc27.i686
-└─popt(x86-32) >= 1.10.2.1                               popt-1.16-11.fc27.i686
 ncurses-base-6.0-13.20170722.fc27.noarch                 
 perl-Pod-Perldoc-3.28-395.fc27.noarch                    
 ├─perl(strict)                                           perl-libs-4:5.26.0-399.fc28.i686
@@ -1991,74 +1878,6 @@ popt-1.16-11.fc27.i686
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
 └─libc.so.6(GLIBC_2.8)                                   glibc-2.26.90-9.fc28.i686
 kernel-headers-4.13.0-0.rc6.git4.1.fc28.i686             
-libarchive-3.3.1-3.fc27.i686                             
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
-├─libxml2.so.2                                           libxml2-2.9.4-5.fc28.i686
-├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
-├─libxml2.so.2(LIBXML2_2.4.30)                           libxml2-2.9.4-5.fc28.i686
-├─libcrypto.so.1.1(OPENSSL_1_1_0)                        openssl-libs-1:1.1.0f-9.fc27.i686
-├─libxml2.so.2(LIBXML2_2.6.0)                            libxml2-2.9.4-5.fc28.i686
-├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
-├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
-├─libc.so.6(GLIBC_2.16)                                  glibc-2.26.90-9.fc28.i686
-├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
-├─liblzma.so.5(XZ_5.0)                                   xz-libs-5.2.3-4.fc27.i686
-├─libxml2.so.2(LIBXML2_2.5.0)                            libxml2-2.9.4-5.fc28.i686
-├─libacl.so.1(ACL_1.0)                                   libacl-2.2.52-18.fc27.i686
-├─libxml2.so.2(LIBXML2_2.5.2)                            libxml2-2.9.4-5.fc28.i686
-├─libxml2.so.2(LIBXML2_2.6.5)                            libxml2-2.9.4-5.fc28.i686
-├─liblz4.so.1                                            lz4-libs-1.8.0-1.fc28.i686
-└─liblzma.so.5(XZ_5.2)                                   xz-libs-5.2.3-4.fc27.i686
-libdb-utils-5.3.28-26.fc27.i686                          
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
-├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
-└─libdb(x86-32) = 5.3.28-26.fc27                         libdb-5.3.28-26.fc27.i686
-lua-libs-5.3.4-5.fc27.i686                               
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
-├─libm.so.6(GLIBC_2.0)                                   glibc-2.26.90-9.fc28.i686
-├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
-├─libm.so.6(GLIBC_2.1)                                   glibc-2.26.90-9.fc28.i686
-├─libdl.so.2(GLIBC_2.0)                                  glibc-2.26.90-9.fc28.i686
-├─libdl.so.2(GLIBC_2.1)                                  glibc-2.26.90-9.fc28.i686
-└─libc.so.6(GLIBC_2.11)                                  glibc-2.26.90-9.fc28.i686
-rpm-libs-4.13.90-0.git14002.7.fc28.i686                  
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
-├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
-├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
-├─libpthread.so.0(GLIBC_2.1)                             glibc-2.26.90-9.fc28.i686
-├─libdl.so.2(GLIBC_2.0)                                  glibc-2.26.90-9.fc28.i686
-├─libdl.so.2(GLIBC_2.1)                                  glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0(GLIBC_2.2)                             glibc-2.26.90-9.fc28.i686
-├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
-├─libcrypto.so.1.1(OPENSSL_1_1_0)                        openssl-libs-1:1.1.0f-9.fc27.i686
-├─libc.so.6(GLIBC_2.17)                                  glibc-2.26.90-9.fc28.i686
-├─ld-linux.so.2                                          glibc-2.26.90-9.fc28.i686
-├─ld-linux.so.2(GLIBC_2.3)                               glibc-2.26.90-9.fc28.i686
-├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
-├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
-├─libpopt.so.0                                           popt-1.16-11.fc27.i686
-├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
-├─libpopt.so.0(LIBPOPT_0)                                popt-1.16-11.fc27.i686
-├─libcap.so.2                                            libcap-2.25-7.fc27.i686
-├─liblua-5.3.so                                          lua-libs-5.3.4-5.fc27.i686
-├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
-├─liblzma.so.5(XZ_5.0)                                   xz-libs-5.2.3-4.fc27.i686
-├─libz.so.1(ZLIB_1.2.3.3)                                zlib-1.2.11-4.fc27.i686
-├─libacl.so.1(ACL_1.0)                                   libacl-2.2.52-18.fc27.i686
-├─libelf.so.1                                            elfutils-libelf-0.170-1.fc27.i686
-├─libelf.so.1(ELFUTILS_1.0)                              elfutils-libelf-0.170-1.fc27.i686
-├─liblzma.so.5(XZ_5.2)                                   xz-libs-5.2.3-4.fc27.i686
-├─rpm = 4.13.90-0.git14002.7.fc28                        rpm-4.13.90-0.git14002.7.fc28.i686
-├─rpm-plugin-selinux(x86-32) = 4.13.90-0.git14002.7.fc28 rpm-plugin-selinux-4.13.90-0.git14002.7.fc28.i686
-└─libcap(x86-32) >= 2.16                                 libcap-2.25-7.fc27.i686
 groff-base-1.22.3-11.fc27.i686                           
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
 ├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
@@ -2168,27 +1987,6 @@ nss-softokn-freebl-3.32.0-4.fc27.i686
 ├─libdl.so.2(GLIBC_2.0)                                  glibc-2.26.90-9.fc28.i686
 ├─libdl.so.2(GLIBC_2.1)                                  glibc-2.26.90-9.fc28.i686
 └─/bin/bash                                              bash-4.4.12-10.fc28.i686
-rpm-plugin-selinux-4.13.90-0.git14002.7.fc28.i686        
-├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
-├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
-├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
-├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
-├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
-├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
-├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
-├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
-├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
-├─libselinux.so.1                                        libselinux-2.7-3.fc28.i686
-├─libpopt.so.0                                           popt-1.16-11.fc27.i686
-├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
-├─libcap.so.2                                            libcap-2.25-7.fc27.i686
-├─liblua-5.3.so                                          lua-libs-5.3.4-5.fc27.i686
-├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
-├─librpm.so.8                                            rpm-libs-4.13.90-0.git14002.7.fc28.i686
-├─libelf.so.1                                            elfutils-libelf-0.170-1.fc27.i686
-├─librpmio.so.8                                          rpm-libs-4.13.90-0.git14002.7.fc28.i686
-└─rpm-libs(x86-32) = 4.13.90-0.git14002.7.fc28           rpm-libs-4.13.90-0.git14002.7.fc28.i686
 perl-MIME-Base64-3.15-395.fc27.i686                      
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
 ├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
@@ -2234,6 +2032,13 @@ python3-devel-3.6.2-11.fc27.i686
 ├─python3-rpm-macros                                     python3-rpm-macros-3-22.fc27.noarch
 ├─python3 = 3.6.2-11.fc27                                python3-3.6.2-11.fc27.i686
 └─python3-libs(x86-32) = 3.6.2-11.fc27                   python3-libs-3.6.2-11.fc27.i686
+python-rpm-macros-3-22.fc27.noarch                       
+└─python-srpm-macros                                     python-srpm-macros-3-22.fc27.noarch
+python3-rpm-generators-4.13.0.1-4.fc28.noarch            
+├─/bin/bash                                              bash-4.4.12-10.fc28.i686
+├─/usr/bin/python3                                       python3-3.6.2-11.fc27.i686
+├─python3-setuptools                                     python3-setuptools-36.2.0-7.fc28.noarch
+└─rpm                                                    rpm-4.13.90-0.git14002.7.fc28.i686
 python3-rpm-macros-3-22.fc27.noarch                      
 python3-3.6.2-11.fc27.i686                               
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
@@ -2289,10 +2094,130 @@ python3-libs-3.6.2-11.fc27.i686
 ├─libutil.so.1(GLIBC_2.0)                                glibc-2.26.90-9.fc28.i686
 ├─expat >= 2.1.0                                         expat-2.2.4-1.fc28.i686
 └─glibc(x86-32) >= 2.24.90-26                            glibc-2.26.90-9.fc28.i686
+python-srpm-macros-3-22.fc27.noarch                      
+python3-setuptools-36.2.0-7.fc28.noarch                  
+├─/usr/bin/python3                                       python3-3.6.2-11.fc27.i686
+└─python(abi) = 3.6                                      python3-3.6.2-11.fc27.i686
+rpm-4.13.90-0.git14002.7.fc28.i686                       
+├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
+├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
+├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
+├─/bin/sh                                                bash-4.4.12-10.fc28.i686
+├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
+├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
+├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
+├─/bin/bash                                              bash-4.4.12-10.fc28.i686
+├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
+├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
+├─coreutils                                              coreutils-8.27-16.fc28.i686
+├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
+├─libpopt.so.0                                           popt-1.16-11.fc27.i686
+├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
+├─libpopt.so.0(LIBPOPT_0)                                popt-1.16-11.fc27.i686
+├─libcap.so.2                                            libcap-2.25-7.fc27.i686
+├─liblua-5.3.so                                          lua-libs-5.3.4-5.fc27.i686
+├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
+├─librpm.so.8                                            rpm-libs-4.13.90-0.git14002.7.fc28.i686
+├─libarchive.so.13                                       libarchive-3.3.1-3.fc27.i686
+├─libelf.so.1                                            elfutils-libelf-0.170-1.fc27.i686
+├─librpmio.so.8                                          rpm-libs-4.13.90-0.git14002.7.fc28.i686
+├─curl                                                   curl-minimal-7.55.1-3.fc28.i686
+├─/usr/bin/db_stat                                       libdb-utils-5.3.28-26.fc27.i686
+└─popt(x86-32) >= 1.10.2.1                               popt-1.16-11.fc27.i686
 python3-pip-9.0.1-11.fc27.noarch                         
 ├─/usr/bin/python3                                       python3-3.6.2-11.fc27.i686
 ├─python3-setuptools                                     python3-setuptools-36.2.0-7.fc28.noarch
 └─python(abi) = 3.6                                      python3-3.6.2-11.fc27.i686
+libarchive-3.3.1-3.fc27.i686                             
+├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
+├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
+├─libxml2.so.2                                           libxml2-2.9.4-5.fc28.i686
+├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
+├─libxml2.so.2(LIBXML2_2.4.30)                           libxml2-2.9.4-5.fc28.i686
+├─libcrypto.so.1.1(OPENSSL_1_1_0)                        openssl-libs-1:1.1.0f-9.fc27.i686
+├─libxml2.so.2(LIBXML2_2.6.0)                            libxml2-2.9.4-5.fc28.i686
+├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
+├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
+├─libc.so.6(GLIBC_2.16)                                  glibc-2.26.90-9.fc28.i686
+├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
+├─liblzma.so.5(XZ_5.0)                                   xz-libs-5.2.3-4.fc27.i686
+├─libxml2.so.2(LIBXML2_2.5.0)                            libxml2-2.9.4-5.fc28.i686
+├─libacl.so.1(ACL_1.0)                                   libacl-2.2.52-18.fc27.i686
+├─libxml2.so.2(LIBXML2_2.5.2)                            libxml2-2.9.4-5.fc28.i686
+├─libxml2.so.2(LIBXML2_2.6.5)                            libxml2-2.9.4-5.fc28.i686
+├─liblz4.so.1                                            lz4-libs-1.8.0-1.fc28.i686
+└─liblzma.so.5(XZ_5.2)                                   xz-libs-5.2.3-4.fc27.i686
+libdb-utils-5.3.28-26.fc27.i686                          
+├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
+├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
+├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
+└─libdb(x86-32) = 5.3.28-26.fc27                         libdb-5.3.28-26.fc27.i686
+lua-libs-5.3.4-5.fc27.i686                               
+├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
+├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
+├─libm.so.6(GLIBC_2.0)                                   glibc-2.26.90-9.fc28.i686
+├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
+├─libm.so.6(GLIBC_2.1)                                   glibc-2.26.90-9.fc28.i686
+├─libdl.so.2(GLIBC_2.0)                                  glibc-2.26.90-9.fc28.i686
+├─libdl.so.2(GLIBC_2.1)                                  glibc-2.26.90-9.fc28.i686
+└─libc.so.6(GLIBC_2.11)                                  glibc-2.26.90-9.fc28.i686
+rpm-libs-4.13.90-0.git14002.7.fc28.i686                  
+├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
+├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
+├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
+├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
+├─libpthread.so.0(GLIBC_2.1)                             glibc-2.26.90-9.fc28.i686
+├─libdl.so.2(GLIBC_2.0)                                  glibc-2.26.90-9.fc28.i686
+├─libdl.so.2(GLIBC_2.1)                                  glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0(GLIBC_2.2)                             glibc-2.26.90-9.fc28.i686
+├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
+├─libcrypto.so.1.1(OPENSSL_1_1_0)                        openssl-libs-1:1.1.0f-9.fc27.i686
+├─libc.so.6(GLIBC_2.17)                                  glibc-2.26.90-9.fc28.i686
+├─ld-linux.so.2                                          glibc-2.26.90-9.fc28.i686
+├─ld-linux.so.2(GLIBC_2.3)                               glibc-2.26.90-9.fc28.i686
+├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
+├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
+├─libpopt.so.0                                           popt-1.16-11.fc27.i686
+├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
+├─libpopt.so.0(LIBPOPT_0)                                popt-1.16-11.fc27.i686
+├─libcap.so.2                                            libcap-2.25-7.fc27.i686
+├─liblua-5.3.so                                          lua-libs-5.3.4-5.fc27.i686
+├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
+├─liblzma.so.5(XZ_5.0)                                   xz-libs-5.2.3-4.fc27.i686
+├─libz.so.1(ZLIB_1.2.3.3)                                zlib-1.2.11-4.fc27.i686
+├─libacl.so.1(ACL_1.0)                                   libacl-2.2.52-18.fc27.i686
+├─libelf.so.1                                            elfutils-libelf-0.170-1.fc27.i686
+├─libelf.so.1(ELFUTILS_1.0)                              elfutils-libelf-0.170-1.fc27.i686
+├─liblzma.so.5(XZ_5.2)                                   xz-libs-5.2.3-4.fc27.i686
+├─rpm = 4.13.90-0.git14002.7.fc28                        rpm-4.13.90-0.git14002.7.fc28.i686
+├─rpm-plugin-selinux(x86-32) = 4.13.90-0.git14002.7.fc28 rpm-plugin-selinux-4.13.90-0.git14002.7.fc28.i686
+└─libcap(x86-32) >= 2.16                                 libcap-2.25-7.fc27.i686
+rpm-plugin-selinux-4.13.90-0.git14002.7.fc28.i686        
+├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
+├─libc.so.6(GLIBC_2.4)                                   glibc-2.26.90-9.fc28.i686
+├─libm.so.6                                              glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686
+├─libpthread.so.0(GLIBC_2.0)                             glibc-2.26.90-9.fc28.i686
+├─libdl.so.2                                             glibc-2.26.90-9.fc28.i686
+├─libz.so.1                                              zlib-1.2.11-4.fc27.i686
+├─libcrypto.so.1.1                                       openssl-libs-1:1.1.0f-9.fc27.i686
+├─liblzma.so.5                                           xz-libs-5.2.3-4.fc27.i686
+├─libbz2.so.1                                            bzip2-libs-1.0.6-24.fc27.i686
+├─libselinux.so.1                                        libselinux-2.7-3.fc28.i686
+├─libpopt.so.0                                           popt-1.16-11.fc27.i686
+├─libdb-5.3.so                                           libdb-5.3.28-26.fc27.i686
+├─libcap.so.2                                            libcap-2.25-7.fc27.i686
+├─liblua-5.3.so                                          lua-libs-5.3.4-5.fc27.i686
+├─libacl.so.1                                            libacl-2.2.52-18.fc27.i686
+├─librpm.so.8                                            rpm-libs-4.13.90-0.git14002.7.fc28.i686
+├─libelf.so.1                                            elfutils-libelf-0.170-1.fc27.i686
+├─librpmio.so.8                                          rpm-libs-4.13.90-0.git14002.7.fc28.i686
+└─rpm-libs(x86-32) = 4.13.90-0.git14002.7.fc28           rpm-libs-4.13.90-0.git14002.7.fc28.i686
 p11-kit-trust-0.23.8-2.fc28.i686                         
 ├─rtld(GNU_HASH)                                         glibc-2.26.90-9.fc28.i686
 ├─libpthread.so.0                                        glibc-2.26.90-9.fc28.i686

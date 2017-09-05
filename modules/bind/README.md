@@ -8,6 +8,8 @@ These are modules identified as dependencies.
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
+* [python3](../python3)
+* [python3-ecosystem](../python3-ecosystem)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -30,4 +32,3 @@ These are RPM dependencies of the [bind top-level package set](bind.csv). They s
 | `GeoIP` | X | X | X | X | X | X | X |
 | `GeoIP-GeoLite-data` | X | X | X | X | X | X | X |
 | `python3-bind` | X | X | X | X | X | X | X |
-| `python3-ply` | X | X | X | X | X | X | X |

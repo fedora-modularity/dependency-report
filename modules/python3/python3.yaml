@@ -10,6 +10,7 @@ data:
             bootstrap: master
         requires:
             platform: master
+            fonts: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python3
@@ -40,21 +41,6 @@ data:
                 - python3-wheel
     components:
         rpms:
-            aajohan-comfortaa-fonts:
-                rationale: Generated.
-                ref: f27
-            fontconfig:
-                rationale: Generated.
-                ref: f27
-            fontpackages:
-                rationale: Generated.
-                ref: f27
-            freetype:
-                rationale: Generated.
-                ref: f27
-            libpng:
-                rationale: Generated.
-                ref: f27
             libX11:
                 rationale: Generated.
                 ref: f27

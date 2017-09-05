@@ -20,6 +20,10 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [resteasy](../resteasy)
 * [httpd](../httpd)
 * [storage-devices](../storage-devices)
+* [python2](../python2)
+* [python2-ecosystem](../python2-ecosystem)
+* [python3](../python3)
+* [python3-ecosystem](../python3-ecosystem)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -67,7 +71,6 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python2-custodia` | X | X | X | X | X | X | X |
 | `python2-dateutil` | X | X | X | X | X | X | X |
 | `python2-dbus` | X | X | X | X | X | X | X |
-| `python2-decorator` | X | X | X | X | X | X | X |
 | `python2-gssapi` | X | X | X | X | X | X | X |
 | `python2-ipaclient` | X | X | X | X | X | X | X |
 | `python2-ipalib` | X | X | X | X | X | X | X |
@@ -80,19 +83,9 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python2-systemd` | X | X | X | X | X | X | X |
 | `python2-typing` | X | X | X | X | X | X | X |
 | `python2-yubico` | X | X | X | X | X | X | X |
-| `python3-asn1crypto` | X | X | X | X | X | X | X |
-| `python3-cffi` | X | X | X | X | X | X | X |
-| `python3-chardet` | X | X | X | X | X | X | X |
-| `python3-cryptography` | X | X | X | X | X | X | X |
 | `python3-custodia` | X | X | X | X | X | X | X |
-| `python3-idna` | X | X | X | X | X | X | X |
 | `python3-jwcrypto` | X | X | X | X | X | X | X |
-| `python3-pycparser` | X | X | X | X | X | X | X |
-| `python3-pyOpenSSL` | X | X | X | X | X | X | X |
-| `python3-pysocks` | X | X | X | X | X | X | X |
-| `python3-requests` | X | X | X | X | X | X | X |
 | `python3-systemd` | X | X | X | X | X | X | X |
-| `python3-urllib3` | X | X | X | X | X | X | X |
 | `python-qrcode-core` | X | X | X | X | X | X | X |
 | `slapi-nis` | X | X | X | X | X | X | X |
 | `softhsm` | X | X | X | X | X | X | X |

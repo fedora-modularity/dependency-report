@@ -9,6 +9,8 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
 * [perl](../perl)
+* [python2](../python2)
+* [python2-ecosystem](../python2-ecosystem)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -30,7 +32,6 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `ceph-selinux` | X | X | X | X | X | X | X |
 | `cryptopp` | X | X | X | X | X | X | X |
 | `cryptsetup` | X | X | X | X | X | X | X |
-| `curl-minimal` | X | X | X | X | X | X | X |
 | `gperftools-libs` | X | X | X | X | X | - | X |
 | `leveldb` | X | X | X | X | X | X | X |
 | `libcephfs2` | X | X | X | X | X | X | X |
@@ -40,22 +41,14 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `librgw2` | X | X | X | X | X | X | X |
 | `lttng-ust` | X | X | X | X | X | X | - |
 | `pycryptopp` | X | X | X | X | X | X | X |
-| `python2-asn1crypto` | X | X | X | X | X | X | X |
 | `python2-babel` | X | X | X | X | X | X | X |
-| `python2-backports` | X | X | X | X | X | X | X |
 | `python2-beaker` | X | X | X | X | X | X | X |
 | `python2-beautifulsoup4` | X | X | X | X | X | X | X |
-| `python2-cffi` | X | X | X | X | X | X | X |
-| `python2-chardet` | X | X | X | X | X | X | X |
 | `python2-cherrypy` | X | X | X | X | X | X | X |
 | `python2-click` | X | X | X | X | X | X | X |
-| `python2-cryptography` | X | X | X | X | X | X | X |
 | `python2-cssselect` | X | X | X | X | X | X | X |
-| `python2-enum34` | X | X | X | X | X | X | X |
 | `python2-flask` | X | X | X | X | X | X | X |
 | `python2-html5lib` | X | X | X | X | X | X | X |
-| `python2-idna` | X | X | X | X | X | X | X |
-| `python2-ipaddress` | X | X | X | X | X | X | X |
 | `python2-itsdangerous` | X | X | X | X | X | X | X |
 | `python2-jinja2` | X | X | X | X | X | X | X |
 | `python2-logutils` | X | X | X | X | X | X | X |
@@ -64,23 +57,14 @@ These are RPM dependencies of the [storage-devices top-level package set](storag
 | `python2-markupsafe` | X | X | X | X | X | X | X |
 | `python2-paste` | X | X | X | X | X | X | X |
 | `python2-pecan` | X | X | X | X | X | X | X |
-| `python2-ply` | X | X | X | X | X | X | X |
 | `python2-prettytable` | X | X | X | X | X | X | X |
-| `python2-pycparser` | X | X | X | X | X | X | X |
-| `python2-pyOpenSSL` | X | X | X | X | X | X | X |
-| `python2-pysocks` | X | X | X | X | X | X | X |
-| `python2-pytz` | X | X | X | X | X | X | X |
-| `python2-requests` | X | X | X | X | X | X | X |
 | `python2-simplegeneric` | X | X | X | X | X | X | X |
 | `python2-singledispatch` | X | X | X | X | X | X | X |
-| `python2-six` | X | X | X | X | X | X | X |
 | `python2-tempita` | X | X | X | X | X | X | X |
-| `python2-urllib3` | X | X | X | X | X | X | X |
 | `python2-waitress` | X | X | X | X | X | X | X |
 | `python2-webencodings` | X | X | X | X | X | X | X |
 | `python2-webob` | X | X | X | X | X | X | X |
 | `python2-webtest` | X | X | X | X | X | X | X |
-| `python-backports-ssl_match_hostname` | X | X | X | X | X | X | X |
 | `python-cephfs` | X | X | X | X | X | X | X |
 | `python-rados` | X | X | X | X | X | X | X |
 | `python-rbd` | X | X | X | X | X | X | X |

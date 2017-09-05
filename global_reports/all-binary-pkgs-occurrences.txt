@@ -1,6 +1,6 @@
 389-ds-base                          389-ds
 389-ds-base-libs                     389-ds
-aajohan-comfortaa-fonts              fonts, python3, X11-base
+aajohan-comfortaa-fonts              fonts
 acl                                  platform
 alsa-lib                             platform
 anaconda-core                        installer
@@ -28,8 +28,8 @@ autofs                               freeipa
 autogen-libopts                      freeipa
 automake                             autotools
 avahi-libs                           samba, systemtap
-basesystem                           platform, python2-ecosystem
-bash                                 platform, python2-ecosystem
+basesystem                           platform
+bash                                 platform
 bc                                   platform
 bcache-tools                         platform-placeholder
 bea-stax-api                         resteasy
@@ -56,8 +56,8 @@ boost-thread                         systemtap
 btrfs-progs                          platform
 byacc                                platform
 bzip2                                platform
-bzip2-libs                           platform, python2-ecosystem
-ca-certificates                      platform, python2-ecosystem
+bzip2-libs                           platform
+ca-certificates                      platform
 c-ares                               platform
 ceph                                 storage-devices
 ceph-base                            storage-devices
@@ -69,7 +69,7 @@ ceph-osd                             storage-devices
 ceph-selinux                         storage-devices
 certmonger                           freeipa
 checkpolicy                          platform
-chkconfig                            platform, python2-ecosystem
+chkconfig                            platform
 chrony                               installer
 chrpath                              platform
 cmake-filesystem                     platform-placeholder
@@ -78,21 +78,21 @@ cockpit-system                       platform
 cockpit-ws                           platform
 compat-openssl10                     platform
 copy-jdk-configs                     apache-commons, java
-coreutils                            platform, python2-ecosystem
-coreutils-common                     platform, python2-ecosystem
+coreutils                            platform
+coreutils-common                     platform
 cpio                                 platform
 cpp                                  platform
 cracklib                             platform
 cracklib-dicts                       installer
 createrepo_c                         installer
 createrepo_c-libs                    installer
-crypto-policies                      platform, python2-ecosystem
+crypto-policies                      platform
 cryptopp                             storage-devices
 cryptsetup                           storage-devices
 cryptsetup-libs                      platform
 cups-libs                            samba
 curl                                 platform
-curl-minimal                         installer, networking-base, python2, python3, storage-devices, systemtap
+curl-minimal                         installer, python2, python3, systemtap
 custodia                             freeipa
 cyrus-sasl-gssapi                    389-ds, sssd
 cyrus-sasl-lib                       platform
@@ -142,18 +142,18 @@ elfutils-libelf                      platform
 elfutils-libs                        platform
 emacs-filesystem                     platform
 ethtool                              platform
-expat                                platform, python2-ecosystem
+expat                                platform
 fbset                                platform
 fcoe-utils                           platform
 fedora-logos-httpd                   httpd
-fedora-release                       platform, python2-ecosystem
-fedora-repos                         platform, python2-ecosystem
-fedora-repos-rawhide                 platform, python2-ecosystem
+fedora-release                       platform
+fedora-repos                         platform
+fedora-repos-rawhide                 platform
 fedora-rpm-macros                    platform
 fedpkg-minimal                       platform
 file                                 platform
 file-libs                            platform
-filesystem                           platform, python2-ecosystem
+filesystem                           platform
 findutils                            platform
 fipscheck                            platform
 fipscheck-lib                        platform
@@ -161,8 +161,8 @@ firewalld                            installer, networking-base
 firewalld-filesystem                 installer, networking-base
 flex                                 platform
 fontawesome-fonts                    fonts, freeipa
-fontconfig                           fonts, python3, X11-base
-fontpackages-filesystem              fonts, python3, X11-base
+fontconfig                           fonts
+fontpackages-filesystem              fonts
 fpc-srpm-macros                      platform
 freeipa-client                       freeipa
 freeipa-client-common                freeipa
@@ -173,14 +173,14 @@ freeipa-server                       freeipa
 freeipa-server-common                freeipa
 freeipa-server-dns                   freeipa
 freeipa-server-trust-ad              freeipa
-freetype                             apache-commons, fonts, platform, python3, X11-base
+freetype                             apache-commons, fonts, platform
 fuse-libs                            platform
 gawk                                 platform
-gc                                   platform, python2-ecosystem
+gc                                   platform
 gcc                                  platform
 gcc-c++                              platform
 gdb-headless                         platform
-gdbm                                 platform, python2-ecosystem
+gdbm                                 platform
 gdisk                                platform
 GeoIP                                389-ds, bind
 GeoIP-GeoLite-data                   389-ds, bind
@@ -195,15 +195,15 @@ glassfish-jaxb-runtime               resteasy
 glassfish-jaxb-txw2                  resteasy
 glib2                                platform
 glib2-devel                          platform-placeholder
-glibc                                platform, python2-ecosystem
+glibc                                platform
 glibc32                              platform
-glibc-common                         platform, python2-ecosystem
+glibc-common                         platform
 glibc-devel                          platform
 glibc-headers                        platform
 glibc-langpack-en                    installer
-glibc-minimal-langpack               platform, python2-ecosystem
+glibc-minimal-langpack               platform
 glib-networking                      platform
-gmp                                  platform, python2-ecosystem
+gmp                                  platform
 gnat-srpm-macros                     platform
 gnupg                                platform
 gnupg2                               platform
@@ -213,7 +213,7 @@ go-srpm-macros                       platform
 gpart                                platform
 gperftools-libs                      storage-devices
 gpgme                                platform
-grep                                 platform, python2-ecosystem
+grep                                 platform
 groff-base                           perl, platform-placeholder
 grub2-common                         platform
 grub2-efi-aa64                       platform
@@ -238,7 +238,7 @@ grub2-tools-minimal                  platform
 grubby                               platform
 gsettings-desktop-schemas            platform
 gssproxy                             platform
-guile                                platform, python2-ecosystem
+guile                                platform
 gzip                                 platform
 hesiod                               freeipa
 hfsplus-tools                        platform
@@ -252,7 +252,7 @@ httpd-tools                          httpd
 http-parser                          sssd
 hwdata                               platform
 icu                                  platform
-info                                 platform, python2-ecosystem
+info                                 platform
 initscripts                          platform
 ipcalc                               platform
 iproute                              platform
@@ -321,15 +321,16 @@ ldapjdk                              pki
 ldns                                 freeipa
 less                                 platform
 leveldb                              storage-devices
-libacl                               platform, python2-ecosystem
+libacl                               platform
 libaio                               platform
 libaio-devel                         platform-placeholder
 libarchive                           platform
 libasan                              platform
 libassuan                            platform
+libatasmart                          udisks2
 libatomic                            platform
-libatomic_ops                        platform, python2-ecosystem
-libattr                              platform, python2-ecosystem
+libatomic_ops                        platform
+libattr                              platform
 libbabeltrace                        platform
 libbasicobjects                      platform
 libblkid                             platform
@@ -363,8 +364,8 @@ libblockdev-swap                     platform-placeholder
 libblockdev-swap-devel               platform-placeholder
 libblockdev-utils                    platform
 libblockdev-utils-devel              platform-placeholder
-libbytesize                          platform-placeholder, python2-ecosystem
-libcap                               platform, python2-ecosystem
+libbytesize                          platform-placeholder
+libcap                               platform
 libcap-ng                            platform
 libcephfs2                           storage-devices
 libcgroup                            platform
@@ -375,10 +376,10 @@ libcomps                             platform
 libconfig                            platform
 libconfig-devel                      platform-placeholder
 libcroco                             platform
-libcrypt                             platform, python2-ecosystem
+libcrypt                             platform
 libcurl-minimal                      platform
 libdaemon                            platform
-libdb                                platform, python2-ecosystem
+libdb                                platform
 libdb-utils                          platform
 libdhash                             sssd
 libdnf                               platform
@@ -389,13 +390,13 @@ libev                                platform
 libevent                             platform
 libfastjson                          platform
 libfdisk                             platform
-libffi                               platform, python2-ecosystem
+libffi                               platform
 libfontenc                           java, X11-base
-libgcc                               platform, python2-ecosystem
+libgcc                               platform
 libgcrypt                            platform
 libgomp                              platform
 libgpg-error                         platform
-libgudev                             networking-base
+libgudev                             networking-base, udisks2
 libICE                               java, X11-base
 libicu                               platform
 libidn                               platform
@@ -432,7 +433,7 @@ libpciaccess                         platform
 libpciaccess-devel                   platform-placeholder
 libpeas                              platform
 libpkgconf                           platform
-libpng                               apache-commons, fonts, platform, python3, X11-base
+libpng                               apache-commons, fonts, platform
 libproxy                             platform
 libpsl                               installer, networking-base
 libpwquality                         platform
@@ -453,11 +454,11 @@ libreport-web                        installer
 librgw2                              storage-devices
 libseccomp                           platform
 libsecret                            platform
-libselinux                           platform, python2-ecosystem
+libselinux                           platform
 libselinux-devel                     platform-placeholder
 libselinux-utils                     platform
 libsemanage                          platform
-libsepol                             platform, python2-ecosystem
+libsepol                             platform
 libsepol-devel                       platform-placeholder
 libsigsegv                           platform
 libSM                                java, X11-base
@@ -471,12 +472,13 @@ libsss_autofs                        sssd
 libsss_certmap                       sssd
 libsss_idmap                         sssd
 libsss_nss_idmap                     sssd
-libstdc++                            platform, python2-ecosystem
+libstdc++                            platform
 libstdc++-devel                      platform
+libstoragemgmt                       udisks2
 libsysfs                             platform-placeholder
 libtalloc                            samba
 libtar                               installer
-libtasn1                             platform, python2-ecosystem
+libtasn1                             platform
 libtdb                               samba
 libteam                              installer, networking-base
 libtevent                            samba
@@ -485,9 +487,11 @@ libtirpc                             platform
 libtomcrypt                          samba
 libtommath                           samba
 libtool                              autotools
-libtool-ltdl                         platform, python2-ecosystem
+libtool-ltdl                         platform
 libubsan                             platform
-libunistring                         platform, python2-ecosystem
+libudisks2                           udisks2
+libudisks2-devel                     udisks2
+libunistring                         platform
 libunwind                            platform
 libusb                               platform
 libusbx                              platform
@@ -533,7 +537,7 @@ m2crypto                             freeipa
 m4                                   platform
 mactel-boot                          platform
 mailcap                              httpd
-make                                 platform, python2-ecosystem
+make                                 platform
 mariadb-connector-c                  networking-base, platform-placeholder
 mcstrans                             platform
 mdadm                                platform
@@ -548,12 +552,12 @@ mod_nss                              httpd
 mod_session                          httpd
 mod_wsgi                             httpd
 mokutil                              platform
-mpfr                                 platform, python2-ecosystem
+mpfr                                 platform
 mtools                               platform
 nano                                 platform
-ncurses                              platform, python2-ecosystem
-ncurses-base                         platform, python2-ecosystem
-ncurses-libs                         platform, python2-ecosystem
+ncurses                              platform
+ncurses-base                         platform
+ncurses-libs                         platform
 net-snmp                             networking-base, platform-placeholder
 net-snmp-agent-libs                  networking-base, platform-placeholder
 net-snmp-libs                        networking-base, platform-placeholder
@@ -579,6 +583,8 @@ nss-softokn-freebl                   platform
 nss-sysinit                          platform
 nss-tools                            389-ds, httpd, pki
 nss-util                             platform
+ntfs-3g                              udisks2
+ntfsprogs                            udisks2
 ntp                                  freeipa
 nuxwdog                              pki
 nuxwdog-client-java                  pki
@@ -599,19 +605,19 @@ open-sans-fonts                      freeipa
 openssh                              platform
 openssh-clients                      platform
 openssh-server                       platform
-openssl                              platform, python2-ecosystem
-openssl-libs                         platform, python2-ecosystem
+openssl                              platform
+openssl-libs                         platform
 os-prober                            platform
-p11-kit                              platform, python2-ecosystem
-p11-kit-trust                        platform, python2-ecosystem
+p11-kit                              platform
+p11-kit-trust                        platform
 pam                                  platform
 parted                               platform
 passwd                               platform
 patch                                platform
 pciutils                             platform
 pciutils-libs                        platform
-pcre                                 platform, python2-ecosystem
-pcre2                                platform, python2-ecosystem
+pcre                                 platform
+pcre2                                platform
 pcre-cpp                             platform-placeholder
 pcre-devel                           platform-placeholder
 pcre-utf16                           platform-placeholder
@@ -770,7 +776,7 @@ policycoreutils-newrole              platform
 policycoreutils-python3              platform
 policycoreutils-python-utils         platform
 polkit-libs                          platform
-popt                                 platform, python2-ecosystem
+popt                                 platform
 postgresql                           postgresql
 postgresql-contrib                   postgresql
 postgresql-devel                     postgresql
@@ -784,39 +790,39 @@ psmisc                               platform
 publicsuffix-list                    platform
 publicsuffix-list-dafsa              platform
 pycryptopp                           storage-devices
-python2                              platform-placeholder, python2-ecosystem
-python2-asn1crypto                   python2-ecosystem, storage-devices
+python2                              platform-placeholder
+python2-asn1crypto                   python2-ecosystem
 python2-augeas                       freeipa
 python2-babel                        storage-devices
-python2-backports                    python2-ecosystem, storage-devices
+python2-backports                    python2-ecosystem
 python2-beaker                       storage-devices
 python2-beautifulsoup4               storage-devices
 python2-blockdev                     platform-placeholder
 python2-bytesize                     python2-ecosystem
-python2-cffi                         python2-ecosystem, storage-devices
-python2-chardet                      python2-ecosystem, storage-devices
+python2-cffi                         python2-ecosystem
+python2-chardet                      python2-ecosystem
 python2-cherrypy                     storage-devices
 python2-click                        storage-devices
 python2-configparser                 freeipa
 python2-coverage                     python2-ecosystem
 python2-crypto                       samba
-python2-cryptography                 python2-ecosystem, storage-devices
+python2-cryptography                 python2-ecosystem
 python2-cssselect                    storage-devices
 python2-custodia                     freeipa
 python2-dateutil                     freeipa
 python2-dbus                         freeipa
 python2-debug                        python2
-python2-decorator                    freeipa, python2-ecosystem
+python2-decorator                    python2-ecosystem
 python2-devel                        python2
 python2-dns                          samba
-python2-enum34                       python2-ecosystem, storage-devices
+python2-enum34                       python2-ecosystem
 python2-flask                        storage-devices
 python2-gssapi                       freeipa
 python2-html5lib                     storage-devices
-python2-idna                         python2-ecosystem, storage-devices
+python2-idna                         python2-ecosystem
 python2-iniparse                     python2-ecosystem
 python2-ipaclient                    freeipa
-python2-ipaddress                    python2-ecosystem, storage-devices
+python2-ipaddress                    python2-ecosystem
 python2-ipalib                       freeipa
 python2-ipaserver                    freeipa
 python2-IPy                          pki, python2-ecosystem
@@ -829,7 +835,7 @@ python2-ldap                         pki
 python2-ldb                          samba
 python2-libipa_hbac                  sssd
 python2-libnl3                       platform-placeholder
-python2-libs                         platform-placeholder, python2-ecosystem
+python2-libs                         platform-placeholder
 python2-libselinux                   pki
 python2-libsemanage                  389-ds, pki
 python2-libsss_nss_idmap             sssd
@@ -843,28 +849,28 @@ python2-nss                          pki
 python2-ordered-set                  python2-ecosystem
 python2-paste                        storage-devices
 python2-pecan                        storage-devices
-python2-pip                          platform-placeholder, python2-ecosystem
-python2-ply                          python2-ecosystem, storage-devices
+python2-pip                          platform-placeholder
+python2-ply                          python2-ecosystem
 python2-policycoreutils              pki
 python2-prettytable                  storage-devices
 python2-pyasn1                       pki
 python2-pyasn1-modules               pki
-python2-pycparser                    python2-ecosystem, storage-devices
-python2-pyOpenSSL                    python2-ecosystem, storage-devices
+python2-pycparser                    python2-ecosystem
+python2-pyOpenSSL                    python2-ecosystem
 python2-pyparsing                    python2-ecosystem
-python2-pysocks                      python2-ecosystem, storage-devices
-python2-pytz                         python2-ecosystem, storage-devices
+python2-pysocks                      python2-ecosystem
+python2-pytz                         python2-ecosystem
 python2-pyusb                        freeipa
-python2-requests                     python2-ecosystem, storage-devices
+python2-requests                     python2-ecosystem
 python2-requests-file                python2-ecosystem
 python2-requests-ftp                 python2-ecosystem
 python2-rpm-macros                   python2
 python2-samba                        samba
 python2-setools                      pki
-python2-setuptools                   platform-placeholder, python2-ecosystem
+python2-setuptools                   platform-placeholder
 python2-simplegeneric                storage-devices
 python2-singledispatch               storage-devices
-python2-six                          python2-ecosystem, storage-devices
+python2-six                          python2-ecosystem
 python2-sss                          sssd
 python2-sssdconfig                   sssd
 python2-sss-murmur                   sssd
@@ -877,7 +883,7 @@ python2-tevent                       samba
 python2-tkinter                      python2
 python2-tools                        python2
 python2-typing                       freeipa
-python2-urllib3                      python2-ecosystem, storage-devices
+python2-urllib3                      python2-ecosystem
 python2-waitress                     storage-devices
 python2-webencodings                 storage-devices
 python2-webob                        storage-devices
@@ -885,26 +891,26 @@ python2-webtest                      storage-devices
 python2-wheel                        python2
 python2-yubico                       freeipa
 python3                              platform
-python3-asn1crypto                   freeipa, installer, python3-ecosystem
+python3-asn1crypto                   installer, python3-ecosystem
 python3-bind                         389-ds, bind
 python3-blivet                       installer
 python3-blockdev                     platform-placeholder
 python3-bytesize                     installer, python3-ecosystem
-python3-cffi                         freeipa, installer, python3-ecosystem
-python3-chardet                      freeipa, installer, python3-ecosystem
+python3-cffi                         installer, python3-ecosystem
+python3-chardet                      installer, python3-ecosystem
 python3-coverage                     installer, python3-ecosystem
-python3-cryptography                 freeipa, installer, python3-ecosystem
+python3-cryptography                 installer, python3-ecosystem
 python3-custodia                     freeipa
 python3-dbus                         platform-placeholder
 python3-debug                        python3
-python3-decorator                    installer, networking-base, python3-ecosystem
+python3-decorator                    installer, python3-ecosystem
 python3-devel                        python3
 python3-dnf                          platform
 python3-firewall                     installer, networking-base
 python3-gobject-base                 platform-placeholder
 python3-gpg                          platform
 python3-hawkey                       platform
-python3-idna                         freeipa, installer, python3-ecosystem
+python3-idna                         installer, python3-ecosystem
 python3-iniparse                     platform
 python3-IPy                          platform
 python3-iscsi-initiator-utils        platform-placeholder
@@ -917,22 +923,24 @@ python3-libreport                    installer
 python3-libs                         platform
 python3-libselinux                   platform
 python3-libsemanage                  platform
+python3-libstoragemgmt               udisks2
+python3-libstoragemgmt-clibs         udisks2
 python3-meh                          installer
 python3-ntplib                       installer
 python3-ordered-set                  installer, python3-ecosystem
 python3-pid                          installer
 python3-pip                          platform
-python3-ply                          389-ds, bind, installer, python3-ecosystem
+python3-ply                          installer, python3-ecosystem
 python3-pwquality                    installer
-python3-pycparser                    freeipa, installer, python3-ecosystem
+python3-pycparser                    installer, python3-ecosystem
 python3-pydbus                       installer
-python3-pyOpenSSL                    freeipa, installer, python3-ecosystem
+python3-pyOpenSSL                    installer, python3-ecosystem
 python3-pyparsing                    perl, platform-placeholder, python3-ecosystem
 python3-pyparted                     installer
-python3-pysocks                      freeipa, installer, python3-ecosystem
+python3-pysocks                      installer, python3-ecosystem
 python3-pytz                         installer, python3-ecosystem
 python3-pyudev                       platform-placeholder
-python3-requests                     freeipa, installer, python3-ecosystem
+python3-requests                     installer, python3-ecosystem
 python3-requests-file                installer, python3-ecosystem
 python3-requests-ftp                 installer, python3-ecosystem
 python3-rpm                          platform
@@ -948,10 +956,10 @@ python3-systemd                      freeipa, installer
 python3-test                         python3
 python3-tkinter                      python3
 python3-tools                        python3
-python3-urllib3                      freeipa, installer, python3-ecosystem
+python3-urllib3                      installer, python3-ecosystem
 python3-wheel                        python3
 python3-wrapt                        installer
-python-backports-ssl_match_hostname  python2-ecosystem, storage-devices
+python-backports-ssl_match_hostname  python2-ecosystem
 python-cephfs                        storage-devices
 python-gobject-base                  platform-placeholder
 python-qrcode-core                   freeipa
@@ -965,7 +973,7 @@ qrencode-libs                        platform
 qt5-srpm-macros                      platform
 quota                                platform
 quota-nls                            platform
-readline                             platform, python2-ecosystem
+readline                             platform
 realmd                               installer, networking-base
 redhat-rpm-config                    platform
 relaxngDatatype                      resteasy
@@ -1010,13 +1018,13 @@ samba-libs                           samba
 samba-winbind                        samba
 samba-winbind-modules                samba
 satyr                                installer
-sed                                  platform, python2-ecosystem
+sed                                  platform
 selinux-policy                       platform
 selinux-policy-minimum               platform
 selinux-policy-mls                   platform
 selinux-policy-sandbox               platform
 selinux-policy-targeted              platform
-setup                                platform, python2-ecosystem
+setup                                platform
 sg3_utils                            platform
 sg3_utils-libs                       platform
 sgml-common                          platform
@@ -1033,7 +1041,7 @@ snappy                               platform
 snappy-devel                         platform-placeholder
 softhsm                              freeipa
 sqlite                               freeipa
-sqlite-libs                          platform, python2-ecosystem
+sqlite-libs                          platform
 sssd                                 sssd
 sssd-ad                              sssd
 sssd-client                          sssd
@@ -1079,9 +1087,17 @@ tomcatjss                            tomcat
 tomcat-lib                           tomcat
 tomcat-servlet-3.1-api               tomcat
 ttmkfdir                             java
-tzdata                               platform, python2-ecosystem
+tzdata                               platform
 tzdata-java                          apache-commons, java
 uboot-tools                          platform
+udisks2                              udisks2
+udisks2-bcache                       udisks2
+udisks2-btrfs                        udisks2
+udisks2-debugsource                  udisks2
+udisks2-iscsi                        udisks2
+udisks2-lsm                          udisks2
+udisks2-lvm2                         udisks2
+udisks2-zram                         udisks2
 unzip                                platform
 usermode                             platform
 userspace-rcu                        platform
@@ -1108,6 +1124,7 @@ xorg-x11-font-utils                  java
 xsom                                 resteasy
 xz                                   platform
 xz-libs                              platform
+yajl                                 udisks2
 zip                                  platform
-zlib                                 platform, python2-ecosystem
+zlib                                 platform
 zstd                                 platform

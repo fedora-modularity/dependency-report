@@ -1,7 +1,6 @@
 strict digraph G {
 node [fontname=monospace];
   "authconfig" -> "python3-sssdconfig";
-  "curl-minimal" -> "libcurl-minimal";
   "firewalld" -> "firewalld-filesystem";
   "firewalld" -> "python3-firewall";
   "libmbim" -> "libgudev";
@@ -11,7 +10,6 @@ node [fontname=monospace];
   "libqmi-utils" -> "libgudev";
   "libqmi-utils" -> "libmbim";
   "libqmi-utils" -> "libqmi";
-  "mariadb-connector-c" -> "libcurl-minimal";
   "ModemManager" -> "libgudev";
   "ModemManager" -> "libmbim";
   "ModemManager" -> "libmbim-utils";
@@ -31,7 +29,6 @@ node [fontname=monospace];
   "NetworkManager-bluetooth" -> "ModemManager-glib";
   "NetworkManager-bluetooth" -> "NetworkManager";
   "NetworkManager-bluetooth" -> "NetworkManager-wwan";
-  "NetworkManager" -> "libcurl-minimal";
   "NetworkManager" -> "libndp";
   "NetworkManager" -> "libpsl";
   "NetworkManager" -> "NetworkManager-libnm";
@@ -47,12 +44,8 @@ node [fontname=monospace];
   "NetworkManager-wwan" -> "NetworkManager";
   "newt" -> "slang";
   "psl" -> "libpsl";
-  "python3-firewall" -> "python3-decorator";
   "python3-firewall" -> "python3-slip-dbus";
-  "python3-slip-dbus" -> "curl-minimal";
-  "python3-slip-dbus" -> "python3-decorator";
   "python3-slip-dbus" -> "python3-slip";
   "realmd" -> "authconfig";
   "teamd" -> "libteam";
-  "xmlrpc-c-client" -> "libcurl-minimal";
 }

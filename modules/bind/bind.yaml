@@ -10,6 +10,8 @@ data:
             bootstrap: master
         requires:
             platform: master
+            python3: master
+            python3-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/bind
@@ -45,8 +47,5 @@ data:
                 rationale: Generated.
                 ref: f27
             GeoIP-GeoLite-data:
-                rationale: Generated.
-                ref: f27
-            python-ply:
                 rationale: Generated.
                 ref: f27

@@ -9,6 +9,8 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
 * [perl](../perl)
+* [python3](../python3)
+* [python3-ecosystem](../python3-ecosystem)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -22,7 +24,6 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 |---|---|---|---|---|---|---|---|
 | `authconfig` | X | X | X | X | X | X | X |
 | `bluez-libs` | X | X | X | X | X | X | X |
-| `curl-minimal` | X | X | X | X | X | X | X |
 | `firewalld` | X | X | X | X | X | X | X |
 | `firewalld-filesystem` | X | X | X | X | X | X | X |
 | `libgudev` | X | X | X | X | X | X | X |
@@ -51,7 +52,6 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `NetworkManager-wwan` | X | X | X | X | X | X | X |
 | `newt` | X | X | X | X | X | X | X |
 | `psl` | X | X | X | X | X | X | X |
-| `python3-decorator` | X | X | X | X | X | X | X |
 | `python3-firewall` | X | X | X | X | X | X | X |
 | `python3-slip` | X | X | X | X | X | X | X |
 | `python3-slip-dbus` | X | X | X | X | X | X | X |
