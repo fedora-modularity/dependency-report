@@ -20,10 +20,13 @@ data:
     api:
         rpms:
             - bind
+            - bind-devel
             - bind-libs
             - bind-libs-lite
             - bind-license
+            - bind-lite-devel
             - bind-pkcs11
+            - bind-pkcs11-devel
             - bind-pkcs11-libs
             - bind-pkcs11-utils
             - bind-utils
@@ -32,10 +35,13 @@ data:
             description: A generated profile based on top-lvl package list.
             rpms:
                 - bind
+                - bind-devel
                 - bind-libs
                 - bind-libs-lite
                 - bind-license
+                - bind-lite-devel
                 - bind-pkcs11
+                - bind-pkcs11-devel
                 - bind-pkcs11-libs
                 - bind-pkcs11-utils
                 - bind-utils

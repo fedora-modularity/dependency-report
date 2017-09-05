@@ -1,4 +1,5 @@
 389-ds-base                          389-ds
+389-ds-base-devel                    389-ds
 389-ds-base-libs                     389-ds
 aajohan-comfortaa-fonts              fonts
 acl                                  platform, storage-devices
@@ -36,14 +37,17 @@ bea-stax-api                         resteasy
 bind                                 bind
 bind99-libs                          platform
 bind99-license                       platform
+bind-devel                           bind
 bind-dyndb-ldap                      freeipa
-bind-libs                            389-ds, bind
-bind-libs-lite                       389-ds, bind
-bind-license                         389-ds, bind
+bind-libs                            bind
+bind-libs-lite                       bind
+bind-license                         bind
+bind-lite-devel                      bind
 bind-pkcs11                          bind
+bind-pkcs11-devel                    bind
 bind-pkcs11-libs                     bind
 bind-pkcs11-utils                    bind
-bind-utils                           389-ds, bind
+bind-utils                           bind
 binutils                             platform, storage-devices
 blktrace                             platform-placeholder
 bluez                                platform
@@ -94,6 +98,8 @@ cups-libs                            samba
 curl                                 platform
 curl-minimal                         installer, pki, python2, python3, storage-devices, systemtap
 custodia                             freeipa
+cyrus-sasl                           389-ds
+cyrus-sasl-devel                     389-ds
 cyrus-sasl-gssapi                    389-ds, sssd
 cyrus-sasl-lib                       platform, storage-devices
 cyrus-sasl-md5                       389-ds
@@ -182,8 +188,8 @@ gcc-c++                              platform
 gdb-headless                         platform
 gdbm                                 platform, storage-devices
 gdisk                                platform, storage-devices
-GeoIP                                389-ds, bind
-GeoIP-GeoLite-data                   389-ds, bind
+GeoIP                                bind
+GeoIP-GeoLite-data                   bind
 gettext                              platform
 gettext-libs                         platform
 ghc-srpm-macros                      platform
@@ -476,12 +482,12 @@ libstdc++                            platform, storage-devices
 libstdc++-devel                      platform
 libstoragemgmt                       udisks2
 libsysfs                             platform-placeholder
-libtalloc                            samba
+libtalloc                            389-ds, samba
 libtar                               installer
 libtasn1                             platform, storage-devices
 libtdb                               samba
 libteam                              installer, networking-base
-libtevent                            samba
+libtevent                            389-ds, samba
 libtiff                              platform
 libtirpc                             platform
 libtomcrypt                          python2-ecosystem, python3-ecosystem
@@ -606,6 +612,7 @@ opendnssec                           freeipa
 openjpeg2                            platform
 openldap                             platform, storage-devices
 openldap-clients                     389-ds, pki
+openldap-devel                       389-ds
 open-sans-fonts                      freeipa
 openssh                              platform
 openssh-clients                      platform
@@ -900,7 +907,7 @@ python2-yubico                       freeipa
 python3                              platform, storage-devices
 python3-asn1crypto                   installer, python3-ecosystem
 python3-astroid                      pki
-python3-bind                         389-ds, bind
+python3-bind                         bind
 python3-blivet                       installer
 python3-blockdev                     platform-placeholder
 python3-bytesize                     installer, python3-ecosystem

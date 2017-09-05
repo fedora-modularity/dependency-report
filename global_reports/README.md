@@ -23,12 +23,12 @@ For more details **individual modules** and **architecture-specific** informatio
 
 | Module | RPM components | RPMs missing in buildroot |
 |---|---|---|
-| [**389-ds**](../modules/389-ds) | **25** pkgs | [**0** pkgs missing](../modules/389-ds/all/buildtime-binary-packages-short.txt) |
+| [**389-ds**](../modules/389-ds) | **24** pkgs | [**1** pkgs missing](../modules/389-ds/all/buildtime-binary-packages-short.txt) |
 | [**apache-commons**](../modules/apache-commons) | **9** pkgs | [**1** pkgs missing](../modules/apache-commons/all/buildtime-binary-packages-short.txt) |
 | [**autotools**](../modules/autotools) | **3** pkgs | [**0** pkgs missing](../modules/autotools/all/buildtime-binary-packages-short.txt) |
-| [**bind**](../modules/bind) | **11** pkgs | [**0** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
+| [**bind**](../modules/bind) | **14** pkgs | [**0** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
 | [**fonts**](../modules/fonts) | **6** pkgs | [**0** pkgs missing](../modules/fonts/all/buildtime-binary-packages-short.txt) |
-| [**freeipa**](../modules/freeipa) | **58** pkgs | [**20** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
+| [**freeipa**](../modules/freeipa) | **58** pkgs | [**15** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**hardware-support**](../modules/hardware-support) | **0** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **14** pkgs | [**0** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
 | [**installer**](../modules/installer) | **66** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |

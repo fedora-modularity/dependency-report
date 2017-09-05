@@ -15,6 +15,7 @@ data:
             perl: master
             python3: master
             python3-ecosystem: master
+            bind: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/389-ds
@@ -22,6 +23,7 @@ data:
     api:
         rpms:
             - 389-ds-base
+            - 389-ds-base-devel
             - 389-ds-base-libs
             - svrcore-devel
     profiles:
@@ -29,6 +31,7 @@ data:
             description: A generated profile based on top-lvl package list.
             rpms:
                 - 389-ds-base
+                - 389-ds-base-devel
                 - 389-ds-base-libs
                 - svrcore-devel
     components:
@@ -36,16 +39,13 @@ data:
             389-ds-base:
                 rationale: Generated.
                 ref: f27
-            bind:
-                rationale: Generated.
-                ref: f27
-            GeoIP:
-                rationale: Generated.
-                ref: f27
-            GeoIP-GeoLite-data:
-                rationale: Generated.
-                ref: f27
             gperftools:
+                rationale: Generated.
+                ref: f27
+            libtalloc:
+                rationale: Generated.
+                ref: f27
+            libtevent:
                 rationale: Generated.
                 ref: f27
             perl-Mozilla-LDAP:

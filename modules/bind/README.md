@@ -22,10 +22,13 @@ These are RPM dependencies of the [bind top-level package set](bind.csv). They s
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
 | `bind` | X | X | X | X | X | X | X |
+| `bind-devel` | X | X | X | X | X | X | X |
 | `bind-libs` | X | X | X | X | X | X | X |
 | `bind-libs-lite` | X | X | X | X | X | X | X |
 | `bind-license` | X | X | X | X | X | X | X |
+| `bind-lite-devel` | X | X | X | X | X | X | X |
 | `bind-pkcs11` | X | X | X | X | X | X | X |
+| `bind-pkcs11-devel` | X | X | X | X | X | X | X |
 | `bind-pkcs11-libs` | X | X | X | X | X | X | X |
 | `bind-pkcs11-utils` | X | X | X | X | X | X | X |
 | `bind-utils` | X | X | X | X | X | X | X |

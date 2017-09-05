@@ -6,6 +6,7 @@ digraph G {
   "389-ds" -> "perl" [color="#009900"];
   "389-ds" -> "python3" [color="#009900"];
   "389-ds" -> "python3-ecosystem" [color="#009900"];
+  "389-ds" -> "bind" [color="#009900"];
   "389-ds" -> "bootstrap" [color="#aa0000"];
   "apache-commons" -> "platform" [color="#009900"];
   "apache-commons" -> "platform-placeholder" [color="#009900"];
@@ -41,6 +42,8 @@ digraph G {
   "freeipa" -> "python3" [color="#009900"];
   "freeipa" -> "python3-ecosystem" [color="#009900"];
   "freeipa" -> "bootstrap" [color="#aa0000"];
+  "freeipa" -> "389-ds" [color="#aa0000"];
+  "freeipa" -> "bind" [color="#aa0000"];
   "hardware-support" -> "platform" [color="#009900"];
   "hardware-support" -> "platform-placeholder" [color="#009900"];
   "hardware-support" -> "bootstrap" [color="#aa0000"];
