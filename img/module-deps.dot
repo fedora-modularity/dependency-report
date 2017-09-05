@@ -4,7 +4,6 @@ digraph G {
   "389-ds" -> "platform-placeholder" [color="#009900"];
   "389-ds" -> "networking-base" [color="#009900"];
   "389-ds" -> "perl" [color="#009900"];
-  "389-ds" -> "storage-devices" [color="#009900"];
   "389-ds" -> "python3" [color="#009900"];
   "389-ds" -> "python3-ecosystem" [color="#009900"];
   "389-ds" -> "bootstrap" [color="#aa0000"];
@@ -36,7 +35,6 @@ digraph G {
   "freeipa" -> "tomcat" [color="#009900"];
   "freeipa" -> "resteasy" [color="#009900"];
   "freeipa" -> "httpd" [color="#009900"];
-  "freeipa" -> "storage-devices" [color="#009900"];
   "freeipa" -> "python2" [color="#009900"];
   "freeipa" -> "python2-ecosystem" [color="#009900"];
   "freeipa" -> "python3" [color="#009900"];
@@ -76,7 +74,6 @@ digraph G {
   "pki" -> "java" [color="#009900"];
   "pki" -> "tomcat" [color="#009900"];
   "pki" -> "resteasy" [color="#009900"];
-  "pki" -> "storage-devices" [color="#009900"];
   "pki" -> "apache-commons" [color="#009900"];
   "pki" -> "bootstrap" [color="#aa0000"];
   "platform-placeholder" -> "platform" [color="#009900"];
@@ -127,11 +124,6 @@ digraph G {
   "sssd" -> "python3" [color="#009900"];
   "sssd" -> "python3-ecosystem" [color="#009900"];
   "sssd" -> "bootstrap" [color="#aa0000"];
-  "storage-devices" -> "platform" [color="#009900"];
-  "storage-devices" -> "platform-placeholder" [color="#009900"];
-  "storage-devices" -> "perl" [color="#009900"];
-  "storage-devices" -> "python2" [color="#009900"];
-  "storage-devices" -> "python2-ecosystem" [color="#009900"];
   "storage-devices" -> "bootstrap" [color="#aa0000"];
   "systemtap" -> "platform" [color="#009900"];
   "systemtap" -> "perl" [color="#009900"];

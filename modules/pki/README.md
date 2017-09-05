@@ -11,7 +11,6 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [java](../java)
 * [tomcat](../tomcat)
 * [resteasy](../resteasy)
-* [storage-devices](../storage-devices)
 * [apache-commons](../apache-commons)
 ### Build
 This list might not be complete.
@@ -25,6 +24,7 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
 | `audit-libs-python` | X | X | X | X | X | X | X |
+| `curl-minimal` | X | X | X | X | X | X | X |
 | `jakarta-commons-httpclient` | X | X | X | X | X | X | X |
 | `javassist` | X | X | X | X | X | X | X |
 | `ldapjdk` | X | X | X | X | X | X | X |
@@ -39,15 +39,36 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `pki-kra` | X | X | X | X | X | X | X |
 | `pki-server` | X | X | X | X | X | X | X |
 | `pki-tools` | X | X | X | X | X | X | X |
+| `python2-asn1crypto` | X | X | X | X | X | X | X |
+| `python2-backports` | X | X | X | X | X | X | X |
+| `python2-beautifulsoup4` | X | X | X | X | X | X | X |
+| `python2-cffi` | X | X | X | X | X | X | X |
+| `python2-chardet` | X | X | X | X | X | X | X |
+| `python2-cryptography` | X | X | X | X | X | X | X |
+| `python2-cssselect` | X | X | X | X | X | X | X |
+| `python2-enum34` | X | X | X | X | X | X | X |
+| `python2-html5lib` | X | X | X | X | X | X | X |
+| `python2-idna` | X | X | X | X | X | X | X |
+| `python2-ipaddress` | X | X | X | X | X | X | X |
 | `python2-IPy` | X | X | X | X | X | X | X |
 | `python2-ldap` | X | X | X | X | X | X | X |
 | `python2-libselinux` | X | X | X | X | X | X | X |
 | `python2-libsemanage` | X | X | X | X | X | X | X |
+| `python2-lxml` | X | X | X | X | X | X | X |
 | `python2-nss` | X | X | X | X | X | X | X |
+| `python2-ply` | X | X | X | X | X | X | X |
 | `python2-policycoreutils` | X | X | X | X | X | X | X |
 | `python2-pyasn1` | X | X | X | X | X | X | X |
 | `python2-pyasn1-modules` | X | X | X | X | X | X | X |
+| `python2-pycparser` | X | X | X | X | X | X | X |
+| `python2-pyOpenSSL` | X | X | X | X | X | X | X |
+| `python2-pysocks` | X | X | X | X | X | X | X |
+| `python2-requests` | X | X | X | X | X | X | X |
 | `python2-setools` | X | X | X | X | X | X | X |
+| `python2-six` | X | X | X | X | X | X | X |
+| `python2-urllib3` | X | X | X | X | X | X | X |
+| `python2-webencodings` | X | X | X | X | X | X | X |
+| `python-backports-ssl_match_hostname` | X | X | X | X | X | X | X |
 | `slf4j` | X | X | X | X | X | X | X |
 | `slf4j-jdk14` | X | X | X | X | X | X | X |
 | `velocity` | X | X | X | X | X | X | X |

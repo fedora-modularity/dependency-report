@@ -10,7 +10,6 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform-placeholder](../platform-placeholder)
 * [networking-base](../networking-base)
 * [perl](../perl)
-* [storage-devices](../storage-devices)
 * [python3](../python3)
 * [python3-ecosystem](../python3-ecosystem)
 ### Build
@@ -34,6 +33,7 @@ These are RPM dependencies of the [389-ds top-level package set](389-ds.csv). Th
 | `cyrus-sasl-md5` | X | X | X | X | X | X | X |
 | `GeoIP` | X | X | X | X | X | X | X |
 | `GeoIP-GeoLite-data` | X | X | X | X | X | X | X |
+| `gperftools-libs` | X | X | X | - | - | - | X |
 | `nss-tools` | X | X | X | X | X | X | X |
 | `openldap-clients` | X | X | X | X | X | X | X |
 | `perl-Mozilla-LDAP` | X | X | X | X | X | X | X |

@@ -13,7 +13,6 @@ data:
             platform: master
             networking-base: master
             perl: master
-            storage-devices: master
             python3: master
             python3-ecosystem: master
     references:
@@ -42,6 +41,9 @@ data:
                 rationale: Generated.
                 ref: f27
             GeoIP-GeoLite-data:
+                rationale: Generated.
+                ref: f27
+            gperftools:
                 rationale: Generated.
                 ref: f27
             perl-Mozilla-LDAP:

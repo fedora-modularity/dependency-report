@@ -22,7 +22,6 @@ data:
             tomcat: master
             resteasy: master
             httpd: master
-            storage-devices: master
             python2: master
             python2-ecosystem: master
             python3: master
@@ -64,6 +63,9 @@ data:
                 rationale: Generated.
                 ref: f27
             autogen:
+                rationale: Generated.
+                ref: f27
+            babel:
                 rationale: Generated.
                 ref: f27
             bind-dyndb-ldap:
@@ -129,10 +131,16 @@ data:
             python-gssapi:
                 rationale: Generated.
                 ref: f27
+            python-jinja2:
+                rationale: Generated.
+                ref: f27
             python-jwcrypto:
                 rationale: Generated.
                 ref: f27
             python-kdcproxy:
+                rationale: Generated.
+                ref: f27
+            python-markupsafe:
                 rationale: Generated.
                 ref: f27
             python-netaddr:

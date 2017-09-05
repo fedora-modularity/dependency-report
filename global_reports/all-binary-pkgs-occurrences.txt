@@ -1,7 +1,7 @@
 389-ds-base                          389-ds
 389-ds-base-libs                     389-ds
 aajohan-comfortaa-fonts              fonts
-acl                                  platform
+acl                                  platform, storage-devices
 alsa-lib                             platform
 anaconda-core                        installer
 anaconda-tui                         installer
@@ -16,10 +16,10 @@ apache-commons-logging               apache-commons
 apache-commons-pool                  apache-commons
 apr                                  httpd
 apr-util                             httpd
-audit                                platform
-audit-libs                           platform
+audit                                platform, storage-devices
+audit-libs                           platform, storage-devices
 audit-libs-python                    pki
-audit-libs-python3                   platform
+audit-libs-python3                   platform, storage-devices
 augeas                               platform
 augeas-libs                          platform
 authconfig                           freeipa, installer, networking-base
@@ -28,10 +28,10 @@ autofs                               freeipa
 autogen-libopts                      freeipa
 automake                             autotools
 avahi-libs                           samba, systemtap
-basesystem                           platform
-bash                                 platform
+basesystem                           platform, storage-devices
+bash                                 platform, storage-devices
 bc                                   platform
-bcache-tools                         platform-placeholder
+bcache-tools                         platform-placeholder, storage-devices
 bea-stax-api                         resteasy
 bind                                 bind
 bind99-libs                          platform
@@ -44,7 +44,7 @@ bind-pkcs11                          bind
 bind-pkcs11-libs                     bind
 bind-pkcs11-utils                    bind
 bind-utils                           389-ds, bind
-binutils                             platform
+binutils                             platform, storage-devices
 blktrace                             platform-placeholder
 bluez                                platform
 bluez-libs                           networking-base
@@ -56,8 +56,8 @@ boost-thread                         systemtap
 btrfs-progs                          platform
 byacc                                platform
 bzip2                                platform
-bzip2-libs                           platform
-ca-certificates                      platform
+bzip2-libs                           platform, storage-devices
+ca-certificates                      platform, storage-devices
 c-ares                               platform
 ceph                                 storage-devices
 ceph-base                            storage-devices
@@ -68,8 +68,8 @@ ceph-mon                             storage-devices
 ceph-osd                             storage-devices
 ceph-selinux                         storage-devices
 certmonger                           freeipa
-checkpolicy                          platform
-chkconfig                            platform
+checkpolicy                          platform, storage-devices
+chkconfig                            platform, storage-devices
 chrony                               installer
 chrpath                              platform
 cmake-filesystem                     platform-placeholder
@@ -78,51 +78,51 @@ cockpit-system                       platform
 cockpit-ws                           platform
 compat-openssl10                     platform
 copy-jdk-configs                     apache-commons, java
-coreutils                            platform
-coreutils-common                     platform
+coreutils                            platform, storage-devices
+coreutils-common                     platform, storage-devices
 cpio                                 platform
 cpp                                  platform
-cracklib                             platform
+cracklib                             platform, storage-devices
 cracklib-dicts                       installer
 createrepo_c                         installer
 createrepo_c-libs                    installer
-crypto-policies                      platform
+crypto-policies                      platform, storage-devices
 cryptopp                             storage-devices
 cryptsetup                           storage-devices
-cryptsetup-libs                      platform
+cryptsetup-libs                      platform, storage-devices
 cups-libs                            samba
 curl                                 platform
-curl-minimal                         installer, python2, python3, systemtap
+curl-minimal                         installer, pki, python2, python3, storage-devices, systemtap
 custodia                             freeipa
 cyrus-sasl-gssapi                    389-ds, sssd
-cyrus-sasl-lib                       platform
+cyrus-sasl-lib                       platform, storage-devices
 cyrus-sasl-md5                       389-ds
-dbus                                 platform
+dbus                                 platform, storage-devices
 dbus-glib                            platform
-dbus-libs                            platform
+dbus-libs                            platform, storage-devices
 debugmode                            platform-placeholder
 deltarpm                             platform
 desktop-file-utils                   platform
-device-mapper                        platform
+device-mapper                        platform, storage-devices
 device-mapper-devel                  platform-placeholder
-device-mapper-event                  platform
-device-mapper-event-libs             platform
-device-mapper-libs                   platform
+device-mapper-event                  platform, storage-devices
+device-mapper-event-libs             platform, storage-devices
+device-mapper-libs                   platform, storage-devices
 device-mapper-multipath              platform
 device-mapper-multipath-libs         platform
 device-mapper-persistent-data        platform-placeholder
 dhcp-client                          platform
 dhcp-common                          platform
 dhcp-libs                            platform
-diffutils                            platform
-dmraid                               platform
+diffutils                            platform, storage-devices
+dmraid                               platform, storage-devices
 dmraid-devel                         platform-placeholder
-dmraid-events                        platform
+dmraid-events                        platform, storage-devices
 dnf                                  platform
 dnf-conf                             platform
 docbook-dtds                         platform
 docbook-style-xsl                    platform
-dosfstools                           platform
+dosfstools                           platform, storage-devices
 dracut                               platform
 dracut-network                       platform
 drpm                                 installer
@@ -137,24 +137,24 @@ efibootmgr                           platform
 efivar                               platform
 efivar-libs                          platform
 elfutils                             platform
-elfutils-default-yama-scope          platform
-elfutils-libelf                      platform
-elfutils-libs                        platform
-emacs-filesystem                     platform
+elfutils-default-yama-scope          platform, storage-devices
+elfutils-libelf                      platform, storage-devices
+elfutils-libs                        platform, storage-devices
+emacs-filesystem                     platform, storage-devices
 ethtool                              platform
-expat                                platform
+expat                                platform, storage-devices
 fbset                                platform
 fcoe-utils                           platform
 fedora-logos-httpd                   httpd
-fedora-release                       platform
-fedora-repos                         platform
-fedora-repos-rawhide                 platform
+fedora-release                       platform, storage-devices
+fedora-repos                         platform, storage-devices
+fedora-repos-rawhide                 platform, storage-devices
 fedora-rpm-macros                    platform
 fedpkg-minimal                       platform
 file                                 platform
 file-libs                            platform
-filesystem                           platform
-findutils                            platform
+filesystem                           platform, storage-devices
+findutils                            platform, storage-devices
 fipscheck                            platform
 fipscheck-lib                        platform
 firewalld                            installer, networking-base
@@ -174,14 +174,14 @@ freeipa-server-common                freeipa
 freeipa-server-dns                   freeipa
 freeipa-server-trust-ad              freeipa
 freetype                             apache-commons, fonts, platform
-fuse-libs                            platform
-gawk                                 platform
-gc                                   platform
+fuse-libs                            platform, storage-devices
+gawk                                 platform, storage-devices
+gc                                   platform, storage-devices
 gcc                                  platform
 gcc-c++                              platform
 gdb-headless                         platform
-gdbm                                 platform
-gdisk                                platform
+gdbm                                 platform, storage-devices
+gdisk                                platform, storage-devices
 GeoIP                                389-ds, bind
 GeoIP-GeoLite-data                   389-ds, bind
 gettext                              platform
@@ -193,17 +193,17 @@ glassfish-jaxb-api                   resteasy
 glassfish-jaxb-core                  resteasy
 glassfish-jaxb-runtime               resteasy
 glassfish-jaxb-txw2                  resteasy
-glib2                                platform
+glib2                                platform, storage-devices
 glib2-devel                          platform-placeholder
-glibc                                platform
+glibc                                platform, storage-devices
 glibc32                              platform
-glibc-common                         platform
+glibc-common                         platform, storage-devices
 glibc-devel                          platform
 glibc-headers                        platform
 glibc-langpack-en                    installer
-glibc-minimal-langpack               platform
+glibc-minimal-langpack               platform, storage-devices
 glib-networking                      platform
-gmp                                  platform
+gmp                                  platform, storage-devices
 gnat-srpm-macros                     platform
 gnupg                                platform
 gnupg2                               platform
@@ -211,9 +211,9 @@ gnutls                               platform
 gobject-introspection                platform
 go-srpm-macros                       platform
 gpart                                platform
-gperftools-libs                      storage-devices
+gperftools-libs                      389-ds, storage-devices
 gpgme                                platform
-grep                                 platform
+grep                                 platform, storage-devices
 groff-base                           perl, platform-placeholder
 grub2-common                         platform
 grub2-efi-aa64                       platform
@@ -238,10 +238,10 @@ grub2-tools-minimal                  platform
 grubby                               platform
 gsettings-desktop-schemas            platform
 gssproxy                             platform
-guile                                platform
-gzip                                 platform
+guile                                platform, storage-devices
+gzip                                 platform, storage-devices
 hesiod                               freeipa
-hfsplus-tools                        platform
+hfsplus-tools                        platform, storage-devices
 hfsutils                             platform
 hostname                             platform
 httpcomponents-client                resteasy
@@ -252,7 +252,7 @@ httpd-tools                          httpd
 http-parser                          sssd
 hwdata                               platform
 icu                                  platform
-info                                 platform
+info                                 platform, storage-devices
 initscripts                          platform
 ipcalc                               platform
 iproute                              platform
@@ -260,7 +260,7 @@ ipset                                platform
 ipset-devel                          platform-placeholder
 ipset-libs                           platform
 iptables                             platform
-iptables-libs                        platform
+iptables-libs                        platform, storage-devices
 iputils                              platform
 iscsi-initiator-utils                platform
 iscsi-initiator-utils-devel          platform-placeholder
@@ -306,11 +306,11 @@ kernel-PAE-core                      platform
 kernel-PAE-modules                   platform
 kexec-tools                          platform
 keyutils                             platform
-keyutils-libs                        platform
+keyutils-libs                        platform, storage-devices
 kmod                                 platform
-kmod-libs                            platform
-kpartx                               platform
-krb5-libs                            platform
+kmod-libs                            platform, storage-devices
+kpartx                               platform, storage-devices
+krb5-libs                            platform, storage-devices
 krb5-pkinit                          platform
 krb5-server                          krb5
 krb5-workstation                     platform
@@ -321,19 +321,19 @@ ldapjdk                              pki
 ldns                                 freeipa
 less                                 platform
 leveldb                              storage-devices
-libacl                               platform
-libaio                               platform
+libacl                               platform, storage-devices
+libaio                               platform, storage-devices
 libaio-devel                         platform-placeholder
-libarchive                           platform
+libarchive                           platform, storage-devices
 libasan                              platform
 libassuan                            platform
 libatasmart                          udisks2
 libatomic                            platform
-libatomic_ops                        platform
-libattr                              platform
-libbabeltrace                        platform
+libatomic_ops                        platform, storage-devices
+libattr                              platform, storage-devices
+libbabeltrace                        platform, storage-devices
 libbasicobjects                      platform
-libblkid                             platform
+libblkid                             platform, storage-devices
 libblockdev                          platform
 libblockdev-btrfs                    platform-placeholder
 libblockdev-btrfs-devel              platform-placeholder
@@ -365,22 +365,22 @@ libblockdev-swap-devel               platform-placeholder
 libblockdev-utils                    platform
 libblockdev-utils-devel              platform-placeholder
 libbytesize                          platform-placeholder
-libcap                               platform
-libcap-ng                            platform
+libcap                               platform, storage-devices
+libcap-ng                            platform, storage-devices
 libcephfs2                           storage-devices
-libcgroup                            platform
+libcgroup                            platform, storage-devices
 libcilkrts                           platform
 libcollection                        platform
-libcom_err                           platform
+libcom_err                           platform, storage-devices
 libcomps                             platform
 libconfig                            platform
 libconfig-devel                      platform-placeholder
 libcroco                             platform
-libcrypt                             platform
-libcurl-minimal                      platform
+libcrypt                             platform, storage-devices
+libcurl-minimal                      platform, storage-devices
 libdaemon                            platform
-libdb                                platform
-libdb-utils                          platform
+libdb                                platform, storage-devices
+libdb-utils                          platform, storage-devices
 libdhash                             sssd
 libdnf                               platform
 libdwarf                             systemtap
@@ -389,17 +389,17 @@ libestr                              platform
 libev                                platform
 libevent                             platform
 libfastjson                          platform
-libfdisk                             platform
-libffi                               platform
+libfdisk                             platform, storage-devices
+libffi                               platform, storage-devices
 libfontenc                           X11-base
-libgcc                               platform
-libgcrypt                            platform
+libgcc                               platform, storage-devices
+libgcrypt                            platform, storage-devices
 libgomp                              platform
-libgpg-error                         platform
+libgpg-error                         platform, storage-devices
 libgudev                             networking-base, udisks2
 libICE                               X11-base
 libicu                               platform
-libidn                               platform
+libidn                               platform, storage-devices
 libidn2                              platform
 libini_config                        platform
 libipa_hbac                          sssd
@@ -416,19 +416,19 @@ libmetalink                          platform
 libmnl                               platform
 libmnl-devel                         platform-placeholder
 libmodman                            platform
-libmount                             platform
+libmount                             platform, storage-devices
 libmpc                               platform
 libmpx                               platform
 libndp                               installer, networking-base
 libnetfilter_conntrack               platform
 libnfnetlink                         platform
 libnfsidmap                          platform
-libnghttp2                           platform
+libnghttp2                           platform, storage-devices
 libnl3                               platform
 libnl3-cli                           platform-placeholder
 libnl3-devel                         platform-placeholder
 libpath_utils                        platform
-libpcap                              platform
+libpcap                              platform, storage-devices
 libpciaccess                         platform
 libpciaccess-devel                   platform-placeholder
 libpeas                              platform
@@ -436,7 +436,7 @@ libpkgconf                           platform
 libpng                               apache-commons, fonts, platform
 libproxy                             platform
 libpsl                               installer, networking-base
-libpwquality                         platform
+libpwquality                         platform, storage-devices
 libqmi                               networking-base
 libqmi-utils                         networking-base
 librados2                            platform, storage-devices
@@ -447,22 +447,22 @@ librepo                              platform
 libreport                            installer
 libreport-anaconda                   installer
 libreport-cli                        installer
-libreport-filesystem                 platform
+libreport-filesystem                 platform, storage-devices
 libreport-plugin-bugzilla            installer
 libreport-plugin-reportuploader      installer
 libreport-web                        installer
 librgw2                              storage-devices
-libseccomp                           platform
+libseccomp                           platform, storage-devices
 libsecret                            platform
-libselinux                           platform
+libselinux                           platform, storage-devices
 libselinux-devel                     platform-placeholder
-libselinux-utils                     platform
-libsemanage                          platform
-libsepol                             platform
+libselinux-utils                     platform, storage-devices
+libsemanage                          platform, storage-devices
+libsepol                             platform, storage-devices
 libsepol-devel                       platform-placeholder
-libsigsegv                           platform
+libsigsegv                           platform, storage-devices
 libSM                                X11-base
-libsmartcols                         platform
+libsmartcols                         platform, storage-devices
 libsmbclient                         samba
 libsolv                              platform
 libss                                platform
@@ -472,13 +472,13 @@ libsss_autofs                        sssd
 libsss_certmap                       sssd
 libsss_idmap                         sssd
 libsss_nss_idmap                     sssd
-libstdc++                            platform
+libstdc++                            platform, storage-devices
 libstdc++-devel                      platform
 libstoragemgmt                       udisks2
 libsysfs                             platform-placeholder
 libtalloc                            samba
 libtar                               installer
-libtasn1                             platform
+libtasn1                             platform, storage-devices
 libtdb                               samba
 libteam                              installer, networking-base
 libtevent                            samba
@@ -487,18 +487,18 @@ libtirpc                             platform
 libtomcrypt                          python2-ecosystem, python3-ecosystem
 libtommath                           python2-ecosystem, python3-ecosystem
 libtool                              autotools
-libtool-ltdl                         platform
+libtool-ltdl                         platform, storage-devices
 libubsan                             platform
 libudisks2                           udisks2
 libudisks2-devel                     udisks2
-libunistring                         platform
-libunwind                            platform
+libunistring                         platform, storage-devices
+libunwind                            platform, storage-devices
 libusb                               platform
 libusbx                              platform
 libuser                              platform
-libutempter                          platform
-libuuid                              platform
-libverto                             platform
+libutempter                          platform, storage-devices
+libuuid                              platform, storage-devices
+libverto                             platform, storage-devices
 libverto-libev                       platform
 libwbclient                          samba
 libX11                               X11-base
@@ -510,9 +510,9 @@ libXext                              X11-base
 libXfont                             X11-base
 libXft                               X11-base
 libXi                                X11-base
-libxml2                              platform
+libxml2                              platform, storage-devices
 libXrender                           X11-base
-libxslt                              platform
+libxslt                              platform, storage-devices
 libXtst                              X11-base
 libyaml                              platform
 linux-firmware                       platform
@@ -520,27 +520,27 @@ lksctp-tools                         platform
 lldpad                               platform
 lldpad-devel                         platform-placeholder
 lm_sensors-libs                      networking-base
-logrotate                            platform
+logrotate                            platform, storage-devices
 lsof                                 platform
 lsscsi                               platform
 lttng-ust                            platform, storage-devices
 lua                                  apache-commons, java
-lua-libs                             platform
+lua-libs                             platform, storage-devices
 lua-posix                            apache-commons, java
 lvm2                                 platform-placeholder
 lvm2-dbusd                           platform-placeholder
 lvm2-libs                            platform-placeholder
 lz4                                  installer
-lz4-libs                             platform
+lz4-libs                             platform, storage-devices
 lzo                                  platform
 m2crypto                             freeipa
 m4                                   platform
 mactel-boot                          platform
 mailcap                              httpd
-make                                 platform
+make                                 platform, storage-devices
 mariadb-connector-c                  networking-base, platform-placeholder
 mcstrans                             platform
-mdadm                                platform
+mdadm                                platform, storage-devices
 memtest86+                           platform
 microdnf                             platform
 mod_auth_gssapi                      freeipa
@@ -552,12 +552,12 @@ mod_nss                              httpd
 mod_session                          httpd
 mod_wsgi                             httpd
 mokutil                              platform
-mpfr                                 platform
+mpfr                                 platform, storage-devices
 mtools                               platform
 nano                                 platform
-ncurses                              platform
-ncurses-base                         platform
-ncurses-libs                         platform
+ncurses                              platform, storage-devices
+ncurses-base                         platform, storage-devices
+ncurses-libs                         platform, storage-devices
 net-snmp                             networking-base, platform-placeholder
 net-snmp-agent-libs                  networking-base, platform-placeholder
 net-snmp-libs                        networking-base, platform-placeholder
@@ -575,14 +575,14 @@ NetworkManager-wwan                  networking-base
 newt                                 networking-base
 nfs-utils                            platform
 npth                                 platform
-nspr                                 platform
-nss                                  platform
-nss-pem                              platform
-nss-softokn                          platform
-nss-softokn-freebl                   platform
-nss-sysinit                          platform
+nspr                                 platform, storage-devices
+nss                                  platform, storage-devices
+nss-pem                              platform, storage-devices
+nss-softokn                          platform, storage-devices
+nss-softokn-freebl                   platform, storage-devices
+nss-sysinit                          platform, storage-devices
 nss-tools                            389-ds, httpd, pki
-nss-util                             platform
+nss-util                             platform, storage-devices
 ntfs-3g                              udisks2
 ntfsprogs                            udisks2
 ntp                                  freeipa
@@ -599,25 +599,25 @@ opencryptoki-icsftok                 freeipa
 opencryptoki-libs                    freeipa
 opendnssec                           freeipa
 openjpeg2                            platform
-openldap                             platform
+openldap                             platform, storage-devices
 openldap-clients                     389-ds, pki
 open-sans-fonts                      freeipa
 openssh                              platform
 openssh-clients                      platform
 openssh-server                       platform
-openssl                              platform
-openssl-libs                         platform
+openssl                              platform, storage-devices
+openssl-libs                         platform, storage-devices
 os-prober                            platform
-p11-kit                              platform
-p11-kit-trust                        platform
-pam                                  platform
-parted                               platform
+p11-kit                              platform, storage-devices
+p11-kit-trust                        platform, storage-devices
+pam                                  platform, storage-devices
+parted                               platform, storage-devices
 passwd                               platform
 patch                                platform
 pciutils                             platform
 pciutils-libs                        platform
-pcre                                 platform
-pcre2                                platform
+pcre                                 platform, storage-devices
+pcre2                                platform, storage-devices
 pcre-cpp                             platform-placeholder
 pcre-devel                           platform-placeholder
 pcre-utf16                           platform-placeholder
@@ -771,12 +771,12 @@ pki-ca                               pki
 pki-kra                              pki
 pki-server                           pki
 pki-tools                            pki
-policycoreutils                      platform
+policycoreutils                      platform, storage-devices
 policycoreutils-newrole              platform
-policycoreutils-python3              platform
-policycoreutils-python-utils         platform
+policycoreutils-python3              platform, storage-devices
+policycoreutils-python-utils         platform, storage-devices
 polkit-libs                          platform
-popt                                 platform
+popt                                 platform, storage-devices
 postgresql                           postgresql
 postgresql-contrib                   postgresql
 postgresql-devel                     postgresql
@@ -786,28 +786,28 @@ postgresql-static                    postgresql
 postgresql-upgrade                   postgresql
 procps-ng                            platform
 psl                                  networking-base
-psmisc                               platform
+psmisc                               platform, storage-devices
 publicsuffix-list                    platform
 publicsuffix-list-dafsa              platform
 pycryptopp                           storage-devices
-python2                              platform-placeholder
-python2-asn1crypto                   python2-ecosystem
+python2                              platform-placeholder, storage-devices
+python2-asn1crypto                   pki, python2-ecosystem, storage-devices
 python2-augeas                       freeipa
-python2-babel                        storage-devices
-python2-backports                    python2-ecosystem
+python2-babel                        freeipa, storage-devices
+python2-backports                    pki, python2-ecosystem, storage-devices
 python2-beaker                       storage-devices
-python2-beautifulsoup4               storage-devices
+python2-beautifulsoup4               pki, storage-devices
 python2-blockdev                     platform-placeholder
 python2-bytesize                     python2-ecosystem
-python2-cffi                         python2-ecosystem
-python2-chardet                      python2-ecosystem
+python2-cffi                         pki, python2-ecosystem, storage-devices
+python2-chardet                      pki, python2-ecosystem, storage-devices
 python2-cherrypy                     storage-devices
 python2-click                        storage-devices
 python2-configparser                 freeipa
 python2-coverage                     python2-ecosystem
 python2-crypto                       python2-ecosystem
-python2-cryptography                 python2-ecosystem
-python2-cssselect                    storage-devices
+python2-cryptography                 pki, python2-ecosystem, storage-devices
+python2-cssselect                    pki, storage-devices
 python2-custodia                     freeipa
 python2-dateutil                     freeipa
 python2-dbus                         freeipa
@@ -815,34 +815,34 @@ python2-debug                        python2
 python2-decorator                    python2-ecosystem
 python2-devel                        python2
 python2-dns                          samba
-python2-enum34                       python2-ecosystem
+python2-enum34                       pki, python2-ecosystem, storage-devices
 python2-flask                        storage-devices
 python2-gssapi                       freeipa
-python2-html5lib                     storage-devices
-python2-idna                         python2-ecosystem
+python2-html5lib                     pki, storage-devices
+python2-idna                         pki, python2-ecosystem, storage-devices
 python2-iniparse                     python2-ecosystem
 python2-ipaclient                    freeipa
-python2-ipaddress                    python2-ecosystem
+python2-ipaddress                    pki, python2-ecosystem, storage-devices
 python2-ipalib                       freeipa
 python2-ipaserver                    freeipa
 python2-IPy                          pki, python2-ecosystem
 python2-iscsi-initiator-utils        platform-placeholder
 python2-itsdangerous                 storage-devices
-python2-jinja2                       storage-devices
+python2-jinja2                       freeipa, storage-devices
 python2-jwcrypto                     freeipa
 python2-kdcproxy                     freeipa
 python2-ldap                         pki
 python2-ldb                          samba
 python2-libipa_hbac                  sssd
 python2-libnl3                       platform-placeholder
-python2-libs                         platform-placeholder
+python2-libs                         platform-placeholder, storage-devices
 python2-libselinux                   pki
 python2-libsemanage                  389-ds, pki
 python2-libsss_nss_idmap             sssd
 python2-logutils                     storage-devices
-python2-lxml                         storage-devices
+python2-lxml                         pki, storage-devices
 python2-mako                         storage-devices
-python2-markupsafe                   storage-devices
+python2-markupsafe                   freeipa, storage-devices
 python2-ndg_httpsclient              httpd
 python2-netaddr                      freeipa
 python2-netifaces                    freeipa
@@ -850,28 +850,28 @@ python2-nss                          pki
 python2-ordered-set                  python2-ecosystem
 python2-paste                        storage-devices
 python2-pecan                        storage-devices
-python2-pip                          platform-placeholder
-python2-ply                          python2-ecosystem
+python2-pip                          platform-placeholder, storage-devices
+python2-ply                          pki, python2-ecosystem, storage-devices
 python2-policycoreutils              pki
 python2-prettytable                  storage-devices
 python2-pyasn1                       httpd, pki
 python2-pyasn1-modules               pki
-python2-pycparser                    python2-ecosystem
-python2-pyOpenSSL                    python2-ecosystem
+python2-pycparser                    pki, python2-ecosystem, storage-devices
+python2-pyOpenSSL                    pki, python2-ecosystem, storage-devices
 python2-pyparsing                    python2-ecosystem
-python2-pysocks                      python2-ecosystem
-python2-pytz                         python2-ecosystem
+python2-pysocks                      pki, python2-ecosystem, storage-devices
+python2-pytz                         python2-ecosystem, storage-devices
 python2-pyusb                        freeipa
-python2-requests                     python2-ecosystem
+python2-requests                     pki, python2-ecosystem, storage-devices
 python2-requests-file                python2-ecosystem
 python2-requests-ftp                 python2-ecosystem
 python2-rpm-macros                   python2
 python2-samba                        samba
 python2-setools                      pki
-python2-setuptools                   platform-placeholder
+python2-setuptools                   platform-placeholder, storage-devices
 python2-simplegeneric                storage-devices
 python2-singledispatch               storage-devices
-python2-six                          python2-ecosystem
+python2-six                          pki, python2-ecosystem, storage-devices
 python2-sss                          sssd
 python2-sssdconfig                   sssd
 python2-sss-murmur                   sssd
@@ -884,14 +884,14 @@ python2-tevent                       samba
 python2-tkinter                      python2
 python2-tools                        python2
 python2-typing                       freeipa
-python2-urllib3                      python2-ecosystem
+python2-urllib3                      pki, python2-ecosystem, storage-devices
 python2-waitress                     storage-devices
-python2-webencodings                 storage-devices
+python2-webencodings                 pki, storage-devices
 python2-webob                        storage-devices
 python2-webtest                      storage-devices
 python2-wheel                        python2
 python2-yubico                       freeipa
-python3                              platform
+python3                              platform, storage-devices
 python3-asn1crypto                   installer, python3-ecosystem
 python3-bind                         389-ds, bind
 python3-blivet                       installer
@@ -914,7 +914,7 @@ python3-gpg                          platform
 python3-hawkey                       platform
 python3-idna                         installer, python3-ecosystem
 python3-iniparse                     platform
-python3-IPy                          platform
+python3-IPy                          platform, storage-devices
 python3-iscsi-initiator-utils        platform-placeholder
 python3-jwcrypto                     freeipa
 python3-kickstart                    installer
@@ -922,16 +922,16 @@ python3-libcomps                     platform
 python3-libnl3                       platform-placeholder
 python3-librepo                      platform
 python3-libreport                    installer
-python3-libs                         platform
-python3-libselinux                   platform
-python3-libsemanage                  platform
+python3-libs                         platform, storage-devices
+python3-libselinux                   platform, storage-devices
+python3-libsemanage                  platform, storage-devices
 python3-libstoragemgmt               udisks2
 python3-libstoragemgmt-clibs         udisks2
 python3-meh                          installer
 python3-ntplib                       installer
 python3-ordered-set                  installer, python3-ecosystem
 python3-pid                          installer
-python3-pip                          platform
+python3-pip                          platform, storage-devices
 python3-ply                          installer, python3-ecosystem
 python3-pwquality                    installer
 python3-pycparser                    installer, python3-ecosystem
@@ -948,8 +948,8 @@ python3-requests-ftp                 installer, python3-ecosystem
 python3-rpm                          platform
 python3-rpm-generators               python2, python3
 python3-rpm-macros                   python3
-python3-setools                      platform
-python3-setuptools                   platform
+python3-setools                      platform, storage-devices
+python3-setuptools                   platform, storage-devices
 python3-six                          platform
 python3-slip                         installer, networking-base
 python3-slip-dbus                    installer, networking-base
@@ -961,7 +961,7 @@ python3-tools                        python3
 python3-urllib3                      installer, python3-ecosystem
 python3-wheel                        python3
 python3-wrapt                        installer
-python-backports-ssl_match_hostname  python2-ecosystem
+python-backports-ssl_match_hostname  pki, python2-ecosystem, storage-devices
 python-cephfs                        storage-devices
 python-gobject-base                  platform-placeholder
 python-qrcode-core                   freeipa
@@ -971,11 +971,11 @@ python-rgw                           storage-devices
 python-rpm-macros                    python2, python3
 python-srpm-macros                   platform
 python-werkzeug                      storage-devices
-qrencode-libs                        platform
+qrencode-libs                        platform, storage-devices
 qt5-srpm-macros                      platform
 quota                                platform
 quota-nls                            platform
-readline                             platform
+readline                             platform, storage-devices
 realmd                               installer, networking-base
 redhat-rpm-config                    platform
 relaxngDatatype                      resteasy
@@ -985,11 +985,11 @@ resteasy-core                        resteasy
 resteasy-jackson-provider            resteasy
 resteasy-jaxb-provider               resteasy
 rpcbind                              platform
-rpm                                  platform
+rpm                                  platform, storage-devices
 rpm-build                            platform
 rpm-build-libs                       platform
-rpm-libs                             platform
-rpm-plugin-selinux                   platform
+rpm-libs                             platform, storage-devices
+rpm-plugin-selinux                   platform, storage-devices
 rsync                                platform
 rsyslog                              platform
 ruby                                 ruby
@@ -1020,18 +1020,18 @@ samba-libs                           samba
 samba-winbind                        samba
 samba-winbind-modules                samba
 satyr                                installer
-sed                                  platform
-selinux-policy                       platform
-selinux-policy-minimum               platform
+sed                                  platform, storage-devices
+selinux-policy                       platform, storage-devices
+selinux-policy-minimum               platform, storage-devices
 selinux-policy-mls                   platform
 selinux-policy-sandbox               platform
 selinux-policy-targeted              platform
-setup                                platform
+setup                                platform, storage-devices
 sg3_utils                            platform
 sg3_utils-libs                       platform
 sgml-common                          platform
-sgpio                                platform
-shadow-utils                         platform
+sgpio                                platform, storage-devices
+shadow-utils                         platform, storage-devices
 shared-mime-info                     platform
 shim                                 platform
 shim-unsigned                        platform
@@ -1039,11 +1039,11 @@ slang                                networking-base
 slapi-nis                            freeipa
 slf4j                                pki
 slf4j-jdk14                          pki
-snappy                               platform
+snappy                               platform, storage-devices
 snappy-devel                         platform-placeholder
 softhsm                              freeipa
 sqlite                               freeipa
-sqlite-libs                          platform
+sqlite-libs                          platform, storage-devices
 sssd                                 sssd
 sssd-ad                              sssd
 sssd-client                          sssd
@@ -1063,10 +1063,10 @@ syslinux                             platform
 syslinux-extlinux                    platform
 syslinux-extlinux-nonlinux           platform
 syslinux-nonlinux                    platform
-systemd                              platform
+systemd                              platform, storage-devices
 systemd-devel                        platform-placeholder
-systemd-libs                         platform
-systemd-pam                          platform
+systemd-libs                         platform, storage-devices
+systemd-pam                          platform, storage-devices
 systemd-udev                         platform
 systemtap                            systemtap
 systemtap-client                     systemtap
@@ -1076,7 +1076,7 @@ systemtap-sdt-devel                  perl, platform-placeholder
 tar                                  platform
 tcl                                  platform
 tcp_wrappers                         platform
-tcp_wrappers-libs                    platform
+tcp_wrappers-libs                    platform, storage-devices
 teamd                                installer, networking-base
 time                                 platform
 tix                                  python2
@@ -1089,7 +1089,7 @@ tomcatjss                            tomcat
 tomcat-lib                           tomcat
 tomcat-servlet-3.1-api               tomcat
 ttmkfdir                             java
-tzdata                               platform
+tzdata                               platform, storage-devices
 tzdata-java                          apache-commons, java
 uboot-tools                          platform
 udisks2                              udisks2
@@ -1102,8 +1102,8 @@ udisks2-lvm2                         udisks2
 udisks2-zram                         udisks2
 unzip                                platform
 usermode                             platform
-userspace-rcu                        platform
-util-linux                           platform
+userspace-rcu                        platform, storage-devices
+util-linux                           platform, storage-devices
 uuid                                 postgresql
 velocity                             pki
 vim-minimal                          platform
@@ -1114,7 +1114,7 @@ words                                krb5
 wpa_supplicant                       networking-base
 xalan-j2                             pki
 xerces-j2                            pki
-xfsprogs                             platform
+xfsprogs                             platform, storage-devices
 xml-common                           platform
 xml-commons-apis                     pki
 xml-commons-resolver                 pki
@@ -1125,8 +1125,8 @@ xorg-x11-fonts-Type1                 java
 xorg-x11-font-utils                  java
 xsom                                 resteasy
 xz                                   platform
-xz-libs                              platform
+xz-libs                              platform, storage-devices
 yajl                                 udisks2
 zip                                  platform
-zlib                                 platform
+zlib                                 platform, storage-devices
 zstd                                 platform

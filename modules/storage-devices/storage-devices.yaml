@@ -10,10 +10,6 @@ data:
         buildrequires:
             bootstrap: master
         requires:
-            platform: master
-            perl: master
-            python2: master
-            python2-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/storage-devices
@@ -68,25 +64,340 @@ data:
                 - python-rbd
     components:
         rpms:
+            acl:
+                rationale: Generated.
+                ref: f27
+            attr:
+                rationale: Generated.
+                ref: f27
+            audit:
+                rationale: Generated.
+                ref: f27
             babel:
+                rationale: Generated.
+                ref: f27
+            babeltrace:
+                rationale: Generated.
+                ref: f27
+            basesystem:
+                rationale: Generated.
+                ref: f27
+            bash:
+                rationale: Generated.
+                ref: f27
+            bcache-tools:
+                rationale: Generated.
+                ref: f27
+            binutils:
+                rationale: Generated.
+                ref: f27
+            bzip2:
+                rationale: Generated.
+                ref: f27
+            ca-certificates:
                 rationale: Generated.
                 ref: f27
             ceph:
                 rationale: Generated.
                 ref: f27
+            checkpolicy:
+                rationale: Generated.
+                ref: f27
+            chkconfig:
+                rationale: Generated.
+                ref: f27
+            coreutils:
+                rationale: Generated.
+                ref: f27
+            cracklib:
+                rationale: Generated.
+                ref: f27
+            crypto-policies:
+                rationale: Generated.
+                ref: f27
             cryptopp:
+                rationale: Generated.
+                ref: f27
+            cryptsetup:
+                rationale: Generated.
+                ref: f27
+            curl:
+                rationale: Generated.
+                ref: f27
+            cyrus-sasl:
+                rationale: Generated.
+                ref: f27
+            dbus:
+                rationale: Generated.
+                ref: f27
+            device-mapper-multipath:
+                rationale: Generated.
+                ref: f27
+            diffutils:
+                rationale: Generated.
+                ref: f27
+            dmraid:
+                rationale: Generated.
+                ref: f27
+            dosfstools:
+                rationale: Generated.
+                ref: f27
+            e2fsprogs:
+                rationale: Generated.
+                ref: f27
+            elfutils:
+                rationale: Generated.
+                ref: f27
+            emacs:
+                rationale: Generated.
+                ref: f27
+            expat:
+                rationale: Generated.
+                ref: f27
+            fedora-release:
+                rationale: Generated.
+                ref: f27
+            fedora-repos:
+                rationale: Generated.
+                ref: f27
+            filesystem:
+                rationale: Generated.
+                ref: f27
+            findutils:
+                rationale: Generated.
+                ref: f27
+            fuse:
+                rationale: Generated.
+                ref: f27
+            gawk:
+                rationale: Generated.
+                ref: f27
+            gc:
+                rationale: Generated.
+                ref: f27
+            gcc:
+                rationale: Generated.
+                ref: f27
+            gdbm:
+                rationale: Generated.
+                ref: f27
+            gdisk:
+                rationale: Generated.
+                ref: f27
+            glib2:
+                rationale: Generated.
+                ref: f27
+            glibc:
+                rationale: Generated.
+                ref: f27
+            gmp:
                 rationale: Generated.
                 ref: f27
             gperftools:
                 rationale: Generated.
                 ref: f27
+            grep:
+                rationale: Generated.
+                ref: f27
+            guile:
+                rationale: Generated.
+                ref: f27
+            gzip:
+                rationale: Generated.
+                ref: f27
+            hfsplus-tools:
+                rationale: Generated.
+                ref: f27
+            iptables:
+                rationale: Generated.
+                ref: f27
+            keyutils:
+                rationale: Generated.
+                ref: f27
+            kmod:
+                rationale: Generated.
+                ref: f27
+            krb5:
+                rationale: Generated.
+                ref: f27
             leveldb:
+                rationale: Generated.
+                ref: f27
+            libaio:
+                rationale: Generated.
+                ref: f27
+            libarchive:
+                rationale: Generated.
+                ref: f27
+            libatomic_ops:
+                rationale: Generated.
+                ref: f27
+            libcap:
+                rationale: Generated.
+                ref: f27
+            libcap-ng:
+                rationale: Generated.
+                ref: f27
+            libcgroup:
+                rationale: Generated.
+                ref: f27
+            libdb:
+                rationale: Generated.
+                ref: f27
+            libffi:
+                rationale: Generated.
+                ref: f27
+            libgcrypt:
+                rationale: Generated.
+                ref: f27
+            libgpg-error:
+                rationale: Generated.
+                ref: f27
+            libidn:
+                rationale: Generated.
+                ref: f27
+            libpcap:
+                rationale: Generated.
+                ref: f27
+            libpwquality:
+                rationale: Generated.
+                ref: f27
+            libreport:
+                rationale: Generated.
+                ref: f27
+            libseccomp:
+                rationale: Generated.
+                ref: f27
+            libselinux:
+                rationale: Generated.
+                ref: f27
+            libsemanage:
+                rationale: Generated.
+                ref: f27
+            libsepol:
+                rationale: Generated.
+                ref: f27
+            libsigsegv:
+                rationale: Generated.
+                ref: f27
+            libtasn1:
+                rationale: Generated.
+                ref: f27
+            libtool:
+                rationale: Generated.
+                ref: f27
+            libunistring:
+                rationale: Generated.
+                ref: f27
+            libunwind:
+                rationale: Generated.
+                ref: f27
+            libutempter:
+                rationale: Generated.
+                ref: f27
+            libverto:
+                rationale: Generated.
+                ref: f27
+            libxml2:
+                rationale: Generated.
+                ref: f27
+            libxslt:
+                rationale: Generated.
+                ref: f27
+            logrotate:
                 rationale: Generated.
                 ref: f27
             lttng-ust:
                 rationale: Generated.
                 ref: f27
+            lua:
+                rationale: Generated.
+                ref: f27
+            lvm2:
+                rationale: Generated.
+                ref: f27
+            lz4:
+                rationale: Generated.
+                ref: f27
+            make:
+                rationale: Generated.
+                ref: f27
+            mdadm:
+                rationale: Generated.
+                ref: f27
+            mpfr:
+                rationale: Generated.
+                ref: f27
+            ncurses:
+                rationale: Generated.
+                ref: f27
+            nghttp2:
+                rationale: Generated.
+                ref: f27
+            nspr:
+                rationale: Generated.
+                ref: f27
+            nss:
+                rationale: Generated.
+                ref: f27
+            nss-pem:
+                rationale: Generated.
+                ref: f27
+            nss-softokn:
+                rationale: Generated.
+                ref: f27
+            nss-util:
+                rationale: Generated.
+                ref: f27
+            openldap:
+                rationale: Generated.
+                ref: f27
+            openssl:
+                rationale: Generated.
+                ref: f27
+            p11-kit:
+                rationale: Generated.
+                ref: f27
+            pam:
+                rationale: Generated.
+                ref: f27
+            parted:
+                rationale: Generated.
+                ref: f27
+            pcre:
+                rationale: Generated.
+                ref: f27
+            pcre2:
+                rationale: Generated.
+                ref: f27
+            policycoreutils:
+                rationale: Generated.
+                ref: f27
+            popt:
+                rationale: Generated.
+                ref: f27
+            psmisc:
+                rationale: Generated.
+                ref: f27
             pycryptopp:
+                rationale: Generated.
+                ref: f27
+            pyOpenSSL:
+                rationale: Generated.
+                ref: f27
+            python2:
+                rationale: Generated.
+                ref: f27
+            python3:
+                rationale: Generated.
+                ref: f27
+            python-asn1crypto:
+                rationale: Generated.
+                ref: f27
+            python-backports:
+                rationale: Generated.
+                ref: f27
+            python-backports-ssl_match_hostname:
                 rationale: Generated.
                 ref: f27
             python-beaker:
@@ -95,19 +406,40 @@ data:
             python-beautifulsoup4:
                 rationale: Generated.
                 ref: f27
+            python-cffi:
+                rationale: Generated.
+                ref: f27
+            python-chardet:
+                rationale: Generated.
+                ref: f27
             python-cherrypy:
                 rationale: Generated.
                 ref: f27
             python-click:
                 rationale: Generated.
                 ref: f27
+            python-cryptography:
+                rationale: Generated.
+                ref: f27
             python-cssselect:
+                rationale: Generated.
+                ref: f27
+            python-enum34:
                 rationale: Generated.
                 ref: f27
             python-flask:
                 rationale: Generated.
                 ref: f27
             python-html5lib:
+                rationale: Generated.
+                ref: f27
+            python-idna:
+                rationale: Generated.
+                ref: f27
+            python-ipaddress:
+                rationale: Generated.
+                ref: f27
+            python-IPy:
                 rationale: Generated.
                 ref: f27
             python-itsdangerous:
@@ -134,7 +466,25 @@ data:
             python-pecan:
                 rationale: Generated.
                 ref: f27
+            python-pip:
+                rationale: Generated.
+                ref: f27
+            python-ply:
+                rationale: Generated.
+                ref: f27
             python-prettytable:
+                rationale: Generated.
+                ref: f27
+            python-pycparser:
+                rationale: Generated.
+                ref: f27
+            python-pysocks:
+                rationale: Generated.
+                ref: f27
+            python-requests:
+                rationale: Generated.
+                ref: f27
+            python-setuptools:
                 rationale: Generated.
                 ref: f27
             python-simplegeneric:
@@ -143,7 +493,13 @@ data:
             python-singledispatch:
                 rationale: Generated.
                 ref: f27
+            python-six:
+                rationale: Generated.
+                ref: f27
             python-tempita:
+                rationale: Generated.
+                ref: f27
+            python-urllib3:
                 rationale: Generated.
                 ref: f27
             python-waitress:
@@ -161,6 +517,69 @@ data:
             python-werkzeug:
                 rationale: Generated.
                 ref: f27
+            pytz:
+                rationale: Generated.
+                ref: f27
+            qrencode:
+                rationale: Generated.
+                ref: f27
+            readline:
+                rationale: Generated.
+                ref: f27
+            rpm:
+                rationale: Generated.
+                ref: f27
+            sed:
+                rationale: Generated.
+                ref: f27
+            selinux-policy:
+                rationale: Generated.
+                ref: f27
+            setools:
+                rationale: Generated.
+                ref: f27
+            setup:
+                rationale: Generated.
+                ref: f27
+            sgpio:
+                rationale: Generated.
+                ref: f27
+            shadow-utils:
+                rationale: Generated.
+                ref: f27
+            snappy:
+                rationale: Generated.
+                ref: f27
+            sqlite:
+                rationale: Generated.
+                ref: f27
+            systemd:
+                rationale: Generated.
+                ref: f27
+            tcp_wrappers:
+                rationale: Generated.
+                ref: f27
+            texinfo:
+                rationale: Generated.
+                ref: f27
+            tzdata:
+                rationale: Generated.
+                ref: f27
+            userspace-rcu:
+                rationale: Generated.
+                ref: f27
+            util-linux:
+                rationale: Generated.
+                ref: f27
             which:
+                rationale: Generated.
+                ref: f27
+            xfsprogs:
+                rationale: Generated.
+                ref: f27
+            xz:
+                rationale: Generated.
+                ref: f27
+            zlib:
                 rationale: Generated.
                 ref: f27

@@ -19,7 +19,6 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [tomcat](../tomcat)
 * [resteasy](../resteasy)
 * [httpd](../httpd)
-* [storage-devices](../storage-devices)
 * [python2](../python2)
 * [python2-ecosystem](../python2-ecosystem)
 * [python3](../python3)
@@ -67,6 +66,7 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `opendnssec` | X | X | X | X | X | X | X |
 | `open-sans-fonts` | X | X | X | X | X | X | X |
 | `python2-augeas` | X | X | X | X | X | X | X |
+| `python2-babel` | X | X | X | X | X | X | X |
 | `python2-configparser` | X | X | X | X | X | X | X |
 | `python2-custodia` | X | X | X | X | X | X | X |
 | `python2-dateutil` | X | X | X | X | X | X | X |
@@ -75,8 +75,10 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `python2-ipaclient` | X | X | X | X | X | X | X |
 | `python2-ipalib` | X | X | X | X | X | X | X |
 | `python2-ipaserver` | X | X | X | X | X | X | X |
+| `python2-jinja2` | X | X | X | X | X | X | X |
 | `python2-jwcrypto` | X | X | X | X | X | X | X |
 | `python2-kdcproxy` | X | X | X | X | X | X | X |
+| `python2-markupsafe` | X | X | X | X | X | X | X |
 | `python2-netaddr` | X | X | X | X | X | X | X |
 | `python2-netifaces` | X | X | X | X | X | X | X |
 | `python2-pyusb` | X | X | X | X | X | X | X |
