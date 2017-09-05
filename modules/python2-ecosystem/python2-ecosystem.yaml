@@ -18,67 +18,80 @@ data:
         tracker: https://github.com/modularity-modules/python2-ecosystem
     api:
         rpms:
-            - python2-asn1crypto
-            - python2-bytesize
-            - python2-cffi
-            - python2-chardet
-            - python2-coverage
-            - python2-crypto
-            - python2-cryptography
-            - python2-decorator
-            - python2-iniparse
-            - python2-IPy
-            - python2-ordered-set
-            - python2-ply
-            - python2-pycparser
-            - python2-pyOpenSSL
-            - python2-pyparsing
-            - python2-pytz
-            - python2-requests
-            - python2-requests-file
-            - python2-requests-ftp
-            - python2-six
-            - python2-urllib3
+            - dbus-python-devel
+            - python2-augeas
+            - python2-configparser
+            - python2-custodia
+            - python2-custodia-extra
+            - python2-dateutil
+            - python2-dbus
+            - python2-gssapi
+            - python2-jwcrypto
+            - python2-kdcproxy
+            - python2-netaddr
+            - python2-netifaces
+            - python2-pluggy
+            - python2-python-etcd
+            - python2-pyusb
+            - python2-qrcode
+            - python2-tox
+            - python2-typing
+            - python-dateutil-doc
+            - python-qrcode-core
     profiles:
         default:
             description: A generated profile based on top-lvl package list.
             rpms:
-                - python2-asn1crypto
-                - python2-bytesize
-                - python2-cffi
-                - python2-chardet
-                - python2-coverage
-                - python2-crypto
-                - python2-cryptography
-                - python2-decorator
-                - python2-iniparse
-                - python2-IPy
-                - python2-ordered-set
-                - python2-ply
-                - python2-pycparser
-                - python2-pyOpenSSL
-                - python2-pyparsing
-                - python2-pytz
-                - python2-requests
-                - python2-requests-file
-                - python2-requests-ftp
-                - python2-six
-                - python2-urllib3
+                - dbus-python-devel
+                - python2-augeas
+                - python2-configparser
+                - python2-custodia
+                - python2-custodia-extra
+                - python2-dateutil
+                - python2-dbus
+                - python2-gssapi
+                - python2-jwcrypto
+                - python2-kdcproxy
+                - python2-netaddr
+                - python2-netifaces
+                - python2-pluggy
+                - python2-python-etcd
+                - python2-pyusb
+                - python2-qrcode
+                - python2-tox
+                - python2-typing
+                - python-dateutil-doc
+                - python-qrcode-core
     components:
         rpms:
+            custodia:
+                rationale: Generated.
+                ref: f27
+            lcms2:
+                rationale: Generated.
+                ref: f27
+            libimagequant:
+                rationale: Generated.
+                ref: f27
             libtomcrypt:
                 rationale: Generated.
                 ref: f27
             libtommath:
                 rationale: Generated.
                 ref: f27
+            libwebp:
+                rationale: Generated.
+                ref: f27
             pyOpenSSL:
                 rationale: Generated.
                 ref: f27
-            pyparsing:
+            python2-typing:
                 rationale: Generated.
                 ref: f27
             python-asn1crypto:
+                rationale: Generated.
+                ref: f27
+            python-augeas:
                 rationale: Generated.
                 ref: f27
             python-backports:
@@ -93,7 +106,7 @@ data:
             python-chardet:
                 rationale: Generated.
                 ref: f27
-            python-coverage:
+            python-configparser:
                 rationale: Generated.
                 ref: f27
             python-crypto:
@@ -102,10 +115,22 @@ data:
             python-cryptography:
                 rationale: Generated.
                 ref: f27
+            python-dateutil:
+                rationale: Generated.
+                ref: f27
             python-decorator:
                 rationale: Generated.
                 ref: f27
+            python-dns:
+                rationale: Generated.
+                ref: f27
             python-enum34:
+                rationale: Generated.
+                ref: f27
+            python-etcd:
+                rationale: Generated.
+                ref: f27
+            python-gssapi:
                 rationale: Generated.
                 ref: f27
             python-idna:
@@ -114,10 +139,34 @@ data:
             python-ipaddress:
                 rationale: Generated.
                 ref: f27
-            python-ordered-set:
+            python-jwcrypto:
+                rationale: Generated.
+                ref: f27
+            python-kdcproxy:
+                rationale: Generated.
+                ref: f27
+            python-netaddr:
+                rationale: Generated.
+                ref: f27
+            python-netifaces:
+                rationale: Generated.
+                ref: f27
+            python-olefile:
+                rationale: Generated.
+                ref: f27
+            python-pillow:
+                rationale: Generated.
+                ref: f27
+            python-pluggy:
                 rationale: Generated.
                 ref: f27
             python-ply:
+                rationale: Generated.
+                ref: f27
+            python-py:
+                rationale: Generated.
+                ref: f27
+            python-pyasn1:
                 rationale: Generated.
                 ref: f27
             python-pycparser:
@@ -126,18 +175,24 @@ data:
             python-pysocks:
                 rationale: Generated.
                 ref: f27
+            python-qrcode:
+                rationale: Generated.
+                ref: f27
             python-requests:
                 rationale: Generated.
                 ref: f27
-            python-requests-file:
+            python-systemd:
                 rationale: Generated.
                 ref: f27
-            python-requests-ftp:
+            python-tox:
                 rationale: Generated.
                 ref: f27
             python-urllib3:
                 rationale: Generated.
                 ref: f27
-            pytz:
+            python-virtualenv:
+                rationale: Generated.
+                ref: f27
+            pyusb:
                 rationale: Generated.
                 ref: f27

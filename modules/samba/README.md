@@ -29,7 +29,6 @@ These are RPM dependencies of the [samba top-level package set](samba.csv). They
 | `libtdb` | X | X | X | X | X | X | X |
 | `libtevent` | X | X | X | X | X | X | X |
 | `libwbclient` | X | X | X | X | X | X | X |
-| `python2-dns` | X | X | X | X | X | X | X |
 | `python2-ldb` | X | X | X | X | X | X | X |
 | `python2-samba` | X | X | X | X | X | X | X |
 | `python2-talloc` | X | X | X | X | X | X | X |

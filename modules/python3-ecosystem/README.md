@@ -20,26 +20,30 @@ These are RPM dependencies of the [python3-ecosystem top-level package set](pyth
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
+| `js-jquery` | X | X | X | X | X | X | X |
 | `libtomcrypt` | X | X | X | X | X | X | X |
 | `libtommath` | X | X | X | X | X | X | X |
 | `python3-asn1crypto` | X | X | X | X | X | X | X |
-| `python3-bytesize` | X | X | X | X | X | X | X |
 | `python3-cffi` | X | X | X | X | X | X | X |
 | `python3-chardet` | X | X | X | X | X | X | X |
-| `python3-coverage` | X | X | X | X | X | X | X |
 | `python3-crypto` | X | X | X | X | X | X | X |
 | `python3-cryptography` | X | X | X | X | X | X | X |
-| `python3-decorator` | X | X | X | X | X | X | X |
+| `python3-custodia` | X | X | X | X | X | X | X |
+| `python3-custodia-extra` | X | X | X | X | X | X | X |
 | `python3-dns` | X | X | X | X | X | X | X |
 | `python3-idna` | X | X | X | X | X | X | X |
-| `python3-ordered-set` | X | X | X | X | X | X | X |
+| `python3-jwcrypto` | X | X | X | X | X | X | X |
+| `python3-pluggy` | X | X | X | X | X | X | X |
 | `python3-ply` | X | X | X | X | X | X | X |
+| `python3-py` | X | X | X | X | X | X | X |
 | `python3-pycparser` | X | X | X | X | X | X | X |
 | `python3-pyOpenSSL` | X | X | X | X | X | X | X |
-| `python3-pyparsing` | X | X | X | X | X | - | X |
 | `python3-pysocks` | X | X | X | X | X | X | X |
-| `python3-pytz` | X | X | X | X | X | X | X |
+| `python3-python-etcd` | X | X | X | X | X | X | X |
 | `python3-requests` | X | X | X | X | X | X | X |
-| `python3-requests-file` | X | X | X | X | X | X | X |
-| `python3-requests-ftp` | X | X | X | X | X | X | X |
+| `python3-systemd` | X | X | X | X | X | X | X |
+| `python3-tox` | X | X | X | X | X | X | X |
 | `python3-urllib3` | X | X | X | X | X | X | X |
+| `python3-virtualenv` | X | X | X | X | X | X | X |
+| `python-systemd-doc` | X | X | X | X | X | X | X |
+| `web-assets-filesystem` | X | X | X | X | X | X | X |

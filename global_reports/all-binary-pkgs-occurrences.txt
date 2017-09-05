@@ -104,8 +104,10 @@ cyrus-sasl-gssapi                    389-ds, sssd
 cyrus-sasl-lib                       platform, storage-devices
 cyrus-sasl-md5                       389-ds
 dbus                                 platform, storage-devices
+dbus-devel                           python2-ecosystem
 dbus-glib                            platform
 dbus-libs                            platform, storage-devices
+dbus-python-devel                    python2-ecosystem
 debugmode                            platform-placeholder
 deltarpm                             platform
 desktop-file-utils                   platform
@@ -290,6 +292,7 @@ jboss-jaxrs-2.0-api                  resteasy
 jboss-logging                        resteasy
 jcip-annotations                     resteasy
 joda-time                            resteasy
+js-jquery                            python3-ecosystem
 json-c                               platform
 json-glib                            platform
 jsr-311                              resteasy
@@ -323,6 +326,7 @@ krb5-workstation                     platform
 langtable                            installer
 langtable-data                       installer
 langtable-python3                    installer
+lcms2                                python2-ecosystem
 ldapjdk                              pki
 ldns                                 freeipa
 less                                 platform
@@ -407,6 +411,7 @@ libICE                               X11-base
 libicu                               platform
 libidn                               platform, storage-devices
 libidn2                              platform
+libimagequant                        python2-ecosystem
 libini_config                        platform
 libipa_hbac                          sssd
 libipt                               platform
@@ -507,6 +512,7 @@ libuuid                              platform, storage-devices
 libverto                             platform, storage-devices
 libverto-libev                       platform
 libwbclient                          samba
+libwebp                              python2-ecosystem
 libX11                               X11-base
 libX11-common                        X11-base
 libXau                               X11-base
@@ -805,45 +811,43 @@ pycryptopp                           storage-devices
 pylint                               pki
 python2                              platform-placeholder, storage-devices
 python2-asn1crypto                   pki, python2-ecosystem, storage-devices
-python2-augeas                       freeipa
+python2-augeas                       python2-ecosystem
 python2-babel                        freeipa, storage-devices
 python2-backports                    pki, python2-ecosystem, storage-devices
 python2-beaker                       storage-devices
 python2-beautifulsoup4               pki, storage-devices
 python2-blockdev                     platform-placeholder
-python2-bytesize                     python2-ecosystem
 python2-cffi                         pki, python2-ecosystem, storage-devices
 python2-chardet                      pki, python2-ecosystem, storage-devices
 python2-cherrypy                     storage-devices
 python2-click                        storage-devices
-python2-configparser                 freeipa
-python2-coverage                     python2-ecosystem
+python2-configparser                 python2-ecosystem
 python2-crypto                       python2-ecosystem
 python2-cryptography                 pki, python2-ecosystem, storage-devices
 python2-cssselect                    pki, storage-devices
-python2-custodia                     freeipa
-python2-dateutil                     freeipa
-python2-dbus                         freeipa
+python2-custodia                     python2-ecosystem
+python2-custodia-extra               python2-ecosystem
+python2-dateutil                     python2-ecosystem
+python2-dbus                         python2-ecosystem
 python2-debug                        python2
 python2-decorator                    python2-ecosystem
 python2-devel                        python2
-python2-dns                          samba
+python2-dns                          python2-ecosystem
 python2-enum34                       pki, python2-ecosystem, storage-devices
 python2-flask                        storage-devices
-python2-gssapi                       freeipa
+python2-gssapi                       python2-ecosystem
 python2-html5lib                     pki, storage-devices
 python2-idna                         pki, python2-ecosystem, storage-devices
-python2-iniparse                     python2-ecosystem
 python2-ipaclient                    freeipa
 python2-ipaddress                    pki, python2-ecosystem, storage-devices
 python2-ipalib                       freeipa
 python2-ipaserver                    freeipa
-python2-IPy                          pki, python2-ecosystem
+python2-IPy                          pki
 python2-iscsi-initiator-utils        platform-placeholder
 python2-itsdangerous                 storage-devices
 python2-jinja2                       freeipa, storage-devices
-python2-jwcrypto                     freeipa
-python2-kdcproxy                     freeipa
+python2-jwcrypto                     python2-ecosystem
+python2-kdcproxy                     python2-ecosystem
 python2-ldap                         pki
 python2-ldb                          samba
 python2-libipa_hbac                  sssd
@@ -857,27 +861,29 @@ python2-lxml                         pki, storage-devices
 python2-mako                         storage-devices
 python2-markupsafe                   freeipa, storage-devices
 python2-ndg_httpsclient              httpd
-python2-netaddr                      freeipa
-python2-netifaces                    freeipa
+python2-netaddr                      python2-ecosystem
+python2-netifaces                    python2-ecosystem
 python2-nss                          pki
-python2-ordered-set                  python2-ecosystem
+python2-olefile                      python2-ecosystem
 python2-paste                        storage-devices
 python2-pecan                        storage-devices
+python2-pillow                       python2-ecosystem
 python2-pip                          platform-placeholder, storage-devices
+python2-pluggy                       python2-ecosystem
 python2-ply                          pki, python2-ecosystem, storage-devices
 python2-policycoreutils              pki
 python2-prettytable                  storage-devices
-python2-pyasn1                       httpd, pki
+python2-py                           python2-ecosystem
+python2-pyasn1                       pki, python2-ecosystem
 python2-pyasn1-modules               pki
 python2-pycparser                    pki, python2-ecosystem, storage-devices
 python2-pyOpenSSL                    pki, python2-ecosystem, storage-devices
-python2-pyparsing                    python2-ecosystem
 python2-pysocks                      pki, python2-ecosystem, storage-devices
-python2-pytz                         python2-ecosystem, storage-devices
-python2-pyusb                        freeipa
+python2-python-etcd                  python2-ecosystem
+python2-pytz                         freeipa, storage-devices
+python2-pyusb                        python2-ecosystem
+python2-qrcode                       python2-ecosystem
 python2-requests                     pki, python2-ecosystem, storage-devices
-python2-requests-file                python2-ecosystem
-python2-requests-ftp                 python2-ecosystem
 python2-rpm-macros                   python2
 python2-samba                        samba
 python2-setools                      pki
@@ -888,7 +894,7 @@ python2-six                          pki, python2-ecosystem, storage-devices
 python2-sss                          sssd
 python2-sssdconfig                   sssd
 python2-sss-murmur                   sssd
-python2-systemd                      freeipa
+python2-systemd                      python2-ecosystem
 python2-talloc                       samba
 python2-tdb                          samba
 python2-tempita                      storage-devices
@@ -896,8 +902,10 @@ python2-test                         python2
 python2-tevent                       samba
 python2-tkinter                      python2
 python2-tools                        python2
-python2-typing                       freeipa
+python2-tox                          python2-ecosystem
+python2-typing                       python2-ecosystem
 python2-urllib3                      pki, python2-ecosystem, storage-devices
+python2-virtualenv                   python2-ecosystem
 python2-waitress                     storage-devices
 python2-webencodings                 pki, storage-devices
 python2-webob                        storage-devices
@@ -910,16 +918,17 @@ python3-astroid                      pki
 python3-bind                         bind
 python3-blivet                       installer
 python3-blockdev                     platform-placeholder
-python3-bytesize                     installer, python3-ecosystem
+python3-bytesize                     installer
 python3-cffi                         installer, python3-ecosystem
 python3-chardet                      installer, python3-ecosystem
-python3-coverage                     installer, python3-ecosystem
+python3-coverage                     installer
 python3-crypto                       python3-ecosystem
 python3-cryptography                 installer, python3-ecosystem
-python3-custodia                     freeipa
+python3-custodia                     python3-ecosystem
+python3-custodia-extra               python3-ecosystem
 python3-dbus                         platform-placeholder
 python3-debug                        python3
-python3-decorator                    installer, python3-ecosystem
+python3-decorator                    installer, networking-base
 python3-devel                        pki, python3
 python3-dnf                          platform
 python3-dns                          python3-ecosystem
@@ -932,7 +941,7 @@ python3-iniparse                     platform
 python3-IPy                          platform, storage-devices
 python3-iscsi-initiator-utils        platform-placeholder
 python3-isort                        pki
-python3-jwcrypto                     freeipa
+python3-jwcrypto                     python3-ecosystem
 python3-kickstart                    installer
 python3-lazy-object-proxy            pki
 python3-libcomps                     platform
@@ -948,13 +957,13 @@ python3-mccabe                       pki
 python3-meh                          installer
 python3-nss                          pki
 python3-ntplib                       installer
-python3-ordered-set                  installer, python3-ecosystem
+python3-ordered-set                  installer
 python3-pid                          installer
 python3-pip                          platform, storage-devices
-python3-pluggy                       pki
+python3-pluggy                       pki, python3-ecosystem
 python3-ply                          installer, python3-ecosystem
 python3-pwquality                    installer
-python3-py                           pki
+python3-py                           pki, python3-ecosystem
 python3-pyasn1                       pki
 python3-pyasn1-modules               pki
 python3-pycparser                    installer, python3-ecosystem
@@ -962,16 +971,17 @@ python3-pydbus                       installer
 python3-pyldap                       pki
 python3-pylint                       pki
 python3-pyOpenSSL                    installer, python3-ecosystem
-python3-pyparsing                    perl, platform-placeholder, python3-ecosystem
+python3-pyparsing                    perl, platform-placeholder
 python3-pyparted                     installer
 python3-pysocks                      installer, python3-ecosystem
 python3-pytest                       pki
 python3-pytest-runner                pki
-python3-pytz                         installer, python3-ecosystem
+python3-python-etcd                  python3-ecosystem
+python3-pytz                         installer
 python3-pyudev                       platform-placeholder
 python3-requests                     installer, python3-ecosystem
-python3-requests-file                installer, python3-ecosystem
-python3-requests-ftp                 installer, python3-ecosystem
+python3-requests-file                installer
+python3-requests-ftp                 installer
 python3-rpm                          platform
 python3-rpm-generators               pki, python2, python3
 python3-rpm-macros                   pki, python3
@@ -981,24 +991,26 @@ python3-six                          platform
 python3-slip                         installer, networking-base
 python3-slip-dbus                    installer, networking-base
 python3-sssdconfig                   installer, networking-base, sssd
-python3-systemd                      freeipa, installer
+python3-systemd                      installer, python3-ecosystem
 python3-test                         python3
 python3-tkinter                      python3
 python3-tools                        python3
-python3-tox                          pki
+python3-tox                          pki, python3-ecosystem
 python3-urllib3                      installer, python3-ecosystem
-python3-virtualenv                   pki
+python3-virtualenv                   pki, python3-ecosystem
 python3-wheel                        python3
 python3-wrapt                        installer, pki
 python-backports-ssl_match_hostname  pki, python2-ecosystem, storage-devices
 python-cephfs                        storage-devices
+python-dateutil-doc                  python2-ecosystem
 python-gobject-base                  platform-placeholder
-python-qrcode-core                   freeipa
+python-qrcode-core                   python2-ecosystem
 python-rados                         storage-devices
 python-rbd                           storage-devices
 python-rgw                           storage-devices
 python-rpm-macros                    pki, python2, python3
 python-srpm-macros                   platform
+python-systemd-doc                   python3-ecosystem
 python-werkzeug                      storage-devices
 qrencode-libs                        platform, storage-devices
 qt5-srpm-macros                      platform
@@ -1141,6 +1153,7 @@ velocity                             pki
 vim-minimal                          platform
 volume_key                           platform
 volume_key-libs                      platform
+web-assets-filesystem                python3-ecosystem
 which                                java, platform, storage-devices
 words                                krb5
 wpa_supplicant                       networking-base

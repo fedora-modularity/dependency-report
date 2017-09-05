@@ -52,6 +52,7 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `NetworkManager-wwan` | X | X | X | X | X | X | X |
 | `newt` | X | X | X | X | X | X | X |
 | `psl` | X | X | X | X | X | X | X |
+| `python3-decorator` | X | X | X | X | X | X | X |
 | `python3-firewall` | X | X | X | X | X | X | X |
 | `python3-slip` | X | X | X | X | X | X | X |
 | `python3-slip-dbus` | X | X | X | X | X | X | X |

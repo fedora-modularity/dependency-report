@@ -34,4 +34,3 @@ These are RPM dependencies of the [httpd top-level package set](httpd.csv). They
 | `mod_wsgi` | X | X | X | X | X | X | X |
 | `nss-tools` | X | X | X | X | X | X | X |
 | `python2-ndg_httpsclient` | X | X | X | X | X | X | X |
-| `python2-pyasn1` | X | X | X | X | X | X | X |

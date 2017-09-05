@@ -18,56 +18,38 @@ data:
         tracker: https://github.com/modularity-modules/python3-ecosystem
     api:
         rpms:
-            - python3-asn1crypto
-            - python3-bytesize
-            - python3-cffi
-            - python3-chardet
-            - python3-coverage
-            - python3-crypto
             - python3-cryptography
-            - python3-decorator
+            - python3-custodia
+            - python3-custodia-extra
             - python3-dns
-            - python3-iniparse
-            - python3-IPy
-            - python3-ordered-set
-            - python3-ply
-            - python3-pycparser
-            - python3-pyOpenSSL
-            - python3-pyparsing
-            - python3-pytz
-            - python3-requests
-            - python3-requests-file
-            - python3-requests-ftp
-            - python3-six
-            - python3-urllib3
+            - python3-jwcrypto
+            - python3-pluggy
+            - python3-python-etcd
+            - python3-systemd
+            - python3-tox
+            - python-systemd-doc
     profiles:
         default:
             description: A generated profile based on top-lvl package list.
             rpms:
-                - python3-asn1crypto
-                - python3-bytesize
-                - python3-cffi
-                - python3-chardet
-                - python3-coverage
-                - python3-crypto
                 - python3-cryptography
-                - python3-decorator
+                - python3-custodia
+                - python3-custodia-extra
                 - python3-dns
-                - python3-iniparse
-                - python3-IPy
-                - python3-ordered-set
-                - python3-ply
-                - python3-pycparser
-                - python3-pyOpenSSL
-                - python3-pyparsing
-                - python3-pytz
-                - python3-requests
-                - python3-requests-file
-                - python3-requests-ftp
-                - python3-six
-                - python3-urllib3
+                - python3-jwcrypto
+                - python3-pluggy
+                - python3-python-etcd
+                - python3-systemd
+                - python3-tox
+                - python-systemd-doc
     components:
         rpms:
+            custodia:
+                rationale: Generated.
+                ref: f27
+            js-jquery:
+                rationale: Generated.
+                ref: f27
             libtomcrypt:
                 rationale: Generated.
                 ref: f27
@@ -75,9 +57,6 @@ data:
                 rationale: Generated.
                 ref: f27
             pyOpenSSL:
-                rationale: Generated.
-                ref: f27
-            pyparsing:
                 rationale: Generated.
                 ref: f27
             python-asn1crypto:
@@ -89,28 +68,31 @@ data:
             python-chardet:
                 rationale: Generated.
                 ref: f27
-            python-coverage:
-                rationale: Generated.
-                ref: f27
             python-crypto:
                 rationale: Generated.
                 ref: f27
             python-cryptography:
                 rationale: Generated.
                 ref: f27
-            python-decorator:
+            python-dns:
                 rationale: Generated.
                 ref: f27
-            python-dns:
+            python-etcd:
                 rationale: Generated.
                 ref: f27
             python-idna:
                 rationale: Generated.
                 ref: f27
-            python-ordered-set:
+            python-jwcrypto:
+                rationale: Generated.
+                ref: f27
+            python-pluggy:
                 rationale: Generated.
                 ref: f27
             python-ply:
+                rationale: Generated.
+                ref: f27
+            python-py:
                 rationale: Generated.
                 ref: f27
             python-pycparser:
@@ -122,15 +104,18 @@ data:
             python-requests:
                 rationale: Generated.
                 ref: f27
-            python-requests-file:
+            python-systemd:
                 rationale: Generated.
                 ref: f27
-            python-requests-ftp:
+            python-tox:
                 rationale: Generated.
                 ref: f27
             python-urllib3:
                 rationale: Generated.
                 ref: f27
-            pytz:
+            python-virtualenv:
+                rationale: Generated.
+                ref: f27
+            web-assets:
                 rationale: Generated.
                 ref: f27
