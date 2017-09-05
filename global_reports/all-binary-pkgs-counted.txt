@@ -59,6 +59,7 @@
       1 cockpit-system
       1 cockpit-ws
       1 compat-openssl10
+      1 copy-jdk-configs
       1 cpio
       1 cpp
       1 cracklib-dicts
@@ -203,6 +204,8 @@
       1 jansson
       1 java-1.8.0-openjdk
       1 java-1.8.0-openjdk-devel
+      1 java-1.8.0-openjdk-headless
+      1 javapackages-tools
       1 javassist
       1 jbigkit
       1 jbigkit-libs
@@ -394,6 +397,8 @@
       1 lm_sensors-libs
       1 lsof
       1 lsscsi
+      1 lua
+      1 lua-posix
       1 lvm2
       1 lvm2-dbusd
       1 lvm2-libs
@@ -564,7 +569,6 @@
       1 python3-custodia
       1 python3-dbus
       1 python3-debug
-      1 python3-devel
       1 python3-dnf
       1 python3-dns
       1 python3-gobject-base
@@ -587,6 +591,7 @@
       1 python3-nss
       1 python3-ntplib
       1 python3-pid
+      1 python3-pluggy
       1 python3-pwquality
       1 python3-py
       1 python3-pyasn1
@@ -599,11 +604,12 @@
       1 python3-pytest-runner
       1 python3-pyudev
       1 python3-rpm
-      1 python3-rpm-macros
       1 python3-six
       1 python3-test
       1 python3-tkinter
       1 python3-tools
+      1 python3-tox
+      1 python3-virtualenv
       1 python3-wheel
       1 python-cephfs
       1 python-gobject-base
@@ -709,6 +715,7 @@
       1 tomcat-lib
       1 tomcat-servlet-3.1-api
       1 ttmkfdir
+      1 tzdata-java
       1 uboot-tools
       1 udisks2
       1 udisks2-bcache
@@ -735,6 +742,7 @@
       1 xml-commons-apis
       1 xml-commons-resolver
       1 xmlrpc-c
+      1 xmlrpc-c-client
       1 xmlstreambuffer
       1 xorg-x11-fonts-Type1
       1 xorg-x11-font-utils
@@ -760,7 +768,6 @@
       2 ca-certificates
       2 checkpolicy
       2 chkconfig
-      2 copy-jdk-configs
       2 coreutils
       2 coreutils-common
       2 cracklib
@@ -791,6 +798,7 @@
       2 firewalld
       2 firewalld-filesystem
       2 fontawesome-fonts
+      2 freetype
       2 fuse-libs
       2 gawk
       2 gc
@@ -811,8 +819,6 @@
       2 hfsplus-tools
       2 info
       2 iptables-libs
-      2 java-1.8.0-openjdk-headless
-      2 javapackages-tools
       2 keyutils-libs
       2 kmod-libs
       2 kpartx
@@ -843,6 +849,7 @@
       2 libndp
       2 libnghttp2
       2 libpcap
+      2 libpng
       2 libpsl
       2 libpwquality
       2 librados2
@@ -869,9 +876,7 @@
       2 libxslt
       2 logrotate
       2 lttng-ust
-      2 lua
       2 lua-libs
-      2 lua-posix
       2 lz4-libs
       2 make
       2 mariadb-connector-c
@@ -1072,6 +1077,7 @@
       2 python3-coverage
       2 python3-cryptography
       2 python3-decorator
+      2 python3-devel
       2 python3-firewall
       2 python3-idna
       2 python3-IPy
@@ -1088,7 +1094,7 @@
       2 python3-requests
       2 python3-requests-file
       2 python3-requests-ftp
-      2 python3-rpm-generators
+      2 python3-rpm-macros
       2 python3-setools
       2 python3-setuptools
       2 python3-slip
@@ -1096,7 +1102,6 @@
       2 python3-systemd
       2 python3-urllib3
       2 python3-wrapt
-      2 python-rpm-macros
       2 qrencode-libs
       2 readline
       2 realmd
@@ -1121,15 +1126,12 @@
       2 teamd
       2 tk
       2 tzdata
-      2 tzdata-java
       2 userspace-rcu
       2 util-linux
       2 xfsprogs
       2 xz-libs
       2 zlib
       3 authconfig
-      3 freetype
-      3 libpng
       3 nss-tools
       3 python2-asn1crypto
       3 python2-backports
@@ -1147,8 +1149,9 @@
       3 python2-six
       3 python2-urllib3
       3 python3-pyparsing
+      3 python3-rpm-generators
       3 python3-sssdconfig
       3 python-backports-ssl_match_hostname
-      3 xmlrpc-c-client
-      4 which
+      3 python-rpm-macros
+      3 which
       6 curl-minimal

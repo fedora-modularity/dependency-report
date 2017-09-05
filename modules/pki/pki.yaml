@@ -29,7 +29,9 @@ data:
             - pki-tools
             - pylint
             - python3-nss
+            - python3-pluggy
             - python3-pyldap
+            - python3-tox
             - svrcore
             - svrcore-devel
     profiles:
@@ -44,7 +46,9 @@ data:
                 - pki-tools
                 - pylint
                 - python3-nss
+                - python3-pluggy
                 - python3-pyldap
+                - python3-tox
                 - svrcore
                 - svrcore-devel
     components:
@@ -133,6 +137,9 @@ data:
             python-nss:
                 rationale: Generated.
                 ref: f27
+            python-pluggy:
+                rationale: Generated.
+                ref: f27
             python-ply:
                 rationale: Generated.
                 ref: f27
@@ -157,7 +164,16 @@ data:
             python-requests:
                 rationale: Generated.
                 ref: f27
+            python-rpm-generators:
+                rationale: Generated.
+                ref: f27
+            python-tox:
+                rationale: Generated.
+                ref: f27
             python-urllib3:
+                rationale: Generated.
+                ref: f27
+            python-virtualenv:
                 rationale: Generated.
                 ref: f27
             python-webencodings:

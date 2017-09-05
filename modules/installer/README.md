@@ -86,4 +86,3 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `realmd` | X | X | X | X | X | X | X |
 | `satyr` | X | X | X | X | X | X | X |
 | `teamd` | X | X | X | X | X | X | X |
-| `xmlrpc-c-client` | X | X | X | X | X | X | X |

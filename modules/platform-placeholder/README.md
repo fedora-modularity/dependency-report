@@ -240,3 +240,4 @@ These are RPM dependencies of the [platform-placeholder top-level package set](p
 | `sysfsutils` | - | - | - | - | - | X | - |
 | `systemd-devel` | X | X | X | X | X | X | X |
 | `systemtap-sdt-devel` | - | - | - | - | - | X | - |
+| `xmlrpc-c-client` | X | X | X | X | X | X | X |

@@ -24,21 +24,21 @@ For more details **individual modules** and **architecture-specific** informatio
 | Module | RPM components | RPMs missing in buildroot |
 |---|---|---|
 | [**389-ds**](../modules/389-ds) | **25** pkgs | [**0** pkgs missing](../modules/389-ds/all/buildtime-binary-packages-short.txt) |
-| [**apache-commons**](../modules/apache-commons) | **18** pkgs | [**1** pkgs missing](../modules/apache-commons/all/buildtime-binary-packages-short.txt) |
+| [**apache-commons**](../modules/apache-commons) | **9** pkgs | [**1** pkgs missing](../modules/apache-commons/all/buildtime-binary-packages-short.txt) |
 | [**autotools**](../modules/autotools) | **3** pkgs | [**0** pkgs missing](../modules/autotools/all/buildtime-binary-packages-short.txt) |
 | [**bind**](../modules/bind) | **11** pkgs | [**0** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
 | [**fonts**](../modules/fonts) | **6** pkgs | [**0** pkgs missing](../modules/fonts/all/buildtime-binary-packages-short.txt) |
-| [**freeipa**](../modules/freeipa) | **59** pkgs | [**20** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
+| [**freeipa**](../modules/freeipa) | **58** pkgs | [**20** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**hardware-support**](../modules/hardware-support) | **0** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **14** pkgs | [**0** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
-| [**installer**](../modules/installer) | **67** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
+| [**installer**](../modules/installer) | **66** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | **13** pkgs | [**0** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **2** pkgs | [**0** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
-| [**networking-base**](../modules/networking-base) | **41** pkgs | [**2** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
+| [**networking-base**](../modules/networking-base) | **40** pkgs | [**2** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
 | [**perl**](../modules/perl) | **139** pkgs | [**0** pkgs missing](../modules/perl/all/buildtime-binary-packages-short.txt) |
-| [**pki**](../modules/pki) | **74** pkgs | [**2** pkgs missing](../modules/pki/all/buildtime-binary-packages-short.txt) |
+| [**pki**](../modules/pki) | **81** pkgs | [**0** pkgs missing](../modules/pki/all/buildtime-binary-packages-short.txt) |
 | [**platform**](../modules/platform) | **445** pkgs | [**0** pkgs missing](../modules/platform/all/buildtime-binary-packages-short.txt) |
-| [**platform-placeholder**](../modules/platform-placeholder) | **223** pkgs | [**0** pkgs missing](../modules/platform-placeholder/all/buildtime-binary-packages-short.txt) |
+| [**platform-placeholder**](../modules/platform-placeholder) | **224** pkgs | [**0** pkgs missing](../modules/platform-placeholder/all/buildtime-binary-packages-short.txt) |
 | [**postgresql**](../modules/postgresql) | **8** pkgs | [**0** pkgs missing](../modules/postgresql/all/buildtime-binary-packages-short.txt) |
 | [**python2**](../modules/python2) | **12** pkgs | [**0** pkgs missing](../modules/python2/all/buildtime-binary-packages-short.txt) |
 | [**python2-ecosystem**](../modules/python2-ecosystem) | **29** pkgs | [**0** pkgs missing](../modules/python2-ecosystem/all/buildtime-binary-packages-short.txt) |

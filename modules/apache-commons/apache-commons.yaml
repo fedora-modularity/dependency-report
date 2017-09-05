@@ -11,6 +11,7 @@ data:
             bootstrap: master
         requires:
             platform: master
+            java: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/apache-commons
@@ -66,26 +67,5 @@ data:
                 rationale: Generated.
                 ref: f27
             apache-commons-pool:
-                rationale: Generated.
-                ref: f27
-            copy-jdk-configs:
-                rationale: Generated.
-                ref: f27
-            freetype:
-                rationale: Generated.
-                ref: f27
-            java-1.8.0-openjdk:
-                rationale: Generated.
-                ref: f27
-            javapackages-tools:
-                rationale: Generated.
-                ref: f27
-            libpng:
-                rationale: Generated.
-                ref: f27
-            lua-posix:
-                rationale: Generated.
-                ref: f27
-            which:
                 rationale: Generated.
                 ref: f27

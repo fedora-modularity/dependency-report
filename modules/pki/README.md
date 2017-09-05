@@ -75,10 +75,12 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `python2-urllib3` | X | X | X | X | X | X | X |
 | `python2-webencodings` | X | X | X | X | X | X | X |
 | `python3-astroid` | X | X | X | X | X | X | X |
+| `python3-devel` | X | X | X | X | X | X | X |
 | `python3-isort` | X | X | X | X | X | X | X |
 | `python3-lazy-object-proxy` | X | X | X | X | X | X | X |
 | `python3-mccabe` | X | X | X | X | X | X | X |
 | `python3-nss` | X | X | X | X | X | X | X |
+| `python3-pluggy` | X | X | X | X | X | X | X |
 | `python3-py` | X | X | X | X | X | X | X |
 | `python3-pyasn1` | X | X | X | X | X | X | X |
 | `python3-pyasn1-modules` | X | X | X | X | X | X | X |
@@ -86,8 +88,13 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `python3-pylint` | X | X | X | X | X | X | X |
 | `python3-pytest` | X | X | X | X | X | X | X |
 | `python3-pytest-runner` | X | X | X | X | X | X | X |
+| `python3-rpm-generators` | X | X | X | X | X | X | X |
+| `python3-rpm-macros` | X | X | X | X | X | X | X |
+| `python3-tox` | X | X | X | X | X | X | X |
+| `python3-virtualenv` | X | X | X | X | X | X | X |
 | `python3-wrapt` | X | X | X | X | X | X | X |
 | `python-backports-ssl_match_hostname` | X | X | X | X | X | X | X |
+| `python-rpm-macros` | X | X | X | X | X | X | X |
 | `slf4j` | X | X | X | X | X | X | X |
 | `slf4j-jdk14` | X | X | X | X | X | X | X |
 | `svrcore` | X | X | X | X | X | X | X |

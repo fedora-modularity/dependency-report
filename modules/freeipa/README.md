@@ -92,4 +92,3 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `slapi-nis` | X | X | X | X | X | X | X |
 | `softhsm` | X | X | X | X | X | X | X |
 | `sqlite` | X | X | X | X | X | X | X |
-| `xmlrpc-c-client` | X | X | X | X | X | X | X |
