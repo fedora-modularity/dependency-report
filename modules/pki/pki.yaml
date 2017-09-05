@@ -27,6 +27,11 @@ data:
             - pki-kra
             - pki-server
             - pki-tools
+            - pylint
+            - python3-nss
+            - python3-pyldap
+            - svrcore
+            - svrcore-devel
     profiles:
         default:
             description: A generated profile based on top-lvl package list.
@@ -37,6 +42,11 @@ data:
                 - pki-kra
                 - pki-server
                 - pki-tools
+                - pylint
+                - python3-nss
+                - python3-pyldap
+                - svrcore
+                - svrcore-devel
     components:
         rpms:
             jakarta-commons-httpclient:
@@ -57,10 +67,19 @@ data:
             pki-core:
                 rationale: Generated.
                 ref: f27
+            pylint:
+                rationale: Generated.
+                ref: f27
             pyOpenSSL:
                 rationale: Generated.
                 ref: f27
+            pytest:
+                rationale: Generated.
+                ref: f27
             python-asn1crypto:
+                rationale: Generated.
+                ref: f27
+            python-astroid:
                 rationale: Generated.
                 ref: f27
             python-backports:
@@ -96,10 +115,19 @@ data:
             python-ipaddress:
                 rationale: Generated.
                 ref: f27
+            python-isort:
+                rationale: Generated.
+                ref: f27
+            python-lazy-object-proxy:
+                rationale: Generated.
+                ref: f27
             python-ldap:
                 rationale: Generated.
                 ref: f27
             python-lxml:
+                rationale: Generated.
+                ref: f27
+            python-mccabe:
                 rationale: Generated.
                 ref: f27
             python-nss:
@@ -108,13 +136,22 @@ data:
             python-ply:
                 rationale: Generated.
                 ref: f27
+            python-py:
+                rationale: Generated.
+                ref: f27
             python-pyasn1:
                 rationale: Generated.
                 ref: f27
             python-pycparser:
                 rationale: Generated.
                 ref: f27
+            python-pyldap:
+                rationale: Generated.
+                ref: f27
             python-pysocks:
+                rationale: Generated.
+                ref: f27
+            python-pytest-runner:
                 rationale: Generated.
                 ref: f27
             python-requests:
@@ -126,7 +163,13 @@ data:
             python-webencodings:
                 rationale: Generated.
                 ref: f27
+            python-wrapt:
+                rationale: Generated.
+                ref: f27
             slf4j:
+                rationale: Generated.
+                ref: f27
+            svrcore:
                 rationale: Generated.
                 ref: f27
             velocity:

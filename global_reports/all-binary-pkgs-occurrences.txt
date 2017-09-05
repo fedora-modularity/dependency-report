@@ -576,18 +576,18 @@ newt                                 networking-base
 nfs-utils                            platform
 npth                                 platform
 nspr                                 platform, storage-devices
-nspr-devel                           389-ds
+nspr-devel                           389-ds, pki
 nss                                  platform, storage-devices
-nss-devel                            389-ds
+nss-devel                            389-ds, pki
 nss-pem                              platform, storage-devices
 nss-softokn                          platform, storage-devices
-nss-softokn-devel                    389-ds
+nss-softokn-devel                    389-ds, pki
 nss-softokn-freebl                   platform, storage-devices
-nss-softokn-freebl-devel             389-ds
+nss-softokn-freebl-devel             389-ds, pki
 nss-sysinit                          platform, storage-devices
 nss-tools                            389-ds, httpd, pki
 nss-util                             platform, storage-devices
-nss-util-devel                       389-ds
+nss-util-devel                       389-ds, pki
 ntfs-3g                              udisks2
 ntfsprogs                            udisks2
 ntp                                  freeipa
@@ -795,6 +795,7 @@ psmisc                               platform, storage-devices
 publicsuffix-list                    platform
 publicsuffix-list-dafsa              platform
 pycryptopp                           storage-devices
+pylint                               pki
 python2                              platform-placeholder, storage-devices
 python2-asn1crypto                   pki, python2-ecosystem, storage-devices
 python2-augeas                       freeipa
@@ -898,6 +899,7 @@ python2-wheel                        python2
 python2-yubico                       freeipa
 python3                              platform, storage-devices
 python3-asn1crypto                   installer, python3-ecosystem
+python3-astroid                      pki
 python3-bind                         389-ds, bind
 python3-blivet                       installer
 python3-blockdev                     platform-placeholder
@@ -913,6 +915,7 @@ python3-debug                        python3
 python3-decorator                    installer, python3-ecosystem
 python3-devel                        python3
 python3-dnf                          platform
+python3-dns                          python3-ecosystem
 python3-firewall                     installer, networking-base
 python3-gobject-base                 platform-placeholder
 python3-gpg                          platform
@@ -921,8 +924,10 @@ python3-idna                         installer, python3-ecosystem
 python3-iniparse                     platform
 python3-IPy                          platform, storage-devices
 python3-iscsi-initiator-utils        platform-placeholder
+python3-isort                        pki
 python3-jwcrypto                     freeipa
 python3-kickstart                    installer
+python3-lazy-object-proxy            pki
 python3-libcomps                     platform
 python3-libnl3                       platform-placeholder
 python3-librepo                      platform
@@ -932,19 +937,28 @@ python3-libselinux                   platform, storage-devices
 python3-libsemanage                  platform, storage-devices
 python3-libstoragemgmt               udisks2
 python3-libstoragemgmt-clibs         udisks2
+python3-mccabe                       pki
 python3-meh                          installer
+python3-nss                          pki
 python3-ntplib                       installer
 python3-ordered-set                  installer, python3-ecosystem
 python3-pid                          installer
 python3-pip                          platform, storage-devices
 python3-ply                          installer, python3-ecosystem
 python3-pwquality                    installer
+python3-py                           pki
+python3-pyasn1                       pki
+python3-pyasn1-modules               pki
 python3-pycparser                    installer, python3-ecosystem
 python3-pydbus                       installer
+python3-pyldap                       pki
+python3-pylint                       pki
 python3-pyOpenSSL                    installer, python3-ecosystem
 python3-pyparsing                    perl, platform-placeholder, python3-ecosystem
 python3-pyparted                     installer
 python3-pysocks                      installer, python3-ecosystem
+python3-pytest                       pki
+python3-pytest-runner                pki
 python3-pytz                         installer, python3-ecosystem
 python3-pyudev                       platform-placeholder
 python3-requests                     installer, python3-ecosystem
@@ -965,7 +979,7 @@ python3-tkinter                      python3
 python3-tools                        python3
 python3-urllib3                      installer, python3-ecosystem
 python3-wheel                        python3
-python3-wrapt                        installer
+python3-wrapt                        installer, pki
 python-backports-ssl_match_hostname  pki, python2-ecosystem, storage-devices
 python-cephfs                        storage-devices
 python-gobject-base                  platform-placeholder
@@ -1062,8 +1076,8 @@ sssd-ldap                            sssd
 stax2-api                            resteasy
 stax-ex                              resteasy
 sudo                                 platform
-svrcore                              389-ds
-svrcore-devel                        389-ds
+svrcore                              389-ds, pki
+svrcore-devel                        389-ds, pki
 sysfsutils                           platform-placeholder
 syslinux                             platform
 syslinux-extlinux                    platform
@@ -1106,6 +1120,8 @@ udisks2-iscsi                        udisks2
 udisks2-lsm                          udisks2
 udisks2-lvm2                         udisks2
 udisks2-zram                         udisks2
+umockdev                             networking-base
+umockdev-devel                       networking-base
 unzip                                platform
 usermode                             platform
 userspace-rcu                        platform, storage-devices

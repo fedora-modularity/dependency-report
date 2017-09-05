@@ -41,6 +41,7 @@ data:
             - psl
             - realmd
             - teamd
+            - umockdev-devel
             - xmlrpc-c
             - xmlrpc-c-client
     profiles:
@@ -68,6 +69,7 @@ data:
                 - psl
                 - realmd
                 - teamd
+                - umockdev-devel
                 - xmlrpc-c
                 - xmlrpc-c-client
     components:
@@ -124,6 +126,9 @@ data:
                 rationale: Generated.
                 ref: f27
             sssd:
+                rationale: Generated.
+                ref: f27
+            umockdev:
                 rationale: Generated.
                 ref: f27
             wpa_supplicant:

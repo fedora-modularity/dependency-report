@@ -59,5 +59,7 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `realmd` | X | X | X | X | X | X | X |
 | `slang` | X | X | X | X | X | X | X |
 | `teamd` | X | X | X | X | X | X | X |
+| `umockdev` | X | X | X | X | X | X | X |
+| `umockdev-devel` | X | X | X | X | X | X | X |
 | `wpa_supplicant` | X | X | X | X | X | X | X |
 | `xmlrpc-c-client` | X | X | X | X | X | X | X |

@@ -428,11 +428,6 @@
       1 newt
       1 nfs-utils
       1 npth
-      1 nspr-devel
-      1 nss-devel
-      1 nss-softokn-devel
-      1 nss-softokn-freebl-devel
-      1 nss-util-devel
       1 ntfs-3g
       1 ntfsprogs
       1 ntp
@@ -491,6 +486,7 @@
       1 publicsuffix-list
       1 publicsuffix-list-dafsa
       1 pycryptopp
+      1 pylint
       1 python2-augeas
       1 python2-beaker
       1 python2-blockdev
@@ -561,6 +557,7 @@
       1 python2-webtest
       1 python2-wheel
       1 python2-yubico
+      1 python3-astroid
       1 python3-blivet
       1 python3-blockdev
       1 python3-crypto
@@ -569,25 +566,37 @@
       1 python3-debug
       1 python3-devel
       1 python3-dnf
+      1 python3-dns
       1 python3-gobject-base
       1 python3-gpg
       1 python3-hawkey
       1 python3-iniparse
       1 python3-iscsi-initiator-utils
+      1 python3-isort
       1 python3-jwcrypto
       1 python3-kickstart
+      1 python3-lazy-object-proxy
       1 python3-libcomps
       1 python3-libnl3
       1 python3-librepo
       1 python3-libreport
       1 python3-libstoragemgmt
       1 python3-libstoragemgmt-clibs
+      1 python3-mccabe
       1 python3-meh
+      1 python3-nss
       1 python3-ntplib
       1 python3-pid
       1 python3-pwquality
+      1 python3-py
+      1 python3-pyasn1
+      1 python3-pyasn1-modules
       1 python3-pydbus
+      1 python3-pyldap
+      1 python3-pylint
       1 python3-pyparted
+      1 python3-pytest
+      1 python3-pytest-runner
       1 python3-pyudev
       1 python3-rpm
       1 python3-rpm-macros
@@ -596,7 +605,6 @@
       1 python3-tkinter
       1 python3-tools
       1 python3-wheel
-      1 python3-wrapt
       1 python-cephfs
       1 python-gobject-base
       1 python-qrcode-core
@@ -677,8 +685,6 @@
       1 stax2-api
       1 stax-ex
       1 sudo
-      1 svrcore
-      1 svrcore-devel
       1 sysfsutils
       1 syslinux
       1 syslinux-extlinux
@@ -712,6 +718,8 @@
       1 udisks2-lsm
       1 udisks2-lvm2
       1 udisks2-zram
+      1 umockdev
+      1 umockdev-devel
       1 unzip
       1 usermode
       1 uuid
@@ -879,12 +887,17 @@
       2 NetworkManager-libnm
       2 NetworkManager-team
       2 nspr
+      2 nspr-devel
       2 nss
+      2 nss-devel
       2 nss-pem
       2 nss-softokn
+      2 nss-softokn-devel
       2 nss-softokn-freebl
+      2 nss-softokn-freebl-devel
       2 nss-sysinit
       2 nss-util
+      2 nss-util-devel
       2 openldap
       2 openldap-clients
       2 openssl
@@ -1082,6 +1095,7 @@
       2 python3-slip-dbus
       2 python3-systemd
       2 python3-urllib3
+      2 python3-wrapt
       2 python-rpm-macros
       2 qrencode-libs
       2 readline
@@ -1097,6 +1111,8 @@
       2 shadow-utils
       2 snappy
       2 sqlite-libs
+      2 svrcore
+      2 svrcore-devel
       2 systemd
       2 systemd-libs
       2 systemd-pam

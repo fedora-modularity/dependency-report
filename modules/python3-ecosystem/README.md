@@ -30,6 +30,7 @@ These are RPM dependencies of the [python3-ecosystem top-level package set](pyth
 | `python3-crypto` | X | X | X | X | X | X | X |
 | `python3-cryptography` | X | X | X | X | X | X | X |
 | `python3-decorator` | X | X | X | X | X | X | X |
+| `python3-dns` | X | X | X | X | X | X | X |
 | `python3-idna` | X | X | X | X | X | X | X |
 | `python3-ordered-set` | X | X | X | X | X | X | X |
 | `python3-ply` | X | X | X | X | X | X | X |

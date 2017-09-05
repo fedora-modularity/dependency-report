@@ -34,9 +34,9 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**installer**](../modules/installer) | **67** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | **13** pkgs | [**0** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **2** pkgs | [**0** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
-| [**networking-base**](../modules/networking-base) | **39** pkgs | [**1** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
+| [**networking-base**](../modules/networking-base) | **41** pkgs | [**2** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
 | [**perl**](../modules/perl) | **139** pkgs | [**0** pkgs missing](../modules/perl/all/buildtime-binary-packages-short.txt) |
-| [**pki**](../modules/pki) | **53** pkgs | [**5** pkgs missing](../modules/pki/all/buildtime-binary-packages-short.txt) |
+| [**pki**](../modules/pki) | **74** pkgs | [**2** pkgs missing](../modules/pki/all/buildtime-binary-packages-short.txt) |
 | [**platform**](../modules/platform) | **445** pkgs | [**0** pkgs missing](../modules/platform/all/buildtime-binary-packages-short.txt) |
 | [**platform-placeholder**](../modules/platform-placeholder) | **223** pkgs | [**0** pkgs missing](../modules/platform-placeholder/all/buildtime-binary-packages-short.txt) |
 | [**postgresql**](../modules/postgresql) | **8** pkgs | [**0** pkgs missing](../modules/postgresql/all/buildtime-binary-packages-short.txt) |
@@ -44,7 +44,7 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**python2-ecosystem**](../modules/python2-ecosystem) | **29** pkgs | [**0** pkgs missing](../modules/python2-ecosystem/all/buildtime-binary-packages-short.txt) |
 | [**python3**](../modules/python3) | **11** pkgs | [**0** pkgs missing](../modules/python3/all/buildtime-binary-packages-short.txt) |
 | [**python3-bootstrap**](../modules/python3-bootstrap) | **0** pkgs | [**0** pkgs missing](../modules/python3-bootstrap/all/buildtime-binary-packages-short.txt) |
-| [**python3-ecosystem**](../modules/python3-ecosystem) | **22** pkgs | [**0** pkgs missing](../modules/python3-ecosystem/all/buildtime-binary-packages-short.txt) |
+| [**python3-ecosystem**](../modules/python3-ecosystem) | **23** pkgs | [**0** pkgs missing](../modules/python3-ecosystem/all/buildtime-binary-packages-short.txt) |
 | [**python3-ecosystem-bootstrap**](../modules/python3-ecosystem-bootstrap) | **0** pkgs | [**0** pkgs missing](../modules/python3-ecosystem-bootstrap/all/buildtime-binary-packages-short.txt) |
 | [**resteasy**](../modules/resteasy) | **27** pkgs | [**1** pkgs missing](../modules/resteasy/all/buildtime-binary-packages-short.txt) |
 | [**ruby**](../modules/ruby) | **8** pkgs | [**0** pkgs missing](../modules/ruby/all/buildtime-binary-packages-short.txt) |
