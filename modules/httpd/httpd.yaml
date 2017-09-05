@@ -24,6 +24,7 @@ data:
             - mod_nss
             - mod_session
             - mod_wsgi
+            - python2-ndg_httpsclient
     profiles:
         default:
             description: A generated profile based on top-lvl package list.
@@ -35,6 +36,7 @@ data:
                 - mod_nss
                 - mod_session
                 - mod_wsgi
+                - python2-ndg_httpsclient
     components:
         rpms:
             apr:
@@ -59,5 +61,38 @@ data:
                 rationale: Generated.
                 ref: f27
             mod_wsgi:
+                rationale: Generated.
+                ref: f27
+            pyOpenSSL:
+                rationale: Generated.
+                ref: f27
+            python-asn1crypto:
+                rationale: Generated.
+                ref: f27
+            python-cffi:
+                rationale: Generated.
+                ref: f27
+            python-cryptography:
+                rationale: Generated.
+                ref: f27
+            python-enum34:
+                rationale: Generated.
+                ref: f27
+            python-idna:
+                rationale: Generated.
+                ref: f27
+            python-ipaddress:
+                rationale: Generated.
+                ref: f27
+            python-ndg_httpsclient:
+                rationale: Generated.
+                ref: f27
+            python-ply:
+                rationale: Generated.
+                ref: f27
+            python-pyasn1:
+                rationale: Generated.
+                ref: f27
+            python-pycparser:
                 rationale: Generated.
                 ref: f27

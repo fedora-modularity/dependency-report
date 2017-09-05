@@ -1,16 +1,3 @@
 strict digraph G {
 node [fontname=monospace];
-  "copy-jdk-configs" -> "lua";
-  "copy-jdk-configs" -> "lua-posix";
-  "java-1.8.0-openjdk-devel" -> "java-1.8.0-openjdk";
-  "java-1.8.0-openjdk-devel" -> "java-1.8.0-openjdk-headless";
-  "java-1.8.0-openjdk" -> "giflib";
-  "java-1.8.0-openjdk-headless" -> "copy-jdk-configs";
-  "java-1.8.0-openjdk-headless" -> "javapackages-tools";
-  "java-1.8.0-openjdk-headless" -> "tzdata-java";
-  "java-1.8.0-openjdk" -> "java-1.8.0-openjdk-devel";
-  "java-1.8.0-openjdk" -> "java-1.8.0-openjdk-headless";
-  "java-1.8.0-openjdk" -> "xorg-x11-fonts-Type1";
-  "javapackages-tools" -> "java-1.8.0-openjdk-headless";
-  "lua-posix" -> "lua";
 }

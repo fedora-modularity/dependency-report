@@ -20,12 +20,15 @@ These are RPM dependencies of the [python2-ecosystem top-level package set](pyth
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
+| `libtomcrypt` | X | X | X | X | X | X | X |
+| `libtommath` | X | X | X | X | X | X | X |
 | `python2-asn1crypto` | X | X | X | X | X | X | X |
 | `python2-backports` | X | X | X | X | X | X | X |
 | `python2-bytesize` | X | X | X | X | X | X | X |
 | `python2-cffi` | X | X | X | X | X | X | X |
 | `python2-chardet` | X | X | X | X | X | X | X |
 | `python2-coverage` | X | X | X | X | X | X | X |
+| `python2-crypto` | X | X | X | X | X | X | X |
 | `python2-cryptography` | X | X | X | X | X | X | X |
 | `python2-decorator` | X | X | X | X | X | X | X |
 | `python2-enum34` | X | X | X | X | X | X | X |

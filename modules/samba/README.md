@@ -8,6 +8,8 @@ These are modules identified as dependencies.
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
+* [python2](../python2)
+* [python2-ecosystem](../python2-ecosystem)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
@@ -26,10 +28,7 @@ These are RPM dependencies of the [samba top-level package set](samba.csv). They
 | `libtalloc` | X | X | X | X | X | X | X |
 | `libtdb` | X | X | X | X | X | X | X |
 | `libtevent` | X | X | X | X | X | X | X |
-| `libtomcrypt` | X | X | X | X | X | X | X |
-| `libtommath` | X | X | X | X | X | X | X |
 | `libwbclient` | X | X | X | X | X | X | X |
-| `python2-crypto` | X | X | X | X | X | X | X |
 | `python2-dns` | X | X | X | X | X | X | X |
 | `python2-ldb` | X | X | X | X | X | X | X |
 | `python2-samba` | X | X | X | X | X | X | X |

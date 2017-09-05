@@ -484,8 +484,8 @@ libteam                              installer, networking-base
 libtevent                            samba
 libtiff                              platform
 libtirpc                             platform
-libtomcrypt                          samba
-libtommath                           samba
+libtomcrypt                          python2-ecosystem, python3-ecosystem
+libtommath                           python2-ecosystem, python3-ecosystem
 libtool                              autotools
 libtool-ltdl                         platform
 libubsan                             platform
@@ -791,7 +791,7 @@ publicsuffix-list                    platform
 publicsuffix-list-dafsa              platform
 pycryptopp                           storage-devices
 python2                              platform-placeholder
-python2-asn1crypto                   python2-ecosystem
+python2-asn1crypto                   httpd, python2-ecosystem
 python2-augeas                       freeipa
 python2-babel                        storage-devices
 python2-backports                    python2-ecosystem
@@ -799,14 +799,14 @@ python2-beaker                       storage-devices
 python2-beautifulsoup4               storage-devices
 python2-blockdev                     platform-placeholder
 python2-bytesize                     python2-ecosystem
-python2-cffi                         python2-ecosystem
+python2-cffi                         httpd, python2-ecosystem
 python2-chardet                      python2-ecosystem
 python2-cherrypy                     storage-devices
 python2-click                        storage-devices
 python2-configparser                 freeipa
 python2-coverage                     python2-ecosystem
-python2-crypto                       samba
-python2-cryptography                 python2-ecosystem
+python2-crypto                       python2-ecosystem
+python2-cryptography                 httpd, python2-ecosystem
 python2-cssselect                    storage-devices
 python2-custodia                     freeipa
 python2-dateutil                     freeipa
@@ -815,14 +815,14 @@ python2-debug                        python2
 python2-decorator                    python2-ecosystem
 python2-devel                        python2
 python2-dns                          samba
-python2-enum34                       python2-ecosystem
+python2-enum34                       httpd, python2-ecosystem
 python2-flask                        storage-devices
 python2-gssapi                       freeipa
 python2-html5lib                     storage-devices
-python2-idna                         python2-ecosystem
+python2-idna                         httpd, python2-ecosystem
 python2-iniparse                     python2-ecosystem
 python2-ipaclient                    freeipa
-python2-ipaddress                    python2-ecosystem
+python2-ipaddress                    httpd, python2-ecosystem
 python2-ipalib                       freeipa
 python2-ipaserver                    freeipa
 python2-IPy                          pki, python2-ecosystem
@@ -843,6 +843,7 @@ python2-logutils                     storage-devices
 python2-lxml                         storage-devices
 python2-mako                         storage-devices
 python2-markupsafe                   storage-devices
+python2-ndg_httpsclient              httpd
 python2-netaddr                      freeipa
 python2-netifaces                    freeipa
 python2-nss                          pki
@@ -850,13 +851,13 @@ python2-ordered-set                  python2-ecosystem
 python2-paste                        storage-devices
 python2-pecan                        storage-devices
 python2-pip                          platform-placeholder
-python2-ply                          python2-ecosystem
+python2-ply                          httpd, python2-ecosystem
 python2-policycoreutils              pki
 python2-prettytable                  storage-devices
-python2-pyasn1                       pki
+python2-pyasn1                       httpd, pki
 python2-pyasn1-modules               pki
-python2-pycparser                    python2-ecosystem
-python2-pyOpenSSL                    python2-ecosystem
+python2-pycparser                    httpd, python2-ecosystem
+python2-pyOpenSSL                    httpd, python2-ecosystem
 python2-pyparsing                    python2-ecosystem
 python2-pysocks                      python2-ecosystem
 python2-pytz                         python2-ecosystem
@@ -870,7 +871,7 @@ python2-setools                      pki
 python2-setuptools                   platform-placeholder
 python2-simplegeneric                storage-devices
 python2-singledispatch               storage-devices
-python2-six                          python2-ecosystem
+python2-six                          httpd, python2-ecosystem
 python2-sss                          sssd
 python2-sssdconfig                   sssd
 python2-sss-murmur                   sssd
@@ -899,6 +900,7 @@ python3-bytesize                     installer, python3-ecosystem
 python3-cffi                         installer, python3-ecosystem
 python3-chardet                      installer, python3-ecosystem
 python3-coverage                     installer, python3-ecosystem
+python3-crypto                       python3-ecosystem
 python3-cryptography                 installer, python3-ecosystem
 python3-custodia                     freeipa
 python3-dbus                         platform-placeholder

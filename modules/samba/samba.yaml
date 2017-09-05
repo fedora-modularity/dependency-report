@@ -11,6 +11,8 @@ data:
             bootstrap: master
         requires:
             platform: master
+            python2: master
+            python2-ecosystem: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/samba
@@ -71,15 +73,6 @@ data:
                 rationale: Generated.
                 ref: f27
             libtevent:
-                rationale: Generated.
-                ref: f27
-            libtomcrypt:
-                rationale: Generated.
-                ref: f27
-            libtommath:
-                rationale: Generated.
-                ref: f27
-            python-crypto:
                 rationale: Generated.
                 ref: f27
             python-dns:

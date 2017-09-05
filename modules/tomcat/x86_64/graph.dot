@@ -1,12 +1,3 @@
 strict digraph G {
 node [fontname=monospace];
-  "tomcat-jsp-2.3-api" -> "tomcat-el-3.0-api";
-  "tomcat-jsp-2.3-api" -> "tomcat-servlet-3.1-api";
-  "tomcatjss" -> "jss";
-  "tomcatjss" -> "tomcat";
-  "tomcat-lib" -> "ecj";
-  "tomcat-lib" -> "tomcat-el-3.0-api";
-  "tomcat-lib" -> "tomcat-jsp-2.3-api";
-  "tomcat-lib" -> "tomcat-servlet-3.1-api";
-  "tomcat" -> "tomcat-lib";
 }

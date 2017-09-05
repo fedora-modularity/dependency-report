@@ -23,6 +23,7 @@ data:
             - python2-cffi
             - python2-chardet
             - python2-coverage
+            - python2-crypto
             - python2-cryptography
             - python2-decorator
             - python2-iniparse
@@ -47,6 +48,7 @@ data:
                 - python2-cffi
                 - python2-chardet
                 - python2-coverage
+                - python2-crypto
                 - python2-cryptography
                 - python2-decorator
                 - python2-iniparse
@@ -64,6 +66,12 @@ data:
                 - python2-urllib3
     components:
         rpms:
+            libtomcrypt:
+                rationale: Generated.
+                ref: f27
+            libtommath:
+                rationale: Generated.
+                ref: f27
             pyOpenSSL:
                 rationale: Generated.
                 ref: f27
@@ -86,6 +94,9 @@ data:
                 rationale: Generated.
                 ref: f27
             python-coverage:
+                rationale: Generated.
+                ref: f27
+            python-crypto:
                 rationale: Generated.
                 ref: f27
             python-cryptography:
