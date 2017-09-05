@@ -1,0 +1,108 @@
+document: modulemd
+version: 1
+data:
+    summary: X11-base module
+    description: This X11-base module has been generated.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: master
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/X11-base
+        tracker: https://github.com/modularity-modules/X11-base
+    api:
+        rpms:
+            - libfontenc
+            - libICE
+            - libSM
+            - libtiff
+            - libX11
+            - libX11-common
+            - libXau
+            - libxcb
+            - libXcomposite
+            - libXext
+            - libXfont
+            - libXft
+            - libXi
+            - libXrender
+            - libXtst
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - libfontenc
+                - libICE
+                - libSM
+                - libtiff
+                - libX11
+                - libX11-common
+                - libXau
+                - libxcb
+                - libXcomposite
+                - libXext
+                - libXfont
+                - libXft
+                - libXi
+                - libXrender
+                - libXtst
+    components:
+        rpms:
+            aajohan-comfortaa-fonts:
+                rationale: Generated.
+                ref: f27
+            fontconfig:
+                rationale: Generated.
+                ref: f27
+            fontpackages:
+                rationale: Generated.
+                ref: f27
+            freetype:
+                rationale: Generated.
+                ref: f27
+            libfontenc:
+                rationale: Generated.
+                ref: f27
+            libICE:
+                rationale: Generated.
+                ref: f27
+            libpng:
+                rationale: Generated.
+                ref: f27
+            libSM:
+                rationale: Generated.
+                ref: f27
+            libX11:
+                rationale: Generated.
+                ref: f27
+            libXau:
+                rationale: Generated.
+                ref: f27
+            libxcb:
+                rationale: Generated.
+                ref: f27
+            libXcomposite:
+                rationale: Generated.
+                ref: f27
+            libXext:
+                rationale: Generated.
+                ref: f27
+            libXfont:
+                rationale: Generated.
+                ref: f27
+            libXft:
+                rationale: Generated.
+                ref: f27
+            libXi:
+                rationale: Generated.
+                ref: f27
+            libXrender:
+                rationale: Generated.
+                ref: f27
+            libXtst:
+                rationale: Generated.
+                ref: f27

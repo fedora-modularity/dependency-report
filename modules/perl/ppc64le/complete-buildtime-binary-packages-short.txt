@@ -61,6 +61,7 @@ filesystem
 findutils
 fipscheck
 fipscheck-lib
+flac-libs
 fontconfig
 fontpackages-filesystem
 freetype
@@ -101,7 +102,9 @@ graphite2
 grep
 groff-base
 gsettings-desktop-schemas
+gsm
 gstreamer1
+gstreamer1-plugins-bad-free
 gstreamer1-plugins-base
 gtk3
 gtk-update-icon-cache
@@ -157,6 +160,8 @@ libdb
 libdb-devel
 libdb-utils
 libdrm
+libdvdnav
+libdvdread
 libedit
 libepoxy
 libfdisk
@@ -166,9 +171,11 @@ libgcc
 libgcrypt
 libglvnd
 libglvnd-egl
+libglvnd-gles
 libglvnd-glx
 libgomp
 libgpg-error
+libgudev
 libgusb
 libICE
 libICE-devel
@@ -182,6 +189,7 @@ libmcpp
 libmodman
 libmount
 libmpc
+libmpcdec
 libnghttp2
 libnotify
 libogg
@@ -202,7 +210,9 @@ libsigsegv
 libSM
 libsmartcols
 libSM-devel
+libsndfile
 libsoup
+libsrtp
 libstdc++
 libstdc++-devel
 libtasn1
@@ -215,6 +225,7 @@ libunistring
 libusbx
 libutempter
 libuuid
+libvdpau
 libverto
 libvisual
 libvorbis
@@ -445,6 +456,7 @@ perl-libs
 perl-libwww-perl
 perl-Lingua-EN-Inflect
 perl-List-MoreUtils
+perl-List-MoreUtils-XS
 perl-Locale-Codes
 perl-Locale-Maketext
 perl-Locale-Maketext-Simple
@@ -555,6 +567,7 @@ perl-Test-Harness
 perl-Test-LeakTrace
 perl-Test-MinimumVersion
 perl-Test-MockModule
+perl-Test-Needs
 perl-Test-NoWarnings
 perl-Test-Output
 perl-Test-Perl-Critic
@@ -645,13 +658,13 @@ sed
 setup
 shadow-utils
 shared-mime-info
+soundtouch
 sqlite
 sqlite-devel
 sqlite-libs
 systemd
 systemd-libs
 systemd-pam
-system-python-libs
 systemtap-sdt-devel
 tar
 teckit

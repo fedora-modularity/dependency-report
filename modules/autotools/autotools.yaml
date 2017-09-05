@@ -2,28 +2,36 @@ document: modulemd
 version: 1
 data:
     summary: autotools module
-    description: This autotools has been generated
+    description: This autotools module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            java: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
             perl: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/autotools
         tracker: https://github.com/modularity-modules/autotools
+    api:
+        rpms:
+            - autoconf
+            - automake
+            - libtool
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - autoconf
+                - automake
+                - libtool
     components:
         rpms:
             autoconf:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             automake:
                 rationale: Generated.
-                ref: master.
+                ref: f27

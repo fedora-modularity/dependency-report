@@ -2,22 +2,36 @@ document: modulemd
 version: 1
 data:
     summary: krb5 module
-    description: This krb5 has been generated
+    description: This krb5 module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/krb5
         tracker: https://github.com/modularity-modules/krb5
+    api:
+        rpms:
+            - gssproxy
+            - krb5-pkinit
+            - krb5-server
+            - krb5-workstation
+            - libkadm5
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - gssproxy
+                - krb5-pkinit
+                - krb5-server
+                - krb5-workstation
+                - libkadm5
     components:
         rpms:
             words:
                 rationale: Generated.
-                ref: master.
+                ref: f27

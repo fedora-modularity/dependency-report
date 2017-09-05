@@ -2,28 +2,70 @@ document: modulemd
 version: 1
 data:
     summary: sssd module
-    description: This sssd has been generated
+    description: This sssd module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
             samba: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/sssd
         tracker: https://github.com/modularity-modules/sssd
+    api:
+        rpms:
+            - libipa_hbac
+            - libsss_autofs
+            - libsss_certmap
+            - libsss_idmap
+            - libsss_nss_idmap
+            - python2-libipa_hbac
+            - python2-libsss_nss_idmap
+            - python2-sss
+            - python2-sssdconfig
+            - python2-sss-murmur
+            - sssd
+            - sssd-ad
+            - sssd-client
+            - sssd-common
+            - sssd-common-pac
+            - sssd-dbus
+            - sssd-ipa
+            - sssd-krb5
+            - sssd-krb5-common
+            - sssd-ldap
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - libipa_hbac
+                - libsss_autofs
+                - libsss_certmap
+                - libsss_idmap
+                - libsss_nss_idmap
+                - python2-libipa_hbac
+                - python2-libsss_nss_idmap
+                - python2-sss
+                - python2-sssdconfig
+                - python2-sss-murmur
+                - sssd
+                - sssd-ad
+                - sssd-client
+                - sssd-common
+                - sssd-common-pac
+                - sssd-dbus
+                - sssd-ipa
+                - sssd-krb5
+                - sssd-krb5-common
+                - sssd-ldap
     components:
         rpms:
             http-parser:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             sssd:
                 rationale: Generated.
-                ref: master.
+                ref: f27

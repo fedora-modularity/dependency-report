@@ -23,6 +23,7 @@ c-ares
 checkpolicy
 chkconfig
 chrpath
+cmake-filesystem
 cockpit-bridge
 cockpit-system
 cockpit-ws
@@ -96,7 +97,6 @@ gcc
 gcc-c++
 gdb-headless
 gdbm
-gdbm-devel
 gdisk
 ghc-srpm-macros
 glib2
@@ -211,7 +211,6 @@ libcrypt
 libcurl-minimal
 libdaemon
 libdb
-libdb-devel
 libdb-utils
 libdnf
 libedit
@@ -260,10 +259,8 @@ libseccomp
 libsecret
 libselinux
 libselinux-devel
-libselinux-python3
 libselinux-utils
 libsemanage
-libsemanage-python3
 libsepol
 libsepol-devel
 libsigsegv
@@ -304,9 +301,7 @@ lz4-libs
 lzo
 m4
 make
-mariadb-common
-mariadb-config
-mariadb-libs
+mariadb-connector-c
 mcstrans
 mdadm
 microdnf
@@ -501,6 +496,8 @@ publicsuffix-list
 publicsuffix-list-dafsa
 python2
 python2-blockdev
+python2-iscsi-initiator-utils
+python2-libnl3
 python2-libs
 python2-pip
 python2-setuptools
@@ -518,15 +515,16 @@ python3-libcomps
 python3-libnl3
 python3-librepo
 python3-libs
+python3-libselinux
+python3-libsemanage
 python3-pip
 python3-pyparsing
 python3-pyudev
 python3-rpm
+python3-setools
 python3-setuptools
 python3-six
 python-gobject-base
-python-iscsi-initiator-utils
-python-libnl3
 python-srpm-macros
 qrencode-libs
 qt5-srpm-macros
@@ -540,7 +538,6 @@ rpm-build
 rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
-rpm-plugin-systemd-inhibit
 rsync
 rsyslog
 runc
@@ -559,7 +556,6 @@ selinux-policy-minimum
 selinux-policy-mls
 selinux-policy-sandbox
 selinux-policy-targeted
-setools-python3
 setup
 sg3_utils
 sg3_utils-libs
@@ -577,8 +573,6 @@ systemd-devel
 systemd-libs
 systemd-pam
 systemd-udev
-system-python
-system-python-libs
 systemtap-sdt-devel
 tar
 tcl

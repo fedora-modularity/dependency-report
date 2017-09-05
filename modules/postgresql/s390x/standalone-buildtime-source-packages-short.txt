@@ -1,5 +1,6 @@
+autoconf
+automake
 bison
-docbook-dtds
 docbook-style-dsssl
 docbook-utils
 elinks
@@ -9,7 +10,6 @@ groff
 help2man
 js
 libcroco
-libxslt
 multilib-rpm-config
 openjade
 opensp
@@ -17,6 +17,9 @@ perl
 perl-Carp
 perl-constant
 perl-Data-Dumper
+perl-Data-UUID
+perl-Digest
+perl-Digest-MD5
 perl-Encode
 perl-Exporter
 perl-ExtUtils-Install
@@ -44,8 +47,10 @@ perl-Storable
 perl-Term-ANSIColor
 perl-Term-Cap
 perl-Test-Harness
+perl-Test-Simple
 perl-Text-ParseWords
 perl-Text-Tabs+Wrap
+perl-Thread-Queue
 perl-threads
 perl-threads-shared
 perl-Time-Local
@@ -55,6 +60,5 @@ pyparsing
 python2
 python-rpm-generators
 systemtap
-tcl
 uuid
 which

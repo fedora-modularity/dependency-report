@@ -26,7 +26,9 @@ SDL2_mixer
 SDL_sound
 Xaw3d
 a2ps
+aalto-xml
 acl
+acpica-tools
 adobe-source-code-pro-fonts
 adobe-source-sans-pro-fonts
 adwaita-icon-theme
@@ -174,6 +176,8 @@ botan
 bouncycastle
 breeze-icon-theme
 bridge-method-injector
+bridge-utils
+brltty
 bsf
 bsh
 btrfs-progs
@@ -217,6 +221,7 @@ closure-compiler
 cmake
 cmdtest
 cmocka
+cockpit
 codegen
 codehaus-parent
 codemodel
@@ -226,10 +231,13 @@ colm
 color-filesystem
 colord
 compat-guile18
+compat-lua
 compat-openssl10
 compat-openssl10-pkcs11-helper
 compface
 compiler-rt
+compress-lzf
+console-setup
 cookcc
 cookxml
 copy-jdk-configs
@@ -243,6 +251,8 @@ cracklib
 crda
 cronie
 crontabs
+cross-binutils
+cross-gcc
 cryptacular
 crypto-policies
 cryptopp
@@ -287,17 +297,18 @@ dlm
 dmraid
 dnf
 dnsjava
+dnsmasq
 docbook-dtds
 docbook-style-dsssl
 docbook-style-xsl
 docbook-utils
 docbook5-schemas
 docbook5-style-xsl
-docker
-docker-client
+docker-client-java
 dom4j
 dos2unix
 dosfstools
+dotconf
 doxygen
 dracut
 dtc
@@ -358,6 +369,8 @@ erlang-rebar
 erlang-rpm-macros
 erlang-sd_notify
 esound
+espeak
+ethtool
 evo-inflector
 exec-maven-plugin
 execstack
@@ -372,7 +385,7 @@ fakeroot
 fasterxml-oss-parent
 fastutil
 fbset
-fcgi
+fcoe-utils
 fedora-logos
 fedora-release
 fedora-repos
@@ -407,6 +420,7 @@ firebird
 firewalld
 flac
 flex
+flite
 fltk
 fluid-soundfont
 fluidsynth
@@ -513,40 +527,9 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
-go-compilers
 go-srpm-macros
 gobject-introspection
-godep
 golang
-golang-bitbucket-kardianos-osext
-golang-github-Sirupsen-logrus
-golang-github-bugsnag-bugsnag-go
-golang-github-bugsnag-panicwrap
-golang-github-coreos-go-systemd
-golang-github-coreos-pkg
-golang-github-cpuguy83-go-md2man
-golang-github-davecgh-go-spew
-golang-github-docker-go-units
-golang-github-godbus-dbus
-golang-github-kr-fs
-golang-github-kr-pretty
-golang-github-kr-text
-golang-github-opencontainers-runtime-spec
-golang-github-pmezard-go-difflib
-golang-github-russross-blackfriday
-golang-github-seccomp-libseccomp-golang
-golang-github-shurcooL-sanitized_anchor_name
-golang-github-stretchr-objx
-golang-github-stretchr-testify
-golang-github-syndtr-gocapability
-golang-github-vishvananda-netlink
-golang-github-vishvananda-netns
-golang-googlecode-go-crypto
-golang-googlecode-goprotobuf
-golang-googlecode-net
-golang-googlecode-text
-golang-googlecode-tools
-golang-gopkg-yaml
 google-gson
 google-guice
 google-roboto-slab-fonts
@@ -567,6 +550,7 @@ groff
 groovy
 groovy18
 grub2
+grubby
 gsbase
 gsettings-desktop-schemas
 gsl
@@ -603,11 +587,11 @@ hawtbuf
 hawtdispatch
 hawtjni
 hdf5
-hdparm
 help2man
 herqq
 hesiod
 hessian
+hfsplus-tools
 hfsutils
 hibernate
 hibernate-commons-annotations
@@ -657,6 +641,7 @@ iproute
 ipset
 iptables
 iputils
+ipxe
 irclib
 ironjacamar
 irrlicht
@@ -874,11 +859,13 @@ jwnl
 jython
 jzlib
 kate4
+kbd
 kde-filesystem
 kde-l10n
 kde-settings
 kdelibs
 kernel
+kexec-tools
 keyutils
 kf5
 kf5-karchive
@@ -895,7 +882,6 @@ kyua-cli
 kyua-testers
 ladspa
 lapack
-lash
 lasi
 latex2html
 lato-fonts
@@ -940,8 +926,10 @@ libXv
 libXxf86dga
 libXxf86misc
 libXxf86vm
+libaec
 libaesgm
 libaio
+libao
 libappstream-glib
 libarchive
 libart_lgpl
@@ -957,6 +945,7 @@ libbonobo
 libbonoboui
 libbs2b
 libbytesize
+libcacard
 libcanberra
 libcap
 libcap-ng
@@ -1009,10 +998,7 @@ libgpg-error
 libgphoto2
 libgudev
 libgusb
-libibcm
 libibmad
-libibumad
-libibverbs
 libical
 libicns
 libidn
@@ -1022,6 +1008,7 @@ libimagequant
 libimobiledevice
 libinput
 libiptcdata
+libiscsi
 libjpeg-turbo
 libkate
 libksba
@@ -1076,7 +1063,6 @@ libqmi
 librabbitmq
 libraw1394
 librdkafka
-librdmacm
 librelp
 librepo
 libreport
@@ -1092,12 +1078,14 @@ libserf
 libshout
 libsigc++20
 libsigsegv
+libsmi
 libsndfile
 libsolv
 libsoup
 libspectre
 libspiro
 libsrtp
+libssh
 libssh2
 libstemmer
 libstoragemgmt
@@ -1126,6 +1114,8 @@ libuv
 libva
 libvdpau
 libverto
+libvirt
+libvirt-python
 libvisual
 libvoikko
 libvorbis
@@ -1145,6 +1135,7 @@ libxslt
 libyaml
 lightcouch
 lilypond
+linkchecker
 linux-atm
 linux-firmware
 linuxconsoletools
@@ -1152,8 +1143,8 @@ linuxdoc-tools
 liquibase
 lirc
 lksctp-tools
+lldpad
 llvm
-llvm3.9
 lm_sensors
 lockdev
 lodash
@@ -1163,6 +1154,7 @@ log4j12
 logback
 logrotate
 lpg
+lsof
 lsscsi
 lttng-ust
 lua
@@ -1178,6 +1170,7 @@ lyx
 lz4
 lz4-java
 lzip
+lzma-java
 lzma-sdk457
 lzo
 m17n-db
@@ -1261,6 +1254,7 @@ maven2
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -1324,6 +1318,7 @@ neethi
 nekohtml
 net-snmp
 net-tools
+netcf
 netpbm
 nettle
 netty
@@ -1335,6 +1330,7 @@ nghttp2
 nginx
 ninja-build
 nkf
+nmap
 node-gyp
 nodejs
 nodejs-abbrev
@@ -1660,6 +1656,7 @@ nss-util
 nss_wrapper
 ntfs-3g
 numactl
+numad
 numpy
 objectweb-asm
 objectweb-asm3
@@ -1686,6 +1683,7 @@ opensp
 openssh
 openssl
 openwebbeans
+openwsman
 options
 optipng
 opus
@@ -1710,6 +1708,7 @@ patch
 patchutils
 pcfi
 pciutils
+pcp
 pcre
 pcre2
 pcsc-lite
@@ -1786,6 +1785,7 @@ perl-Compress-LZF
 perl-Compress-Raw-Bzip2
 perl-Compress-Raw-Zlib
 perl-Config-Any
+perl-Config-AutoConf
 perl-Config-General
 perl-Config-Perl-V
 perl-Config-Tiny
@@ -1805,6 +1805,7 @@ perl-Crypt-Rijndael
 perl-Curses
 perl-Cwd-Guard
 perl-DBD-CSV
+perl-DBD-MySQL
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBI
@@ -2012,6 +2013,7 @@ perl-Lexical-SealRequireHints
 perl-Lexical-Var
 perl-Lingua-EN-Inflect
 perl-List-MoreUtils
+perl-List-MoreUtils-XS
 perl-Locale-Codes
 perl-Locale-Maketext
 perl-Locale-US
@@ -2442,6 +2444,7 @@ picketbox-xacml
 picocontainer
 pixman
 pkgconf
+platform-python
 plexus-ant-factory
 plexus-archiver
 plexus-bsh-factory
@@ -2469,6 +2472,7 @@ pmix
 po4a
 policycoreutils
 polkit
+polkit-pkla-compat
 polkit-qt
 poly2tri
 poppler
@@ -2477,6 +2481,7 @@ popt
 portals-pom
 portaudio
 portlet-2.0-api
+postfix
 postgresql
 postgresql-jdbc
 potrace
@@ -2518,12 +2523,10 @@ python-asn1crypto
 python-attrs
 python-backports
 python-backports-ssl_match_hostname
-python-backports-unittest_mock
 python-backports_abc
 python-beaker
 python-beautifulsoup4
 python-bottle
-python-bugzilla
 python-cffi
 python-chardet
 python-cliapp
@@ -2540,6 +2543,7 @@ python-cups
 python-d2to1
 python-dateutil
 python-decorator
+python-dns
 python-docutils
 python-dtopt
 python-empy
@@ -2561,9 +2565,11 @@ python-ipaddress
 python-iso8601
 python-itsdangerous
 python-jinja2
+python-jsonpointer
 python-jsonschema
 python-keyczar
 python-keyring
+python-kmod
 python-linecache2
 python-lit
 python-lxml
@@ -2587,6 +2593,7 @@ python-pillow
 python-pip
 python-ply
 python-pretend
+python-prettytable
 python-process-tests
 python-psutil
 python-ptyprocess
@@ -2612,6 +2619,7 @@ python-requests
 python-restkit
 python-rpm-generators
 python-rpm-macros
+python-rtslib
 python-scour
 python-service-identity
 python-setuptools
@@ -2625,6 +2633,7 @@ python-socketpool
 python-sphinx
 python-sphinx-theme-alabaster
 python-sphinx_rtd_theme
+python-sphinxcontrib-websupport
 python-sqlalchemy
 python-systemd
 python-tempita
@@ -2638,6 +2647,7 @@ python-unittest2
 python-urllib3
 python-virtualenv
 python-waitress
+python-webencodings
 python-webob
 python-webtest
 python-werkzeug
@@ -2658,6 +2668,8 @@ pyxattr
 pyxdg
 qca
 qdox
+qemu
+qemu-sanity-check
 qhull
 qjson
 qpdf
@@ -2697,9 +2709,11 @@ querydsl3
 quota
 rabbitmq-java-client
 rabbitmq-server
+radvd
 ragel
 randomizedtesting
 rarian
+rdma-core
 re2c
 readline
 realmd
@@ -2885,7 +2899,6 @@ rubygem-wikicloth
 rubygem-xpath
 rubygem-yard
 rubypick
-runc
 rust
 rust-srpm-macros
 rxjava
@@ -2899,23 +2912,29 @@ saxon
 saxpath
 sbc
 sbinary
+sblim-sfcc
 sbt
 scala
 scannotation
 schroedinger
 scons
 screen
+scrub
+seabios
 sed
 selinux-policy
 sendmail
 serp
 setools
 setup
+sg3_utils
+sgabios
 sgml-common
 sgpio
 shadow-utils
 shared-mime-info
 sharutils
+sheepdog
 shibboleth-java-parent-v3
 shibboleth-java-support
 shrinkwrap
@@ -2934,6 +2953,7 @@ snakeyaml
 snappy
 snappy-java
 snowball-java
+socat
 socket_wrapper
 softhsm
 sombok
@@ -2947,6 +2967,7 @@ source-highlight
 soxr
 spatial4j
 spec-version-maven-plugin
+speech-dispatcher
 speex
 speexdsp
 spice-parent
@@ -2969,6 +2990,7 @@ sshj
 sslext
 sssd
 star
+startup-notification
 stax-ex
 stax2-api
 staxmapper
@@ -2979,6 +3001,7 @@ stringtemplate
 stringtemplate4
 struts
 stunnel
+subethasmtp
 subunit
 subversion
 sudo
@@ -3015,6 +3038,7 @@ tiger-types
 tika
 tiles
 time
+tinycdb
 tix
 tk
 tmux
@@ -3057,6 +3081,8 @@ unixODBC
 unzip
 upower
 urw-fonts
+usbredir
+usermode
 userspace-rcu
 ustr
 uthash
@@ -3069,9 +3095,11 @@ valgrind
 velocity
 velocity-tools
 vim
+virglrenderer
 volume_key
 vorbis-java
 vsftpd
+vte291
 vulkan
 w3m
 wavpack
@@ -3083,6 +3111,7 @@ webrtc-audio-processing
 weld-api
 weld-core
 weld-parent
+wget
 which
 wildfly-build-tools
 wildfly-common
@@ -3091,6 +3120,7 @@ wildfly-elytron
 wildfly-security-manager
 wildmidi
 wireless-tools
+wireshark
 woodstox-core
 words
 ws-commons-util
@@ -3119,6 +3149,7 @@ xemacs-packages-extra
 xerces-j2
 xfig
 xfsprogs
+xhtml1-dtds
 xkeyboard-config
 xml-commons-apis
 xml-commons-resolver
@@ -3166,6 +3197,7 @@ yecht
 yelp-tools
 yelp-xsl
 zbar
+zfs-fuse
 zinc
 zip
 zlib

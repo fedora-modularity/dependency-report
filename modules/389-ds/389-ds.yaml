@@ -2,56 +2,54 @@ document: modulemd
 version: 1
 data:
     summary: 389-ds module
-    description: This 389-ds has been generated
+    description: This 389-ds module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            perl: master
-            autotools: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
             networking-base: master
             perl: master
+            storage-devices: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/389-ds
         tracker: https://github.com/modularity-modules/389-ds
+    api:
+        rpms:
+            - 389-ds-base
+            - 389-ds-base-libs
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - 389-ds-base
+                - 389-ds-base-libs
     components:
         rpms:
             389-ds-base:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             bind:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             GeoIP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             GeoIP-GeoLite-data:
                 rationale: Generated.
-                ref: master.
-            gperftools:
-                rationale: Generated.
-                ref: master.
-            libunwind:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Mozilla-LDAP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-NetAddr-IP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Socket6:
                 rationale: Generated.
-                ref: master.
-            python-ply:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             svrcore:
                 rationale: Generated.
-                ref: master.
+                ref: f27

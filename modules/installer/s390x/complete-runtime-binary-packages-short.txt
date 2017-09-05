@@ -72,13 +72,10 @@ fuse-libs
 gawk
 gc
 gdbm
-gdbm-devel
 gdisk
 glib2
 glibc
 glibc-common
-glibc-devel
-glibc-headers
 glibc-langpack-en
 gmp
 gnupg
@@ -109,7 +106,6 @@ json-c
 kbd
 kbd-legacy
 kbd-misc
-kernel-headers
 kexec-tools
 keyutils-libs
 kmod
@@ -150,7 +146,6 @@ libcrypt
 libcurl-minimal
 libdaemon
 libdb
-libdb-devel
 libdb-utils
 libdnf
 libedit
@@ -182,11 +177,9 @@ libreport-cli
 libreport-filesystem
 libreport-plugin-bugzilla
 libreport-plugin-reportuploader
-libreport-python3
 libreport-web
 libseccomp
 libselinux
-libselinux-python3
 libselinux-utils
 libsemanage
 libsepol
@@ -215,9 +208,7 @@ lz4
 lz4-libs
 lzo
 make
-mariadb-common
-mariadb-config
-mariadb-libs
+mariadb-connector-c
 mdadm
 mpfr
 ncurses
@@ -414,7 +405,9 @@ python3-iscsi-initiator-utils
 python3-kickstart
 python3-libcomps
 python3-librepo
+python3-libreport
 python3-libs
+python3-libselinux
 python3-meh
 python3-ntplib
 python3-ordered-set
@@ -423,6 +416,7 @@ python3-pip
 python3-ply
 python3-pwquality
 python3-pycparser
+python3-pydbus
 python3-pyOpenSSL
 python3-pyparsing
 python3-pyparted
@@ -438,6 +432,7 @@ python3-six
 python3-slip
 python3-slip-dbus
 python3-sssdconfig
+python3-systemd
 python3-urllib3
 python3-wrapt
 qrencode-libs
@@ -447,7 +442,6 @@ rpm
 rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
-rpm-plugin-systemd-inhibit
 rsync
 s390utils
 s390utils-base
@@ -471,8 +465,6 @@ systemd
 systemd-libs
 systemd-pam
 systemd-udev
-system-python
-system-python-libs
 systemtap-sdt-devel
 tar
 tcp_wrappers-libs

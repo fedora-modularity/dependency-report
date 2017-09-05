@@ -4,9 +4,7 @@ autogen-libopts
 bind-dyndb-ldap
 certmonger
 custodia
-dbus-python
 fontawesome-fonts
-fontpackages-filesystem
 freeipa-client
 freeipa-client-common
 freeipa-common
@@ -16,6 +14,7 @@ freeipa-server
 freeipa-server-common
 freeipa-server-dns
 freeipa-server-trust-ad
+hesiod
 ldns
 libitm
 m2crypto
@@ -34,12 +33,17 @@ python2-augeas
 python2-configparser
 python2-custodia
 python2-dateutil
+python2-dbus
 python2-decorator
+python2-gssapi
 python2-ipaclient
 python2-ipalib
 python2-ipaserver
+python2-jwcrypto
 python2-kdcproxy
+python2-netaddr
 python2-netifaces
+python2-pyusb
 python2-systemd
 python2-typing
 python2-yubico
@@ -56,11 +60,7 @@ python3-pysocks
 python3-requests
 python3-systemd
 python3-urllib3
-python-gssapi
-python-jwcrypto
-python-netaddr
 python-qrcode-core
-pyusb
 slapi-nis
 softhsm
 sqlite

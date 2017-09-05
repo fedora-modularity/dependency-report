@@ -1,88 +1,88 @@
 INFO:depchase:DEPENDENCY INFORMATION                                                          
-INFO                                       MATCH
-words-3.0-26.fc26.src                      
-├─dos2unix                                 dos2unix-7.3.5-1.fc27.ppc64
-└─grep                                     grep-3.1-3.fc27.ppc64
-dos2unix-7.3.5-1.fc27.ppc64                
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-└─libc.so.6(GLIBC_2.4)(64bit)              glibc-2.26-1.fc27.1.ppc64
-grep-3.1-3.fc27.ppc64                      
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libpcre.so.1()(64bit)                    pcre-8.41-1.fc27.2.ppc64
-└─libc.so.6(GLIBC_2.5)(64bit)              glibc-2.26-1.fc27.1.ppc64
-info-6.4-3.fc27.ppc64                      
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libz.so.1()(64bit)                       zlib-1.2.11-4.fc27.ppc64
-├─libc.so.6(GLIBC_2.15)(64bit)             glibc-2.26-1.fc27.1.ppc64
-└─libtinfo.so.6()(64bit)                   ncurses-libs-6.0-13.20170722.fc27.ppc64
-bash-4.4.12-9.fc27.ppc64                   
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2()(64bit)                      glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2(GLIBC_2.3)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.15)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─libtinfo.so.6()(64bit)                   ncurses-libs-6.0-13.20170722.fc27.ppc64
-└─filesystem >= 3                          filesystem-3.3-3.fc27.ppc64
-glibc-2.26-1.fc27.1.ppc64                  
-├─glibc-common = 2.26-1.fc27.1             glibc-common-2.26-1.fc27.1.ppc64
-└─glibc-langpack = 2.26-1.fc27.1           glibc-minimal-langpack-2.26-1.fc27.1.ppc64
-glibc-common-2.26-1.fc27.1.ppc64           
-├─/bin/sh                                  bash-4.4.12-9.fc27.ppc64
-├─libdl.so.2()(64bit)                      glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2(GLIBC_2.3)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─libselinux.so.1()(64bit)                 libselinux-2.7-1.fc27.ppc64
-├─libc.so.6(GLIBC_2.15)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─/usr/bin/bash                            bash-4.4.12-9.fc27.ppc64
-├─glibc = 2.26-1.fc27.1                    glibc-2.26-1.fc27.1.ppc64
-└─tzdata >= 2003a                          tzdata-2017b-2.fc27.noarch
-ncurses-libs-6.0-13.20170722.fc27.ppc64    
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2()(64bit)                      glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2(GLIBC_2.3)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.16)(64bit)             glibc-2.26-1.fc27.1.ppc64
-└─ncurses-base = 6.0-13.20170722.fc27      ncurses-base-6.0-13.20170722.fc27.noarch
-ncurses-base-6.0-13.20170722.fc27.noarch   
-zlib-1.2.11-4.fc27.ppc64                   
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-└─libc.so.6(GLIBC_2.4)(64bit)              glibc-2.26-1.fc27.1.ppc64
-pcre-8.41-1.fc27.2.ppc64                   
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)              glibc-2.26-1.fc27.1.ppc64
-├─libpthread.so.0()(64bit)                 glibc-2.26-1.fc27.1.ppc64
-└─libpthread.so.0(GLIBC_2.3)(64bit)        glibc-2.26-1.fc27.1.ppc64
-libselinux-2.7-1.fc27.ppc64                
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2()(64bit)                      glibc-2.26-1.fc27.1.ppc64
-├─libdl.so.2(GLIBC_2.3)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─ld64.so.1()(64bit)                       glibc-2.26-1.fc27.1.ppc64
-├─ld64.so.1(GLIBC_2.22)(64bit)             glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.8)(64bit)              glibc-2.26-1.fc27.1.ppc64
-├─libsepol.so.1()(64bit)                   libsepol-2.7-1.fc27.ppc64
-├─pcre                                     pcre-8.41-1.fc27.2.ppc64
-├─libsepol.so.1(LIBSEPOL_1.0)(64bit)       libsepol-2.7-1.fc27.ppc64
-├─libpcre2-8.so.0()(64bit)                 pcre2-10.30-0.6.RC1.fc27.ppc64
-└─libsepol(ppc-64) >= 2.7-1                libsepol-2.7-1.fc27.ppc64
-libsepol-2.7-1.fc27.ppc64                  
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─/sbin/ldconfig                           glibc-2.26-1.fc27.1.ppc64
-└─libc.so.6(GLIBC_2.8)(64bit)              glibc-2.26-1.fc27.1.ppc64
-tzdata-2017b-2.fc27.noarch                 
-basesystem-11-4.fc27.noarch                
-filesystem-3.3-3.fc27.ppc64                
-└─/bin/sh                                  bash-4.4.12-9.fc27.ppc64
-setup-2.10.5-3.fc27.noarch                 
-└─system-release                           fedora-release-27-0.2.noarch
-pcre2-10.30-0.6.RC1.fc27.ppc64             
-├─rtld(GNU_HASH)                           glibc-2.26-1.fc27.1.ppc64
-├─libc.so.6(GLIBC_2.4)(64bit)              glibc-2.26-1.fc27.1.ppc64
-├─libpthread.so.0()(64bit)                 glibc-2.26-1.fc27.1.ppc64
-└─libpthread.so.0(GLIBC_2.3)(64bit)        glibc-2.26-1.fc27.1.ppc64
-glibc-minimal-langpack-2.26-1.fc27.1.ppc64 
-├─glibc = 2.26-1.fc27.1                    glibc-2.26-1.fc27.1.ppc64
-└─glibc-common = 2.26-1.fc27.1             glibc-common-2.26-1.fc27.1.ppc64
-fedora-release-27-0.2.noarch               
-└─fedora-repos(27)                         fedora-repos-27-0.2.noarch
-fedora-repos-27-0.2.noarch                 
-├─system-release(27)                       fedora-release-27-0.2.noarch
-└─fedora-repos-rawhide = 27-0.2            fedora-repos-rawhide-27-0.2.noarch
-fedora-repos-rawhide-27-0.2.noarch         
-└─fedora-repos = 27-0.2                    fedora-repos-27-0.2.noarch
+INFO                                        MATCH
+words-3.0-27.fc27.src                       
+├─dos2unix                                  dos2unix-7.3.5-3.fc27.ppc64
+└─grep                                      grep-3.1-3.fc27.ppc64
+dos2unix-7.3.5-3.fc27.ppc64                 
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)               glibc-2.26.90-9.fc28.ppc64
+grep-3.1-3.fc27.ppc64                       
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libpcre.so.1()(64bit)                     pcre-8.41-1.fc27.2.ppc64
+└─libc.so.6(GLIBC_2.5)(64bit)               glibc-2.26.90-9.fc28.ppc64
+glibc-2.26.90-9.fc28.ppc64                  
+├─glibc-common = 2.26.90-9.fc28             glibc-common-2.26.90-9.fc28.ppc64
+└─glibc-langpack = 2.26.90-9.fc28           glibc-minimal-langpack-2.26.90-9.fc28.ppc64
+bash-4.4.12-10.fc28.ppc64                   
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2()(64bit)                       glibc-2.26.90-9.fc28.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libtinfo.so.6()(64bit)                    ncurses-libs-6.0-13.20170722.fc27.ppc64
+└─filesystem >= 3                           filesystem-3.3-3.fc27.ppc64
+info-6.4-5.fc27.ppc64                       
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libz.so.1()(64bit)                        zlib-1.2.11-4.fc27.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)              glibc-2.26.90-9.fc28.ppc64
+└─libtinfo.so.6()(64bit)                    ncurses-libs-6.0-13.20170722.fc27.ppc64
+pcre-8.41-1.fc27.2.ppc64                    
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)               glibc-2.26.90-9.fc28.ppc64
+├─libpthread.so.0()(64bit)                  glibc-2.26.90-9.fc28.ppc64
+└─libpthread.so.0(GLIBC_2.3)(64bit)         glibc-2.26.90-9.fc28.ppc64
+basesystem-11-4.fc27.noarch                 
+glibc-common-2.26.90-9.fc28.ppc64           
+├─/bin/sh                                   bash-4.4.12-10.fc28.ppc64
+├─libdl.so.2()(64bit)                       glibc-2.26.90-9.fc28.ppc64
+├─libc.so.6(GLIBC_2.15)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libselinux.so.1()(64bit)                  libselinux-2.7-3.fc28.ppc64
+├─/usr/bin/bash                             bash-4.4.12-10.fc28.ppc64
+├─glibc = 2.26.90-9.fc28                    glibc-2.26.90-9.fc28.ppc64
+└─tzdata >= 2003a                           tzdata-2017b-2.fc27.noarch
+filesystem-3.3-3.fc27.ppc64                 
+└─/bin/sh                                   bash-4.4.12-10.fc28.ppc64
+ncurses-libs-6.0-13.20170722.fc27.ppc64     
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2()(64bit)                       glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libc.so.6(GLIBC_2.16)(64bit)              glibc-2.26.90-9.fc28.ppc64
+└─ncurses-base = 6.0-13.20170722.fc27       ncurses-base-6.0-13.20170722.fc27.noarch
+zlib-1.2.11-4.fc27.ppc64                    
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+└─libc.so.6(GLIBC_2.4)(64bit)               glibc-2.26.90-9.fc28.ppc64
+setup-2.10.7-1.fc28.noarch                  
+└─system-release                            fedora-release-28-0.1.noarch
+libselinux-2.7-3.fc28.ppc64                 
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2()(64bit)                       glibc-2.26.90-9.fc28.ppc64
+├─libdl.so.2(GLIBC_2.3)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libc.so.6(GLIBC_2.8)(64bit)               glibc-2.26.90-9.fc28.ppc64
+├─ld64.so.1()(64bit)                        glibc-2.26.90-9.fc28.ppc64
+├─ld64.so.1(GLIBC_2.22)(64bit)              glibc-2.26.90-9.fc28.ppc64
+├─libpcre2-8.so.0()(64bit)                  pcre2-10.30-1.fc27.ppc64
+├─pcre                                      pcre-8.41-1.fc27.2.ppc64
+├─libsepol.so.1()(64bit)                    libsepol-2.7-1.fc27.ppc64
+├─libsepol.so.1(LIBSEPOL_1.0)(64bit)        libsepol-2.7-1.fc27.ppc64
+└─libsepol(ppc-64) >= 2.7-1                 libsepol-2.7-1.fc27.ppc64
+tzdata-2017b-2.fc27.noarch                  
+ncurses-base-6.0-13.20170722.fc27.noarch    
+libsepol-2.7-1.fc27.ppc64                   
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─/sbin/ldconfig                            glibc-2.26.90-9.fc28.ppc64
+└─libc.so.6(GLIBC_2.8)(64bit)               glibc-2.26.90-9.fc28.ppc64
+pcre2-10.30-1.fc27.ppc64                    
+├─rtld(GNU_HASH)                            glibc-2.26.90-9.fc28.ppc64
+├─libc.so.6(GLIBC_2.4)(64bit)               glibc-2.26.90-9.fc28.ppc64
+├─libpthread.so.0()(64bit)                  glibc-2.26.90-9.fc28.ppc64
+└─libpthread.so.0(GLIBC_2.3)(64bit)         glibc-2.26.90-9.fc28.ppc64
+fedora-release-28-0.1.noarch                
+└─fedora-repos(28)                          fedora-repos-28-0.1.noarch
+fedora-repos-28-0.1.noarch                  
+├─system-release(28)                        fedora-release-28-0.1.noarch
+└─fedora-repos-rawhide = 28-0.1             fedora-repos-rawhide-28-0.1.noarch
+fedora-repos-rawhide-28-0.1.noarch          
+└─fedora-repos = 28-0.1                     fedora-repos-28-0.1.noarch
+glibc-minimal-langpack-2.26.90-9.fc28.ppc64 
+├─glibc = 2.26.90-9.fc28                    glibc-2.26.90-9.fc28.ppc64
+└─glibc-common = 2.26.90-9.fc28             glibc-common-2.26.90-9.fc28.ppc64

@@ -1,0 +1,89 @@
+document: modulemd
+version: 1
+data:
+    summary: apache-commons module
+    description: This apache-commons module has been generated.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+        requires:
+            platform: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/apache-commons
+        tracker: https://github.com/modularity-modules/apache-commons
+    api:
+        rpms:
+            - apache-commons-cli
+            - apache-commons-codec
+            - apache-commons-collections
+            - apache-commons-daemon
+            - apache-commons-dbcp
+            - apache-commons-io
+            - apache-commons-lang
+            - apache-commons-logging
+            - apache-commons-pool
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - apache-commons-cli
+                - apache-commons-codec
+                - apache-commons-collections
+                - apache-commons-daemon
+                - apache-commons-dbcp
+                - apache-commons-io
+                - apache-commons-lang
+                - apache-commons-logging
+                - apache-commons-pool
+    components:
+        rpms:
+            apache-commons-cli:
+                rationale: Generated.
+                ref: f27
+            apache-commons-codec:
+                rationale: Generated.
+                ref: f27
+            apache-commons-collections:
+                rationale: Generated.
+                ref: f27
+            apache-commons-daemon:
+                rationale: Generated.
+                ref: f27
+            apache-commons-dbcp:
+                rationale: Generated.
+                ref: f27
+            apache-commons-io:
+                rationale: Generated.
+                ref: f27
+            apache-commons-lang:
+                rationale: Generated.
+                ref: f27
+            apache-commons-logging:
+                rationale: Generated.
+                ref: f27
+            apache-commons-pool:
+                rationale: Generated.
+                ref: f27
+            copy-jdk-configs:
+                rationale: Generated.
+                ref: f27
+            freetype:
+                rationale: Generated.
+                ref: f27
+            java-1.8.0-openjdk:
+                rationale: Generated.
+                ref: f27
+            javapackages-tools:
+                rationale: Generated.
+                ref: f27
+            libpng:
+                rationale: Generated.
+                ref: f27
+            lua-posix:
+                rationale: Generated.
+                ref: f27
+            which:
+                rationale: Generated.
+                ref: f27

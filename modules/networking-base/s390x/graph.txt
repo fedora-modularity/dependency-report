@@ -35,10 +35,10 @@
   "NetworkManager-wwan" -> "ModemManager-glib";
   "NetworkManager-wwan" -> "NetworkManager";
   "newt" -> "slang";
-  "psl" -> "curl-minimal";
   "psl" -> "libpsl";
   "python3-firewall" -> "python3-decorator";
   "python3-firewall" -> "python3-slip-dbus";
+  "python3-slip-dbus" -> "curl-minimal";
   "python3-slip-dbus" -> "python3-decorator";
   "python3-slip-dbus" -> "python3-slip";
   "realmd" -> "authconfig";

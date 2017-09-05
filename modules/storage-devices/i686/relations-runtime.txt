@@ -1,233 +1,195 @@
-ceph-1:10.2.7-2.fc27.i686                                 
-├─ceph-mds = 1:10.2.7-2.fc27                              ceph-mds-1:10.2.7-2.fc27.i686
-├─ceph-mon = 1:10.2.7-2.fc27                              ceph-mon-1:10.2.7-2.fc27.i686
-└─ceph-osd = 1:10.2.7-2.fc27                              ceph-osd-1:10.2.7-2.fc27.i686
-ceph-base-1:10.2.7-2.fc27.i686                            
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-├─cryptsetup                                              cryptsetup-1.7.5-3.fc27.i686
-├─libcephfs.so.1                                          libcephfs1-1:10.2.7-2.fc27.i686
-├─hdparm                                                  hdparm-9.51-1.fc27.i686
-├─redhat-lsb-core                                         redhat-lsb-core-4.1-34.fc26.i686
-├─liblttng-ust.so.0                                       lttng-ust-2.9.1-2.fc27.i686
-├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.i686
-├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.i686
-├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.i686
-├─ceph-common = 1:10.2.7-2.fc27                           ceph-common-1:10.2.7-2.fc27.i686
-├─ceph-selinux = 1:10.2.7-2.fc27                          ceph-selinux-1:10.2.7-2.fc27.i686
-└─librgw2 = 1:10.2.7-2.fc27                               librgw2-1:10.2.7-2.fc27.i686
-ceph-common-1:10.2.7-2.fc27.i686                          
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_regex.so.1.63.0                                boost-regex-1.63.0-9.fc27.i686
-├─python-requests                                         python2-requests-2.18.1-2.fc27.noarch
-├─libboost_program_options.so.1.63.0                      boost-program-options-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libtcmalloc.so.4                                        gperftools-libs-2.6.1-1.fc27.i686
-├─librados.so.2                                           librados2-1:10.2.7-2.fc27.i686
-├─librbd.so.1                                             librbd1-1:10.2.7-2.fc27.i686
-├─libradosstriper.so.1                                    libradosstriper1-1:10.2.7-2.fc27.i686
-├─librgw.so.2                                             librgw2-1:10.2.7-2.fc27.i686
-├─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.i686
-├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.i686
-├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.i686
-├─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.i686
-├─python-cephfs = 1:10.2.7-2.fc27                         python-cephfs-1:10.2.7-2.fc27.i686
-└─python-rbd = 1:10.2.7-2.fc27                            python-rbd-1:10.2.7-2.fc27.i686
-ceph-mds-1:10.2.7-2.fc27.i686                             
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libtcmalloc.so.4                                        gperftools-libs-2.6.1-1.fc27.i686
-└─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.i686
-ceph-mon-1:10.2.7-2.fc27.i686                             
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─python-flask                                            python2-flask-1:0.11.1-5.fc26.noarch
-├─libtcmalloc.so.4                                        gperftools-libs-2.6.1-1.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-├─libleveldb.so.1                                         leveldb-1.18-1.fc26.i686
-└─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.i686
-ceph-osd-1:10.2.7-2.fc27.i686                             
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_program_options.so.1.63.0                      boost-program-options-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libtcmalloc.so.4                                        gperftools-libs-2.6.1-1.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-├─libleveldb.so.1                                         leveldb-1.18-1.fc26.i686
-└─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.i686
-ceph-selinux-1:10.2.7-2.fc27.i686                         
-└─ceph-base = 1:10.2.7-2.fc27                             ceph-base-1:10.2.7-2.fc27.i686
-libcephfs1-1:10.2.7-2.fc27.i686                           
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-libradosstriper1-1:10.2.7-2.fc27.i686                     
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-├─librados.so.2                                           librados2-1:10.2.7-2.fc27.i686
-└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.i686
-librbd1-1:10.2.7-2.fc27.i686                              
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-├─librados.so.2                                           librados2-1:10.2.7-2.fc27.i686
-├─liblttng-ust.so.0                                       lttng-ust-2.9.1-2.fc27.i686
-└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.i686
-librgw2-1:10.2.7-2.fc27.i686                              
-├─libcurl.so.4                                            libcurl-minimal-7.55.0-1.fc27.i686
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-├─librados.so.2                                           librados2-1:10.2.7-2.fc27.i686
-├─libfcgi.so.0                                            fcgi-2.4.0-30.fc26.i686
-└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.i686
-python-cephfs-1:10.2.7-2.fc27.i686                        
-├─libcephfs.so.1                                          libcephfs1-1:10.2.7-2.fc27.i686
-├─libcephfs1 = 1:10.2.7-2.fc27                            libcephfs1-1:10.2.7-2.fc27.i686
-└─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.i686
-python-rados-1:10.2.7-2.fc27.i686                         
-├─librados.so.2                                           librados2-1:10.2.7-2.fc27.i686
-└─librados2 = 1:10.2.7-2.fc27                             librados2-1:10.2.7-2.fc27.i686
-python-rbd-1:10.2.7-2.fc27.i686                           
-├─librbd.so.1                                             librbd1-1:10.2.7-2.fc27.i686
-├─librbd1 = 1:10.2.7-2.fc27                               librbd1-1:10.2.7-2.fc27.i686
-└─python-rados = 1:10.2.7-2.fc27                          python-rados-1:10.2.7-2.fc27.i686
-boost-iostreams-1.63.0-9.fc27.i686                        
-boost-random-1.63.0-9.fc27.i686                           
-└─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-boost-system-1.63.0-9.fc27.i686                           
-boost-thread-1.63.0-9.fc27.i686                           
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-└─boost-system(x86-32) = 1.63.0-9.fc27                    boost-system-1.63.0-9.fc27.i686
-hdparm-9.51-1.fc27.i686                                   
-librados2-1:10.2.7-2.fc27.i686                            
-├─libboost_system.so.1.63.0                               boost-system-1.63.0-9.fc27.i686
-├─libboost_thread.so.1.63.0                               boost-thread-1.63.0-9.fc27.i686
-├─libboost_iostreams.so.1.63.0                            boost-iostreams-1.63.0-9.fc27.i686
-├─libboost_random.so.1.63.0                               boost-random-1.63.0-9.fc27.i686
-└─liblttng-ust.so.0                                       lttng-ust-2.9.1-2.fc27.i686
-lttng-ust-2.9.1-2.fc27.i686                               
-python2-requests-2.18.1-2.fc27.noarch                     
-├─python-chardet                                          python-chardet-3.0.4-1.fc27.noarch
-├─python-idna                                             python2-idna-2.5-1.fc27.noarch
-├─python2-urllib3                                         python2-urllib3-1.21.1-1.fc27.noarch
-redhat-lsb-core-4.1-34.fc26.i686                          
-├─/usr/sbin/sendmail                                      sendmail-8.15.2-15.fc27.i686
-├─/usr/bin/crontab                                        cronie-1.5.1-6.fc27.i686
-├─/usr/bin/man                                            man-db-2.7.6.1-2.fc26.i686
-├─spax                                                    spax-1.5.3-8.fc26.i686
-├─/usr/bin/lp                                             cups-client-1:2.2.4-1.fc27.i686
-├─/usr/bin/lpr                                            cups-client-1:2.2.4-1.fc27.i686
-├─ncurses-compat-libs(x86-32)                             ncurses-compat-libs-6.0-13.20170722.fc27.i686
-├─/bin/ed                                                 ed-1.14.1-2.fc26.i686
-├─/bin/mailx                                              mailx-12.5-20.fc26.i686
-├─/usr/bin/at                                             at-3.1.20-4.fc27.i686
-├─/usr/bin/batch                                          at-3.1.20-4.fc27.i686
-├─/usr/bin/chfn                                           util-linux-user-2.30.1-1.fc27.i686
-├─/usr/bin/chsh                                           util-linux-user-2.30.1-1.fc27.i686
-└─redhat-lsb-submod-security(x86-32) = 4.1-34.fc26        redhat-lsb-submod-security-4.1-34.fc26.i686
-boost-program-options-1.63.0-9.fc27.i686                  
-boost-regex-1.63.0-9.fc27.i686                            
-gperftools-libs-2.6.1-1.fc27.i686                         
-└─libunwind.so.8                                          libunwind-1.2-1.fc27.i686
-leveldb-1.18-1.fc26.i686                                  
-python2-flask-1:0.11.1-5.fc26.noarch                      
-├─python-jinja2                                           python2-jinja2-2.9.6-1.fc27.noarch
-├─python-click                                            python2-click-6.7-3.fc26.noarch
-├─python-werkzeug                                         python-werkzeug-0.11.10-5.fc26.noarch
-├─python-itsdangerous                                     python2-itsdangerous-0.24-10.fc27.noarch
-fcgi-2.4.0-30.fc26.i686                                   
-python-chardet-3.0.4-1.fc27.noarch                        
-python2-idna-2.5-1.fc27.noarch                            
-python2-urllib3-1.21.1-1.fc27.noarch                      
-├─python-six                                              python2-six-1.10.0-9.fc27.noarch
-├─python-cryptography                                     python2-cryptography-1.9-1.fc27.i686
-├─python-ipaddress                                        python-ipaddress-1.0.18-1.fc27.noarch
-├─python-backports-ssl_match_hostname                     python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch
-├─python2-pyOpenSSL                                       python2-pyOpenSSL-17.1.0-1.fc27.noarch
-├─python-idna                                             python2-idna-2.5-1.fc27.noarch
-├─python-pysocks                                          python2-pysocks-1.5.7-4.fc26.noarch
-at-3.1.20-4.fc27.i686                                     
-cronie-1.5.1-6.fc27.i686                                  
-├─dailyjobs                                               cronie-noanacron-1.5.1-6.fc27.i686
-cups-client-1:2.2.4-1.fc27.i686                           
-├─libavahi-common.so.3                                    avahi-libs-0.7-1.fc27.i686
-├─libavahi-client.so.3                                    avahi-libs-0.7-1.fc27.i686
-├─libcups.so.2                                            cups-libs-1:2.2.4-1.fc27.i686
-└─cups-libs(x86-32) = 1:2.2.4-1.fc27                      cups-libs-1:2.2.4-1.fc27.i686
-ed-1.14.1-2.fc26.i686                                     
-mailx-12.5-20.fc26.i686                                   
-man-db-2.7.6.1-2.fc26.i686                                
-├─groff-base                                              groff-base-1.22.3-11.fc27.i686
-└─libpipeline.so.1                                        libpipeline-1.4.2-1.fc27.i686
-redhat-lsb-submod-security-4.1-34.fc26.i686               
-spax-1.5.3-8.fc26.i686                                    
-libunwind-1.2-1.fc27.i686                                 
-python-werkzeug-0.11.10-5.fc26.noarch                     
-python2-click-6.7-3.fc26.noarch                           
-python2-itsdangerous-0.24-10.fc27.noarch                  
-python2-jinja2-2.9.6-1.fc27.noarch                        
-├─python-markupsafe                                       python2-markupsafe-0.23-15.fc27.i686
-└─python2-babel >= 0.8                                    python2-babel-2.3.4-5.fc26.noarch
-python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch 
-├─python-backports                                        python-backports-1.0-9.fc26.i686
-python-ipaddress-1.0.18-1.fc27.noarch                     
-python2-cryptography-1.9-1.fc27.i686                      
-├─python-enum34                                           python-enum34-1.1.6-1.fc27.noarch
-├─python-ipaddress                                        python-ipaddress-1.0.18-1.fc27.noarch
-├─python-cffi >= 1.7                                      python2-cffi-1.10.0-1.fc27.i686
-├─python-idna >= 2.1                                      python2-idna-2.5-1.fc27.noarch
-├─python-six >= 1.4.1                                     python2-six-1.10.0-9.fc27.noarch
-└─python2-asn1crypto >= 0.21                              python2-asn1crypto-0.22.0-2.fc27.noarch
-python2-pyOpenSSL-17.1.0-1.fc27.noarch                    
-└─python-cryptography >= 1.3.0                            python2-cryptography-1.9-1.fc27.i686
-python2-pysocks-1.5.7-4.fc26.noarch                       
-python2-six-1.10.0-9.fc27.noarch                          
-avahi-libs-0.7-1.fc27.i686                                
-cups-libs-1:2.2.4-1.fc27.i686                             
-├─libavahi-common.so.3                                    avahi-libs-0.7-1.fc27.i686
-└─libavahi-client.so.3                                    avahi-libs-0.7-1.fc27.i686
-libpipeline-1.4.2-1.fc27.i686                             
-python2-babel-2.3.4-5.fc26.noarch                         
-├─pytz                                                    pytz-2017.2-1.fc27.noarch
-python-backports-1.0-9.fc26.i686                          
-python-enum34-1.1.6-1.fc27.noarch                         
-python2-asn1crypto-0.22.0-2.fc27.noarch                   
-python2-cffi-1.10.0-1.fc27.i686                           
-├─python-pycparser                                        python2-pycparser-2.14-10.fc26.noarch
-pytz-2017.2-1.fc27.noarch                                 
-python2-pycparser-2.14-10.fc26.noarch                     
-└─python-ply >= 3.6                                       python2-ply-3.9-3.fc27.noarch
-python2-ply-3.9-3.fc27.noarch                             
-util-linux-user-2.30.1-1.fc27.i686                        
-ncurses-compat-libs-6.0-13.20170722.fc27.i686             
-python2-markupsafe-0.23-15.fc27.i686                      
-groff-base-1.22.3-11.fc27.i686                            
-cryptsetup-1.7.5-3.fc27.i686                              
-├─curl                                                    curl-minimal-7.55.0-1.fc27.i686
-sendmail-8.15.2-15.fc27.i686                              
-├─procmail                                                procmail-3.22-41.fc27.i686
-├─libhesiod.so.0                                          hesiod-3.2.1-7.fc26.i686
-├─/usr/sbin/saslauthd                                     cyrus-sasl-2.1.26-34.fc27.i686
-cyrus-sasl-2.1.26-34.fc27.i686                            
-hesiod-3.2.1-7.fc26.i686                                  
-procmail-3.22-41.fc27.i686                                
-libcurl-minimal-7.55.0-1.fc27.i686                        
-cronie-noanacron-1.5.1-6.fc27.i686                        
-├─crontabs                                                crontabs-1.11-14.20150630git.fc26.noarch
-└─cronie = 1.5.1-6.fc27                                   cronie-1.5.1-6.fc27.i686
-crontabs-1.11-14.20150630git.fc26.noarch                  
-curl-minimal-7.55.0-1.fc27.i686                           
-├─libcurl.so.4                                            libcurl-minimal-7.55.0-1.fc27.i686
-└─libcurl(x86-32) >= 7.55.0-1.fc27                        libcurl-minimal-7.55.0-1.fc27.i686
+ceph-1:12.1.4-3.fc28.i686                                                       
+├─ceph-mds = 1:12.1.4-3.fc28                                                    ceph-mds-1:12.1.4-3.fc28.i686
+├─ceph-mgr = 1:12.1.4-3.fc28                                                    ceph-mgr-1:12.1.4-3.fc28.i686
+├─ceph-mon = 1:12.1.4-3.fc28                                                    ceph-mon-1:12.1.4-3.fc28.i686
+└─ceph-osd = 1:12.1.4-3.fc28                                                    ceph-osd-1:12.1.4-3.fc28.i686
+ceph-base-1:12.1.4-3.fc28.i686                                                  
+├─python-requests                                                               python2-requests-2.18.4-1.fc28.noarch
+├─cryptsetup                                                                    cryptsetup-1.7.5-5.fc28.i686
+├─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+├─liblttng-ust.so.0                                                             lttng-ust-2.10.0-2.fc28.i686
+├─librados2 = 1:12.1.4-3.fc28                                                   librados2-1:12.1.4-3.fc28.i686
+├─librbd1 = 1:12.1.4-3.fc28                                                     librbd1-1:12.1.4-3.fc28.i686
+├─libcephfs2 = 1:12.1.4-3.fc28                                                  libcephfs2-1:12.1.4-3.fc28.i686
+├─librgw2 = 1:12.1.4-3.fc28                                                     librgw2-1:12.1.4-3.fc28.i686
+├─ceph-common = 1:12.1.4-3.fc28                                                 ceph-common-1:12.1.4-3.fc28.i686
+└─ceph-selinux = 1:12.1.4-3.fc28                                                ceph-selinux-1:12.1.4-3.fc28.i686
+ceph-common-1:12.1.4-3.fc28.i686                                                
+├─libcurl.so.4                                                                  libcurl-minimal-7.55.1-3.fc28.i686
+├─python-requests                                                               python2-requests-2.18.4-1.fc28.noarch
+├─libtcmalloc.so.4                                                              gperftools-libs-2.6.1-3.fc27.i686
+├─python-prettytable                                                            python2-prettytable-0.7.2-12.fc28.noarch
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+├─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+├─libleveldb.so.1                                                               leveldb-1.18-1.fc26.i686
+├─librbd.so.1                                                                   librbd1-1:12.1.4-3.fc28.i686
+├─libcephfs.so.2                                                                libcephfs2-1:12.1.4-3.fc28.i686
+├─libradosstriper.so.1                                                          libradosstriper1-1:12.1.4-3.fc28.i686
+├─librados2 = 1:12.1.4-3.fc28                                                   librados2-1:12.1.4-3.fc28.i686
+├─librbd1 = 1:12.1.4-3.fc28                                                     librbd1-1:12.1.4-3.fc28.i686
+├─libcephfs2 = 1:12.1.4-3.fc28                                                  libcephfs2-1:12.1.4-3.fc28.i686
+├─python-rados = 1:12.1.4-3.fc28                                                python-rados-1:12.1.4-3.fc28.i686
+├─python-cephfs = 1:12.1.4-3.fc28                                               python-cephfs-1:12.1.4-3.fc28.i686
+├─python-rbd = 1:12.1.4-3.fc28                                                  python-rbd-1:12.1.4-3.fc28.i686
+└─python-rgw = 1:12.1.4-3.fc28                                                  python-rgw-1:12.1.4-3.fc28.i686
+ceph-mds-1:12.1.4-3.fc28.i686                                                   
+├─libtcmalloc.so.4                                                              gperftools-libs-2.6.1-3.fc27.i686
+└─ceph-base = 1:12.1.4-3.fc28                                                   ceph-base-1:12.1.4-3.fc28.i686
+ceph-mon-1:12.1.4-3.fc28.i686                                                   
+├─libtcmalloc.so.4                                                              gperftools-libs-2.6.1-3.fc27.i686
+├─python-flask                                                                  python2-flask-1:0.11.1-6.fc27.noarch
+├─libleveldb.so.1                                                               leveldb-1.18-1.fc26.i686
+└─ceph-base = 1:12.1.4-3.fc28                                                   ceph-base-1:12.1.4-3.fc28.i686
+ceph-osd-1:12.1.4-3.fc28.i686                                                   
+├─libtcmalloc.so.4                                                              gperftools-libs-2.6.1-3.fc27.i686
+├─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+├─libleveldb.so.1                                                               leveldb-1.18-1.fc26.i686
+└─ceph-base = 1:12.1.4-3.fc28                                                   ceph-base-1:12.1.4-3.fc28.i686
+ceph-selinux-1:12.1.4-3.fc28.i686                                               
+libcephfs2-1:12.1.4-3.fc28.i686                                                 
+└─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+libradosstriper1-1:12.1.4-3.fc28.i686                                           
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+├─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+└─librados2 = 1:12.1.4-3.fc28                                                   librados2-1:12.1.4-3.fc28.i686
+librbd1-1:12.1.4-3.fc28.i686                                                    
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+├─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+├─liblttng-ust.so.0                                                             lttng-ust-2.10.0-2.fc28.i686
+└─librados2 = 1:12.1.4-3.fc28                                                   librados2-1:12.1.4-3.fc28.i686
+librgw2-1:12.1.4-3.fc28.i686                                                    
+├─libcurl.so.4                                                                  libcurl-minimal-7.55.1-3.fc28.i686
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+├─libceph-common.so.0                                                           librados2-1:12.1.4-3.fc28.i686
+└─librados2 = 1:12.1.4-3.fc28                                                   librados2-1:12.1.4-3.fc28.i686
+python-cephfs-1:12.1.4-3.fc28.i686                                              
+├─libcephfs.so.2                                                                libcephfs2-1:12.1.4-3.fc28.i686
+└─libcephfs2 = 1:12.1.4-3.fc28                                                  libcephfs2-1:12.1.4-3.fc28.i686
+python-rados-1:12.1.4-3.fc28.i686                                               
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+└─librados2 = 1:12.1.4-3.fc28                                                   librados2-1:12.1.4-3.fc28.i686
+python-rbd-1:12.1.4-3.fc28.i686                                                 
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+├─librbd.so.1                                                                   librbd1-1:12.1.4-3.fc28.i686
+├─librbd1 = 1:12.1.4-3.fc28                                                     librbd1-1:12.1.4-3.fc28.i686
+└─python-rados = 1:12.1.4-3.fc28                                                python-rados-1:12.1.4-3.fc28.i686
+ceph-mgr-1:12.1.4-3.fc28.i686                                                   
+├─libtcmalloc.so.4                                                              gperftools-libs-2.6.1-3.fc27.i686
+├─pyOpenSSL                                                                     python2-pyOpenSSL-17.1.0-2.fc27.noarch
+├─python-werkzeug                                                               python-werkzeug-0.11.10-6.fc27.noarch
+├─python-cherrypy                                                               python2-cherrypy-3.5.0-7.fc28.noarch
+├─python-pecan                                                                  python2-pecan-1.1.2-4.fc27.noarch
+└─ceph-base = 1:12.1.4-3.fc28                                                   ceph-base-1:12.1.4-3.fc28.i686
+cryptsetup-1.7.5-5.fc28.i686                                                    
+librados2-1:12.1.4-3.fc28.i686                                                  
+└─liblttng-ust.so.0                                                             lttng-ust-2.10.0-2.fc28.i686
+lttng-ust-2.10.0-2.fc28.i686                                                    
+python2-requests-2.18.4-1.fc28.noarch                                           
+├─python-chardet                                                                python2-chardet-3.0.4-3.fc28.noarch
+├─python-idna                                                                   python2-idna-2.5-2.fc27.noarch
+├─python2-urllib3                                                               python2-urllib3-1.22-2.fc27.noarch
+gperftools-libs-2.6.1-3.fc27.i686                                               
+leveldb-1.18-1.fc26.i686                                                        
+python-rgw-1:12.1.4-3.fc28.i686                                                 
+├─librados.so.2                                                                 librados2-1:12.1.4-3.fc28.i686
+├─librgw.so.2                                                                   librgw2-1:12.1.4-3.fc28.i686
+├─librgw2 = 1:12.1.4-3.fc28                                                     librgw2-1:12.1.4-3.fc28.i686
+└─python-rados = 1:12.1.4-3.fc28                                                python-rados-1:12.1.4-3.fc28.i686
+python2-prettytable-0.7.2-12.fc28.noarch                                        
+python2-flask-1:0.11.1-6.fc27.noarch                                            
+├─python-jinja2                                                                 python2-jinja2-2.9.6-2.fc27.noarch
+├─python-werkzeug                                                               python-werkzeug-0.11.10-6.fc27.noarch
+├─python-click                                                                  python2-click-6.7-3.fc26.noarch
+├─python-itsdangerous                                                           python2-itsdangerous-0.24-11.fc27.noarch
+python-werkzeug-0.11.10-6.fc27.noarch                                           
+python2-cherrypy-3.5.0-7.fc28.noarch                                            
+python2-pecan-1.1.2-4.fc27.noarch                                               
+├─python-six                                                                    python2-six-1.10.0-11.fc28.noarch
+├─python-mako                                                                   python2-mako-1.0.6-5.fc28.noarch
+├─python-webob                                                                  python2-webob-1.7.3-3.fc27.noarch
+├─python-webtest                                                                python2-webtest-2.0.27-3.fc28.noarch
+├─python-singledispatch                                                         python2-singledispatch-3.4.0.3-8.fc27.noarch
+├─python-simplegeneric                                                          python2-simplegeneric-0.8.1-7.fc27.noarch
+├─python-logutils                                                               python2-logutils-0.3.5-2.fc28.noarch
+python2-pyOpenSSL-17.1.0-2.fc27.noarch                                          
+└─python-cryptography >= 1.3.0                                                  python2-cryptography-2.0.2-2.fc27.i686
+python2-chardet-3.0.4-3.fc28.noarch                                             
+python2-idna-2.5-2.fc27.noarch                                                  
+python2-urllib3-1.22-2.fc27.noarch                                              
+├─python-six                                                                    python2-six-1.10.0-11.fc28.noarch
+├─python-ipaddress                                                              python2-ipaddress-1.0.18-3.fc28.noarch
+├─python-cryptography                                                           python2-cryptography-2.0.2-2.fc27.i686
+├─python-backports-ssl_match_hostname                                           python-backports-ssl_match_hostname-3.5.0.1-5.fc27.noarch
+├─python2-pyOpenSSL                                                             python2-pyOpenSSL-17.1.0-2.fc27.noarch
+├─python-pysocks                                                                python2-pysocks-1.5.7-5.fc27.noarch
+├─python-idna                                                                   python2-idna-2.5-2.fc27.noarch
+python2-click-6.7-3.fc26.noarch                                                 
+python2-itsdangerous-0.24-11.fc27.noarch                                        
+python2-jinja2-2.9.6-2.fc27.noarch                                              
+├─python-markupsafe                                                             python2-markupsafe-0.23-16.fc27.i686
+└─python2-babel >= 0.8                                                          python2-babel-2.3.4-6.fc27.noarch
+├─curl                                                                          curl-minimal-7.55.1-3.fc28.i686
+python2-logutils-0.3.5-2.fc28.noarch                                            
+python2-mako-1.0.6-5.fc28.noarch                                                
+├─python-markupsafe                                                             python2-markupsafe-0.23-16.fc27.i686
+├─python-beaker                                                                 python2-beaker-1.5.4-18.fc28.noarch
+python2-simplegeneric-0.8.1-7.fc27.noarch                                       
+python2-singledispatch-3.4.0.3-8.fc27.noarch                                    
+├─python-six                                                                    python2-six-1.10.0-11.fc28.noarch
+python2-six-1.10.0-11.fc28.noarch                                               
+python2-webob-1.7.3-3.fc27.noarch                                               
+python2-webtest-2.0.27-3.fc28.noarch                                            
+├─python-six                                                                    python2-six-1.10.0-11.fc28.noarch
+├─python-webob                                                                  python2-webob-1.7.3-3.fc27.noarch
+├─python-beautifulsoup4                                                         python2-beautifulsoup4-4.6.0-3.fc28.noarch
+├─python-waitress                                                               python2-waitress-1.0.2-2.fc27.noarch
+python2-cryptography-2.0.2-2.fc27.i686                                          
+├─python-enum34                                                                 python2-enum34-1.1.6-3.fc28.noarch
+├─python-ipaddress                                                              python2-ipaddress-1.0.18-3.fc28.noarch
+├─python2-asn1crypto >= 0.21                                                    python2-asn1crypto-0.22.0-4.fc27.noarch
+├─python2-cffi >= 1.7                                                           python2-cffi-1.10.0-3.fc27.i686
+├─python2-idna >= 2.1                                                           python2-idna-2.5-2.fc27.noarch
+└─python2-six >= 1.4.1                                                          python2-six-1.10.0-11.fc28.noarch
+python-backports-ssl_match_hostname-3.5.0.1-5.fc27.noarch                       
+├─python-backports                                                              python2-backports-1.0-12.fc28.i686
+python2-ipaddress-1.0.18-3.fc28.noarch                                          
+python2-pysocks-1.5.7-5.fc27.noarch                                             
+python2-babel-2.3.4-6.fc27.noarch                                               
+├─pytz                                                                          python2-pytz-2017.2-3.fc28.noarch
+python2-markupsafe-0.23-16.fc27.i686                                            
+python2-beaker-1.5.4-18.fc28.noarch                                             
+├─python-paste                                                                  python2-paste-2.0.3-3.fc27.noarch
+├─pycryptopp                                                                    pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.fc27.i686
+python2-beautifulsoup4-4.6.0-3.fc28.noarch                                      
+├─python-lxml                                                                   python2-lxml-3.8.0-1.fc27.i686
+python2-waitress-1.0.2-2.fc27.noarch                                            
+python2-asn1crypto-0.22.0-4.fc27.noarch                                         
+python2-cffi-1.10.0-3.fc27.i686                                                 
+├─python-pycparser                                                              python2-pycparser-2.14-11.fc27.noarch
+python2-enum34-1.1.6-3.fc28.noarch                                              
+python2-backports-1.0-12.fc28.i686                                              
+python2-pytz-2017.2-3.fc28.noarch                                               
+pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.fc27.i686 
+├─libcryptopp.so.6                                                              cryptopp-5.6.3-10.fc27.i686
+python2-paste-2.0.3-3.fc27.noarch                                               
+├─pyOpenSSL                                                                     python2-pyOpenSSL-17.1.0-2.fc27.noarch
+├─python-tempita                                                                python2-tempita-0.5.1-17.fc28.noarch
+└─python2-six >= 1.4.0                                                          python2-six-1.10.0-11.fc28.noarch
+python2-lxml-3.8.0-1.fc27.i686                                                  
+├─python-beautifulsoup4                                                         python2-beautifulsoup4-4.6.0-3.fc28.noarch
+├─python-html5lib                                                               python2-html5lib-1:0.999999999-3.fc27.noarch
+├─python-cssselect                                                              python2-cssselect-0.9.2-5.fc27.noarch
+python2-pycparser-2.14-11.fc27.noarch                                           
+└─python-ply >= 3.6                                                             python2-ply-3.9-4.fc27.noarch
+cryptopp-5.6.3-10.fc27.i686                                                     
+python2-tempita-0.5.1-17.fc28.noarch                                            
+python2-cssselect-0.9.2-5.fc27.noarch                                           
+python2-html5lib-1:0.999999999-3.fc27.noarch                                    
+├─python-six                                                                    python2-six-1.10.0-11.fc28.noarch
+├─python2-webencodings                                                          python2-webencodings-0.5.1-3.fc27.noarch
+python2-ply-3.9-4.fc27.noarch                                                   
+python2-webencodings-0.5.1-3.fc27.noarch                                        
+curl-minimal-7.55.1-3.fc28.i686                                                 
+├─libcurl.so.4                                                                  libcurl-minimal-7.55.1-3.fc28.i686
+└─libcurl(x86-32) >= 7.55.1-3.fc28                                              libcurl-minimal-7.55.1-3.fc28.i686
+libcurl-minimal-7.55.1-3.fc28.i686                                              

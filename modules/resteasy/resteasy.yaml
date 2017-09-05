@@ -2,115 +2,98 @@ document: modulemd
 version: 1
 data:
     summary: resteasy module
-    description: This resteasy has been generated
+    description: This resteasy module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
-            java: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
+            java: master
+            apache-commons: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/resteasy
         tracker: https://github.com/modularity-modules/resteasy
+    api:
+        rpms:
+            - resteasy-atom-provider
+            - resteasy-client
+            - resteasy-core
+            - resteasy-jackson-provider
+            - resteasy-jaxb-provider
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - resteasy-atom-provider
+                - resteasy-client
+                - resteasy-core
+                - resteasy-jackson-provider
+                - resteasy-jaxb-provider
     components:
         rpms:
-            apache-commons-codec:
-                rationale: Generated.
-                ref: master.
-            apache-commons-io:
-                rationale: Generated.
-                ref: master.
-            apache-commons-logging:
-                rationale: Generated.
-                ref: master.
             bea-stax:
                 rationale: Generated.
-                ref: master.
-            copy-jdk-configs:
-                rationale: Generated.
-                ref: master.
-            freetype:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             glassfish-fastinfoset:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             glassfish-jaxb:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             glassfish-jaxb-api:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             httpcomponents-client:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             httpcomponents-core:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             istack-commons:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             jackson:
                 rationale: Generated.
-                ref: master.
-            java-1.8.0-openjdk:
-                rationale: Generated.
-                ref: master.
-            javapackages-tools:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             jboss-annotations-1.2-api:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             jboss-jaxrs-2.0-api:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             jboss-logging:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             jcip-annotations:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             joda-time:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             jsr-311:
                 rationale: Generated.
-                ref: master.
-            libpng:
-                rationale: Generated.
-                ref: master.
-            lua-posix:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             objectweb-asm3:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             relaxngDatatype:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             resteasy:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             stax2-api:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             stax-ex:
                 rationale: Generated.
-                ref: master.
-            which:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             xmlstreambuffer:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xsom:
                 rationale: Generated.
-                ref: master.
+                ref: f27

@@ -1,0 +1,41 @@
+libfontenc-1.1.3-6.fc27.ppc64le                   
+libICE-1.0.9-11.fc27.ppc64le                      
+libSM-1.2.2-7.fc27.ppc64le                        
+├─libICE.so.6()(64bit)                            libICE-1.0.9-11.fc27.ppc64le
+libX11-1.6.5-4.fc27.ppc64le                       
+├─libxcb.so.1()(64bit)                            libxcb-1.12-5.fc27.ppc64le
+└─libX11-common >= 1.6.5-4.fc27                   libX11-common-1.6.5-4.fc27.noarch
+libX11-common-1.6.5-4.fc27.noarch                 
+libXau-1.0.8-9.fc27.ppc64le                       
+libxcb-1.12-5.fc27.ppc64le                        
+└─libXau.so.6()(64bit)                            libXau-1.0.8-9.fc27.ppc64le
+libXcomposite-0.4.4-11.fc27.ppc64le               
+└─libX11.so.6()(64bit)                            libX11-1.6.5-4.fc27.ppc64le
+libXext-1.3.3-7.fc27.ppc64le                      
+├─libX11.so.6()(64bit)                            libX11-1.6.5-4.fc27.ppc64le
+└─libX11 >= 1.5.99.902                            libX11-1.6.5-4.fc27.ppc64le
+libXfont-1.5.2-4.fc27.ppc64le                     
+└─libfontenc.so.1()(64bit)                        libfontenc-1.1.3-6.fc27.ppc64le
+libXft-2.3.2-7.fc27.ppc64le                       
+├─libX11.so.6()(64bit)                            libX11-1.6.5-4.fc27.ppc64le
+├─libfontconfig.so.1()(64bit)                     fontconfig-2.12.4-4.fc27.ppc64le
+├─libXrender.so.1()(64bit)                        libXrender-0.9.10-4.fc27.ppc64le
+└─fontconfig >= 2.2-1                             fontconfig-2.12.4-4.fc27.ppc64le
+libXi-1.7.9-4.fc27.ppc64le                        
+├─libX11.so.6()(64bit)                            libX11-1.6.5-4.fc27.ppc64le
+├─libXext.so.6()(64bit)                           libXext-1.3.3-7.fc27.ppc64le
+└─libX11 >= 1.5.99.902                            libX11-1.6.5-4.fc27.ppc64le
+libXrender-0.9.10-4.fc27.ppc64le                  
+├─libX11.so.6()(64bit)                            libX11-1.6.5-4.fc27.ppc64le
+└─libX11 >= 1.5.99.902                            libX11-1.6.5-4.fc27.ppc64le
+libXtst-1.2.3-4.fc27.ppc64le                      
+├─libX11.so.6()(64bit)                            libX11-1.6.5-4.fc27.ppc64le
+├─libXext.so.6()(64bit)                           libXext-1.3.3-7.fc27.ppc64le
+├─libXi.so.6()(64bit)                             libXi-1.7.9-4.fc27.ppc64le
+└─libX11 >= 1.5.99.902                            libX11-1.6.5-4.fc27.ppc64le
+fontconfig-2.12.4-4.fc27.ppc64le                  
+├─fontpackages-filesystem                         fontpackages-filesystem-1.44-19.fc27.noarch
+├─font(:lang=en)                                  aajohan-comfortaa-fonts-2.004-8.fc27.noarch
+fontpackages-filesystem-1.44-19.fc27.noarch       
+aajohan-comfortaa-fonts-2.004-8.fc27.noarch       
+└─fontpackages-filesystem                         fontpackages-filesystem-1.44-19.fc27.noarch

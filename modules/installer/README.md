@@ -8,13 +8,14 @@ These are modules identified as dependencies.
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
 * [platform-placeholder](../platform-placeholder)
+* [hardware-support](../hardware-support)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
 * [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [installer top-level package set](installer.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this installer module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
@@ -42,7 +43,6 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `libreport-cli` | X | X | X | X | X | X | X |
 | `libreport-plugin-bugzilla` | X | X | X | X | X | X | X |
 | `libreport-plugin-reportuploader` | X | X | X | X | X | X | X |
-| `libreport-python3` | X | X | X | X | X | X | X |
 | `libreport-web` | X | X | X | X | X | X | X |
 | `libtar` | X | X | X | X | X | X | X |
 | `libteam` | X | X | X | X | X | X | X |
@@ -61,6 +61,7 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `python3-firewall` | X | X | X | X | X | X | X |
 | `python3-idna` | X | X | X | X | X | X | X |
 | `python3-kickstart` | X | X | X | X | X | X | X |
+| `python3-libreport` | X | X | X | X | X | X | X |
 | `python3-meh` | X | X | X | X | X | X | X |
 | `python3-ntplib` | X | X | X | X | X | X | X |
 | `python3-ordered-set` | X | X | X | X | X | X | X |
@@ -68,6 +69,7 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `python3-ply` | X | X | X | X | X | X | X |
 | `python3-pwquality` | X | X | X | X | X | X | X |
 | `python3-pycparser` | X | X | X | X | X | X | X |
+| `python3-pydbus` | X | X | X | X | X | X | X |
 | `python3-pyOpenSSL` | X | X | X | X | X | X | X |
 | `python3-pyparted` | X | X | X | X | X | X | X |
 | `python3-pysocks` | X | X | X | X | X | X | X |
@@ -78,6 +80,7 @@ These are RPM dependencies of the [installer top-level package set](installer.cs
 | `python3-slip` | X | X | X | X | X | X | X |
 | `python3-slip-dbus` | X | X | X | X | X | X | X |
 | `python3-sssdconfig` | X | X | X | X | X | X | X |
+| `python3-systemd` | X | X | X | X | X | X | X |
 | `python3-urllib3` | X | X | X | X | X | X | X |
 | `python3-wrapt` | X | X | X | X | X | X | X |
 | `realmd` | X | X | X | X | X | X | X |

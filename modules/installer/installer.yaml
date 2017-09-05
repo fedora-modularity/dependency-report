@@ -2,7 +2,7 @@ document: modulemd
 version: 1
 data:
     summary: installer module
-    description: This installer has been generated
+    description: This installer module has been generated.
     license:
         module: [ MIT ]
     dependencies:
@@ -10,133 +10,147 @@ data:
             bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
+            hardware-support: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/installer
         tracker: https://github.com/modularity-modules/installer
+    api:
+        rpms:
+            - anaconda-tui
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - anaconda-tui
     components:
         rpms:
             anaconda:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             authconfig:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             chrony:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             createrepo_c:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             drpm:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             firewalld:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             isomd5sum:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             langtable:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libndp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libpsl:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libtar:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libteam:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             NetworkManager:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pykickstart:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pyOpenSSL:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pyparted:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-asn1crypto:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-blivet:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-cffi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-chardet:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-coverage:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-cryptography:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-decorator:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-idna:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-meh:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ntplib:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ordered-set:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-pid:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ply:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-pycparser:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            python-pydbus:
+                rationale: Generated.
+                ref: f27
             python-pysocks:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-requests:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-requests-file:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-requests-ftp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-slip:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            python-systemd:
+                rationale: Generated.
+                ref: f27
             python-urllib3:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-wrapt:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pytz:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             realmd:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             satyr:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             sssd:
                 rationale: Generated.
-                ref: master.
+                ref: f27

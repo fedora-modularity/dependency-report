@@ -4,11 +4,11 @@
   "fontconfig" -> "fontpackages-filesystem";
   "libX11" -> "libX11-common";
   "libX11" -> "libxcb";
+  "libxcb" -> "curl-minimal";
   "libxcb" -> "libXau";
   "libXft" -> "fontconfig";
   "libXft" -> "libX11";
   "libXft" -> "libXrender";
-  "libXrender" -> "curl-minimal";
   "libXrender" -> "libX11";
   "python3-debug" -> "libX11";
   "python3-debug" -> "python3-devel";

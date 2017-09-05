@@ -9,7 +9,7 @@ node [fontname=monospace];
   "dyninst" -> "boost-system";
   "dyninst" -> "boost-thread";
   "dyninst" -> "libdwarf";
-  "libdwarf" -> "curl-minimal";
+  "kernel-devel" -> "curl-minimal";
   "systemtap-client" -> "avahi-libs";
   "systemtap-client" -> "systemtap-runtime";
   "systemtap-devel" -> "avahi-libs";

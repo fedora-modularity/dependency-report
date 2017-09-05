@@ -1,16 +1,12 @@
 strict digraph G {
 node [fontname=monospace];
-  "aajohan-comfortaa-fonts" -> "fontpackages-filesystem";
   "curl-minimal" -> "libcurl-minimal";
-  "fontconfig" -> "aajohan-comfortaa-fonts";
-  "fontconfig" -> "fontpackages-filesystem";
   "libX11" -> "libX11-common";
   "libX11" -> "libxcb";
+  "libXau" -> "curl-minimal";
   "libxcb" -> "libXau";
-  "libXft" -> "fontconfig";
   "libXft" -> "libX11";
   "libXft" -> "libXrender";
-  "libXrender" -> "curl-minimal";
   "libXrender" -> "libX11";
   "python2-debug" -> "libX11";
   "python2-debug" -> "python2-devel";
@@ -28,7 +24,6 @@ node [fontname=monospace];
   "python2-tools" -> "python2-tkinter";
   "tix" -> "libX11";
   "tix" -> "tk";
-  "tk" -> "fontconfig";
   "tk" -> "libX11";
   "tk" -> "libXft";
 }

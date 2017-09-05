@@ -4,7 +4,6 @@ adwaita-icon-theme
 alsa-lib
 aspell
 atk
-atlas
 at-spi2-atk
 at-spi2-core
 audit-libs
@@ -32,7 +31,6 @@ boost-log
 boost-math
 boost-numpy
 boost-program-options
-boost-python
 boost-random
 boost-regex
 boost-serialization
@@ -50,6 +48,7 @@ cairo
 cairo-gobject
 cdparanoia-libs
 chkconfig
+cmake-filesystem
 colord-libs
 compat-openssl10
 copy-jdk-configs
@@ -98,6 +97,7 @@ filesystem
 findutils
 fipscheck
 fipscheck-lib
+flac-libs
 fontconfig
 fontpackages-filesystem
 freetype
@@ -138,7 +138,9 @@ graphite2
 grep
 groff-base
 gsettings-desktop-schemas
+gsm
 gstreamer1
+gstreamer1-plugins-bad-free
 gstreamer1-plugins-base
 gtk3
 gtk-update-icon-cache
@@ -196,6 +198,8 @@ libdb
 libdb-devel
 libdb-utils
 libdrm
+libdvdnav
+libdvdread
 libdwarf
 libedit
 libepoxy
@@ -210,6 +214,7 @@ libglvnd-egl
 libglvnd-glx
 libgomp
 libgpg-error
+libgudev
 libgusb
 libICE
 libICE-devel
@@ -224,6 +229,7 @@ libmcpp
 libmodman
 libmount
 libmpc
+libmpcdec
 libmpx
 libnghttp2
 libnl3
@@ -251,7 +257,9 @@ libsigsegv
 libSM
 libsmartcols
 libSM-devel
+libsndfile
 libsoup
+libsrtp
 libssh
 libssh2
 libstdc++
@@ -266,6 +274,7 @@ libunistring
 libusbx
 libutempter
 libuuid
+libvdpau
 libverto
 libvirt-devel
 libvirt-libs
@@ -357,6 +366,7 @@ nss-sysinit
 nss-util
 nss-util-devel
 numactl-libs
+openblas
 OpenEXR-libs
 openjpeg2
 openldap
@@ -372,6 +382,10 @@ pam
 pango
 pcre
 pcre2
+pcre-cpp
+pcre-devel
+pcre-utf16
+pcre-utf32
 perl
 perl-accessors
 perl-Algorithm-Diff
@@ -503,6 +517,7 @@ perl-libs
 perl-libwww-perl
 perl-Lingua-EN-Inflect
 perl-List-MoreUtils
+perl-List-MoreUtils-XS
 perl-Locale-Codes
 perl-Locale-Maketext
 perl-Locale-Maketext-Simple
@@ -613,6 +628,7 @@ perl-Test-Harness
 perl-Test-LeakTrace
 perl-Test-MinimumVersion
 perl-Test-MockModule
+perl-Test-Needs
 perl-Test-NoWarnings
 perl-Test-Output
 perl-Test-Perl-Critic
@@ -673,6 +689,7 @@ procps-ng
 psmisc
 psutils
 python2
+python2-boost
 python2-devel
 python2-libs
 python2-nose
@@ -706,13 +723,13 @@ setup
 shadow-utils
 shared-mime-info
 snappy
+soundtouch
 sqlite
 sqlite-devel
 sqlite-libs
 systemd
 systemd-libs
 systemd-pam
-system-python-libs
 systemtap-sdt-devel
 tar
 teckit

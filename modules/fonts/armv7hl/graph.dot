@@ -1,0 +1,9 @@
+strict digraph G {
+node [fontname=monospace];
+  "aajohan-comfortaa-fonts" -> "fontpackages-filesystem";
+  "fontawesome-fonts" -> "fontpackages-filesystem";
+  "fontconfig" -> "aajohan-comfortaa-fonts";
+  "fontconfig" -> "fontpackages-filesystem";
+  "fontconfig" -> "freetype";
+  "freetype" -> "libpng";
+}

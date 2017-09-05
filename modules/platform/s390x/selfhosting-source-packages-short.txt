@@ -25,6 +25,7 @@ SDL2_mixer
 SDL_sound
 Xaw3d
 a2ps
+aalto-xml
 acl
 acpica-tools
 adobe-source-code-pro-fonts
@@ -218,6 +219,7 @@ closure-compiler
 cmake
 cmdtest
 cmocka
+cockpit
 codegen
 codehaus-parent
 codemodel
@@ -232,6 +234,8 @@ compat-openssl10
 compat-openssl10-pkcs11-helper
 compface
 compiler-rt
+compress-lzf
+console-setup
 cookcc
 cookxml
 copy-jdk-configs
@@ -298,8 +302,7 @@ docbook-style-xsl
 docbook-utils
 docbook5-schemas
 docbook5-style-xsl
-docker
-docker-client
+docker-client-java
 dom4j
 dos2unix
 dosfstools
@@ -378,7 +381,7 @@ fakechroot
 fakeroot
 fasterxml-oss-parent
 fastutil
-fcgi
+fcoe-utils
 fedora-logos
 fedora-release
 fedora-repos
@@ -521,40 +524,9 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
-go-compilers
 go-srpm-macros
 gobject-introspection
-godep
 golang
-golang-bitbucket-kardianos-osext
-golang-github-Sirupsen-logrus
-golang-github-bugsnag-bugsnag-go
-golang-github-bugsnag-panicwrap
-golang-github-coreos-go-systemd
-golang-github-coreos-pkg
-golang-github-cpuguy83-go-md2man
-golang-github-davecgh-go-spew
-golang-github-docker-go-units
-golang-github-godbus-dbus
-golang-github-kr-fs
-golang-github-kr-pretty
-golang-github-kr-text
-golang-github-opencontainers-runtime-spec
-golang-github-pmezard-go-difflib
-golang-github-russross-blackfriday
-golang-github-seccomp-libseccomp-golang
-golang-github-shurcooL-sanitized_anchor_name
-golang-github-stretchr-objx
-golang-github-stretchr-testify
-golang-github-syndtr-gocapability
-golang-github-vishvananda-netlink
-golang-github-vishvananda-netns
-golang-googlecode-go-crypto
-golang-googlecode-goprotobuf
-golang-googlecode-net
-golang-googlecode-text
-golang-googlecode-tools
-golang-gopkg-yaml
 google-gson
 google-guice
 google-roboto-slab-fonts
@@ -609,11 +581,11 @@ hawtbuf
 hawtdispatch
 hawtjni
 hdf5
-hdparm
 help2man
 herqq
 hesiod
 hessian
+hfsplus-tools
 hfsutils
 hibernate
 hibernate-commons-annotations
@@ -881,11 +853,13 @@ jwnl
 jython
 jzlib
 kate4
+kbd
 kde-filesystem
 kde-l10n
 kde-settings
 kdelibs
 kernel
+kexec-tools
 keyutils
 kf5
 kf5-karchive
@@ -902,7 +876,6 @@ kyua-cli
 kyua-testers
 ladspa
 lapack
-lash
 lasi
 latex2html
 lato-fonts
@@ -947,6 +920,7 @@ libXv
 libXxf86dga
 libXxf86misc
 libXxf86vm
+libaec
 libaesgm
 libaio
 libao
@@ -1014,7 +988,6 @@ libgpg-error
 libgphoto2
 libgudev
 libgusb
-libibverbs
 libical
 libicns
 libidn
@@ -1077,7 +1050,6 @@ libqb
 libqmi
 librabbitmq
 librdkafka
-librdmacm
 librelp
 librepo
 libreport
@@ -1128,6 +1100,7 @@ libva
 libvdpau
 libverto
 libvirt
+libvirt-python
 libvisual
 libvoikko
 libvorbis
@@ -1146,6 +1119,7 @@ libxslt
 libyaml
 lightcouch
 lilypond
+linkchecker
 linux-atm
 linux-firmware
 linuxconsoletools
@@ -1153,8 +1127,8 @@ linuxdoc-tools
 liquibase
 lirc
 lksctp-tools
+lldpad
 llvm
-llvm3.9
 lm_sensors
 lockdev
 lodash
@@ -1164,6 +1138,7 @@ log4j12
 logback
 logrotate
 lpg
+lsof
 lsscsi
 lttng-ust
 lua
@@ -1179,6 +1154,7 @@ lyx
 lz4
 lz4-java
 lzip
+lzma-java
 lzma-sdk457
 lzo
 m17n-db
@@ -1262,6 +1238,7 @@ maven2
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -1709,6 +1686,8 @@ passwd
 patch
 patchutils
 pcfi
+pciutils
+pcp
 pcre
 pcre2
 pcsc-lite
@@ -1785,6 +1764,7 @@ perl-Compress-LZF
 perl-Compress-Raw-Bzip2
 perl-Compress-Raw-Zlib
 perl-Config-Any
+perl-Config-AutoConf
 perl-Config-General
 perl-Config-Perl-V
 perl-Config-Tiny
@@ -1804,6 +1784,7 @@ perl-Crypt-Rijndael
 perl-Curses
 perl-Cwd-Guard
 perl-DBD-CSV
+perl-DBD-MySQL
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBI
@@ -2011,6 +1992,7 @@ perl-Lexical-SealRequireHints
 perl-Lexical-Var
 perl-Lingua-EN-Inflect
 perl-List-MoreUtils
+perl-List-MoreUtils-XS
 perl-Locale-Codes
 perl-Locale-Maketext
 perl-Locale-US
@@ -2441,6 +2423,7 @@ picketbox-xacml
 picocontainer
 pixman
 pkgconf
+platform-python
 plexus-ant-factory
 plexus-archiver
 plexus-bsh-factory
@@ -2477,6 +2460,7 @@ popt
 portals-pom
 portaudio
 portlet-2.0-api
+postfix
 postgresql
 postgresql-jdbc
 potrace
@@ -2518,12 +2502,10 @@ python-asn1crypto
 python-attrs
 python-backports
 python-backports-ssl_match_hostname
-python-backports-unittest_mock
 python-backports_abc
 python-beaker
 python-beautifulsoup4
 python-bottle
-python-bugzilla
 python-cffi
 python-chardet
 python-cliapp
@@ -2540,6 +2522,7 @@ python-cups
 python-d2to1
 python-dateutil
 python-decorator
+python-dns
 python-docutils
 python-dtopt
 python-empy
@@ -2561,9 +2544,11 @@ python-ipaddress
 python-iso8601
 python-itsdangerous
 python-jinja2
+python-jsonpointer
 python-jsonschema
 python-keyczar
 python-keyring
+python-kmod
 python-linecache2
 python-lit
 python-lxml
@@ -2587,6 +2572,7 @@ python-pillow
 python-pip
 python-ply
 python-pretend
+python-prettytable
 python-process-tests
 python-psutil
 python-ptyprocess
@@ -2612,6 +2598,7 @@ python-requests
 python-restkit
 python-rpm-generators
 python-rpm-macros
+python-rtslib
 python-scour
 python-service-identity
 python-setuptools
@@ -2625,6 +2612,7 @@ python-socketpool
 python-sphinx
 python-sphinx-theme-alabaster
 python-sphinx_rtd_theme
+python-sphinxcontrib-websupport
 python-sqlalchemy
 python-systemd
 python-tempita
@@ -2638,6 +2626,7 @@ python-unittest2
 python-urllib3
 python-virtualenv
 python-waitress
+python-webencodings
 python-webob
 python-webtest
 python-werkzeug
@@ -2703,6 +2692,7 @@ radvd
 ragel
 randomizedtesting
 rarian
+rdma-core
 re2c
 readline
 realmd
@@ -2888,7 +2878,6 @@ rubygem-wikicloth
 rubygem-xpath
 rubygem-yard
 rubypick
-runc
 rust
 rust-srpm-macros
 rxjava
@@ -2944,6 +2933,7 @@ snakeyaml
 snappy
 snappy-java
 snowball-java
+socat
 socket_wrapper
 softhsm
 sombok
@@ -2980,6 +2970,7 @@ sshj
 sslext
 sssd
 star
+startup-notification
 stax-ex
 stax2-api
 staxmapper
@@ -2990,6 +2981,7 @@ stringtemplate
 stringtemplate4
 struts
 stunnel
+subethasmtp
 subunit
 subversion
 sudo
@@ -3026,6 +3018,7 @@ tiger-types
 tika
 tiles
 time
+tinycdb
 tix
 tk
 tmux
@@ -3068,6 +3061,7 @@ unzip
 upower
 urw-fonts
 usbredir
+usermode
 userspace-rcu
 ustr
 uthash

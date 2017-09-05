@@ -10,16 +10,14 @@ This list might not be complete. There might be other packages in the *Binary RP
 * [platform-placeholder](../platform-placeholder)
 * [networking-base](../networking-base)
 * [perl](../perl)
+* [storage-devices](../storage-devices)
 ### Build
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
-* [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
-* [perl](../perl)
-* [autotools](../autotools)
+* [bootstrap](../bootstrap)
 ## Binary RPM packages
 These are RPM dependencies of the [389-ds top-level package set](389-ds.csv). They should be either:
-* split into other modules and be used as modular dependncies
+* split into other modules and be used as modular dependencies
 * included in this 389-ds module
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
@@ -34,14 +32,12 @@ These are RPM dependencies of the [389-ds top-level package set](389-ds.csv). Th
 | `cyrus-sasl-md5` | X | X | X | X | X | X | X |
 | `GeoIP` | X | X | X | X | X | X | X |
 | `GeoIP-GeoLite-data` | X | X | X | X | X | X | X |
-| `gperftools-libs` | X | X | X | - | - | - | X |
-| `libsemanage-python` | X | X | X | X | X | X | X |
-| `libunwind` | X | X | X | - | - | - | X |
 | `nss-tools` | X | X | X | X | X | X | X |
 | `openldap-clients` | X | X | X | X | X | X | X |
 | `perl-Mozilla-LDAP` | X | X | X | X | X | X | X |
 | `perl-NetAddr-IP` | X | X | X | X | X | X | X |
 | `perl-Socket6` | X | X | X | X | X | X | X |
+| `python2-libsemanage` | X | X | X | X | X | X | X |
 | `python3-bind` | X | X | X | X | X | X | X |
 | `python3-ply` | X | X | X | X | X | X | X |
 | `svrcore` | X | X | X | X | X | X | X |

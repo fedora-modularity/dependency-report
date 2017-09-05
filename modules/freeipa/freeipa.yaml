@@ -2,19 +2,14 @@ document: modulemd
 version: 1
 data:
     summary: freeipa module
-    description: This freeipa has been generated
+    description: This freeipa module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            389-ds: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
             java: master
             perl: master
             389-ds: master
@@ -31,110 +26,134 @@ data:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/freeipa
         tracker: https://github.com/modularity-modules/freeipa
+    api:
+        rpms:
+            - freeipa-client
+            - freeipa-client-common
+            - freeipa-common
+            - freeipa-desktop-profile
+            - freeipa-python-compat
+            - freeipa-server
+            - freeipa-server-common
+            - freeipa-server-dns
+            - freeipa-server-trust-ad
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - freeipa-client
+                - freeipa-client-common
+                - freeipa-common
+                - freeipa-desktop-profile
+                - freeipa-python-compat
+                - freeipa-server
+                - freeipa-server-common
+                - freeipa-server-dns
+                - freeipa-server-trust-ad
     components:
         rpms:
             authconfig:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             autofs:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             autogen:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             bind-dyndb-ldap:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             certmonger:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             custodia:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             fontawesome-fonts:
                 rationale: Generated.
-                ref: master.
-            fontpackages:
-                rationale: Generated.
-                ref: master.
+                ref: f27
             freeipa:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             freeipa-desktop-profile:
                 rationale: Generated.
-                ref: master.
+                ref: f27
+            hesiod:
+                rationale: Generated.
+                ref: f27
             ldns:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             m2crypto:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             mod_auth_gssapi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             mod_lookup_identity:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             ntp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             oddjob:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             opencryptoki:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             opendnssec:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             open-sans-fonts:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python2-typing:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-augeas:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-configparser:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-dateutil:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-decorator:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-gssapi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-jwcrypto:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-kdcproxy:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-netaddr:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-netifaces:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-qrcode:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-systemd:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-yubico:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pyusb:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             slapi-nis:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             softhsm:
                 rationale: Generated.
-                ref: master.
+                ref: f27

@@ -2,353 +2,456 @@ document: modulemd
 version: 1
 data:
     summary: perl module
-    description: This perl has been generated
+    description: This perl module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            systemtap: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/perl
         tracker: https://github.com/modularity-modules/perl
+    api:
+        rpms:
+            - perl
+            - perl-Algorithm-Diff
+            - perl-Archive-Tar
+            - perl-Archive-Zip
+            - perl-autodie
+            - perl-B-Debug
+            - perl-bignum
+            - perl-Carp
+            - perl-Compress-Bzip2
+            - perl-Compress-Raw-Bzip2
+            - perl-Compress-Raw-Zlib
+            - perl-Config-Perl-V
+            - perl-constant
+            - perl-CPAN
+            - perl-CPAN-Meta
+            - perl-CPAN-Meta-Requirements
+            - perl-CPAN-Meta-YAML
+            - perl-Data-Dumper
+            - perl-Data-OptList
+            - perl-Data-Section
+            - perl-DB_File
+            - perl-Devel-PPPort
+            - perl-Devel-Size
+            - perl-Digest
+            - perl-Digest-MD5
+            - perl-Digest-SHA
+            - perl-Encode
+            - perl-Env
+            - perl-experimental
+            - perl-Exporter
+            - perl-ExtUtils-CBuilder
+            - perl-ExtUtils-Install
+            - perl-ExtUtils-MakeMaker
+            - perl-ExtUtils-Manifest
+            - perl-ExtUtils-ParseXS
+            - perl-Fedora-VSP
+            - perl-File-Fetch
+            - perl-File-HomeDir
+            - perl-File-Path
+            - perl-File-Temp
+            - perl-File-Which
+            - perl-Filter
+            - perl-Filter-Simple
+            - perl-generators
+            - perl-Getopt-Long
+            - perl-HTTP-Tiny
+            - perl-inc-latest
+            - perl-IO-Compress
+            - perl-IO-Socket-IP
+            - perl-IPC-Cmd
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - perl
+                - perl-Algorithm-Diff
+                - perl-Archive-Tar
+                - perl-Archive-Zip
+                - perl-autodie
+                - perl-B-Debug
+                - perl-bignum
+                - perl-Carp
+                - perl-Compress-Bzip2
+                - perl-Compress-Raw-Bzip2
+                - perl-Compress-Raw-Zlib
+                - perl-Config-Perl-V
+                - perl-constant
+                - perl-CPAN
+                - perl-CPAN-Meta
+                - perl-CPAN-Meta-Requirements
+                - perl-CPAN-Meta-YAML
+                - perl-Data-Dumper
+                - perl-Data-OptList
+                - perl-Data-Section
+                - perl-DB_File
+                - perl-Devel-PPPort
+                - perl-Devel-Size
+                - perl-Digest
+                - perl-Digest-MD5
+                - perl-Digest-SHA
+                - perl-Encode
+                - perl-Env
+                - perl-experimental
+                - perl-Exporter
+                - perl-ExtUtils-CBuilder
+                - perl-ExtUtils-Install
+                - perl-ExtUtils-MakeMaker
+                - perl-ExtUtils-Manifest
+                - perl-ExtUtils-ParseXS
+                - perl-Fedora-VSP
+                - perl-File-Fetch
+                - perl-File-HomeDir
+                - perl-File-Path
+                - perl-File-Temp
+                - perl-File-Which
+                - perl-Filter
+                - perl-Filter-Simple
+                - perl-generators
+                - perl-Getopt-Long
+                - perl-HTTP-Tiny
+                - perl-inc-latest
+                - perl-IO-Compress
+                - perl-IO-Socket-IP
+                - perl-IPC-Cmd
     components:
         rpms:
             groff:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Algorithm-Diff:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Archive-Tar:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Archive-Zip:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-autodie:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-B-Debug:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-bignum:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Carp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Compress-Bzip2:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Compress-Raw-Bzip2:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Compress-Raw-Zlib:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Config-Perl-V:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-constant:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-CPAN:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-CPAN-Meta:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-CPAN-Meta-Requirements:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-CPAN-Meta-YAML:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Data-Dumper:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Data-OptList:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Data-Section:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-DB_File:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Devel-PPPort:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Devel-Size:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Digest:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Digest-MD5:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Digest-SHA:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Encode:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Env:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-experimental:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Exporter:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-ExtUtils-CBuilder:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-ExtUtils-Install:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-ExtUtils-MakeMaker:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-ExtUtils-Manifest:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-ExtUtils-ParseXS:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Fedora-VSP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-File-Fetch:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-File-HomeDir:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-File-Path:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-File-Temp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-File-Which:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Filter:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Filter-Simple:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-generators:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Getopt-Long:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-HTTP-Tiny:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-inc-latest:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-IO-Compress:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-IO-Socket-IP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-IPC-Cmd:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-IPC-System-Simple:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-IPC-SysV:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-JSON-PP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-libnet:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Locale-Codes:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Locale-Maketext:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-local-lib:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Math-BigInt:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Math-BigInt-FastCalc:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Math-BigRat:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-MIME-Base64:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Module-Build:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Module-CoreList:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Module-Load:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Module-Load-Conditional:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Module-Metadata:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-MRO-Compat:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Package-Generator:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Params-Check:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Params-Util:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-parent:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-PathTools:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-perlfaq:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-PerlIO-via-QuotedPrint:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Perl-OSType:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Pod-Checker:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Pod-Escapes:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-podlators:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Pod-Parser:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Pod-Perldoc:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Pod-Simple:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Pod-Usage:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Scalar-List-Utils:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Socket:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Software-License:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Storable:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Sub-Exporter:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Sub-Install:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Sys-Syslog:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Term-ANSIColor:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Term-Cap:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Test-Harness:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Test-Simple:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Text-Balanced:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Text-Diff:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Text-Glob:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Text-ParseWords:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Text-Tabs+Wrap:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Text-Template:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Thread-Queue:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-threads:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-threads-shared:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Time-HiRes:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Time-Local:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Unicode-Collate:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-Unicode-Normalize:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-URI:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             perl-version:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pyparsing:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             systemtap:
                 rationale: Generated.
-                ref: master.
+                ref: f27

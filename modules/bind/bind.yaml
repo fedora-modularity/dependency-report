@@ -2,33 +2,51 @@ document: modulemd
 version: 1
 data:
     summary: bind module
-    description: This bind has been generated
+    description: This bind module has been generated.
     license:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            platform: master
-            platform-placeholder: master
-            autotools: master
-            perl: master
+            bootstrap: master
         requires:
             platform: master
-            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/bind
         tracker: https://github.com/modularity-modules/bind
+    api:
+        rpms:
+            - bind
+            - bind-libs
+            - bind-libs-lite
+            - bind-license
+            - bind-pkcs11
+            - bind-pkcs11-libs
+            - bind-pkcs11-utils
+            - bind-utils
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - bind
+                - bind-libs
+                - bind-libs-lite
+                - bind-license
+                - bind-pkcs11
+                - bind-pkcs11-libs
+                - bind-pkcs11-utils
+                - bind-utils
     components:
         rpms:
             bind:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             GeoIP:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             GeoIP-GeoLite-data:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ply:
                 rationale: Generated.
-                ref: master.
+                ref: f27
