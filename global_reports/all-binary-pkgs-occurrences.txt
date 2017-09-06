@@ -245,6 +245,7 @@ grub2-tools-extra                    platform
 grub2-tools-minimal                  platform
 grubby                               platform
 gsettings-desktop-schemas            platform
+gssntlmssp-devel                     freeipa
 gssproxy                             platform
 guile                                platform, storage-devices
 gzip                                 platform, storage-devices
@@ -316,9 +317,11 @@ kernel-PAE-modules                   platform
 kexec-tools                          platform
 keyutils                             platform
 keyutils-libs                        platform, storage-devices
+keyutils-libs-devel                  freeipa
 kmod                                 platform
 kmod-libs                            platform, storage-devices
 kpartx                               platform, storage-devices
+krb5-devel                           freeipa
 krb5-libs                            platform, storage-devices
 krb5-pkinit                          platform
 krb5-server                          krb5
@@ -329,6 +332,7 @@ langtable-python3                    installer
 lcms2                                python2-ecosystem
 ldapjdk                              pki
 ldns                                 freeipa
+ldns-devel                           freeipa
 less                                 platform
 leveldb                              storage-devices
 libacl                               platform, storage-devices
@@ -382,6 +386,7 @@ libcgroup                            platform, storage-devices
 libcilkrts                           platform
 libcollection                        platform
 libcom_err                           platform, storage-devices
+libcom_err-devel                     freeipa
 libcomps                             platform
 libconfig                            platform
 libconfig-devel                      platform-placeholder
@@ -416,6 +421,7 @@ libini_config                        platform
 libipa_hbac                          sssd
 libipt                               platform
 libitm                               freeipa
+libitm-devel                         freeipa
 libjpeg-turbo                        platform
 libkadm5                             platform
 libksba                              platform
@@ -481,8 +487,11 @@ libssh                               platform
 libssh2                              platform
 libsss_autofs                        sssd
 libsss_certmap                       sssd
+libsss_certmap-devel                 freeipa
 libsss_idmap                         sssd
+libsss_idmap-devel                   freeipa
 libsss_nss_idmap                     sssd
+libsss_nss_idmap-devel               freeipa
 libstdc++                            platform, storage-devices
 libstdc++-devel                      platform
 libstoragemgmt                       udisks2
@@ -510,6 +519,7 @@ libuser                              platform
 libutempter                          platform, storage-devices
 libuuid                              platform, storage-devices
 libverto                             platform, storage-devices
+libverto-devel                       freeipa
 libverto-libev                       platform
 libwbclient                          samba
 libwebp                              python2-ecosystem
@@ -624,6 +634,7 @@ openssh                              platform
 openssh-clients                      platform
 openssh-server                       platform
 openssl                              platform, storage-devices
+openssl-devel                        freeipa
 openssl-libs                         platform, storage-devices
 os-prober                            platform
 p11-kit                              platform, storage-devices
@@ -850,6 +861,7 @@ python2-jwcrypto                     python2-ecosystem
 python2-kdcproxy                     python2-ecosystem
 python2-ldap                         pki
 python2-ldb                          samba
+python2-lesscpy                      freeipa
 python2-libipa_hbac                  sssd
 python2-libnl3                       platform-placeholder
 python2-libs                         platform-placeholder, storage-devices
@@ -979,6 +991,7 @@ python3-pytest-runner                pki
 python3-python-etcd                  python3-ecosystem
 python3-pytz                         installer
 python3-pyudev                       platform-placeholder
+python3-pyusb                        freeipa
 python3-requests                     installer, python3-ecosystem
 python3-requests-file                installer
 python3-requests-ftp                 installer
@@ -1174,4 +1187,5 @@ xz-libs                              platform, storage-devices
 yajl                                 udisks2
 zip                                  platform
 zlib                                 platform, storage-devices
+zlib-devel                           freeipa
 zstd                                 platform

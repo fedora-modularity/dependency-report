@@ -28,7 +28,7 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**autotools**](../modules/autotools) | **3** pkgs | [**0** pkgs missing](../modules/autotools/all/buildtime-binary-packages-short.txt) |
 | [**bind**](../modules/bind) | **14** pkgs | [**0** pkgs missing](../modules/bind/all/buildtime-binary-packages-short.txt) |
 | [**fonts**](../modules/fonts) | **6** pkgs | [**0** pkgs missing](../modules/fonts/all/buildtime-binary-packages-short.txt) |
-| [**freeipa**](../modules/freeipa) | **42** pkgs | [**8** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
+| [**freeipa**](../modules/freeipa) | **56** pkgs | [**0** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
 | [**hardware-support**](../modules/hardware-support) | **0** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **13** pkgs | [**1** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
 | [**installer**](../modules/installer) | **66** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
