@@ -16,19 +16,14 @@ data:
         tracker: https://github.com/fedora-modularity/hp/issues
     components:
         rpms:
-            # shim-0.8-1.fc22
-            shim:
-                rationale: >-
-                    Provides the unsigned binaries; this package is
-                    produced by different source
-                    packages on different
-                    architectures.
-                ref: 72c0daf8e4db63bd5b8125167e23164e515198c4
-            # shim-unsigned-aarch64-0.9-1.fc24
+            # shim-unsigned-aarch64-13-1.fc27
             shim-unsigned-aarch64:
                 rationale: >-
-                    Provides the unsigned binaries; this package is
-                    produced by different source
-                    packages on different
-                    architectures.
-                ref: ae09b5fe2bac419ce2b49bded0487d133bd53919
+                    Provides the unsigned binaries for aarch64.
+                ref: 49c7a0a889439b6506e8ebf116c362e2e78e2a27
+            # shim-unsigned-x64-13-1.fc27
+            shim-unsigned-x64:
+                rationale: >-
+                    Provides the unsigned binaries for i686; provides the
+                    unsigned binaries for x86_64.
+                ref: 7683e147ff167c1f9e0a03a8a52cfce14a08e61b

@@ -62,6 +62,7 @@
       1 certmonger
       1 chrony
       1 chrpath
+      1 cloud-init
       1 cmake-filesystem
       1 cockpit-bridge
       1 cockpit-system
@@ -84,6 +85,7 @@
       1 dbus-devel
       1 dbus-glib
       1 dbus-python-devel
+      1 dbxtool
       1 debugmode
       1 deltarpm
       1 desktop-file-utils
@@ -116,6 +118,7 @@
       1 ethtool
       1 fbset
       1 fcoe-utils
+      1 fedora-logos
       1 fedora-logos-httpd
       1 fedora-rpm-macros
       1 fedpkg-minimal
@@ -450,7 +453,6 @@
       1 nano
       1 net-snmp-utils
       1 nettle
-      1 net-tools
       1 NetworkManager-adsl
       1 NetworkManager-bluetooth
       1 NetworkManager-tui
@@ -599,6 +601,7 @@
       1 python3-blivet
       1 python3-blockdev
       1 python3-bytesize
+      1 python3-configobj
       1 python3-coverage
       1 python3-crypto
       1 python3-custodia
@@ -613,7 +616,11 @@
       1 python3-iniparse
       1 python3-iscsi-initiator-utils
       1 python3-isort
+      1 python3-jinja2
+      1 python3-jsonpatch
+      1 python3-jsonpointer
       1 python3-jwcrypto
+      1 python3-jwt
       1 python3-kickstart
       1 python3-lazy-object-proxy
       1 python3-libcomps
@@ -622,12 +629,15 @@
       1 python3-libreport
       1 python3-libstoragemgmt
       1 python3-libstoragemgmt-clibs
+      1 python3-markupsafe
       1 python3-mccabe
       1 python3-meh
       1 python3-nss
       1 python3-ntplib
+      1 python3-oauthlib
       1 python3-ordered-set
       1 python3-pid
+      1 python3-prettytable
       1 python3-pwquality
       1 python3-pyasn1
       1 python3-pyasn1-modules
@@ -635,12 +645,14 @@
       1 python3-pyldap
       1 python3-pylint
       1 python3-pyparted
+      1 python3-pyserial
       1 python3-pytest
       1 python3-pytest-runner
       1 python3-python-etcd
       1 python3-pytz
       1 python3-pyudev
       1 python3-pyusb
+      1 python3-PyYAML
       1 python3-requests-file
       1 python3-requests-ftp
       1 python3-rpm
@@ -709,8 +721,12 @@
       1 sg3_utils-libs
       1 sgml-common
       1 shared-mime-info
-      1 shim
-      1 shim-unsigned
+      1 shim-aa64
+      1 shim-ia32
+      1 shim-unsigned-aarch64
+      1 shim-unsigned-ia32
+      1 shim-unsigned-x64
+      1 shim-x64
       1 slang
       1 slapi-nis
       1 slf4j
@@ -926,6 +942,7 @@
       2 net-snmp
       2 net-snmp-agent-libs
       2 net-snmp-libs
+      2 net-tools
       2 NetworkManager
       2 NetworkManager-libnm
       2 NetworkManager-team

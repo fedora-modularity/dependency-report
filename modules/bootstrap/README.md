@@ -595,6 +595,7 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `dbusmenu-qt-devel` | X | X | X | X | X | X | X |
 | `dbus-python-devel` | X | X | X | X | X | X | X |
 | `dbus-x11` | X | X | X | X | X | X | X |
+| `dbxtool` | X | - | - | - | - | - | X |
 | `dconf` | X | X | X | X | X | X | X |
 | `dconf-devel` | X | X | X | X | X | X | X |
 | `decentxml` | X | X | X | X | X | X | X |
@@ -829,6 +830,7 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `fastutil` | X | X | X | X | X | X | X |
 | `fbset` | X | X | X | X | X | - | X |
 | `fcoe-utils` | X | X | X | X | X | X | X |
+| `fedora-logos` | X | X | X | X | X | X | X |
 | `fedora-logos-httpd` | X | X | X | X | X | X | X |
 | `fedora-release` | X | X | X | X | X | X | X |
 | `fedora-repos` | X | X | X | X | X | X | X |
@@ -2792,7 +2794,7 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `mod_http2` | X | X | X | X | X | X | X |
 | `mojarra` | X | X | X | X | X | X | X |
 | `mojo-parent` | X | X | X | X | X | X | X |
-| `mokutil` | X | - | - | - | - | - | X |
+| `mokutil` | X | - | X | - | - | - | X |
 | `mongo-java-driver` | X | X | X | X | X | X | X |
 | `mongo-java-driver2` | X | X | X | X | X | X | X |
 | `mono-core` | X | X | X | X | X | X | X |
@@ -5190,8 +5192,13 @@ These are RPM dependencies of the [bootstrap top-level package set](bootstrap.cs
 | `sheepdog` | X | X | X | X | X | X | X |
 | `shibboleth-java-parent-v3` | X | X | X | X | X | X | X |
 | `shibboleth-java-support` | X | X | X | X | X | X | X |
-| `shim` | X | - | - | - | - | - | X |
-| `shim-unsigned` | X | - | - | - | - | - | X |
+| `shim-aa64` | X | - | - | - | - | - | - |
+| `shim-ia32` | - | - | - | - | - | - | X |
+| `shim-unsigned` | - | - | - | - | - | - | X |
+| `shim-unsigned-aarch64` | X | - | - | - | - | - | - |
+| `shim-unsigned-ia32` | - | - | - | - | - | - | X |
+| `shim-unsigned-x64` | - | - | - | - | - | - | X |
+| `shim-x64` | - | - | - | - | - | - | X |
 | `shrinkwrap` | X | X | X | X | X | X | X |
 | `shrinkwrap-bom` | X | X | X | X | X | X | X |
 | `shrinkwrap-descriptors` | X | X | X | X | X | X | X |

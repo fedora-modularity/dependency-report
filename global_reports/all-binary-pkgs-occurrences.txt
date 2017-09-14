@@ -76,6 +76,7 @@ checkpolicy                          platform, storage-devices
 chkconfig                            platform, storage-devices
 chrony                               installer
 chrpath                              platform
+cloud-init                           cloud-init
 cmake-filesystem                     platform-placeholder
 cockpit-bridge                       platform
 cockpit-system                       platform
@@ -108,6 +109,7 @@ dbus-devel                           python2-ecosystem
 dbus-glib                            platform
 dbus-libs                            platform, storage-devices
 dbus-python-devel                    python2-ecosystem
+dbxtool                              platform
 debugmode                            platform-placeholder
 deltarpm                             platform
 desktop-file-utils                   platform
@@ -153,6 +155,7 @@ ethtool                              platform
 expat                                platform, storage-devices
 fbset                                platform
 fcoe-utils                           platform
+fedora-logos                         platform
 fedora-logos-httpd                   httpd
 fedora-release                       platform, storage-devices
 fedora-repos                         platform, storage-devices
@@ -585,7 +588,7 @@ net-snmp-agent-libs                  networking-base, platform-placeholder
 net-snmp-libs                        networking-base, platform-placeholder
 net-snmp-utils                       networking-base
 nettle                               platform
-net-tools                            pki
+net-tools                            cloud-init, pki
 NetworkManager                       installer, networking-base
 NetworkManager-adsl                  networking-base
 NetworkManager-bluetooth             networking-base
@@ -933,6 +936,7 @@ python3-blockdev                     platform-placeholder
 python3-bytesize                     installer
 python3-cffi                         installer, python3-ecosystem
 python3-chardet                      installer, python3-ecosystem
+python3-configobj                    cloud-init
 python3-coverage                     installer
 python3-crypto                       python3-ecosystem
 python3-cryptography                 installer, python3-ecosystem
@@ -953,7 +957,11 @@ python3-iniparse                     platform
 python3-IPy                          platform, storage-devices
 python3-iscsi-initiator-utils        platform-placeholder
 python3-isort                        pki
+python3-jinja2                       cloud-init
+python3-jsonpatch                    cloud-init
+python3-jsonpointer                  cloud-init
 python3-jwcrypto                     python3-ecosystem
+python3-jwt                          cloud-init
 python3-kickstart                    installer
 python3-lazy-object-proxy            pki
 python3-libcomps                     platform
@@ -965,15 +973,18 @@ python3-libselinux                   platform, storage-devices
 python3-libsemanage                  platform, storage-devices
 python3-libstoragemgmt               udisks2
 python3-libstoragemgmt-clibs         udisks2
+python3-markupsafe                   cloud-init
 python3-mccabe                       pki
 python3-meh                          installer
 python3-nss                          pki
 python3-ntplib                       installer
+python3-oauthlib                     cloud-init
 python3-ordered-set                  installer
 python3-pid                          installer
 python3-pip                          platform, storage-devices
 python3-pluggy                       pki, python3-ecosystem
 python3-ply                          installer, python3-ecosystem
+python3-prettytable                  cloud-init
 python3-pwquality                    installer
 python3-py                           pki, python3-ecosystem
 python3-pyasn1                       pki
@@ -985,6 +996,7 @@ python3-pylint                       pki
 python3-pyOpenSSL                    installer, python3-ecosystem
 python3-pyparsing                    perl, platform-placeholder
 python3-pyparted                     installer
+python3-pyserial                     cloud-init
 python3-pysocks                      installer, python3-ecosystem
 python3-pytest                       pki
 python3-pytest-runner                pki
@@ -992,6 +1004,7 @@ python3-python-etcd                  python3-ecosystem
 python3-pytz                         installer
 python3-pyudev                       platform-placeholder
 python3-pyusb                        freeipa
+python3-PyYAML                       cloud-init
 python3-requests                     installer, python3-ecosystem
 python3-requests-file                installer
 python3-requests-ftp                 installer
@@ -1087,8 +1100,12 @@ sgml-common                          platform
 sgpio                                platform, storage-devices
 shadow-utils                         platform, storage-devices
 shared-mime-info                     platform
-shim                                 platform
-shim-unsigned                        platform
+shim-aa64                            platform
+shim-ia32                            platform
+shim-unsigned-aarch64                platform
+shim-unsigned-ia32                   platform
+shim-unsigned-x64                    platform
+shim-x64                             platform
 slang                                networking-base
 slapi-nis                            freeipa
 slf4j                                pki

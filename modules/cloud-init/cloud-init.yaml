@@ -1,0 +1,66 @@
+document: modulemd
+version: 1
+data:
+    summary: cloud-init module
+    description: This cloud-init module has been generated.
+    license:
+        module:
+            - MIT
+    dependencies:
+        buildrequires:
+            platform: master
+            python3: master
+        requires:
+            platform: master
+            python3: master
+            python3-ecosystem: master
+    references:
+        community: https://docs.pagure.org/modularity/
+        documentation: https://github.com/modularity-modules/cloud-init
+        tracker: https://github.com/modularity-modules/cloud-init
+    api:
+        rpms:
+            - cloud-init
+    profiles:
+        default:
+            description: A generated profile based on top-lvl package list.
+            rpms:
+                - cloud-init
+    components:
+        rpms:
+            cloud-init:
+                rationale: Generated.
+                ref: f27
+            net-tools:
+                rationale: Generated.
+                ref: f27
+            pyserial:
+                rationale: Generated.
+                ref: f27
+            python-configobj:
+                rationale: Generated.
+                ref: f27
+            python-jinja2:
+                rationale: Generated.
+                ref: f27
+            python-jsonpatch:
+                rationale: Generated.
+                ref: f27
+            python-jsonpointer:
+                rationale: Generated.
+                ref: f27
+            python-jwt:
+                rationale: Generated.
+                ref: f27
+            python-markupsafe:
+                rationale: Generated.
+                ref: f27
+            python-oauthlib:
+                rationale: Generated.
+                ref: f27
+            python-prettytable:
+                rationale: Generated.
+                ref: f27
+            PyYAML:
+                rationale: Generated.
+                ref: f27

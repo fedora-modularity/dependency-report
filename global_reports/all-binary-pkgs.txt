@@ -76,6 +76,7 @@ checkpolicy
 chkconfig
 chrony
 chrpath
+cloud-init
 cmake-filesystem
 cockpit-bridge
 cockpit-system
@@ -108,6 +109,7 @@ dbus-devel
 dbus-glib
 dbus-libs
 dbus-python-devel
+dbxtool
 debugmode
 deltarpm
 desktop-file-utils
@@ -153,6 +155,7 @@ ethtool
 expat
 fbset
 fcoe-utils
+fedora-logos
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -933,6 +936,7 @@ python3-blockdev
 python3-bytesize
 python3-cffi
 python3-chardet
+python3-configobj
 python3-coverage
 python3-crypto
 python3-cryptography
@@ -953,7 +957,11 @@ python3-iniparse
 python3-IPy
 python3-iscsi-initiator-utils
 python3-isort
+python3-jinja2
+python3-jsonpatch
+python3-jsonpointer
 python3-jwcrypto
+python3-jwt
 python3-kickstart
 python3-lazy-object-proxy
 python3-libcomps
@@ -965,15 +973,18 @@ python3-libselinux
 python3-libsemanage
 python3-libstoragemgmt
 python3-libstoragemgmt-clibs
+python3-markupsafe
 python3-mccabe
 python3-meh
 python3-nss
 python3-ntplib
+python3-oauthlib
 python3-ordered-set
 python3-pid
 python3-pip
 python3-pluggy
 python3-ply
+python3-prettytable
 python3-pwquality
 python3-py
 python3-pyasn1
@@ -985,6 +996,7 @@ python3-pylint
 python3-pyOpenSSL
 python3-pyparsing
 python3-pyparted
+python3-pyserial
 python3-pysocks
 python3-pytest
 python3-pytest-runner
@@ -992,6 +1004,7 @@ python3-python-etcd
 python3-pytz
 python3-pyudev
 python3-pyusb
+python3-PyYAML
 python3-requests
 python3-requests-file
 python3-requests-ftp
@@ -1087,8 +1100,12 @@ sgml-common
 sgpio
 shadow-utils
 shared-mime-info
-shim
-shim-unsigned
+shim-aa64
+shim-ia32
+shim-unsigned-aarch64
+shim-unsigned-ia32
+shim-unsigned-x64
+shim-x64
 slang
 slapi-nis
 slf4j

@@ -21,6 +21,13 @@ digraph G {
   "bind" -> "python3" [color="#009900"];
   "bind" -> "python3-ecosystem" [color="#009900"];
   "bind" -> "bootstrap" [color="#aa0000"];
+  "cloud-init" -> "platform" [color="#009900"];
+  "cloud-init" -> "platform-placeholder" [color="#009900"];
+  "cloud-init" -> "python3" [color="#009900"];
+  "cloud-init" -> "python3-ecosystem" [color="#009900"];
+  "cloud-init" -> "platform" [color="#aa0000"];
+  "cloud-init" -> "platform-placeholder" [color="#aa0000"];
+  "cloud-init" -> "python3" [color="#aa0000"];
   "fonts" -> "platform" [color="#009900"];
   "fonts" -> "platform-placeholder" [color="#009900"];
   "fonts" -> "bootstrap" [color="#aa0000"];
