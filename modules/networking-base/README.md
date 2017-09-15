@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [perl](../perl)
 * [python3](../python3)
 * [python3-ecosystem](../python3-ecosystem)
@@ -26,21 +25,23 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `bluez-libs` | X | X | X | X | X | X | X |
 | `firewalld` | X | X | X | X | X | X | X |
 | `firewalld-filesystem` | X | X | X | X | X | X | X |
+| `glib2-devel` | X | X | X | X | X | X | X |
 | `libgudev` | X | X | X | X | X | X | X |
 | `libmbim` | X | X | X | X | X | X | X |
 | `libmbim-utils` | X | X | X | X | X | X | X |
 | `libndp` | X | X | X | X | X | X | X |
+| `libnl3-cli` | X | X | X | X | X | X | X |
 | `libpsl` | X | X | X | X | X | X | X |
 | `libqmi` | X | X | X | X | X | X | X |
 | `libqmi-utils` | X | X | X | X | X | X | X |
 | `libteam` | X | X | X | X | X | X | X |
 | `lm_sensors-libs` | X | X | X | X | - | - | X |
-| `mariadb-connector-c` | X | X | X | X | X | - | X |
+| `mariadb-connector-c` | X | X | X | X | X | X | X |
 | `ModemManager` | X | X | X | X | X | X | X |
 | `ModemManager-glib` | X | X | X | X | X | X | X |
-| `net-snmp` | X | X | X | X | X | - | X |
-| `net-snmp-agent-libs` | X | X | X | X | X | - | X |
-| `net-snmp-libs` | X | X | X | X | X | - | X |
+| `net-snmp` | X | X | X | X | X | X | X |
+| `net-snmp-agent-libs` | X | X | X | X | X | X | X |
+| `net-snmp-libs` | X | X | X | X | X | X | X |
 | `net-snmp-utils` | X | X | X | X | X | X | X |
 | `NetworkManager` | X | X | X | X | X | X | X |
 | `NetworkManager-adsl` | X | X | X | X | X | X | X |
@@ -51,9 +52,15 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `NetworkManager-wifi` | X | X | X | X | X | X | X |
 | `NetworkManager-wwan` | X | X | X | X | X | X | X |
 | `newt` | X | X | X | X | X | X | X |
+| `pcre-cpp` | X | X | X | X | X | X | X |
+| `pcre-devel` | X | X | X | X | X | X | X |
+| `pcre-utf16` | X | X | X | X | X | X | X |
+| `pcre-utf32` | X | X | X | X | X | X | X |
 | `psl` | X | X | X | X | X | X | X |
+| `python3-dbus` | X | X | X | X | X | X | X |
 | `python3-decorator` | X | X | X | X | X | X | X |
 | `python3-firewall` | X | X | X | X | X | X | X |
+| `python3-gobject-base` | X | X | X | X | X | X | X |
 | `python3-slip` | X | X | X | X | X | X | X |
 | `python3-slip-dbus` | X | X | X | X | X | X | X |
 | `python3-sssdconfig` | X | X | X | X | X | X | X |
@@ -63,3 +70,4 @@ These are RPM dependencies of the [networking-base top-level package set](networ
 | `umockdev` | X | X | X | X | X | X | X |
 | `umockdev-devel` | X | X | X | X | X | X | X |
 | `wpa_supplicant` | X | X | X | X | X | X | X |
+| `xmlrpc-c-client` | X | X | X | X | X | X | X |

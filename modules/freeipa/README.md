@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [java](../java)
 * [perl](../perl)
 * [389-ds](../389-ds)
@@ -66,6 +65,8 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `libcom_err-devel` | X | X | X | X | X | X | X |
 | `libitm` | X | X | X | X | X | X | X |
 | `libitm-devel` | X | X | X | X | X | X | X |
+| `libselinux-devel` | X | X | X | X | X | X | X |
+| `libsepol-devel` | X | X | X | X | X | X | X |
 | `libsss_certmap-devel` | X | X | X | X | X | X | X |
 | `libsss_idmap-devel` | X | X | X | X | X | X | X |
 | `libsss_nss_idmap-devel` | X | X | X | X | X | X | X |
@@ -83,6 +84,10 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `opendnssec` | X | X | X | X | X | X | X |
 | `open-sans-fonts` | X | X | X | X | X | X | X |
 | `openssl-devel` | X | X | X | X | X | X | X |
+| `pcre-cpp` | X | X | X | X | X | X | X |
+| `pcre-devel` | X | X | X | X | X | X | X |
+| `pcre-utf16` | X | X | X | X | X | X | X |
+| `pcre-utf32` | X | X | X | X | X | X | X |
 | `python2-babel` | X | X | X | X | X | X | X |
 | `python2-ipaclient` | X | X | X | X | X | X | X |
 | `python2-ipalib` | X | X | X | X | X | X | X |
@@ -96,4 +101,5 @@ These are RPM dependencies of the [freeipa top-level package set](freeipa.csv). 
 | `slapi-nis` | X | X | X | X | X | X | X |
 | `softhsm` | X | X | X | X | X | X | X |
 | `sqlite` | X | X | X | X | X | X | X |
+| `xmlrpc-c-client` | X | X | X | X | X | X | X |
 | `zlib-devel` | X | X | X | X | X | X | X |

@@ -64,7 +64,13 @@ data:
                 - python-qrcode-core
     components:
         rpms:
+            cmake:
+                rationale: Generated.
+                ref: f27
             custodia:
+                rationale: Generated.
+                ref: f27
+            dbus-python:
                 rationale: Generated.
                 ref: f27
             lcms2:

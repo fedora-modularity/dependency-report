@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [networking-base](../networking-base)
 * [perl](../perl)
 * [python3](../python3)
@@ -45,6 +44,10 @@ These are RPM dependencies of the [389-ds top-level package set](389-ds.csv). Th
 | `perl-Mozilla-LDAP` | X | X | X | X | X | X | X |
 | `perl-NetAddr-IP` | X | X | X | X | X | X | X |
 | `perl-Socket6` | X | X | X | X | X | X | X |
+| `python2` | X | X | X | X | X | X | X |
+| `python2-libs` | X | X | X | X | X | X | X |
 | `python2-libsemanage` | X | X | X | X | X | X | X |
+| `python2-pip` | X | X | X | X | X | X | X |
+| `python2-setuptools` | X | X | X | X | X | X | X |
 | `svrcore` | X | X | X | X | X | X | X |
 | `svrcore-devel` | X | X | X | X | X | X | X |

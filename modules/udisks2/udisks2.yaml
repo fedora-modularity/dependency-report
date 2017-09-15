@@ -45,7 +45,16 @@ data:
                 - udisks2-zram
     components:
         rpms:
+            bcache-tools:
+                rationale: Generated.
+                ref: f27
+            device-mapper-persistent-data:
+                rationale: Generated.
+                ref: f27
             libatasmart:
+                rationale: Generated.
+                ref: f27
+            libbytesize:
                 rationale: Generated.
                 ref: f27
             libgudev:

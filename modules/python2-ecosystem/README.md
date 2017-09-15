@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [python2](../python2)
 ### Build
 This list might not be complete.
@@ -20,6 +19,7 @@ These are RPM dependencies of the [python2-ecosystem top-level package set](pyth
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
+| `cmake-filesystem` | X | X | X | X | X | X | X |
 | `dbus-devel` | X | X | X | X | X | X | X |
 | `dbus-python-devel` | X | X | X | X | X | X | X |
 | `lcms2` | X | X | X | X | X | X | X |

@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [fonts](../fonts)
 * [X11-base](../X11-base)
 ### Build
@@ -22,9 +21,13 @@ These are RPM dependencies of the [python2 top-level package set](python2.csv). 
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
 | `curl-minimal` | X | X | X | X | X | X | X |
+| `python2` | X | X | X | X | X | X | X |
 | `python2-debug` | X | X | X | X | X | X | X |
 | `python2-devel` | X | X | X | X | X | X | X |
+| `python2-libs` | X | X | X | X | X | X | X |
+| `python2-pip` | X | X | X | X | X | X | X |
 | `python2-rpm-macros` | X | X | X | X | X | X | X |
+| `python2-setuptools` | X | X | X | X | X | X | X |
 | `python2-test` | X | X | X | X | X | X | X |
 | `python2-tkinter` | X | X | X | X | X | X | X |
 | `python2-tools` | X | X | X | X | X | X | X |

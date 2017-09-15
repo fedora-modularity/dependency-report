@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [java](../java)
 * [tomcat](../tomcat)
 * [resteasy](../resteasy)
@@ -45,6 +44,7 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `pki-server` | X | X | X | X | X | X | X |
 | `pki-tools` | X | X | X | X | X | X | X |
 | `pylint` | X | X | X | X | X | X | X |
+| `python2` | X | X | X | X | X | X | X |
 | `python2-asn1crypto` | X | X | X | X | X | X | X |
 | `python2-backports` | X | X | X | X | X | X | X |
 | `python2-beautifulsoup4` | X | X | X | X | X | X | X |
@@ -58,10 +58,12 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `python2-ipaddress` | X | X | X | X | X | X | X |
 | `python2-IPy` | X | X | X | X | X | X | X |
 | `python2-ldap` | X | X | X | X | X | X | X |
+| `python2-libs` | X | X | X | X | X | X | X |
 | `python2-libselinux` | X | X | X | X | X | X | X |
 | `python2-libsemanage` | X | X | X | X | X | X | X |
 | `python2-lxml` | X | X | X | X | X | X | X |
 | `python2-nss` | X | X | X | X | X | X | X |
+| `python2-pip` | X | X | X | X | X | X | X |
 | `python2-ply` | X | X | X | X | X | X | X |
 | `python2-policycoreutils` | X | X | X | X | X | X | X |
 | `python2-pyasn1` | X | X | X | X | X | X | X |
@@ -71,6 +73,7 @@ These are RPM dependencies of the [pki top-level package set](pki.csv). They sho
 | `python2-pysocks` | X | X | X | X | X | X | X |
 | `python2-requests` | X | X | X | X | X | X | X |
 | `python2-setools` | X | X | X | X | X | X | X |
+| `python2-setuptools` | X | X | X | X | X | X | X |
 | `python2-six` | X | X | X | X | X | X | X |
 | `python2-urllib3` | X | X | X | X | X | X | X |
 | `python2-webencodings` | X | X | X | X | X | X | X |

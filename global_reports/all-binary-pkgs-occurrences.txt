@@ -32,7 +32,7 @@ avahi-libs                           samba, systemtap
 basesystem                           platform, storage-devices
 bash                                 platform, storage-devices
 bc                                   platform
-bcache-tools                         platform-placeholder, storage-devices
+bcache-tools                         installer, storage-devices, udisks2
 bea-stax-api                         resteasy
 bind                                 bind
 bind99-libs                          platform
@@ -49,7 +49,7 @@ bind-pkcs11-libs                     bind
 bind-pkcs11-utils                    bind
 bind-utils                           bind
 binutils                             platform, storage-devices
-blktrace                             platform-placeholder
+blktrace                             installer
 bluez                                platform
 bluez-libs                           networking-base
 boost-atomic                         systemtap
@@ -77,7 +77,7 @@ chkconfig                            platform, storage-devices
 chrony                               installer
 chrpath                              platform
 cloud-init                           cloud-init
-cmake-filesystem                     platform-placeholder
+cmake-filesystem                     python2-ecosystem
 cockpit-bridge                       platform
 cockpit-system                       platform
 cockpit-ws                           platform
@@ -110,23 +110,20 @@ dbus-glib                            platform
 dbus-libs                            platform, storage-devices
 dbus-python-devel                    python2-ecosystem
 dbxtool                              platform
-debugmode                            platform-placeholder
 deltarpm                             platform
 desktop-file-utils                   platform
 device-mapper                        platform, storage-devices
-device-mapper-devel                  platform-placeholder
 device-mapper-event                  platform, storage-devices
 device-mapper-event-libs             platform, storage-devices
 device-mapper-libs                   platform, storage-devices
 device-mapper-multipath              platform
 device-mapper-multipath-libs         platform
-device-mapper-persistent-data        platform-placeholder
+device-mapper-persistent-data        installer, udisks2
 dhcp-client                          platform
 dhcp-common                          platform
 dhcp-libs                            platform
 diffutils                            platform, storage-devices
 dmraid                               platform, storage-devices
-dmraid-devel                         platform-placeholder
 dmraid-events                        platform, storage-devices
 dnf                                  platform
 dnf-conf                             platform
@@ -205,7 +202,7 @@ glassfish-jaxb-core                  resteasy
 glassfish-jaxb-runtime               resteasy
 glassfish-jaxb-txw2                  resteasy
 glib2                                platform, storage-devices
-glib2-devel                          platform-placeholder
+glib2-devel                          networking-base, udisks2
 glibc                                platform, storage-devices
 glibc32                              platform
 glibc-common                         platform, storage-devices
@@ -225,7 +222,7 @@ gpart                                platform
 gperftools-libs                      389-ds, storage-devices
 gpgme                                platform
 grep                                 platform, storage-devices
-groff-base                           perl, platform-placeholder
+groff-base                           installer, perl
 grub2-common                         platform
 grub2-efi-aa64                       platform
 grub2-efi-aa64-cdboot                platform
@@ -269,13 +266,11 @@ initscripts                          platform
 ipcalc                               platform
 iproute                              platform
 ipset                                platform
-ipset-devel                          platform-placeholder
 ipset-libs                           platform
 iptables                             platform
 iptables-libs                        platform, storage-devices
 iputils                              platform
 iscsi-initiator-utils                platform
-iscsi-initiator-utils-devel          platform-placeholder
 iscsi-initiator-utils-iscsiuio       platform
 isl                                  platform
 isns-utils-libs                      platform
@@ -340,7 +335,6 @@ less                                 platform
 leveldb                              storage-devices
 libacl                               platform, storage-devices
 libaio                               platform, storage-devices
-libaio-devel                         platform-placeholder
 libarchive                           platform, storage-devices
 libasan                              platform
 libassuan                            platform
@@ -352,36 +346,21 @@ libbabeltrace                        platform, storage-devices
 libbasicobjects                      platform
 libblkid                             platform, storage-devices
 libblockdev                          platform
-libblockdev-btrfs                    platform-placeholder
-libblockdev-btrfs-devel              platform-placeholder
-libblockdev-crypto                   platform-placeholder
-libblockdev-crypto-devel             platform-placeholder
-libblockdev-devel                    platform-placeholder
-libblockdev-dm                       platform-placeholder
-libblockdev-dm-devel                 platform-placeholder
-libblockdev-fs                       platform-placeholder
-libblockdev-fs-devel                 platform-placeholder
-libblockdev-kbd                      platform-placeholder
-libblockdev-kbd-devel                platform-placeholder
-libblockdev-loop                     platform-placeholder
-libblockdev-loop-devel               platform-placeholder
-libblockdev-lvm                      platform-placeholder
-libblockdev-lvm-dbus                 platform-placeholder
-libblockdev-lvm-dbus-devel           platform-placeholder
-libblockdev-lvm-devel                platform-placeholder
-libblockdev-mdraid                   platform-placeholder
-libblockdev-mdraid-devel             platform-placeholder
-libblockdev-mpath                    platform-placeholder
-libblockdev-mpath-devel              platform-placeholder
-libblockdev-part                     platform-placeholder
-libblockdev-part-devel               platform-placeholder
-libblockdev-plugins-all              platform-placeholder
-libblockdev-s390                     platform-placeholder
-libblockdev-swap                     platform-placeholder
-libblockdev-swap-devel               platform-placeholder
+libblockdev-btrfs                    installer, udisks2
+libblockdev-crypto                   installer, udisks2
+libblockdev-dm                       installer
+libblockdev-fs                       installer, udisks2
+libblockdev-kbd                      installer, udisks2
+libblockdev-loop                     installer, udisks2
+libblockdev-lvm                      installer, udisks2
+libblockdev-mdraid                   installer, udisks2
+libblockdev-mpath                    installer
+libblockdev-part                     installer, udisks2
+libblockdev-plugins-all              installer
+libblockdev-s390                     installer
+libblockdev-swap                     installer, udisks2
 libblockdev-utils                    platform
-libblockdev-utils-devel              platform-placeholder
-libbytesize                          platform-placeholder
+libbytesize                          installer, udisks2
 libcap                               platform, storage-devices
 libcap-ng                            platform, storage-devices
 libcephfs2                           storage-devices
@@ -392,7 +371,6 @@ libcom_err                           platform, storage-devices
 libcom_err-devel                     freeipa
 libcomps                             platform
 libconfig                            platform
-libconfig-devel                      platform-placeholder
 libcroco                             platform
 libcrypt                             platform, storage-devices
 libcurl-minimal                      platform, storage-devices
@@ -434,7 +412,6 @@ libmbim                              networking-base
 libmbim-utils                        networking-base
 libmetalink                          platform
 libmnl                               platform
-libmnl-devel                         platform-placeholder
 libmodman                            platform
 libmount                             platform, storage-devices
 libmpc                               platform
@@ -445,12 +422,10 @@ libnfnetlink                         platform
 libnfsidmap                          platform
 libnghttp2                           platform, storage-devices
 libnl3                               platform
-libnl3-cli                           platform-placeholder
-libnl3-devel                         platform-placeholder
+libnl3-cli                           installer, networking-base
 libpath_utils                        platform
 libpcap                              platform, storage-devices
 libpciaccess                         platform
-libpciaccess-devel                   platform-placeholder
 libpeas                              platform
 libpkgconf                           platform
 libpng                               fonts, platform
@@ -475,11 +450,11 @@ librgw2                              storage-devices
 libseccomp                           platform, storage-devices
 libsecret                            platform
 libselinux                           platform, storage-devices
-libselinux-devel                     platform-placeholder
+libselinux-devel                     freeipa
 libselinux-utils                     platform, storage-devices
 libsemanage                          platform, storage-devices
 libsepol                             platform, storage-devices
-libsepol-devel                       platform-placeholder
+libsepol-devel                       freeipa
 libsigsegv                           platform, storage-devices
 libSM                                X11-base
 libsmartcols                         platform, storage-devices
@@ -498,7 +473,7 @@ libsss_nss_idmap-devel               freeipa
 libstdc++                            platform, storage-devices
 libstdc++-devel                      platform
 libstoragemgmt                       udisks2
-libsysfs                             platform-placeholder
+libsysfs                             installer
 libtalloc                            389-ds, samba
 libtar                               installer
 libtasn1                             platform, storage-devices
@@ -543,7 +518,6 @@ libyaml                              platform
 linux-firmware                       platform
 lksctp-tools                         platform
 lldpad                               platform
-lldpad-devel                         platform-placeholder
 lm_sensors-libs                      networking-base
 logrotate                            platform, storage-devices
 lsof                                 platform
@@ -552,9 +526,8 @@ lttng-ust                            platform, storage-devices
 lua                                  java
 lua-libs                             platform, storage-devices
 lua-posix                            java
-lvm2                                 platform-placeholder
-lvm2-dbusd                           platform-placeholder
-lvm2-libs                            platform-placeholder
+lvm2                                 installer, udisks2
+lvm2-libs                            installer, udisks2
 lz4                                  installer
 lz4-libs                             platform, storage-devices
 lzo                                  platform
@@ -563,7 +536,7 @@ m4                                   platform
 mactel-boot                          platform
 mailcap                              httpd
 make                                 platform, storage-devices
-mariadb-connector-c                  networking-base, platform-placeholder
+mariadb-connector-c                  installer, networking-base
 mcstrans                             platform
 mdadm                                platform, storage-devices
 memtest86+                           platform
@@ -583,9 +556,9 @@ nano                                 platform
 ncurses                              platform, storage-devices
 ncurses-base                         platform, storage-devices
 ncurses-libs                         platform, storage-devices
-net-snmp                             networking-base, platform-placeholder
-net-snmp-agent-libs                  networking-base, platform-placeholder
-net-snmp-libs                        networking-base, platform-placeholder
+net-snmp                             installer, networking-base
+net-snmp-agent-libs                  installer, networking-base
+net-snmp-libs                        installer, networking-base
 net-snmp-utils                       networking-base
 nettle                               platform
 net-tools                            cloud-init, pki
@@ -650,150 +623,150 @@ pciutils                             platform
 pciutils-libs                        platform
 pcre                                 platform, storage-devices
 pcre2                                platform, storage-devices
-pcre-cpp                             platform-placeholder
-pcre-devel                           platform-placeholder
-pcre-utf16                           platform-placeholder
-pcre-utf32                           platform-placeholder
-perl                                 perl, platform-placeholder
-perl-Algorithm-Diff                  perl, platform-placeholder
-perl-Archive-Tar                     perl, platform-placeholder
-perl-Archive-Zip                     perl, platform-placeholder
-perl-Attribute-Handlers              perl, platform-placeholder
-perl-autodie                         perl, platform-placeholder
-perl-B-Debug                         perl, platform-placeholder
-perl-bignum                          perl, platform-placeholder
-perl-Carp                            perl, platform-placeholder
-perl-Compress-Bzip2                  perl, platform-placeholder
-perl-Compress-Raw-Bzip2              perl, platform-placeholder
-perl-Compress-Raw-Zlib               perl, platform-placeholder
-perl-Config-Perl-V                   perl, platform-placeholder
-perl-constant                        perl, platform-placeholder
-perl-CPAN                            perl, platform-placeholder
-perl-CPAN-Meta                       perl, platform-placeholder
-perl-CPAN-Meta-Requirements          perl, platform-placeholder
-perl-CPAN-Meta-YAML                  perl, platform-placeholder
-perl-Data-Dumper                     perl, platform-placeholder
-perl-Data-OptList                    perl, platform-placeholder
-perl-Data-Section                    perl, platform-placeholder
-perl-DB_File                         perl, platform-placeholder
-perl-devel                           perl, platform-placeholder
-perl-Devel-Peek                      perl, platform-placeholder
-perl-Devel-PPPort                    perl, platform-placeholder
-perl-Devel-SelfStubber               perl, platform-placeholder
-perl-Devel-Size                      perl, platform-placeholder
-perl-Digest                          perl, platform-placeholder
-perl-Digest-MD5                      perl, platform-placeholder
-perl-Digest-SHA                      perl, platform-placeholder
-perl-Encode                          perl, platform-placeholder
-perl-encoding                        perl, platform-placeholder
-perl-Env                             perl, platform-placeholder
-perl-Errno                           perl, platform-placeholder
-perl-experimental                    perl, platform-placeholder
-perl-Exporter                        perl, platform-placeholder
-perl-ExtUtils-CBuilder               perl, platform-placeholder
-perl-ExtUtils-Command                perl, platform-placeholder
-perl-ExtUtils-Embed                  perl, platform-placeholder
-perl-ExtUtils-Install                perl, platform-placeholder
-perl-ExtUtils-MakeMaker              perl, platform-placeholder
-perl-ExtUtils-Manifest               perl, platform-placeholder
-perl-ExtUtils-Miniperl               perl, platform-placeholder
-perl-ExtUtils-MM-Utils               perl, platform-placeholder
-perl-ExtUtils-ParseXS                perl, platform-placeholder
+pcre-cpp                             freeipa, networking-base, udisks2
+pcre-devel                           freeipa, networking-base, udisks2
+pcre-utf16                           freeipa, networking-base, udisks2
+pcre-utf32                           freeipa, networking-base, udisks2
+perl                                 installer, perl
+perl-Algorithm-Diff                  installer, perl
+perl-Archive-Tar                     installer, perl
+perl-Archive-Zip                     installer, perl
+perl-Attribute-Handlers              installer, perl
+perl-autodie                         installer, perl
+perl-B-Debug                         installer, perl
+perl-bignum                          installer, perl
+perl-Carp                            installer, perl
+perl-Compress-Bzip2                  installer, perl
+perl-Compress-Raw-Bzip2              installer, perl
+perl-Compress-Raw-Zlib               installer, perl
+perl-Config-Perl-V                   installer, perl
+perl-constant                        installer, perl
+perl-CPAN                            installer, perl
+perl-CPAN-Meta                       installer, perl
+perl-CPAN-Meta-Requirements          installer, perl
+perl-CPAN-Meta-YAML                  installer, perl
+perl-Data-Dumper                     installer, perl
+perl-Data-OptList                    installer, perl
+perl-Data-Section                    installer, perl
+perl-DB_File                         installer, perl
+perl-devel                           installer, perl
+perl-Devel-Peek                      installer, perl
+perl-Devel-PPPort                    installer, perl
+perl-Devel-SelfStubber               installer, perl
+perl-Devel-Size                      installer, perl
+perl-Digest                          installer, perl
+perl-Digest-MD5                      installer, perl
+perl-Digest-SHA                      installer, perl
+perl-Encode                          installer, perl
+perl-encoding                        installer, perl
+perl-Env                             installer, perl
+perl-Errno                           installer, perl
+perl-experimental                    installer, perl
+perl-Exporter                        installer, perl
+perl-ExtUtils-CBuilder               installer, perl
+perl-ExtUtils-Command                installer, perl
+perl-ExtUtils-Embed                  installer, perl
+perl-ExtUtils-Install                installer, perl
+perl-ExtUtils-MakeMaker              installer, perl
+perl-ExtUtils-Manifest               installer, perl
+perl-ExtUtils-Miniperl               installer, perl
+perl-ExtUtils-MM-Utils               installer, perl
+perl-ExtUtils-ParseXS                installer, perl
 perl-Fedora-VSP                      perl
-perl-File-Fetch                      perl, platform-placeholder
-perl-File-HomeDir                    perl, platform-placeholder
-perl-File-Path                       perl, platform-placeholder
-perl-File-Temp                       perl, platform-placeholder
-perl-File-Which                      perl, platform-placeholder
-perl-Filter                          perl, platform-placeholder
-perl-Filter-Simple                   perl, platform-placeholder
+perl-File-Fetch                      installer, perl
+perl-File-HomeDir                    installer, perl
+perl-File-Path                       installer, perl
+perl-File-Temp                       installer, perl
+perl-File-Which                      installer, perl
+perl-Filter                          installer, perl
+perl-Filter-Simple                   installer, perl
 perl-generators                      perl
-perl-Getopt-Long                     perl, platform-placeholder
-perl-HTTP-Tiny                       perl, platform-placeholder
-perl-inc-latest                      perl, platform-placeholder
-perl-interpreter                     perl, platform-placeholder
-perl-IO                              perl, platform-placeholder
-perl-IO-Compress                     perl, platform-placeholder
-perl-IO-Socket-IP                    perl, platform-placeholder
-perl-IO-Zlib                         perl, platform-placeholder
-perl-IPC-Cmd                         perl, platform-placeholder
-perl-IPC-System-Simple               perl, platform-placeholder
-perl-IPC-SysV                        perl, platform-placeholder
-perl-JSON-PP                         perl, platform-placeholder
-perl-libnet                          perl, platform-placeholder
-perl-libnetcfg                       perl, platform-placeholder
-perl-libs                            perl, platform-placeholder
-perl-Locale-Codes                    perl, platform-placeholder
-perl-Locale-Maketext                 perl, platform-placeholder
-perl-Locale-Maketext-Simple          perl, platform-placeholder
-perl-local-lib                       perl, platform-placeholder
-perl-macros                          perl, platform-placeholder
-perl-Math-BigInt                     perl, platform-placeholder
-perl-Math-BigInt-FastCalc            perl, platform-placeholder
-perl-Math-BigRat                     perl, platform-placeholder
-perl-Math-Complex                    perl, platform-placeholder
-perl-Memoize                         perl, platform-placeholder
-perl-MIME-Base64                     perl, platform-placeholder
-perl-Module-Build                    perl, platform-placeholder
-perl-Module-CoreList                 perl, platform-placeholder
-perl-Module-CoreList-tools           perl, platform-placeholder
-perl-Module-Load                     perl, platform-placeholder
-perl-Module-Load-Conditional         perl, platform-placeholder
-perl-Module-Loaded                   perl, platform-placeholder
-perl-Module-Metadata                 perl, platform-placeholder
+perl-Getopt-Long                     installer, perl
+perl-HTTP-Tiny                       installer, perl
+perl-inc-latest                      installer, perl
+perl-interpreter                     installer, perl
+perl-IO                              installer, perl
+perl-IO-Compress                     installer, perl
+perl-IO-Socket-IP                    installer, perl
+perl-IO-Zlib                         installer, perl
+perl-IPC-Cmd                         installer, perl
+perl-IPC-System-Simple               installer, perl
+perl-IPC-SysV                        installer, perl
+perl-JSON-PP                         installer, perl
+perl-libnet                          installer, perl
+perl-libnetcfg                       installer, perl
+perl-libs                            installer, perl
+perl-Locale-Codes                    installer, perl
+perl-Locale-Maketext                 installer, perl
+perl-Locale-Maketext-Simple          installer, perl
+perl-local-lib                       installer, perl
+perl-macros                          installer, perl
+perl-Math-BigInt                     installer, perl
+perl-Math-BigInt-FastCalc            installer, perl
+perl-Math-BigRat                     installer, perl
+perl-Math-Complex                    installer, perl
+perl-Memoize                         installer, perl
+perl-MIME-Base64                     installer, perl
+perl-Module-Build                    installer, perl
+perl-Module-CoreList                 installer, perl
+perl-Module-CoreList-tools           installer, perl
+perl-Module-Load                     installer, perl
+perl-Module-Load-Conditional         installer, perl
+perl-Module-Loaded                   installer, perl
+perl-Module-Metadata                 installer, perl
 perl-Mozilla-LDAP                    389-ds
-perl-MRO-Compat                      perl, platform-placeholder
+perl-MRO-Compat                      installer, perl
 perl-NetAddr-IP                      389-ds
-perl-Net-Ping                        perl, platform-placeholder
-perl-open                            perl, platform-placeholder
-perl-Package-Generator               perl, platform-placeholder
-perl-Params-Check                    perl, platform-placeholder
-perl-Params-Util                     perl, platform-placeholder
-perl-parent                          perl, platform-placeholder
-perl-PathTools                       perl, platform-placeholder
-perl-perlfaq                         perl, platform-placeholder
-perl-PerlIO-via-QuotedPrint          perl, platform-placeholder
-perl-Perl-OSType                     perl, platform-placeholder
-perl-Pod-Checker                     perl, platform-placeholder
-perl-Pod-Escapes                     perl, platform-placeholder
-perl-Pod-Html                        perl, platform-placeholder
-perl-podlators                       perl, platform-placeholder
-perl-Pod-Parser                      perl, platform-placeholder
-perl-Pod-Perldoc                     perl, platform-placeholder
-perl-Pod-Simple                      perl, platform-placeholder
-perl-Pod-Usage                       perl, platform-placeholder
-perl-Scalar-List-Utils               perl, platform-placeholder
-perl-SelfLoader                      perl, platform-placeholder
-perl-Socket                          perl, platform-placeholder
+perl-Net-Ping                        installer, perl
+perl-open                            installer, perl
+perl-Package-Generator               installer, perl
+perl-Params-Check                    installer, perl
+perl-Params-Util                     installer, perl
+perl-parent                          installer, perl
+perl-PathTools                       installer, perl
+perl-perlfaq                         installer, perl
+perl-PerlIO-via-QuotedPrint          installer, perl
+perl-Perl-OSType                     installer, perl
+perl-Pod-Checker                     installer, perl
+perl-Pod-Escapes                     installer, perl
+perl-Pod-Html                        installer, perl
+perl-podlators                       installer, perl
+perl-Pod-Parser                      installer, perl
+perl-Pod-Perldoc                     installer, perl
+perl-Pod-Simple                      installer, perl
+perl-Pod-Usage                       installer, perl
+perl-Scalar-List-Utils               installer, perl
+perl-SelfLoader                      installer, perl
+perl-Socket                          installer, perl
 perl-Socket6                         389-ds
-perl-Software-License                perl, platform-placeholder
+perl-Software-License                installer, perl
 perl-srpm-macros                     platform
-perl-Storable                        perl, platform-placeholder
-perl-Sub-Exporter                    perl, platform-placeholder
-perl-Sub-Install                     perl, platform-placeholder
-perl-Sys-Syslog                      perl, platform-placeholder
-perl-Term-ANSIColor                  perl, platform-placeholder
-perl-Term-Cap                        perl, platform-placeholder
-perl-Test                            perl, platform-placeholder
-perl-Test-Harness                    perl, platform-placeholder
-perl-Test-Simple                     perl, platform-placeholder
-perl-Text-Balanced                   perl, platform-placeholder
-perl-Text-Diff                       perl, platform-placeholder
-perl-Text-Glob                       perl, platform-placeholder
-perl-Text-ParseWords                 perl, platform-placeholder
-perl-Text-Tabs+Wrap                  perl, platform-placeholder
-perl-Text-Template                   perl, platform-placeholder
-perl-Thread-Queue                    perl, platform-placeholder
-perl-threads                         perl, platform-placeholder
-perl-threads-shared                  perl, platform-placeholder
-perl-Time-HiRes                      perl, platform-placeholder
-perl-Time-Local                      perl, platform-placeholder
-perl-Time-Piece                      perl, platform-placeholder
-perl-Unicode-Collate                 perl, platform-placeholder
-perl-Unicode-Normalize               perl, platform-placeholder
-perl-URI                             perl, platform-placeholder
-perl-utils                           perl, platform-placeholder
-perl-version                         perl, platform-placeholder
+perl-Storable                        installer, perl
+perl-Sub-Exporter                    installer, perl
+perl-Sub-Install                     installer, perl
+perl-Sys-Syslog                      installer, perl
+perl-Term-ANSIColor                  installer, perl
+perl-Term-Cap                        installer, perl
+perl-Test                            installer, perl
+perl-Test-Harness                    installer, perl
+perl-Test-Simple                     installer, perl
+perl-Text-Balanced                   installer, perl
+perl-Text-Diff                       installer, perl
+perl-Text-Glob                       installer, perl
+perl-Text-ParseWords                 installer, perl
+perl-Text-Tabs+Wrap                  installer, perl
+perl-Text-Template                   installer, perl
+perl-Thread-Queue                    installer, perl
+perl-threads                         installer, perl
+perl-threads-shared                  installer, perl
+perl-Time-HiRes                      installer, perl
+perl-Time-Local                      installer, perl
+perl-Time-Piece                      installer, perl
+perl-Unicode-Collate                 installer, perl
+perl-Unicode-Normalize               installer, perl
+perl-URI                             installer, perl
+perl-utils                           installer, perl
+perl-version                         installer, perl
 pkgconf                              platform
 pkgconf-m4                           platform
 pkgconf-pkg-config                   platform
@@ -823,14 +796,13 @@ publicsuffix-list                    platform
 publicsuffix-list-dafsa              platform
 pycryptopp                           storage-devices
 pylint                               pki
-python2                              platform-placeholder, storage-devices
+python2                              389-ds, installer, pki, python2, storage-devices
 python2-asn1crypto                   pki, python2-ecosystem, storage-devices
 python2-augeas                       python2-ecosystem
 python2-babel                        freeipa, storage-devices
 python2-backports                    pki, python2-ecosystem, storage-devices
 python2-beaker                       storage-devices
 python2-beautifulsoup4               pki, storage-devices
-python2-blockdev                     platform-placeholder
 python2-cffi                         pki, python2-ecosystem, storage-devices
 python2-chardet                      pki, python2-ecosystem, storage-devices
 python2-cherrypy                     storage-devices
@@ -857,7 +829,6 @@ python2-ipaddress                    pki, python2-ecosystem, storage-devices
 python2-ipalib                       freeipa
 python2-ipaserver                    freeipa
 python2-IPy                          pki
-python2-iscsi-initiator-utils        platform-placeholder
 python2-itsdangerous                 storage-devices
 python2-jinja2                       freeipa, storage-devices
 python2-jwcrypto                     python2-ecosystem
@@ -866,8 +837,7 @@ python2-ldap                         pki
 python2-ldb                          samba
 python2-lesscpy                      freeipa
 python2-libipa_hbac                  sssd
-python2-libnl3                       platform-placeholder
-python2-libs                         platform-placeholder, storage-devices
+python2-libs                         389-ds, installer, pki, python2, storage-devices
 python2-libselinux                   pki
 python2-libsemanage                  389-ds, pki
 python2-libsss_nss_idmap             sssd
@@ -883,7 +853,7 @@ python2-olefile                      python2-ecosystem
 python2-paste                        storage-devices
 python2-pecan                        storage-devices
 python2-pillow                       python2-ecosystem
-python2-pip                          platform-placeholder, storage-devices
+python2-pip                          389-ds, installer, pki, python2, storage-devices
 python2-pluggy                       python2-ecosystem
 python2-ply                          pki, python2-ecosystem, storage-devices
 python2-policycoreutils              pki
@@ -902,7 +872,7 @@ python2-requests                     pki, python2-ecosystem, storage-devices
 python2-rpm-macros                   python2
 python2-samba                        samba
 python2-setools                      pki
-python2-setuptools                   platform-placeholder, storage-devices
+python2-setuptools                   389-ds, installer, pki, python2, storage-devices
 python2-simplegeneric                storage-devices
 python2-singledispatch               storage-devices
 python2-six                          pki, python2-ecosystem, storage-devices
@@ -932,7 +902,7 @@ python3-asn1crypto                   installer, python3-ecosystem
 python3-astroid                      pki
 python3-bind                         bind
 python3-blivet                       installer
-python3-blockdev                     platform-placeholder
+python3-blockdev                     installer
 python3-bytesize                     installer
 python3-cffi                         installer, python3-ecosystem
 python3-chardet                      installer, python3-ecosystem
@@ -942,20 +912,20 @@ python3-crypto                       python3-ecosystem
 python3-cryptography                 installer, python3-ecosystem
 python3-custodia                     python3-ecosystem
 python3-custodia-extra               python3-ecosystem
-python3-dbus                         platform-placeholder
+python3-dbus                         installer, networking-base
 python3-debug                        python3
 python3-decorator                    installer, networking-base
 python3-devel                        pki, python3
 python3-dnf                          platform
 python3-dns                          python3-ecosystem
 python3-firewall                     installer, networking-base
-python3-gobject-base                 platform-placeholder
+python3-gobject-base                 installer, networking-base
 python3-gpg                          platform
 python3-hawkey                       platform
 python3-idna                         installer, python3-ecosystem
 python3-iniparse                     platform
 python3-IPy                          platform, storage-devices
-python3-iscsi-initiator-utils        platform-placeholder
+python3-iscsi-initiator-utils        installer
 python3-isort                        pki
 python3-jinja2                       cloud-init
 python3-jsonpatch                    cloud-init
@@ -965,7 +935,6 @@ python3-jwt                          cloud-init
 python3-kickstart                    installer
 python3-lazy-object-proxy            pki
 python3-libcomps                     platform
-python3-libnl3                       platform-placeholder
 python3-librepo                      platform
 python3-libreport                    installer
 python3-libs                         platform, storage-devices
@@ -994,7 +963,7 @@ python3-pydbus                       installer
 python3-pyldap                       pki
 python3-pylint                       pki
 python3-pyOpenSSL                    installer, python3-ecosystem
-python3-pyparsing                    perl, platform-placeholder
+python3-pyparsing                    installer, perl
 python3-pyparted                     installer
 python3-pyserial                     cloud-init
 python3-pysocks                      installer, python3-ecosystem
@@ -1002,7 +971,7 @@ python3-pytest                       pki
 python3-pytest-runner                pki
 python3-python-etcd                  python3-ecosystem
 python3-pytz                         installer
-python3-pyudev                       platform-placeholder
+python3-pyudev                       installer
 python3-pyusb                        freeipa
 python3-PyYAML                       cloud-init
 python3-requests                     installer, python3-ecosystem
@@ -1029,7 +998,6 @@ python3-wrapt                        installer, pki
 python-backports-ssl_match_hostname  pki, python2-ecosystem, storage-devices
 python-cephfs                        storage-devices
 python-dateutil-doc                  python2-ecosystem
-python-gobject-base                  platform-placeholder
 python-qrcode-core                   python2-ecosystem
 python-rados                         storage-devices
 python-rbd                           storage-devices
@@ -1067,16 +1035,15 @@ rubygem-psych                        ruby
 rubygems                             ruby
 ruby-libs                            ruby
 rubypick                             ruby
-runc                                 platform-placeholder
 rust-srpm-macros                     platform
-s390utils                            platform-placeholder
-s390utils-base                       platform-placeholder
-s390utils-cmsfs                      platform-placeholder
-s390utils-cpuplugd                   platform-placeholder
-s390utils-iucvterm                   platform-placeholder
-s390utils-mon_statd                  platform-placeholder
-s390utils-osasnmpd                   platform-placeholder
-s390utils-ziomon                     platform-placeholder
+s390utils                            installer
+s390utils-base                       installer
+s390utils-cmsfs                      installer
+s390utils-cpuplugd                   installer
+s390utils-iucvterm                   installer
+s390utils-mon_statd                  installer
+s390utils-osasnmpd                   installer
+s390utils-ziomon                     installer
 samba                                samba
 samba-client-libs                    samba
 samba-common                         samba
@@ -1111,7 +1078,6 @@ slapi-nis                            freeipa
 slf4j                                pki
 slf4j-jdk14                          pki
 snappy                               platform, storage-devices
-snappy-devel                         platform-placeholder
 softhsm                              freeipa
 sqlite                               freeipa
 sqlite-libs                          platform, storage-devices
@@ -1130,13 +1096,12 @@ stax-ex                              resteasy
 sudo                                 platform
 svrcore                              389-ds, pki
 svrcore-devel                        389-ds, pki
-sysfsutils                           platform-placeholder
+sysfsutils                           installer
 syslinux                             platform
 syslinux-extlinux                    platform
 syslinux-extlinux-nonlinux           platform
 syslinux-nonlinux                    platform
 systemd                              platform, storage-devices
-systemd-devel                        platform-placeholder
 systemd-libs                         platform, storage-devices
 systemd-pam                          platform, storage-devices
 systemd-udev                         platform
@@ -1144,7 +1109,7 @@ systemtap                            systemtap
 systemtap-client                     systemtap
 systemtap-devel                      systemtap
 systemtap-runtime                    systemtap
-systemtap-sdt-devel                  perl, platform-placeholder
+systemtap-sdt-devel                  installer, perl
 tar                                  platform
 tcl                                  platform
 tcp_wrappers                         platform
@@ -1194,7 +1159,7 @@ xml-common                           platform
 xml-commons-apis                     pki
 xml-commons-resolver                 pki
 xmlrpc-c                             platform
-xmlrpc-c-client                      platform-placeholder
+xmlrpc-c-client                      freeipa, installer, networking-base
 xmlstreambuffer                      resteasy
 xorg-x11-fonts-Type1                 java
 xorg-x11-font-utils                  java

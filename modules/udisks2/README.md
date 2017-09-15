@@ -7,7 +7,6 @@ These are modules identified as dependencies.
 ### Runtime
 This list might not be complete. There might be other packages in the *Binary RPM packages (all arches combined)* section that needs to be split to different modules.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [krb5](../krb5)
 * [python3](../python3)
 ### Build
@@ -21,13 +20,32 @@ These are RPM dependencies of the [udisks2 top-level package set](udisks2.csv). 
 ### Packages
 | |aarch64 |armv7hl |i686 |ppc64 |ppc64le |s390x |x86_64 |
 |---|---|---|---|---|---|---|---|
+| `bcache-tools` | X | X | X | X | X | X | X |
+| `device-mapper-persistent-data` | X | X | X | X | X | X | X |
+| `glib2-devel` | X | X | X | X | X | X | X |
 | `libatasmart` | X | X | X | X | X | X | X |
+| `libblockdev-btrfs` | X | X | X | X | X | X | X |
+| `libblockdev-crypto` | X | X | X | X | X | X | X |
+| `libblockdev-fs` | X | X | X | X | X | X | X |
+| `libblockdev-kbd` | X | X | X | X | X | X | X |
+| `libblockdev-loop` | X | X | X | X | X | X | X |
+| `libblockdev-lvm` | X | X | X | X | X | X | X |
+| `libblockdev-mdraid` | X | X | X | X | X | X | X |
+| `libblockdev-part` | X | X | X | X | X | X | X |
+| `libblockdev-swap` | X | X | X | X | X | X | X |
+| `libbytesize` | X | X | X | X | X | X | X |
 | `libgudev` | X | X | X | X | X | X | X |
 | `libstoragemgmt` | X | X | X | X | X | X | X |
 | `libudisks2` | X | X | X | X | X | X | X |
 | `libudisks2-devel` | X | X | X | X | X | X | X |
+| `lvm2` | X | X | X | X | X | X | X |
+| `lvm2-libs` | X | X | X | X | X | X | X |
 | `ntfs-3g` | X | X | X | - | X | X | X |
 | `ntfsprogs` | X | X | X | - | X | X | X |
+| `pcre-cpp` | X | X | X | X | X | X | X |
+| `pcre-devel` | X | X | X | X | X | X | X |
+| `pcre-utf16` | X | X | X | X | X | X | X |
+| `pcre-utf32` | X | X | X | X | X | X | X |
 | `python3-libstoragemgmt` | X | X | X | X | X | X | X |
 | `python3-libstoragemgmt-clibs` | X | X | X | X | X | X | X |
 | `udisks2` | X | X | X | X | X | X | X |
