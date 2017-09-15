@@ -13,7 +13,6 @@ This list might not be complete. There might be other packages in the *Binary RP
 This list might not be complete.
 Please see the **missing RPM build dependencies ([source](all/buildtime-source-packages-short.txt) or [binary](all/buildtime-binary-packages-short.txt)) lists** for more information.
 * [platform](../platform)
-* [platform-placeholder](../platform-placeholder)
 * [python3](../python3)
 ## Binary RPM packages
 These are RPM dependencies of the [cloud-init top-level package set](cloud-init.csv). They should be either:

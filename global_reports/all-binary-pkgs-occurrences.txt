@@ -182,6 +182,8 @@ freeipa-server-common                freeipa
 freeipa-server-dns                   freeipa
 freeipa-server-trust-ad              freeipa
 freetype                             fonts, platform
+fuse                                 hardware-support
+fuse-common                          hardware-support
 fuse-libs                            platform, storage-devices
 gawk                                 platform, storage-devices
 gc                                   platform, storage-devices
@@ -222,7 +224,7 @@ gpart                                platform
 gperftools-libs                      389-ds, storage-devices
 gpgme                                platform
 grep                                 platform, storage-devices
-groff-base                           installer, perl
+groff-base                           hardware-support, perl
 grub2-common                         platform
 grub2-efi-aa64                       platform
 grub2-efi-aa64-cdboot                platform
@@ -447,6 +449,7 @@ libreport-plugin-bugzilla            installer
 libreport-plugin-reportuploader      installer
 libreport-web                        installer
 librgw2                              storage-devices
+librtas                              hardware-support
 libseccomp                           platform, storage-devices
 libsecret                            platform
 libselinux                           platform, storage-devices
@@ -455,6 +458,7 @@ libselinux-utils                     platform, storage-devices
 libsemanage                          platform, storage-devices
 libsepol                             platform, storage-devices
 libsepol-devel                       freeipa
+libservicelog                        hardware-support
 libsigsegv                           platform, storage-devices
 libSM                                X11-base
 libsmartcols                         platform, storage-devices
@@ -473,7 +477,7 @@ libsss_nss_idmap-devel               freeipa
 libstdc++                            platform, storage-devices
 libstdc++-devel                      platform
 libstoragemgmt                       udisks2
-libsysfs                             installer
+libsysfs                             hardware-support
 libtalloc                            389-ds, samba
 libtar                               installer
 libtasn1                             platform, storage-devices
@@ -499,6 +503,7 @@ libuuid                              platform, storage-devices
 libverto                             platform, storage-devices
 libverto-devel                       freeipa
 libverto-libev                       platform
+libvpd                               hardware-support
 libwbclient                          samba
 libwebp                              python2-ecosystem
 libX11                               X11-base
@@ -522,6 +527,7 @@ lm_sensors-libs                      networking-base
 logrotate                            platform, storage-devices
 lsof                                 platform
 lsscsi                               platform
+lsvpd                                hardware-support
 lttng-ust                            platform, storage-devices
 lua                                  java
 lua-libs                             platform, storage-devices
@@ -627,146 +633,146 @@ pcre-cpp                             freeipa, networking-base, udisks2
 pcre-devel                           freeipa, networking-base, udisks2
 pcre-utf16                           freeipa, networking-base, udisks2
 pcre-utf32                           freeipa, networking-base, udisks2
-perl                                 installer, perl
-perl-Algorithm-Diff                  installer, perl
-perl-Archive-Tar                     installer, perl
-perl-Archive-Zip                     installer, perl
-perl-Attribute-Handlers              installer, perl
-perl-autodie                         installer, perl
-perl-B-Debug                         installer, perl
-perl-bignum                          installer, perl
-perl-Carp                            installer, perl
-perl-Compress-Bzip2                  installer, perl
-perl-Compress-Raw-Bzip2              installer, perl
-perl-Compress-Raw-Zlib               installer, perl
-perl-Config-Perl-V                   installer, perl
-perl-constant                        installer, perl
-perl-CPAN                            installer, perl
-perl-CPAN-Meta                       installer, perl
-perl-CPAN-Meta-Requirements          installer, perl
-perl-CPAN-Meta-YAML                  installer, perl
-perl-Data-Dumper                     installer, perl
-perl-Data-OptList                    installer, perl
-perl-Data-Section                    installer, perl
-perl-DB_File                         installer, perl
-perl-devel                           installer, perl
-perl-Devel-Peek                      installer, perl
-perl-Devel-PPPort                    installer, perl
-perl-Devel-SelfStubber               installer, perl
-perl-Devel-Size                      installer, perl
-perl-Digest                          installer, perl
-perl-Digest-MD5                      installer, perl
-perl-Digest-SHA                      installer, perl
-perl-Encode                          installer, perl
-perl-encoding                        installer, perl
-perl-Env                             installer, perl
-perl-Errno                           installer, perl
-perl-experimental                    installer, perl
-perl-Exporter                        installer, perl
-perl-ExtUtils-CBuilder               installer, perl
-perl-ExtUtils-Command                installer, perl
-perl-ExtUtils-Embed                  installer, perl
-perl-ExtUtils-Install                installer, perl
-perl-ExtUtils-MakeMaker              installer, perl
-perl-ExtUtils-Manifest               installer, perl
-perl-ExtUtils-Miniperl               installer, perl
-perl-ExtUtils-MM-Utils               installer, perl
-perl-ExtUtils-ParseXS                installer, perl
+perl                                 hardware-support, perl
+perl-Algorithm-Diff                  hardware-support, perl
+perl-Archive-Tar                     hardware-support, perl
+perl-Archive-Zip                     hardware-support, perl
+perl-Attribute-Handlers              hardware-support, perl
+perl-autodie                         hardware-support, perl
+perl-B-Debug                         hardware-support, perl
+perl-bignum                          hardware-support, perl
+perl-Carp                            hardware-support, perl
+perl-Compress-Bzip2                  hardware-support, perl
+perl-Compress-Raw-Bzip2              hardware-support, perl
+perl-Compress-Raw-Zlib               hardware-support, perl
+perl-Config-Perl-V                   hardware-support, perl
+perl-constant                        hardware-support, perl
+perl-CPAN                            hardware-support, perl
+perl-CPAN-Meta                       hardware-support, perl
+perl-CPAN-Meta-Requirements          hardware-support, perl
+perl-CPAN-Meta-YAML                  hardware-support, perl
+perl-Data-Dumper                     hardware-support, perl
+perl-Data-OptList                    hardware-support, perl
+perl-Data-Section                    hardware-support, perl
+perl-DB_File                         hardware-support, perl
+perl-devel                           hardware-support, perl
+perl-Devel-Peek                      hardware-support, perl
+perl-Devel-PPPort                    hardware-support, perl
+perl-Devel-SelfStubber               hardware-support, perl
+perl-Devel-Size                      hardware-support, perl
+perl-Digest                          hardware-support, perl
+perl-Digest-MD5                      hardware-support, perl
+perl-Digest-SHA                      hardware-support, perl
+perl-Encode                          hardware-support, perl
+perl-encoding                        hardware-support, perl
+perl-Env                             hardware-support, perl
+perl-Errno                           hardware-support, perl
+perl-experimental                    hardware-support, perl
+perl-Exporter                        hardware-support, perl
+perl-ExtUtils-CBuilder               hardware-support, perl
+perl-ExtUtils-Command                hardware-support, perl
+perl-ExtUtils-Embed                  hardware-support, perl
+perl-ExtUtils-Install                hardware-support, perl
+perl-ExtUtils-MakeMaker              hardware-support, perl
+perl-ExtUtils-Manifest               hardware-support, perl
+perl-ExtUtils-Miniperl               hardware-support, perl
+perl-ExtUtils-MM-Utils               hardware-support, perl
+perl-ExtUtils-ParseXS                hardware-support, perl
 perl-Fedora-VSP                      perl
-perl-File-Fetch                      installer, perl
-perl-File-HomeDir                    installer, perl
-perl-File-Path                       installer, perl
-perl-File-Temp                       installer, perl
-perl-File-Which                      installer, perl
-perl-Filter                          installer, perl
-perl-Filter-Simple                   installer, perl
+perl-File-Fetch                      hardware-support, perl
+perl-File-HomeDir                    hardware-support, perl
+perl-File-Path                       hardware-support, perl
+perl-File-Temp                       hardware-support, perl
+perl-File-Which                      hardware-support, perl
+perl-Filter                          hardware-support, perl
+perl-Filter-Simple                   hardware-support, perl
 perl-generators                      perl
-perl-Getopt-Long                     installer, perl
-perl-HTTP-Tiny                       installer, perl
-perl-inc-latest                      installer, perl
-perl-interpreter                     installer, perl
-perl-IO                              installer, perl
-perl-IO-Compress                     installer, perl
-perl-IO-Socket-IP                    installer, perl
-perl-IO-Zlib                         installer, perl
-perl-IPC-Cmd                         installer, perl
-perl-IPC-System-Simple               installer, perl
-perl-IPC-SysV                        installer, perl
-perl-JSON-PP                         installer, perl
-perl-libnet                          installer, perl
-perl-libnetcfg                       installer, perl
-perl-libs                            installer, perl
-perl-Locale-Codes                    installer, perl
-perl-Locale-Maketext                 installer, perl
-perl-Locale-Maketext-Simple          installer, perl
-perl-local-lib                       installer, perl
-perl-macros                          installer, perl
-perl-Math-BigInt                     installer, perl
-perl-Math-BigInt-FastCalc            installer, perl
-perl-Math-BigRat                     installer, perl
-perl-Math-Complex                    installer, perl
-perl-Memoize                         installer, perl
-perl-MIME-Base64                     installer, perl
-perl-Module-Build                    installer, perl
-perl-Module-CoreList                 installer, perl
-perl-Module-CoreList-tools           installer, perl
-perl-Module-Load                     installer, perl
-perl-Module-Load-Conditional         installer, perl
-perl-Module-Loaded                   installer, perl
-perl-Module-Metadata                 installer, perl
+perl-Getopt-Long                     hardware-support, perl
+perl-HTTP-Tiny                       hardware-support, perl
+perl-inc-latest                      hardware-support, perl
+perl-interpreter                     hardware-support, perl
+perl-IO                              hardware-support, perl
+perl-IO-Compress                     hardware-support, perl
+perl-IO-Socket-IP                    hardware-support, perl
+perl-IO-Zlib                         hardware-support, perl
+perl-IPC-Cmd                         hardware-support, perl
+perl-IPC-System-Simple               hardware-support, perl
+perl-IPC-SysV                        hardware-support, perl
+perl-JSON-PP                         hardware-support, perl
+perl-libnet                          hardware-support, perl
+perl-libnetcfg                       hardware-support, perl
+perl-libs                            hardware-support, perl
+perl-Locale-Codes                    hardware-support, perl
+perl-Locale-Maketext                 hardware-support, perl
+perl-Locale-Maketext-Simple          hardware-support, perl
+perl-local-lib                       hardware-support, perl
+perl-macros                          hardware-support, perl
+perl-Math-BigInt                     hardware-support, perl
+perl-Math-BigInt-FastCalc            hardware-support, perl
+perl-Math-BigRat                     hardware-support, perl
+perl-Math-Complex                    hardware-support, perl
+perl-Memoize                         hardware-support, perl
+perl-MIME-Base64                     hardware-support, perl
+perl-Module-Build                    hardware-support, perl
+perl-Module-CoreList                 hardware-support, perl
+perl-Module-CoreList-tools           hardware-support, perl
+perl-Module-Load                     hardware-support, perl
+perl-Module-Load-Conditional         hardware-support, perl
+perl-Module-Loaded                   hardware-support, perl
+perl-Module-Metadata                 hardware-support, perl
 perl-Mozilla-LDAP                    389-ds
-perl-MRO-Compat                      installer, perl
+perl-MRO-Compat                      hardware-support, perl
 perl-NetAddr-IP                      389-ds
-perl-Net-Ping                        installer, perl
-perl-open                            installer, perl
-perl-Package-Generator               installer, perl
-perl-Params-Check                    installer, perl
-perl-Params-Util                     installer, perl
-perl-parent                          installer, perl
-perl-PathTools                       installer, perl
-perl-perlfaq                         installer, perl
-perl-PerlIO-via-QuotedPrint          installer, perl
-perl-Perl-OSType                     installer, perl
-perl-Pod-Checker                     installer, perl
-perl-Pod-Escapes                     installer, perl
-perl-Pod-Html                        installer, perl
-perl-podlators                       installer, perl
-perl-Pod-Parser                      installer, perl
-perl-Pod-Perldoc                     installer, perl
-perl-Pod-Simple                      installer, perl
-perl-Pod-Usage                       installer, perl
-perl-Scalar-List-Utils               installer, perl
-perl-SelfLoader                      installer, perl
-perl-Socket                          installer, perl
+perl-Net-Ping                        hardware-support, perl
+perl-open                            hardware-support, perl
+perl-Package-Generator               hardware-support, perl
+perl-Params-Check                    hardware-support, perl
+perl-Params-Util                     hardware-support, perl
+perl-parent                          hardware-support, perl
+perl-PathTools                       hardware-support, perl
+perl-perlfaq                         hardware-support, perl
+perl-PerlIO-via-QuotedPrint          hardware-support, perl
+perl-Perl-OSType                     hardware-support, perl
+perl-Pod-Checker                     hardware-support, perl
+perl-Pod-Escapes                     hardware-support, perl
+perl-Pod-Html                        hardware-support, perl
+perl-podlators                       hardware-support, perl
+perl-Pod-Parser                      hardware-support, perl
+perl-Pod-Perldoc                     hardware-support, perl
+perl-Pod-Simple                      hardware-support, perl
+perl-Pod-Usage                       hardware-support, perl
+perl-Scalar-List-Utils               hardware-support, perl
+perl-SelfLoader                      hardware-support, perl
+perl-Socket                          hardware-support, perl
 perl-Socket6                         389-ds
-perl-Software-License                installer, perl
+perl-Software-License                hardware-support, perl
 perl-srpm-macros                     platform
-perl-Storable                        installer, perl
-perl-Sub-Exporter                    installer, perl
-perl-Sub-Install                     installer, perl
-perl-Sys-Syslog                      installer, perl
-perl-Term-ANSIColor                  installer, perl
-perl-Term-Cap                        installer, perl
-perl-Test                            installer, perl
-perl-Test-Harness                    installer, perl
-perl-Test-Simple                     installer, perl
-perl-Text-Balanced                   installer, perl
-perl-Text-Diff                       installer, perl
-perl-Text-Glob                       installer, perl
-perl-Text-ParseWords                 installer, perl
-perl-Text-Tabs+Wrap                  installer, perl
-perl-Text-Template                   installer, perl
-perl-Thread-Queue                    installer, perl
-perl-threads                         installer, perl
-perl-threads-shared                  installer, perl
-perl-Time-HiRes                      installer, perl
-perl-Time-Local                      installer, perl
-perl-Time-Piece                      installer, perl
-perl-Unicode-Collate                 installer, perl
-perl-Unicode-Normalize               installer, perl
-perl-URI                             installer, perl
-perl-utils                           installer, perl
-perl-version                         installer, perl
+perl-Storable                        hardware-support, perl
+perl-Sub-Exporter                    hardware-support, perl
+perl-Sub-Install                     hardware-support, perl
+perl-Sys-Syslog                      hardware-support, perl
+perl-Term-ANSIColor                  hardware-support, perl
+perl-Term-Cap                        hardware-support, perl
+perl-Test                            hardware-support, perl
+perl-Test-Harness                    hardware-support, perl
+perl-Test-Simple                     hardware-support, perl
+perl-Text-Balanced                   hardware-support, perl
+perl-Text-Diff                       hardware-support, perl
+perl-Text-Glob                       hardware-support, perl
+perl-Text-ParseWords                 hardware-support, perl
+perl-Text-Tabs+Wrap                  hardware-support, perl
+perl-Text-Template                   hardware-support, perl
+perl-Thread-Queue                    hardware-support, perl
+perl-threads                         hardware-support, perl
+perl-threads-shared                  hardware-support, perl
+perl-Time-HiRes                      hardware-support, perl
+perl-Time-Local                      hardware-support, perl
+perl-Time-Piece                      hardware-support, perl
+perl-Unicode-Collate                 hardware-support, perl
+perl-Unicode-Normalize               hardware-support, perl
+perl-URI                             hardware-support, perl
+perl-utils                           hardware-support, perl
+perl-version                         hardware-support, perl
 pkgconf                              platform
 pkgconf-m4                           platform
 pkgconf-pkg-config                   platform
@@ -789,6 +795,8 @@ postgresql-libs                      postgresql
 postgresql-server                    postgresql
 postgresql-static                    postgresql
 postgresql-upgrade                   postgresql
+powerpc-utils                        hardware-support
+ppc64-utils                          hardware-support
 procps-ng                            platform
 psl                                  networking-base
 psmisc                               platform, storage-devices
@@ -963,7 +971,7 @@ python3-pydbus                       installer
 python3-pyldap                       pki
 python3-pylint                       pki
 python3-pyOpenSSL                    installer, python3-ecosystem
-python3-pyparsing                    installer, perl
+python3-pyparsing                    hardware-support, perl
 python3-pyparted                     installer
 python3-pyserial                     cloud-init
 python3-pysocks                      installer, python3-ecosystem
@@ -1037,8 +1045,9 @@ ruby-libs                            ruby
 rubypick                             ruby
 rust-srpm-macros                     platform
 s390utils                            installer
-s390utils-base                       installer
+s390utils-base                       hardware-support
 s390utils-cmsfs                      installer
+s390utils-cmsfs-fuse                 hardware-support
 s390utils-cpuplugd                   installer
 s390utils-iucvterm                   installer
 s390utils-mon_statd                  installer
@@ -1096,7 +1105,7 @@ stax-ex                              resteasy
 sudo                                 platform
 svrcore                              389-ds, pki
 svrcore-devel                        389-ds, pki
-sysfsutils                           installer
+sysfsutils                           hardware-support
 syslinux                             platform
 syslinux-extlinux                    platform
 syslinux-extlinux-nonlinux           platform
@@ -1109,7 +1118,7 @@ systemtap                            systemtap
 systemtap-client                     systemtap
 systemtap-devel                      systemtap
 systemtap-runtime                    systemtap
-systemtap-sdt-devel                  installer, perl
+systemtap-sdt-devel                  hardware-support, perl
 tar                                  platform
 tcl                                  platform
 tcp_wrappers                         platform
@@ -1149,7 +1158,7 @@ vim-minimal                          platform
 volume_key                           platform
 volume_key-libs                      platform
 web-assets-filesystem                python3-ecosystem
-which                                java, platform, storage-devices
+which                                hardware-support, java, platform, storage-devices
 words                                krb5
 wpa_supplicant                       networking-base
 xalan-j2                             pki

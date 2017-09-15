@@ -135,6 +135,8 @@
       1 freeipa-server-common
       1 freeipa-server-dns
       1 freeipa-server-trust-ad
+      1 fuse
+      1 fuse-common
       1 gcc
       1 gcc-c++
       1 gdb-headless
@@ -335,9 +337,11 @@
       1 libreport-plugin-reportuploader
       1 libreport-web
       1 librgw2
+      1 librtas
       1 libsecret
       1 libselinux-devel
       1 libsepol-devel
+      1 libservicelog
       1 libSM
       1 libsmbclient
       1 libsolv
@@ -367,6 +371,7 @@
       1 libuser
       1 libverto-devel
       1 libverto-libev
+      1 libvpd
       1 libwbclient
       1 libwebp
       1 libX11
@@ -387,6 +392,7 @@
       1 lm_sensors-libs
       1 lsof
       1 lsscsi
+      1 lsvpd
       1 lua
       1 lua-posix
       1 lz4
@@ -470,6 +476,8 @@
       1 postgresql-server
       1 postgresql-static
       1 postgresql-upgrade
+      1 powerpc-utils
+      1 ppc64-utils
       1 procps-ng
       1 psl
       1 publicsuffix-list
@@ -645,6 +653,7 @@
       1 s390utils
       1 s390utils-base
       1 s390utils-cmsfs
+      1 s390utils-cmsfs-fuse
       1 s390utils-cpuplugd
       1 s390utils-iucvterm
       1 s390utils-mon_statd
@@ -1164,8 +1173,8 @@
       3 python3-sssdconfig
       3 python-backports-ssl_match_hostname
       3 python-rpm-macros
-      3 which
       3 xmlrpc-c-client
+      4 which
       5 python2
       5 python2-libs
       5 python2-pip

@@ -30,9 +30,9 @@ For more details **individual modules** and **architecture-specific** informatio
 | [**cloud-init**](../modules/cloud-init) | **12** pkgs | [**83** pkgs missing](../modules/cloud-init/all/buildtime-binary-packages-short.txt) |
 | [**fonts**](../modules/fonts) | **6** pkgs | [**0** pkgs missing](../modules/fonts/all/buildtime-binary-packages-short.txt) |
 | [**freeipa**](../modules/freeipa) | **63** pkgs | [**0** pkgs missing](../modules/freeipa/all/buildtime-binary-packages-short.txt) |
-| [**hardware-support**](../modules/hardware-support) | **0** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
+| [**hardware-support**](../modules/hardware-support) | **150** pkgs | [**0** pkgs missing](../modules/hardware-support/all/buildtime-binary-packages-short.txt) |
 | [**httpd**](../modules/httpd) | **13** pkgs | [**0** pkgs missing](../modules/httpd/all/buildtime-binary-packages-short.txt) |
-| [**installer**](../modules/installer) | **247** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
+| [**installer**](../modules/installer) | **107** pkgs | [**1** pkgs missing](../modules/installer/all/buildtime-binary-packages-short.txt) |
 | [**java**](../modules/java) | **13** pkgs | [**0** pkgs missing](../modules/java/all/buildtime-binary-packages-short.txt) |
 | [**krb5**](../modules/krb5) | **2** pkgs | [**0** pkgs missing](../modules/krb5/all/buildtime-binary-packages-short.txt) |
 | [**networking-base**](../modules/networking-base) | **50** pkgs | [**2** pkgs missing](../modules/networking-base/all/buildtime-binary-packages-short.txt) |
